@@ -1,0 +1,1053 @@
+{
+  "_id" : "cssnano-preset-default",
+  "_rev" : "15-5eeb31013f262c64049b249ec8de50c3",
+  "name" : "cssnano-preset-default",
+  "description" : "Safe defaults for cssnano which require minimal configuration.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "latest" : "4.0.7"
+  },
+  "versions" : {
+    "4.0.2" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.2.tgz",
+        "shasum" : "1de3f27e73b7f0fbf87c1d7fd7a63ae980ac3774"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^4.0.1",
+        "cssnano-util-raw-cache" : "^4.0.1",
+        "postcss" : "^7.0.0",
+        "postcss-calc" : "^6.0.2",
+        "postcss-colormin" : "^4.0.2",
+        "postcss-convert-values" : "^4.0.1",
+        "postcss-discard-comments" : "^4.0.1",
+        "postcss-discard-duplicates" : "^4.0.2",
+        "postcss-discard-empty" : "^4.0.1",
+        "postcss-discard-overridden" : "^4.0.1",
+        "postcss-merge-longhand" : "^4.0.6",
+        "postcss-merge-rules" : "^4.0.2",
+        "postcss-minify-font-values" : "^4.0.2",
+        "postcss-minify-gradients" : "^4.0.1",
+        "postcss-minify-params" : "^4.0.1",
+        "postcss-minify-selectors" : "^4.0.1",
+        "postcss-normalize-charset" : "^4.0.1",
+        "postcss-normalize-display-values" : "^4.0.1",
+        "postcss-normalize-positions" : "^4.0.1",
+        "postcss-normalize-repeat-style" : "^4.0.1",
+        "postcss-normalize-string" : "^4.0.1",
+        "postcss-normalize-timing-functions" : "^4.0.1",
+        "postcss-normalize-unicode" : "^4.0.1",
+        "postcss-normalize-url" : "^4.0.1",
+        "postcss-normalize-whitespace" : "^4.0.1",
+        "postcss-ordered-values" : "^4.1.1",
+        "postcss-reduce-initial" : "^4.0.2",
+        "postcss-reduce-transforms" : "^4.0.1",
+        "postcss-svgo" : "^4.0.1",
+        "postcss-unique-selectors" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default_4.0.2_1538043640056_0.4671690131845687"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.3" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.3.tgz",
+        "shasum" : "9bfd1b06d4aa3991ed958ad9b9ec25a179261705"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^4.0.1",
+        "cssnano-util-raw-cache" : "^4.0.1",
+        "postcss" : "^7.0.0",
+        "postcss-calc" : "^7.0.0",
+        "postcss-colormin" : "^4.0.2",
+        "postcss-convert-values" : "^4.0.1",
+        "postcss-discard-comments" : "^4.0.1",
+        "postcss-discard-duplicates" : "^4.0.2",
+        "postcss-discard-empty" : "^4.0.1",
+        "postcss-discard-overridden" : "^4.0.1",
+        "postcss-merge-longhand" : "^4.0.6",
+        "postcss-merge-rules" : "^4.0.2",
+        "postcss-minify-font-values" : "^4.0.2",
+        "postcss-minify-gradients" : "^4.0.1",
+        "postcss-minify-params" : "^4.0.1",
+        "postcss-minify-selectors" : "^4.0.1",
+        "postcss-normalize-charset" : "^4.0.1",
+        "postcss-normalize-display-values" : "^4.0.1",
+        "postcss-normalize-positions" : "^4.0.1",
+        "postcss-normalize-repeat-style" : "^4.0.1",
+        "postcss-normalize-string" : "^4.0.1",
+        "postcss-normalize-timing-functions" : "^4.0.1",
+        "postcss-normalize-unicode" : "^4.0.1",
+        "postcss-normalize-url" : "^4.0.1",
+        "postcss-normalize-whitespace" : "^4.0.1",
+        "postcss-ordered-values" : "^4.1.1",
+        "postcss-reduce-initial" : "^4.0.2",
+        "postcss-reduce-transforms" : "^4.0.1",
+        "postcss-svgo" : "^4.0.1",
+        "postcss-unique-selectors" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default_4.0.3_1539812001434_0.8314911417736817"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "4.0.0" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.0.tgz",
+        "shasum" : "c334287b4f7d49fb2d170a92f9214655788e3b6b"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^3.0.0",
+        "cssnano-util-raw-cache" : "^4.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-calc" : "^6.0.0",
+        "postcss-colormin" : "^4.0.0",
+        "postcss-convert-values" : "^4.0.0",
+        "postcss-discard-comments" : "^4.0.0",
+        "postcss-discard-duplicates" : "^4.0.0",
+        "postcss-discard-empty" : "^4.0.0",
+        "postcss-discard-overridden" : "^4.0.0",
+        "postcss-merge-longhand" : "^4.0.0",
+        "postcss-merge-rules" : "^4.0.0",
+        "postcss-minify-font-values" : "^4.0.0",
+        "postcss-minify-gradients" : "^4.0.0",
+        "postcss-minify-params" : "^4.0.0",
+        "postcss-minify-selectors" : "^4.0.0",
+        "postcss-normalize-charset" : "^4.0.0",
+        "postcss-normalize-display-values" : "^4.0.0",
+        "postcss-normalize-positions" : "^4.0.0",
+        "postcss-normalize-repeat-style" : "^4.0.0",
+        "postcss-normalize-string" : "^4.0.0",
+        "postcss-normalize-timing-functions" : "^4.0.0",
+        "postcss-normalize-unicode" : "^4.0.0",
+        "postcss-normalize-url" : "^4.0.0",
+        "postcss-normalize-whitespace" : "^4.0.0",
+        "postcss-ordered-values" : "^4.0.0",
+        "postcss-reduce-initial" : "^4.0.0",
+        "postcss-reduce-transforms" : "^4.0.0",
+        "postcss-svgo" : "^4.0.0",
+        "postcss-unique-selectors" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default_4.0.0_1530703017220_0.0038939722271214006"
+      }
+    },
+    "4.0.1" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.1.tgz",
+        "shasum" : "063c874bc82afe49d4a8790688348dce3f59e672"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^3.0.0",
+        "cssnano-util-raw-cache" : "^4.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-calc" : "^6.0.0",
+        "postcss-colormin" : "^4.0.0",
+        "postcss-convert-values" : "^4.0.0",
+        "postcss-discard-comments" : "^4.0.0",
+        "postcss-discard-duplicates" : "^4.0.0",
+        "postcss-discard-empty" : "^4.0.0",
+        "postcss-discard-overridden" : "^4.0.0",
+        "postcss-merge-longhand" : "^4.0.0",
+        "postcss-merge-rules" : "^4.0.0",
+        "postcss-minify-font-values" : "^4.0.0",
+        "postcss-minify-gradients" : "^4.0.0",
+        "postcss-minify-params" : "^4.0.0",
+        "postcss-minify-selectors" : "^4.0.0",
+        "postcss-normalize-charset" : "^4.0.0",
+        "postcss-normalize-display-values" : "^4.0.0",
+        "postcss-normalize-positions" : "^4.0.0",
+        "postcss-normalize-repeat-style" : "^4.0.0",
+        "postcss-normalize-string" : "^4.0.0",
+        "postcss-normalize-timing-functions" : "^4.0.0",
+        "postcss-normalize-unicode" : "^4.0.0",
+        "postcss-normalize-url" : "^4.0.0",
+        "postcss-normalize-whitespace" : "^4.0.0",
+        "postcss-ordered-values" : "^4.0.0",
+        "postcss-reduce-initial" : "^4.0.0",
+        "postcss-reduce-transforms" : "^4.0.0",
+        "postcss-svgo" : "^4.0.0",
+        "postcss-unique-selectors" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "cssnano-preset-default@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default_4.0.1_1537823366893_0.20892811319462723"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.0-rc.2.tgz",
+        "shasum" : "c5f38cdf858fa6e00e52186f77a96c6be48bbced"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^2.0.1",
+        "cssnano-util-raw-cache" : "^4.0.0-rc.2",
+        "postcss" : "^6.0.0",
+        "postcss-calc" : "^6.0.0",
+        "postcss-colormin" : "^4.0.0-rc.2",
+        "postcss-convert-values" : "^4.0.0-rc.2",
+        "postcss-discard-comments" : "^4.0.0-rc.2",
+        "postcss-discard-duplicates" : "^4.0.0-rc.2",
+        "postcss-discard-empty" : "^4.0.0-rc.2",
+        "postcss-discard-overridden" : "^4.0.0-rc.2",
+        "postcss-merge-longhand" : "^4.0.0-rc.2",
+        "postcss-merge-rules" : "^4.0.0-rc.2",
+        "postcss-minify-font-values" : "^4.0.0-rc.2",
+        "postcss-minify-gradients" : "^4.0.0-rc.2",
+        "postcss-minify-params" : "^4.0.0-rc.2",
+        "postcss-minify-selectors" : "^4.0.0-rc.2",
+        "postcss-normalize-charset" : "^4.0.0-rc.2",
+        "postcss-normalize-display-values" : "^4.0.0-rc.2",
+        "postcss-normalize-positions" : "^4.0.0-rc.2",
+        "postcss-normalize-repeat-style" : "^4.0.0-rc.2",
+        "postcss-normalize-string" : "^4.0.0-rc.2",
+        "postcss-normalize-timing-functions" : "^4.0.0-rc.2",
+        "postcss-normalize-unicode" : "^4.0.0-rc.2",
+        "postcss-normalize-url" : "^4.0.0-rc.2",
+        "postcss-normalize-whitespace" : "^4.0.0-rc.2",
+        "postcss-ordered-values" : "^4.0.0-rc.2",
+        "postcss-reduce-initial" : "^4.0.0-rc.2",
+        "postcss-reduce-transforms" : "^4.0.0-rc.2",
+        "postcss-svgo" : "^4.0.0-rc.2",
+        "postcss-unique-selectors" : "^4.0.0-rc.2"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default-4.0.0-rc.2.tgz_1502049231115_0.04594296938739717"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.6" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.6",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.6.tgz",
+        "shasum" : "92379e2a6db4a91c0ea727f5f556eeac693eab6a"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^4.0.1",
+        "cssnano-util-raw-cache" : "^4.0.1",
+        "postcss" : "^7.0.0",
+        "postcss-calc" : "^7.0.0",
+        "postcss-colormin" : "^4.0.2",
+        "postcss-convert-values" : "^4.0.1",
+        "postcss-discard-comments" : "^4.0.1",
+        "postcss-discard-duplicates" : "^4.0.2",
+        "postcss-discard-empty" : "^4.0.1",
+        "postcss-discard-overridden" : "^4.0.1",
+        "postcss-merge-longhand" : "^4.0.10",
+        "postcss-merge-rules" : "^4.0.2",
+        "postcss-minify-font-values" : "^4.0.2",
+        "postcss-minify-gradients" : "^4.0.1",
+        "postcss-minify-params" : "^4.0.1",
+        "postcss-minify-selectors" : "^4.0.1",
+        "postcss-normalize-charset" : "^4.0.1",
+        "postcss-normalize-display-values" : "^4.0.1",
+        "postcss-normalize-positions" : "^4.0.1",
+        "postcss-normalize-repeat-style" : "^4.0.1",
+        "postcss-normalize-string" : "^4.0.1",
+        "postcss-normalize-timing-functions" : "^4.0.1",
+        "postcss-normalize-unicode" : "^4.0.1",
+        "postcss-normalize-url" : "^4.0.1",
+        "postcss-normalize-whitespace" : "^4.0.1",
+        "postcss-ordered-values" : "^4.1.1",
+        "postcss-reduce-initial" : "^4.0.2",
+        "postcss-reduce-transforms" : "^4.0.1",
+        "postcss-svgo" : "^4.0.1",
+        "postcss-unique-selectors" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default_4.0.6_1545488401719_0.8079410035327943"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "4.0.7" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.7",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.7.tgz",
+        "shasum" : "51ec662ccfca0f88b396dcd9679cdb931be17f76"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^4.0.1",
+        "cssnano-util-raw-cache" : "^4.0.1",
+        "postcss" : "^7.0.0",
+        "postcss-calc" : "^7.0.1",
+        "postcss-colormin" : "^4.0.3",
+        "postcss-convert-values" : "^4.0.1",
+        "postcss-discard-comments" : "^4.0.2",
+        "postcss-discard-duplicates" : "^4.0.2",
+        "postcss-discard-empty" : "^4.0.1",
+        "postcss-discard-overridden" : "^4.0.1",
+        "postcss-merge-longhand" : "^4.0.11",
+        "postcss-merge-rules" : "^4.0.3",
+        "postcss-minify-font-values" : "^4.0.2",
+        "postcss-minify-gradients" : "^4.0.2",
+        "postcss-minify-params" : "^4.0.2",
+        "postcss-minify-selectors" : "^4.0.2",
+        "postcss-normalize-charset" : "^4.0.1",
+        "postcss-normalize-display-values" : "^4.0.2",
+        "postcss-normalize-positions" : "^4.0.2",
+        "postcss-normalize-repeat-style" : "^4.0.2",
+        "postcss-normalize-string" : "^4.0.2",
+        "postcss-normalize-timing-functions" : "^4.0.2",
+        "postcss-normalize-unicode" : "^4.0.1",
+        "postcss-normalize-url" : "^4.0.1",
+        "postcss-normalize-whitespace" : "^4.0.2",
+        "postcss-ordered-values" : "^4.1.2",
+        "postcss-reduce-initial" : "^4.0.3",
+        "postcss-reduce-transforms" : "^4.0.2",
+        "postcss-svgo" : "^4.0.2",
+        "postcss-unique-selectors" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default_4.0.7_1549995094825_0.6654857073666129"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.0-rc.0.tgz",
+        "shasum" : "6374af2da73d33897c38d510007006be952fba2c"
+      },
+      "dependencies" : {
+        "cssnano-util-raw-cache" : "^4.0.0-rc.0",
+        "postcss" : "^6.0.0",
+        "postcss-calc" : "^6.0.0",
+        "postcss-colormin" : "^4.0.0-rc.0",
+        "postcss-convert-values" : "^4.0.0-rc.0",
+        "postcss-discard-comments" : "^4.0.0-rc.0",
+        "postcss-discard-duplicates" : "^4.0.0-rc.0",
+        "postcss-discard-empty" : "^4.0.0-rc.0",
+        "postcss-discard-overridden" : "^4.0.0-rc.0",
+        "postcss-merge-longhand" : "^4.0.0-rc.0",
+        "postcss-merge-rules" : "^4.0.0-rc.0",
+        "postcss-minify-font-values" : "^4.0.0-rc.0",
+        "postcss-minify-gradients" : "^4.0.0-rc.0",
+        "postcss-minify-params" : "^4.0.0-rc.0",
+        "postcss-minify-selectors" : "^4.0.0-rc.0",
+        "postcss-normalize-charset" : "^4.0.0-rc.0",
+        "postcss-normalize-display-values" : "^4.0.0-rc.0",
+        "postcss-normalize-positions" : "^4.0.0-rc.0",
+        "postcss-normalize-repeat-style" : "^4.0.0-rc.0",
+        "postcss-normalize-string" : "^4.0.0-rc.0",
+        "postcss-normalize-timing-functions" : "^4.0.0-rc.0",
+        "postcss-normalize-unicode" : "^4.0.0-rc.0",
+        "postcss-normalize-url" : "^4.0.0-rc.0",
+        "postcss-normalize-whitespace" : "^4.0.0-rc.0",
+        "postcss-ordered-values" : "^4.0.0-rc.0",
+        "postcss-reduce-initial" : "^4.0.0-rc.0",
+        "postcss-reduce-transforms" : "^4.0.0-rc.0",
+        "postcss-svgo" : "^4.0.0-rc.0",
+        "postcss-unique-selectors" : "^4.0.0-rc.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default-4.0.0-rc.0.tgz_1496311217357_0.7164853133726865"
+      },
+      "_shasum" : "6374af2da73d33897c38d510007006be952fba2c",
+      "_nodeVersion" : "6.9.1"
+    },
+    "4.0.4" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.4",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.4.tgz",
+        "shasum" : "2dd25a147e090ebbebc1e0d3d2d494a0e61e669a"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^4.0.1",
+        "cssnano-util-raw-cache" : "^4.0.1",
+        "postcss" : "^7.0.0",
+        "postcss-calc" : "^7.0.0",
+        "postcss-colormin" : "^4.0.2",
+        "postcss-convert-values" : "^4.0.1",
+        "postcss-discard-comments" : "^4.0.1",
+        "postcss-discard-duplicates" : "^4.0.2",
+        "postcss-discard-empty" : "^4.0.1",
+        "postcss-discard-overridden" : "^4.0.1",
+        "postcss-merge-longhand" : "^4.0.8",
+        "postcss-merge-rules" : "^4.0.2",
+        "postcss-minify-font-values" : "^4.0.2",
+        "postcss-minify-gradients" : "^4.0.1",
+        "postcss-minify-params" : "^4.0.1",
+        "postcss-minify-selectors" : "^4.0.1",
+        "postcss-normalize-charset" : "^4.0.1",
+        "postcss-normalize-display-values" : "^4.0.1",
+        "postcss-normalize-positions" : "^4.0.1",
+        "postcss-normalize-repeat-style" : "^4.0.1",
+        "postcss-normalize-string" : "^4.0.1",
+        "postcss-normalize-timing-functions" : "^4.0.1",
+        "postcss-normalize-unicode" : "^4.0.1",
+        "postcss-normalize-url" : "^4.0.1",
+        "postcss-normalize-whitespace" : "^4.0.1",
+        "postcss-ordered-values" : "^4.1.1",
+        "postcss-reduce-initial" : "^4.0.2",
+        "postcss-reduce-transforms" : "^4.0.1",
+        "postcss-svgo" : "^4.0.1",
+        "postcss-unique-selectors" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default_4.0.4_1540219026015_0.5717513520741531"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "4.0.0-rc.1" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.0-rc.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.0-rc.1.tgz",
+        "shasum" : "b70f7a0ebfbfb9826a2c72e447c790c8c877a50f"
+      },
+      "dependencies" : {
+        "cssnano-util-raw-cache" : "^4.0.0-rc.0",
+        "postcss" : "^6.0.0",
+        "postcss-calc" : "^6.0.0",
+        "postcss-colormin" : "^4.0.0-rc.0",
+        "postcss-convert-values" : "^4.0.0-rc.0",
+        "postcss-discard-comments" : "^4.0.0-rc.0",
+        "postcss-discard-duplicates" : "^4.0.0-rc.0",
+        "postcss-discard-empty" : "^4.0.0-rc.0",
+        "postcss-discard-overridden" : "^4.0.0-rc.0",
+        "postcss-merge-longhand" : "^4.0.0-rc.0",
+        "postcss-merge-rules" : "^4.0.0-rc.0",
+        "postcss-minify-font-values" : "^4.0.0-rc.0",
+        "postcss-minify-gradients" : "^4.0.0-rc.0",
+        "postcss-minify-params" : "^4.0.0-rc.1",
+        "postcss-minify-selectors" : "^4.0.0-rc.0",
+        "postcss-normalize-charset" : "^4.0.0-rc.0",
+        "postcss-normalize-display-values" : "^4.0.0-rc.0",
+        "postcss-normalize-positions" : "^4.0.0-rc.0",
+        "postcss-normalize-repeat-style" : "^4.0.0-rc.0",
+        "postcss-normalize-string" : "^4.0.0-rc.0",
+        "postcss-normalize-timing-functions" : "^4.0.0-rc.0",
+        "postcss-normalize-unicode" : "^4.0.0-rc.0",
+        "postcss-normalize-url" : "^4.0.0-rc.0",
+        "postcss-normalize-whitespace" : "^4.0.0-rc.0",
+        "postcss-ordered-values" : "^4.0.0-rc.0",
+        "postcss-reduce-initial" : "^4.0.0-rc.0",
+        "postcss-reduce-transforms" : "^4.0.0-rc.0",
+        "postcss-svgo" : "^4.0.0-rc.0",
+        "postcss-unique-selectors" : "^4.0.0-rc.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.0-rc.1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default-4.0.0-rc.1.tgz_1498063273997_0.013367517618462443"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "4.0.5" : {
+      "name" : "cssnano-preset-default",
+      "description" : "Safe defaults for cssnano which require minimal configuration.",
+      "version" : "4.0.5",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-preset-default/-/cssnano-preset-default-4.0.5.tgz",
+        "shasum" : "d1756c0259d98ad311e601ba76e95c60f6771ac1"
+      },
+      "dependencies" : {
+        "css-declaration-sorter" : "^4.0.1",
+        "cssnano-util-raw-cache" : "^4.0.1",
+        "postcss" : "^7.0.0",
+        "postcss-calc" : "^7.0.0",
+        "postcss-colormin" : "^4.0.2",
+        "postcss-convert-values" : "^4.0.1",
+        "postcss-discard-comments" : "^4.0.1",
+        "postcss-discard-duplicates" : "^4.0.2",
+        "postcss-discard-empty" : "^4.0.1",
+        "postcss-discard-overridden" : "^4.0.1",
+        "postcss-merge-longhand" : "^4.0.9",
+        "postcss-merge-rules" : "^4.0.2",
+        "postcss-minify-font-values" : "^4.0.2",
+        "postcss-minify-gradients" : "^4.0.1",
+        "postcss-minify-params" : "^4.0.1",
+        "postcss-minify-selectors" : "^4.0.1",
+        "postcss-normalize-charset" : "^4.0.1",
+        "postcss-normalize-display-values" : "^4.0.1",
+        "postcss-normalize-positions" : "^4.0.1",
+        "postcss-normalize-repeat-style" : "^4.0.1",
+        "postcss-normalize-string" : "^4.0.1",
+        "postcss-normalize-timing-functions" : "^4.0.1",
+        "postcss-normalize-unicode" : "^4.0.1",
+        "postcss-normalize-url" : "^4.0.1",
+        "postcss-normalize-whitespace" : "^4.0.1",
+        "postcss-ordered-values" : "^4.1.1",
+        "postcss-reduce-initial" : "^4.0.2",
+        "postcss-reduce-transforms" : "^4.0.1",
+        "postcss-svgo" : "^4.0.1",
+        "postcss-unique-selectors" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-preset-default@4.0.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-preset-default_4.0.5_1540220728974_0.04871790979752988"
+      },
+      "_nodeVersion" : "10.12.0"
+    }
+  },
+  "readme" : "# cssnano-preset-default\n\n> Safe defaults for cssnano which require minimal configuration.\n\n\n## Table of Contents\n\n-   [Overview](#overview)\n\n-   [Usage](#usage)\n\n    -   [Install](#install)\n    -   [Configuration](#configuration)\n\n-   [Plugins](#plugins)\n\n    -   [cssnano-util-raw-cache](#cssnano-util-raw-cache)\n    -   [postcss-calc (external)](#postcss-calc-external)\n    -   [postcss-colormin](#postcss-colormin)\n    -   [postcss-convert-values](#postcss-convert-values)\n    -   [postcss-discard-comments](#postcss-discard-comments)\n    -   [postcss-discard-duplicates](#postcss-discard-duplicates)\n    -   [postcss-discard-empty](#postcss-discard-empty)\n    -   [postcss-discard-overridden](#postcss-discard-overridden)\n    -   [postcss-merge-longhand](#postcss-merge-longhand)\n    -   [postcss-merge-rules](#postcss-merge-rules)\n    -   [postcss-minify-font-values](#postcss-minify-font-values)\n    -   [postcss-minify-gradients](#postcss-minify-gradients)\n    -   [postcss-minify-params](#postcss-minify-params)\n    -   [postcss-minify-selectors](#postcss-minify-selectors)\n    -   [postcss-normalize-charset](#postcss-normalize-charset)\n    -   [postcss-normalize-display-values](#postcss-normalize-display-values)\n    -   [postcss-normalize-positions](#postcss-normalize-positions)\n    -   [postcss-normalize-repeat-style](#postcss-normalize-repeat-style)\n    -   [postcss-normalize-string](#postcss-normalize-string)\n    -   [postcss-normalize-timing-functions](#postcss-normalize-timing-functions)\n    -   [postcss-normalize-unicode](#postcss-normalize-unicode)\n    -   [postcss-normalize-url](#postcss-normalize-url)\n    -   [postcss-normalize-whitespace](#postcss-normalize-whitespace)\n    -   [postcss-ordered-values](#postcss-ordered-values)\n    -   [postcss-reduce-initial](#postcss-reduce-initial)\n    -   [postcss-reduce-transforms](#postcss-reduce-transforms)\n    -   [postcss-svgo](#postcss-svgo)\n    -   [postcss-unique-selectors](#postcss-unique-selectors)\n\n-   [Contributors](#contributors)\n\n-   [License](#license)\n\n\n## Overview\n\nThis default preset for cssnano only includes transforms that make no\nassumptions about your CSS other than what is passed in. In previous\niterations of cssnano, assumptions were made about your CSS which caused\noutput to look different in certain use cases, but not others. These\ntransforms have been moved from the defaults to other presets, to make\nthis preset require only minimal configuration.\n\n\n## Usage\n\n### Install\n\nNote that this preset comes bundled with cssnano _by default_, so you don't need to install it separately.\n\n### Configuration\n\nIf you would like to use the default configuration, then you don't need to add anything to your `package.json`.\n\nBut should you wish to customise this, you can pass an array with the second parameter as the options object to use. For example, to remove all comments:\n\n```diff\n {\n   \"name\": \"awesome-application\",\n+  \"cssnano\": {\n+    \"preset\": [\n+      \"default\",\n+      {\"discardComments\": {\"removeAll\": true}}\n+    ]\n+  }\n }\n```\n\nDepending on your usage, the JSON configuration might not work for you, such as in cases where you would like to use options with customisable function parameters. For this use case, we recommend a `cssnano.config.js` at the same location as your `package.json`. You can then load a preset and export it with your custom parameters:\n\n```js\nconst defaultPreset = require('cssnano-preset-default');\n\nmodule.exports = defaultPreset({\n  discardComments: {\n    remove: comment => comment[0] === \"@\"\n  }\n});\n```\n\nNote that you may wish to publish your own preset to npm for reusability, should it differ a lot from this one. This is highly encouraged!\n\n\n## Plugins\n\n### [`css-declaration-sorter`](https://github.com/Siilwyn/css-declaration-sorter) (external)\n\n> Sorts CSS declarations fast and automatically in a certain order.\n\nThis plugin is loaded with its default configuration.\n\n### [`cssnano-util-raw-cache`](https://github.com/cssnano/cssnano/tree/master/packages/cssnano-util-raw-cache)\n\n> Manages the raw value formatting for generated AST nodes.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-calc`](https://github.com/postcss/postcss-calc) (external)\n\n> PostCSS plugin to reduce calc()\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-colormin`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-colormin)\n\n> Minify colors in your CSS files with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-convert-values`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-convert-values)\n\n> Convert values with PostCSS (e.g. ms -> s)\n\nThis plugin is loaded with the following configuration:\n\n```js\n{\n\tlength: false\n}\n```\n\n### [`postcss-discard-comments`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-discard-comments)\n\n> Discard comments in your CSS files with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-discard-duplicates`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-discard-duplicates)\n\n> Discard duplicate rules in your CSS files with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-discard-empty`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-discard-empty)\n\n> Discard empty rules and values with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-discard-overridden`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-discard-overridden)\n\n> PostCSS plugin to discard overridden @keyframes or @counter-style.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-merge-longhand`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-merge-longhand)\n\n> Merge longhand properties into shorthand with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-merge-rules`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-merge-rules)\n\n> Merge CSS rules with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-minify-font-values`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-minify-font-values)\n\n> Minify font declarations with PostCSS\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-minify-gradients`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-minify-gradients)\n\n> Minify gradient parameters with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-minify-params`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-minify-params)\n\n> Minify at-rule params with PostCSS\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-minify-selectors`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-minify-selectors)\n\n> Minify selectors with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-normalize-charset`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-charset)\n\n> Add necessary or remove extra charset with PostCSS\n\nThis plugin is loaded with the following configuration:\n\n```js\n{\n\tadd: false\n}\n```\n\n### [`postcss-normalize-display-values`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-display-values)\n\n> Normalize multiple value display syntaxes into single values.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-normalize-positions`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-positions)\n\n> Normalize keyword values for position into length values.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-normalize-repeat-style`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-repeat-style)\n\n> Convert two value syntax for repeat-style into one value.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-normalize-string`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-string)\n\n> Normalize wrapping quotes for CSS string literals.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-normalize-timing-functions`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-timing-functions)\n\n> Normalize CSS animation/transition timing functions.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-normalize-unicode`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-unicode)\n\n> Normalize unicode-range descriptors, and can convert to wildcard ranges.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-normalize-url`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-url)\n\n> Normalize URLs with PostCSS\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-normalize-whitespace`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-normalize-whitespace)\n\n> Trim whitespace inside and around CSS rules & declarations.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-ordered-values`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-ordered-values)\n\n> Ensure values are ordered consistently in your CSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-reduce-initial`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-reduce-initial)\n\n> Reduce initial definitions to the actual initial value, where possible.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-reduce-transforms`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-reduce-transforms)\n\n> Reduce transform functions with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-svgo`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-svgo)\n\n> Optimise inline SVG with PostCSS.\n\nThis plugin is loaded with its default configuration.\n\n### [`postcss-unique-selectors`](https://github.com/cssnano/cssnano/tree/master/packages/postcss-unique-selectors)\n\n> Ensure CSS selectors are unique.\n\nThis plugin is loaded with its default configuration.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n",
+  "maintainers" : [ {
+    "email" : "andrey@sitnik.ru",
+    "name" : "ai"
+  }, {
+    "email" : "beneb.info@gmail.com",
+    "name" : "beneb"
+  }, {
+    "email" : "chris@eppsteins.net",
+    "name" : "chriseppstein"
+  }, {
+    "email" : "sheo13666q@gmail.com",
+    "name" : "evilebottnawi"
+  } ],
+  "author" : {
+    "name" : "Ben Briggs",
+    "email" : "beneb.info@gmail.com",
+    "url" : "http://beneb.info"
+  },
+  "time" : {
+    "created" : "2017-06-01T10:00:18.421Z",
+    "4.0.2" : "2018-09-27T10:20:40.220Z",
+    "4.0.3" : "2018-10-17T21:33:21.569Z",
+    "4.0.0" : "2018-07-04T11:16:57.348Z",
+    "4.0.1" : "2018-09-24T21:09:27.010Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:52.114Z",
+    "4.0.6" : "2018-12-22T14:20:01.942Z",
+    "4.0.7" : "2019-02-12T18:11:34.964Z",
+    "4.0.0-rc.0" : "2017-06-01T10:00:18.421Z",
+    "4.0.4" : "2018-10-22T14:37:06.149Z",
+    "4.0.0-rc.1" : "2017-06-21T16:41:15.080Z",
+    "4.0.5" : "2018-10-22T15:05:29.108Z",
+    "modified" : "2019-02-12T18:11:37.523Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/cssnano/cssnano",
+  "bugs" : {
+    "url" : "https://github.com/cssnano/cssnano/issues"
+  },
+  "license" : "MIT"
+}

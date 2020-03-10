@@ -1,0 +1,900 @@
+{
+  "_id" : "eslint-module-utils",
+  "_rev" : "23-5c2592d3ba5ac4be2ede8b9d49459ea3",
+  "name" : "eslint-module-utils",
+  "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+  "dist-tags" : {
+    "next" : "1.0.0-beta.0",
+    "latest" : "2.5.2"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.0.0.tgz",
+        "shasum" : "a6f8c21d901358759cdc35dbac1982ae1ee58bce"
+      },
+      "dependencies" : {
+        "debug" : "2.2.0",
+        "pkg-dir" : "^1.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@2.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/eslint-module-utils-2.0.0.tgz_1478516660793_0.629490859573707"
+      },
+      "_shasum" : "a6f8c21d901358759cdc35dbac1982ae1ee58bce",
+      "_nodeVersion" : "4.2.5"
+    },
+    "0.2.2" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-0.2.2.tgz",
+        "shasum" : "030483a83c8d5184091fbfc253d2c4ba2346c957"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@0.2.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/eslint-module-utils-0.2.2.tgz_1459854969058_0.7371626691892743"
+      },
+      "_shasum" : "030483a83c8d5184091fbfc253d2c4ba2346c957",
+      "_nodeVersion" : "4.2.5"
+    },
+    "2.5.1" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.5.1",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.5.1.tgz",
+        "shasum" : "ea59ab958c11cd8b769c8749487aad713f2d5753"
+      },
+      "dependencies" : {
+        "debug" : "^2.6.9",
+        "pkg-dir" : "^2.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "me@benmosher.com",
+        "name" : "benmosher"
+      }, {
+        "email" : "jfm.engels@gmail.com",
+        "name" : "jfmengels"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "cp ../{LICENSE,.npmrc} ./",
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "eslint-module-utils@2.5.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/eslint-module-utils_2.5.1_1578726107404_0.7846722310702015"
+      },
+      "_nodeVersion" : "13.5.0"
+    },
+    "2.5.2" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.5.2",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.5.2.tgz",
+        "shasum" : "7878f7504824e1b857dd2505b59a8e5eda26a708"
+      },
+      "dependencies" : {
+        "debug" : "^2.6.9",
+        "pkg-dir" : "^2.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "me@benmosher.com",
+        "name" : "benmosher"
+      }, {
+        "email" : "jfm.engels@gmail.com",
+        "name" : "jfmengels"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "cp ../{LICENSE,.npmrc} ./",
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "eslint-module-utils@2.5.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/eslint-module-utils_2.5.2_1578865462216_0.22182462851883855"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "0.1.1" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-0.1.1.tgz",
+        "shasum" : "bdb4119aa8382907ee8a024517f8d24561bf5502"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@0.1.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/eslint-module-utils-0.1.1.tgz_1459261701375_0.5420067403465509"
+      },
+      "_shasum" : "bdb4119aa8382907ee8a024517f8d24561bf5502",
+      "_nodeVersion" : "4.2.5"
+    },
+    "0.2.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-0.2.0.tgz",
+        "shasum" : "fb1f8056bba64cf303bf7acd0de92a97c44fb66c"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@0.2.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/eslint-module-utils-0.2.0.tgz_1459850583782_0.6801053185481578"
+      },
+      "_shasum" : "fb1f8056bba64cf303bf7acd0de92a97c44fb66c",
+      "_nodeVersion" : "4.2.5"
+    },
+    "2.4.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.4.0.tgz",
+        "shasum" : "8b93499e9b00eab80ccb6614e69f03678e84e09a"
+      },
+      "dependencies" : {
+        "debug" : "^2.6.8",
+        "pkg-dir" : "^2.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "me@benmosher.com",
+        "name" : "benmosher"
+      }, {
+        "email" : "jfm.engels@gmail.com",
+        "name" : "jfmengels"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "eslint-module-utils@2.4.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/eslint-module-utils_2.4.0_1555165951942_0.13399718189883947"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "0.2.1" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-0.2.1.tgz",
+        "shasum" : "55bd369f064a0c7daaac0cbb71582769549adb8d"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@0.2.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/eslint-module-utils-0.2.1.tgz_1459852133487_0.14907239680178463"
+      },
+      "_shasum" : "55bd369f064a0c7daaac0cbb71582769549adb8d",
+      "_nodeVersion" : "4.2.5"
+    },
+    "2.4.1" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.4.1",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.4.1.tgz",
+        "shasum" : "7b4675875bf96b0dbf1b21977456e5bb1f5e018c"
+      },
+      "dependencies" : {
+        "debug" : "^2.6.8",
+        "pkg-dir" : "^2.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "me@benmosher.com",
+        "name" : "benmosher"
+      }, {
+        "email" : "jfm.engels@gmail.com",
+        "name" : "jfmengels"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "eslint-module-utils@2.4.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/eslint-module-utils_2.4.1_1563572981159_0.08107138249336288"
+      },
+      "_nodeVersion" : "12.6.0"
+    },
+    "2.5.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.5.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.5.0.tgz",
+        "shasum" : "cdf0b40d623032274ccd2abd7e64c4e524d6e19c"
+      },
+      "dependencies" : {
+        "debug" : "^2.6.9",
+        "pkg-dir" : "^2.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "me@benmosher.com",
+        "name" : "benmosher"
+      }, {
+        "email" : "jfm.engels@gmail.com",
+        "name" : "jfmengels"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "eslint-module-utils@2.5.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/eslint-module-utils_2.5.0_1575789354440_0.11780479463018034"
+      },
+      "_nodeVersion" : "13.3.0"
+    },
+    "2.1.1" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.1.1.tgz",
+        "shasum" : "abaec824177613b8a95b299639e1b6facf473449"
+      },
+      "dependencies" : {
+        "debug" : "^2.6.8",
+        "pkg-dir" : "^1.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@2.1.1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/eslint-module-utils-2.1.1.tgz_1498127113496_0.5392432750668377"
+      },
+      "_nodeVersion" : "6.10.0"
+    },
+    "2.2.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.2.0.tgz",
+        "shasum" : "b270362cd88b1a48ad308976ce7fa54e98411746"
+      },
+      "dependencies" : {
+        "debug" : "^2.6.8",
+        "pkg-dir" : "^1.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "me@benmosher.com",
+        "name" : "benmosher"
+      }, {
+        "email" : "jfm.engels@gmail.com",
+        "name" : "jfmengels"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@2.2.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/eslint-module-utils_2.2.0_1522370808592_0.29694635808667735"
+      },
+      "_shasum" : "b270362cd88b1a48ad308976ce7fa54e98411746",
+      "_nodeVersion" : "6.13.0"
+    },
+    "0.1.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-0.1.0.tgz",
+        "shasum" : "7b8c2500f0d3894260c5ac55407c0254f0f72500"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@0.1.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/eslint-module-utils-0.1.0.tgz_1459243847497_0.6451773711014539"
+      },
+      "_shasum" : "7b8c2500f0d3894260c5ac55407c0254f0f72500",
+      "_nodeVersion" : "4.2.5"
+    },
+    "2.3.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-2.3.0.tgz",
+        "shasum" : "546178dab5e046c8b562bbb50705e2456d7bda49"
+      },
+      "dependencies" : {
+        "debug" : "^2.6.8",
+        "pkg-dir" : "^2.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "me@benmosher.com",
+        "name" : "benmosher"
+      }, {
+        "email" : "jfm.engels@gmail.com",
+        "name" : "jfmengels"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@2.3.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/eslint-module-utils_2.3.0_1548158054968_0.6193709707995121"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "1.0.0-beta.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "1.0.0-beta.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-1.0.0-beta.0.tgz",
+        "shasum" : "f6cab9512c674ecf3f373560e1412c6caf947f3c"
+      },
+      "dependencies" : {
+        "debug" : "2.2.0",
+        "pkg-dir" : "^1.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.6",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@1.0.0-beta.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/eslint-module-utils-1.0.0-beta.0.tgz_1474921088638_0.5366203000303358"
+      },
+      "_shasum" : "f6cab9512c674ecf3f373560e1412c6caf947f3c",
+      "_nodeVersion" : "4.2.5"
+    },
+    "1.0.0" : {
+      "name" : "eslint-module-utils",
+      "description" : "Core utilities to support eslint-plugin-import and other module-related plugins.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Ben Mosher",
+        "email" : "me@benmosher.com"
+      },
+      "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/eslint-module-utils/-/eslint-module-utils-1.0.0.tgz",
+        "shasum" : "c4a57fd3a53efd8426cc2d5550aadab9bbd05fd0"
+      },
+      "dependencies" : {
+        "debug" : "2.2.0",
+        "pkg-dir" : "^1.0.0"
+      },
+      "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.6",
+      "_npmUser" : {
+        "name" : "benmosher",
+        "email" : "me@benmosher.com"
+      },
+      "_id" : "eslint-module-utils@1.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/eslint-module-utils-1.0.0.tgz_1475145796988_0.43794940039515495"
+      },
+      "_shasum" : "c4a57fd3a53efd8426cc2d5550aadab9bbd05fd0",
+      "_nodeVersion" : "4.2.5"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "maintainers" : [ {
+    "email" : "me@benmosher.com",
+    "name" : "benmosher"
+  }, {
+    "email" : "jfm.engels@gmail.com",
+    "name" : "jfmengels"
+  }, {
+    "email" : "ljharb@gmail.com",
+    "name" : "ljharb"
+  } ],
+  "author" : {
+    "name" : "Ben Mosher",
+    "email" : "me@benmosher.com"
+  },
+  "time" : {
+    "2.0.0" : "2016-11-07T11:04:21.362Z",
+    "2.1.0" : "2017-06-02T13:57:50.507Z",
+    "0.2.2" : "2016-04-05T11:16:11.445Z",
+    "created" : "2016-03-29T09:30:48.585Z",
+    "2.5.1" : "2020-01-11T07:01:47.537Z",
+    "2.5.2" : "2020-01-12T21:44:22.338Z",
+    "0.1.1" : "2016-03-29T14:28:23.773Z",
+    "0.2.0" : "2016-04-05T10:03:06.861Z",
+    "2.4.0" : "2019-04-13T14:32:32.071Z",
+    "0.2.1" : "2016-04-05T10:28:55.986Z",
+    "2.4.1" : "2019-07-19T21:49:41.354Z",
+    "2.5.0" : "2019-12-08T07:15:54.675Z",
+    "2.1.1" : "2017-06-22T10:25:14.614Z",
+    "2.2.0" : "2018-03-30T00:46:49.674Z",
+    "0.1.0" : "2016-03-29T09:30:48.585Z",
+    "2.3.0" : "2019-01-22T11:54:15.066Z",
+    "1.0.0-beta.0" : "2016-09-26T20:18:10.008Z",
+    "modified" : "2020-01-12T21:44:24.717Z",
+    "1.0.0" : "2016-09-29T10:43:18.861Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/benmosher/eslint-plugin-import.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/benmosher/eslint-plugin-import#readme",
+  "keywords" : [ "eslint-plugin-import", "eslint", "modules", "esmodules" ],
+  "bugs" : {
+    "url" : "https://github.com/benmosher/eslint-plugin-import/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,498 @@
+{
+  "_id" : "get-own-enumerable-property-symbols",
+  "_rev" : "7-d793209377bd6d41387eb1d508a24118",
+  "name" : "get-own-enumerable-property-symbols",
+  "description" : "Returns an array of all enumerable symbol properties found directly upon a given object",
+  "dist-tags" : {
+    "latest" : "3.0.2"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "get-own-enumerable-property-symbols",
+      "description" : "Returns an array of all enumerable symbol properties found directly upon a given object",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Shahar Or",
+        "email" : "mightyiampresence@gmail.com",
+        "url" : "mightyiam"
+      },
+      "homepage" : "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-2.0.0.tgz",
+        "shasum" : "4e5eba3a99df5e3712761af14deaf9a6cf19e661"
+      },
+      "devDependencies" : {
+        "npm-run-all" : "^4.0.2",
+        "standard" : "^10.0.0",
+        "typescript" : "^2.3.4"
+      },
+      "keywords" : [ "get", "enumerable", "symbol", "property", "key", "object" ],
+      "license" : "ISC",
+      "files" : [ "lib" ],
+      "maintainers" : [ {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "transpile" : "tsc",
+        "lint-js" : "standard",
+        "unit" : "node test.js",
+        "test" : "run-s lint-js transpile unit"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      },
+      "_id" : "get-own-enumerable-property-symbols@2.0.0",
+      "standard" : {
+        "ignore" : [ "lib" ]
+      },
+      "gitHead" : "562daa8d70ef8bfa3ebdce5ed482efd6a9804c17",
+      "types" : "lib/index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/get-own-enumerable-property-symbols-2.0.0.tgz_1498377929318_0.4571129623800516"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "2.0.1" : {
+      "name" : "get-own-enumerable-property-symbols",
+      "description" : "Returns an array of all enumerable symbol properties found directly upon a given object",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Shahar Or",
+        "email" : "mightyiampresence@gmail.com",
+        "url" : "mightyiam"
+      },
+      "homepage" : "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-2.0.1.tgz",
+        "shasum" : "5c4ad87f2834c4b9b4e84549dc1e0650fb38c24b"
+      },
+      "devDependencies" : {
+        "npm-run-all" : "^4.0.2",
+        "standard" : "^10.0.0",
+        "typescript" : "^2.3.4"
+      },
+      "keywords" : [ "get", "enumerable", "symbol", "property", "key", "object" ],
+      "license" : "ISC",
+      "files" : [ "lib" ],
+      "maintainers" : [ {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "transpile" : "tsc",
+        "lint-js" : "standard",
+        "unit" : "node test.js",
+        "test" : "run-s lint-js transpile unit"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      },
+      "_id" : "get-own-enumerable-property-symbols@2.0.1",
+      "standard" : {
+        "ignore" : [ "lib" ]
+      },
+      "gitHead" : "7a20b32f40b8ce9ad0e8b5f2b3cad37990022550",
+      "types" : "lib/index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/get-own-enumerable-property-symbols-2.0.1.tgz_1498378117051_0.9043550370261073"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "3.0.0" : {
+      "name" : "get-own-enumerable-property-symbols",
+      "description" : "Returns an array of all enumerable symbol properties found directly upon a given object",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Shahar Or",
+        "email" : "mightyiampresence@gmail.com",
+        "url" : "mightyiam"
+      },
+      "homepage" : "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.0.tgz",
+        "shasum" : "b877b49a5c16aefac3655f2ed2ea5b684df8d203"
+      },
+      "devDependencies" : {
+        "@types/node" : "^9.6.5",
+        "eslint" : "^4.19.1",
+        "eslint-config-standard-with-typescript" : "^4.0.0",
+        "eslint-plugin-import" : "^2.11.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "npm-run-all" : "^4.0.2",
+        "tsconfigs" : "^2.0.0",
+        "typescript" : "2.8.1",
+        "typescript-eslint-parser" : "^14.0.0"
+      },
+      "keywords" : [ "get", "enumerable", "symbol", "property", "key", "object" ],
+      "license" : "ISC",
+      "files" : [ "lib/index.d.ts", "lib/index.js" ],
+      "maintainers" : [ {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --ext .ts .",
+        "transpile" : "tsc",
+        "unit" : "node lib/test.js",
+        "test" : "run-s lint transpile unit"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      },
+      "_id" : "get-own-enumerable-property-symbols@3.0.0",
+      "standard" : {
+        "ignore" : [ "lib" ]
+      },
+      "gitHead" : "bcb033be0ec0cc41a346bf8e9c7c634ff3fedde8",
+      "types" : "lib/index.d.ts",
+      "eslintIgnore" : [ "*.d.ts" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/get-own-enumerable-property-symbols_3.0.0_1523984424600_0.08660344148209242"
+      },
+      "_nodeVersion" : "9.10.1"
+    },
+    "3.0.1" : {
+      "name" : "get-own-enumerable-property-symbols",
+      "description" : "Returns an array of all enumerable symbol properties found directly upon a given object",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Shahar Or",
+        "email" : "mightyiampresence@gmail.com",
+        "url" : "mightyiam"
+      },
+      "homepage" : "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.1.tgz",
+        "shasum" : "6f7764f88ea11e0b514bd9bd860a132259992ca4"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^8.2.0",
+        "@commitlint/config-conventional" : "^8.2.0",
+        "@commitlint/travis-cli" : "^8.2.0",
+        "@types/node" : "^12.7.11",
+        "@typescript-eslint/eslint-plugin" : "^2.3.2",
+        "eslint" : "^6.5.1",
+        "eslint-config-standard-with-typescript" : "^10.0.0",
+        "eslint-plugin-import" : "^2.18.2",
+        "eslint-plugin-node" : "^10.0.0",
+        "eslint-plugin-promise" : "^4.2.1",
+        "eslint-plugin-standard" : "^4.0.1",
+        "husky" : "^3.0.8",
+        "npm-run-all" : "^4.1.5",
+        "standard-version" : "^7.0.0",
+        "tsconfigs" : "^4.0.1",
+        "typescript" : "3.6.3"
+      },
+      "keywords" : [ "get", "enumerable", "symbol", "property", "key", "object" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "release" : "standard-version",
+        "lint" : "eslint --ext .ts .",
+        "transpile" : "tsc",
+        "unit" : "node lib/test.js",
+        "test" : "run-s lint transpile unit"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      },
+      "_id" : "get-own-enumerable-property-symbols@3.0.1",
+      "standard" : {
+        "ignore" : [ "lib" ]
+      },
+      "gitHead" : "850f4c4cd232e94a0754ec503e96115d35846d78",
+      "types" : "lib/index.d.ts",
+      "husky" : {
+        "hooks" : {
+          "commit-msg" : "commitlint -E HUSKY_GIT_PARAMS",
+          "pre-commit" : "npm test"
+        }
+      },
+      "eslintIgnore" : [ "*.d.ts" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/get-own-enumerable-property-symbols_3.0.1_1570169258399_0.2817111323943253"
+      },
+      "_nodeVersion" : "12.11.1"
+    },
+    "1.0.0" : {
+      "name" : "get-own-enumerable-property-symbols",
+      "description" : "Returns an array of all enumerable symbol properties found directly upon a given object",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Shahar Or",
+        "email" : "mightyiampresence@gmail.com",
+        "url" : "mightyiam"
+      },
+      "homepage" : "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-1.0.0.tgz",
+        "shasum" : "25207978f3583f939a45606e5425ae60a3c66ab1"
+      },
+      "devDependencies" : {
+        "standard" : "^8.5.0"
+      },
+      "keywords" : [ "get", "enumerable", "symbol", "property", "key", "object" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "unit" : "node test.js",
+        "test" : "npm run lint && npm run unit"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.1",
+      "_npmUser" : {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      },
+      "_id" : "get-own-enumerable-property-symbols@1.0.0",
+      "gitHead" : "f987c8ffdca3eee0c8e3e1d8657b10b7593f418d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/get-own-enumerable-property-symbols-1.0.0.tgz_1479934538560_0.3909477919805795"
+      },
+      "_shasum" : "25207978f3583f939a45606e5425ae60a3c66ab1",
+      "_nodeVersion" : "6.9.1"
+    },
+    "3.0.2" : {
+      "name" : "get-own-enumerable-property-symbols",
+      "description" : "Returns an array of all enumerable symbol properties found directly upon a given object",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Shahar Or",
+        "email" : "mightyiampresence@gmail.com",
+        "url" : "mightyiam"
+      },
+      "homepage" : "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.2.tgz",
+        "shasum" : "b5fde77f22cbe35f390b4e089922c50bce6ef664"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^8.2.0",
+        "@commitlint/config-conventional" : "^8.2.0",
+        "@commitlint/travis-cli" : "^8.2.0",
+        "@types/node" : "^12.12.11",
+        "@typescript-eslint/eslint-plugin" : "^2.8.0",
+        "eslint" : "^6.6.0",
+        "eslint-config-standard-with-typescript" : "^11.0.1",
+        "eslint-plugin-import" : "^2.18.2",
+        "eslint-plugin-node" : "^10.0.0",
+        "eslint-plugin-promise" : "^4.2.1",
+        "eslint-plugin-standard" : "^4.0.1",
+        "husky" : "^3.1.0",
+        "npm-run-all" : "^4.1.5",
+        "standard-version" : "^7.0.1",
+        "tsconfigs" : "^4.0.1",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "get", "enumerable", "symbol", "property", "key", "object" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "release" : "standard-version",
+        "lint" : "eslint --ext .ts .",
+        "transpile" : "tsc",
+        "unit" : "node lib/test.js",
+        "test" : "run-s lint transpile unit"
+      },
+      "_npmVersion" : "6.13.3",
+      "_npmUser" : {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      },
+      "_id" : "get-own-enumerable-property-symbols@3.0.2",
+      "standard" : {
+        "ignore" : [ "lib" ]
+      },
+      "gitHead" : "6dba355842cac1ed2ea424a90e8e640ef0f86d42",
+      "types" : "lib/index.d.ts",
+      "husky" : {
+        "hooks" : {
+          "commit-msg" : "commitlint -E HUSKY_GIT_PARAMS",
+          "pre-commit" : "npm test"
+        }
+      },
+      "eslintIgnore" : [ "*.d.ts" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/get-own-enumerable-property-symbols_3.0.2_1575988456920_0.9252887037187523"
+      },
+      "_nodeVersion" : "13.3.0"
+    },
+    "1.0.1" : {
+      "name" : "get-own-enumerable-property-symbols",
+      "description" : "Returns an array of all enumerable symbol properties found directly upon a given object",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Shahar Or",
+        "email" : "mightyiampresence@gmail.com",
+        "url" : "mightyiam"
+      },
+      "homepage" : "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-1.0.1.tgz",
+        "shasum" : "f1d4e3ad1402e039898e56d1e9b9aa924c26e484"
+      },
+      "devDependencies" : {
+        "standard" : "^8.5.0"
+      },
+      "keywords" : [ "get", "enumerable", "symbol", "property", "key", "object" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "unit" : "node test.js",
+        "test" : "npm run lint && npm run unit"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.1",
+      "_npmUser" : {
+        "name" : "mightyiam",
+        "email" : "mightyiampresence@gmail.com"
+      },
+      "_id" : "get-own-enumerable-property-symbols@1.0.1",
+      "gitHead" : "4b4a5f81bd361d91aa79d11aa7995efd5603737b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/get-own-enumerable-property-symbols-1.0.1.tgz_1479935498032_0.6441601340193301"
+      },
+      "_shasum" : "f1d4e3ad1402e039898e56d1e9b9aa924c26e484",
+      "_nodeVersion" : "6.9.1"
+    }
+  },
+  "readme" : "# get-own-enumerable-property-symbols [![Build Status](https://travis-ci.org/mightyiam/get-own-enumerable-property-symbols.svg?branch=master)](https://travis-ci.org/mightyiam/get-own-enumerable-property-symbols)\n\nReturns an array of all *enumerable* symbol properties found directly upon a given object.\n\nSimilar to [`Object.getOwnPropertySymbols`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols)\nbut only [enumerable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties) keys.\n\n```js\nimport getOwnEnumPropSymbols from 'get-own-enumerable-property-symbols'\n\ngetOwnEnumPropSymbols({ [Symbol()]: undefined })\n// [Symbol()]\ngetOwnEnumPropSymbols(Object.defineProperty({}, Symbol(), {enumerable: false}))\n// []\n```\n",
+  "maintainers" : [ {
+    "name" : "mightyiam",
+    "email" : "mightyiampresence@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Shahar Or",
+    "email" : "mightyiampresence@gmail.com",
+    "url" : "mightyiam"
+  },
+  "time" : {
+    "2.0.0" : "2017-06-25T08:05:30.223Z",
+    "2.0.1" : "2017-06-25T08:08:38.106Z",
+    "3.0.0" : "2018-04-17T17:00:24.665Z",
+    "created" : "2016-11-23T20:55:40.581Z",
+    "modified" : "2019-12-10T14:34:21.878Z",
+    "3.0.1" : "2019-10-04T06:07:38.538Z",
+    "1.0.0" : "2016-11-23T20:55:40.581Z",
+    "3.0.2" : "2019-12-10T14:34:17.046Z",
+    "1.0.1" : "2016-11-23T21:11:38.595Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/mightyiam/get-own-enumerable-property-symbols.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/mightyiam/get-own-enumerable-property-symbols#readme",
+  "keywords" : [ "get", "enumerable", "symbol", "property", "key", "object" ],
+  "bugs" : {
+    "url" : "https://github.com/mightyiam/get-own-enumerable-property-symbols/issues"
+  },
+  "license" : "ISC"
+}

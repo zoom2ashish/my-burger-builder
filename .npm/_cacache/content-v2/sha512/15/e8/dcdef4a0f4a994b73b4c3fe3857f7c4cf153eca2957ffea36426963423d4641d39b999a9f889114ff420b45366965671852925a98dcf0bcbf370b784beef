@@ -1,0 +1,553 @@
+{
+  "_id" : "css-blank-pseudo",
+  "_rev" : "5-b0a14477d1813adb4f3cabec0d3cff3c",
+  "name" : "css-blank-pseudo",
+  "description" : "Style form elements when they are empty",
+  "dist-tags" : {
+    "latest" : "1.0.0"
+  },
+  "versions" : {
+    "0.1.3" : {
+      "name" : "css-blank-pseudo",
+      "description" : "Style form elements when they are empty",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-blank-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-blank-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-blank-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-blank-pseudo/-/css-blank-pseudo-0.1.3.tgz",
+        "shasum" : "6d32b49c023935269cdef383343981511824e8cb"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "blank", "empty", "pseudo", "selectors", "accessibility", "a11y", "input", "select", "textarea" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-blank-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent && cross-env NODE_ENV=browser:legacy rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent && cross-env NODE_ENV=legacy rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-blank-pseudo@0.1.3",
+      "gitHead" : "01a84c52aeb50732c162a6de0f280f9bdd096871",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-blank-pseudo_0.1.3_1542474804760_0.550475582872981"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.1.4" : {
+      "name" : "css-blank-pseudo",
+      "description" : "Style form elements when they are empty",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-blank-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-blank-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-blank-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-blank-pseudo/-/css-blank-pseudo-0.1.4.tgz",
+        "shasum" : "dfdefd3254bf8a82027993674ccf35483bfcb3c5"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "blank", "empty", "pseudo", "selectors", "accessibility", "a11y", "input", "select", "textarea" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-blank-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent && cross-env NODE_ENV=browser:legacy rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent && cross-env NODE_ENV=legacy rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-blank-pseudo@0.1.4",
+      "gitHead" : "6c091814d92f411e3fa57c9f986b3a69e8cce17f",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-blank-pseudo_0.1.4_1542487649684_0.7714486683103847"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.1.1" : {
+      "name" : "css-blank-pseudo",
+      "description" : "Style form elements when they are empty",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-blank-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-blank-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-blank-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-blank-pseudo/-/css-blank-pseudo-0.1.1.tgz",
+        "shasum" : "18241f751c5b9c908c128da895b8e89f40f60e6d"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "blank", "empty", "pseudo", "selectors", "accessibility", "a11y", "input", "select", "textarea" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-blank-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-blank-pseudo@0.1.1",
+      "gitHead" : "c02b74e2ce0c9f3610d1f41f96217dfdca42d299",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-blank-pseudo_0.1.1_1542463412901_0.5539402493453545"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.1.2" : {
+      "name" : "css-blank-pseudo",
+      "description" : "Style form elements when they are empty",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-blank-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-blank-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-blank-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-blank-pseudo/-/css-blank-pseudo-0.1.2.tgz",
+        "shasum" : "fe2eb21acdb5e55f66e79b3b514178cc8417b35d"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "blank", "empty", "pseudo", "selectors", "accessibility", "a11y", "input", "select", "textarea" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-blank-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent && cross-env NODE_ENV=browser:legacy rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent && cross-env NODE_ENV=legacy rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-blank-pseudo@0.1.2",
+      "gitHead" : "963c3446f564512a3761b52933bd737a15114d91",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-blank-pseudo_0.1.2_1542467659004_0.8085430491096015"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "1.0.0" : {
+      "name" : "css-blank-pseudo",
+      "description" : "Style form elements when they are empty",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-blank-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-blank-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-blank-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-blank-pseudo/-/css-blank-pseudo-1.0.0.tgz",
+        "shasum" : "8fd2204d2945de29425d3eee22d848eab9de50bd"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.17"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/preset-env" : "^7.4.5",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.16.0",
+        "postcss-tape" : "^5.0.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^1.14.6",
+        "rollup-plugin-babel" : "^4.3.2",
+        "rollup-plugin-terser" : "^5.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "blank", "empty", "pseudo", "selectors", "accessibility", "a11y", "input", "select", "textarea" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-blank-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup --config .rollup.js --silent && cross-env NODE_ENV=browser:legacy rollup --config .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup --config .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup --config .rollup.js --silent",
+        "build:node" : "rollup --config .rollup.js --silent && cross-env NODE_ENV=legacy rollup --config .rollup.js --silent",
+        "prepublishOnly" : "npm test && npm run build",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/{*,**/*}.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin postcss.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-blank-pseudo@1.0.0",
+      "gitHead" : "2cfe8acfbb1f449b54ceb0d23211456f95aba400",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-blank-pseudo_1.0.0_1560168972716_0.8097366202967449"
+      },
+      "eslintConfig" : {
+        "env" : {
+          "browser" : true,
+          "es6" : true,
+          "node" : true
+        },
+        "extends" : "eslint:recommended",
+        "parser" : "babel-eslint",
+        "parserOptions" : {
+          "ecmaVersion" : 2018,
+          "impliedStrict" : true,
+          "sourceType" : "module"
+        },
+        "root" : true,
+        "rules" : {
+          "no-console" : [ 0 ]
+        }
+      },
+      "_nodeVersion" : "12.1.0"
+    },
+    "0.1.0" : {
+      "name" : "css-blank-pseudo",
+      "description" : "Style form elements when they are empty",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-blank-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-blank-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-blank-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-blank-pseudo/-/css-blank-pseudo-0.1.0.tgz",
+        "shasum" : "3dfbbacc8bd492b720fb878ef8338d2f7421ac24"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "focus", "within", "pseudos", "selectors", "accessibility", "a11y", "descendants", "ancestors" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-blank-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-blank-pseudo@0.1.0",
+      "gitHead" : "d0582142e05b9504a7e12ad5ff4ebbedadca8904",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-blank-pseudo_0.1.0_1542463113582_0.3418607352396441"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    }
+  },
+  "readme" : "# CSS Blank Pseudo [<img src=\"http://jonathantneal.github.io/js-logo.svg\" alt=\"\" width=\"90\" height=\"90\" align=\"right\">][CSS Blank Pseudo]\n\n[![NPM Version][npm-img]][npm-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[CSS Blank Pseudo] lets you style form elements when they are empty, following\nthe [Selectors Level 4] specification.\n\n```css\ninput {\n  /* style an input */\n}\n\ninput:blank {\n  /* style an input without a value */\n}\n```\n\n## Usage\n\nFrom the command line, transform CSS files that use `:blank` selectors:\n\n```bash\nnpx css-blank-pseudo SOURCE.css TRANSFORMED.css\n```\n\nNext, use your transformed CSS with this script:\n\n```html\n<link rel=\"stylesheet\" href=\"TRANSFORMED.css\">\n<script src=\"https://unpkg.com/css-blank-pseudo/browser\"></script>\n<script>cssBlankPseudo(document)</script>\n```\n\nThat’s it. The script is 509 bytes and works in all browsers.\n\n---\n\nIf you support Internet Explorer 11, use the **browser legacy** script, which\nis 671 bytes:\n\n```html\n<link rel=\"stylesheet\" href=\"TRANSFORMED.css\">\n<script src=\"https://unpkg.com/css-blank-pseudo/browser-legacy\"></script>\n<script>cssBlankPseudo(document)</script>\n```\n\n## How it works\n\nThe [PostCSS plugin](README-POSTCSS.md) clones rules containing `:blank`,\nreplacing them with an alternative `[blank]` selector.\n\n```css\ninput:blank {\n  background-color: yellow;\n}\n\n/* becomes */\n\ninput[blank] {\n  background-color: yellow;\n}\n\ninput:blank {\n  background-color: yellow;\n}\n```\n\nNext, the [JavaScript library](README-BROWSER.md) adds a `blank` attribute to\nelements otherwise matching `:blank` natively.\n\n```html\n<input value=\"\" blank>\n<input value=\"This element has a value\">\n```\n\n[cli-img]: https://img.shields.io/travis/csstools/css-blank-pseudo/master.svg\n[cli-url]: https://travis-ci.org/csstools/css-blank-pseudo\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/css-blank-pseudo.svg\n[npm-url]: https://www.npmjs.com/package/css-blank-pseudo\n\n[CSS Blank Pseudo]: https://github.com/csstools/css-blank-pseudo\n[PostCSS Preset Env]: https://preset-env.cssdb.org/\n[Selectors Level 4]: https://drafts.csswg.org/selectors-4/#blank\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "0.1.3" : "2018-11-17T17:13:24.891Z",
+    "0.1.4" : "2018-11-17T20:47:29.776Z",
+    "created" : "2018-11-17T13:58:33.582Z",
+    "modified" : "2019-06-10T12:16:15.647Z",
+    "0.1.1" : "2018-11-17T14:03:33.013Z",
+    "0.1.2" : "2018-11-17T15:14:19.142Z",
+    "1.0.0" : "2019-06-10T12:16:12.852Z",
+    "0.1.0" : "2018-11-17T13:58:33.685Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/csstools/css-blank-pseudo.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/csstools/css-blank-pseudo#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "blank", "empty", "pseudo", "selectors", "accessibility", "a11y", "input", "select", "textarea" ],
+  "bugs" : {
+    "url" : "https://github.com/csstools/css-blank-pseudo/issues"
+  },
+  "license" : "CC0-1.0"
+}

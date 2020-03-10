@@ -1,0 +1,1140 @@
+{
+  "_id" : "xtend",
+  "_rev" : "87-7323d56de8dea0762bcd20f8d50d30a3",
+  "name" : "xtend",
+  "description" : "extend like a boss",
+  "dist-tags" : {
+    "latest" : "4.0.2"
+  },
+  "versions" : {
+    "2.0.1" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.0.1.tgz",
+        "shasum" : "008f40eede59ba58a2c14b1b64cc28b97513248d"
+      },
+      "devDependencies" : {
+        "tape" : "~0.2.2"
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.3",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.0.1",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "chrome/5..latest", "firefox/3.6..latest", "safari/5.1..latest" ]
+      }
+    },
+    "4.0.2" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "immutable",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-4.0.2.tgz",
+        "shasum" : "bb72779f5fa465186b1f438f674fa347fdb5db54"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~1.1.0"
+      },
+      "keywords" : [ "extend", "merge", "options", "opts", "object", "array" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "6.9.2",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@4.0.2",
+      "gitHead" : "37816c0e2e25da2901d584442235946d5cd8c80d",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xtend_4.0.2_1562592945262_0.1667332210531911"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "2.0.6" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.0.6",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.0.6.tgz",
+        "shasum" : "5ea657a6dba447069c2e59c58a1138cb0c5e6cee"
+      },
+      "dependencies" : {
+        "is-object" : "~0.1.2",
+        "object-keys" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.2"
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.21",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.0.6",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "4.0.0" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "immutable",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-4.0.0.tgz",
+        "shasum" : "8bc36ff87aedbe7ce9eaf0bca36b2354a743840f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~1.1.0"
+      },
+      "keywords" : [ "extend", "merge", "options", "opts", "object", "array" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.15",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@4.0.0",
+      "gitHead" : "94a95d76154103290533b2c55ffa0fe4be16bfef",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "8bc36ff87aedbe7ce9eaf0bca36b2354a743840f"
+    },
+    "4.0.1" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "immutable",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-4.0.1.tgz",
+        "shasum" : "a5c6d532be656e23db820efb943a1f04998d63af"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~1.1.0"
+      },
+      "keywords" : [ "extend", "merge", "options", "opts", "object", "array" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.1",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@4.0.1",
+      "gitHead" : "23dc302a89756da89c1897bc732a752317e35390",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "a5c6d532be656e23db820efb943a1f04998d63af",
+      "_nodeVersion" : "0.10.32"
+    },
+    "2.0.4" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.0.4.tgz",
+        "shasum" : "af09e545bd860909a88682af042680ec179a2208"
+      },
+      "dependencies" : {
+        "is-object" : "~0.1.2",
+        "object-keys" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.2"
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.21",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.0.4",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "2.0.5" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.0.5",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.0.5.tgz",
+        "shasum" : "51e23655b93e7aa1ef84e485369a4c7b5ebe6dbc"
+      },
+      "dependencies" : {
+        "is-object" : "~0.1.2",
+        "object-keys" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.2"
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.18",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.0.5",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "2.0.2" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.0.2.tgz",
+        "shasum" : "2bd96b92d6e4c85573084a0d2f104a50947b9b85"
+      },
+      "devDependencies" : {
+        "tape" : "~0.2.2"
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.3",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.0.2",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "chrome/5..latest", "firefox/3.6..latest", "safari/5.1..latest" ]
+      }
+    },
+    "2.1.1" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.1.1.tgz",
+        "shasum" : "d97a083e97cef3a331c4e9bd0201356711849b9f"
+      },
+      "dependencies" : {
+        "object-keys" : "~0.4.0"
+      },
+      "devDependencies" : {
+        "tape" : "~1.1.0"
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.1.1",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "2.2.0" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.2.0.tgz",
+        "shasum" : "eef6b1f198c1c8deafad8b1765a04dad4a01c5a9"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~1.1.0"
+      },
+      "keywords" : [ "extend", "merge", "options", "opts", "object", "array" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.2.0",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "2.0.3" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.0.3.tgz",
+        "shasum" : "62600900f096ad6a111e3ca37dbb908776493094"
+      },
+      "devDependencies" : {
+        "tape" : "~0.2.2"
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.3",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.0.3",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "chrome/5..latest", "firefox/3.6..latest", "safari/5.1..latest" ]
+      }
+    },
+    "2.1.2" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-2.1.2.tgz",
+        "shasum" : "6efecc2a4dad8e6962c4901b337ce7ba87b5d28b"
+      },
+      "dependencies" : {
+        "object-keys" : "~0.4.0"
+      },
+      "devDependencies" : {
+        "tape" : "~1.1.0"
+      },
+      "keywords" : [ "extend", "merge", "options", "opts", "object", "array" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@2.1.2",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "1.0.3" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "email" : "raynos2@gmail.com",
+        "url" : "https://github.com/Raynos/xtend/issues"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-1.0.3.tgz",
+        "shasum" : "3f5d937353cced8e085399a563fdb22541c2960a"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@1.0.3",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.18"
+    },
+    "3.0.0" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      }, {
+        "name" : "Matt Esch"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/Raynos/xtend/issues",
+        "email" : "raynos2@gmail.com"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-3.0.0.tgz",
+        "shasum" : "5cce7407baf642cba7becda568111c493f59665a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~1.1.0"
+      },
+      "keywords" : [ "extend", "merge", "options", "opts", "object", "array" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@3.0.0",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "ie/7..latest", "firefox/16..latest", "firefox/nightly", "chrome/22..latest", "chrome/canary", "opera/12..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "1.0.0" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      } ],
+      "bugs" : {
+        "email" : "raynos2@gmail.com",
+        "url" : "https://github.com/Raynos/xtend/issues"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-1.0.0.tgz",
+        "shasum" : "d3ab250423ff0c0e3bf05d66379af5dc2cf583ff"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_npmVersion" : "1.1.9",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@1.0.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.13"
+    },
+    "1.0.1" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      } ],
+      "bugs" : {
+        "email" : "raynos2@gmail.com",
+        "url" : "https://github.com/Raynos/xtend/issues"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-1.0.1.tgz",
+        "shasum" : "86452b658fae1c959aea2bd8c57048d8ced4b010"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_npmVersion" : "1.1.9",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@1.0.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.13"
+    },
+    "1.0.2" : {
+      "name" : "xtend",
+      "description" : "extend like a boss",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "homepage" : "https://github.com/Raynos/xtend",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Raynos/xtend.git"
+      },
+      "contributors" : [ {
+        "name" : "Jake Verbaten"
+      } ],
+      "bugs" : {
+        "email" : "raynos2@gmail.com",
+        "url" : "https://github.com/Raynos/xtend/issues"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/xtend/-/xtend-1.0.2.tgz",
+        "shasum" : "127e37ce5e4050de5f175f439b2a0649297dc14b"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://github.com/raynos/xtend/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_npmVersion" : "1.1.9",
+      "_npmUser" : {
+        "name" : "raynos",
+        "email" : "raynos2@gmail.com"
+      },
+      "_id" : "xtend@1.0.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.13"
+    }
+  },
+  "readme" : "# xtend\n\n[![browser support][3]][4]\n\n[![locked](http://badges.github.io/stability-badges/dist/locked.svg)](http://github.com/badges/stability-badges)\n\nExtend like a boss\n\nxtend is a basic utility library which allows you to extend an object by appending all of the properties from each object in a list. When there are identical properties, the right-most property takes precedence.\n\n## Examples\n\n```js\nvar extend = require(\"xtend\")\n\n// extend returns a new object. Does not mutate arguments\nvar combination = extend({\n    a: \"a\",\n    b: \"c\"\n}, {\n    b: \"b\"\n})\n// { a: \"a\", b: \"b\" }\n```\n\n## Stability status: Locked\n\n## MIT Licensed \n\n\n  [3]: http://ci.testling.com/Raynos/xtend.png\n  [4]: http://ci.testling.com/Raynos/xtend\n",
+  "maintainers" : [ {
+    "name" : "raynos",
+    "email" : "raynos2@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Raynos",
+    "email" : "raynos2@gmail.com"
+  },
+  "time" : {
+    "2.0.1" : "2013-03-02T02:52:08.771Z",
+    "created" : "2012-05-23T11:25:19.588Z",
+    "4.0.2" : "2019-07-08T13:35:45.491Z",
+    "2.0.6" : "2013-06-20T21:30:21.949Z",
+    "4.0.0" : "2014-07-31T22:23:46.567Z",
+    "4.0.1" : "2015-11-02T22:19:21.923Z",
+    "2.0.4" : "2013-05-15T21:04:12.697Z",
+    "2.0.5" : "2013-06-01T23:27:01.096Z",
+    "2.0.2" : "2013-03-02T02:53:05.996Z",
+    "2.1.1" : "2013-09-04T17:17:38.531Z",
+    "2.2.0" : "2014-03-26T08:35:47.006Z",
+    "2.0.3" : "2013-03-02T02:56:11.023Z",
+    "2.1.2" : "2014-01-01T09:31:13.601Z",
+    "1.0.3" : "2012-05-30T12:03:49.948Z",
+    "3.0.0" : "2014-04-14T20:35:30.623Z",
+    "modified" : "2019-07-08T13:35:49.318Z",
+    "1.0.0" : "2012-05-23T11:25:21.192Z",
+    "1.0.1" : "2012-05-23T11:27:39.720Z",
+    "1.0.2" : "2012-05-23T11:28:40.032Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/Raynos/xtend.git"
+  },
+  "users" : {
+    "tunnckocore" : true,
+    "bsnote" : true,
+    "chaoticloki" : true,
+    "axelav" : true,
+    "iamveen" : true,
+    "devoidfury" : true,
+    "elidiazgt" : true,
+    "rnbwd" : true,
+    "vbv" : true,
+    "eliellis" : true,
+    "moimikey" : true,
+    "johnnyscript" : true,
+    "bret" : true,
+    "simplyianm" : true,
+    "thebearingedge" : true,
+    "grncdr" : true,
+    "kws4679" : true,
+    "brianloveswords" : true,
+    "kahboom" : true,
+    "detj" : true,
+    "estrattonbailey" : true,
+    "maxidr" : true,
+    "thejaydox" : true,
+    "program247365" : true,
+    "grreenzz" : true,
+    "akiva" : true,
+    "attilab" : true,
+    "dzhou777" : true,
+    "nickeltobias" : true,
+    "max_devjs" : true,
+    "minicast" : true,
+    "kerwyn" : true,
+    "stringparser" : true,
+    "jefrancomix" : true,
+    "bojand" : true,
+    "dracochou" : true,
+    "nickleefly" : true,
+    "sprying" : true,
+    "artskydj" : true,
+    "itonyyo" : true,
+    "vonthar" : true,
+    "frknbasaran" : true,
+    "evanshortiss" : true,
+    "ru7hl355" : true,
+    "joakin" : true,
+    "tobiasnickel" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/Raynos/xtend",
+  "keywords" : [ "extend", "merge", "options", "opts", "object", "array" ],
+  "contributors" : [ {
+    "name" : "Jake Verbaten"
+  }, {
+    "name" : "Matt Esch"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/Raynos/xtend/issues",
+    "email" : "raynos2@gmail.com"
+  },
+  "license" : "MIT"
+}

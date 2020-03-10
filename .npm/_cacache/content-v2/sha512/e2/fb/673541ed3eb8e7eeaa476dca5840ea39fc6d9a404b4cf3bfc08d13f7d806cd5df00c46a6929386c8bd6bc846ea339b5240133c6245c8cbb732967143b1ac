@@ -1,0 +1,1454 @@
+{
+  "_id" : "postcss-custom-media",
+  "_rev" : "38-c28efbc7d3fa6a00f2cc38d1470248ac",
+  "name" : "postcss-custom-media",
+  "description" : "Use Custom Media Queries in CSS",
+  "dist-tags" : {
+    "latest" : "7.0.8"
+  },
+  "versions" : {
+    "7.0.1" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.1.tgz",
+        "shasum" : "69d04a8a133f636661bd06092c3158e7e9e682cf"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.1",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.5.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.65.2",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.1",
+      "gitHead" : "b59e59a14e2996714ea1223699bd46a824f0549a",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.1_1536901349777_0.9041231488674324"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "7.0.2" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.2",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.2.tgz",
+        "shasum" : "e55fcd3a5ffe0d42c1cf99fe4a716a24f5228248"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.1",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.65.2",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.2",
+      "gitHead" : "407c33cd8821a869db9dc6fac3d99681ee74a1ef",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.2_1537040251558_0.831988596678457"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "7.0.3" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.3",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.3.tgz",
+        "shasum" : "da0a3aa24831fcaa045e1231a517a15e0dcdfa1b"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.1",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.3",
+      "gitHead" : "39a25e05f39b5cc5f879b8e828ee8ced197750a9",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.3_1537475164112_0.751451692389844"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "7.0.4" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.4",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.4.tgz",
+        "shasum" : "98e593c4a9a38fefee848434131fa16d316ee165"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.2",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.4",
+      "gitHead" : "75c2768ad997711e5020b2b296dea1398c8ce36a",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.4_1537760903385_0.8299912034448484"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "7.0.0" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.0.tgz",
+        "shasum" : "dc494c1bf69fe58649b0db12a61566b386cd3d3e"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.5.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.65.2",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.0",
+      "gitHead" : "b7806565adab9093eb3f9ea67ad85d659ab88373",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.0_1536889021762_0.8001611666725861"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-custom-media",
+      "description" : " PostCSS plugin to transform W3C CSS Custom Media Queries to more compatible CSS",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-4.0.0.tgz",
+        "shasum" : "b90a18007ff8439f5c8c1cf9fac18b241a7a0b80"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.4"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.23.0",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint . && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@4.0.0",
+      "gitHead" : "2c8f2538088be18c64d66f70f6803cb6ffb28896",
+      "_shasum" : "b90a18007ff8439f5c8c1cf9fac18b241a7a0b80",
+      "_nodeVersion" : "2.0.1"
+    },
+    "4.1.0" : {
+      "name" : "postcss-custom-media",
+      "description" : " PostCSS plugin to transform W3C CSS Custom Media Queries to more compatible CSS",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-4.1.0.tgz",
+        "shasum" : "b99be5ede95b72ed1e89dc18a138ec5c63df4bee"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.4"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.23.0",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint . && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@4.1.0",
+      "gitHead" : "7c1c36a18b70b2691f4ca86fadac5ccccbedc09d",
+      "_shasum" : "b99be5ede95b72ed1e89dc18a138ec5c63df4bee",
+      "_nodeVersion" : "2.3.1"
+    },
+    "1.2.1" : {
+      "name" : "postcss-custom-media",
+      "description" : " PostCSS plugin to transform W3C CSS Custom Media Queries to more compatible CSS",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-1.2.1.tgz",
+        "shasum" : "e30796bc5c6c2c5d8b190ce1028af1d57154cd10"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^2.2.5",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@1.2.1",
+      "gitHead" : "eb883df80504c641673cf69aa4d3e41e20d2e043",
+      "_shasum" : "e30796bc5c6c2c5d8b190ce1028af1d57154cd10",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.3.0" : {
+      "name" : "postcss-custom-media",
+      "description" : " PostCSS plugin to transform W3C CSS Custom Media Queries to more compatible CSS",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-1.3.0.tgz",
+        "shasum" : "34e2761b660a1698dfe42336db4481968d385e35"
+      },
+      "dependencies" : {
+        "postcss-message-helpers" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^3.0.0",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@1.3.0",
+      "gitHead" : "028466a914a9a10c6a901c5db1bba37e1d047c98",
+      "_shasum" : "34e2761b660a1698dfe42336db4481968d385e35",
+      "_nodeVersion" : "0.10.33"
+    },
+    "3.0.0" : {
+      "name" : "postcss-custom-media",
+      "description" : " PostCSS plugin to transform W3C CSS Custom Media Queries to more compatible CSS",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-3.0.0.tgz",
+        "shasum" : "5e35ae8badb31062ff6ba4940f7756df9cdea12c"
+      },
+      "dependencies" : {
+        "postcss-message-helpers" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^4.0.2",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@3.0.0",
+      "gitHead" : "177c593c18b5594a65e6d731b6e906e80b4e88fd",
+      "_shasum" : "5e35ae8badb31062ff6ba4940f7756df9cdea12c",
+      "_nodeVersion" : "0.10.35"
+    },
+    "6.0.0" : {
+      "name" : "postcss-custom-media",
+      "description" : "PostCSS plugin to transform W3C CSS Custom Media Queries to more compatible CSS",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-6.0.0.tgz",
+        "shasum" : "be532784110ecb295044fb5395a18006eb21a737"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-i-am-meticulous" : "^6.0.1",
+        "eslint-plugin-import" : "^1.7.0",
+        "npmpub" : "^3.1.0",
+        "tape" : "^4.6.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --fix .",
+        "tests" : "tape test",
+        "test" : "npm run lint && npm run tests",
+        "release" : "npmpub"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      },
+      "_id" : "postcss-custom-media@6.0.0",
+      "gitHead" : "c9192e5fbac7b34af9e3b9cf79a16e58f231d09c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-custom-media-6.0.0.tgz_1494581077012_0.5552500844933093"
+      },
+      "_shasum" : "be532784110ecb295044fb5395a18006eb21a737",
+      "eslintConfig" : {
+        "extends" : "eslint-config-i-am-meticulous/es5"
+      },
+      "_nodeVersion" : "6.5.0"
+    },
+    "5.0.0" : {
+      "name" : "postcss-custom-media",
+      "description" : "PostCSS plugin to transform W3C CSS Custom Media Queries to more compatible CSS",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-5.0.0.tgz",
+        "shasum" : "1e07fa54df17e4c6df5d0d0d5bcda6216332fa12"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.0.0",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint . && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@5.0.0",
+      "gitHead" : "4fc56724a73d54d803301a6a3004c97995a4aa92",
+      "_shasum" : "1e07fa54df17e4c6df5d0d0d5bcda6216332fa12",
+      "_nodeVersion" : "3.0.0"
+    },
+    "5.0.1" : {
+      "name" : "postcss-custom-media",
+      "description" : "PostCSS plugin to transform W3C CSS Custom Media Queries to more compatible CSS",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-5.0.1.tgz",
+        "shasum" : "138d25a184bf2eb54de12d55a6c01c30a9d8bd81"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.10.3",
+        "eslint-config-i-am-meticulous" : "^2.0.0",
+        "npmpub" : "^3.0.1",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --fix .",
+        "tests" : "tape test",
+        "test" : "npm run lint && npm run tests",
+        "release" : "npmpub"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@5.0.1",
+      "gitHead" : "c1bfe9fd04c66da6f86072f063c3539b061344b4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-6-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-custom-media-5.0.1.tgz_1454482531134_0.5744193433783948"
+      },
+      "_shasum" : "138d25a184bf2eb54de12d55a6c01c30a9d8bd81",
+      "eslintConfig" : {
+        "extends" : "eslint-config-i-am-meticulous/es5"
+      },
+      "_nodeVersion" : "5.5.0"
+    },
+    "7.0.5" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.5",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.5.tgz",
+        "shasum" : "be16a0838ab145dd06eab0703022467b2677e68c"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.2",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^10.0.1",
+        "eslint" : "^5.6.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.6",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.5",
+      "gitHead" : "0929148f04fff7d400e30d3cb1c6a0be961182e5",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.5_1539262663515_0.7449141430956239"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-custom-media",
+      "description" : "PostCSS plugin to import CSS files",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "MoOx"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-1.0.0.tgz",
+        "shasum" : "0fb6dd7c84c51b8628540834b3ff7f00f91fe90b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.5.9",
+        "jshint" : "^2.5.2",
+        "jshint-stylish" : "^0.4.0",
+        "postcss" : "^2.1.2",
+        "tap-colorize" : "^1.2.0",
+        "tape" : "^2.13.4"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jscs" : "jscs *.js **/*.js",
+        "jshint" : "jshint . --exclude node_modules --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "npm run jscs && npm run jshint && tape test | tap-colorize"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-alpha-5",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@1.0.0",
+      "gitHead" : "131ec96b31b49df368db74ef995a4db25243c23a",
+      "_shasum" : "0fb6dd7c84c51b8628540834b3ff7f00f91fe90b"
+    },
+    "7.0.6" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.6",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.6.tgz",
+        "shasum" : "c6b00ff7fee6ddc7dfdd946d66ed65e7743db09b"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.2",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^10.0.1",
+        "eslint" : "^5.6.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.6",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.6",
+      "gitHead" : "f095211389d761e426f43a32a437bde273930598",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.6_1539348388543_0.40422186205835664"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "1.0.1" : {
+      "name" : "postcss-custom-media",
+      "description" : "PostCSS plugin to import CSS files",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "MoOx"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-1.0.1.tgz",
+        "shasum" : "1490e7eca837697bf2b402298a74ecc66f0216c7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.5.9",
+        "jshint" : "^2.5.2",
+        "jshint-stylish" : "^0.4.0",
+        "postcss" : "^2.1.2",
+        "tap-colorize" : "^1.2.0",
+        "tape" : "^2.13.4"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jscs" : "jscs *.js **/*.js",
+        "jshint" : "jshint . --exclude node_modules --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "npm run jscs && npm run jshint && tape test | tap-colorize"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-alpha-5",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@1.0.1",
+      "gitHead" : "bbecd0ca415a2de799e0ce894835b95c5203530c",
+      "_shasum" : "1490e7eca837697bf2b402298a74ecc66f0216c7"
+    },
+    "1.1.0" : {
+      "name" : "postcss-custom-media",
+      "description" : "PostCSS plugin to import CSS files",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "MoOx"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-1.1.0.tgz",
+        "shasum" : "9709bad899552273eeb514450c7103480997b53c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.5.9",
+        "jshint" : "^2.5.2",
+        "jshint-stylish" : "^0.4.0",
+        "postcss" : "^2.1.2",
+        "tap-colorize" : "^1.2.0",
+        "tape" : "^2.13.4"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jscs" : "jscs *.js **/*.js",
+        "jshint" : "jshint . --exclude node_modules --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "npm run jscs && npm run jshint && tape test | tap-colorize"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.2",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@1.1.0",
+      "gitHead" : "42dfbc30fe7929ffcd930c397bed0599da0fe0d9",
+      "_shasum" : "9709bad899552273eeb514450c7103480997b53c",
+      "_nodeVersion" : "0.10.32"
+    },
+    "7.0.7" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.7",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.7.tgz",
+        "shasum" : "bbc698ed3089ded61aad0f5bfb1fb48bf6969e73"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.2",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^10.0.1",
+        "eslint" : "^5.7.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.6",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.7",
+      "gitHead" : "5db224c00226e8e0eac296d9dcee9208db299766",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.7_1539988038021_0.37024853597568397"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "1.2.0" : {
+      "name" : "postcss-custom-media",
+      "description" : "PostCSS plugin to import CSS files",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "MoOx"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-custom-media.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-1.2.0.tgz",
+        "shasum" : "59a7c5f73699e60465dc380a76886fd3892cd1e3"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.5.9",
+        "jshint" : "^2.5.2",
+        "jshint-stylish" : "^0.4.0",
+        "postcss" : "^2.1.2",
+        "tap-colorize" : "^1.2.0",
+        "tape" : "^2.13.4"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "media queries", "custom-media" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jscs" : "jscs *.js **/*.js",
+        "jshint" : "jshint . --exclude node_modules --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "npm run jscs && npm run jshint && tape test | tap-colorize"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.2",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-custom-media@1.2.0",
+      "gitHead" : "eb662898563e89f8897483e26fa9e8f50985b154",
+      "_shasum" : "59a7c5f73699e60465dc380a76886fd3892cd1e3",
+      "_nodeVersion" : "0.10.32"
+    },
+    "7.0.8" : {
+      "name" : "postcss-custom-media",
+      "description" : "Use Custom Media Queries in CSS",
+      "version" : "7.0.8",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-custom-media/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-custom-media/-/postcss-custom-media-7.0.8.tgz",
+        "shasum" : "fffd13ffeffad73621be5f387076a28b00294e0c"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.14"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.0",
+        "@babel/plugin-syntax-dynamic-import" : "^7.2.0",
+        "@babel/preset-env" : "^7.4.2",
+        "babel-eslint" : "^10.0.1",
+        "eslint" : "^5.16.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^4.0.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^1.7.4",
+        "rollup-plugin-babel" : "^4.3.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-custom-media@7.0.8",
+      "gitHead" : "ca22cf673fbffbc981807c1e4b758f1575fb8aec",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-custom-media_7.0.8_1553925780916_0.0868766504363867"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.11.0"
+    }
+  },
+  "readme" : "# PostCSS Custom Media [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[![NPM Version][npm-img]][npm-url]\n[![CSS Standard Status][css-img]][css-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[PostCSS Custom Media] lets you use Custom Media Queries in CSS, following the\n[CSS Media Queries] specification.\n\n```pcss\n@custom-media --small-viewport (max-width: 30em);\n\n@media (--small-viewport) {\n  /* styles for small viewport */\n}\n\n/* becomes */\n\n@media (max-width: 30em) {\n  /* styles for small viewport */\n}\n```\n\n## Usage\n\nAdd [PostCSS Custom Media] to your project:\n\n```bash\nnpm install postcss-custom-media --save-dev\n```\n\nUse [PostCSS Custom Media] to process your CSS:\n\n```js\nconst postcssCustomMedia = require('postcss-custom-media');\n\npostcssCustomMedia.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nconst postcss = require('postcss');\nconst postcssCustomMedia = require('postcss-custom-media');\n\npostcss([\n  postcssCustomMedia(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Custom Media] runs in all Node environments, with special instructions for:\n\n| [Node](INSTALL.md#node) | [PostCSS CLI](INSTALL.md#postcss-cli) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- | --- |\n\n## Options\n\n### preserve\n\nThe `preserve` option determines whether custom media and atrules using custom\nmedia should be preserved in their original form.\n\n```pcss\n@custom-media --small-viewport (max-width: 30em);\n\n@media (--small-viewport) {\n  /* styles for small viewport */\n}\n\n/* becomes */\n\n@custom-media --small-viewport (max-width: 30em);\n\n@media (max-width: 30em) {\n  /* styles for small viewport */\n}\n\n@media (--small-viewport) {\n  /* styles for small viewport */\n}\n```\n\n### importFrom\n\nThe `importFrom` option specifies sources where custom media can be imported\nfrom, which might be CSS, JS, and JSON files, functions, and directly passed\nobjects.\n\n```js\npostcssCustomMedia({\n  importFrom: 'path/to/file.css' // => @custom-selector --small-viewport (max-width: 30em);\n});\n```\n\n```pcss\n@media (max-width: 30em) {\n  /* styles for small viewport */\n}\n\n@media (--small-viewport) {\n  /* styles for small viewport */\n}\n```\n\nMultiple sources can be passed into this option, and they will be parsed in the\norder they are received. JavaScript files, JSON files, functions, and objects\nwill need to namespace custom media using the `customMedia` or\n`custom-media` key.\n\n```js\npostcssCustomMedia({\n  importFrom: [\n    'path/to/file.css',\n    'and/then/this.js',\n    'and/then/that.json',\n    {\n      customMedia: { '--small-viewport': '(max-width: 30em)' }\n    },\n    () => {\n      const customMedia = { '--small-viewport': '(max-width: 30em)' };\n\n      return { customMedia };\n    }\n  ]\n});\n```\n\n### exportTo\n\nThe `exportTo` option specifies destinations where custom media can be exported\nto, which might be CSS, JS, and JSON files, functions, and directly passed\nobjects.\n\n```js\npostcssCustomMedia({\n  exportTo: 'path/to/file.css' // @custom-media --small-viewport (max-width: 30em);\n});\n```\n\nMultiple destinations can be passed into this option, and they will be parsed\nin the order they are received. JavaScript files, JSON files, and objects will\nneed to namespace custom media using the `customMedia` or\n`custom-media` key.\n\n```js\nconst cachedObject = { customMedia: {} };\n\npostcssCustomMedia({\n  exportTo: [\n    'path/to/file.css',   // @custom-media --small-viewport (max-width: 30em);\n    'and/then/this.js',   // module.exports = { customMedia: { '--small-viewport': '(max-width: 30em)' } }\n    'and/then/this.mjs',  // export const customMedia = { '--small-viewport': '(max-width: 30em)' } }\n    'and/then/that.json', // { \"custom-media\": { \"--small-viewport\": \"(max-width: 30em)\" } }\n    cachedObject,\n    customMedia => {\n      customMedia    // { '--small-viewport': '(max-width: 30em)' }\n    }\n  ]\n});\n```\n\nSee example exports written to [CSS](test/export-media.css),\n[JS](test/export-media.js), [MJS](test/export-media.mjs), and\n[JSON](test/export-media.json).\n\n[cli-img]: https://img.shields.io/travis/postcss/postcss-custom-media/master.svg\n[cli-url]: https://travis-ci.org/postcss/postcss-custom-media\n[css-img]: https://cssdb.org/badge/custom-media-queries.svg\n[css-url]: https://cssdb.org/#custom-media-queries\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/postcss-custom-media.svg\n[npm-url]: https://www.npmjs.com/package/postcss-custom-media\n\n[CSS Media Queries]: https://drafts.csswg.org/mediaqueries-5/#custom-mq\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Custom Media]: https://github.com/postcss/postcss-custom-media\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  }, {
+    "name" : "moox",
+    "email" : "m@moox.io"
+  }, {
+    "name" : "semigradsky",
+    "email" : "semigradskyd@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2014-08-12T12:53:35.932Z",
+    "7.0.1" : "2018-09-14T05:02:29.996Z",
+    "7.0.2" : "2018-09-15T19:37:31.706Z",
+    "7.0.3" : "2018-09-20T20:26:04.287Z",
+    "7.0.4" : "2018-09-24T03:48:23.782Z",
+    "created" : "2014-08-12T12:53:35.932Z",
+    "7.0.0" : "2018-09-14T01:37:02.114Z",
+    "4.0.0" : "2015-06-17T06:45:34.497Z",
+    "4.1.0" : "2015-06-30T05:28:28.427Z",
+    "1.2.1" : "2014-11-09T06:29:51.674Z",
+    "1.3.0" : "2014-11-25T08:03:33.158Z",
+    "3.0.0" : "2015-01-29T06:24:51.637Z",
+    "6.0.0" : "2017-05-12T09:24:38.777Z",
+    "modified" : "2019-03-30T06:03:03.929Z",
+    "5.0.0" : "2015-08-25T04:56:49.290Z",
+    "5.0.1" : "2016-02-03T06:55:34.226Z",
+    "7.0.5" : "2018-10-11T12:57:43.660Z",
+    "1.0.0" : "2014-08-12T13:33:42.691Z",
+    "7.0.6" : "2018-10-12T12:46:28.680Z",
+    "1.0.1" : "2014-09-16T04:15:53.296Z",
+    "1.1.0" : "2014-09-30T04:37:54.867Z",
+    "7.0.7" : "2018-10-19T22:27:18.295Z",
+    "1.2.0" : "2014-10-01T05:09:04.073Z",
+    "7.0.8" : "2019-03-30T06:03:01.037Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/postcss/postcss-custom-media.git"
+  },
+  "users" : {
+    "asaupup" : true,
+    "xiechao06" : true,
+    "nuwaio" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/postcss/postcss-custom-media#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "custom", "media", "query", "queries", "w3c", "csswg", "atrule", "at-rule", "specification" ],
+  "contributors" : [ {
+    "name" : "Maxime Thirouin"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/postcss/postcss-custom-media/issues"
+  },
+  "license" : "MIT"
+}

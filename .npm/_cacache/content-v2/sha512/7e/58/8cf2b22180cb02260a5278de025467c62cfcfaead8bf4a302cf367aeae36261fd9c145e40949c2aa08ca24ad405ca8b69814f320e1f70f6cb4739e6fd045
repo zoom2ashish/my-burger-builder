@@ -1,0 +1,1990 @@
+{
+  "_id" : "@babel/helper-builder-binary-assignment-operator-visitor",
+  "_rev" : "72-ce2f81ad70ce86a70aca59eb14c32e9a",
+  "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+  "description" : "Helper function to build binary assignment operator visitors",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.0.0-rc.1" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-rc.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-rc.1.tgz",
+        "shasum" : "df64de2375585e23a0aaa5708ea137fb21157374"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-rc.1",
+        "@babel/types" : "7.0.0-rc.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-rc.1_1533845403976_0.8436341600023562"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-rc.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-rc.2.tgz",
+        "shasum" : "47904c65b4059893be8b9d16bfeac320df601ffa"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-rc.2",
+        "@babel/types" : "7.0.0-rc.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-rc.2_1534879570469_0.624499204721495"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-rc.0.tgz",
+        "shasum" : "12bc185ed11f39a6404a8142287d8369cbcca30e"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-rc.0",
+        "@babel/types" : "7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-rc.0_1533830418156_0.1280206557188459"
+      }
+    },
+    "7.0.0-beta.39" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.39",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.39.tgz",
+        "shasum" : "ce97bd572aeb2b2c1200c7a49dba019659a95f3c"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.39",
+        "@babel/types" : "7.0.0-beta.39"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.39",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.39.tgz_1517344127875_0.02201864100061357"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.38" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.38",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.38.tgz",
+        "shasum" : "df74851ac6dd5a5f3e4b2b2db7fec76097c5434e"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.38",
+        "@babel/types" : "7.0.0-beta.38"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.38",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.38.tgz_1516206764999_0.8309514613356441"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-rc.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-rc.3.tgz",
+        "shasum" : "2df11e360f20fb636383f7edd37a439d81c3e694"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-rc.3",
+        "@babel/types" : "7.0.0-rc.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-rc.3_1535134194297_0.7834734100307934"
+      }
+    },
+    "7.0.0-beta.37" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.37",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.37.tgz",
+        "shasum" : "964587d8dbcd38418888ad9351e677e38697029d"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.37",
+        "@babel/types" : "7.0.0-beta.37"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.37",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.37.tgz_1515427426469_0.4498967370018363"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-rc.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-rc.4.tgz",
+        "shasum" : "6e36489ce1d63f71f7a1b8b3c2bc9a6f19342b68"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "^7.0.0-rc.4",
+        "@babel/types" : "^7.0.0-rc.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-rc.4_1535388398415_0.40173156782897124"
+      }
+    },
+    "7.0.0-beta.5" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.5.tgz",
+        "shasum" : "a78a058202d93698fee19889699400df76790aff"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.5",
+        "@babel/types" : "7.0.0-beta.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.5.tgz_1509397071247_0.923073589336127"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.4" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.4.tgz",
+        "shasum" : "0bf757fa9a630c2af899ae0924e8592dfab9b6c5"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.4",
+        "@babel/types" : "7.0.0-beta.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.4.tgz_1509388574717_0.4984550236258656"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.32" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.32",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.32.tgz",
+        "shasum" : "d79a6474f9ff153e55f0184a727c6bcec7b383eb"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.32",
+        "@babel/types" : "7.0.0-beta.32"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.32",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.32.tgz_1510493645339_0.09712902852334082"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.54",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.54.tgz",
+        "shasum" : "d0a1967635b9eebcafdba80491917ee4981c12fa"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.54",
+        "@babel/types" : "7.0.0-beta.54"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.54_1531764030523_0.14763976990675776"
+      }
+    },
+    "7.0.0-beta.31" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.31",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.31.tgz",
+        "shasum" : "f619d270882a473d206030a5a2cb7d4018ea92b5"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.31",
+        "@babel/types" : "7.0.0-beta.31"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.31",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.31.tgz_1509739468557_0.1797688619699329"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.53",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.53.tgz",
+        "shasum" : "4456709623d7dafaa2bee94f825503f4c0ece85b"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.53",
+        "@babel/types" : "7.0.0-beta.53"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.53_1531316452481_0.5653658562186854"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.52",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.52.tgz",
+        "shasum" : "fb188e50a6ba4c3fb33b51a0737eaa3717e94759"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.52",
+        "@babel/types" : "7.0.0-beta.52"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.52_1530838789572_0.45485980454491415"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.51",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.51.tgz",
+        "shasum" : "2133fffe3e2f71591e42147b947291ca2ad39237"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.51",
+        "@babel/types" : "7.0.0-beta.51"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.51_1528838457503_0.38262311396210347"
+      }
+    },
+    "7.0.0-beta.36" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.36",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.36.tgz",
+        "shasum" : "7ec0a220da3164003913177f4051d7ceebdffd13"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.36",
+        "@babel/types" : "7.0.0-beta.36"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "james@henry.sc",
+        "name" : "jameshenry"
+      }, {
+        "email" : "kent@doddsfamily.us",
+        "name" : "kentcdodds"
+      }, {
+        "email" : "kaicataldo@gmail.com",
+        "name" : "kaicataldo"
+      }, {
+        "email" : "teddy.katz@gmail.com",
+        "name" : "not-an-aardvark"
+      }, {
+        "email" : "star.ctor@gmail.com",
+        "name" : "mysticatea"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.36",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.36.tgz_1514228745298_0.5724578620865941"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.35" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.35",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.35.tgz",
+        "shasum" : "cc63f36ec86a7fa5bae5ec2a255c459414b4263c"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.35",
+        "@babel/types" : "7.0.0-beta.35"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.35",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.35.tgz_1513288110769_0.15888805664144456"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.34" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.34",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.34.tgz",
+        "shasum" : "bd688caf01dc0b10fc8fc7e943ccd3ff3ab75121"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.34",
+        "@babel/types" : "7.0.0-beta.34"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.34",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.34.tgz_1512225622239_0.17580544925294816"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.56",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.56.tgz",
+        "shasum" : "c80d0edb162eb91d44dd5b25c5083cf6d72d7088"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.56",
+        "@babel/types" : "7.0.0-beta.56"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.56_1533344940139_0.10925725060408809"
+      }
+    },
+    "7.0.0-beta.33" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.33",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.33.tgz",
+        "shasum" : "c8706f63a6499efd3dadfdb6bc398ec6b44853f8"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.33",
+        "@babel/types" : "7.0.0-beta.33"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.33",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.33.tgz_1512138563683_0.5357228005304933"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.55",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.55.tgz",
+        "shasum" : "4d02128acff5c368a2d43ea8608260ce49aeec5d"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.55",
+        "@babel/types" : "7.0.0-beta.55"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.55_1532815715298_0.009975718543651535"
+      }
+    },
+    "7.7.4" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.7.4.tgz",
+        "shasum" : "5f73f2b28580e224b5b9bd03146a4015d6217f5f"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "^7.7.4",
+        "@babel/types" : "^7.7.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.7.4_1574465634226_0.3079760865802186"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.8.3.tgz",
+        "shasum" : "c84097a427a061ac56a1c30ebf54b7b22d241503"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "^7.8.3",
+        "@babel/types" : "^7.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.8.3_1578951745826_0.5565382294809489"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.50",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.50.tgz",
+        "shasum" : "2ba346686070f5872b51c862095a8f9a8a2574cb"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.50",
+        "@babel/types" : "7.0.0-beta.50"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.50_1528832895724_0.9806202388042291"
+      }
+    },
+    "7.7.0" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.7.0.tgz",
+        "shasum" : "32dd9551d6ed3a5fc2edc50d6912852aa18274d9"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "^7.7.0",
+        "@babel/types" : "^7.7.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v13.0.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.7.0",
+      "gitHead" : "97faa83953cb87e332554fa559a4956d202343ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.7.0_1572951243119_0.6262513463350583"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "7.8.0" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.8.0.tgz",
+        "shasum" : "c2237beb110f64f592dddcabef1098e9d766ef88"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "^7.8.0",
+        "@babel/types" : "^7.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.8.0_1578788247018_0.861252759507682"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.1.0" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.1.0.tgz",
+        "shasum" : "6b69628dfe4087798e0c4ed98e3d4a6b2fbd2f5f"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "^7.1.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.1.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.1.0_1537212676997_0.5058009046954794"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0.tgz",
+        "shasum" : "ba26336beb2abb547d58b6eba5b84d77975a39eb"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "^7.0.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0_1535406305438_0.12892950456033736"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/helper-builder-binary-assignment-operator-visitor\n\n> Helper function to build binary assignment operator visitors\n\nSee our website [@babel/helper-builder-binary-assignment-operator-visitor](https://babeljs.io/docs/en/next/babel-helper-builder-binary-assignment-operator-visitor.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-builder-binary-assignment-operator-visitor\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-builder-binary-assignment-operator-visitor --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.49",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.49.tgz",
+        "shasum" : "c62dd5042b54a590d5e71e6020c46b91d6c6c875"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.49",
+        "@babel/types" : "7.0.0-beta.49"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.49_1527264289081_0.43530717223360194"
+      },
+      "_shasum" : "c62dd5042b54a590d5e71e6020c46b91d6c6c875",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.48",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.48.tgz",
+        "shasum" : "bffc8d3f2b8c2f404c73b3bca54ab21279e7e8f7"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.48",
+        "@babel/types" : "7.0.0-beta.48"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.48_1527189898815_0.7933495209568204"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.43",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.43.tgz",
+        "shasum" : "88975b2aff0c02058ff54616d9768c82d50397e5"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.43",
+        "@babel/types" : "7.0.0-beta.43"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.43_1522687741615_0.574892673688371"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.42",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.42.tgz",
+        "shasum" : "7305281eb996954c47f87ec7710e2a9a8edd8077"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.42",
+        "@babel/types" : "7.0.0-beta.42"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.42",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.42_1521147132382_0.8492787676634133"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.41",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.41.tgz",
+        "shasum" : "7d30fa36fb7e2ac5d60d65990db41235718bc5df"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.41",
+        "@babel/types" : "7.0.0-beta.41"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.41",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.41_1521044822631_0.8372777733489298"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.40" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.40",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.40.tgz",
+        "shasum" : "bec4240c95d8b646812c5d4ac536a5579dbcdd53"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.40",
+        "@babel/types" : "7.0.0-beta.40"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.40",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.40_1518453771908_0.08697360016738198"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.47",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.47.tgz",
+        "shasum" : "d5917c29ee3d68abc2c72f604bc043f6e056e907"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.47",
+        "@babel/types" : "7.0.0-beta.47"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.47_1526343482689_0.7284929413276064"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.46",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.46.tgz",
+        "shasum" : "b6c8de48693b66bf90239e99856be4c2257e43ba"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.46",
+        "@babel/types" : "7.0.0-beta.46"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.46_1524457982147_0.0788829784489371"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.45",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.45.tgz",
+        "shasum" : "6737ab5a64a50356560016d2f2cc98f5ec2e4101"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.45",
+        "@babel/types" : "7.0.0-beta.45"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.45_1524448725404_0.6788358752825685"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/helper-builder-binary-assignment-operator-visitor",
+      "description" : "Helper function to build binary assignment operator visitors",
+      "version" : "7.0.0-beta.44",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-builder-binary-assignment-operator-visitor/-/helper-builder-binary-assignment-operator-visitor-7.0.0-beta.44.tgz",
+        "shasum" : "0e86d393c192bc846f871f3fcf4920b08a9cbb27"
+      },
+      "dependencies" : {
+        "@babel/helper-explode-assignable-expression" : "7.0.0-beta.44",
+        "@babel/types" : "7.0.0-beta.44"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-builder-binary-assignment-operator-visitor@7.0.0-beta.44",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-builder-binary-assignment-operator-visitor_7.0.0-beta.44_1522707641820_0.6904769360712566"
+      },
+      "_nodeVersion" : "8.10.0"
+    }
+  },
+  "readme" : "# @babel/helper-builder-binary-assignment-operator-visitor\n\n> Helper function to build binary assignment operator visitors\n\nSee our website [@babel/helper-builder-binary-assignment-operator-visitor](https://babeljs.io/docs/en/next/babel-helper-builder-binary-assignment-operator-visitor.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-builder-binary-assignment-operator-visitor\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-builder-binary-assignment-operator-visitor --dev\n```\n",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "time" : {
+    "7.0.0-rc.1" : "2018-08-09T20:10:04.072Z",
+    "7.0.0-rc.2" : "2018-08-21T19:26:10.528Z",
+    "7.0.0-rc.0" : "2018-08-09T16:00:18.204Z",
+    "7.0.0-beta.39" : "2018-01-30T20:28:47.989Z",
+    "7.0.0-beta.38" : "2018-01-17T16:32:45.088Z",
+    "7.0.0-rc.3" : "2018-08-24T18:09:54.411Z",
+    "7.0.0-beta.37" : "2018-01-08T16:03:46.544Z",
+    "7.0.0-rc.4" : "2018-08-27T16:46:38.521Z",
+    "7.0.0-beta.5" : "2017-10-30T20:57:51.305Z",
+    "7.0.0-beta.4" : "2017-10-30T18:36:14.799Z",
+    "7.0.0-beta.32" : "2017-11-12T13:34:06.171Z",
+    "7.0.0-beta.54" : "2018-07-16T18:00:31.225Z",
+    "7.0.0-beta.31" : "2017-11-03T20:04:28.654Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:52.542Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:49.643Z",
+    "7.0.0-beta.51" : "2018-06-12T21:20:57.566Z",
+    "7.0.0-beta.36" : "2017-12-25T19:05:46.135Z",
+    "7.0.0-beta.35" : "2017-12-14T21:48:30.833Z",
+    "7.0.0-beta.34" : "2017-12-02T14:40:23.200Z",
+    "7.0.0-beta.56" : "2018-08-04T01:09:00.220Z",
+    "7.0.0-beta.33" : "2017-12-01T14:29:24.592Z",
+    "7.0.0-beta.55" : "2018-07-28T22:08:35.391Z",
+    "modified" : "2020-01-13T21:42:28.332Z",
+    "7.7.4" : "2019-11-22T23:33:54.353Z",
+    "7.8.3" : "2020-01-13T21:42:26.058Z",
+    "7.0.0-beta.50" : "2018-06-12T19:48:15.784Z",
+    "7.7.0" : "2019-11-05T10:54:03.228Z",
+    "7.8.0" : "2020-01-12T00:17:27.151Z",
+    "7.1.0" : "2018-09-17T19:31:40.150Z",
+    "created" : "2017-10-30T18:36:14.799Z",
+    "7.0.0" : "2018-08-27T21:45:05.512Z",
+    "7.0.0-beta.49" : "2018-05-25T16:04:49.149Z",
+    "7.0.0-beta.48" : "2018-05-24T19:24:58.867Z",
+    "7.0.0-beta.43" : "2018-04-02T16:49:01.682Z",
+    "7.0.0-beta.42" : "2018-03-15T20:52:12.438Z",
+    "7.0.0-beta.41" : "2018-03-14T16:27:02.714Z",
+    "7.0.0-beta.40" : "2018-02-12T16:42:51.975Z",
+    "7.0.0-beta.47" : "2018-05-15T00:18:02.763Z",
+    "7.0.0-beta.46" : "2018-04-23T04:33:02.213Z",
+    "7.0.0-beta.45" : "2018-04-23T01:58:45.513Z",
+    "7.0.0-beta.44" : "2018-04-02T22:20:41.905Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

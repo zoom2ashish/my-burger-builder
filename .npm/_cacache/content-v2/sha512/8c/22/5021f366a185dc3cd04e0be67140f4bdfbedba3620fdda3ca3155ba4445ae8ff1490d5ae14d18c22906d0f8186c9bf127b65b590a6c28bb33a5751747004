@@ -1,0 +1,1896 @@
+{
+  "_id" : "postcss-colormin",
+  "_rev" : "36-672ee678fd5fe4afb8f64e5b05837856",
+  "name" : "postcss-colormin",
+  "description" : "Minify colors in your CSS files with PostCSS.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "latest" : "4.0.3"
+  },
+  "versions" : {
+    "4.0.2" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-4.0.2.tgz",
+        "shasum" : "93cd1fa11280008696887db1a528048b18e7ed99"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.0.0",
+        "color" : "^3.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0",
+        "css-color-names" : "0.0.4",
+        "write-file" : "^1.0.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel-node ./src/generate.js && babel src --out-dir dist --ignore /__tests__/,src/generate.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "postcss-colormin@4.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-colormin_4.0.2_1537823013463_0.09886758077115343"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.3" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-4.0.3.tgz",
+        "shasum" : "ae060bce93ed794ac71264f08132d550956bd381"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.0.0",
+        "color" : "^3.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0",
+        "css-color-names" : "0.0.4",
+        "write-file" : "^1.0.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel-node ./src/generate.js && babel src --out-dir dist --ignore /__tests__/,src/generate.js"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-colormin@4.0.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-colormin_4.0.3_1549994502450_0.5365836464131948"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-4.0.0.tgz",
+        "shasum" : "8a21f10b3843590d181eedf2a6a109617b6553ec"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.0.0",
+        "color" : "^3.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0",
+        "css-color-names" : "0.0.4",
+        "write-file" : "^1.0.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel-node ./src/generate.js && babel src --out-dir dist --ignore /__tests__/,src/generate.js"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-colormin@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-colormin_4.0.0_1530702880668_0.054010957411729565"
+      }
+    },
+    "4.0.1" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-4.0.1.tgz",
+        "shasum" : "6f1c18a0155bc69613f2ff13843e2e4ae8ff0bbe"
+      },
+      "dependencies" : {
+        "browserslist" : "^4.0.0",
+        "color" : "^3.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0",
+        "css-color-names" : "0.0.4",
+        "write-file" : "^1.0.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "trysound@yandex.ru",
+        "name" : "trysound"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel-node ./src/generate.js && babel src --out-dir dist --ignore /__tests__/,src/generate.js"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-colormin@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-colormin_4.0.1_1531508092696_0.16570011090808223"
+      }
+    },
+    "4.0.0-rc.2" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-4.0.0-rc.2.tgz",
+        "shasum" : "978e17b77552cdde52e5e15503062b5cb7579272"
+      },
+      "dependencies" : {
+        "browserslist" : "^2.0.0",
+        "color" : "^1.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0",
+        "css-color-names" : "0.0.4",
+        "write-file" : "^1.0.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel-node ./src/generate.js && babel src --out-dir dist --ignore /__tests__/,src/generate.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-colormin-4.0.0-rc.2.tgz_1502049191042_0.01789034577086568"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-4.0.0-rc.0.tgz",
+        "shasum" : "59a54c1c0d5e6fd9bfec9a3606d733d57de5a99e"
+      },
+      "dependencies" : {
+        "browserslist" : "^2.0.0",
+        "color" : "^1.0.0",
+        "has" : "^1.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0",
+        "css-color-names" : "0.0.4",
+        "write-file" : "^1.0.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel-node ./src/generate.js && babel src --out-dir dist --ignore /__tests__/,src/generate.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-colormin-4.0.0-rc.0.tgz_1496311178427_0.15353835094720125"
+      },
+      "_shasum" : "59a54c1c0d5e6fd9bfec9a3606d733d57de5a99e",
+      "_nodeVersion" : "6.9.1"
+    },
+    "2.0.0" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.0.0.tgz",
+        "shasum" : "47e1a74cf23b14db090638f809dab2e0793b0316"
+      },
+      "dependencies" : {
+        "color" : "^0.10.1",
+        "colormin" : "^1.0.4",
+        "postcss" : "^5.0.4",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.0.0",
+      "gitHead" : "918c4e2196e97ccd075cdc993402c09996d76eec",
+      "_shasum" : "47e1a74cf23b14db090638f809dab2e0793b0316",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.1.0" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.0.tgz",
+        "shasum" : "cdff786d5c39e547437ca9511647f7d2c0259c0b"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.4",
+        "postcss" : "^5.0.4",
+        "postcss-value-parser" : "^2.0.2"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.0",
+      "gitHead" : "e3714e26ce324d5f549599a8c1d4800b0b4306d3",
+      "_shasum" : "cdff786d5c39e547437ca9511647f7d2c0259c0b",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.1.7" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.1.7",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.7.tgz",
+        "shasum" : "b9e30b04d6826be6858c124c19abf4135518d1e4"
+      },
+      "dependencies" : {
+        "colr-convert" : "^1.0.5",
+        "css-color-names" : "0.0.2",
+        "postcss" : "^5.0.4",
+        "postcss-value-parser" : "^3.0.2"
+      },
+      "devDependencies" : {
+        "babel" : "^5.8.23",
+        "babel-tape-runner" : "^1.2.0",
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "babel src --out-dir dist --ignore /__tests__/",
+        "test-unformatted" : "babel-tape-runner \"src/**/__tests__/*.js\"",
+        "test" : "npm run test-unformatted | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.7",
+      "gitHead" : "1f49e19ec76b7cd8043a43bfb9235d0083e0c488",
+      "_shasum" : "b9e30b04d6826be6858c124c19abf4135518d1e4",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.1.8" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.1.8",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.8.tgz",
+        "shasum" : "37d379d5e3f739ebbb8485169aa1266d1c608af5"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.5",
+        "postcss" : "^5.0.13",
+        "postcss-value-parser" : "^3.2.3"
+      },
+      "devDependencies" : {
+        "ava" : "github:sindresorhus/ava#945dbea40a6a500a24d54ebcc7e10dcd75647fc7",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-preset-es2015-loose" : "^6.1.4",
+        "babel-preset-stage-0" : "^6.3.13",
+        "del-cli" : "^0.1.2",
+        "eslint" : "^1.10.3"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "prepublish" : "de dist && babel src --out-dir dist --ignore /__tests__/",
+        "test" : "npm run lint && babel src --out-dir dist && ava dist/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.9",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.8",
+      "gitHead" : "469d264e90bc9054b35beb1f208be66f025cb37b",
+      "_shasum" : "37d379d5e3f739ebbb8485169aa1266d1c608af5",
+      "_nodeVersion" : "4.2.1"
+    },
+    "2.1.5" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.1.5",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.5.tgz",
+        "shasum" : "b81007c7c0677cdcced4a308996d993dec47f778"
+      },
+      "dependencies" : {
+        "colr-convert" : "^1.0.5",
+        "css-color-names" : "0.0.2",
+        "postcss" : "^5.0.4",
+        "postcss-value-parser" : "^3.0.2"
+      },
+      "devDependencies" : {
+        "babel" : "^5.8.23",
+        "babel-tape-runner" : "^1.2.0",
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "babel src --out-dir dist --ignore /__tests__/",
+        "test-unformatted" : "babel-tape-runner \"src/**/__tests__/*.js\"",
+        "test" : "npm run test-unformatted | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.5",
+      "gitHead" : "eabbf1e9446de49e1573e0f194951c5cba66aca4",
+      "_shasum" : "b81007c7c0677cdcced4a308996d993dec47f778",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.1.6" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.1.6",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.6.tgz",
+        "shasum" : "16d433b4972653cf6b2c1de58ee37fe7eb9787ed"
+      },
+      "dependencies" : {
+        "colr-convert" : "^1.0.5",
+        "css-color-names" : "0.0.2",
+        "postcss" : "^5.0.4",
+        "postcss-value-parser" : "^3.0.2"
+      },
+      "devDependencies" : {
+        "babel" : "^5.8.23",
+        "babel-tape-runner" : "^1.2.0",
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "babel src --out-dir dist --ignore /__tests__/",
+        "test-unformatted" : "babel-tape-runner \"src/**/__tests__/*.js\"",
+        "test" : "npm run test-unformatted | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.6",
+      "gitHead" : "2794cf039a7455beb1ee10820344f09f66b805f7",
+      "_shasum" : "16d433b4972653cf6b2c1de58ee37fe7eb9787ed",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.1.3" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.1.3",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.3.tgz",
+        "shasum" : "c987de0ec3c0970cba1927f85343f454d7a12189"
+      },
+      "dependencies" : {
+        "colr-convert" : "^1.0.5",
+        "css-color-names" : "0.0.2",
+        "postcss" : "^5.0.4",
+        "postcss-value-parser" : "^3.0.2"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.3",
+      "gitHead" : "cf23e1efa13c3f72ba2027b73f2555e3e15466e0",
+      "_shasum" : "c987de0ec3c0970cba1927f85343f454d7a12189",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.2.2" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.2.2.tgz",
+        "shasum" : "6631417d5f0e909a3d7ec26b24c8a8d1e4f96e4b"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.5",
+        "postcss" : "^5.0.13",
+        "postcss-value-parser" : "^3.2.3"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.2.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "babel-register" : "^6.9.0",
+        "del-cli" : "^0.2.0",
+        "eslint" : "^3.0.0",
+        "eslint-config-cssnano" : "^3.0.0",
+        "eslint-plugin-babel" : "^3.3.0",
+        "eslint-plugin-import" : "^2.0.1"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint src",
+        "prepublish" : "del-cli dist && babel src --out-dir dist --ignore /__tests__/",
+        "test" : "ava src/__tests__",
+        "test-012" : "ava src/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.2.2",
+      "gitHead" : "538bce656e50ad9172b607edb4f020e941939eeb",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-colormin-2.2.2.tgz_1486402666943_0.8931563096120954"
+      },
+      "_shasum" : "6631417d5f0e909a3d7ec26b24c8a8d1e4f96e4b",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "ava" : {
+        "require" : "babel-register"
+      },
+      "_nodeVersion" : "6.9.1"
+    },
+    "2.1.4" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.1.4",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.4.tgz",
+        "shasum" : "20b034cf77a212b155dec990b9cf76d0e00b8bfb"
+      },
+      "dependencies" : {
+        "colr-convert" : "^1.0.5",
+        "css-color-names" : "0.0.2",
+        "postcss" : "^5.0.4",
+        "postcss-value-parser" : "^3.0.2"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "lib", "index.js", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.4",
+      "gitHead" : "92d045313c9ca2f6af66afe79a22c06fd449e78d",
+      "_shasum" : "20b034cf77a212b155dec990b9cf76d0e00b8bfb",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.1.1" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.1.tgz",
+        "shasum" : "0dc7fb3b949f184a480ec8075f9c7a0912682d58"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.4",
+        "postcss" : "^5.0.4",
+        "postcss-value-parser" : "^2.0.2"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.1",
+      "gitHead" : "1c2a5821649f583718192023eda5b38cba828975",
+      "_shasum" : "0dc7fb3b949f184a480ec8075f9c7a0912682d58",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.2.0" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.2.0.tgz",
+        "shasum" : "cef99d4d5854e51bfd8b8d60af0a3f83e439645f"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.5",
+        "postcss" : "^5.0.13",
+        "postcss-value-parser" : "^3.2.3"
+      },
+      "devDependencies" : {
+        "ava" : "^0.12.0",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "del-cli" : "^0.2.0",
+        "eslint" : "^2.0.0",
+        "eslint-config-cssnano" : "^2.0.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "prepublish" : "del-cli dist && babel src --out-dir dist --ignore /__tests__/",
+        "test" : "npm run lint && babel src --out-dir dist && ava dist/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.2.0",
+      "gitHead" : "a20ce340578206537bf0915657793cd6df472217",
+      "_npmOperationalInternal" : {
+        "host" : "packages-11-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-colormin-2.2.0.tgz_1456866513595_0.27464338461868465"
+      },
+      "_shasum" : "cef99d4d5854e51bfd8b8d60af0a3f83e439645f",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "_nodeVersion" : "5.4.1"
+    },
+    "2.1.2" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.1.2.tgz",
+        "shasum" : "97d96037476c3f3afee737311eea23e89c0dbc91"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.4",
+        "postcss" : "^5.0.4",
+        "postcss-value-parser" : "^2.0.2"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.1.2",
+      "gitHead" : "1fd2dc4d4e06ef08d508628a8ad7acdbe442f4bb",
+      "_shasum" : "97d96037476c3f3afee737311eea23e89c0dbc91",
+      "_nodeVersion" : "2.3.4"
+    },
+    "2.2.1" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS.",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-2.2.1.tgz",
+        "shasum" : "dc5421b6ae6f779ef6bfd47352b94abe59d0316b"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.5",
+        "postcss" : "^5.0.13",
+        "postcss-value-parser" : "^3.2.3"
+      },
+      "devDependencies" : {
+        "ava" : "^0.16.0",
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-plugin-add-module-exports" : "^0.2.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "babel-register" : "^6.9.0",
+        "del-cli" : "^0.2.0",
+        "eslint" : "^3.0.0",
+        "eslint-config-cssnano" : "^3.0.0",
+        "eslint-plugin-babel" : "^3.3.0",
+        "eslint-plugin-import" : "^1.10.2"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "files" : [ "dist", "LICENSE-MIT" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint src",
+        "prepublish" : "del-cli dist && babel src --out-dir dist --ignore /__tests__/",
+        "test" : "ava src/__tests__",
+        "test-012" : "ava src/__tests__"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.2",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@2.2.1",
+      "gitHead" : "cb153a13359c62b39c2f9a1fed3e6b3159f42e95",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-colormin-2.2.1.tgz_1474318612235_0.052187309600412846"
+      },
+      "_shasum" : "dc5421b6ae6f779ef6bfd47352b94abe59d0316b",
+      "eslintConfig" : {
+        "extends" : "cssnano"
+      },
+      "ava" : {
+        "require" : "babel-register"
+      },
+      "_nodeVersion" : "5.4.1"
+    },
+    "1.2.1" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ben-eb/postcss-colormin"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.2.1.tgz",
+        "shasum" : "3832510b00d2f94b937f05023cf8fbd77a1c6334"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.1",
+        "postcss" : "^4.1.2",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      },
+      "_id" : "postcss-colormin@1.2.1",
+      "gitHead" : "7a4c5239e2dd17a75c6a76c8b37cc97848baa051",
+      "_shasum" : "3832510b00d2f94b937f05023cf8fbd77a1c6334",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.2.2" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ben-eb/postcss-colormin"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.2.2.tgz",
+        "shasum" : "2e50d09f4711ccb9c06ccc1018615b48c66c3409"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.1",
+        "postcss" : "^4.1.2",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      },
+      "_id" : "postcss-colormin@1.2.2",
+      "gitHead" : "fedd559e1e04778958af20a6beee2cbe4717b3b8",
+      "_shasum" : "2e50d09f4711ccb9c06ccc1018615b48c66c3409",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.2.3" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.2.3",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ben-eb/postcss-colormin"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.2.3.tgz",
+        "shasum" : "e38b7197895564f3f1c9ead7b95c8631ebad2464"
+      },
+      "dependencies" : {
+        "color" : "^0.8.0",
+        "colormin" : "^1.0.1",
+        "postcss" : "^4.1.2",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "therealbenbriggs@hotmail.com"
+      },
+      "_id" : "postcss-colormin@1.2.3",
+      "gitHead" : "787f21baddd800c7eb5c9e3ee3f74b12faf2655d",
+      "_shasum" : "e38b7197895564f3f1c9ead7b95c8631ebad2464",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.2.4" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.2.4",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.2.4.tgz",
+        "shasum" : "558aec0f1806c903a460c77f531c84781c39857e"
+      },
+      "dependencies" : {
+        "color" : "^0.10.1",
+        "colormin" : "^1.0.3",
+        "postcss" : "^4.1.16",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.0.1"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@1.2.4",
+      "gitHead" : "de0c27a0e65acafab4f4533e90b4cc55b8cd5d1d",
+      "_shasum" : "558aec0f1806c903a460c77f531c84781c39857e",
+      "_nodeVersion" : "2.3.4"
+    },
+    "1.2.5" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.2.5",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.2.5.tgz",
+        "shasum" : "741ec2ae71bac278cd3fba0b686302ac9944ea33"
+      },
+      "dependencies" : {
+        "color" : "^0.10.1",
+        "colormin" : "^1.0.3",
+        "postcss" : "^4.1.16",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.0.1"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      },
+      "_id" : "postcss-colormin@1.2.5",
+      "gitHead" : "234584f0404ec7f09694d0df7f286dbb1abc38e5",
+      "_shasum" : "741ec2ae71bac278cd3fba0b686302ac9944ea33",
+      "_nodeVersion" : "0.12.5"
+    },
+    "1.2.6" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.2.6",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.2.6.tgz",
+        "shasum" : "a7432c7ff04db489c5b7b552fa182ceec9b4d561"
+      },
+      "dependencies" : {
+        "color" : "^0.10.1",
+        "colormin" : "^1.0.3",
+        "postcss" : "^4.1.16",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.0.1"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@1.2.6",
+      "gitHead" : "b1a6317dfa5cfc29258fce16216a75dacf7c4d1e",
+      "_shasum" : "a7432c7ff04db489c5b7b552fa182ceec9b4d561",
+      "_nodeVersion" : "2.3.4"
+    },
+    "1.2.7" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.2.7",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.2.7.tgz",
+        "shasum" : "eb73dbe83804ea9198356b132f6f99f4600fd654"
+      },
+      "dependencies" : {
+        "color" : "^0.10.1",
+        "colormin" : "^1.0.3",
+        "postcss" : "^4.1.16",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.0.2",
+        "tape" : "^4.0.1"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      }, {
+        "name" : "trysound",
+        "email" : "trysound@yandex.ru"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@1.2.7",
+      "gitHead" : "edd824198d0583ca7f090f37daf948dcce944642",
+      "_shasum" : "eb73dbe83804ea9198356b132f6f99f4600fd654",
+      "_nodeVersion" : "2.3.4"
+    },
+    "1.0.0" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.0.0.tgz",
+        "shasum" : "01927c03d18df1f8467656a8ee423e5c00bf3ef0"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.1",
+        "postcss" : "^4.0.6"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@1.0.0",
+      "gitHead" : "fe609659b540addb942f8c4935f2d8939a606bde",
+      "_shasum" : "01927c03d18df1f8467656a8ee423e5c00bf3ef0",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.1.0" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.1.0.tgz",
+        "shasum" : "522dd824b5f3f08813e9fdf68f38a189ceffc2f2"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.1",
+        "postcss" : "^4.0.6",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@1.1.0",
+      "gitHead" : "22ef2ca98e6b7d57f8bbeeaecb3d70b46abf5d63",
+      "_shasum" : "522dd824b5f3f08813e9fdf68f38a189ceffc2f2",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.2.0" : {
+      "name" : "postcss-colormin",
+      "description" : "Minify colors in your CSS files with PostCSS and colormin.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/postcss-colormin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ben-eb/postcss-colormin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/postcss-colormin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-colormin/-/postcss-colormin-1.2.0.tgz",
+        "shasum" : "7a8d53947d5d5b02365a1708d82acfbdb481a8a9"
+      },
+      "dependencies" : {
+        "colormin" : "^1.0.1",
+        "postcss" : "^4.1.2",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "jshint" : "^2.6.3",
+        "jshint-stylish" : "^1.0.1",
+        "tap-spec" : "^2.2.2",
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugins" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint index.js --reporter node_modules/jshint-stylish/stylish.js",
+        "test" : "tape test.js | tap-spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-colormin@1.2.0",
+      "gitHead" : "7beace80d14d15a180e1a3e2df071085d33697c1",
+      "_shasum" : "7a8d53947d5d5b02365a1708d82acfbdb481a8a9",
+      "_nodeVersion" : "0.10.33"
+    }
+  },
+  "readme" : "# [postcss][postcss]-colormin\n\n> Minify colors in your CSS files with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-colormin) do:\n\n```\nnpm install postcss-colormin --save\n```\n\n\n## Example\n\n```js\nvar postcss = require('postcss')\nvar colormin = require('postcss-colormin');\n\nvar css = 'h1 {color: rgba(255, 0, 0, 1)}';\nconsole.log(postcss(colormin()).process(css).css);\n\n// => 'h1 {color:red}'\n```\n\nFor more examples see the [tests](src/__tests__/index.js).\n\n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n\n[postcss]:  https://github.com/postcss/postcss\n",
+  "maintainers" : [ {
+    "email" : "andrey@sitnik.ru",
+    "name" : "ai"
+  }, {
+    "email" : "beneb.info@gmail.com",
+    "name" : "beneb"
+  }, {
+    "email" : "chris@eppsteins.net",
+    "name" : "chriseppstein"
+  }, {
+    "email" : "sheo13666q@gmail.com",
+    "name" : "evilebottnawi"
+  }, {
+    "email" : "trysound@yandex.ru",
+    "name" : "trysound"
+  } ],
+  "author" : {
+    "name" : "Ben Briggs",
+    "email" : "beneb.info@gmail.com",
+    "url" : "http://beneb.info"
+  },
+  "time" : {
+    "4.0.2" : "2018-09-24T21:03:33.581Z",
+    "4.0.3" : "2019-02-12T18:01:42.563Z",
+    "4.0.0" : "2018-07-04T11:14:40.741Z",
+    "4.0.1" : "2018-07-13T18:54:52.769Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:11.952Z",
+    "4.0.0-rc.0" : "2017-06-01T09:59:39.326Z",
+    "modified" : "2019-02-12T18:01:45.174Z",
+    "2.0.0" : "2015-09-04T22:51:28.101Z",
+    "2.1.0" : "2015-09-17T15:32:17.028Z",
+    "created" : "2015-03-29T23:06:21.596Z",
+    "2.1.7" : "2015-10-12T13:57:00.354Z",
+    "2.1.8" : "2015-12-27T15:22:16.355Z",
+    "2.1.5" : "2015-10-09T09:03:59.262Z",
+    "2.1.6" : "2015-10-12T13:35:37.773Z",
+    "2.1.3" : "2015-10-08T14:05:47.296Z",
+    "2.2.2" : "2017-02-06T17:37:48.709Z",
+    "2.1.4" : "2015-10-08T14:21:23.228Z",
+    "2.1.1" : "2015-09-17T23:10:44.923Z",
+    "2.2.0" : "2016-03-01T21:08:34.526Z",
+    "2.1.2" : "2015-09-21T21:00:32.048Z",
+    "2.2.1" : "2016-09-19T20:56:54.339Z",
+    "1.2.1" : "2015-04-04T13:25:13.986Z",
+    "1.2.2" : "2015-04-07T09:43:43.200Z",
+    "1.2.3" : "2015-05-05T21:41:03.688Z",
+    "1.2.4" : "2015-08-03T17:30:02.881Z",
+    "1.2.5" : "2015-08-13T13:32:08.582Z",
+    "1.2.6" : "2015-08-27T09:33:57.153Z",
+    "1.2.7" : "2015-09-03T08:46:00.030Z",
+    "1.0.0" : "2015-03-29T23:06:21.596Z",
+    "1.1.0" : "2015-03-30T10:46:40.870Z",
+    "1.2.0" : "2015-04-02T12:10:01.515Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/cssnano/cssnano",
+  "keywords" : [ "color", "colors", "compression", "css", "minify", "postcss", "postcss-plugin" ],
+  "bugs" : {
+    "url" : "https://github.com/cssnano/cssnano/issues"
+  },
+  "license" : "MIT"
+}

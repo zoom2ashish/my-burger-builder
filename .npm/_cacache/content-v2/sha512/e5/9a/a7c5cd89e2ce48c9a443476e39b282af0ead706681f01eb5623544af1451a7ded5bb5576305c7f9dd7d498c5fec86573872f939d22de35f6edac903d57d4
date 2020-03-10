@@ -1,0 +1,981 @@
+{
+  "_id" : "css-has-pseudo",
+  "_rev" : "10-7758e331eed20c46d5389db2dab1ef1c",
+  "name" : "css-has-pseudo",
+  "description" : "Style elements relative to other elements in CSS",
+  "dist-tags" : {
+    "latest" : "1.0.0"
+  },
+  "versions" : {
+    "0.6.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.6.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.6.0.tgz",
+        "shasum" : "9713aa7dc87dbdc775873b26390c242ec4241840"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.6.0",
+      "gitHead" : "3cbe4737f1bb502bb8ad309417913baf52113c90",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.6.0_1543178075871_0.3712660473162539"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.7.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.7.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.7.0.tgz",
+        "shasum" : "803c374f38208196ebc232bd0afa4f7f635fe0b5"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.7.0",
+      "gitHead" : "eecfdc8920d8baf88278693ce1d1d47c856ccaeb",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.7.0_1543249374464_0.9364864204312744"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.4.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.4.0.tgz",
+        "shasum" : "1ff87f7e88c18625ac1df5809fb49013b139bfd1"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.4.0",
+      "gitHead" : "e9a742cb3726e9659ef39f683d81fb8f0f0c150f",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.4.0_1542818277452_0.8219177303740317"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.5.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.5.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.5.0.tgz",
+        "shasum" : "7faeb8c4027786942648e70fae9ff2ce296f52db"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.5.0",
+      "gitHead" : "47c5fd4bc60554419030f429106c896d11f0fbbd",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.5.0_1542829413011_0.2799971980517868"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.8.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.8.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.8.0.tgz",
+        "shasum" : "6f73684d2d58b710babad577002c0a8a7220432c"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.8.0",
+      "gitHead" : "4b1a2aad54b117029fd44690ade5dc4195c73e93",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.8.0_1543268182676_0.4656913690446389"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.9.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.9.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.9.0.tgz",
+        "shasum" : "f5aa7444213f564530a6f0be8476716694f0f518"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.9.0",
+      "gitHead" : "ad0c3e58522c8b696df7896b537f37a5cd42c488",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.9.0_1543287156797_0.28244704357518824"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.10.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.10.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.10.0.tgz",
+        "shasum" : "3c642ab34ca242c59c41a125df9105841f6966ee"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.10.0",
+      "gitHead" : "194f13c2fc603737e6a91a4f8c35ac1d718566c9",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.10.0_1544585713027_0.9208639498607121"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.3.0"
+    },
+    "0.2.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.2.0.tgz",
+        "shasum" : "161924810fefca2012e0835aa673fb687648d5a3"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.2.0",
+      "gitHead" : "0e28cb6417ab41d14b11b538ef1bb43c07dafc8c",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.2.0_1542816987487_0.6189268918468795"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.3.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.3.0.tgz",
+        "shasum" : "4b4d99478f4f96f45ee875a17f6305188b366b5b"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.3.0",
+      "gitHead" : "6a4ed5d33b976f948f96fda6c594f8792a401926",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.3.0_1542817078230_0.7400316815728796"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "1.0.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-1.0.0.tgz",
+        "shasum" : "6a58e09e36851ab3891cfa7196d27455423c584d"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.17",
+        "postcss-selector-parser" : "^6.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/preset-env" : "^7.4.5",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.16.0",
+        "postcss-tape" : "^5.0.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^1.14.6",
+        "rollup-plugin-babel" : "^4.3.2",
+        "rollup-plugin-terser" : "^5.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup --config .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup --config .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup --config .rollup.js --silent",
+        "build:node" : "rollup --config .rollup.js --silent",
+        "prepublishOnly" : "npm test && npm run build",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/{*,**/*}.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin postcss.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@1.0.0",
+      "gitHead" : "45aff94f47a14f09b131e6d48f24290b7233dbb4",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_1.0.0_1560169075699_0.7401571511280587"
+      },
+      "eslintConfig" : {
+        "env" : {
+          "browser" : true,
+          "es6" : true,
+          "node" : true
+        },
+        "extends" : "eslint:recommended",
+        "parser" : "babel-eslint",
+        "parserOptions" : {
+          "ecmaVersion" : 2018,
+          "impliedStrict" : true,
+          "sourceType" : "module"
+        },
+        "root" : true
+      },
+      "_nodeVersion" : "12.1.0"
+    },
+    "0.1.0" : {
+      "name" : "css-has-pseudo",
+      "description" : "Style elements relative to other elements in CSS",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/css-has-pseudo/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-has-pseudo/-/css-has-pseudo-0.1.0.tgz",
+        "shasum" : "7d6b64e75340c637b139430d0e4f95606dc378bc"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.6",
+        "postcss-selector-parser" : "^5.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.6",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-eslint" : "^10.0.1",
+        "cross-env" : "^5.2.0",
+        "eslint" : "^5.9.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.67.3",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-terser" : "^3.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+      "license" : "CC0-1.0",
+      "bin" : {
+        "css-has-pseudo" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build:browser && npm run build:cli && npm run build:node && npm run build:postcss",
+        "build:browser" : "cross-env NODE_ENV=browser rollup -c .rollup.js --silent",
+        "build:cli" : "cross-env NODE_ENV=cli rollup -c .rollup.js --silent",
+        "build:postcss" : "cross-env NODE_ENV=postcss rollup -c .rollup.js --silent",
+        "build:node" : "rollup -c .rollup.js --silent",
+        "prepublishOnly" : "npm run build && npm test",
+        "pretest" : "npm run build:postcss",
+        "pretest:postcss" : "npm run build:postcss",
+        "test" : "npm run test:js && npm run test:postcss",
+        "test:js" : "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+        "test:postcss" : "postcss-tape --plugin=postcss.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "css-has-pseudo@0.1.0",
+      "gitHead" : "e9566e70d66339718c3214e6ce48f4e06c1dac49",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-has-pseudo_0.1.0_1542768790290_0.24491877304103316"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.1.0"
+    }
+  },
+  "readme" : "# CSS Has Pseudo [<img src=\"http://jonathantneal.github.io/js-logo.svg\" alt=\"\" width=\"90\" height=\"90\" align=\"right\">][CSS Has Pseudo]\n\n[![NPM Version][npm-img]][npm-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[CSS Has Pseudo] lets you style elements relative to other elements in CSS,\nfollowing the [Selectors Level 4] specification.\n\n```css\na:has(> img) {\n  /* style links that contain an image */\n}\n\nh1:has(+ p) {\n  /* style level 1 headings that are followed by a paragraph */\n}\n\nsection:not(:has(h1, h2, h3, h4, h5, h6)) {\n  /* style sections that don’t contain any heading elements */\n}\n\nbody:has(:focus) {\n  /* style the body if it contains a focused element */\n}\n```\n\n## Usage\n\nFrom the command line, transform CSS files that use `:has` selectors:\n\n```bash\nnpx css-has-pseudo SOURCE.css TRANSFORMED.css\n```\n\nNext, use your transformed CSS with this script:\n\n```html\n<link rel=\"stylesheet\" href=\"TRANSFORMED.css\">\n<script src=\"https://unpkg.com/css-has-pseudo/browser\"></script>\n<script>cssHasPseudo(document)</script>\n```\n\nThat’s it. The script is 765 bytes and works in all browsers, including\nInternet Explorer 11. With a [Mutation Observer polyfill], the script will work\ndown to Internet Explorer 9.\n\n## How it works\n\nThe [PostCSS plugin](README-POSTCSS.md) clones rules containing `:has`,\nreplacing them with an alternative `[:has]` selector.\n\n```css\nbody:has(:focus) {\n  background-color: yellow;\n}\n\nsection:not(:has(h1, h2, h3, h4, h5, h6)) {\n  background-color: gray;\n}\n\n/* becomes */\n\nbody[\\:has\\(\\:focus\\)] {\n  background-color: yellow;\n}\n\nbody:has(:focus) {\n  background-color: yellow;\n}\n\nsection[\\:not-has\\(h1\\,\\%20h2\\,\\%20h3\\,\\%20h4\\,\\%20h5\\,\\%20h6\\)] {\n  background-color: gray;\n}\n\nsection:not(:has(h1, h2, h3, h4, h5, h6)) {\n  background-color: gray;\n}\n```\n\nNext, the [JavaScript library](README-BROWSER.md) adds a `[:has]` attribute to\nelements otherwise matching `:has` natively.\n\n```html\n<body :has(:focus)>\n  <input value=\"This element is focused\">\n</body>\n```\n\n[cli-img]: https://img.shields.io/travis/csstools/css-has-pseudo/master.svg\n[cli-url]: https://travis-ci.org/csstools/css-has-pseudo\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/css-has-pseudo.svg\n[npm-url]: https://www.npmjs.com/package/css-has-pseudo\n\n[CSS Has Pseudo]: https://github.com/csstools/css-has-pseudo\n[Mutation Observer polyfill]: https://github.com/webmodules/mutation-observer\n[Selectors Level 4]: https://drafts.csswg.org/selectors-4/#has-pseudo\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "0.6.0" : "2018-11-25T20:34:36.014Z",
+    "0.7.0" : "2018-11-26T16:22:54.593Z",
+    "0.4.0" : "2018-11-21T16:37:57.579Z",
+    "0.5.0" : "2018-11-21T19:43:33.239Z",
+    "created" : "2018-11-21T02:53:10.289Z",
+    "0.8.0" : "2018-11-26T21:36:22.791Z",
+    "0.9.0" : "2018-11-27T02:52:36.892Z",
+    "0.2.0" : "2018-11-21T16:16:27.617Z",
+    "0.3.0" : "2018-11-21T16:17:58.445Z",
+    "0.1.0" : "2018-11-21T02:53:10.451Z",
+    "0.10.0" : "2018-12-12T03:35:13.151Z",
+    "modified" : "2019-06-10T12:17:58.421Z",
+    "1.0.0" : "2019-06-10T12:17:55.879Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/csstools/css-has-pseudo.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/csstools/css-has-pseudo#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "javascript", "js", "polyfill", "has", "contains", "descendant", "pseudo", "selector" ],
+  "bugs" : {
+    "url" : "https://github.com/csstools/css-has-pseudo/issues"
+  },
+  "license" : "CC0-1.0"
+}

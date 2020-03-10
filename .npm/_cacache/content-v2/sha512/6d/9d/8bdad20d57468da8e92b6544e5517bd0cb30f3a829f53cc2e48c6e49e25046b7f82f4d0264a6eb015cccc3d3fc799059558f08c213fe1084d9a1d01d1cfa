@@ -1,0 +1,1229 @@
+{
+  "_id" : "@babel/helper-create-class-features-plugin",
+  "_rev" : "21-0d674bc8c97708467008d2bac44454cc",
+  "name" : "@babel/helper-create-class-features-plugin",
+  "description" : "Compile class public and private fields, private methods and decorators to ES6",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.2.0" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.2.0",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-class-features"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.2.0.tgz",
+        "shasum" : "8d52930558897042444e670f26ae6581ec9a4a4a"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.2.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.2.0_1543863637333_0.9666524546148407"
+      }
+    },
+    "7.2.1" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.2.1",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-class-features"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.2.1.tgz",
+        "shasum" : "f6e8027291669ef64433220dc8327531233f1161"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.2.1",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.2.1_1543936908400_0.6639463831267518"
+      }
+    },
+    "7.3.0" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.3.0",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.3.0.tgz",
+        "shasum" : "2b01a81b3adc2b1287f9ee193688ef8dc71e718f"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.2.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.2",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.3.0",
+      "gitHead" : "f6ee26c3da4c903818fd61fd9e5e8e1970185f77",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.3.0_1548106230915_0.5107073718439354"
+      }
+    },
+    "7.2.2" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.2.2",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.2.2.tgz",
+        "shasum" : "aac79552e41c94716a804d371e943f20171df0c5"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.1.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.2",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.2.2",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.2.2_1544868315645_0.8300365384325792"
+      }
+    },
+    "7.4.0" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.4.0",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.4.0.tgz",
+        "shasum" : "30fd090e059d021995c1762a5b76798fa0b51d82"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.4.0",
+        "@babel/helper-split-export-declaration" : "^7.4.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.4.0",
+      "gitHead" : "f1328fb913b5a93d54dfc6e3728b1f56c8f4a804",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.4.0_1553028322779_0.165706835018689"
+      }
+    },
+    "7.5.5" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.5.5",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.5.5.tgz",
+        "shasum" : "401f302c8ddbc0edd36f7c6b2887d8fa1122e5a4"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.5.5",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.5.5",
+        "@babel/helper-split-export-declaration" : "^7.4.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.5.5",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v11.14.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.5.5",
+      "gitHead" : "0407f034f09381b95e9cabefbf6b176c76485a43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.5.5_1563398512971_0.7419540128404563"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "7.7.4" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.7.4",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.7.4.tgz",
+        "shasum" : "fce60939fd50618610942320a8d951b3b639da2d"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.7.4",
+        "@babel/helper-member-expression-to-functions" : "^7.7.4",
+        "@babel/helper-optimise-call-expression" : "^7.7.4",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.7.4",
+        "@babel/helper-split-export-declaration" : "^7.7.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.4",
+        "@babel/helper-plugin-test-runner" : "^7.7.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.7.4_1574465632556_0.0007368346118852287"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.8.3",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.8.3.tgz",
+        "shasum" : "5b94be88c255f140fd2c10dd151e7f98f4bff397"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.8.3",
+        "@babel/helper-member-expression-to-functions" : "^7.8.3",
+        "@babel/helper-optimise-call-expression" : "^7.8.3",
+        "@babel/helper-plugin-utils" : "^7.8.3",
+        "@babel/helper-replace-supers" : "^7.8.3",
+        "@babel/helper-split-export-declaration" : "^7.8.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.3",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.8.3_1578951750178_0.6888995393489936"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.2.3" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.2.3",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.2.3.tgz",
+        "shasum" : "f6e719abb90cb7f4a69591e35fd5eb89047c4a7c"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.2.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.2",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.2.3",
+      "gitHead" : "d35f2ad92b322c3bb9c6792e2683807afae0b105",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.2.3_1545304402957_0.45138816491420175"
+      }
+    },
+    "7.3.2" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.3.2",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.3.2.tgz",
+        "shasum" : "ba1685603eb1c9f2f51c9106d5180135c163fe73"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.2.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.2",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.3.2",
+      "gitHead" : "d896ce2b53f64742feeea27dd33ee45934cd041a",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.3.2_1549318978353_0.17493788993920845"
+      }
+    },
+    "7.5.0" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.5.0",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.5.0.tgz",
+        "shasum" : "02edb97f512d44ba23b3227f1bf2ed43454edac5"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.4.4",
+        "@babel/helper-split-export-declaration" : "^7.4.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.5.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.14.0/node@v12.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.5.0",
+      "gitHead" : "49da9a07c81156e997e60146eb001ea77b7044c4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.5.0_1562245071507_0.8365006316675061"
+      },
+      "_nodeVersion" : "12.6.0"
+    },
+    "7.6.0" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.6.0",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.6.0.tgz",
+        "shasum" : "769711acca889be371e9bc2eb68641d55218021f"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.5.5",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.5.5",
+        "@babel/helper-split-export-declaration" : "^7.4.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v11.14.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.6.0",
+      "gitHead" : "cbd5a26e57758e3f748174ff84aa570e8780e85d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.6.0_1567791216830_0.7551554303145502"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "7.3.4" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.3.4",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.3.4.tgz",
+        "shasum" : "092711a7a3ad8ea34de3e541644c2ce6af1f6f0c"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.3.4",
+        "@babel/helper-split-export-declaration" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.3.4",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.3.4",
+      "gitHead" : "1f6454cc90fe33e0a32260871212e2f719f35741",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.3.4_1551119756869_0.9474764698776765"
+      }
+    },
+    "7.4.3" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.4.3",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.4.3.tgz",
+        "shasum" : "5bbd279c6c3ac6a60266b89bbfe7f8021080a1ef"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.4.0",
+        "@babel/helper-split-export-declaration" : "^7.4.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.3",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.4.3",
+      "gitHead" : "508fde4009f31883f318b9e6546459ac1b086a91",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.4.3_1554234933960_0.6474646147164078"
+      }
+    },
+    "7.7.0" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.7.0",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.7.0.tgz",
+        "shasum" : "bcdc223abbfdd386f94196ae2544987f8df775e8"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.7.0",
+        "@babel/helper-member-expression-to-functions" : "^7.7.0",
+        "@babel/helper-optimise-call-expression" : "^7.7.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.7.0",
+        "@babel/helper-split-export-declaration" : "^7.7.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v13.0.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.7.0",
+      "gitHead" : "97faa83953cb87e332554fa559a4956d202343ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.7.0_1572951242632_0.6109750072939153"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "7.4.4" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.4.4",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.4.4.tgz",
+        "shasum" : "fc3d690af6554cc9efc607364a82d48f58736dba"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/helper-member-expression-to-functions" : "^7.0.0",
+        "@babel/helper-optimise-call-expression" : "^7.0.0",
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/helper-replace-supers" : "^7.4.4",
+        "@babel/helper-split-export-declaration" : "^7.4.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.4",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.4.4",
+      "gitHead" : "2c88694388831b1e5b88e4bbed6781eb2be1edba",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.4.4_1556312697261_0.42407171906429575"
+      }
+    },
+    "7.8.0" : {
+      "name" : "@babel/helper-create-class-features-plugin",
+      "description" : "Compile class public and private fields, private methods and decorators to ES6",
+      "version" : "7.8.0",
+      "author" : {
+        "name" : "The Babel Team",
+        "url" : "https://babeljs.io/team"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.8.0.tgz",
+        "shasum" : "b3ddf557ed4656e0d296c3b0f3fcd381ea8de72c"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.8.0",
+        "@babel/helper-member-expression-to-functions" : "^7.8.0",
+        "@babel/helper-optimise-call-expression" : "^7.8.0",
+        "@babel/helper-plugin-utils" : "^7.8.0",
+        "@babel/helper-replace-supers" : "^7.8.0",
+        "@babel/helper-split-export-declaration" : "^7.8.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.0",
+        "@babel/helper-plugin-test-runner" : "^7.8.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0"
+      },
+      "keywords" : [ "babel", "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-create-class-features-plugin@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-create-class-features-plugin_7.8.0_1578788252881_0.6328816963179369"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    }
+  },
+  "readme" : "# @babel/helper-create-class-features-plugin\n\n> Compile class public and private fields, private methods and decorators to ES6\n\nSee our website [@babel/helper-create-class-features-plugin](https://babeljs.io/docs/en/next/babel-helper-create-class-features-plugin.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-create-class-features-plugin\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-create-class-features-plugin --dev\n```\n",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "author" : {
+    "name" : "The Babel Team",
+    "url" : "https://babeljs.io/team"
+  },
+  "time" : {
+    "7.2.0" : "2018-12-03T19:00:37.415Z",
+    "7.2.1" : "2018-12-04T15:21:48.550Z",
+    "7.3.0" : "2019-01-21T21:30:31.046Z",
+    "7.2.2" : "2018-12-15T10:05:15.761Z",
+    "7.4.0" : "2019-03-19T20:45:22.987Z",
+    "created" : "2018-12-03T19:00:37.096Z",
+    "modified" : "2020-01-13T21:42:37.600Z",
+    "7.5.5" : "2019-07-17T21:21:53.132Z",
+    "7.7.4" : "2019-11-22T23:33:52.639Z",
+    "7.8.3" : "2020-01-13T21:42:30.358Z",
+    "7.2.3" : "2018-12-20T11:13:23.103Z",
+    "7.3.2" : "2019-02-04T22:22:58.516Z",
+    "7.5.0" : "2019-07-04T12:57:51.613Z",
+    "7.6.0" : "2019-09-06T17:33:36.965Z",
+    "7.3.4" : "2019-02-25T18:35:57.017Z",
+    "7.4.3" : "2019-04-02T19:55:34.126Z",
+    "7.7.0" : "2019-11-05T10:54:02.756Z",
+    "7.4.4" : "2019-04-26T21:04:57.413Z",
+    "7.8.0" : "2020-01-12T00:17:33.061Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-create-class-features-plugin"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "babel", "babel-plugin" ],
+  "license" : "MIT"
+}

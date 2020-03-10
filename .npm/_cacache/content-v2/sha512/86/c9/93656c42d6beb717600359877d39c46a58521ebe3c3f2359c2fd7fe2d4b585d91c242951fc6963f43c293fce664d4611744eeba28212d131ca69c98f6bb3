@@ -1,0 +1,2878 @@
+{
+  "_id" : "object-hash",
+  "_rev" : "90-11f33c29d3edd983a29a2d4c07fa0b11",
+  "name" : "object-hash",
+  "description" : "Generate hashes from javascript objects in node and the browser.",
+  "dist-tags" : {
+    "latest" : "2.0.3"
+  },
+  "versions" : {
+    "0.2.4" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.2.4",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.2.4.tgz",
+        "shasum" : "93955c5f8561163b036c5f670e0a1084b921d308"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.2.4",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.6.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.6.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.6.0.tgz",
+        "shasum" : "ff5fad33e47f2e8c4515869ffb2b14c5fdcf122c"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.3",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.6.0",
+      "gitHead" : "c2611b78b933122b2d4592f5009aac579e531f39",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "ff5fad33e47f2e8c4515869ffb2b14c5fdcf122c",
+      "_nodeVersion" : "0.10.38"
+    },
+    "0.2.5" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.2.5",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.2.5.tgz",
+        "shasum" : "88a555c986109262cc9ae76d9a6153b9fe05800c"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.2.5",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.6.1" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.6.1",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.6.1.tgz",
+        "shasum" : "45fc036998a1fd09aee9b346663a6c5b87a4959e"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.3",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.6.1",
+      "gitHead" : "5ec41673183e2db93ff1d15a9ccf7765484f8ccb",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "45fc036998a1fd09aee9b346663a6c5b87a4959e",
+      "_nodeVersion" : "0.10.38"
+    },
+    "0.7.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.7.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.7.0.tgz",
+        "shasum" : "5a728ad32b9e989dd67e5fbac97778f6800253ad"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.3",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.7.0",
+      "gitHead" : "33604becce809133b5ecdea01e392e79f4ee2929",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "5a728ad32b9e989dd67e5fbac97778f6800253ad",
+      "_nodeVersion" : "0.10.38"
+    },
+    "0.0.4" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.0.4.tgz",
+        "shasum" : "7e26df912031cd6a005b081c768966417a3f5bd4"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.0.4"
+    },
+    "0.2.2" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.2.2.tgz",
+        "shasum" : "0c6b1d665402af1c8ada780fdb4d88f5081cb832"
+      },
+      "dependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.2.2",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.4.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.4.0.tgz",
+        "shasum" : "832084230147913d38ec85d80a9057901853b8cc"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.4.0",
+      "gitHead" : "f0254a2f1116c7e8911af4397fec7de9f5b2fe7c",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "832084230147913d38ec85d80a9057901853b8cc"
+    },
+    "0.0.5" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.0.5",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.9.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.0.5.tgz",
+        "shasum" : "e6d0272e3da2b999478aef2e37d63517309a26dc"
+      },
+      "dependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.0.5",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.2.3" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.2.3.tgz",
+        "shasum" : "a20ad4f169378f0a02791f854ef38e2f35b483ea"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.2.3",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.5.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.5.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.5.0.tgz",
+        "shasum" : "e9b784d98b66f416e80de55f2c513710b433fe2d"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.5.0",
+      "gitHead" : "5bcda2e849080de1efd4bffc746db81d5fdebc5c",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "e9b784d98b66f416e80de55f2c513710b433fe2d"
+    },
+    "0.9.1" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.9.1",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.9.1.tgz",
+        "shasum" : "fb7824033588af0afd10e51a2d90103eef3cd8d1"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@0.9.1",
+      "gitHead" : "3f0ab3c8e821a246559808d3e488c7b675d60453",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "fb7824033588af0afd10e51a2d90103eef3cd8d1"
+    },
+    "0.9.2" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.9.2",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.9.2.tgz",
+        "shasum" : "514291c9f6c8aa1d7240ba015aa9fbef9606edf6"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@0.9.2",
+      "gitHead" : "aae67a0741eb2b074f78244eb6a758620946f7a3",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "514291c9f6c8aa1d7240ba015aa9fbef9606edf6",
+      "_nodeVersion" : "4.0.0"
+    },
+    "0.8.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.8.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.8.0.tgz",
+        "shasum" : "6ffb61b770c940d91977fda1466c9269cdd59cfc"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.3",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.8.0",
+      "gitHead" : "68b09cbf947648ea33993ca0605b77fe5ff081a9",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "6ffb61b770c940d91977fda1466c9269cdd59cfc",
+      "_nodeVersion" : "0.10.38"
+    },
+    "0.9.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.9.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.9.0.tgz",
+        "shasum" : "a0f7b6858e54fd2c42cf14aa71e132845f7c3d12"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@0.9.0",
+      "gitHead" : "17c29c69528ba9b3149371509078d51c58417030",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      },
+      "_shasum" : "a0f7b6858e54fd2c42cf14aa71e132845f7c3d12"
+    },
+    "0.0.2" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.0.2.tgz",
+        "shasum" : "bc8455f15e7ad39bc63d865a600e5189d30a6a7a"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.0.2"
+    },
+    "0.1.1" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.1.1.tgz",
+        "shasum" : "24a207a6715f45315bedbd34d31e73ae0fcb9ecf"
+      },
+      "dependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.1.1",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.2.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.2.0.tgz",
+        "shasum" : "e434cab3bc0d07a1edb18e70d02265c27b254e9d"
+      },
+      "dependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.2.0",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.0.3" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.0.3.tgz",
+        "shasum" : "910979d4c97ad55351560741fdf2df8dd70fe3e4"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.18",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.0.3"
+    },
+    "0.1.2" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.1.2.tgz",
+        "shasum" : "381ce81090fd1372b3bdc1fc99de2dd350ac9c68"
+      },
+      "dependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.1.2",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.2.1" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.2.1.tgz",
+        "shasum" : "52bc8fd5caf7d274b0f3cc08dc0c616e84c2571a"
+      },
+      "dependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.2.1",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.3.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.3.0.tgz",
+        "shasum" : "548208e43b36a44e4da30bad6c56ac53b885e744"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.3.0",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/9..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/12.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "0.1.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/puleos/object-hash"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.1.0.tgz",
+        "shasum" : "e0bd9c54e2821467cc363c3cc46392ebe8909f3f"
+      },
+      "dependencies" : {
+        "tape" : "~2.10.2"
+      },
+      "devDependencies" : {
+        "tape" : "~2.10.2",
+        "gulp" : "~3.5.5",
+        "gulp-jshint" : "~1.5.0",
+        "gulp-browserify" : "~0.4.6",
+        "jshint-stylish" : "~0.1.5",
+        "gulp-exec" : "~1.0.4",
+        "gulp-uglify" : "~0.2.1",
+        "gulp-rename" : "~1.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "set -e; for t in test/*.js; do node $t; done"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      },
+      "_id" : "object-hash@0.1.0",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/22..latest", "firefox/16..latest", "safari/latest", "opera/11.0..latest", "iphone/6", "ipad/6", "android-browser/latest" ]
+      }
+    },
+    "2.0.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-2.0.0.tgz",
+        "shasum" : "7c4cc341eb8b53367312a7c546142f00c9e0ea20"
+      },
+      "devDependencies" : {
+        "browserify" : "^16.2.3",
+        "gulp" : "^4.0.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^3.0.1",
+        "gulp-istanbul" : "^1.1.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^5.0.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^3.0.0",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^4.2.0",
+        "karma-chrome-launcher" : "^2.2.0",
+        "karma-mocha" : "^1.3.0",
+        "mocha" : "^6.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_npmVersion" : "6.9.0-next.0",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@2.0.0",
+      "gitHead" : "03f0f7ff417398983293912712e3a8b868ad5b0e",
+      "browser" : "./dist/object_hash.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object-hash_2.0.0_1570455794756_0.9387405533589546"
+      },
+      "_nodeVersion" : "13.0.0-pre"
+    },
+    "2.0.1" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-2.0.1.tgz",
+        "shasum" : "cef18a0c940cc60aa27965ecf49b782cbf101d96"
+      },
+      "devDependencies" : {
+        "browserify" : "^16.2.3",
+        "gulp" : "^4.0.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^3.0.1",
+        "gulp-istanbul" : "^1.1.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^5.0.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-replace" : "^1.0.0",
+        "gulp-uglify" : "^3.0.0",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^4.2.0",
+        "karma-chrome-launcher" : "^2.2.0",
+        "karma-mocha" : "^1.3.0",
+        "mocha" : "^6.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@2.0.1",
+      "gitHead" : "1e0835cad7d273b521b8a3beee6c7cb8bd778bee",
+      "browser" : "./dist/object_hash.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object-hash_2.0.1_1575155115288_0.326411029135119"
+      },
+      "_nodeVersion" : "14.0.0-pre"
+    },
+    "2.0.2" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-2.0.2.tgz",
+        "shasum" : "f7b2212dbe07d07e340ccd6004c59504fc4015cf"
+      },
+      "devDependencies" : {
+        "browserify" : "^16.2.3",
+        "gulp" : "^4.0.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^3.0.1",
+        "gulp-istanbul" : "^1.1.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^5.0.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-replace" : "^1.0.0",
+        "gulp-uglify" : "^3.0.0",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^4.2.0",
+        "karma-chrome-launcher" : "^2.2.0",
+        "karma-mocha" : "^1.3.0",
+        "mocha" : "^6.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@2.0.2",
+      "gitHead" : "e090f7e04fd9d5361a32295417c4f6e1ae9ef5a4",
+      "browser" : "./dist/object_hash.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object-hash_2.0.2_1581364233273_0.8618953652104877"
+      },
+      "_nodeVersion" : "8.16.1"
+    },
+    "2.0.3" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-2.0.3.tgz",
+        "shasum" : "d12db044e03cd2ca3d77c0570d87225b02e1e6ea"
+      },
+      "devDependencies" : {
+        "browserify" : "^16.2.3",
+        "gulp" : "^4.0.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^3.0.1",
+        "gulp-istanbul" : "^1.1.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^5.0.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-replace" : "^1.0.0",
+        "gulp-uglify" : "^3.0.0",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^4.2.0",
+        "karma-chrome-launcher" : "^2.2.0",
+        "karma-mocha" : "^1.3.0",
+        "mocha" : "^6.2.0"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@2.0.3",
+      "gitHead" : "7a410c7c3aadf387bfa08d919f6bb9faa565e8fe",
+      "browser" : "./dist/object_hash.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object-hash_2.0.3_1581975225063_0.6729135052610222"
+      },
+      "_nodeVersion" : "14.0.0-pre"
+    },
+    "1.1.2" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.2.tgz",
+        "shasum" : "2b0493d20c80e129305acc86c40a9159d58c4658"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@1.1.2",
+      "gitHead" : "d2179c079541a4302c2f7b2dafd996160468985d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-6-west.internal.npmjs.com",
+        "tmp" : "tmp/object-hash-1.1.2.tgz_1455550254349_0.05658689793199301"
+      },
+      "_shasum" : "2b0493d20c80e129305acc86c40a9159d58c4658",
+      "_nodeVersion" : "6.0.0-pre"
+    },
+    "1.3.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.3.0.tgz",
+        "shasum" : "76d9ba6ff113cf8efc0d996102851fe6723963e2"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_npmVersion" : "5.8.0-next.0",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.3.0",
+      "gitHead" : "7813a497bfb53d9efa072ee7637c79ebaab4a296",
+      "browser" : "./dist/object_hash.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object-hash_1.3.0_1521157973301_0.5969662069332622"
+      },
+      "_nodeVersion" : "10.0.0-pre"
+    },
+    "1.1.3" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.3.tgz",
+        "shasum" : "2c69bb337b7ab1b652f0fee68b3ce7ab3e5f962c"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.6",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.1.3",
+      "gitHead" : "5ad31ab1c73870dde7ddde846cb631784724eec9",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/object-hash-1.1.3.tgz_1468264823029_0.752226869110018"
+      },
+      "_shasum" : "2c69bb337b7ab1b652f0fee68b3ce7ab3e5f962c",
+      "_nodeVersion" : "7.0.0-pre"
+    },
+    "1.3.1" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.3.1.tgz",
+        "shasum" : "fde452098a951cb145f039bb7d455449ddc126df"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.3.1",
+      "gitHead" : "3fa7790bd255396ee8979ff1a63542affcb37b0f",
+      "browser" : "./dist/object_hash.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object-hash_1.3.1_1542049605615_0.3664519624945668"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "1.1.4" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.4.tgz",
+        "shasum" : "136f07f1a48af5f6b906812451ae4e43978c94aa"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.6",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.1.4",
+      "gitHead" : "5004fa165e82db05713b5220ed1e42d9bd370d9f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/object-hash-1.1.4.tgz_1470069698161_0.6088556589093059"
+      },
+      "_shasum" : "136f07f1a48af5f6b906812451ae4e43978c94aa",
+      "_nodeVersion" : "7.0.0-pre"
+    },
+    "1.1.5" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.5",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.5.tgz",
+        "shasum" : "bdd844e030d0861b692ca175c6cab6868ec233d7"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.1",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.1.5",
+      "gitHead" : "f0974d27d15d74af519c30b123db3a1102bf3de8",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/object-hash-1.1.5.tgz_1478452439040_0.3592356538865715"
+      },
+      "_shasum" : "bdd844e030d0861b692ca175c6cab6868ec233d7",
+      "_nodeVersion" : "7.0.0"
+    },
+    "1.1.6" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.6",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "main" : "dist/object_hash.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.6.tgz",
+        "shasum" : "826fd161372e826bd124a85b7e67710d14146f65"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.3.0",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.1.6",
+      "gitHead" : "53285aff2370602247883b4defb9de85c8cfb85e",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/object-hash-1.1.6.tgz_1488310561260_0.3094455455429852"
+      },
+      "_shasum" : "826fd161372e826bd124a85b7e67710d14146f65",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.7" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.7",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.7.tgz",
+        "shasum" : "a8d83fdf5d4583a4e2e7ffc18e8915e08482ef52"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.3.0",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.1.7",
+      "gitHead" : "e4061ba0abe0d6a54fc878867439c799f7f42b2c",
+      "browser" : "./dist/object_hash.js",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/object-hash-1.1.7.tgz_1488479969175_0.6774615540634841"
+      },
+      "_shasum" : "a8d83fdf5d4583a4e2e7ffc18e8915e08482ef52",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.8" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.8",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.8.tgz",
+        "shasum" : "28a659cf987d96a4dabe7860289f3b5326c4a03c"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.0",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.1.8",
+      "gitHead" : "469439a30fdd41e2f35f2a6aeddebb6a8d923f75",
+      "browser" : "./dist/object_hash.js",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/object-hash-1.1.8.tgz_1491750842080_0.8127299554180354"
+      },
+      "_shasum" : "28a659cf987d96a4dabe7860289f3b5326c4a03c",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "0.9.5" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.9.5",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.9.5.tgz",
+        "shasum" : "8651daeb7be1425d85aa04df714d3360edf52a2c"
+      },
+      "devDependencies" : {
+        "browserify" : "^12.0.1",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@0.9.5",
+      "gitHead" : "3deb7799092d182be409005b80d6c5f7fc2dfc28",
+      "_shasum" : "8651daeb7be1425d85aa04df714d3360edf52a2c",
+      "_nodeVersion" : "6.0.0-pre"
+    },
+    "0.9.3" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.9.3",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.9.3.tgz",
+        "shasum" : "499e73b76db1c4d624f8f862645eb8d06410f88b"
+      },
+      "devDependencies" : {
+        "browserify" : "^12.0.1",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@0.9.3",
+      "gitHead" : "8a2efc81f744a04a927a3a362169b762b3d1cb31",
+      "_shasum" : "499e73b76db1c4d624f8f862645eb8d06410f88b",
+      "_nodeVersion" : "5.1.0"
+    },
+    "0.9.4" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "0.9.4",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-0.9.4.tgz",
+        "shasum" : "6bac7b8d762d4a954533c80b43b5144c202d04c6"
+      },
+      "devDependencies" : {
+        "browserify" : "^12.0.1",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@0.9.4",
+      "gitHead" : "a17ee122d927283335d929bc2fa2f3c7316c3fd1",
+      "_shasum" : "6bac7b8d762d4a954533c80b43b5144c202d04c6",
+      "_nodeVersion" : "6.0.0-pre"
+    },
+    "1.0.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.0.0.tgz",
+        "shasum" : "d58e8d97f2671cd6d409209b71e007c275319f66"
+      },
+      "devDependencies" : {
+        "browserify" : "^12.0.1",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@1.0.0",
+      "gitHead" : "c8289f24cf99104bea71beefbd3de0d55fda0d41",
+      "_shasum" : "d58e8d97f2671cd6d409209b71e007c275319f66",
+      "_nodeVersion" : "6.0.0-pre"
+    },
+    "1.1.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.0.tgz",
+        "shasum" : "af789ae6fc4f1436d44e475b6732755293dbb9a0"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@1.1.0",
+      "gitHead" : "73e5e326b511109473cd049f6cb179f37209cd54",
+      "_shasum" : "af789ae6fc4f1436d44e475b6732755293dbb9a0",
+      "_nodeVersion" : "6.0.0-pre"
+    },
+    "1.1.1" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.1.1.tgz",
+        "shasum" : "e2b9894374c5dbb2ddbe804c0cd36fc145d681c0"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      }, {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sqrt",
+        "email" : "sqrt@entless.org"
+      },
+      "_id" : "object-hash@1.1.1",
+      "gitHead" : "8767aec2213d401d18722ec496afe3b1d1d52c08",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/object-hash-1.1.1.tgz_1455539366532_0.17967273062095046"
+      },
+      "_shasum" : "e2b9894374c5dbb2ddbe804c0cd36fc145d681c0",
+      "_nodeVersion" : "6.0.0-pre"
+    },
+    "1.2.0" : {
+      "name" : "object-hash",
+      "description" : "Generate hashes from javascript objects in node and the browser.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Scott Puleo",
+        "email" : "puleos@gmail.com"
+      },
+      "homepage" : "https://github.com/puleos/object-hash",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/puleos/object-hash.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/puleos/object-hash/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-hash/-/object-hash-1.2.0.tgz",
+        "shasum" : "e96af0e96981996a1d47f88ead8f74f1ebc4422b"
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.0",
+        "gulp" : "^3.9.0",
+        "gulp-browserify" : "^0.5.1",
+        "gulp-coveralls" : "^0.1.4",
+        "gulp-exec" : "^2.1.2",
+        "gulp-istanbul" : "^0.10.3",
+        "gulp-jshint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-rename" : "^1.2.0",
+        "gulp-uglify" : "^1.5.1",
+        "jshint" : "^2.8.0",
+        "jshint-stylish" : "^2.1.0",
+        "karma" : "^0.13.15",
+        "karma-chrome-launcher" : "^0.2.2",
+        "karma-firefox-launcher" : "^0.1.7",
+        "karma-mocha" : "^0.2.1",
+        "karma-phantomjs-launcher" : "^0.2.1",
+        "mocha" : "^2.3.4",
+        "phantomjs" : "^1.9.19"
+      },
+      "keywords" : [ "object", "hash", "sha1", "md5" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      }, {
+        "name" : "puleos",
+        "email" : "puleos@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./node_modules/.bin/mocha test",
+        "prepublish" : "gulp dist"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "addaleax",
+        "email" : "anna@addaleax.net"
+      },
+      "_id" : "object-hash@1.2.0",
+      "gitHead" : "e600f09ac0f0132f8472e3d9b92b2dcdfe1732bd",
+      "browser" : "./dist/object_hash.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object-hash-1.2.0.tgz_1507768204480_0.36773726250976324"
+      },
+      "_nodeVersion" : "8.6.0"
+    }
+  },
+  "readme" : "# object-hash\n\nGenerate hashes from objects and values in node and the browser.  Uses node.js\ncrypto module for hashing.  Supports SHA1 and many others (depending on the platform)\nas well as custom streams (e.g. CRC32).\n\n[![NPM](https://nodei.co/npm/object-hash.png?downloads=true&downloadRank=true)](https://www.npmjs.com/package/object-hash)\n\n[![Travis CI](https://secure.travis-ci.org/puleos/object-hash.png?branch=master)](https://secure.travis-ci.org/puleos/object-hash?branch=master)\n[![Coverage Status](https://coveralls.io/repos/puleos/object-hash/badge.svg?branch=master&service=github)](https://coveralls.io/github/puleos/object-hash?branch=master)\n\n* Hash values of any type.\n* Supports a keys only option for grouping similar objects with different values.\n\n```js\nvar hash = require('object-hash');\n\nhash({foo: 'bar'}) // => '67b69634f9880a282c14a0f0cb7ba20cf5d677e9'\nhash([1, 2, 2.718, 3.14159]) // => '136b9b88375971dff9f1af09d7356e3e04281951'\n```\n\n## Versioning Disclaimer\n\nStarting with version `1.1.8` (released April 2017), new versions will consider\nthe exact returned hash part of the API contract, i.e. changes that will affect\nhash values will be considered `semver-major`. Previous versions may violate\nthat expectation.\n\nFor more information, see [this discussion](https://github.com/puleos/object-hash/issues/30).\n\n## hash(value, options);\nGenerate a hash from any object or type.  Defaults to sha1 with hex encoding.\n*  `algorithm` hash algo to be used: 'sha1', 'md5'. default: sha1\n  *  This supports the algorithms returned by `crypto.getHashes()`. Note that the default of SHA-1 is not considered secure, and a stronger algorithm should be used if a cryptographical hash is desired.\n*  `excludeValues` {true|false} hash object keys, values ignored. default: false\n*  `encoding` hash encoding, supports 'buffer', 'hex', 'binary', 'base64'. default: hex\n*  `ignoreUnknown` {true|*false} ignore unknown object types. default: false\n*  `replacer` optional function that replaces values before hashing. default: accept all values\n*  `respectFunctionProperties` {true|false} Whether properties on functions are considered when hashing. default: true\n*  `respectFunctionNames` {true|false} consider `name` property of functions for hashing. default: true\n*  `respectType` {true|false} Whether special type attributes (`.prototype`, `.__proto__`, `.constructor`)\n   are hashed. default: true\n*  `unorderedArrays` {true|false} Sort all arrays using before hashing. Note that this affects *all* collections,\n   i.e. including typed arrays, Sets, Maps, etc. default: false\n*  `unorderedSets` {true|false} Sort `Set` and `Map` instances before hashing, i.e. make\n   `hash(new Set([1, 2])) == hash(new Set([2, 1]))` return `true`. default: true\n*  `unorderedObjects` {true|false} Sort objects before hashing, i.e. make `hash({ x: 1, y: 2 }) === hash({ y: 2, x: 1 })`. default: true\n*  `excludeKeys` optional function for exclude specific key(s) from hashing, if returns true then exclude from hash. default: include all keys\n\n## hash.sha1(value);\nHash using the sha1 algorithm.\n\nNote that SHA-1 is not considered secure, and a stronger algorithm should be used if a cryptographical hash is desired.\n\n*Sugar method, equivalent to hash(value, {algorithm: 'sha1'})*\n\n## hash.keys(value);\nHash object keys using the sha1 algorithm, values ignored.\n\n*Sugar method, equivalent to hash(value, {excludeValues: true})*\n\n## hash.MD5(value);\nHash using the md5 algorithm.\n\nNote that the MD5 is not considered secure, and a stronger algorithm should be used if a cryptographical hash is desired.\n\n*Sugar method, equivalent to hash(value, {algorithm: 'md5'})*\n\n## hash.keysMD5(value);\nHash object keys using the md5 algorithm, values ignored.\n\nNote that the MD5 is not considered secure, and a stronger algorithm should be used if a cryptographical hash is desired.\n\n*Sugar method, equivalent to hash(value, {algorithm: 'md5', excludeValues: true})*\n\n## hash.writeToStream(value, [options,] stream):\nWrite the information that would otherwise have been hashed to a stream, e.g.:\n```js\nhash.writeToStream({foo: 'bar', a: 42}, {respectType: false}, process.stdout)\n// => e.g. 'object:a:number:42foo:string:bar'\n```\n\n## Installation\n\nnode:\n```js\nnpm install object-hash\n```\n\nbrowser: */dist/object_hash.js*\n```\n<script src=\"object_hash.js\" type=\"text/javascript\"></script>\n\n<script>\n  var hash = objectHash.sha1({foo:'bar'});\n\n  console.log(hash); // e003c89cdf35cdf46d8239b4692436364b7259f9\n</script>\n```\n\n## Example usage\n```js\nvar hash = require('object-hash');\n\nvar peter = {name: 'Peter', stapler: false, friends: ['Joanna', 'Michael', 'Samir'] };\nvar michael = {name: 'Michael', stapler: false, friends: ['Peter', 'Samir'] };\nvar bob = {name: 'Bob', stapler: true, friends: [] };\n\n/***\n * sha1 hex encoding (default)\n */\nhash(peter);\n// 14fa461bf4b98155e82adc86532938553b4d33a9\nhash(michael);\n// 4b2b30e27699979ce46714253bc2213010db039c\nhash(bob);\n// 38d96106bc8ef3d8bd369b99bb6972702c9826d5\n\n/***\n * hash object keys, values ignored\n */\nhash(peter, { excludeValues: true });\n// 48f370a772c7496f6c9d2e6d92e920c87dd00a5c\nhash(michael, { excludeValues: true });\n// 48f370a772c7496f6c9d2e6d92e920c87dd00a5c\nhash.keys(bob);\n// 48f370a772c7496f6c9d2e6d92e920c87dd00a5c\n\n/***\n * hash object, ignore specific key(s)\n */\nhash(peter, { excludeKeys: function(key) {\n    if ( key === 'friends') {\n      return true;\n    }\n    return false;\n  }\n});\n// 66b7d7e64871aa9fda1bdc8e88a28df797648d80\n\n/***\n * md5 base64 encoding\n */\nhash(peter, { algorithm: 'md5', encoding: 'base64' });\n// 6rkWaaDiG3NynWw4svGH7g==\nhash(michael, { algorithm: 'md5', encoding: 'base64' });\n// djXaWpuWVJeOF8Sb6SFFNg==\nhash(bob, { algorithm: 'md5', encoding: 'base64' });\n// lFzkw/IJ8/12jZI0rQeS3w==\n```\n\n## Legacy Browser Support\nIE <= 8 and Opera <= 11 support dropped in version 0.3.0.  If you require\nlegacy browser support you must either use an ES5 shim or use version 0.2.5\nof this module.\n\n## Development\n\n```\ngit clone https://github.com/puleos/object-hash\n```\n\n## Node Docker Wrapper\n\nIf you want to stand this up in a docker container, you should take at look\nat the [![node-object-hash](https://github.com/bean5/node-object-hash)](https://github.com/bean5/node-object-hash) project.\n\n### gulp tasks\n* `gulp watch` (default) watch files, test and lint on change/add\n* `gulp test` unit tests\n* `gulp karma` browser unit tests\n* `gulp lint` jshint\n* `gulp dist` create browser version in /dist\n\n## License\nMIT\n\n## Changelog\n\n### v2.0.0\n\nOnly Node.js versions `>= 6.0.0` are being tested in CI now.\nNo other breaking changes were introduced.\n",
+  "maintainers" : [ {
+    "name" : "addaleax",
+    "email" : "anna@addaleax.net"
+  }, {
+    "name" : "puleos",
+    "email" : "puleos@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Scott Puleo",
+    "email" : "puleos@gmail.com"
+  },
+  "time" : {
+    "0.2.4" : "2014-04-07T18:55:48.631Z",
+    "0.6.0" : "2015-05-04T19:12:18.209Z",
+    "0.2.5" : "2014-04-07T19:02:05.885Z",
+    "0.6.1" : "2015-05-04T19:17:34.787Z",
+    "0.7.0" : "2015-05-04T19:20:06.345Z",
+    "0.0.4" : "2014-03-07T19:48:49.499Z",
+    "0.2.2" : "2014-03-18T20:19:41.519Z",
+    "0.4.0" : "2014-12-16T21:30:33.463Z",
+    "0.0.5" : "2014-03-07T23:48:46.837Z",
+    "0.2.3" : "2014-03-20T19:16:08.730Z",
+    "0.5.0" : "2015-01-28T01:07:22.718Z",
+    "0.9.1" : "2015-08-27T19:40:21.145Z",
+    "0.9.2" : "2015-10-17T22:05:25.978Z",
+    "0.8.0" : "2015-05-06T21:25:53.440Z",
+    "0.9.0" : "2015-08-26T12:03:46.886Z",
+    "0.0.2" : "2014-03-07T16:46:45.130Z",
+    "0.1.1" : "2014-03-15T15:47:18.536Z",
+    "0.2.0" : "2014-03-16T00:18:37.258Z",
+    "0.0.3" : "2014-03-07T17:43:09.259Z",
+    "0.1.2" : "2014-03-15T16:07:22.632Z",
+    "0.2.1" : "2014-03-16T17:01:15.343Z",
+    "0.3.0" : "2014-04-08T15:04:46.973Z",
+    "0.1.0" : "2014-03-15T14:50:35.644Z",
+    "modified" : "2020-02-17T21:33:47.876Z",
+    "2.0.0" : "2019-10-07T13:43:14.913Z",
+    "2.0.1" : "2019-11-30T23:05:15.627Z",
+    "created" : "2014-03-07T16:46:45.130Z",
+    "2.0.2" : "2020-02-10T19:50:33.395Z",
+    "2.0.3" : "2020-02-17T21:33:45.170Z",
+    "1.1.2" : "2016-02-15T15:30:58.542Z",
+    "1.3.0" : "2018-03-15T23:52:53.348Z",
+    "1.1.3" : "2016-07-11T19:20:25.862Z",
+    "1.3.1" : "2018-11-12T19:06:45.792Z",
+    "1.1.4" : "2016-08-01T16:41:40.136Z",
+    "1.1.5" : "2016-11-06T17:13:59.570Z",
+    "1.1.6" : "2017-02-28T19:36:01.885Z",
+    "1.1.7" : "2017-03-02T18:39:31.271Z",
+    "1.1.8" : "2017-04-09T15:14:02.974Z",
+    "0.9.5" : "2015-12-21T23:26:02.711Z",
+    "0.9.3" : "2015-12-10T06:31:12.515Z",
+    "0.9.4" : "2015-12-20T12:32:13.601Z",
+    "1.0.0" : "2015-12-25T23:31:45.460Z",
+    "1.1.0" : "2016-01-10T00:15:32.418Z",
+    "1.1.1" : "2016-02-15T12:29:30.624Z",
+    "1.2.0" : "2017-10-12T00:30:05.695Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/puleos/object-hash.git"
+  },
+  "users" : {
+    "reinerba" : true,
+    "diegoperini" : true,
+    "hugojosefson" : true,
+    "antixrist" : true,
+    "monkeymonk" : true,
+    "deniscarriere" : true,
+    "mikeyddvl" : true,
+    "nogirev" : true,
+    "ksyrytczyk" : true,
+    "artmsilva" : true,
+    "zuojiang" : true,
+    "scott.m.sarsfield" : true,
+    "johniexu" : true,
+    "cmp-cc" : true,
+    "pavel.zubkou" : true,
+    "djmax" : true,
+    "sejoker" : true,
+    "shaomingquan" : true,
+    "martinandersen3d" : true,
+    "acatl" : true,
+    "steel1990" : true,
+    "arielfr" : true,
+    "robixxu" : true,
+    "chenzhuoqi" : true,
+    "level9i" : true
+  },
+  "readmeFilename" : "readme.markdown",
+  "homepage" : "https://github.com/puleos/object-hash",
+  "keywords" : [ "object", "hash", "sha1", "md5" ],
+  "bugs" : {
+    "url" : "https://github.com/puleos/object-hash/issues"
+  },
+  "license" : "MIT"
+}

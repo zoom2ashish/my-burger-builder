@@ -1,0 +1,443 @@
+{
+  "_id" : "sisteransi",
+  "_rev" : "8-f1b415ea6eb3b797e1d8b15301e17cec",
+  "name" : "sisteransi",
+  "description" : "ANSI escape codes for some terminal swag",
+  "dist-tags" : {
+    "latest" : "1.0.4"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "sisteransi",
+      "description" : "ANSI escape codes for some terminal swag",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Terkel Gjervig",
+        "email" : "terkel@terkel.com",
+        "url" : "https://terkel.com"
+      },
+      "homepage" : "https://github.com/terkelg/sisteransi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/terkelg/sisteransi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/terkelg/sisteransi/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/sisteransi/-/sisteransi-1.0.3.tgz",
+        "shasum" : "98168d62b79e3a5e758e27ae63c4a053d748f4eb"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^5.0.0",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "ansi", "escape codes", "escape", "terminal", "style" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js | tap-spec"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      },
+      "_id" : "sisteransi@1.0.3",
+      "gitHead" : "15649cfbf3f4caec0f643e9cc9f64c7994277da5",
+      "types" : "./src/sisteransi.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/sisteransi_1.0.3_1564991247380_0.19668738890350967"
+      },
+      "_nodeVersion" : "12.5.0"
+    },
+    "1.0.4" : {
+      "name" : "sisteransi",
+      "description" : "ANSI escape codes for some terminal swag",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Terkel Gjervig",
+        "email" : "terkel@terkel.com",
+        "url" : "https://terkel.com"
+      },
+      "homepage" : "https://github.com/terkelg/sisteransi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/terkelg/sisteransi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/terkelg/sisteransi/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/sisteransi/-/sisteransi-1.0.4.tgz",
+        "shasum" : "386713f1ef688c7c0304dc4c0632898941cad2e3"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^5.0.0",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "ansi", "escape codes", "escape", "terminal", "style" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js | tap-spec"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      },
+      "_id" : "sisteransi@1.0.4",
+      "gitHead" : "d08d16ec5663dfa99bc2ec3c3ccbb09d41c7cd36",
+      "types" : "./src/sisteransi.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/sisteransi_1.0.4_1573410645036_0.6193041481886665"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "0.1.1" : {
+      "name" : "sisteransi",
+      "description" : "ANSI escape codes for some terminal swag",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Terkel Gjervig",
+        "email" : "terkel@terkel.com",
+        "url" : "https://terkel.com"
+      },
+      "homepage" : "https://github.com/terkelg/sisteransi",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/terkelg/sisteransi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/terkelg/sisteransi/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/sisteransi/-/sisteransi-0.1.1.tgz",
+        "shasum" : "5431447d5f7d1675aac667ccd0b865a4994cb3ce"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.9.0"
+      },
+      "keywords" : [ "ansi", "escape codes", "escape", "terminal", "style" ],
+      "license" : "MIT",
+      "files" : [ "src" ],
+      "maintainers" : [ {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js | tap-spec"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      },
+      "_id" : "sisteransi@0.1.1",
+      "gitHead" : "2c5ccd96c7dffd469afb5b3634dd3e672df7ab27",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/sisteransi_0.1.1_1530070017384_0.7328006777591958"
+      },
+      "_nodeVersion" : "10.5.0"
+    },
+    "1.0.0" : {
+      "name" : "sisteransi",
+      "description" : "ANSI escape codes for some terminal swag",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Terkel Gjervig",
+        "email" : "terkel@terkel.com",
+        "url" : "https://terkel.com"
+      },
+      "homepage" : "https://github.com/terkelg/sisteransi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/terkelg/sisteransi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/terkelg/sisteransi/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/sisteransi/-/sisteransi-1.0.0.tgz",
+        "shasum" : "77d9622ff909080f1c19e5f4a1df0c1b0a27b88c"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^5.0.0",
+        "tape" : "^4.9.0"
+      },
+      "keywords" : [ "ansi", "escape codes", "escape", "terminal", "style" ],
+      "license" : "MIT",
+      "files" : [ "src" ],
+      "maintainers" : [ {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js | tap-spec"
+      },
+      "_npmVersion" : "6.4.0",
+      "_npmUser" : {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      },
+      "_id" : "sisteransi@1.0.0",
+      "gitHead" : "0eb456ac9c076faa2e45dd2a85ea36f94f9f0c06",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/sisteransi_1.0.0_1534593689332_0.23049807964926483"
+      },
+      "_nodeVersion" : "10.5.0"
+    },
+    "0.0.0" : {
+      "name" : "sisteransi",
+      "description" : "",
+      "version" : "0.0.0",
+      "author" : "",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/sisteransi/-/sisteransi-0.0.0.tgz",
+        "shasum" : "4b61a781f8bd47303248afc853166c0d7b034845"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      },
+      "_id" : "sisteransi@0.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/sisteransi_0.0.0_1519093673074_0.5977076712274443"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.1" : {
+      "name" : "sisteransi",
+      "description" : "ANSI escape codes for some terminal swag",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Terkel Gjervig",
+        "email" : "terkel@terkel.com",
+        "url" : "https://terkel.com"
+      },
+      "homepage" : "https://github.com/terkelg/sisteransi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/terkelg/sisteransi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/terkelg/sisteransi/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/sisteransi/-/sisteransi-1.0.1.tgz",
+        "shasum" : "208a2443e1fc40b05ccad4de0aa8798b27249ca1"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^5.0.0",
+        "tape" : "^4.9.0"
+      },
+      "keywords" : [ "ansi", "escape codes", "escape", "terminal", "style" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js | tap-spec"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      },
+      "_id" : "sisteransi@1.0.1",
+      "gitHead" : "a13a7e755f6dc657f556e5178489446dc1f5494b",
+      "types" : "./src/sisteransi.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/sisteransi_1.0.1_1562109095330_0.8929334997368581"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "0.1.0" : {
+      "name" : "sisteransi",
+      "description" : "> Ansi escape codes faster than you can say \"[Bam bam](https://www.youtube.com/watch?v=OcaPu9JPenU)\".",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Terkel Gjervig",
+        "email" : "terkel@terkel.com",
+        "url" : "https://terkel.com"
+      },
+      "homepage" : "https://github.com/terkelg/sisteransi",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/terkelg/sisteransi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/terkelg/sisteransi/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/sisteransi/-/sisteransi-0.1.0.tgz",
+        "shasum" : "2e6706ac427019b84e60f751d588d87920484f25"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.9.0"
+      },
+      "keywords" : [ "ansi", "escape codes", "escape", "terminal", "style" ],
+      "license" : "MIT",
+      "files" : [ "src" ],
+      "maintainers" : [ {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js | tap-spec"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      },
+      "_id" : "sisteransi@0.1.0",
+      "gitHead" : "d0a5ecabf0fb4f875ca1fb713c29b56656738ed5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/sisteransi_0.1.0_1519282660869_0.9128469419932141"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.2" : {
+      "name" : "sisteransi",
+      "description" : "ANSI escape codes for some terminal swag",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Terkel Gjervig",
+        "email" : "terkel@terkel.com",
+        "url" : "https://terkel.com"
+      },
+      "homepage" : "https://github.com/terkelg/sisteransi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/terkelg/sisteransi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/terkelg/sisteransi/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/sisteransi/-/sisteransi-1.0.2.tgz",
+        "shasum" : "ec57d64b6f25c4f26c0e2c7dd23f2d7f12f7e418"
+      },
+      "devDependencies" : {
+        "tap-spec" : "^5.0.0",
+        "tape" : "^4.9.0"
+      },
+      "keywords" : [ "ansi", "escape codes", "escape", "terminal", "style" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js | tap-spec"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "terkelg",
+        "email" : "terkel@terkel.com"
+      },
+      "_id" : "sisteransi@1.0.2",
+      "gitHead" : "00df3d50686819d92999692c916cb9afe843ee2f",
+      "types" : "./src/sisteransi.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/sisteransi_1.0.2_1562246895287_0.9460189391327065"
+      },
+      "_nodeVersion" : "12.5.0"
+    }
+  },
+  "readme" : "# sister ANSI [![Version](https://img.shields.io/npm/v/sisteransi.svg)](https://www.npmjs.com/package/sisteransi) [![Build Status](https://travis-ci.org/terkelg/sisteransi.svg?branch=master)](https://travis-ci.org/terkelg/sisteransi) [![Downloads](https://img.shields.io/npm/dm/sisteransi.svg)](https://www.npmjs.com/package/sisteransi)\n\n> Ansi escape codes faster than you can say \"[Bam bam](https://www.youtube.com/watch?v=OcaPu9JPenU)\".\n\n## Installation\n\n```\nnpm install sisteransi\n```\n\n\n## Usage\n\n```js\nconst ansi = require('sisteransi');\n// or const { cursor } = require('sisteransi');\n\nconst p = str => process.stdout.write(str);\n\n// move cursor to 2, 1\np(ansi.cursor.to(2, 1));\n\n// to up, one down\np(ansi.cursor.up(2)+ansi.cursor.down(1));\n```\n\n## API\n\n### cursor\n\n#### to(x, y)\nSet the absolute position of the cursor. `x0` `y0` is the top left of the screen.\n\n#### move(x, y)\nSet the position of the cursor relative to its current position.\n\n#### up(count = 1)\nMove cursor up a specific amount of rows. Default is `1`.\n\n#### down(count = 1)\nMove cursor down a specific amount of rows. Default is `1`.\n\n#### forward(count = 1)\nMove cursor forward a specific amount of rows. Default is `1`.\n\n#### backward(count = 1)\nMove cursor backward a specific amount of rows. Default is `1`.\n\n#### nextLine(count = 1)\nMove cursor to the next line a specific amount of lines. Default is `1`.\n\n#### prevLine(count = 1)\nMove cursor to the previous a specific amount of lines. Default is `1`.\n\n#### left\nMove cursor to the left side.\n\n#### hide\nHide cursor.\n\n#### show\nShow cursor.\n\n#### save\n\nSave cursor position.\n\n#### restore\n\nRestore cursor position.\n\n\n### scroll\n\n#### up(count = 1)\nScroll display up a specific amount of lines. Default to `1`.\n\n#### down(count = 1)\nScroll display down a specific amount of lines. Default to `1`.\n\n\n### erase\n\n#### screen\nErase the screen and move the cursor the top left position.\n\n#### up(count = 1)\nErase the screen from the current line up to the top of the screen. Default to `1`.\n\n#### down(count = 2)\nErase the screen from the current line down to the bottom of the screen. Default to `1`.\n\n#### line\nErase the entire current line.\n\n#### lineEnd\nErase from the current cursor position to the end of the current line.\n\n#### lineStart\nErase from the current cursor position to the start of the current line.\n\n#### lines(count)\nErase from the current cursor position up the specified amount of rows.\n\n\n## Credit\n\nThis is a fork of [ansi-escapes](https://github.com/sindresorhus/ansi-escapes).\n\n\n## License\n\nMIT © [Terkel Gjervig](https://terkel.com)\n",
+  "maintainers" : [ {
+    "name" : "terkelg",
+    "email" : "terkel@terkel.com"
+  } ],
+  "author" : {
+    "name" : "Terkel Gjervig",
+    "email" : "terkel@terkel.com",
+    "url" : "https://terkel.com"
+  },
+  "time" : {
+    "1.0.3" : "2019-08-05T07:47:27.510Z",
+    "1.0.4" : "2019-11-10T18:30:45.193Z",
+    "created" : "2018-02-20T02:27:53.074Z",
+    "modified" : "2019-11-10T18:30:47.479Z",
+    "0.1.1" : "2018-06-27T03:26:57.468Z",
+    "1.0.0" : "2018-08-18T12:01:29.432Z",
+    "0.0.0" : "2018-02-20T02:27:53.147Z",
+    "1.0.1" : "2019-07-02T23:11:35.512Z",
+    "0.1.0" : "2018-02-22T06:57:40.925Z",
+    "1.0.2" : "2019-07-04T13:28:15.420Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/terkelg/sisteransi.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/terkelg/sisteransi#readme",
+  "keywords" : [ "ansi", "escape codes", "escape", "terminal", "style" ],
+  "bugs" : {
+    "url" : "https://github.com/terkelg/sisteransi/issues"
+  },
+  "license" : "MIT"
+}

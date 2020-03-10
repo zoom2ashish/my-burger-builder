@@ -1,0 +1,282 @@
+{
+  "_id" : "cssnano-util-same-parent",
+  "_rev" : "8-9d45ff6d9aef4afb0d45e1fd65c3c2d1",
+  "name" : "cssnano-util-same-parent",
+  "description" : "Check that two PostCSS nodes share the same parent.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "latest" : "4.0.1"
+  },
+  "versions" : {
+    "4.0.0" : {
+      "name" : "cssnano-util-same-parent",
+      "description" : "Check that two PostCSS nodes share the same parent.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-util-same-parent/-/cssnano-util-same-parent-4.0.0.tgz",
+        "shasum" : "d2a3de1039aa98bc4ec25001fa050330c2a16dac"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0",
+        "postcss" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-util-same-parent@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-util-same-parent_4.0.0_1530701990844_0.8885236626273822"
+      }
+    },
+    "4.0.1" : {
+      "name" : "cssnano-util-same-parent",
+      "description" : "Check that two PostCSS nodes share the same parent.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-util-same-parent/-/cssnano-util-same-parent-4.0.1.tgz",
+        "shasum" : "574082fb2859d2db433855835d9a8456ea18bbf3"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0",
+        "postcss" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "cssnano-util-same-parent@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-util-same-parent_4.0.1_1537823120707_0.604997970645357"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "cssnano-util-same-parent",
+      "description" : "Check that two PostCSS nodes share the same parent.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-util-same-parent/-/cssnano-util-same-parent-4.0.0-rc.2.tgz",
+        "shasum" : "b036b89f0d7c7516aafd1dc9e70f0ed05768834a"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0",
+        "postcss" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "cssnano-util-same-parent@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-util-same-parent-4.0.0-rc.2.tgz_1502049184505_0.8159189899452031"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "cssnano-util-same-parent",
+      "description" : "Check that two PostCSS nodes share the same parent.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-util-same-parent/-/cssnano-util-same-parent-4.0.0-rc.0.tgz",
+        "shasum" : "26559a04989ef51394e0b03974fc9c852a3332e6"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0",
+        "postcss" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "cssnano-util-same-parent@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-util-same-parent-4.0.0-rc.0.tgz_1496311171626_0.7332772328518331"
+      },
+      "_shasum" : "26559a04989ef51394e0b03974fc9c852a3332e6",
+      "_nodeVersion" : "6.9.1"
+    }
+  },
+  "readme" : "# cssnano-util-same-parent\n\n> Check that two PostCSS nodes share the same parent.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n",
+  "maintainers" : [ {
+    "email" : "andrey@sitnik.ru",
+    "name" : "ai"
+  }, {
+    "email" : "beneb.info@gmail.com",
+    "name" : "beneb"
+  }, {
+    "email" : "chris@eppsteins.net",
+    "name" : "chriseppstein"
+  }, {
+    "email" : "sheo13666q@gmail.com",
+    "name" : "evilebottnawi"
+  } ],
+  "author" : {
+    "name" : "Ben Briggs",
+    "email" : "beneb.info@gmail.com",
+    "url" : "http://beneb.info"
+  },
+  "time" : {
+    "created" : "2017-06-01T09:59:32.588Z",
+    "modified" : "2018-09-24T21:05:23.804Z",
+    "4.0.0" : "2018-07-04T10:59:50.984Z",
+    "4.0.1" : "2018-09-24T21:05:20.837Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:05.467Z",
+    "4.0.0-rc.0" : "2017-06-01T09:59:32.588Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/cssnano/cssnano",
+  "bugs" : {
+    "url" : "https://github.com/cssnano/cssnano/issues"
+  },
+  "license" : "MIT"
+}

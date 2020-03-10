@@ -1,0 +1,290 @@
+{
+  "_id" : "cssnano-util-raw-cache",
+  "_rev" : "8-3add15c0e8363fbb09bfe7abd2e374aa",
+  "name" : "cssnano-util-raw-cache",
+  "description" : "Manages the raw value formatting for generated AST nodes.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "latest" : "4.0.1"
+  },
+  "versions" : {
+    "4.0.0" : {
+      "name" : "cssnano-util-raw-cache",
+      "description" : "Manages the raw value formatting for generated AST nodes.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-util-raw-cache/-/cssnano-util-raw-cache-4.0.0.tgz",
+        "shasum" : "be0a2856e25f185f5f7a2bcc0624e28b7f179a9f"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "cssnano-util-raw-cache@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-util-raw-cache_4.0.0_1530701990847_0.04984877213545125"
+      }
+    },
+    "4.0.1" : {
+      "name" : "cssnano-util-raw-cache",
+      "description" : "Manages the raw value formatting for generated AST nodes.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-util-raw-cache/-/cssnano-util-raw-cache-4.0.1.tgz",
+        "shasum" : "b26d5fd5f72a11dfe7a7846fb4c67260f96bf282"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "cssnano-util-raw-cache@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-util-raw-cache_4.0.1_1537823103601_0.37740287964037145"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "cssnano-util-raw-cache",
+      "description" : "Manages the raw value formatting for generated AST nodes.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-util-raw-cache/-/cssnano-util-raw-cache-4.0.0-rc.2.tgz",
+        "shasum" : "8b33cec7ba839bfc6a59a2c90fbd80dd404bef75"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "cssnano-util-raw-cache@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-util-raw-cache-4.0.0-rc.2.tgz_1502049184535_0.4353646694216877"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "cssnano-util-raw-cache",
+      "description" : "Manages the raw value formatting for generated AST nodes.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cssnano-util-raw-cache/-/cssnano-util-raw-cache-4.0.0-rc.0.tgz",
+        "shasum" : "ba67e471ca89558a47e16b96b5936bd95efc96e1"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "cssnano-util-raw-cache@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cssnano-util-raw-cache-4.0.0-rc.0.tgz_1496311171636_0.47438741102814674"
+      },
+      "_shasum" : "ba67e471ca89558a47e16b96b5936bd95efc96e1",
+      "_nodeVersion" : "6.9.1"
+    }
+  },
+  "readme" : "# cssnano-util-raw-cache\n\n> Manages the raw value formatting for generated AST nodes.\n\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n",
+  "maintainers" : [ {
+    "email" : "andrey@sitnik.ru",
+    "name" : "ai"
+  }, {
+    "email" : "beneb.info@gmail.com",
+    "name" : "beneb"
+  }, {
+    "email" : "chris@eppsteins.net",
+    "name" : "chriseppstein"
+  }, {
+    "email" : "sheo13666q@gmail.com",
+    "name" : "evilebottnawi"
+  } ],
+  "author" : {
+    "name" : "Ben Briggs",
+    "email" : "beneb.info@gmail.com",
+    "url" : "http://beneb.info"
+  },
+  "time" : {
+    "created" : "2017-06-01T09:59:32.535Z",
+    "modified" : "2018-09-24T21:05:06.865Z",
+    "4.0.0" : "2018-07-04T10:59:50.992Z",
+    "4.0.1" : "2018-09-24T21:05:03.752Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:05.459Z",
+    "4.0.0-rc.0" : "2017-06-01T09:59:32.535Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/cssnano/cssnano",
+  "bugs" : {
+    "url" : "https://github.com/cssnano/cssnano/issues"
+  },
+  "license" : "MIT"
+}

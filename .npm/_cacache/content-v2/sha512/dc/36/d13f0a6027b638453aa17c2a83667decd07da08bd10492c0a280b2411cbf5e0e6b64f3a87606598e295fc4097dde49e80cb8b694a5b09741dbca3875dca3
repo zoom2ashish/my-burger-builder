@@ -1,0 +1,2960 @@
+{
+  "_id" : "workbox-core",
+  "_rev" : "51-9160b2d2c8c60b39ef6fcbf5e7e2057c",
+  "name" : "workbox-core",
+  "description" : "This module is used by a number of the other Workbox modules to share common code.",
+  "dist-tags" : {
+    "next" : "5.0.0-rc.2",
+    "latest" : "5.0.0"
+  },
+  "versions" : {
+    "4.1.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.1.1.tgz",
+        "shasum" : "eaad7132762727373377ca1c8a2130cfa641cc90"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.1.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.1.1",
+      "gitHead" : "fb837ca0bd15bdc8f4e5563ee28957dc266c31f6",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.1.1_1552686628874_0.8016315460477019"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.2.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.2.0.tgz",
+        "shasum" : "e41a8fa96041197b113b2c82973cb1ad64199c7c"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.2.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@4.2.0",
+      "gitHead" : "60f99c8c017b62ffe90b591b7f4be37dc44d92f6",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.2.0_1554311153246_0.4600663597776655"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.3.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.3.0.tgz",
+        "shasum" : "1981c98af8e7da6d16dc8837c4f736f8167cc75d"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.3.0.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@4.3.0",
+      "gitHead" : "7c873eb2b7e4530fb554c41d9c425c5167e45de7",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.3.0_1555357743750_0.9316252312873639"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "11.14.0"
+    },
+    "4.0.0-rc.4" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-rc.4",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-rc.4.tgz",
+        "shasum" : "d8ac407f628be35fd81f3f8e2ef62ee3e3cd122f"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-rc.4.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.0.0-rc.4",
+      "gitHead" : "cddab54b7b1b7fee18765dcf8350f7e118285efb",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-rc.4_1551149698751_0.4189019386386639"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0.tgz",
+        "shasum" : "3b4aa11c9d739361ed8916b7611abc3b6fefed8b"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.0.0",
+      "gitHead" : "51ec243c7afc67d5cec835b685bd9ad1e70fb78b",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0_1551288770674_0.8820205112322299"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.1.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.1.0.tgz",
+        "shasum" : "395d89a36a95887073b5682f9f6920e96bd53331"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.1.0.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.1.0",
+      "gitHead" : "6fd1909f69406b7dd5edf3ac6bad3da0ba1e638d",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.1.0_1551984787587_0.849485221309251"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-rc.2.tgz",
+        "shasum" : "3c4c3cfcf6cecec50472fe4cd5638eb2b21e62be"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-rc.2.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.0.0-rc.2",
+      "gitHead" : "36439d00d488159fd552b6e805bd4cb1be827ece",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-rc.2_1550094583458_0.27730648573349037"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.3" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-rc.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-rc.3.tgz",
+        "shasum" : "17e4f995b422a017a2d7251898ee53a4e5dad3ed"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-rc.3.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.0.0-rc.3",
+      "gitHead" : "6cf9c94ff17beea2b211e91d4a96c22c8611d3b4",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-rc.3_1550607136308_0.578542459667684"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-rc.0.tgz",
+        "shasum" : "a0ad78ebf9f8b675229fa7820bf45652de9b7712"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-rc.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.0.0-rc.0",
+      "gitHead" : "895940b985bea024e086713c319af216f7c5ee95",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-rc.0_1549483105100_0.9879077437539567"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.3.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.3.1.tgz",
+        "shasum" : "005d2c6a06a171437afd6ca2904a5727ecd73be6"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.3.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.3.1",
+      "gitHead" : "194cdeb63d5abb21490f88f01f02f4bcf7e6d54b",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.3.1_1556733213183_0.6637926524554032"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.0-rc.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-rc.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-rc.1.tgz",
+        "shasum" : "742bbd27eec2c83c6952ce86929c04a08dfa4e3f"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-rc.1.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.0.0-rc.1",
+      "gitHead" : "5e19e1c192d867f0db97e23f1262c3cab19bf6c6",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-rc.1_1550086309679_0.7788386198332418"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "3.0.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0.tgz",
+        "shasum" : "39ff1c249ec2b1b39f6df0a1f6042d0f660ef8dc"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.0.0_1520905343862_0.6096058757933984"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "4.0.0-beta.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-beta.0.tgz",
+        "shasum" : "0014d13e69beb795e0cdc57b28d7b44d86ffaeee"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-beta.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@4.0.0-beta.0",
+      "gitHead" : "bc90cc4bdb1f8ad435564aa84b0c90acfac611e2",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-beta.0_1541529627105_0.0391109781621104"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.4.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "3.4.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.4.1.tgz",
+        "shasum" : "dd6d8ad7398a0e6224c04b079841045af0c62e1f"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.4.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.4.1_1531409931700_0.226943294178797"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "3.5.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "3.5.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.5.0.tgz",
+        "shasum" : "42d19d4322bfa17a67ab8a58f474784ae8dd8e80"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.5.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.5.0_1536677715232_0.6041446803930044"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0-beta.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-beta.1.tgz",
+        "shasum" : "d79471571e35bead32c9070658898b0050856bc6"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-beta.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@4.0.0-beta.1",
+      "gitHead" : "dda07c48e184f57ce5dfe3b3e93af316989a0877",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-beta.1_1547582119041_0.37102143488007533"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "3.6.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "3.6.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.6.0.tgz",
+        "shasum" : "6f8004ecda82a7a55fa0936fc2c744fc54448bd3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@3.6.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.6.0_1537384190642_0.4293763636314054"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0-beta.2" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-beta.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-beta.2.tgz",
+        "shasum" : "a572a6a58bddf1700881b07313ebce9e8b482e58"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-beta.2.tgz",
+      "_npmVersion" : "6.6.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@4.0.0-beta.2",
+      "gitHead" : "a0baa6ac838e1bff9a140ccbe2e78551d9605466",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-beta.2_1548798952052_0.6948022998076921"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "8.15.0"
+    },
+    "3.6.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "3.6.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.6.1.tgz",
+        "shasum" : "925605589d0d64c4aa6417e3a9ef3211a09c8839"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@3.6.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.6.1_1537385222706_0.39265627450481566"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "3.6.2" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "3.6.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.6.2.tgz",
+        "shasum" : "4c79a15685970efc2e86dc31bf25900dd405a3e5"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.6.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.6.2_1538145679405_0.5114808337149563"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "3.0.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.1.tgz",
+        "shasum" : "83c7c39fb4b71e1f1c1d67394431fb7362756863"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.0.1_1521757708584_0.09343580095821324"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.1.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.1.0.tgz",
+        "shasum" : "974637bf9398b9e37ebd58d73dc6016c0fdc1d23"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.1.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.1.0_1523552062866_0.1654241121829998"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "3.2.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.2.0.tgz",
+        "shasum" : "d1bd4209447f5350d8dd6b964c86f054c96ffa0a"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.2.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.2.0_1525285030152_0.5300083592403972"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "3.3.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.3.0.tgz",
+        "shasum" : "3606223514a85a0935550ed15d973c12b12ff680"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.3.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.3.0_1529344560255_0.27133430342156917"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "3.3.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.3.1.tgz",
+        "shasum" : "4c7daeea08fe5646ea960b226572e899ddc7bc30"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.3.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.3.1_1530121504878_0.6947880931068569"
+      },
+      "_nodeVersion" : "10.5.0"
+    },
+    "3.4.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "3.4.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.4.0.tgz",
+        "shasum" : "595ba16e583455d14366c4a8eb008e76bb7ca667"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.4.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.4.0_1531409096059_0.8734891086882732"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "5.0.0-alpha.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0-alpha.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0-alpha.0.tgz",
+        "shasum" : "877fd90075721c805d6ee68eacc14fb3cb49e712"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-5.0.0-alpha.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@5.0.0-alpha.0",
+      "gitHead" : "7f231c04023669bc42d5a939d1359b0867e2efda",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0-alpha.0_1562771106092_0.5240183072721971"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-alpha.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0-alpha.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0-alpha.1.tgz",
+        "shasum" : "84ce6b01a0d572722cf8aa3995615bee90126ddf"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-5.0.0-alpha.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@5.0.0-alpha.1",
+      "gitHead" : "20d2110ddace710a46af06addd4977cae08f5942",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0-alpha.1_1563225672141_0.5982043779413171"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.0-alpha.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "4.0.0-alpha.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-4.0.0-alpha.0.tgz",
+        "shasum" : "51b4c713aa18745cb857016c64ee233f03f32564"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-4.0.0-alpha.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@4.0.0-alpha.0",
+      "gitHead" : "db1fb73fd32fbd5cbf42e246e6144011a5c6edc2",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_4.0.0-alpha.0_1539194814862_0.5568594424441062"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "5.0.0-alpha.2" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0-alpha.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0-alpha.2.tgz",
+        "shasum" : "e0e41bb8f181d6c2f1df20f403689850831e2a7e"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-core-5.0.0-alpha.2.tgz",
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@5.0.0-alpha.2",
+      "gitHead" : "0cb0029b692c3802545238fe59b6d6179ca32f6c",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0-alpha.2_1564684710817_0.6717861741641533"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "3.6.3" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "3.6.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.6.3.tgz",
+        "shasum" : "69abba70a4f3f2a5c059295a6f3b7c62bd00e15c"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.6.3",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.6.3_1540216452989_0.21132138759628694"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "5.0.0-beta.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0-beta.1.tgz",
+        "shasum" : "ae6758987003a5f0cbda0b8443e3607395acc839"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@5.0.0-beta.1",
+      "gitHead" : "01a9e9be8291f0a592891c8e2eb8d2dd09b93caf",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0-beta.1_1569959066051_0.534029713966232"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-rc.2" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0-rc.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0-rc.2.tgz",
+        "shasum" : "58239716cf1eca3648aaa2798cffd5f0dd133f23"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@5.0.0-rc.2",
+      "gitHead" : "89904768b2210e59c830dd380cf88a06e1c26a2b",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0-rc.2_1579641355185_0.11080900403720628"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "5.0.0-beta.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0-beta.0.tgz",
+        "shasum" : "869714211d09cf68ab8ae9cbabd9f82ab325f73f"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@5.0.0-beta.0",
+      "gitHead" : "136b38f2c701bd7c04e808d19961310a9ede524b",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0-beta.0_1566406732411_0.09778617689428004"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-rc.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0-rc.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0-rc.1.tgz",
+        "shasum" : "c321a6ae41bcb1a46a9d00f8629632c46aed4f31"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.17.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@5.0.0-rc.1",
+      "gitHead" : "f03f71e50507e13d82d4e0a875cc49ba4501aff3",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0-rc.1_1574705081497_0.42918018362771915"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.17.0"
+    },
+    "3.0.0-alpha.4" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-alpha.4",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-alpha.4.tgz",
+        "shasum" : "2b39d68b6214151e78b45dcd3e4a236cd111567d"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0-alpha.4",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core-3.0.0-alpha.4.tgz_1515522316010_0.12906222511082888"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "5.0.0-rc.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0-rc.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0-rc.0.tgz",
+        "shasum" : "22fadff27deab19b68a4e4b6544c5efef16e5c23"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@5.0.0-rc.0",
+      "gitHead" : "94542f92ceaec96ef59a09bda3aee1677ea5512b",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0-rc.0_1571258490714_0.42804986348071816"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "3.0.0-alpha.5" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-alpha.5",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-alpha.5.tgz",
+        "shasum" : "f04ceefa27528e94dc04de66c8a5b83f2c6a8410"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0-alpha.5",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core-3.0.0-alpha.5.tgz_1515785154786_0.9901780909858644"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-alpha.2" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-alpha.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-alpha.2.tgz",
+        "shasum" : "89152524056de23eafd938899c21adaa95fa977a"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0-alpha.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core-3.0.0-alpha.2.tgz_1512164858538_0.7774837212637067"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.0.0-alpha.3" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-alpha.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-alpha.3.tgz",
+        "shasum" : "d76b27a0173f210d6bf61fea07f28918feb2663f"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0-alpha.3",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core-3.0.0-alpha.3.tgz_1513192142432_0.6868906102608889"
+      },
+      "_nodeVersion" : "8.9.3"
+    },
+    "3.0.0-alpha.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-alpha.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-alpha.1.tgz",
+        "shasum" : "d07152e2ff6d773b2888d2b4d535589764db6efe"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0-alpha.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core-3.0.0-alpha.1.tgz_1511385021938_0.10922125517390668"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "3.0.0-beta.2" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-beta.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-beta.2.tgz",
+        "shasum" : "7f682db9664838ff72be93fb51f742c66aeebebd"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0-beta.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.0.0-beta.2_1520359202939_0.25190534966051303"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-alpha.6" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-alpha.6",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-alpha.6.tgz",
+        "shasum" : "2001a77840c376d5c8f9912b2d45c875ccaf9a7a"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-core@3.0.0-alpha.6",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core-3.0.0-alpha.6.tgz_1516811423852_0.48487796843983233"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "3.0.0-beta.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-beta.0.tgz",
+        "shasum" : "5cb45a26c4b5ea777a295bf5319bf598938d4e4e"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0-beta.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core-3.0.0-beta.0.tgz_1517526049263_0.6282070821616799"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-beta.1" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other workboxjs.org modules to share common code.",
+      "version" : "3.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-core.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-3.0.0-beta.1.tgz",
+        "shasum" : "16a50b4ff0296e084d00bbfa92638ac1ab23fe70"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-core@3.0.0-beta.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser",
+        "includeBabelHelpers" : true
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_3.0.0-beta.1_1519671228070_0.777350056539438"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "8.9.4"
+    },
+    "5.0.0" : {
+      "name" : "workbox-core",
+      "description" : "This module is used by a number of the other Workbox modules to share common code.",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-core/-/workbox-core-5.0.0.tgz",
+        "shasum" : "3cc95d172381c0fd0d762562a3cc49743e3093fa"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-core",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.17.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-core@5.0.0",
+      "gitHead" : "571ffded1872309a305f108a99a5a36982fde342",
+      "workbox" : {
+        "browserNamespace" : "workbox.core",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-core_5.0.0_1580266128946_0.5322868413590187"
+      },
+      "_nodeVersion" : "10.17.0"
+    }
+  },
+  "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-core\n",
+  "maintainers" : [ {
+    "email" : "addyosmani@gmail.com",
+    "name" : "addyosmani"
+  }, {
+    "email" : "matt@gauntface.co.uk",
+    "name" : "gauntface"
+  }, {
+    "email" : "jeffy@google.com",
+    "name" : "jeffposnick"
+  }, {
+    "email" : "philip@philipwalton.com",
+    "name" : "philipwalton"
+  } ],
+  "author" : {
+    "name" : "Google's Web DevRel Team"
+  },
+  "time" : {
+    "4.1.1" : "2019-03-15T21:50:28.984Z",
+    "4.2.0" : "2019-04-03T17:05:53.387Z",
+    "4.3.0" : "2019-04-15T19:49:03.867Z",
+    "4.0.0-rc.4" : "2019-02-26T02:54:58.865Z",
+    "4.0.0" : "2019-02-27T17:32:50.800Z",
+    "4.1.0" : "2019-03-07T18:53:07.746Z",
+    "4.0.0-rc.2" : "2019-02-13T21:49:43.717Z",
+    "4.0.0-rc.3" : "2019-02-19T20:12:16.521Z",
+    "4.0.0-rc.0" : "2019-02-06T19:58:25.214Z",
+    "4.3.1" : "2019-05-01T17:53:33.428Z",
+    "4.0.0-rc.1" : "2019-02-13T19:31:49.845Z",
+    "3.0.0" : "2018-03-13T01:42:23.968Z",
+    "4.0.0-beta.0" : "2018-11-06T18:40:27.222Z",
+    "3.4.1" : "2018-07-12T15:38:51.810Z",
+    "3.5.0" : "2018-09-11T14:55:15.434Z",
+    "4.0.0-beta.1" : "2019-01-15T19:55:19.174Z",
+    "modified" : "2020-01-29T02:48:51.408Z",
+    "3.6.0" : "2018-09-19T19:09:50.851Z",
+    "4.0.0-beta.2" : "2019-01-29T21:55:53.779Z",
+    "3.6.1" : "2018-09-19T19:27:02.932Z",
+    "3.6.2" : "2018-09-28T14:41:19.574Z",
+    "3.0.1" : "2018-03-22T22:28:28.645Z",
+    "3.1.0" : "2018-04-12T16:54:23.046Z",
+    "3.2.0" : "2018-05-02T18:17:10.250Z",
+    "3.3.0" : "2018-06-18T17:56:00.408Z",
+    "3.3.1" : "2018-06-27T17:45:04.959Z",
+    "3.4.0" : "2018-07-12T15:24:56.148Z",
+    "5.0.0-alpha.0" : "2019-07-10T15:05:06.268Z",
+    "5.0.0-alpha.1" : "2019-07-15T21:21:12.324Z",
+    "4.0.0-alpha.0" : "2018-10-10T18:06:55.085Z",
+    "5.0.0-alpha.2" : "2019-08-01T18:38:31.234Z",
+    "3.6.3" : "2018-10-22T13:54:13.143Z",
+    "created" : "2017-11-22T21:10:22.080Z",
+    "5.0.0-beta.1" : "2019-10-01T19:44:26.238Z",
+    "5.0.0-rc.2" : "2020-01-21T21:15:55.311Z",
+    "5.0.0-beta.0" : "2019-08-21T16:58:52.533Z",
+    "5.0.0-rc.1" : "2019-11-25T18:04:41.632Z",
+    "3.0.0-alpha.4" : "2018-01-09T18:25:16.093Z",
+    "5.0.0-rc.0" : "2019-10-16T20:41:30.864Z",
+    "3.0.0-alpha.5" : "2018-01-12T19:25:54.850Z",
+    "3.0.0-alpha.2" : "2017-12-01T21:47:38.763Z",
+    "3.0.0-alpha.3" : "2017-12-13T19:09:02.862Z",
+    "3.0.0-alpha.1" : "2017-11-22T21:10:22.080Z",
+    "3.0.0-beta.2" : "2018-03-06T18:00:03.073Z",
+    "3.0.0-alpha.6" : "2018-01-24T16:30:25.400Z",
+    "3.0.0-beta.0" : "2018-02-01T23:00:49.375Z",
+    "3.0.0-beta.1" : "2018-02-26T18:53:48.118Z",
+    "5.0.0" : "2020-01-29T02:48:49.045Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/googlechrome/workbox.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/GoogleChrome/workbox",
+  "keywords" : [ "workbox", "workboxjs", "service worker", "sw" ],
+  "bugs" : {
+    "url" : "https://github.com/googlechrome/workbox/issues"
+  },
+  "license" : "MIT"
+}

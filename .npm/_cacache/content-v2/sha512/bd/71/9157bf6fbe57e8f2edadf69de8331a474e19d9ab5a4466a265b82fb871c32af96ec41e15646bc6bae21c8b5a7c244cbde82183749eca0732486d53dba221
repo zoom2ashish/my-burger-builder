@@ -1,0 +1,932 @@
+{
+  "_id" : "pascal-case",
+  "_rev" : "25-3d2e9d4c515cfa0c2ca07b8d829eaf39",
+  "name" : "pascal-case",
+  "description" : "Transform into a string of capitalized words without separators",
+  "dist-tags" : {
+    "latest" : "3.1.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-2.0.0.tgz",
+        "shasum" : "39c248bde5a8dc02d5160696bdb01e044d016ee1"
+      },
+      "dependencies" : {
+        "camel-case" : "^3.0.0",
+        "upper-case-first" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.4.3",
+        "mocha" : "^2.2.1",
+        "standard" : "^7.1.2"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "files" : [ "pascal-case.js", "pascal-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@2.0.0",
+      "gitHead" : "d39cb9182d90faf4154979e070532edc51b3ae39",
+      "typings" : "pascal-case.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/pascal-case-2.0.0.tgz_1465692777291_0.48514753696508706"
+      },
+      "_shasum" : "39c248bde5a8dc02d5160696bdb01e044d016ee1",
+      "_nodeVersion" : "6.2.1"
+    },
+    "2.0.1" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-2.0.1.tgz",
+        "shasum" : "2d578d3455f660da65eca18ef95b4e0de912761e"
+      },
+      "dependencies" : {
+        "camel-case" : "^3.0.0",
+        "upper-case-first" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.4.3",
+        "mocha" : "^3.0.0",
+        "standard" : "^9.0.1"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "files" : [ "pascal-case.js", "pascal-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@2.0.1",
+      "gitHead" : "9a5e4f119e1b513ef5e9810d0f29aa9d3d039fb3",
+      "typings" : "pascal-case.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/pascal-case-2.0.1.tgz_1489798986040_0.968794125597924"
+      },
+      "_shasum" : "2d578d3455f660da65eca18ef95b4e0de912761e",
+      "_nodeVersion" : "7.3.0"
+    },
+    "0.0.2" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-0.0.2.tgz",
+        "shasum" : "e7edf771b19b533411a5c857cfe2fe4a0c151cfd"
+      },
+      "dependencies" : {
+        "camel-case" : "0.0.2"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@0.0.2"
+    },
+    "0.1.1" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-0.1.1.tgz",
+        "shasum" : "33b1abc0cb4d9b6ddfba5c19bd68856368789864"
+      },
+      "dependencies" : {
+        "camel-case" : "^0.1.0",
+        "upper-case-first" : "0.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.7",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@0.1.1"
+    },
+    "0.0.1" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-0.0.1.tgz",
+        "shasum" : "6567ea468f2f3d58bf11b5b6323e50fb583625b3"
+      },
+      "dependencies" : {
+        "camel-case" : "0.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@0.0.1"
+    },
+    "0.1.0" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-0.1.0.tgz",
+        "shasum" : "2d9b6bb5769dda9a0d4b1b1acb1597f0a975c464"
+      },
+      "dependencies" : {
+        "camel-case" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.7",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@0.1.0"
+    },
+    "1.1.2" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-1.1.2.tgz",
+        "shasum" : "3e5d64a20043830a7c49344c2d74b41be0c9c99b"
+      },
+      "dependencies" : {
+        "camel-case" : "^1.1.1",
+        "upper-case-first" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.2.1",
+        "pre-commit" : "^1.0.6",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "files" : [ "pascal-case.js", "pascal-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@1.1.2",
+      "gitHead" : "d22241b017fe7d5238d9fadc03515752e7072a30",
+      "typings" : "pascal-case.d.ts",
+      "_shasum" : "3e5d64a20043830a7c49344c2d74b41be0c9c99b",
+      "_nodeVersion" : "5.2.0"
+    },
+    "3.0.0" : {
+      "name" : "pascal-case",
+      "description" : "Transform into a string of capitalized words without separators",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/pascal-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-3.0.0.tgz",
+        "shasum" : "a1a0c8b82fb945a32d3bf85b5785820ac4073da8"
+      },
+      "dependencies" : {
+        "no-case" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "pascal", "case", "camel", "capital", "convert", "transform", "identifier", "class" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs && npm run size",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@3.0.0",
+      "gitHead" : "55911ca17c2e0c964b9b84143e14e29ffc9ff499",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pascal-case_3.0.0_1575181153806_0.2079557918069319"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "400 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "3.0.1" : {
+      "name" : "pascal-case",
+      "description" : "Transform into a string of capitalized words without separators",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/pascal-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-3.0.1.tgz",
+        "shasum" : "c14ffb41d541fb83c305995f09f783021e99d65d"
+      },
+      "dependencies" : {
+        "no-case" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "pascal", "case", "camel", "capital", "convert", "transform", "identifier", "class" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs && npm run size",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@3.0.1",
+      "gitHead" : "a3df3a43bfd3d8e3386d0fb09b69454b91516d18",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pascal-case_3.0.1_1575351618501_0.07542493837641429"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "400 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "3.1.0" : {
+      "name" : "pascal-case",
+      "description" : "Transform into a string of capitalized words without separators",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/pascal-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-3.1.0.tgz",
+        "shasum" : "b3cc1273a957ceb0c37c029d2580ed59f585e4df"
+      },
+      "dependencies" : {
+        "no-case" : "^3.0.2",
+        "tslib" : "^1.10.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "pascal", "case", "camel", "capital", "convert", "transform", "identifier", "class" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@3.1.0",
+      "gitHead" : "07b68e1a696a1a34090d4f1fc136b1bd467aaa3f",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pascal-case_3.1.0_1575601547713_0.3856035197533203"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "400 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "1.0.0" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-1.0.0.tgz",
+        "shasum" : "ff706e85ed360c36b34f7de7c4a4b10af9c72195"
+      },
+      "dependencies" : {
+        "camel-case" : "^1.0.0",
+        "upper-case-first" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@1.0.0",
+      "gitHead" : "cb38b0fa3eef0a039d1190c2b5ea2cc5af4ea7c1",
+      "_shasum" : "ff706e85ed360c36b34f7de7c4a4b10af9c72195"
+    },
+    "3.1.1" : {
+      "name" : "pascal-case",
+      "description" : "Transform into a string of capitalized words without separators",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/pascal-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-3.1.1.tgz",
+        "shasum" : "5ac1975133ed619281e88920973d2cd1f279de5f"
+      },
+      "dependencies" : {
+        "no-case" : "^3.0.3",
+        "tslib" : "^1.10.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "pascal", "case", "camel", "capital", "convert", "transform", "identifier", "class" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@3.1.1",
+      "gitHead" : "1c1377a692d328ae01221b2a1532bade38e1eaa3",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pascal-case_3.1.1_1576721497840_0.874466180638974"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "400 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "1.1.0" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-1.1.0.tgz",
+        "shasum" : "c2a1cf06c02dde6864b830e63df86af719d4f607"
+      },
+      "dependencies" : {
+        "camel-case" : "^1.1.1",
+        "upper-case-first" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2",
+        "pre-commit" : "0.0.9"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "files" : [ "pascal-case.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.17",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@1.1.0",
+      "gitHead" : "684bcb565cfa0ac1db7821f11cd9c14ed5f3965e",
+      "_shasum" : "c2a1cf06c02dde6864b830e63df86af719d4f607",
+      "_nodeVersion" : "0.11.14"
+    },
+    "1.1.1" : {
+      "name" : "pascal-case",
+      "description" : "Pascal case a string",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/pascal-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/pascal-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/pascal-case/issues"
+      },
+      "main" : "pascal-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pascal-case/-/pascal-case-1.1.1.tgz",
+        "shasum" : "460d7d112e34228d344e1e66372668404e776e73"
+      },
+      "dependencies" : {
+        "camel-case" : "^1.1.1",
+        "upper-case-first" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.2.1",
+        "pre-commit" : "^1.0.6",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "pascal", "case" ],
+      "license" : "MIT",
+      "files" : [ "pascal-case.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "pascal-case@1.1.1",
+      "gitHead" : "da3b38a311408631a6ba50eb096526270c22ecfb",
+      "_shasum" : "460d7d112e34228d344e1e66372668404e776e73",
+      "_nodeVersion" : "2.0.1"
+    }
+  },
+  "readme" : "# Pascal Case\n\n[![NPM version][npm-image]][npm-url]\n[![NPM downloads][downloads-image]][downloads-url]\n[![Bundle size][bundlephobia-image]][bundlephobia-url]\n\n> Transform into a string of capitalized words without separators.\n\n## Installation\n\n```\nnpm install pascal-case --save\n```\n\n## Usage\n\n```js\nimport { pascalCase } from \"pascal-case\";\n\npascalCase(\"string\"); //=> \"String\"\npascalCase(\"dot.case\"); //=> \"DotCase\"\npascalCase(\"PascalCase\"); //=> \"PascalCase\"\npascalCase(\"version 1.2.10\"); //=> \"Version_1_2_10\"\n```\n\nThe function also accepts [`options`](https://github.com/blakeembrey/change-case#options).\n\n### Merge Numbers\n\nIf you'd like to remove the behavior prefixing `_` before numbers, you can use `pascalCaseTransformMerge`:\n\n```js\nimport { pascalCaseTransformMerge } from \"pascal-case\";\n\npascalCase(\"version 12\", { transform: pascalCaseTransformMerge }); //=> \"Version12\"\n```\n\n## License\n\nMIT\n\n[npm-image]: https://img.shields.io/npm/v/pascal-case.svg?style=flat\n[npm-url]: https://npmjs.org/package/pascal-case\n[downloads-image]: https://img.shields.io/npm/dm/pascal-case.svg?style=flat\n[downloads-url]: https://npmjs.org/package/pascal-case\n[bundlephobia-image]: https://img.shields.io/bundlephobia/minzip/pascal-case.svg\n[bundlephobia-url]: https://bundlephobia.com/result?p=pascal-case\n",
+  "maintainers" : [ {
+    "name" : "blakeembrey",
+    "email" : "hello@blakeembrey.com"
+  } ],
+  "author" : {
+    "name" : "Blake Embrey",
+    "email" : "hello@blakeembrey.com",
+    "url" : "http://blakeembrey.me"
+  },
+  "time" : {
+    "2.0.0" : "2016-06-12T00:52:59.950Z",
+    "2.0.1" : "2017-03-18T01:03:07.898Z",
+    "created" : "2014-03-24T23:20:33.762Z",
+    "0.0.2" : "2014-03-25T02:21:45.569Z",
+    "0.1.1" : "2014-04-25T08:00:03.785Z",
+    "0.0.1" : "2014-03-24T23:20:33.762Z",
+    "0.1.0" : "2014-04-09T09:50:24.651Z",
+    "1.1.2" : "2015-12-16T00:23:44.898Z",
+    "3.0.0" : "2019-12-01T06:19:13.947Z",
+    "modified" : "2019-12-19T02:11:40.363Z",
+    "3.0.1" : "2019-12-03T05:40:18.669Z",
+    "3.1.0" : "2019-12-06T03:05:47.838Z",
+    "1.0.0" : "2014-08-17T19:25:52.104Z",
+    "3.1.1" : "2019-12-19T02:11:38.079Z",
+    "1.1.0" : "2015-01-12T08:22:53.201Z",
+    "1.1.1" : "2015-05-11T23:38:06.858Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/blakeembrey/change-case.git"
+  },
+  "users" : {
+    "h0ward" : true,
+    "prabhash1785" : true,
+    "princetoad" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/pascal-case#readme",
+  "keywords" : [ "pascal", "case", "camel", "capital", "convert", "transform", "identifier", "class" ],
+  "bugs" : {
+    "url" : "https://github.com/blakeembrey/change-case/issues"
+  },
+  "license" : "MIT"
+}

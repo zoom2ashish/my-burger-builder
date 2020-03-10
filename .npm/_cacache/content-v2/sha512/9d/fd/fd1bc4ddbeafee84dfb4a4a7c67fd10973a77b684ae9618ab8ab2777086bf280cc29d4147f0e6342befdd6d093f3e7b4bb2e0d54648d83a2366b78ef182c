@@ -1,0 +1,782 @@
+{
+  "_id" : "postcss-color-hex-alpha",
+  "_rev" : "18-a369bc1b72018c0548c78127182e9773",
+  "name" : "postcss-color-hex-alpha",
+  "description" : "Use 4 & 8 character hex color notation in CSS",
+  "dist-tags" : {
+    "latest" : "5.0.3"
+  },
+  "versions" : {
+    "1.3.0" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "PostCSS plugin to transform W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA) to more compatible CSS (rgba())",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-1.3.0.tgz",
+        "shasum" : "4632f8e602986eac2a4a1102a683e373f6b78025"
+      },
+      "dependencies" : {
+        "color" : "^0.10.1",
+        "postcss" : "^4.1.16",
+        "postcss-message-helpers" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "jscs" : "^2.1.0",
+        "jshint" : "^2.8.0",
+        "tape" : "^4.0.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "color", "colour", "hexa", "alpha" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-color-hex-alpha@1.3.0",
+      "gitHead" : "a1eb51df62b626ebb59d28f34465d3f19ab3d670",
+      "_shasum" : "4632f8e602986eac2a4a1102a683e373f6b78025",
+      "_nodeVersion" : "3.0.0"
+    },
+    "2.0.0" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "PostCSS plugin to transform W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA) to more compatible CSS (rgba())",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-2.0.0.tgz",
+        "shasum" : "44fd6ecade66028648c881cb6504cdcbfdc6cd09"
+      },
+      "dependencies" : {
+        "color" : "^0.10.1",
+        "postcss" : "^5.0.4",
+        "postcss-message-helpers" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "jscs" : "^2.1.0",
+        "jshint" : "^2.8.0",
+        "tape" : "^4.0.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "color", "colour", "hexa", "alpha" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npm run jscs && npm run jshint",
+        "jscs" : "jscs index.js test/index.js",
+        "jshint" : "jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-color-hex-alpha@2.0.0",
+      "gitHead" : "382fd873556753edf890250100058942cba5b507",
+      "_shasum" : "44fd6ecade66028648c881cb6504cdcbfdc6cd09",
+      "_nodeVersion" : "3.3.0"
+    },
+    "3.0.0" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "PostCSS plugin to transform W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA) to more compatible CSS (rgba())",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-3.0.0.tgz",
+        "shasum" : "1e53e6c8acb237955e8fd08b7ecdb1b8b8309f95"
+      },
+      "dependencies" : {
+        "color" : "^1.0.3",
+        "postcss" : "^6.0.1",
+        "postcss-message-helpers" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "tape" : "^4.6.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "color", "colour", "hexa", "alpha" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js index.js ./test/",
+        "test" : "npm run lint && tape test",
+        "release" : "npmpub"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      },
+      "_id" : "postcss-color-hex-alpha@3.0.0",
+      "gitHead" : "7192cc004172abca87810d15307bec194e74cea5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-color-hex-alpha-3.0.0.tgz_1494850525588_0.32261887518689036"
+      },
+      "_shasum" : "1e53e6c8acb237955e8fd08b7ecdb1b8b8309f95",
+      "_nodeVersion" : "6.5.0"
+    },
+    "5.0.0" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "Use 4 & 8 character hex color notation in CSS",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-5.0.0.tgz",
+        "shasum" : "c8c45f161784e4ceaee73ca455414caad56a9187"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2",
+        "postcss-values-parser" : "^1.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "hex", "alpha", "transparent", "transparency", "4-digit", "8-digit", "w3c", "csswg", "specification", "spec" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-hex-alpha@5.0.0",
+      "gitHead" : "9f7f47083845ea87f489edfb9305ae66b7c97922",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-hex-alpha_5.0.0_1537254668250_0.9284479480126333"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "PostCSS plugin to transform W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA) to more compatible CSS (rgba())",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-4.0.0.tgz",
+        "shasum" : "c40bbfc5361b081fdbfa0ffba048c345e5361601"
+      },
+      "dependencies" : {
+        "color" : "^3.0.0",
+        "postcss" : "^7.0.2",
+        "postcss-message-helpers" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.0",
+        "tape" : "^4.9.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "color", "colour", "hexa", "alpha" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js index.js ./test/",
+        "test" : "npm run lint && tape test",
+        "release" : "npmpub"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-hex-alpha@4.0.0",
+      "gitHead" : "cbe9486f3bac5670bc5948cdb4b27b70b76cdc92",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-hex-alpha_4.0.0_1537238525389_0.08072144581824592"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "5.0.1" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "Use 4 & 8 character hex color notation in CSS",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-5.0.1.tgz",
+        "shasum" : "b7ebaeab2e583ae63a6e775b7e958e57514cdf51"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2",
+        "postcss-values-parser" : "^1.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "hex", "alpha", "transparent", "transparency", "4-digit", "8-digit", "w3c", "csswg", "specification", "spec" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-hex-alpha@5.0.1",
+      "gitHead" : "f980266b4ceecb714fc9a7dbb98b472839eef828",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-hex-alpha_5.0.1_1537256107443_0.04717991629514917"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "5.0.2" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "Use 4 & 8 character hex color notation in CSS",
+      "version" : "5.0.2",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-5.0.2.tgz",
+        "shasum" : "e9b1886bb038daed33f6394168c210b40bb4fdb6"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2",
+        "postcss-values-parser" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-syntax-dynamic-import" : "^7.0.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "hex", "alpha", "transparent", "transparency", "4-digit", "8-digit", "w3c", "csswg", "specification", "spec" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-hex-alpha@5.0.2",
+      "gitHead" : "d3fafd278e0427df8e4ed06f477c0fa26edefb0d",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-hex-alpha_5.0.2_1537288017475_0.07021191078123645"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "5.0.3" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "Use 4 & 8 character hex color notation in CSS",
+      "version" : "5.0.3",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "contributors" : [ {
+        "name" : "Maxime Thirouin"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-5.0.3.tgz",
+        "shasum" : "a8d9ca4c39d497c9661e374b9c51899ef0f87388"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.14",
+        "postcss-values-parser" : "^2.0.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.0",
+        "@babel/plugin-syntax-dynamic-import" : "^7.2.0",
+        "@babel/preset-env" : "^7.4.2",
+        "babel-eslint" : "^10.0.1",
+        "eslint" : "^5.16.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^4.0.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^1.7.4",
+        "rollup-plugin-babel" : "^4.3.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "hex", "alpha", "transparent", "transparency", "4-digit", "8-digit", "w3c", "csswg", "specification", "spec" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-hex-alpha@5.0.3",
+      "gitHead" : "b49e1956f120d14c06019d3b01006ad00226995a",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-hex-alpha_5.0.3_1553926435356_0.021446534655891192"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "11.11.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "PostCSS plugin to transform W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA) to more compatible CSS (rgba())",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-1.0.0.tgz",
+        "shasum" : "28d00905bc69d4b49ce8018d6d5e70776c67c3b8"
+      },
+      "dependencies" : {
+        "color" : "^0.7.1"
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^2.2.5",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "color", "colour", "hexa", "alpha" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.2",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-color-hex-alpha@1.0.0",
+      "gitHead" : "2e0cfc39d59b92d44e0e5b55189642049900f4d1",
+      "_shasum" : "28d00905bc69d4b49ce8018d6d5e70776c67c3b8",
+      "_nodeVersion" : "0.10.32"
+    },
+    "1.1.0" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "PostCSS plugin to transform W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA) to more compatible CSS (rgba())",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-1.1.0.tgz",
+        "shasum" : "b174f72127417a43c2fbe92c144c8b0bfb6af783"
+      },
+      "dependencies" : {
+        "color" : "^0.7.1",
+        "postcss-message-helpers" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^3.0.0",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "color", "colour", "hexa", "alpha" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-color-hex-alpha@1.1.0",
+      "gitHead" : "9aeffad2616ceeb3b59017b88ebe287c3818f1c1",
+      "_shasum" : "b174f72127417a43c2fbe92c144c8b0bfb6af783",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.2.0" : {
+      "name" : "postcss-color-hex-alpha",
+      "description" : "PostCSS plugin to transform W3C RGBA hexadecimal notations (#RRGGBBAA or #RGBA) to more compatible CSS (rgba())",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-hex-alpha",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-hex-alpha/-/postcss-color-hex-alpha-1.2.0.tgz",
+        "shasum" : "ede7ec172c5aa997707e9c3600ccd8f3f122213b"
+      },
+      "dependencies" : {
+        "color" : "^0.7.1",
+        "postcss-message-helpers" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^3.0.0",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "color", "colour", "hexa", "alpha" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-color-hex-alpha@1.2.0",
+      "gitHead" : "c775f5eba6122006bd29aeb0df2242e0289e2a27",
+      "_shasum" : "ede7ec172c5aa997707e9c3600ccd8f3f122213b",
+      "_nodeVersion" : "0.10.33"
+    }
+  },
+  "readme" : "# PostCSS Color Hex Alpha [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[![NPM Version][npm-img]][npm-url]\n[![CSS Standard Status][css-img]][css-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[PostCSS Color Hex Alpha] lets you use 4 & 8 character hex color notation in\nCSS, following the [CSS Color Module] specification.\n\n```pcss\nbody {\n  background: #9d9c;\n}\n\n/* becomes */\n\nbody {\n  background: rgba(153, 221, 153, 0.8);\n}\n```\n\n## Usage\n\nAdd [PostCSS Color Hex Alpha] to your project:\n\n```bash\nnpm install postcss-color-hex-alpha --save-dev\n```\n\nUse [PostCSS Color Hex Alpha] to process your CSS:\n\n```js\nconst postcssColorHexAlpha = require('postcss-color-hex-alpha');\n\npostcssColorHexAlpha.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nconst postcss = require('postcss');\nconst postcssColorHexAlpha = require('postcss-color-hex-alpha');\n\npostcss([\n  postcssColorHexAlpha(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Color Hex Alpha] runs in all Node environments, with special instructions for:\n\n| [Node](INSTALL.md#node) | [PostCSS CLI](INSTALL.md#postcss-cli) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- | --- |\n\n## Options\n\n### preserve\n\nThe `preserve` option determines whether 4 & 8 character hex color notation\nshould be preserved in their original form. By default, these are not preserved.\n\n```js\npostcssColorHexAlpha({\n  preserve: true\n});\n```\n\n```pcss\nbody {\n  background: #9d9c;\n}\n\n/* becomes */\n\nbody {\n  background: rgba(153, 221, 153, 0.8);\n  background: #9d9c;\n}\n```\n\n[cli-img]: https://img.shields.io/travis/postcss/postcss-color-hex-alpha.svg\n[cli-url]: https://travis-ci.org/postcss/postcss-color-hex-alpha\n[css-img]: https://cssdb.org/badge/hexadecimal-alpha-notation.svg\n[css-url]: https://cssdb.org/#hexadecimal-alpha-notation\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/postcss-color-hex-alpha.svg\n[npm-url]: https://www.npmjs.com/package/postcss-color-hex-alpha\n\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Color Hex Alpha]: https://github.com/postcss/postcss-color-hex-alpha\n[CSS Color Module]: https://www.w3.org/TR/css-color-4/#hex-notation\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  }, {
+    "name" : "moox",
+    "email" : "m@moox.io"
+  }, {
+    "name" : "semigradsky",
+    "email" : "semigradskyd@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-09-08T04:25:05.852Z",
+    "created" : "2014-10-04T06:06:14.491Z",
+    "4.0.0" : "2018-09-18T02:42:05.550Z",
+    "1.3.0" : "2015-08-13T07:27:04.649Z",
+    "3.0.0" : "2017-05-15T12:15:26.844Z",
+    "modified" : "2019-03-30T06:13:58.196Z",
+    "5.0.0" : "2018-09-18T07:11:08.422Z",
+    "5.0.1" : "2018-09-18T07:35:07.669Z",
+    "5.0.2" : "2018-09-18T16:26:57.603Z",
+    "5.0.3" : "2019-03-30T06:13:55.480Z",
+    "1.0.0" : "2014-10-04T06:06:14.491Z",
+    "1.1.0" : "2014-11-25T07:46:30.250Z",
+    "1.2.0" : "2014-11-25T07:46:49.595Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/postcss/postcss-color-hex-alpha.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/postcss/postcss-color-hex-alpha#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "color", "hex", "alpha", "transparent", "transparency", "4-digit", "8-digit", "w3c", "csswg", "specification", "spec" ],
+  "contributors" : [ {
+    "name" : "Maxime Thirouin"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/postcss/postcss-color-hex-alpha/issues"
+  },
+  "license" : "MIT"
+}

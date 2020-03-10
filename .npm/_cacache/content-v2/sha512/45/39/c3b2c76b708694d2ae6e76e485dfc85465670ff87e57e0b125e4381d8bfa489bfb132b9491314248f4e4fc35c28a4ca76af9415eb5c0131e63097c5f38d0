@@ -1,0 +1,656 @@
+{
+  "_id" : "postcss-place",
+  "_rev" : "8-46bd83f03fa13aeb292e2fd5689312bf",
+  "name" : "postcss-place",
+  "description" : "Use a place-* shorthand for align-* and justify-* in CSS",
+  "dist-tags" : {
+    "latest" : "4.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-place",
+      "description" : "`place-[alignment] shorthand for align-[alignment] and justify-[alignment]",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com",
+        "url" : "http://jonathantneal.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-place/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.1"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-place/-/postcss-place-2.0.0.tgz",
+        "shasum" : "9a78b0b57b2388a6a483ea89338b53c2f61446fb"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.4",
+        "postcss-value-parser" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "echint" : "^4.0.1",
+        "echint-config-dev" : "1.0.0",
+        "eslint" : "^4.1.1",
+        "eslint-config-dev" : "2.0.0",
+        "jscs" : "^3.0.7",
+        "jscs-config-dev" : "1.0.1",
+        "postcss-tape" : "2.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "echint && eslint index.js && jscs index.js",
+        "prepublish" : "npm test",
+        "tape" : "postcss-tape",
+        "test" : "npm run lint && postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-place@2.0.0",
+      "gitHead" : "218ad29b415355df051806311b846e8ee033f861",
+      "jscsConfig" : {
+        "preset" : "dev"
+      },
+      "echint" : {
+        "extends" : "dev"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-place-2.0.0.tgz_1498828727501_0.7493532178923488"
+      },
+      "_shasum" : "9a78b0b57b2388a6a483ea89338b53c2f61446fb",
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parserOptions" : {
+          "sourceType" : "module"
+        }
+      },
+      "_nodeVersion" : "6.10.3"
+    },
+    "3.0.0" : {
+      "name" : "postcss-place",
+      "description" : "Use a place-* shorthand for align-* and justify-* in CSS",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-place/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-place/-/postcss-place-3.0.0.tgz",
+        "shasum" : "a9917609b5e104d3bf44046c9af82ca316c3171f"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.22",
+        "postcss-value-parser" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.3",
+        "babel-preset-env" : "^1.6.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.58.2",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-place@3.0.0",
+      "gitHead" : "55bcbd92fef8dd19bfb9ed129d10e0e70101f54f",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-place_3.0.0_1525757938896_0.4605256203970767"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-place",
+      "description" : "Use a place-* shorthand for align-* and justify-* in CSS",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-place/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-place/-/postcss-place-4.0.0.tgz",
+        "shasum" : "77bee0b8ab2ed90253e434cc74fb22ba6c019eea"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2",
+        "postcss-values-parser" : "^1.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-place@4.0.0",
+      "gitHead" : "08fe1ce1c8eb8acab1ffcb9757e809e849539795",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-place_4.0.0_1537246774800_0.7752620368501137"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.1" : {
+      "name" : "postcss-place",
+      "description" : "Use a place-* shorthand for align-* and justify-* in CSS",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-place/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-place/-/postcss-place-4.0.1.tgz",
+        "shasum" : "e9f39d33d2dc584e46ee1db45adb77ca9d1dcc62"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2",
+        "postcss-values-parser" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-place@4.0.1",
+      "gitHead" : "b956f0130fc324ede73e1ff18e22cc45a231561f",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-place_4.0.1_1537285345301_0.04818296917231657"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "3.0.1" : {
+      "name" : "postcss-place",
+      "description" : "Use a place-* shorthand for align-* and justify-* in CSS",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-place/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-place/-/postcss-place-3.0.1.tgz",
+        "shasum" : "95b0aeedd1302fe898c77ef6392cd1cfa7b23dd8"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.22",
+        "postcss-values-parser" : "^1.5.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.3",
+        "babel-preset-env" : "^1.6.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.58.2",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-place@3.0.1",
+      "gitHead" : "b628680cc930f6c1af62c8babb8c0946132f1030",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-place_3.0.1_1525759044670_0.5408720441538928"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-place",
+      "description" : "`place-[alignment] shorthand for align-[alignment] and justify-[alignment]",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com",
+        "url" : "http://jonathantneal.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-place/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.1"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-place/-/postcss-place-1.0.0.tgz",
+        "shasum" : "81ec69ca4b7bbd5007d943042a170d1bdc5e9dcf"
+      },
+      "dependencies" : {
+        "postcss" : "^5.2.5",
+        "postcss-value-parser" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.10.2",
+        "eslint-config-10up" : "github:jonathantneal/eslint-config-10up",
+        "jscs" : "^3.0.7",
+        "jscs-config-10up" : "github:jonathantneal/jscs-config-10up"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint index.js && jscs index.js",
+        "tape" : "node test",
+        "test" : "npm run lint && node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.2",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-place@1.0.0",
+      "gitHead" : "bfe055b02c155c8be5e697cf25923d93dd0b1f14",
+      "jscsConfig" : {
+        "preset" : "10up"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-place-1.0.0.tgz_1480167485647_0.7237656766083091"
+      },
+      "_shasum" : "81ec69ca4b7bbd5007d943042a170d1bdc5e9dcf",
+      "eslintConfig" : {
+        "extends" : "10up",
+        "parserOptions" : {
+          "sourceType" : "module"
+        }
+      },
+      "_nodeVersion" : "7.1.0"
+    },
+    "1.0.1" : {
+      "name" : "postcss-place",
+      "description" : "`place-[alignment] shorthand for align-[alignment] and justify-[alignment]",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com",
+        "url" : "http://jonathantneal.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-place/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.1"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-place/-/postcss-place-1.0.1.tgz",
+        "shasum" : "3928db526103df64cc438fc66dab528136029494"
+      },
+      "dependencies" : {
+        "postcss" : "^5.2.6",
+        "postcss-value-parser" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "echint" : "^2.1.0",
+        "echint-config-dev" : "1.0.0",
+        "eslint" : "^3.11.1",
+        "eslint-config-dev" : "1.0.0",
+        "jscs" : "^3.0.7",
+        "jscs-config-dev" : "1.0.1",
+        "postcss-tape" : "1.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "echint && eslint index.js && jscs index.js",
+        "prepublish" : "npm test",
+        "tape" : "postcss-tape",
+        "test" : "npm run lint && postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-place@1.0.1",
+      "gitHead" : "005682de7e15f42d3f706040cbae7f469a4fe0e9",
+      "jscsConfig" : {
+        "preset" : "dev"
+      },
+      "echint" : {
+        "extends" : "dev"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-place-1.0.1.tgz_1481054282159_0.5780854835174978"
+      },
+      "_shasum" : "3928db526103df64cc438fc66dab528136029494",
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parserOptions" : {
+          "sourceType" : "module"
+        }
+      },
+      "_nodeVersion" : "7.2.0"
+    },
+    "1.0.2" : {
+      "name" : "postcss-place",
+      "description" : "`place-[alignment] shorthand for align-[alignment] and justify-[alignment]",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com",
+        "url" : "http://jonathantneal.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-place/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.1"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-place/-/postcss-place-1.0.2.tgz",
+        "shasum" : "98c9aa4d04d6b52328763afeabb45a9082d7652e"
+      },
+      "dependencies" : {
+        "postcss" : "^5.2.6",
+        "postcss-value-parser" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "echint" : "^2.1.0",
+        "echint-config-dev" : "1.0.0",
+        "eslint" : "^3.12.1",
+        "eslint-config-dev" : "1.0.0",
+        "jscs" : "^3.0.7",
+        "jscs-config-dev" : "1.0.1",
+        "postcss-tape" : "1.3.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "echint && eslint index.js && jscs index.js",
+        "prepublish" : "npm test",
+        "tape" : "postcss-tape",
+        "test" : "npm run lint && postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-place@1.0.2",
+      "gitHead" : "c28c91d8acf9b935c02138368e72952fb231caa1",
+      "jscsConfig" : {
+        "preset" : "dev"
+      },
+      "echint" : {
+        "extends" : "dev"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-place-1.0.2.tgz_1481739343445_0.6566132663283497"
+      },
+      "_shasum" : "98c9aa4d04d6b52328763afeabb45a9082d7652e",
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parserOptions" : {
+          "sourceType" : "module"
+        }
+      },
+      "_nodeVersion" : "7.2.1"
+    }
+  },
+  "readme" : "# PostCSS Place Properties [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS Logo\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[![NPM Version][npm-img]][npm-url]\n[![CSS Standard Status][css-img]][css-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[PostCSS Place Properties] lets you use `place-*` properties as shorthands for `align-*`\nand `justify-*`, following the [CSS Box Alignment] specification.\n\n```pcss\n.example {\n  place-self: center;\n  place-content: space-between center;\n}\n\n/* becomes */\n\n.example {\n  align-self: center;\n  justify-self: center;\n  place-self: center;\n  align-content: space-between;\n  justify-content: center;\n  place-content: space-between center;\n}\n```\n\n## Usage\n\nAdd [PostCSS Place Properties] to your project:\n\n```bash\nnpm install postcss-place --save-dev\n```\n\nUse [PostCSS Place Properties] to process your CSS:\n\n```js\nimport postcssPlace from 'postcss-place';\n\npostcssPlace.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nimport postcss from 'postcss';\nimport postcssPlace from 'postcss-place';\n\npostcss([\n  postcssPlace(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Place Properties] runs in all Node environments, with special instructions for:\n\n| [Node](INSTALL.md#node) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- |\n\n## Options\n\n### preserve\n\nThe `preserve` option determines whether the original place declaration is\npreserved. By default, it is preserved.\n\n```js\npostcssPlace({ preserve: false })\n```\n\n```pcss\n.example {\n  place-self: center;\n  place-content: space-between center;\n}\n\n/* becomes */\n\n.example {\n  align-self: center;\n  justify-self: center;\n  align-content: space-between;\n  justify-content: center;\n}\n```\n\n[cli-img]: https://img.shields.io/travis/jonathantneal/postcss-place.svg\n[cli-url]: https://travis-ci.org/jonathantneal/postcss-place\n[css-img]: https://cssdb.org/badge/place-properties.svg\n[css-url]: https://cssdb.org/#place-properties\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/postcss-place.svg\n[npm-url]: https://www.npmjs.com/package/postcss-place\n\n[CSS Box Alignment]: https://www.w3.org/TR/css-align-3/#place-content\n[Gulp PostCSS]: https://github.com/postcss/gulp-postcss\n[Grunt PostCSS]: https://github.com/nDmitry/grunt-postcss\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Loader]: https://github.com/postcss/postcss-loader\n[PostCSS Place Properties]: https://github.com/jonathantneal/postcss-place\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2017-06-30T13:18:48.555Z",
+    "3.0.0" : "2018-05-08T05:38:58.951Z",
+    "created" : "2016-11-26T13:38:07.700Z",
+    "modified" : "2019-01-05T04:44:36.139Z",
+    "4.0.0" : "2018-09-18T04:59:34.941Z",
+    "4.0.1" : "2018-09-18T15:42:30.864Z",
+    "3.0.1" : "2018-05-08T05:57:24.767Z",
+    "1.0.0" : "2016-11-26T13:38:07.700Z",
+    "1.0.1" : "2016-12-06T19:58:02.382Z",
+    "1.0.2" : "2016-12-14T18:15:43.838Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jonathantneal/postcss-place.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jonathantneal/postcss-place#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "shorthands", "alignments", "justifies", "justify", "aligns", "contents", "selfs" ],
+  "bugs" : {
+    "url" : "https://github.com/jonathantneal/postcss-place/issues"
+  },
+  "license" : "CC0-1.0"
+}

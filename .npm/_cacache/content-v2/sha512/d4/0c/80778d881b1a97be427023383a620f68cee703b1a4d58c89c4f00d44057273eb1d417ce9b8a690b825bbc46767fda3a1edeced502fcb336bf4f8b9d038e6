@@ -1,0 +1,394 @@
+{
+  "_id" : "@svgr/babel-plugin-svg-dynamic-title",
+  "_rev" : "6-cbe698ac445e190ff3122e7332814e81",
+  "name" : "@svgr/babel-plugin-svg-dynamic-title",
+  "description" : "Transform SVG by adding a dynamic title element",
+  "dist-tags" : {
+    "latest" : "5.0.1"
+  },
+  "versions" : {
+    "4.2.0" : {
+      "name" : "@svgr/babel-plugin-svg-dynamic-title",
+      "description" : "Transform SVG by adding a dynamic title element",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-svg-dynamic-title"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-4.2.0.tgz",
+        "shasum" : "43f0f689a5347a894160eb51b39a109889a4df20"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-dynamic-title@4.2.0",
+      "gitHead" : "35d3f4d446e5402902ee922a3f9984000bb74920",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-dynamic-title_4.2.0_1554966098696_0.3060035505857883"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "4.3.0" : {
+      "name" : "@svgr/babel-plugin-svg-dynamic-title",
+      "description" : "Transform SVG by adding a dynamic title element",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-svg-dynamic-title"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-4.3.0.tgz",
+        "shasum" : "826c7d30f8f98f26bdb4af205a5dfbf1f04d80ec"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-dynamic-title@4.3.0",
+      "gitHead" : "79069edba617457cc0255fdf48425e8d877a0b52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-dynamic-title_4.3.0_1559054640914_0.8199547581482325"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "5.0.0" : {
+      "name" : "@svgr/babel-plugin-svg-dynamic-title",
+      "description" : "Transform SVG by adding a dynamic title element",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-svg-dynamic-title"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-5.0.0.tgz",
+        "shasum" : "5f91bcb7f2a2eba40b3b0c35eea3789d9b8e9be8"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-dynamic-title@5.0.0",
+      "gitHead" : "cfc0fc2786024820ea476739eda6cca342cf4230",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-dynamic-title_5.0.0_1577110007222_0.2941271521957114"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "4.0.0" : {
+      "name" : "@svgr/babel-plugin-svg-dynamic-title",
+      "description" : "Transform SVG by adding a dynamic title element",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-4.0.0.tgz",
+        "shasum" : "eb8d50b80ba0a26f9b27c7268e2a803d90f1bc9e"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-dynamic-title@4.0.0",
+      "gitHead" : "d6beadaa9943157b59c085f03a45813897cc337c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-dynamic-title_4.0.0_1541344659500_0.20465705329846418"
+      }
+    },
+    "5.0.1" : {
+      "name" : "@svgr/babel-plugin-svg-dynamic-title",
+      "description" : "Transform SVG by adding a dynamic title element",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "homepage" : "https://react-svgr.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-svg-dynamic-title"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-5.0.1.tgz",
+        "shasum" : "221abd28898130c6466b018bf19e905648100c38"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-dynamic-title@5.0.1",
+      "gitHead" : "2c0863b6821ef6b86bd7ad1a0267ba7e07b163ff",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/gregberge"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-dynamic-title_5.0.1_1577611798809_0.8626449006667176"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "4.3.3" : {
+      "name" : "@svgr/babel-plugin-svg-dynamic-title",
+      "description" : "Transform SVG by adding a dynamic title element",
+      "version" : "4.3.3",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-svg-dynamic-title"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-4.3.3.tgz",
+        "shasum" : "2cdedd747e5b1b29ed4c241e46256aac8110dd93"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v12.9.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-dynamic-title@4.3.3",
+      "gitHead" : "14a26644e7bda24c2ff97524f3d8841801a6442f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-dynamic-title_4.3.3_1569310953160_0.823645310134784"
+      },
+      "_nodeVersion" : "12.9.1"
+    },
+    "4.3.1" : {
+      "name" : "@svgr/babel-plugin-svg-dynamic-title",
+      "description" : "Transform SVG by adding a dynamic title element",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-svg-dynamic-title"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-4.3.1.tgz",
+        "shasum" : "646c2f5b5770c2fe318d6e51492344c3d62ddb63"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.14.1/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-dynamic-title@4.3.1",
+      "gitHead" : "06e1e996a92289183fca0aabe4ba286e3a227f1b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-dynamic-title_4.3.1_1561971388697_0.8485402091800476"
+      },
+      "_nodeVersion" : "10.14.2"
+    }
+  },
+  "readme" : "# @svgr/babel-plugin-svg-dynamic-title\n\n## Install\n\n```\b\nnpm install --save-dev @svgr/babel-plugin-svg-dynamic-title\n```\n\n## Usage\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"@svgr/babel-plugin-svg-dynamic-title\"]\n}\n```\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "neoziro",
+    "email" : "berge.greg@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Greg Bergé",
+    "email" : "berge.greg@gmail.com"
+  },
+  "time" : {
+    "created" : "2018-11-04T15:17:39.433Z",
+    "4.2.0" : "2019-04-11T07:01:38.821Z",
+    "modified" : "2019-12-29T09:30:05.985Z",
+    "4.3.0" : "2019-05-28T14:44:01.047Z",
+    "5.0.0" : "2019-12-23T14:06:47.396Z",
+    "4.0.0" : "2018-11-04T15:17:39.632Z",
+    "5.0.1" : "2019-12-29T09:29:58.942Z",
+    "4.3.3" : "2019-09-24T07:42:33.378Z",
+    "4.3.1" : "2019-07-01T08:56:28.857Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-svg-dynamic-title"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://react-svgr.com",
+  "keywords" : [ "babel-plugin" ],
+  "license" : "MIT"
+}

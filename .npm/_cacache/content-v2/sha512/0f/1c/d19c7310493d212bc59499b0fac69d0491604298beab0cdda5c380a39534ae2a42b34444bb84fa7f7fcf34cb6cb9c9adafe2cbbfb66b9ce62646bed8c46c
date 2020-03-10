@@ -1,0 +1,145 @@
+{
+  "_id" : "strip-eof",
+  "_rev" : "5-fd3cc05081671d890398a7ad801715ee",
+  "name" : "strip-eof",
+  "description" : "Strip the final newline character from a string/buffer",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "strip-eof",
+      "description" : "Strip the final newline character from a string/buffer",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/strip-eof#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/strip-eof.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/strip-eof/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/strip-eof/-/strip-eof-2.0.0.tgz",
+        "shasum" : "2e3f3c5145d02de826eafb23e65b2faf675448b4"
+      },
+      "devDependencies" : {
+        "ava" : "^0.25.0",
+        "xo" : "^0.23.0"
+      },
+      "keywords" : [ "strip", "trim", "remove", "delete", "final", "last", "end", "file", "newline", "linebreak", "character", "string", "buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "strip-eof@2.0.0",
+      "gitHead" : "c2f362408cb129b068a5670af0a886ff665e5438",
+      "deprecated" : "Renamed to `strip-final-newline` to better represent its functionality.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/strip-eof_2.0.0_1540715134076_0.3997127143864665"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "1.0.0" : {
+      "name" : "strip-eof",
+      "description" : "Strip the End-Of-File (EOF) character from a string/buffer",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/strip-eof",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/strip-eof"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/strip-eof/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/strip-eof/-/strip-eof-1.0.0.tgz",
+        "shasum" : "bb43ff5598a6eb05d89b59fcd129c983313606bf"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "strip", "trim", "remove", "delete", "eof", "end", "file", "newline", "linebreak", "character", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "strip-eof@1.0.0",
+      "gitHead" : "365dfe6c19b4e607a0cc2cf7dad0b0620f238333",
+      "_shasum" : "bb43ff5598a6eb05d89b59fcd129c983313606bf",
+      "_nodeVersion" : "4.2.1"
+    }
+  },
+  "readme" : "# strip-eof [![Build Status](https://travis-ci.com/sindresorhus/strip-eof.svg?branch=master)](https://travis-ci.com/sindresorhus/strip-eof)\n\n> Strip the [End-Of-File](https://en.wikipedia.org/wiki/End-of-file) (EOF) character from a string/buffer\n\n\n## Install\n\n```\n$ npm install strip-eof\n```\n\n\n## Usage\n\n```js\nconst stripEof = require('strip-eof');\n\nstripEof('foo\\nbar\\n\\n');\n//=> 'foo\\nbar\\n'\n\nstripEof(Buffer.from('foo\\nbar\\n\\n')).toString();\n//=> 'foo\\nbar\\n'\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-10-28T08:25:34.212Z",
+    "created" : "2015-12-05T11:49:53.556Z",
+    "modified" : "2019-01-05T13:39:14.549Z",
+    "1.0.0" : "2015-12-05T11:49:53.556Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/strip-eof.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/strip-eof#readme",
+  "keywords" : [ "strip", "trim", "remove", "delete", "final", "last", "end", "file", "newline", "linebreak", "character", "string", "buffer" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/strip-eof/issues"
+  },
+  "license" : "MIT"
+}

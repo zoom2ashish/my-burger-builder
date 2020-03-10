@@ -1,0 +1,202 @@
+{
+  "_id" : "is-obj",
+  "_rev" : "6-7a59412f6975dd3b2b775c3669260f89",
+  "name" : "is-obj",
+  "description" : "Check if a value is an object",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "is-obj",
+      "description" : "Check if a value is an object",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/is-obj#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/is-obj.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/is-obj/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/is-obj/-/is-obj-2.0.0.tgz",
+        "shasum" : "473fb05d973705e3fd9620545018ca8e22ef4982"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "object", "is", "check", "test", "type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "is-obj@2.0.0",
+      "gitHead" : "65347b53b6a013900c4ea2fa9920ce6fb366a2ed",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-obj_2.0.0_1555688257738_0.5061921827993918"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "1.0.0" : {
+      "name" : "is-obj",
+      "description" : "Check if a value is an object",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/is-obj#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/is-obj.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/is-obj/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/is-obj/-/is-obj-1.0.0.tgz",
+        "shasum" : "c1fd6551eaec50d9fcb84c64fd772ab159c2a27d"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "obj", "object", "is", "check", "test", "type" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "is-obj@1.0.0",
+      "gitHead" : "e40e278f16ef5e6a575c234e1c1677a4acf2609f",
+      "_shasum" : "c1fd6551eaec50d9fcb84c64fd772ab159c2a27d",
+      "_nodeVersion" : "0.12.5"
+    },
+    "1.0.1" : {
+      "name" : "is-obj",
+      "description" : "Check if a value is an object",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/is-obj#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/is-obj.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/is-obj/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/is-obj/-/is-obj-1.0.1.tgz",
+        "shasum" : "3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "obj", "object", "is", "check", "test", "type" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "is-obj@1.0.1",
+      "gitHead" : "7438be7393348bf65cbc2330446666bb7fc2c2da",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/is-obj-1.0.1.tgz_1458641652447_0.6715397178195417"
+      },
+      "_shasum" : "3e4729ac1f5fde025cd7d83a896dab9f4f67db0f",
+      "_nodeVersion" : "4.3.0"
+    }
+  },
+  "readme" : "# is-obj [![Build Status](https://travis-ci.org/sindresorhus/is-obj.svg?branch=master)](https://travis-ci.org/sindresorhus/is-obj)\n\n> Check if a value is an object\n\nKeep in mind that array, function, regexp, etc, are objects in JavaScript.<br>\nSee [`is-plain-obj`](https://github.com/sindresorhus/is-plain-obj) if you want to check for plain objects.\n\n\n## Install\n\n```\n$ npm install is-obj\n```\n\n\n## Usage\n\n```js\nconst isObject = require('is-obj');\n\nisObject({foo: 'bar'});\n//=> true\n\nisObject([1, 2, 3]);\n//=> true\n\nisObject('foo');\n//=> false\n```\n\n\n## Related\n\n- [is](https://github.com/sindresorhus/is) - Type check values\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2019-04-19T15:37:37.870Z",
+    "created" : "2015-07-11T11:12:45.532Z",
+    "modified" : "2019-04-19T15:37:40.414Z",
+    "1.0.0" : "2015-07-11T11:12:45.532Z",
+    "1.0.1" : "2016-03-22T10:14:12.950Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/is-obj.git"
+  },
+  "users" : {
+    "xiechao06" : true,
+    "rocket0191" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/is-obj#readme",
+  "keywords" : [ "object", "is", "check", "test", "type" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/is-obj/issues"
+  },
+  "license" : "MIT"
+}

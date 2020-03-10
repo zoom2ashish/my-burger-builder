@@ -1,0 +1,300 @@
+{
+  "_id" : "object-is",
+  "_rev" : "10-e550976ef402493e1a89ec42f03e6794",
+  "name" : "object-is",
+  "description" : "ES2015-compliant shim for Object.is - differentiates between -0 and +0",
+  "dist-tags" : {
+    "latest" : "1.0.2"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "object-is",
+      "description" : "ES6-compliant shim for Object.is - differentiates between -0 and +0",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/ljharb/object-is",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ljharb/object-is.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/object-is/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-is/-/object-is-1.0.0.tgz",
+        "shasum" : "c4d85931da0009435ec9825ddbe578a7ff82c001"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~2.13.1",
+        "covert" : "~0.4.0"
+      },
+      "keywords" : [ "is", "Object.is", "equality", "sameValueZero", "ES6", "shim", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js && npm run coverage",
+        "coverage" : "covert test.js",
+        "coverage-quiet" : "covert test.js --quiet"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "object-is@1.0.0",
+      "gitHead" : "8811835bff203cf0dc0dee1342beeb749ea63e10",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..12.0", "opera/15.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_shasum" : "c4d85931da0009435ec9825ddbe578a7ff82c001"
+    },
+    "0.0.0" : {
+      "name" : "object-is",
+      "description" : "ES6-compliant shim for Object.is - differentiates between -0 and +0",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/ljharb/object-is",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ljharb/object-is.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/object-is/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-is/-/object-is-0.0.0.tgz",
+        "shasum" : "65adab52f96f7071047ab2edf8d5e0d4230dc1b4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~2.4.2",
+        "covert" : "~0.3.1"
+      },
+      "keywords" : [ "is", "Object.is", "equality", "sameValueZero", "ES6", "shim", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js",
+        "coverage" : "covert test.js",
+        "coverage-quiet" : "covert test.js --quiet"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "object-is@0.0.0",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..12.0", "opera/15.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      }
+    },
+    "1.0.1" : {
+      "name" : "object-is",
+      "description" : "ES6-compliant shim for Object.is - differentiates between -0 and +0",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/ljharb/object-is",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/ljharb/object-is.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/object-is/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-is/-/object-is-1.0.1.tgz",
+        "shasum" : "0aa60ec9989a0b3ed795cf4d06f62cf1ad6539b6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~2.14.0",
+        "covert" : "~1.0.0",
+        "jscs" : "~1.5.9"
+      },
+      "keywords" : [ "is", "Object.is", "equality", "sameValueZero", "ES6", "shim", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && node test.js && npm run coverage-quiet",
+        "coverage" : "covert test.js",
+        "coverage-quiet" : "covert test.js --quiet",
+        "lint" : "jscs *.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "object-is@1.0.1",
+      "gitHead" : "a51367e2c85f408211982ccb3ed2f1cc2da70d05",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..12.0", "opera/15.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_shasum" : "0aa60ec9989a0b3ed795cf4d06f62cf1ad6539b6"
+    },
+    "1.0.2" : {
+      "name" : "object-is",
+      "description" : "ES2015-compliant shim for Object.is - differentiates between -0 and +0",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/es-shims/object-is",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/object-is.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es-shims/object-is/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object-is/-/object-is-1.0.2.tgz",
+        "shasum" : "6b80eb84fe451498f65007982f035a5b445edec4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^15.0.2",
+        "auto-changelog" : "^1.16.2",
+        "covert" : "^1.1.1",
+        "eslint" : "^6.7.2",
+        "has-symbols" : "^1.0.1",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "is", "Object.is", "equality", "sameValueZero", "ES6", "ES2015", "shim", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ljharb+esshims@gmail.com",
+        "name" : "es-shims-owner"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+        "pretest" : "npm run lint",
+        "tests-only" : "node test",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud",
+        "coverage" : "covert test",
+        "lint" : "eslint ."
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "object-is@1.0.2",
+      "gitHead" : "082fdb0ca51a1a363d6fdb533f988f0fabe7d10a",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..12.0", "opera/15.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object-is_1.0.2_1576479570145_0.7229938222854198"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false
+      },
+      "_nodeVersion" : "13.3.0"
+    }
+  },
+  "readme" : "#object-is <sup>[![Version Badge][2]][1]</sup>\n\n[![Build Status][3]][4]\n[![dependency status][5]][6]\n[![dev dependency status][7]][8]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][11]][1]\n\nES2015-compliant shim for Object.is - differentiates between -0 and +0, and can compare to NaN.\n\nEssentially, Object.is returns the same value as === - but true for NaN, and false for -0 and +0.\n\n## Example\n\n```js\nObject.is = require('object-is');\nvar assert = require('assert');\n\nassert.ok(Object.is());\nassert.ok(Object.is(undefined));\nassert.ok(Object.is(undefined, undefined));\nassert.ok(Object.is(null, null));\nassert.ok(Object.is(true, true));\nassert.ok(Object.is(false, false));\nassert.ok(Object.is('foo', 'foo'));\n\nvar arr = [1, 2];\nassert.ok(Object.is(arr, arr));\nassert.notOk(Object.is(arr, [1, 2]));\n\nassert.ok(Object.is(0, 0));\nassert.ok(Object.is(-0, -0));\nassert.notOk(Object.is(0, -0));\n\nassert.ok(Object.is(NaN, NaN));\nassert.ok(Object.is(Infinity, Infinity));\nassert.ok(Object.is(-Infinity, -Infinity));\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[1]: https://npmjs.org/package/object-is\n[2]: http://versionbadg.es/es-shims/object-is.svg\n[3]: https://travis-ci.org/es-shims/object-is.svg\n[4]: https://travis-ci.org/es-shims/object-is\n[5]: https://david-dm.org/es-shims/object-is.svg\n[6]: https://david-dm.org/es-shims/object-is\n[7]: https://david-dm.org/es-shims/object-is/dev-status.svg\n[8]: https://david-dm.org/es-shims/object-is#info=devDependencies\n[11]: https://nodei.co/npm/object-is.png?downloads=true&stars=true\n[license-image]: http://img.shields.io/npm/l/object-is.svg\n[license-url]: LICENSE\n[downloads-image]: http://img.shields.io/npm/dm/object-is.svg\n[downloads-url]: http://npm-stat.com/charts.html?package=object-is\n\n",
+  "maintainers" : [ {
+    "email" : "ljharb+esshims@gmail.com",
+    "name" : "es-shims-owner"
+  }, {
+    "email" : "ljharb@gmail.com",
+    "name" : "ljharb"
+  }, {
+    "email" : "substack@gmail.com",
+    "name" : "substack"
+  } ],
+  "author" : {
+    "name" : "Jordan Harband"
+  },
+  "time" : {
+    "created" : "2014-02-18T06:25:04.343Z",
+    "modified" : "2019-12-16T06:59:33.784Z",
+    "1.0.0" : "2014-08-01T07:19:38.410Z",
+    "0.0.0" : "2014-02-18T06:25:04.343Z",
+    "1.0.1" : "2014-08-28T09:21:04.558Z",
+    "1.0.2" : "2019-12-16T06:59:30.404Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/es-shims/object-is.git"
+  },
+  "users" : {
+    "emiljohansson" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/es-shims/object-is",
+  "keywords" : [ "is", "Object.is", "equality", "sameValueZero", "ES6", "ES2015", "shim", "polyfill" ],
+  "bugs" : {
+    "url" : "https://github.com/es-shims/object-is/issues"
+  },
+  "license" : "MIT"
+}

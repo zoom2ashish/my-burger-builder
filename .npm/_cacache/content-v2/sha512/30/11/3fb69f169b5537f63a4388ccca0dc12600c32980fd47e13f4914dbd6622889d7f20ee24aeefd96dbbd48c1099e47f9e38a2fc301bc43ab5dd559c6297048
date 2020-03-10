@@ -1,0 +1,547 @@
+{
+  "_id" : "postcss-font-variant",
+  "_rev" : "16-52f09d23d3fbf549a06cbddc8e836e95",
+  "name" : "postcss-font-variant",
+  "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+  "dist-tags" : {
+    "latest" : "4.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-2.0.0.tgz",
+        "shasum" : "d4fa63b4266f17c3e14d1a151e6f31e84c2f19d8"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "jscs" : "^2.1.0",
+        "jshint" : "^2.8.0",
+        "tape" : "^4.0.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npm run jscs && npm run jshint",
+        "jscs" : "jscs index.js test/index.js",
+        "jshint" : "jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-font-variant@2.0.0",
+      "gitHead" : "d864dd073b3e4ea7b8e74a0cf64a37bfd541c29a",
+      "_shasum" : "d4fa63b4266f17c3e14d1a151e6f31e84c2f19d8",
+      "_nodeVersion" : "3.3.0"
+    },
+    "2.0.1" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-2.0.1.tgz",
+        "shasum" : "7ca29103f59fa02ca3ace2ca22b2f756853d4ef8"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "jscs" : "^2.1.0",
+        "jshint" : "^2.8.0",
+        "npmpub" : "^3.1.0",
+        "tape" : "^4.0.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npm run jscs && npm run jshint",
+        "jscs" : "jscs index.js test/index.js",
+        "jshint" : "jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test",
+        "release" : "npmpub"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-font-variant@2.0.1",
+      "gitHead" : "fa992b214e898074c065374a15372ad08002e8a8",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-font-variant-2.0.1.tgz_1467952282022_0.1393745660316199"
+      },
+      "_shasum" : "7ca29103f59fa02ca3ace2ca22b2f756853d4ef8",
+      "_nodeVersion" : "5.11.0"
+    },
+    "3.0.0" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-3.0.0.tgz",
+        "shasum" : "08ccc88f6050ba82ed8ef2cc76c0c6a6b41f183e"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "jscs" : "^3.0.7",
+        "jshint" : "^2.9.4",
+        "npmpub" : "^3.1.0",
+        "tape" : "^4.6.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npm run jscs && npm run jshint",
+        "jscs" : "jscs index.js test/index.js",
+        "jshint" : "jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test",
+        "release" : "npmpub"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-font-variant@3.0.0",
+      "gitHead" : "da76fb0fec87ed0e40286a77860fc9fa026eb3b7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-font-variant-3.0.0.tgz_1494477650876_0.6855818782933056"
+      },
+      "_shasum" : "08ccc88f6050ba82ed8ef2cc76c0c6a6b41f183e",
+      "_nodeVersion" : "6.10.1"
+    },
+    "4.0.0" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-4.0.0.tgz",
+        "shasum" : "71dd3c6c10a0d846c5eda07803439617bbbabacc"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "jscs" : "^3.0.7",
+        "jshint" : "^2.9.6",
+        "npmpub" : "^4.1.0",
+        "tape" : "^4.9.1"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "npm run jscs && npm run jshint",
+        "jscs" : "jscs index.js test/index.js",
+        "jshint" : "jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test",
+        "release" : "npmpub"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-font-variant@4.0.0",
+      "gitHead" : "9084a34e2aea66005f3fa845b2466b6cbdb1b93c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-font-variant_4.0.0_1537247211111_0.9313077418350051"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-1.0.0.tgz",
+        "shasum" : "ccd0c090dce5ad51f4ffcc4191cb13f23ec38fe4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^2.2.5",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-font-variant@1.0.0",
+      "gitHead" : "239567ca9530610612d8a8b8b5bb8f58678ab44f",
+      "_shasum" : "ccd0c090dce5ad51f4ffcc4191cb13f23ec38fe4",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.0.1" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-1.0.1.tgz",
+        "shasum" : "d07aa95021e899661cc6cd346003fb655e17a7cc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^2.2.5",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-font-variant@1.0.1",
+      "gitHead" : "454347ff9787d1274de1b064f1b795d3a70cb020",
+      "_shasum" : "d07aa95021e899661cc6cd346003fb655e17a7cc",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.1.0" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-1.1.0.tgz",
+        "shasum" : "647e30edb9cc9837200c3ed590396420c47086c5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^4.0.2",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-font-variant@1.1.0",
+      "gitHead" : "30c93bc184998b3f9f1bfa98b9bc9af32cfe97ac",
+      "_shasum" : "647e30edb9cc9837200c3ed590396420c47086c5",
+      "_nodeVersion" : "0.10.35"
+    },
+    "1.0.2" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-1.0.2.tgz",
+        "shasum" : "36f1cb62a28436bdcfd221544503287042bb446b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.6.2",
+        "jshint" : "^2.5.6",
+        "postcss" : "^3.0.0",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugins", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-font-variant@1.0.2",
+      "gitHead" : "f3de05f663c25854ba6e34428b17b23529fd5640",
+      "_shasum" : "36f1cb62a28436bdcfd221544503287042bb446b",
+      "_nodeVersion" : "0.10.35"
+    },
+    "1.2.0" : {
+      "name" : "postcss-font-variant",
+      "description" : "PostCSS plugin to transform W3C font-variant properties to more compatible CSS  (font-feature-settings)",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Maxime Thirouin"
+      },
+      "homepage" : "https://github.com/postcss/postcss-font-variant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-font-variant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-font-variant/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-font-variant/-/postcss-font-variant-1.2.0.tgz",
+        "shasum" : "4215d1c5c908309b1f2a971c893714a1a1869f92"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.16"
+      },
+      "devDependencies" : {
+        "jscs" : "^2.1.0",
+        "jshint" : "^2.8.0",
+        "tape" : "^4.0.3"
+      },
+      "keywords" : [ "css", "postcss", "postcss-plugin", "font", "variant", "font-variant" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jscs *.js **/*.js && jshint . --exclude-path .gitignore",
+        "test" : "npm run lint && tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-font-variant@1.2.0",
+      "gitHead" : "67cc9c9dcec6a261cbeaef6257419e92706168ad",
+      "_shasum" : "4215d1c5c908309b1f2a971c893714a1a1869f92",
+      "_nodeVersion" : "3.0.0"
+    }
+  },
+  "readme" : "# PostCSS Font-Variant [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS Logo\" width=\"90\" height=\"90\" align=\"right\">](https://github.com/postcss/postcss/)\n\n[![CSS Status](https://cssdb.org/badge/font-variant-property.svg)](https://cssdb.org/#font-variant-property)\n[![Build Status](https://travis-ci.org/postcss/postcss-font-variant.svg)](https://travis-ci.org/postcss/postcss-font-variant)\n\nPostCSS Font-Variant lets you use `font-variant` in CSS, following the\n[CSS Fonts](https://www.w3.org/TR/css-fonts-3/#font-variant-prop) specification.\n\n## Installation\n\n```console\n$ npm install postcss-font-variant\n```\n\n## Usage\n\n```js\n// dependencies\nvar postcss = require(\"postcss\")\nvar fontVariant = require(\"postcss-font-variant\")\n\n// css to be processed\nvar css = fs.readFileSync(\"input.css\", \"utf8\")\n\n// process css using postcss-font-variant\nvar out = postcss()\n  .use(fontVariant())\n  .process(css)\n  .css\n```\n\nUsing this `input.css`:\n\n```css\nh2 {\n  font-variant-caps: small-caps;\n}\n\ntable {\n  font-variant-numeric: lining-nums;\n}\n```\n\nyou will get:\n\n```css\nh2 {\n  font-feature-settings: \"c2sc\";\n  font-variant-caps: small-caps;\n}\n\ntable {\n  font-feature-settings: \"lnum\";\n  font-variant-numeric: lining-nums;\n}\n\n```\n\nCheckout [tests](test) for more examples.\n\n---\n\n## Contributing\n\nWork on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.\n\n    $ git clone https://github.com/postcss/postcss-font-variant.git\n    $ git checkout -b patch-1\n    $ npm install\n    $ npm test\n\n## [Changelog](CHANGELOG.md)\n\n## [License](LICENSE)\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  }, {
+    "name" : "moox",
+    "email" : "m@moox.io"
+  }, {
+    "name" : "semigradsky",
+    "email" : "semigradskyd@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Maxime Thirouin"
+  },
+  "time" : {
+    "2.0.0" : "2015-09-08T04:52:59.235Z",
+    "2.0.1" : "2016-07-08T04:31:23.297Z",
+    "3.0.0" : "2017-05-11T04:40:52.734Z",
+    "created" : "2014-11-09T07:06:36.094Z",
+    "modified" : "2019-01-05T04:43:09.406Z",
+    "4.0.0" : "2018-09-18T05:06:52.760Z",
+    "1.0.0" : "2014-11-09T07:06:36.094Z",
+    "1.0.1" : "2014-11-11T17:30:38.672Z",
+    "1.1.0" : "2015-01-29T14:44:14.387Z",
+    "1.0.2" : "2015-01-27T06:45:39.378Z",
+    "1.2.0" : "2015-08-13T08:24:36.712Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/postcss/postcss-font-variant.git"
+  },
+  "users" : {
+    "lmhs" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/postcss/postcss-font-variant#readme",
+  "keywords" : [ "css", "postcss", "postcss-plugin", "font", "variant", "font-variant" ],
+  "bugs" : {
+    "url" : "https://github.com/postcss/postcss-font-variant/issues"
+  },
+  "license" : "MIT"
+}

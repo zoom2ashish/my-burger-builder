@@ -1,0 +1,800 @@
+{
+  "_id" : "invariant",
+  "_rev" : "47-ce79942b20af13905f693458059dc76a",
+  "name" : "invariant",
+  "description" : "invariant",
+  "dist-tags" : {
+    "latest" : "2.2.4"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.0.0.tgz",
+        "shasum" : "431d04ba12b6c63935b129ce6d3f5b009e6b6411"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0"
+      },
+      "files" : [ "README.md", "invariant.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production mocha && NODE_ENV=development mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.0.0",
+      "licence" : "BSD",
+      "gitHead" : "cf49677cfa4d1bd08513454c08a0e49d551cf28e",
+      "browserify" : {
+        "transform" : [ "envify" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "431d04ba12b6c63935b129ce6d3f5b009e6b6411"
+    },
+    "2.1.0" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.1.0.tgz",
+        "shasum" : "6d2cc59a6a272ad307c52c1517ad5920219b996e"
+      },
+      "dependencies" : {
+        "envify" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0"
+      },
+      "license" : "BSD",
+      "files" : [ "README.md", "invariant.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production mocha && NODE_ENV=development mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.1.0",
+      "gitHead" : "93cfa951e2652aa0211a315feedcc534c54cc721",
+      "browserify" : {
+        "transform" : [ "envify" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "6d2cc59a6a272ad307c52c1517ad5920219b996e",
+      "_nodeVersion" : "0.10.38"
+    },
+    "2.2.4" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.2.4",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.2.4.tgz",
+        "shasum" : "610f3c92c9359ce1db616e538008d23ff35158e6"
+      },
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "flow-bin" : "^0.67.1",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "test", "invariant" ],
+      "license" : "MIT",
+      "files" : [ "browser.js", "invariant.js", "invariant.js.flow" ],
+      "maintainers" : [ {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.2.4",
+      "gitHead" : "ce95a9badeee1c97daff1bca0d1f6cec5dda4fe8",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/invariant_2.2.4_1520966170158_0.9004438268314274"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "2.1.3" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.1.3",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.1.3.tgz",
+        "shasum" : "3bf684cc66e0153fa0e9ce517799e95a0f399e7a"
+      },
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "test" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "invariant.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.1.3",
+      "gitHead" : "992a17c74d3f848eb40ea4938ed412a705871a20",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "3bf684cc66e0153fa0e9ce517799e95a0f399e7a",
+      "_nodeVersion" : "4.2.2"
+    },
+    "2.2.2" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.2.2.tgz",
+        "shasum" : "9e1f56ac0acdb6bf303306f338be3b204ae60360"
+      },
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "flow-bin" : "^0.35.0",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "test", "invariant" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "browser.js", "invariant.js", "invariant.js.flow" ],
+      "maintainers" : [ {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.2.2",
+      "gitHead" : "49ae54d5a09c99a447e7dafa46bd3aa8f6923d98",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/invariant-2.2.2.tgz_1479211323359_0.31182572920806706"
+      },
+      "_shasum" : "9e1f56ac0acdb6bf303306f338be3b204ae60360",
+      "_nodeVersion" : "6.3.0"
+    },
+    "2.2.3" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.2.3",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.2.3.tgz",
+        "shasum" : "1a827dfde7dcbd7c323f0ca826be8fa7c5e9d688"
+      },
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "flow-bin" : "^0.35.0",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "test", "invariant" ],
+      "license" : "MIT",
+      "files" : [ "browser.js", "invariant.js", "invariant.js.flow" ],
+      "maintainers" : [ {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.2.3",
+      "gitHead" : "d95f37254e5d284623964678f8318968f2f701de",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/invariant_2.2.3_1519074858054_0.5983363337214471"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "2.1.1" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.1.1.tgz",
+        "shasum" : "e0264e73ca7df84515d5487019a2ddc817bdd31d"
+      },
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "test" ],
+      "license" : "BSD-4-Clause",
+      "files" : [ "invariant.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.1.1",
+      "gitHead" : "86a1687215f258a10ec16e6eadd7777ff0b3ad94",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "e0264e73ca7df84515d5487019a2ddc817bdd31d",
+      "_nodeVersion" : "4.1.0"
+    },
+    "2.2.0" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.2.0.tgz",
+        "shasum" : "c8d7e847366a49cc18b622f058a689d481e895f2"
+      },
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "test" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "invariant.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.2.0",
+      "gitHead" : "1660eab9f183183e71ef57a7765bb1121680fff9",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "c8d7e847366a49cc18b622f058a689d481e895f2",
+      "_nodeVersion" : "4.2.2"
+    },
+    "2.1.2" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.1.2.tgz",
+        "shasum" : "43f372e09b57414b85a5ebc904dc69260d161129"
+      },
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "test" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "invariant.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.1.2",
+      "gitHead" : "1555880c5bcc46e2eda25fae84d62fd28b5c9090",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "43f372e09b57414b85a5ebc904dc69260d161129",
+      "_nodeVersion" : "4.1.0"
+    },
+    "2.2.1" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-2.2.1.tgz",
+        "shasum" : "b097010547668c7e337028ebe816ebe36c8a8d54"
+      },
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "test" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "invariant.js", "browser.js" ],
+      "maintainers" : [ {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@2.2.1",
+      "gitHead" : "594d6cbcde933a7bd3ecd76a7c4f19892a95e0de",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/invariant-2.2.1.tgz_1457504319192_0.7920392917003483"
+      },
+      "_shasum" : "b097010547668c7e337028ebe816ebe36c8a8d54",
+      "_nodeVersion" : "4.1.1"
+    },
+    "1.0.0" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-1.0.0.tgz",
+        "shasum" : "42c5faae85d09f491ba9b23e8f49a2c2561b9cc0"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@1.0.0",
+      "licence" : "BSD",
+      "gitHead" : "144d0b5367be59e274b54fab2f3e44b24ca636d1",
+      "_shasum" : "42c5faae85d09f491ba9b23e8f49a2c2561b9cc0"
+    },
+    "1.0.1" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-1.0.1.tgz",
+        "shasum" : "6babcaa50275f578d255cfbc537ee47416783b99"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@1.0.1",
+      "licence" : "BSD",
+      "gitHead" : "2828507a4e81a501b1b89d7f48ec6f805c0cb1c0",
+      "_shasum" : "6babcaa50275f578d255cfbc537ee47416783b99"
+    },
+    "1.0.2" : {
+      "name" : "invariant",
+      "description" : "invariant",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/invariant",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/zertosh/invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/invariant/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "invariant.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invariant/-/invariant-1.0.2.tgz",
+        "shasum" : "753c9a32987c5e8077774aad5a62d7a54727ee77"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "invariant@1.0.2",
+      "licence" : "BSD",
+      "gitHead" : "e46b80010539e277227bf288c962efa7438ead27",
+      "_shasum" : "753c9a32987c5e8077774aad5a62d7a54727ee77"
+    }
+  },
+  "readme" : "# invariant\n\n[![Build Status](https://travis-ci.org/zertosh/invariant.svg?branch=master)](https://travis-ci.org/zertosh/invariant)\n\nA mirror of Facebook's `invariant` (e.g. [React](https://github.com/facebook/react/blob/v0.13.3/src/vendor/core/invariant.js), [flux](https://github.com/facebook/flux/blob/2.0.2/src/invariant.js)).\n\nA way to provide descriptive errors in development but generic errors in production.\n\n## Install\n\nWith [npm](http://npmjs.org) do:\n\n```sh\nnpm install invariant\n```\n\n## `invariant(condition, message)`\n\n```js\nvar invariant = require('invariant');\n\ninvariant(someTruthyVal, 'This will not throw');\n// No errors\n\ninvariant(someFalseyVal, 'This will throw an error with this message');\n// Error: Invariant Violation: This will throw an error with this message\n```\n\n**Note:** When `process.env.NODE_ENV` is not `production`, the message is required. If omitted, `invariant` will throw regardless of the truthiness of the condition. When `process.env.NODE_ENV` is `production`, the message is optional – so they can be minified away.\n\n### Browser\n\nWhen used with [browserify](https://github.com/substack/node-browserify), it'll use `browser.js` (instead of `invariant.js`) and the [envify](https://github.com/hughsk/envify) transform will inline the value of `process.env.NODE_ENV`.\n\n### Node\n\nThe node version is optimized around the performance implications of accessing `process.env`. The value of `process.env.NODE_ENV` is cached, and repeatedly used instead of reading `process.env`. See [Server rendering is slower with npm react #812](https://github.com/facebook/react/issues/812)\n",
+  "maintainers" : [ {
+    "name" : "cpojer",
+    "email" : "christoph.pojer@gmail.com"
+  }, {
+    "name" : "zertosh",
+    "email" : "zertosh@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Andres Suarez",
+    "email" : "zertosh@gmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-02-21T21:00:56.992Z",
+    "2.1.0" : "2015-06-03T20:04:01.546Z",
+    "created" : "2014-09-24T04:46:06.057Z",
+    "2.2.4" : "2018-03-13T18:36:10.235Z",
+    "2.1.3" : "2015-11-17T16:41:12.061Z",
+    "2.2.2" : "2016-11-15T12:02:03.890Z",
+    "2.2.3" : "2018-02-19T21:14:18.197Z",
+    "2.1.1" : "2015-09-21T05:44:39.949Z",
+    "2.2.0" : "2015-11-17T16:45:40.580Z",
+    "2.1.2" : "2015-10-27T23:34:30.290Z",
+    "2.2.1" : "2016-03-09T06:18:41.916Z",
+    "modified" : "2019-05-23T08:36:49.353Z",
+    "1.0.0" : "2014-09-24T04:46:06.057Z",
+    "1.0.1" : "2014-09-24T04:52:41.163Z",
+    "1.0.2" : "2014-09-24T15:11:55.938Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/zertosh/invariant.git"
+  },
+  "users" : {
+    "jnoodle" : true,
+    "conantonakos" : true,
+    "heartnett" : true,
+    "hewenxuan" : true,
+    "udnisap" : true,
+    "pftom" : true,
+    "tedyhy" : true,
+    "doublelift" : true,
+    "erickeno" : true,
+    "yaodianmi" : true,
+    "adrtho4" : true,
+    "mochadwi" : true,
+    "krzkaczor" : true,
+    "yatsu" : true,
+    "nelix" : true,
+    "monjer" : true,
+    "domjtalbot" : true,
+    "markthethomas" : true,
+    "dreamanddead" : true,
+    "twierbach" : true,
+    "tsm91" : true,
+    "princetoad" : true,
+    "jrnail23" : true,
+    "liximomo" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/zertosh/invariant#readme",
+  "keywords" : [ "test", "invariant" ],
+  "bugs" : {
+    "url" : "https://github.com/zertosh/invariant/issues"
+  },
+  "license" : "MIT"
+}

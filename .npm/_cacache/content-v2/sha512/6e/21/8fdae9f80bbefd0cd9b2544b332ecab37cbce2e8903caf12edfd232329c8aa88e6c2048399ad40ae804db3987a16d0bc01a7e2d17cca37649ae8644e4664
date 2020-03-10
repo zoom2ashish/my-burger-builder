@@ -1,0 +1,383 @@
+{
+  "_id" : "flatten",
+  "_rev" : "24-1639aa7cdb45e4f2f8ef9351f9ee10ae",
+  "name" : "flatten",
+  "description" : "Flatten arbitrarily nested arrays into a non-nested list of non-array items. Maintained for legacy compatibility.",
+  "dist-tags" : {
+    "latest" : "1.0.3"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "flatten",
+      "description" : "Flatten arbitrarily nested arrays into a non-nested list of non-array items. Maintained for legacy compatibility.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Joshua Holbrook",
+        "email" : "josh.holbrook@gmail.com",
+        "url" : "http://jesusabdullah.net"
+      },
+      "homepage" : "https://github.com/mk-pmb/flatten-js/#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mk-pmb/flatten-js.git"
+      },
+      "contributors" : [ {
+        "name" : "M.K.",
+        "url" : "https://github.com/mk-pmb"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mk-pmb/flatten-js/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/flatten/-/flatten-1.0.3.tgz",
+        "shasum" : "c1283ac9f27b368abc1e36d1ff7b04501a30356b"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "array", "flatten" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "josh.holbrook@gmail.com",
+        "name" : "jesusabdullah"
+      }, {
+        "email" : "josh.holbrook@gmail.com",
+        "name" : "jfhbrook"
+      }, {
+        "email" : "mk+npmjs@pimpmybyte.de",
+        "name" : "mk-pmb"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "node ./test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mk-pmb",
+        "email" : "mk+npmjs@pimpmybyte.de"
+      },
+      "_id" : "flatten@1.0.3",
+      "private" : false,
+      "gitHead" : "5de8fae5a5b32290f31d83fcb402fedbc86373e3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/flatten_1.0.3_1572489831247_0.34710827259766996"
+      },
+      "npm vs. BOM = Unexpected token" : "-*- coding: UTF-8 -*-",
+      "_nodeVersion" : "8.16.1"
+    },
+    "1.0.0" : {
+      "name" : "flatten",
+      "description" : "Flatten arbitrarily nested arrays into a non-nested list of non-array items",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Joshua Holbrook",
+        "email" : "josh.holbrook@gmail.com",
+        "url" : "http://jesusabdullah.net"
+      },
+      "homepage" : "https://github.com/jesusabdullah/node-flatten#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jesusabdullah/node-flatten.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jesusabdullah/node-flatten/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/flatten/-/flatten-1.0.0.tgz",
+        "shasum" : "089998ca36732d97c1505b099c8d3d1fe31a26d1"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "jesusabdullah",
+        "email" : "josh.holbrook@gmail.com"
+      }, {
+        "name" : "jfhbrook",
+        "email" : "josh.holbrook@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.2",
+      "_npmUser" : {
+        "name" : "jfhbrook",
+        "email" : "josh.holbrook@gmail.com"
+      },
+      "_id" : "flatten@1.0.0",
+      "gitHead" : "2fee40bb40bf725e770f345de30972debf507da5",
+      "deprecated" : "I wrote this module a very long time ago; you should use something else.",
+      "_shasum" : "089998ca36732d97c1505b099c8d3d1fe31a26d1",
+      "_nodeVersion" : "4.2.1"
+    },
+    "0.0.0" : {
+      "name" : "flatten",
+      "description" : "Flatten arbitrarily nested arrays into a non-nested list of non-array items",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Joshua Holbrook",
+        "email" : "josh.holbrook@gmail.com",
+        "url" : "http://jesusabdullah.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jesusabdullah/node-flatten.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/flatten/-/flatten-0.0.0.tgz",
+        "shasum" : "5088c6ac84e208dfaa920baa4bf86e7ba047ec16"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "jesusabdullah",
+        "email" : "josh.holbrook@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test.js"
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "jesusabdullah",
+        "email" : "josh.holbrook@gmail.com"
+      },
+      "_id" : "flatten@0.0.0",
+      "deprecated" : "I wrote this module a very long time ago; you should use something else.",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.18"
+    },
+    "1.0.1" : {
+      "name" : "flatten",
+      "description" : "Flatten arbitrarily nested arrays into a non-nested list of non-array items",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Joshua Holbrook",
+        "email" : "josh.holbrook@gmail.com",
+        "url" : "http://jesusabdullah.net"
+      },
+      "homepage" : "https://github.com/jesusabdullah/node-flatten#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jesusabdullah/node-flatten.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jesusabdullah/node-flatten/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/flatten/-/flatten-1.0.1.tgz",
+        "shasum" : "0c63514ad167398a49b7504d50b56f9b1d7217a3"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "jesusabdullah",
+        "email" : "josh.holbrook@gmail.com"
+      }, {
+        "name" : "jfhbrook",
+        "email" : "josh.holbrook@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.2",
+      "_npmUser" : {
+        "name" : "jfhbrook",
+        "email" : "josh.holbrook@gmail.com"
+      },
+      "_id" : "flatten@1.0.1",
+      "gitHead" : "05c1bb4de9543b9c3a15a0355a1285b9ccd59d3b",
+      "deprecated" : "I wrote this module a very long time ago; you should use something else.",
+      "_shasum" : "0c63514ad167398a49b7504d50b56f9b1d7217a3",
+      "_nodeVersion" : "4.2.1"
+    },
+    "0.0.1" : {
+      "name" : "flatten",
+      "description" : "Flatten arbitrarily nested arrays into a non-nested list of non-array items",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Joshua Holbrook",
+        "email" : "josh.holbrook@gmail.com",
+        "url" : "http://jesusabdullah.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jesusabdullah/node-flatten.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/flatten/-/flatten-0.0.1.tgz",
+        "shasum" : "554440766da0a0d603999f433453f6c2fc6a75c1"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "jesusabdullah",
+        "email" : "josh.holbrook@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test.js"
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "jesusabdullah",
+        "email" : "josh.holbrook@gmail.com"
+      },
+      "_id" : "flatten@0.0.1",
+      "deprecated" : "I wrote this module a very long time ago; you should use something else.",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.18"
+    },
+    "1.0.2" : {
+      "name" : "flatten",
+      "description" : "Flatten arbitrarily nested arrays into a non-nested list of non-array items",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Joshua Holbrook",
+        "email" : "josh.holbrook@gmail.com",
+        "url" : "http://jesusabdullah.net"
+      },
+      "homepage" : "https://github.com/jesusabdullah/node-flatten#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jesusabdullah/node-flatten.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jesusabdullah/node-flatten/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/flatten/-/flatten-1.0.2.tgz",
+        "shasum" : "dae46a9d78fbe25292258cc1e780a41d95c03782"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jesusabdullah",
+        "email" : "josh.holbrook@gmail.com"
+      }, {
+        "name" : "jfhbrook",
+        "email" : "josh.holbrook@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.2",
+      "_npmUser" : {
+        "name" : "jfhbrook",
+        "email" : "josh.holbrook@gmail.com"
+      },
+      "_id" : "flatten@1.0.2",
+      "gitHead" : "ef62d459a529ee04540f10927a28a3143dfd7875",
+      "deprecated" : "I wrote this module a very long time ago; you should use something else.",
+      "_shasum" : "dae46a9d78fbe25292258cc1e780a41d95c03782",
+      "_nodeVersion" : "4.2.1"
+    }
+  },
+  "readme" : "# flatten\n\nA tiny utility to flatten arrays of arrays (of arrays, etc., recursively, infinitely or to an optional depth) into a single array of non-arrays.\n\n## example:\n\n```js\n> var flatten = require('flatten');\nundefined\n> flatten([1, [2, 3], [4, 5, 6], [7, [8, 9]], 10])\n[ 1,\n  2,\n  3,\n  4,\n  5,\n  6,\n  7,\n  8,\n  9,\n  10 ]\n> flatten([1, [2, [3, [4, [5]]]]], 2)\n[ 1,\n  2,\n  3,\n  [ 4, [ 5 ] ] ]\n```\n\n## install:\n\n    npm install flatten\n\n## license:\n\nMIT/X11.\n",
+  "maintainers" : [ {
+    "email" : "josh.holbrook@gmail.com",
+    "name" : "jesusabdullah"
+  }, {
+    "email" : "josh.holbrook@gmail.com",
+    "name" : "jfhbrook"
+  }, {
+    "email" : "mk+npmjs@pimpmybyte.de",
+    "name" : "mk-pmb"
+  } ],
+  "author" : {
+    "name" : "Joshua Holbrook",
+    "email" : "josh.holbrook@gmail.com",
+    "url" : "http://jesusabdullah.net"
+  },
+  "time" : {
+    "1.0.3" : "2019-10-31T02:43:51.363Z",
+    "created" : "2012-06-28T02:21:26.460Z",
+    "modified" : "2019-10-31T02:43:55.762Z",
+    "1.0.0" : "2016-01-20T00:45:01.565Z",
+    "0.0.0" : "2012-06-28T02:21:27.901Z",
+    "1.0.1" : "2016-01-20T00:56:04.340Z",
+    "0.0.1" : "2012-06-28T02:40:18.232Z",
+    "1.0.2" : "2016-01-20T01:00:17.869Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/mk-pmb/flatten-js.git"
+  },
+  "users" : {
+    "joje" : true,
+    "jream" : true,
+    "rochejul" : true,
+    "shreyawhiz" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/mk-pmb/flatten-js/#readme",
+  "keywords" : [ "array", "flatten" ],
+  "contributors" : [ {
+    "name" : "M.K.",
+    "url" : "https://github.com/mk-pmb"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/mk-pmb/flatten-js/issues"
+  },
+  "license" : "MIT"
+}

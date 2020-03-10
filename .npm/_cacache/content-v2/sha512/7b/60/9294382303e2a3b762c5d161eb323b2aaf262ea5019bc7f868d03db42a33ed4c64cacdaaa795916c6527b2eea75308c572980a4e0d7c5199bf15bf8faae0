@@ -1,0 +1,442 @@
+{
+  "_id" : "cli-cursor",
+  "_rev" : "12-549b9de00086b62ea9048df3dacfaca4",
+  "name" : "cli-cursor",
+  "description" : "Toggle the CLI cursor",
+  "dist-tags" : {
+    "latest" : "3.1.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "cli-cursor",
+      "description" : "Toggle the CLI cursor",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/cli-cursor#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/cli-cursor.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/cli-cursor/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cli-cursor/-/cli-cursor-2.0.0.tgz",
+        "shasum" : "f4c77840ecb2bed38c2672df39e264d54a0c1148"
+      },
+      "dependencies" : {
+        "restore-cursor" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "cli", "cursor", "ansi", "toggle", "display", "show", "hide", "term", "terminal", "console", "tty", "shell", "command-line" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "cli-cursor@2.0.0",
+      "gitHead" : "eb49635ade57270d824961a6bffe42610fc3bee7",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cli-cursor-2.0.0.tgz_1483989942414_0.22937274118885398"
+      },
+      "_shasum" : "f4c77840ecb2bed38c2672df39e264d54a0c1148",
+      "_nodeVersion" : "4.6.2"
+    },
+    "2.1.0" : {
+      "name" : "cli-cursor",
+      "description" : "Toggle the CLI cursor",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/cli-cursor#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/cli-cursor.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/cli-cursor/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cli-cursor/-/cli-cursor-2.1.0.tgz",
+        "shasum" : "b35dac376479facc3e94747d41d0d0f5238ffcb5"
+      },
+      "dependencies" : {
+        "restore-cursor" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "cli", "cursor", "ansi", "toggle", "display", "show", "hide", "term", "terminal", "console", "tty", "shell", "command-line" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "cli-cursor@2.1.0",
+      "gitHead" : "5a403335e6b3980a1235b71f8afe1d63ee8c3ce1",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/cli-cursor-2.1.0.tgz_1483990808692_0.16963833128102124"
+      },
+      "_shasum" : "b35dac376479facc3e94747d41d0d0f5238ffcb5",
+      "_nodeVersion" : "4.6.2"
+    },
+    "3.0.0" : {
+      "name" : "cli-cursor",
+      "description" : "Toggle the CLI cursor",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/cli-cursor#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/cli-cursor.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/cli-cursor/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cli-cursor/-/cli-cursor-3.0.0.tgz",
+        "shasum" : "f6cc68b8ae372a18894e59fbf2ae3bd659731c15"
+      },
+      "dependencies" : {
+        "restore-cursor" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "^11.13.0",
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "cli", "cursor", "ansi", "toggle", "display", "show", "hide", "term", "terminal", "console", "tty", "shell", "command-line" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "cli-cursor@3.0.0",
+      "gitHead" : "2a72de1ce73c99f44509be7219ebc4eb90bdfa02",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cli-cursor_3.0.0_1554785694351_0.7813029275132335"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "3.1.0" : {
+      "name" : "cli-cursor",
+      "description" : "Toggle the CLI cursor",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/cli-cursor#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/cli-cursor.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/cli-cursor/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cli-cursor/-/cli-cursor-3.1.0.tgz",
+        "shasum" : "264305a7ae490d1d03bf0c9ba7c925d1753af307"
+      },
+      "dependencies" : {
+        "restore-cursor" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.0.7",
+        "ava" : "^2.1.0",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "cli", "cursor", "ansi", "toggle", "display", "show", "hide", "term", "terminal", "console", "tty", "shell", "command-line" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "cli-cursor@3.1.0",
+      "gitHead" : "49edacfb841a9dac691972c2aa5d40dba8e0b56b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cli-cursor_3.1.0_1560272255624_0.6903118486191766"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "1.0.0" : {
+      "name" : "cli-cursor",
+      "description" : "Toggle the CLI cursor",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/cli-cursor",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/cli-cursor"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/cli-cursor/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cli-cursor/-/cli-cursor-1.0.0.tgz",
+        "shasum" : "3d9f4365bbc3144b249dd7103b65f3ab0135b528"
+      },
+      "dependencies" : {
+        "restore-cursor" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "cli", "cursor", "ansi", "toggle", "display", "show", "hide", "term", "terminal", "console", "tty", "shell", "command-line" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "cli-cursor@1.0.0",
+      "_shasum" : "3d9f4365bbc3144b249dd7103b65f3ab0135b528"
+    },
+    "1.0.1" : {
+      "name" : "cli-cursor",
+      "description" : "Toggle the CLI cursor",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/cli-cursor",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/cli-cursor"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/cli-cursor/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cli-cursor/-/cli-cursor-1.0.1.tgz",
+        "shasum" : "282b7a20ff03061b7c720e08e4659f47eab34efe"
+      },
+      "dependencies" : {
+        "restore-cursor" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "cli", "cursor", "ansi", "toggle", "display", "show", "hide", "term", "terminal", "console", "tty", "shell", "command-line" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "cli-cursor@1.0.1",
+      "_shasum" : "282b7a20ff03061b7c720e08e4659f47eab34efe"
+    },
+    "1.0.2" : {
+      "name" : "cli-cursor",
+      "description" : "Toggle the CLI cursor",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/cli-cursor#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/cli-cursor.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/cli-cursor/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/cli-cursor/-/cli-cursor-1.0.2.tgz",
+        "shasum" : "64da3f7d56a54412e59794bd62dc35295e8f2987"
+      },
+      "dependencies" : {
+        "restore-cursor" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "cli", "cursor", "ansi", "toggle", "display", "show", "hide", "term", "terminal", "console", "tty", "shell", "command-line" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "cli-cursor@1.0.2",
+      "gitHead" : "6be5a384d90278c66aa30db5ecdec8dc68f17d4f",
+      "_shasum" : "64da3f7d56a54412e59794bd62dc35295e8f2987",
+      "_nodeVersion" : "4.1.0"
+    }
+  },
+  "readme" : "# cli-cursor [![Build Status](https://travis-ci.org/sindresorhus/cli-cursor.svg?branch=master)](https://travis-ci.org/sindresorhus/cli-cursor)\n\n> Toggle the CLI cursor\n\nThe cursor is [gracefully restored](https://github.com/sindresorhus/restore-cursor) if the process exits.\n\n\n## Install\n\n```\n$ npm install cli-cursor\n```\n\n\n## Usage\n\n```js\nconst cliCursor = require('cli-cursor');\n\ncliCursor.hide();\n\nconst unicornsAreAwesome = true;\ncliCursor.toggle(unicornsAreAwesome);\n```\n\n\n## API\n\n### .show(stream?)\n\n### .hide(stream?)\n\n### .toggle(force?, stream?)\n\n#### force\n\nUseful for showing or hiding the cursor based on a boolean.\n\n#### stream\n\nType: `stream.Writable`<br>\nDefault: `process.stderr`\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-cli-cursor?utm_source=npm-cli-cursor&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2017-01-09T19:25:42.647Z",
+    "2.1.0" : "2017-01-09T19:40:10.885Z",
+    "3.0.0" : "2019-04-09T04:54:54.592Z",
+    "created" : "2014-08-31T11:48:41.699Z",
+    "modified" : "2019-06-11T16:57:39.952Z",
+    "3.1.0" : "2019-06-11T16:57:35.876Z",
+    "1.0.0" : "2014-08-31T11:48:41.699Z",
+    "1.0.1" : "2014-08-31T23:31:41.380Z",
+    "1.0.2" : "2015-09-18T13:47:26.541Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/cli-cursor.git"
+  },
+  "users" : {
+    "ahmed-dinar" : true,
+    "cocorax" : true,
+    "insomniaqc" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/cli-cursor#readme",
+  "keywords" : [ "cli", "cursor", "ansi", "toggle", "display", "show", "hide", "term", "terminal", "console", "tty", "shell", "command-line" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/cli-cursor/issues"
+  },
+  "license" : "MIT"
+}

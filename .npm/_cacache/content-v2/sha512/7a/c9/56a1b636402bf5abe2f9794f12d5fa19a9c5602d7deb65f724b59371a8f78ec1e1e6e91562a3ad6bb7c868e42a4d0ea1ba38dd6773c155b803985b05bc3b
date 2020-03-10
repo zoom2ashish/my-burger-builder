@@ -1,0 +1,4455 @@
+{
+  "_id" : "file-loader",
+  "_rev" : "159-353f88553a91c61880fbe7c20ffa199e",
+  "name" : "file-loader",
+  "description" : "A file loader module for webpack",
+  "dist-tags" : {
+    "beta" : "1.0.0-rc.0",
+    "latest" : "5.1.0"
+  },
+  "versions" : {
+    "0.5.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.5.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.5.1.tgz",
+        "shasum" : "d51192f494d90366e50b60a45fa87bfa1334714f"
+      },
+      "dependencies" : {
+        "loader-utils" : "0.2.x"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.17",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.5.1"
+    },
+    "0.6.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.6.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.6.1.tgz",
+        "shasum" : "e0f63f3f123ca810d148aa8903880c9450facbd1"
+      },
+      "dependencies" : {
+        "loader-utils" : "0.2.x"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.16",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.6.1",
+      "gitHead" : "592529df530d03759c1ddc56baca70296e27256a",
+      "_shasum" : "e0f63f3f123ca810d148aa8903880c9450facbd1"
+    },
+    "0.7.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.7.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.7.0.tgz",
+        "shasum" : "8b2792fd0f9a46a45a372906dc44f3a306bdd1d1"
+      },
+      "dependencies" : {
+        "loader-utils" : "0.2.x"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3",
+        "bignum" : "~0.9.0"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.7.0"
+    },
+    "1.0.0-rc.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.0.0-rc.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.0.0-rc.0.tgz",
+        "shasum" : "690af883319eac4e2d01c96732f7beda6370e84a"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack-defaults" : "^1.3.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.0.0-rc.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "a9e69271d114b0bbb25ab5852e001ca5e5731fde",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.0.0-rc.0.tgz_1501102917263_0.10639256262220442"
+      },
+      "_nodeVersion" : "8.2.0"
+    },
+    "0.5.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.5.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.5.0.tgz",
+        "shasum" : "1fd9c55924253ac36740053f5bd80ed72f128781"
+      },
+      "dependencies" : {
+        "loader-utils" : "0.2.x"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.5.0"
+    },
+    "0.8.2" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.8.2",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.8.2.tgz",
+        "shasum" : "43584ada405d70d78bdaeedd9e404139d3adb489"
+      },
+      "dependencies" : {
+        "loader-utils" : "~0.2.5"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.8.2",
+      "gitHead" : "e1993eb9091ecb42c24d77bb3afc461c25e5eb56",
+      "_shasum" : "43584ada405d70d78bdaeedd9e404139d3adb489",
+      "_nodeVersion" : "0.12.2"
+    },
+    "0.8.3" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.8.3",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.8.3.tgz",
+        "shasum" : "f05d55ee591a1526c767cf187a7d5ff3dcfa58ee"
+      },
+      "dependencies" : {
+        "loader-utils" : "~0.2.5"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.0",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.8.3",
+      "gitHead" : "8384372d8623783f8240586404a495ed997c1929",
+      "_shasum" : "f05d55ee591a1526c767cf187a7d5ff3dcfa58ee",
+      "_nodeVersion" : "0.12.2"
+    },
+    "0.7.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.7.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.7.1.tgz",
+        "shasum" : "df0260749db8bac48c0054c9f875a7a3081b39c2"
+      },
+      "dependencies" : {
+        "loader-utils" : "0.2.x",
+        "bignum" : "~0.9.0"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.7.1"
+    },
+    "0.8.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.8.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.8.0.tgz",
+        "shasum" : "5297cb076de98a911be2810130822122c3a31861"
+      },
+      "dependencies" : {
+        "loader-utils" : "~0.2.5"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.8.0",
+      "gitHead" : "5cd117e7d7aff8a9c4a0cb2afed36db302f36726",
+      "_shasum" : "5297cb076de98a911be2810130822122c3a31861"
+    },
+    "0.7.2" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.7.2",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.7.2.tgz",
+        "shasum" : "179980495641bfec80089551930de0846e5afa0c"
+      },
+      "dependencies" : {
+        "loader-utils" : "0.2.x",
+        "bignum" : "~0.9.0"
+      },
+      "optionalDependencies" : {
+        "bignum" : "~0.9.0"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.7.2"
+    },
+    "0.8.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.8.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.8.1.tgz",
+        "shasum" : "cc78055bcc5225d5ff21a9b130ec56be50120322"
+      },
+      "dependencies" : {
+        "loader-utils" : "~0.2.5"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.8.1",
+      "gitHead" : "0a5703fc14674b6485e7752b9f1495ae5cf0fc9f",
+      "_shasum" : "cc78055bcc5225d5ff21a9b130ec56be50120322"
+    },
+    "0.9.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.9.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.9.0.tgz",
+        "shasum" : "1d2daddd424ce6d1b07cfe3f79731bed3617ab42"
+      },
+      "dependencies" : {
+        "loader-utils" : "~0.2.5"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.9.0",
+      "gitHead" : "162c8faa32a235ff93ccdfdbb5edd45e7c22cfa0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/file-loader-0.9.0.tgz_1466453877166_0.5333842861000448"
+      },
+      "_shasum" : "1d2daddd424ce6d1b07cfe3f79731bed3617ab42",
+      "_nodeVersion" : "6.2.0"
+    },
+    "4.2.0" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.9.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-4.2.0.tgz",
+        "shasum" : "5fb124d2369d7075d70a9a5abecd12e60a95215e"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.2.3",
+        "schema-utils" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.5.5",
+        "@babel/core" : "^7.5.5",
+        "@babel/preset-env" : "^7.5.5",
+        "@commitlint/cli" : "^8.1.0",
+        "@commitlint/config-conventional" : "^8.1.0",
+        "@webpack-contrib/defaults" : "^5.0.2",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-jest" : "^24.8.0",
+        "commitlint-azure-pipelines-cli" : "^1.0.2",
+        "cross-env" : "^5.2.0",
+        "del" : "^5.0.0",
+        "del-cli" : "^2.0.0",
+        "eslint" : "^6.0.1",
+        "eslint-config-prettier" : "^6.0.0",
+        "eslint-plugin-import" : "^2.18.0",
+        "husky" : "^3.0.0",
+        "jest" : "^24.8.0",
+        "jest-junit" : "^6.4.0",
+        "lint-staged" : "^9.2.0",
+        "memory-fs" : "^0.4.1",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.18.2",
+        "standard-version" : "^6.0.1",
+        "url-loader" : "^2.0.1",
+        "webpack" : "^4.36.1"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "prebuild" : "npm run clean",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore \"src/**/*.test.js\" --copy-files",
+        "clean" : "del-cli dist",
+        "commitlint" : "commitlint --from=master",
+        "lint:prettier" : "prettier \"{**/*,*}.{js,json,md,yml,css}\" --list-different",
+        "lint:js" : "eslint --cache src test",
+        "lint" : "npm-run-all -l -p \"lint:**\"",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "security" : "npm audit",
+        "test:only" : "cross-env NODE_ENV=test jest",
+        "test:watch" : "cross-env NODE_ENV=test jest --watch",
+        "test:coverage" : "cross-env NODE_ENV=test jest --collectCoverageFrom=\"src/**/*.js\" --coverage",
+        "pretest" : "npm run lint",
+        "test" : "cross-env NODE_ENV=test npm run test:coverage",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@4.2.0",
+      "gitHead" : "ba0fd4c980638cbe8efe5d20a86843fd432ac687",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_4.2.0_1565202971327_0.3291939218489359"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "4.3.0" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.9.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-4.3.0.tgz",
+        "shasum" : "780f040f729b3d18019f20605f723e844b8a58af"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.2.3",
+        "schema-utils" : "^2.5.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.0",
+        "@babel/core" : "^7.7.2",
+        "@babel/preset-env" : "^7.7.1",
+        "@commitlint/cli" : "^8.2.0",
+        "@commitlint/config-conventional" : "^8.2.0",
+        "@webpack-contrib/defaults" : "^5.0.2",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-jest" : "^24.9.0",
+        "commitlint-azure-pipelines-cli" : "^1.0.2",
+        "cross-env" : "^6.0.3",
+        "del" : "^5.1.0",
+        "del-cli" : "^3.0.0",
+        "eslint" : "^6.6.0",
+        "eslint-config-prettier" : "^6.7.0",
+        "eslint-plugin-import" : "^2.18.2",
+        "husky" : "^3.1.0",
+        "jest" : "^24.9.0",
+        "jest-junit" : "^9.0.0",
+        "lint-staged" : "^9.4.3",
+        "memory-fs" : "^0.5.0",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.19.1",
+        "standard-version" : "^7.0.1",
+        "url-loader" : "^2.2.0",
+        "webpack" : "^4.41.2"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "prebuild" : "npm run clean",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore \"src/**/*.test.js\" --copy-files",
+        "clean" : "del-cli dist",
+        "commitlint" : "commitlint --from=master",
+        "lint:prettier" : "prettier \"{**/*,*}.{js,json,md,yml,css}\" --list-different",
+        "lint:js" : "eslint --cache src test",
+        "lint" : "npm-run-all -l -p \"lint:**\"",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "security" : "npm audit",
+        "test:only" : "cross-env NODE_ENV=test jest",
+        "test:watch" : "cross-env NODE_ENV=test jest --watch",
+        "test:coverage" : "cross-env NODE_ENV=test jest --collectCoverageFrom=\"src/**/*.js\" --coverage",
+        "pretest" : "npm run lint",
+        "test" : "cross-env NODE_ENV=test npm run test:coverage",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@4.3.0",
+      "gitHead" : "0df6c8d129630f1dd1c44125a7b42cfe38fe88ae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_4.3.0_1574350154216_0.18936564535798417"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "4.0.0" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.9.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-4.0.0.tgz",
+        "shasum" : "c3570783fefb6e1bc0978a856f4bf5825b966c2a"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.2.2",
+        "schema-utils" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.0",
+        "@babel/core" : "^7.2.2",
+        "@babel/preset-env" : "^7.2.0",
+        "@commitlint/cli" : "^8.0.0",
+        "@commitlint/config-conventional" : "^8.0.0",
+        "@webpack-contrib/defaults" : "^5.0.0",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-jest" : "^24.8.0",
+        "commitlint-azure-pipelines-cli" : "^1.0.2",
+        "cross-env" : "^5.2.0",
+        "del" : "^4.1.1",
+        "del-cli" : "^2.0.0",
+        "eslint" : "^5.16.0",
+        "eslint-config-prettier" : "^4.3.0",
+        "eslint-plugin-import" : "^2.17.3",
+        "husky" : "^2.3.0",
+        "jest" : "^24.8.0",
+        "jest-junit" : "^6.4.0",
+        "lint-staged" : "^8.1.7",
+        "memory-fs" : "^0.4.1",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.17.1",
+        "standard-version" : "^6.0.1",
+        "url-loader" : "^1.1.2",
+        "webpack" : "^4.33.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "andrew@shellscape.org",
+        "name" : "shellscape"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "prebuild" : "npm run clean",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore \"src/**/*.test.js\" --copy-files",
+        "clean" : "del-cli dist",
+        "commitlint" : "commitlint --from=master",
+        "lint:prettier" : "prettier \"{**/*,*}.{js,json,md,yml,css}\" --list-different",
+        "lint:js" : "eslint --cache src test",
+        "lint" : "npm-run-all -l -p \"lint:**\"",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "security" : "npm audit",
+        "test:only" : "cross-env NODE_ENV=test jest",
+        "test:watch" : "cross-env NODE_ENV=test jest --watch",
+        "test:coverage" : "cross-env NODE_ENV=test jest --collectCoverageFrom=\"src/**/*.js\" --coverage",
+        "pretest" : "npm run lint",
+        "test" : "cross-env NODE_ENV=test npm run test:coverage",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@4.0.0",
+      "gitHead" : "d016daa76458588acb15cac900686b7990c4f574",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_4.0.0_1559739588116_0.03538228463392867"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "4.1.0" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.9.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-4.1.0.tgz",
+        "shasum" : "3a763391bc9502da7c59612fe348e38fc1980336"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.2.3",
+        "schema-utils" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.5.5",
+        "@babel/core" : "^7.5.5",
+        "@babel/preset-env" : "^7.5.5",
+        "@commitlint/cli" : "^8.1.0",
+        "@commitlint/config-conventional" : "^8.1.0",
+        "@webpack-contrib/defaults" : "^5.0.2",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-jest" : "^24.8.0",
+        "commitlint-azure-pipelines-cli" : "^1.0.2",
+        "cross-env" : "^5.2.0",
+        "del" : "^5.0.0",
+        "del-cli" : "^2.0.0",
+        "eslint" : "^6.0.1",
+        "eslint-config-prettier" : "^6.0.0",
+        "eslint-plugin-import" : "^2.18.0",
+        "husky" : "^3.0.0",
+        "jest" : "^24.8.0",
+        "jest-junit" : "^6.4.0",
+        "lint-staged" : "^9.2.0",
+        "memory-fs" : "^0.4.1",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.18.2",
+        "standard-version" : "^6.0.1",
+        "url-loader" : "^2.0.1",
+        "webpack" : "^4.36.1"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "prebuild" : "npm run clean",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore \"src/**/*.test.js\" --copy-files",
+        "clean" : "del-cli dist",
+        "commitlint" : "commitlint --from=master",
+        "lint:prettier" : "prettier \"{**/*,*}.{js,json,md,yml,css}\" --list-different",
+        "lint:js" : "eslint --cache src test",
+        "lint" : "npm-run-all -l -p \"lint:**\"",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "security" : "npm audit",
+        "test:only" : "cross-env NODE_ENV=test jest",
+        "test:watch" : "cross-env NODE_ENV=test jest --watch",
+        "test:coverage" : "cross-env NODE_ENV=test jest --collectCoverageFrom=\"src/**/*.js\" --coverage",
+        "pretest" : "npm run lint",
+        "test" : "cross-env NODE_ENV=test npm run test:coverage",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.10.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@4.1.0",
+      "gitHead" : "d441daa955246967686d24a49da83329fad6d1b0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_4.1.0_1563447985370_0.5627185376639228"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "0.1.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.1.1.tgz",
+        "shasum" : "1bfac24688e6762dbea42c208a5028c71d6ba38d"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.1.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.17"
+    },
+    "0.1.2" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.1.2.tgz",
+        "shasum" : "4c3b5a92d48e03ff028a3a9bf0fb1ca06049da7e"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.1.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.17"
+    },
+    "0.1.0" : {
+      "name" : "file-loader",
+      "description" : "json loader module for webpack",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.1.0.tgz",
+        "shasum" : "ea450c7a055f81039f7ea96f257b99a919d45040"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "http://www.opensource.org/licenses/mit-license.php"
+      } ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.1",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.1.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.11"
+    },
+    "1.0.0-beta.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.0.0-beta.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.0.0-beta.1.tgz",
+        "shasum" : "e80e1a0e8e75e8ffe4cfde36cc053f79ca24f0e8"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack-defaults" : "^1.3.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+        "clean" : "del-cli dist",
+        "clean:dist" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "test:watch" : "jest --watch",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.0.2",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.0.0-beta.1",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "450cf00a23a2c97877601758a6f05a926728ccc2",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.0.0-beta.1.tgz_1497024103777_0.42965683876536787"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "1.0.0-beta.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.0.0-beta.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.0.0-beta.0.tgz",
+        "shasum" : "105d575945903c257d61b8bb987c1836677c3388"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack-defaults" : "^1.1.1"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+        "clean" : "del-cli dist",
+        "clean:dist" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "test:watch" : "jest --watch",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.0.2",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.0.0-beta.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "dded20d29fa41b1c9f743ba3b2da28289998cad1",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.0.0-beta.0.tgz_1496869317899_0.1545261477585882"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "3.0.0" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 6.9.0 <7.0.0 || >= 8.9.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-3.0.0.tgz",
+        "shasum" : "56c5ce34bd94ac7a2a5afd49161483777983786a"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.0",
+        "@babel/core" : "^7.2.2",
+        "@babel/polyfill" : "^7.0.0",
+        "@babel/preset-env" : "^7.2.0",
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "@webpack-contrib/defaults" : "^3.0.0",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^5.10.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "eslint-plugin-prettier" : "^3.0.0",
+        "husky" : "^1.3.0",
+        "jest" : "^23.6.0",
+        "lint-staged" : "^8.1.0",
+        "memory-fs" : "^0.4.0",
+        "prettier" : "^1.11.1",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^4.5.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "andrew@shellscape.org",
+        "name" : "shellscape"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint --cache src test",
+        "prebuild" : "npm run clean",
+        "prepublish" : "npm run build",
+        "release" : "standard-version",
+        "security" : "npm audit",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:test" : "npm run test -- --runInBand",
+        "ci:coverage" : "npm run test:coverage -- --runInBand",
+        "ci:lint:commits" : "commitlint --from=origin/master --to=${CIRCLE_SHA1}",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@3.0.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "40a206e71c83eed2bf4f06a887a2f7e60ad374dc",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "lint-staged"
+        }
+      },
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "babel" : {
+        "presets" : [ [ "@babel/preset-env", {
+          "targets" : {
+            "node" : "6.9.0"
+          },
+          "useBuiltIns" : "usage"
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_3.0.0_1545318379883_0.18834436544439792"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "0.10.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.10.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.10.0.tgz",
+        "shasum" : "bbe6db7474ac92c7f54fdc197cf547e98b6b8e12"
+      },
+      "dependencies" : {
+        "loader-utils" : "~0.2.5"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "standard-version" : "^4.0.0",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "bebraw",
+        "email" : "bebraw@gmail.com"
+      }, {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      }, {
+        "name" : "ericclemmons",
+        "email" : "eric@smarterspam.com"
+      }, {
+        "name" : "jhnns",
+        "email" : "mail@johannesewald.de"
+      }, {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      }, {
+        "name" : "thelarkinn",
+        "email" : "sean.larkin@cuw.edu"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec",
+        "travis:test" : "npm run test",
+        "release" : "standard-version"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@0.10.0",
+      "gitHead" : "2d239df11dfa73b27f8e5801a2637d805292cbda",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/file-loader-0.10.0.tgz_1485595390931_0.6364669592585415"
+      },
+      "_shasum" : "bbe6db7474ac92c7f54fdc197cf547e98b6b8e12",
+      "_nodeVersion" : "6.9.4"
+    },
+    "3.0.1" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 6.9.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-3.0.1.tgz",
+        "shasum" : "f8e0ba0b599918b51adfe45d66d1e771ad560faa"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.0",
+        "@babel/core" : "^7.2.2",
+        "@babel/polyfill" : "^7.0.0",
+        "@babel/preset-env" : "^7.2.0",
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "@webpack-contrib/defaults" : "^3.0.0",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^5.10.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "eslint-plugin-prettier" : "^3.0.0",
+        "husky" : "^1.3.0",
+        "jest" : "^23.6.0",
+        "lint-staged" : "^8.1.0",
+        "memory-fs" : "^0.4.0",
+        "prettier" : "^1.11.1",
+        "standard-version" : "^4.0.0",
+        "url-loader" : "^1.1.2",
+        "webpack" : "^4.5.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "andrew@shellscape.org",
+        "name" : "shellscape"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint --cache src test",
+        "prebuild" : "npm run clean",
+        "prepublish" : "npm run build",
+        "release" : "standard-version",
+        "security" : "npm audit",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:test" : "npm run test -- --runInBand",
+        "ci:coverage" : "npm run test:coverage -- --runInBand",
+        "ci:lint:commits" : "commitlint --from=origin/master --to=${CIRCLE_SHA1}",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@3.0.1",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "011cc38d4ed470729ff0fbc6c1d7146896603598",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "lint-staged"
+        }
+      },
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "babel" : {
+        "presets" : [ [ "@babel/preset-env", {
+          "targets" : {
+            "node" : "6.9.0"
+          },
+          "useBuiltIns" : "usage"
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_3.0.1_1545327555422_0.6034923053079422"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "2.0.0" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 6.9.0 < 7.0.0 || >= 8.9.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-2.0.0.tgz",
+        "shasum" : "39749c82f020b9e85901dcff98e8004e6401cfde"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^6.1.3",
+        "@commitlint/config-conventional" : "^6.1.3",
+        "@webpack-contrib/eslint-config-webpack" : "^2.0.4",
+        "babel-cli" : "^6.0.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.0.0",
+        "babel-polyfill" : "^6.0.0",
+        "babel-preset-env" : "^1.0.0",
+        "conventional-github-releaser" : "^2.0.2",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^4.0.0",
+        "eslint-config-webpack" : "^1.0.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "eslint-plugin-prettier" : "^2.6.0",
+        "husky" : "^0.14.3",
+        "jest" : "^22.4.3",
+        "lint-staged" : "^7.0.4",
+        "memory-fs" : "^0.4.0",
+        "nsp" : "^3.2.1",
+        "pre-commit" : "^1.0.0",
+        "prettier" : "^1.11.1",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^4.5.0",
+        "webpack-defaults" : "^2.3.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0 || ^4.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : "",
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "andrew@shellscape.org",
+        "name" : "shellscape"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint --cache src test",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "lint-staged" : "lint-staged",
+        "prebuild" : "npm run clean",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "release:ci" : "conventional-github-releaser -p angular",
+        "release:validate" : "commitlint --from=$(git describe --tags --abbrev=0) --to=$(git rev-parse HEAD)",
+        "security" : "nsp check",
+        "test" : "jest --env=node",
+        "test:watch" : "jest --env=node --watch",
+        "test:coverage" : "jest --env=node --collectCoverageFrom='src/**/*.js' --coverage",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:test" : "npm run test -- --runInBand",
+        "ci:coverage" : "npm run test:coverage -- --runInBand",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.4.0",
+      "_npmUser" : {
+        "name" : "michael-ciniawsky",
+        "email" : "michael.ciniawsky@gmail.com"
+      },
+      "_id" : "file-loader@2.0.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "8d43c38bd023719e3c270d431131d45ceafa2929",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_2.0.0_1534880619992_0.34421822249192835"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "0.11.2" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.11.2",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.11.2.tgz",
+        "shasum" : "4ff1df28af38719a6098093b88c82c71d1794a34"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "standard-version" : "^4.0.0",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec",
+        "travis:test" : "npm run test",
+        "release" : "standard-version"
+      },
+      "_npmVersion" : "5.0.2",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@0.11.2",
+      "gitHead" : "743aef27df5a594d8c02df407ae03d15b7a92a64",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-0.11.2.tgz_1496648416660_0.40809234301559627"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "1.1.10" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.10",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://webpack.js.org/loaders/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.10.tgz",
+        "shasum" : "77e97dfeab13da64c7085ab3e3887e29ae588aea"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "babel-jest" : "^21.0.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.0.0",
+        "babel-polyfill" : "^6.0.0",
+        "babel-preset-env" : "^1.0.0",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^4.0.0",
+        "eslint-config-webpack" : "^1.0.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "jest" : "^21.0.0",
+        "lint-staged" : "^5.0.0",
+        "memory-fs" : "^0.4.0",
+        "nsp" : "^2.0.0",
+        "pre-commit" : "^1.0.0",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.0.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0 || ^4.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepare" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:lint" : "npm run lint && npm run security",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "michael-ciniawsky",
+        "email" : "michael.ciniawsky@gmail.com"
+      },
+      "_id" : "file-loader@1.1.10",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "d27b04c32432af358618739de814f7c89a74a7ff",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_1.1.10_1519681695040_0.5906319937986872"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "0.11.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.11.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.11.1.tgz",
+        "shasum" : "6b328ee1234a729e4e47d36375dd6d35c0e1db84"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "standard-version" : "^4.0.0",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "bebraw",
+        "email" : "bebraw@gmail.com"
+      }, {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      }, {
+        "name" : "ericclemmons",
+        "email" : "eric@smarterspam.com"
+      }, {
+        "name" : "jhnns",
+        "email" : "mail@johannesewald.de"
+      }, {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      }, {
+        "name" : "thelarkinn",
+        "email" : "sean.larkin@cuw.edu"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec",
+        "travis:test" : "npm run test",
+        "release" : "standard-version"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@0.11.1",
+      "gitHead" : "9afc2055041a43bfd6df55753e23807268b847bf",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/file-loader-0.11.1.tgz_1491047376307_0.26141763757914305"
+      },
+      "_shasum" : "6b328ee1234a729e4e47d36375dd6d35c0e1db84",
+      "_nodeVersion" : "7.7.4"
+    },
+    "1.1.11" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.11",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://webpack.js.org/loaders/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.11.tgz",
+        "shasum" : "6fe886449b0f2a936e43cabaac0cdbfb369506f8"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "babel-jest" : "^21.0.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.0.0",
+        "babel-polyfill" : "^6.0.0",
+        "babel-preset-env" : "^1.0.0",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^4.0.0",
+        "eslint-config-webpack" : "^1.0.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "jest" : "^21.0.0",
+        "lint-staged" : "^5.0.0",
+        "memory-fs" : "^0.4.0",
+        "nsp" : "^2.0.0",
+        "pre-commit" : "^1.0.0",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.0.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0 || ^4.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepare" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:lint" : "npm run lint && npm run security",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "michael-ciniawsky",
+        "email" : "michael.ciniawsky@gmail.com"
+      },
+      "_id" : "file-loader@1.1.11",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "f7f6d6c1364441fea4b500aa442c42bc623e5165",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_1.1.11_1519944918678_0.025512927126124074"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "0.10.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.10.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.10.1.tgz",
+        "shasum" : "815034119891fc6441fb5a64c11bc93c22ddd842"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "standard-version" : "^4.0.0",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "bebraw",
+        "email" : "bebraw@gmail.com"
+      }, {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      }, {
+        "name" : "ericclemmons",
+        "email" : "eric@smarterspam.com"
+      }, {
+        "name" : "jhnns",
+        "email" : "mail@johannesewald.de"
+      }, {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      }, {
+        "name" : "thelarkinn",
+        "email" : "sean.larkin@cuw.edu"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec",
+        "travis:test" : "npm run test",
+        "release" : "standard-version"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@0.10.1",
+      "gitHead" : "5d8f73ebe73fbff0f0dea2d57a01c9b2c69198c9",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/file-loader-0.10.1.tgz_1487984755126_0.7668503599707037"
+      },
+      "_shasum" : "815034119891fc6441fb5a64c11bc93c22ddd842",
+      "_nodeVersion" : "6.9.5"
+    },
+    "0.11.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.11.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.11.0.tgz",
+        "shasum" : "af018f39c44617305f1ee92f850c7a65a4331616"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "standard-version" : "^4.0.0",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "bebraw",
+        "email" : "bebraw@gmail.com"
+      }, {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      }, {
+        "name" : "ericclemmons",
+        "email" : "eric@smarterspam.com"
+      }, {
+        "name" : "jhnns",
+        "email" : "mail@johannesewald.de"
+      }, {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      }, {
+        "name" : "thelarkinn",
+        "email" : "sean.larkin@cuw.edu"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec",
+        "travis:test" : "npm run test",
+        "release" : "standard-version"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@0.11.0",
+      "gitHead" : "46cb91614452f32aba5d76867e02be4f5286b216",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/file-loader-0.11.0.tgz_1490954278153_0.7259370910469443"
+      },
+      "_shasum" : "af018f39c44617305f1ee92f850c7a65a4331616",
+      "_nodeVersion" : "7.7.4"
+    },
+    "1.1.2" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.2.tgz",
+        "shasum" : "ea3a4397cfc9b17112f30dc193706f0a60ac8211"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.6.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.1.2",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "4e55bcccd282cdb5e1abfeb2a111c874c3a69c63",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.1.2.tgz_1506739160549_0.8598215188831091"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.1.3" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.3.tgz",
+        "shasum" : "ad5d143d8b614114873df3661ab5c9b8ebd5345a"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.6.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.1.3",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "c49aceb0d8109195a8f587136d47472dca5625f8",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.1.3.tgz_1506747146313_0.39961534924805164"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.1.4" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.4.tgz",
+        "shasum" : "5ca9384adfafe008077c3439a435b2781a889ef5"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.6.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.1.4",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "8782cf17d7499a8fc662aa690ae9a876ed48e333",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.1.4.tgz_1506812044264_0.8647136294748634"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.1.5" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.5",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.5.tgz",
+        "shasum" : "91c25b6b6fbe56dae99f10a425fd64933b5c9daa"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.6.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.1.5",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "f321874bcabf85148310f726ce15d6b22878ac7e",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.1.5.tgz_1507178628203_0.21943257888779044"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "1.1.6" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.6",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://webpack.js.org/loaders/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.6.tgz",
+        "shasum" : "7b9a8f2c58f00a77fddf49e940f7ac978a3ea0e8"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "babel-jest" : "^21.0.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.0.0",
+        "babel-polyfill" : "^6.0.0",
+        "babel-preset-env" : "^1.0.0",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^4.0.0",
+        "eslint-config-webpack" : "^1.0.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "jest" : "^21.0.0",
+        "lint-staged" : "^5.0.0",
+        "memory-fs" : "^0.4.0",
+        "nsp" : "^2.0.0",
+        "pre-commit" : "^1.0.0",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.0.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:lint" : "npm run lint && npm run security",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.1.6",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "d9654940c8b55e9a3e6e4270a54ebb960bbb6990",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.1.6.tgz_1513407354294_0.33756531472317874"
+      },
+      "_nodeVersion" : "8.9.3"
+    },
+    "1.1.7" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.7",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://webpack.js.org/loaders/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.7.tgz",
+        "shasum" : "0a3ad0fe81695feeed6f2dac324fce500c30f0a0"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "babel-jest" : "^21.0.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.0.0",
+        "babel-polyfill" : "^6.0.0",
+        "babel-preset-env" : "^1.0.0",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^4.0.0",
+        "eslint-config-webpack" : "^1.0.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "jest" : "^21.0.0",
+        "lint-staged" : "^5.0.0",
+        "memory-fs" : "^0.4.0",
+        "nsp" : "^2.0.0",
+        "pre-commit" : "^1.0.0",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.0.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:lint" : "npm run lint && npm run security",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "michael-ciniawsky",
+        "email" : "michael.ciniawsky@gmail.com"
+      },
+      "_id" : "file-loader@1.1.7",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "1451b1e5ddee334e20c797981283d2b915506c66",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_1.1.7_1519064540719_0.08076258272531223"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "1.1.8" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.8",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://webpack.js.org/loaders/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.8.tgz",
+        "shasum" : "a62592ed732667d7482dc3268c381c7f0c913086"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "babel-jest" : "^21.0.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.0.0",
+        "babel-polyfill" : "^6.0.0",
+        "babel-preset-env" : "^1.0.0",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^4.0.0",
+        "eslint-config-webpack" : "^1.0.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "jest" : "^21.0.0",
+        "lint-staged" : "^5.0.0",
+        "memory-fs" : "^0.4.0",
+        "nsp" : "^2.0.0",
+        "pre-commit" : "^1.0.0",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.0.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepare" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:lint" : "npm run lint && npm run security",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "michael-ciniawsky",
+        "email" : "michael.ciniawsky@gmail.com"
+      },
+      "_id" : "file-loader@1.1.8",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "c0785d18d5c057fe819bb71d5a94d563d9336dde",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_1.1.8_1519155791245_0.8245727617207326"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "1.1.9" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.9",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://webpack.js.org/loaders/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.9.tgz",
+        "shasum" : "cf152aedbcfb3d67038d0845efb7cf11a96e53de"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "babel-jest" : "^21.0.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.0.0",
+        "babel-polyfill" : "^6.0.0",
+        "babel-preset-env" : "^1.0.0",
+        "cross-env" : "^5.0.0",
+        "del" : "^3.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^4.0.0",
+        "eslint-config-webpack" : "^1.0.0",
+        "eslint-plugin-import" : "^2.0.0",
+        "jest" : "^21.0.0",
+        "lint-staged" : "^5.0.0",
+        "memory-fs" : "^0.4.0",
+        "nsp" : "^2.0.0",
+        "pre-commit" : "^1.0.0",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.0.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepare" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:lint" : "npm run lint && npm run security",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "michael-ciniawsky",
+        "email" : "michael.ciniawsky@gmail.com"
+      },
+      "_id" : "file-loader@1.1.9",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "b3f91893d0c6b612faed77c611b45ec6cd09bb4c",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_1.1.9_1519240471515_0.5568642005408222"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "5.0.0" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.13.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-5.0.0.tgz",
+        "shasum" : "4342ecdf64a3375d330e6464534745dab4252023"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.2.3",
+        "schema-utils" : "^2.5.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.4",
+        "@babel/core" : "^7.7.4",
+        "@babel/preset-env" : "^7.7.4",
+        "@commitlint/cli" : "^8.2.0",
+        "@commitlint/config-conventional" : "^8.2.0",
+        "@webpack-contrib/defaults" : "^6.1.0",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-jest" : "^24.9.0",
+        "commitlint-azure-pipelines-cli" : "^1.0.2",
+        "cross-env" : "^6.0.3",
+        "del" : "^5.1.0",
+        "del-cli" : "^3.0.0",
+        "eslint" : "^6.7.1",
+        "eslint-config-prettier" : "^6.7.0",
+        "eslint-plugin-import" : "^2.18.2",
+        "husky" : "^3.1.0",
+        "jest" : "^24.9.0",
+        "jest-junit" : "^9.0.0",
+        "lint-staged" : "^9.4.3",
+        "memfs" : "^2.16.1",
+        "memory-fs" : "^0.5.0",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.19.1",
+        "standard-version" : "^7.0.1",
+        "url-loader" : "^2.3.0",
+        "webpack" : "^4.41.2"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0 || ^5.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "clean" : "del-cli dist",
+        "prebuild" : "npm run clean",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --copy-files",
+        "commitlint" : "commitlint --from=master",
+        "security" : "npm audit",
+        "lint:prettier" : "prettier \"{**/*,*}.{js,json,md,yml,css,ts}\" --list-different",
+        "lint:js" : "eslint --cache .",
+        "lint" : "npm-run-all -l -p \"lint:**\"",
+        "test:only" : "cross-env NODE_ENV=test jest",
+        "test:watch" : "npm run test:only -- --watch",
+        "test:coverage" : "npm run test:only -- --collectCoverageFrom=\"src/**/*.js\" --coverage",
+        "pretest" : "npm run lint",
+        "test" : "npm run test:coverage",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@5.0.0",
+      "gitHead" : "2a18cba98f1e4bd64734791a657e8acff4b11fac",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_5.0.0_1574685838065_0.7992890244766391"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "0.8.4" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.8.4",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.8.4.tgz",
+        "shasum" : "36cb91a1e07fb59817432a76b8408d66fbaa69c6"
+      },
+      "dependencies" : {
+        "loader-utils" : "~0.2.5"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.0",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.8.4",
+      "gitHead" : "9cda561d2497c2e0668b2a797733b6d8fcc402ca",
+      "_shasum" : "36cb91a1e07fb59817432a76b8408d66fbaa69c6",
+      "_nodeVersion" : "0.12.2"
+    },
+    "5.0.1" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.13.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-5.0.1.tgz",
+        "shasum" : "8d830dc04fb226ec798d6e38a43522b48b0ad528"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.2.3",
+        "schema-utils" : "^2.5.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.4",
+        "@babel/core" : "^7.7.4",
+        "@babel/preset-env" : "^7.7.4",
+        "@commitlint/cli" : "^8.2.0",
+        "@commitlint/config-conventional" : "^8.2.0",
+        "@webpack-contrib/defaults" : "^6.1.0",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-jest" : "^24.9.0",
+        "commitlint-azure-pipelines-cli" : "^1.0.2",
+        "cross-env" : "^6.0.3",
+        "del" : "^5.1.0",
+        "del-cli" : "^3.0.0",
+        "eslint" : "^6.7.1",
+        "eslint-config-prettier" : "^6.7.0",
+        "eslint-plugin-import" : "^2.18.2",
+        "husky" : "^3.1.0",
+        "jest" : "^24.9.0",
+        "jest-junit" : "^9.0.0",
+        "lint-staged" : "^9.4.3",
+        "memfs" : "^2.16.1",
+        "memory-fs" : "^0.5.0",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.19.1",
+        "standard-version" : "^7.0.1",
+        "url-loader" : "^2.3.0",
+        "webpack" : "^4.41.2"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0 || ^5.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "clean" : "del-cli dist",
+        "prebuild" : "npm run clean",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --copy-files",
+        "commitlint" : "commitlint --from=master",
+        "security" : "npm audit",
+        "lint:prettier" : "prettier \"{**/*,*}.{js,json,md,yml,css,ts}\" --list-different",
+        "lint:js" : "eslint --cache .",
+        "lint" : "npm-run-all -l -p \"lint:**\"",
+        "test:only" : "cross-env NODE_ENV=test jest",
+        "test:watch" : "npm run test:only -- --watch",
+        "test:coverage" : "npm run test:only -- --collectCoverageFrom=\"src/**/*.js\" --coverage",
+        "pretest" : "npm run lint",
+        "test" : "npm run test:coverage",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@5.0.1",
+      "gitHead" : "90302cd69e597baf77a64e2018a40d32ad4d60f6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_5.0.1_1574686620723_0.12906053037737264"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "5.1.0" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.13.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-5.1.0.tgz",
+        "shasum" : "cb56c070efc0e40666424309bd0d9e45ac6f2bb8"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.4.0",
+        "schema-utils" : "^2.5.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.8.4",
+        "@babel/core" : "^7.8.4",
+        "@babel/preset-env" : "^7.8.4",
+        "@commitlint/cli" : "^8.3.5",
+        "@commitlint/config-conventional" : "^8.3.4",
+        "@webpack-contrib/defaults" : "^6.3.0",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-jest" : "^25.1.0",
+        "commitlint-azure-pipelines-cli" : "^1.0.3",
+        "cross-env" : "^7.0.0",
+        "del" : "^5.1.0",
+        "del-cli" : "^3.0.0",
+        "eslint" : "^6.8.0",
+        "eslint-config-prettier" : "^6.10.0",
+        "eslint-plugin-import" : "^2.20.1",
+        "husky" : "^4.2.3",
+        "jest" : "^25.1.0",
+        "jest-junit" : "^10.0.0",
+        "lint-staged" : "^10.0.7",
+        "memfs" : "^3.1.1",
+        "memory-fs" : "^0.5.0",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.19.1",
+        "standard-version" : "^7.1.0",
+        "url-loader" : "^3.0.0",
+        "webpack" : "^4.41.6"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0 || ^5.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "clean" : "del-cli dist",
+        "prebuild" : "npm run clean",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --copy-files",
+        "commitlint" : "commitlint --from=master",
+        "security" : "npm audit",
+        "lint:prettier" : "prettier \"{**/*,*}.{js,json,md,yml,css,ts}\" --list-different",
+        "lint:js" : "eslint --cache .",
+        "lint" : "npm-run-all -l -p \"lint:**\"",
+        "test:only" : "cross-env NODE_ENV=test jest",
+        "test:watch" : "npm run test:only -- --watch",
+        "test:coverage" : "npm run test:only -- --collectCoverageFrom=\"src/**/*.js\" --coverage",
+        "pretest" : "npm run lint",
+        "test" : "npm run test:coverage",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@5.1.0",
+      "gitHead" : "c2aded7c33dae128cbbfca8a23b120a2be4843b2",
+      "funding" : {
+        "type" : "opencollective",
+        "url" : "https://opencollective.com/webpack"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_5.1.0_1582135140981_0.9616838908382144"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "0.8.5" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "0.8.5",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-0.8.5.tgz",
+        "shasum" : "9275d031fe780f27d47f5f4af02bd43713cc151b"
+      },
+      "dependencies" : {
+        "loader-utils" : "~0.2.5"
+      },
+      "devDependencies" : {
+        "should" : "~4.0.4",
+        "mocha" : "~1.21.3"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "sokra",
+        "email" : "tobias.koppers@googlemail.com"
+      },
+      "_id" : "file-loader@0.8.5",
+      "gitHead" : "884f22a727fb26b449c61674b46b6732ad9f2194",
+      "_shasum" : "9275d031fe780f27d47f5f4af02bd43713cc151b",
+      "_nodeVersion" : "0.12.4"
+    },
+    "5.0.2" : {
+      "name" : "file-loader",
+      "description" : "A file loader module for webpack",
+      "version" : "5.0.2",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack-contrib/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack-contrib/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 10.13.0"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-5.0.2.tgz",
+        "shasum" : "7f3d8b4ac85a5e8df61338cfec95d7405f971caa"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.2.3",
+        "schema-utils" : "^2.5.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.4",
+        "@babel/core" : "^7.7.4",
+        "@babel/preset-env" : "^7.7.4",
+        "@commitlint/cli" : "^8.2.0",
+        "@commitlint/config-conventional" : "^8.2.0",
+        "@webpack-contrib/defaults" : "^6.2.0",
+        "@webpack-contrib/eslint-config-webpack" : "^3.0.0",
+        "babel-jest" : "^24.9.0",
+        "commitlint-azure-pipelines-cli" : "^1.0.2",
+        "cross-env" : "^6.0.3",
+        "del" : "^5.1.0",
+        "del-cli" : "^3.0.0",
+        "eslint" : "^6.7.1",
+        "eslint-config-prettier" : "^6.7.0",
+        "eslint-plugin-import" : "^2.18.2",
+        "husky" : "^3.1.0",
+        "jest" : "^24.9.0",
+        "jest-junit" : "^9.0.0",
+        "lint-staged" : "^9.4.3",
+        "memfs" : "^2.16.1",
+        "memory-fs" : "^0.5.0",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.19.1",
+        "standard-version" : "^7.0.1",
+        "url-loader" : "^2.3.0",
+        "webpack" : "^4.41.2"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0 || ^5.0.0"
+      },
+      "keywords" : [ "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "michael.ciniawsky@gmail.com",
+        "name" : "michael-ciniawsky"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "clean" : "del-cli dist",
+        "prebuild" : "npm run clean",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --copy-files",
+        "commitlint" : "commitlint --from=master",
+        "security" : "npm audit",
+        "lint:prettier" : "prettier \"{**/*,*}.{js,json,md,yml,css,ts}\" --list-different",
+        "lint:js" : "eslint --cache .",
+        "lint" : "npm-run-all -l -p \"lint:**\"",
+        "test:only" : "cross-env NODE_ENV=test jest",
+        "test:watch" : "npm run test:only -- --watch",
+        "test:coverage" : "npm run test:only -- --collectCoverageFrom=\"src/**/*.js\" --coverage",
+        "pretest" : "npm run lint",
+        "test" : "npm run test:coverage",
+        "prepare" : "npm run build",
+        "release" : "standard-version",
+        "defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "file-loader@5.0.2",
+      "gitHead" : "f1b071c55a6653a6efc7c42fd24cd787217730c6",
+      "funding" : {
+        "type" : "opencollective",
+        "url" : "https://opencollective.com/webpack"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader_5.0.2_1574689144789_0.151474334632145"
+      },
+      "_nodeVersion" : "10.15.2"
+    },
+    "1.0.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.0.0.tgz",
+        "shasum" : "08accf9631a0875e4ab7f209fc4db338604b3190"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack-defaults" : "^1.3.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.0.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "95e157b12d7b3b80423d4411af91581c4b53945f",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.0.0.tgz_1501105424699_0.21190887223929167"
+      },
+      "_nodeVersion" : "8.2.0"
+    },
+    "1.1.0" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.0.tgz",
+        "shasum" : "f057ae917e3751d7fe77478f15ce913176a1e35b"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack-defaults" : "^1.3.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.1.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "abe91a891e1af1c4052f6e38646396d1e91c7c3f",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.1.0.tgz_1506712896136_0.5693328557536006"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.1.1" : {
+      "name" : "file-loader",
+      "description" : "file loader module for webpack",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Tobias Koppers @sokra"
+      },
+      "homepage" : "https://github.com/webpack/file-loader",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/webpack/file-loader.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/webpack/file-loader/issues"
+      },
+      "engines" : {
+        "node" : ">= 4.3 < 5.0.0 || >= 5.10"
+      },
+      "main" : "dist/cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/file-loader/-/file-loader-1.1.1.tgz",
+        "shasum" : "490efa45a2ddf9d66f319e5ec83983d42ea7cfae"
+      },
+      "dependencies" : {
+        "loader-utils" : "^1.0.2",
+        "schema-utils" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.24.1",
+        "babel-jest" : "^20.0.3",
+        "babel-plugin-transform-object-rest-spread" : "^6.23.0",
+        "babel-polyfill" : "^6.23.0",
+        "babel-preset-env" : "^1.5.1",
+        "cross-env" : "^5.0.0",
+        "del-cli" : "^1.0.0",
+        "eslint" : "^3.19.0",
+        "eslint-config-webpack" : "^1.2.3",
+        "eslint-plugin-import" : "^2.3.0",
+        "jest" : "^20.0.4",
+        "lint-staged" : "^3.6.0",
+        "nsp" : "^2.6.3",
+        "pre-commit" : "^1.2.2",
+        "standard-version" : "^4.0.0",
+        "webpack" : "^3.6.0",
+        "webpack-defaults" : "^1.6.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^2.0.0 || ^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "eric@smarterspam.com",
+        "name" : "ericclemmons"
+      }, {
+        "email" : "bebraw@gmail.com",
+        "name" : "bebraw"
+      }, {
+        "email" : "mail@johannesewald.de",
+        "name" : "jhnns"
+      }, {
+        "email" : "sean.larkin@cuw.edu",
+        "name" : "thelarkinn"
+      }, {
+        "email" : "tobias.koppers@googlemail.com",
+        "name" : "sokra"
+      }, {
+        "email" : "j.tangelder@gmail.com",
+        "name" : "jtangelder"
+      }, {
+        "email" : "wiens.joshua@gmail.com",
+        "name" : "d3viant0ne"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "start" : "npm run build -- -w",
+        "appveyor:test" : "npm run test",
+        "build" : "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+        "clean" : "del-cli dist",
+        "lint" : "eslint --cache src test",
+        "lint-staged" : "lint-staged",
+        "prepublish" : "npm run build",
+        "prebuild" : "npm run clean",
+        "release" : "standard-version",
+        "security" : "nsp check",
+        "test" : "jest",
+        "test:watch" : "jest --watch",
+        "test:coverage" : "jest --collectCoverageFrom='src/**/*.js' --coverage",
+        "travis:coverage" : "npm run test:coverage -- --runInBand",
+        "travis:test" : "npm run test -- --runInBand",
+        "travis:lint" : "npm run lint && npm run security",
+        "webpack-defaults" : "webpack-defaults"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "d3viant0ne",
+        "email" : "wiens.joshua@gmail.com"
+      },
+      "_id" : "file-loader@1.1.1",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "0c52ae2acb50cbe8abf75a81be699cf349fc5f4a",
+      "pre-commit" : "lint-staged",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/file-loader-1.1.1.tgz_1506738328687_0.9666709781158715"
+      },
+      "_nodeVersion" : "8.4.0"
+    }
+  },
+  "readme" : "<div align=\"center\">\n  <a href=\"https://github.com/webpack/webpack\">\n    <img width=\"200\" height=\"200\" src=\"https://webpack.js.org/assets/icon-square-big.svg\">\n  </a>\n</div>\n\n[![npm][npm]][npm-url]\n[![node][node]][node-url]\n[![deps][deps]][deps-url]\n[![tests][tests]][tests-url]\n[![coverage][cover]][cover-url]\n[![chat][chat]][chat-url]\n[![size][size]][size-url]\n\n# file-loader\n\nThe `file-loader` resolves `import`/`require()` on a file into a url and emits the file into the output directory.\n\n## Getting Started\n\nTo begin, you'll need to install `file-loader`:\n\n```console\n$ npm install file-loader --save-dev\n```\n\nImport (or `require`) the target file(s) in one of the bundle's files:\n\n**file.js**\n\n```js\nimport img from './file.png';\n```\n\nThen add the loader to your `webpack` config. For example:\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        use: [\n          {\n            loader: 'file-loader',\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\nAnd run `webpack` via your preferred method. This will emit `file.png` as a file\nin the output directory (with the specified naming convention, if options are\nspecified to do so) and returns the public URI of the file.\n\n> ℹ️ By default the filename of the resulting file is the hash of the file's contents with the original extension of the required resource.\n\n## Options\n\n### `name`\n\nType: `String|Function`\nDefault: `'[contenthash].[ext]'`\n\nSpecifies a custom filename template for the target file(s) using the query\nparameter `name`. For example, to emit a file from your `context` directory into\nthe output directory retaining the full directory structure, you might use:\n\n#### `String`\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        loader: 'file-loader',\n        options: {\n          name: '[path][name].[ext]',\n        },\n      },\n    ],\n  },\n};\n```\n\n#### `Function`\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        loader: 'file-loader',\n        options: {\n          name(resourcePath, resourceQuery) {\n            // `resourcePath` - `/absolute/path/to/file.js`\n            // `resourceQuery` - `?foo=bar`\n\n            if (process.env.NODE_ENV === 'development') {\n              return '[path][name].[ext]';\n            }\n\n            return '[contenthash].[ext]';\n          },\n        },\n      },\n    ],\n  },\n};\n```\n\n> ℹ️ By default the path and name you specify will output the file in that same directory, and will also use the same URI path to access the file.\n\n### `outputPath`\n\nType: `String|Function`\nDefault: `undefined`\n\nSpecify a filesystem path where the target file(s) will be placed.\n\n#### `String`\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        loader: 'file-loader',\n        options: {\n          outputPath: 'images',\n        },\n      },\n    ],\n  },\n};\n```\n\n#### `Function`\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        loader: 'file-loader',\n        options: {\n          outputPath: (url, resourcePath, context) => {\n            // `resourcePath` is original absolute path to asset\n            // `context` is directory where stored asset (`rootContext`) or `context` option\n\n            // To get relative path you can use\n            // const relativePath = path.relative(context, resourcePath);\n\n            if (/my-custom-image\\.png/.test(resourcePath)) {\n              return `other_output_path/${url}`;\n            }\n\n            if (/images/.test(context)) {\n              return `image_output_path/${url}`;\n            }\n\n            return `output_path/${url}`;\n          },\n        },\n      },\n    ],\n  },\n};\n```\n\n### `publicPath`\n\nType: `String|Function`\nDefault: [`__webpack_public_path__`](https://webpack.js.org/api/module-variables/#__webpack_public_path__-webpack-specific-)\n\nSpecifies a custom public path for the target file(s).\n\n#### `String`\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        loader: 'file-loader',\n        options: {\n          publicPath: 'assets',\n        },\n      },\n    ],\n  },\n};\n```\n\n#### `Function`\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        loader: 'file-loader',\n        options: {\n          publicPath: (url, resourcePath, context) => {\n            // `resourcePath` is original absolute path to asset\n            // `context` is directory where stored asset (`rootContext`) or `context` option\n\n            // To get relative path you can use\n            // const relativePath = path.relative(context, resourcePath);\n\n            if (/my-custom-image\\.png/.test(resourcePath)) {\n              return `other_public_path/${url}`;\n            }\n\n            if (/images/.test(context)) {\n              return `image_output_path/${url}`;\n            }\n\n            return `public_path/${url}`;\n          },\n        },\n      },\n    ],\n  },\n};\n```\n\n### `postTransformPublicPath`\n\nType: `Function`\nDefault: `undefined`\n\nSpecifies a custom function to post-process the generated public path. This can be used to prepend or append dynamic global variables that are only available at runtime, like `__webpack_public_path__`. This would not be possible with just `publicPath`, since it stringifies the values.\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpg|gif)$/i,\n        loader: 'file-loader',\n        options: {\n          publicPath: '/some/path/',\n          postTransformPublicPath: (p) => `__webpack_public_path__ + ${p}`,\n        },\n      },\n    ],\n  },\n};\n```\n\n### `context`\n\nType: `String`\nDefault: [`context`](https://webpack.js.org/configuration/entry-context/#context)\n\nSpecifies a custom file context.\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              context: 'project',\n            },\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\n### `emitFile`\n\nType: `Boolean`\nDefault: `true`\n\nIf true, emits a file (writes a file to the filesystem). If false, the loader\nwill return a public URI but **will not** emit the file. It is often useful to\ndisable this option for server-side packages.\n\n**file.js**\n\n```js\n// bundle file\nimport img from './file.png';\n```\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.css$/i,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              emitFile: false,\n            },\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\n### `regExp`\n\nType: `RegExp`\nDefault: `undefined`\n\nSpecifies a Regular Expression to one or many parts of the target file path.\nThe capture groups can be reused in the `name` property using `[N]`\n[placeholder](https://github.com/webpack-contrib/file-loader#placeholders).\n\n**file.js**\n\n```js\nimport img from './customer01/file.png';\n```\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              regExp: /\\/([a-z0-9]+)\\/[a-z0-9]+\\.png$/i,\n              name: '[1]-[name].[ext]',\n            },\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\n> ℹ️ If `[0]` is used, it will be replaced by the entire tested string, whereas `[1]` will contain the first capturing parenthesis of your regex and so on...\n\n### `esModule`\n\nType: `Boolean`\nDefault: `true`\n\nBy default, `file-loader` generates JS modules that use the ES modules syntax.\nThere are some cases in which using ES modules is beneficial, like in the case of [module concatenation](https://webpack.js.org/plugins/module-concatenation-plugin/) and [tree shaking](https://webpack.js.org/guides/tree-shaking/).\n\nYou can enable a CommonJS module syntax using:\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.css$/,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              esModule: false,\n            },\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\n## Placeholders\n\nFull information about placeholders you can find [here](https://github.com/webpack/loader-utils#interpolatename).\n\n### `[ext]`\n\nType: `String`\nDefault: `file.extname`\n\nThe file extension of the target file/resource.\n\n### `[name]`\n\nType: `String`\nDefault: `file.basename`\n\nThe basename of the file/resource.\n\n### `[path]`\n\nType: `String`\nDefault: `file.directory`\n\nThe path of the resource relative to the webpack/config `context`.\n\n### `[folder]`\n\nType: `String`\nDefault: `file.folder`\n\nThe folder of the resource is in.\n\n### `[query]`\n\nType: `String`\nDefault: `file.query`\n\nThe query of the resource, i.e. `?foo=bar`.\n\n### `[emoji]`\n\nType: `String`\nDefault: `undefined`\n\nA random emoji representation of `content`.\n\n### `[emoji:<length>]`\n\nType: `String`\nDefault: `undefined`\n\nSame as above, but with a customizable number of emojis\n\n### `[hash]`\n\nType: `String`\nDefault: `md5`\n\nSpecifies the hash method to use for hashing the file content.\n\n### `[contenthash]`\n\nType: `String`\nDefault: `md5`\n\nSpecifies the hash method to use for hashing the file content.\n\n### `[<hashType>:hash:<digestType>:<length>]`\n\nType: `String`\n\nThe hash of options.content (Buffer) (by default it's the hex digest of the hash).\n\n#### `digestType`\n\nType: `String`\nDefault: `'hex'`\n\nThe [digest](https://en.wikipedia.org/wiki/Cryptographic_hash_function) that the\nhash function should use. Valid values include: base26, base32, base36,\nbase49, base52, base58, base62, base64, and hex.\n\n#### `hashType`\n\nType: `String`\nDefault: `'md5'`\n\nThe type of hash that the has function should use. Valid values include: `md5`,\n`sha1`, `sha256`, and `sha512`.\n\n#### `length`\n\nType: `Number`\nDefault: `undefined`\n\nUsers may also specify a length for the computed hash.\n\n### `[N]`\n\nType: `String`\nDefault: `undefined`\n\nThe n-th match obtained from matching the current file name against the `regExp`.\n\n## Examples\n\n### Names\n\nThe following examples show how one might use `file-loader` and what the result would be.\n\n**file.js**\n\n```js\nimport png from './image.png';\n```\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              name: 'dirname/[contenthash].[ext]',\n            },\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\nResult:\n\n```bash\n# result\ndirname/0dcbbaa701328ae351f.png\n```\n\n---\n\n**file.js**\n\n```js\nimport png from './image.png';\n```\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              name: '[sha512:hash:base64:7].[ext]',\n            },\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\nResult:\n\n```bash\n# result\ngdyb21L.png\n```\n\n---\n\n**file.js**\n\n```js\nimport png from './path/to/file.png';\n```\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              name: '[path][name].[ext]?[contenthash]',\n            },\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\nResult:\n\n```bash\n# result\npath/to/file.png?e43b20c069c4a01867c31e98cbce33c9\n```\n\n### CDN\n\nThe following examples show how to use `file-loader` for CDN uses query params.\n\n**file.js**\n\n```js\nimport png from './directory/image.png?width=300&height=300';\n```\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  output: {\n    publicPath: 'https://cdn.example.com/',\n  },\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpe?g|gif)$/i,\n        use: [\n          {\n            loader: 'file-loader',\n            options: {\n              name: '[path][name].[ext][query]',\n            },\n          },\n        ],\n      },\n    ],\n  },\n};\n```\n\nResult:\n\n```bash\n# result\nhttps://cdn.example.com/directory/image.png?width=300&height=300\n```\n\n### Dynamic public path depending on environment variable at run time\n\nAn application might want to configure different CDN hosts depending on an environment variable that is only available when running the application. This can be an advantage, as only one build of the application is necessary, which behaves differntly depending on environment variables of the deployment environment. Since file-loader is applied when compiling the application, and not when running it, the environment variable cannot be used in the file-loader configuration. A way around this is setting the `__webpack_public_path__` to the desired CDN host depending on the environment variable at the entrypoint of the application. The option `postTransformPublicPath` can be used to configure a custom path depending on a variable like `__webpack_public_path__`.\n\n**main.js**\n\n```js\nconst assetPrefixForNamespace = (namespace) => {\n  switch (namespace) {\n    case 'prod':\n      return 'https://cache.myserver.net/web';\n    case 'uat':\n      return 'https://cache-uat.myserver.net/web';\n    case 'st':\n      return 'https://cache-st.myserver.net/web';\n    case 'dev':\n      return 'https://cache-dev.myserver.net/web';\n    default:\n      return '';\n  }\n};\nconst namespace = process.env.NAMESPACE;\n\n__webpack_public_path__ = `${assetPrefixForNamespace(namespace)}/`;\n```\n\n**file.js**\n\n```js\nimport png from './image.png';\n```\n\n**webpack.config.js**\n\n```js\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.(png|jpg|gif)$/i,\n        loader: 'file-loader',\n        options: {\n          name: '[name].[contenthash].[ext]',\n          outputPath: 'static/assets/',\n          publicPath: 'static/assets/',\n          postTransformPublicPath: (p) => `__webpack_public_path__ + ${p}`,\n        },\n      },\n    ],\n  },\n};\n```\n\nResult when run with `NAMESPACE=prod` env variable:\n\n```bash\n# result\nhttps://cache.myserver.net/web/static/assets/image.somehash.png\n```\n\nResult when run with `NAMESPACE=dev` env variable:\n\n```bash\n# result\nhttps://cache-dev.myserver.net/web/static/assets/image.somehash.png\n```\n\n## Contributing\n\nPlease take a moment to read our contributing guidelines if you haven't yet done so.\n\n[CONTRIBUTING](./.github/CONTRIBUTING.md)\n\n## License\n\n[MIT](./LICENSE)\n\n[npm]: https://img.shields.io/npm/v/file-loader.svg\n[npm-url]: https://npmjs.com/package/file-loader\n[node]: https://img.shields.io/node/v/file-loader.svg\n[node-url]: https://nodejs.org\n[deps]: https://david-dm.org/webpack-contrib/file-loader.svg\n[deps-url]: https://david-dm.org/webpack-contrib/file-loader\n[tests]: https://dev.azure.com/webpack-contrib/file-loader/_apis/build/status/webpack-contrib.file-loader?branchName=master\n[tests-url]: https://dev.azure.com/webpack-contrib/file-loader/_build/latest?definitionId=2&branchName=master\n[cover]: https://codecov.io/gh/webpack-contrib/file-loader/branch/master/graph/badge.svg\n[cover-url]: https://codecov.io/gh/webpack-contrib/file-loader\n[chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg\n[chat-url]: https://gitter.im/webpack/webpack\n[size]: https://packagephobia.now.sh/badge?p=file-loader\n[size-url]: https://packagephobia.now.sh/result?p=file-loader\n",
+  "maintainers" : [ {
+    "email" : "wiens.joshua@gmail.com",
+    "name" : "d3viant0ne"
+  }, {
+    "email" : "eric@smarterspam.com",
+    "name" : "ericclemmons"
+  }, {
+    "email" : "sheo13666q@gmail.com",
+    "name" : "evilebottnawi"
+  }, {
+    "email" : "mail@johannesewald.de",
+    "name" : "jhnns"
+  }, {
+    "email" : "michael.ciniawsky@gmail.com",
+    "name" : "michael-ciniawsky"
+  }, {
+    "email" : "tobias.koppers@googlemail.com",
+    "name" : "sokra"
+  }, {
+    "email" : "sean.larkin@cuw.edu",
+    "name" : "thelarkinn"
+  } ],
+  "author" : {
+    "name" : "Tobias Koppers @sokra"
+  },
+  "time" : {
+    "0.6.0" : "2013-03-25T23:17:42.822Z",
+    "0.6.1" : "2014-08-04T17:29:00.443Z",
+    "0.8.2" : "2015-05-21T19:42:30.574Z",
+    "0.8.3" : "2015-05-21T19:45:51.239Z",
+    "0.8.0" : "2014-10-11T15:53:09.217Z",
+    "0.8.1" : "2014-10-15T09:45:07.129Z",
+    "4.3.0" : "2019-11-21T15:29:14.490Z",
+    "4.1.0" : "2019-07-18T11:06:25.524Z",
+    "1.0.0-beta.1" : "2017-06-09T16:01:44.868Z",
+    "1.0.0-beta.0" : "2017-06-07T21:01:58.885Z",
+    "0.10.0" : "2017-01-28T09:23:12.620Z",
+    "modified" : "2020-02-19T17:59:06.164Z",
+    "1.1.10" : "2018-02-26T21:48:15.094Z",
+    "created" : "2012-05-07T17:12:55.965Z",
+    "1.1.11" : "2018-03-01T22:55:18.724Z",
+    "0.10.1" : "2017-02-25T01:05:55.700Z",
+    "1.1.2" : "2017-09-30T02:39:21.692Z",
+    "1.1.3" : "2017-09-30T04:52:27.368Z",
+    "1.1.4" : "2017-09-30T22:54:05.378Z",
+    "1.1.5" : "2017-10-05T04:43:49.192Z",
+    "1.1.6" : "2017-12-16T06:55:55.214Z",
+    "1.1.7" : "2018-02-19T18:22:20.771Z",
+    "1.1.8" : "2018-02-20T19:43:11.316Z",
+    "1.1.9" : "2018-02-21T19:14:31.590Z",
+    "5.0.0" : "2019-11-25T12:43:58.215Z",
+    "5.0.1" : "2019-11-25T12:57:00.870Z",
+    "5.0.2" : "2019-11-25T13:39:04.907Z",
+    "1.1.0" : "2017-09-29T19:21:37.118Z",
+    "1.1.1" : "2017-09-30T02:25:29.721Z",
+    "0.5.1" : "2014-01-23T07:58:33.809Z",
+    "0.7.0" : "2014-08-25T09:15:19.645Z",
+    "1.0.0-rc.0" : "2017-07-26T21:01:58.297Z",
+    "0.5.0" : "2013-02-01T07:46:11.955Z",
+    "0.7.1" : "2014-08-25T11:15:21.660Z",
+    "0.7.2" : "2014-08-26T09:02:20.723Z",
+    "0.9.0" : "2016-06-20T20:17:58.558Z",
+    "4.2.0" : "2019-08-07T18:36:11.432Z",
+    "4.0.0" : "2019-06-05T12:59:48.253Z",
+    "0.1.1" : "2012-05-13T20:53:22.617Z",
+    "0.1.2" : "2012-05-20T21:58:35.036Z",
+    "0.1.0" : "2012-05-07T17:13:00.034Z",
+    "3.0.0" : "2018-12-20T15:06:20.001Z",
+    "3.0.1" : "2018-12-20T17:39:15.518Z",
+    "2.0.0" : "2018-08-21T19:43:40.108Z",
+    "0.11.2" : "2017-06-05T07:40:17.602Z",
+    "0.11.1" : "2017-04-01T11:49:38.261Z",
+    "0.11.0" : "2017-03-31T09:57:58.722Z",
+    "0.8.4" : "2015-05-24T19:52:45.476Z",
+    "5.1.0" : "2020-02-19T17:59:01.091Z",
+    "0.8.5" : "2015-11-23T21:47:45.902Z",
+    "1.0.0" : "2017-07-26T21:43:45.697Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/webpack-contrib/file-loader.git"
+  },
+  "users" : {
+    "orenschwartz" : true,
+    "jruif" : true,
+    "chenphoenix" : true,
+    "cl0udw4lk3r" : true,
+    "serge-nikitin" : true,
+    "endsoul" : true,
+    "sun142725" : true,
+    "luffy84217" : true,
+    "luojianet" : true,
+    "dhampik" : true,
+    "lavir" : true,
+    "zhiquan_yu" : true,
+    "huina.gu" : true,
+    "isenricho" : true,
+    "bh032" : true,
+    "raojs" : true,
+    "sunny_anna" : true,
+    "kodekracker" : true,
+    "josokinas" : true,
+    "laurentknauss" : true,
+    "klimnikita" : true,
+    "cypark" : true,
+    "christopher.urquidi" : true,
+    "fabrianibrahim" : true,
+    "muzi131313" : true,
+    "arcticicestudio" : true,
+    "langri-sha" : true,
+    "lorenazohar" : true,
+    "bengi" : true,
+    "yangzw" : true,
+    "fabioper" : true,
+    "tiggem1993" : true,
+    "stefan.age" : true,
+    "princetoad" : true,
+    "borjes" : true,
+    "maddas" : true,
+    "abhijitkalta" : true,
+    "fakefarm" : true,
+    "leonardorb" : true,
+    "rogerthoang" : true,
+    "artem.tkachuck" : true,
+    "tomchao" : true,
+    "cestrensem" : true,
+    "morganz" : true,
+    "jiang135" : true,
+    "yeming" : true,
+    "smtnkc" : true,
+    "double1000" : true,
+    "cfleschhut" : true,
+    "drinchev" : true,
+    "abhisekp" : true,
+    "fadihania" : true,
+    "jalik" : true,
+    "haoxiaodan" : true,
+    "honpery" : true,
+    "drewigg" : true,
+    "panos277" : true,
+    "myorkgitis" : true,
+    "~arnold" : true,
+    "azertypow" : true,
+    "monolithed" : true,
+    "liming8077" : true,
+    "renishskills" : true,
+    "asfrom30" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/webpack-contrib/file-loader",
+  "keywords" : [ "webpack" ],
+  "bugs" : {
+    "url" : "https://github.com/webpack-contrib/file-loader/issues"
+  },
+  "license" : "MIT"
+}

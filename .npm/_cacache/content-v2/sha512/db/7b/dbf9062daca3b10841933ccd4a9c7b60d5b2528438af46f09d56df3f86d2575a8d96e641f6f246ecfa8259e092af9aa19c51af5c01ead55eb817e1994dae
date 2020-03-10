@@ -1,0 +1,266 @@
+{
+  "_id" : "caller-path",
+  "_rev" : "10-6a784a60af73e3716a06a2afa47b8915",
+  "name" : "caller-path",
+  "description" : "Get the path of the caller function",
+  "dist-tags" : {
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "caller-path",
+      "description" : "Get the path of the caller function",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/caller-path#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/caller-path.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/caller-path/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/caller-path/-/caller-path-2.0.0.tgz",
+        "shasum" : "468f83044e369ab2010fac5f06ceee15bb2cb1f4"
+      },
+      "dependencies" : {
+        "caller-callsite" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "caller", "calling", "module", "path", "parent", "callsites", "callsite", "stacktrace", "stack", "trace", "function", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "caller-path@2.0.0",
+      "gitHead" : "9fdd6db85d0a82b15ad57fc661d675712b30785a",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/caller-path-2.0.0.tgz_1472346183708_0.9669214419554919"
+      },
+      "_shasum" : "468f83044e369ab2010fac5f06ceee15bb2cb1f4",
+      "_nodeVersion" : "4.5.0"
+    },
+    "3.0.0" : {
+      "name" : "caller-path",
+      "description" : "Get the path of the caller function",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/caller-path#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/caller-path.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/caller-path/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/caller-path/-/caller-path-3.0.0.tgz",
+        "shasum" : "a13cbec75eea1b355e3f92dc0df4288b7eebdc5f"
+      },
+      "dependencies" : {
+        "caller-callsite" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.4.0",
+        "tsd" : "^0.11.0",
+        "xo" : "^0.25.3"
+      },
+      "keywords" : [ "caller", "calling", "module", "path", "parent", "callsites", "callsite", "stacktrace", "stack", "trace", "function", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "caller-path@3.0.0",
+      "gitHead" : "b00a61dd2cc8b90430c96bfefa1e259263e1404d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/caller-path_3.0.0_1574395460691_0.21774906369149094"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "1.0.0" : {
+      "name" : "caller-path",
+      "description" : "Get the path of the caller function",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/caller-path",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/caller-path"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/caller-path/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/caller-path/-/caller-path-1.0.0.tgz",
+        "shasum" : "881d95105527cad47944c0444232436100056f85"
+      },
+      "dependencies" : {
+        "caller-callsite" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "caller", "calling", "module", "path", "parent", "callsites", "callsite", "stacktrace", "stack", "trace", "function", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "caller-path@1.0.0",
+      "gitHead" : "f4b4451e4c7bb6d9a3593ae2daea1b8a3c65568d",
+      "_shasum" : "881d95105527cad47944c0444232436100056f85"
+    },
+    "0.1.0" : {
+      "name" : "caller-path",
+      "description" : "Get the path of the caller module",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/caller-path",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/caller-path"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/caller-path/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/caller-path/-/caller-path-0.1.0.tgz",
+        "shasum" : "94085ef63581ecd3daa92444a8fe94e82577751f"
+      },
+      "dependencies" : {
+        "callsites" : "^0.2.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "caller", "calling", "module", "path", "parent", "callsites", "callsite", "stacktrace", "stack", "trace", "function", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "caller-path@0.1.0"
+    }
+  },
+  "readme" : "# caller-path [![Build Status](https://travis-ci.org/sindresorhus/caller-path.svg?branch=master)](https://travis-ci.org/sindresorhus/caller-path)\n\n> Get the path of the caller function\n\n**Important:** You have to use `'use strict';` in your code for this module to work correctly, or make sure the module is an ESM module, which is implicitly strict.\n\n## Install\n\n```\n$ npm install caller-path\n```\n\n## Usage\n\n```js\n// foo.js\nconst callerPath = require('caller-path');\n\nmodule.exports = () => {\n\tconsole.log(callerPath());\n\t//=> '/Users/sindresorhus/dev/unicorn/bar.js'\n}\n```\n\n```js\n// bar.js\nconst foo = require('./foo');\nfoo();\n```\n\nIf the caller's [callsite](https://github.com/sindresorhus/callsites#api) object `getFileName` was not defined for some reason, it will return `undefined`.\n\n## API\n\n### callerPath(options?)\n\nGet the path of the caller function.\n\n##### depth\n\nType: `number`\\\nDefault: `0`\n\nThe caller path depth, meaning how many levels we follow back on the stack trace.\n\nFor example:\n\n```js\n// foo.js\nconst callerPath = require('caller-path');\n\nmodule.exports = () => {\n\tconsole.log(callerPath());\n\t//=> '/Users/sindresorhus/dev/unicorn/foobar.js'\n\tconsole.log(callerPath({depth: 1}));\n\t//=> '/Users/sindresorhus/dev/unicorn/bar.js'\n\tconsole.log(callerPath({depth: 2}));\n\t//=> '/Users/sindresorhus/dev/unicorn/foo.js'\n}\n```\n\n```js\n// bar.js\nconst foo = require('./foo');\n\nmodule.exports = () => {\n\tfoo();\n}\n```\n\n```js\n// foobar.js\nconst bar = require('./bar');\nbar();\n```\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-caller-path?utm_source=npm-caller-path&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2016-08-28T01:03:04.687Z",
+    "3.0.0" : "2019-11-22T04:04:20.816Z",
+    "created" : "2014-04-19T10:18:32.644Z",
+    "modified" : "2019-11-22T04:04:23.117Z",
+    "1.0.0" : "2015-01-24T16:20:15.948Z",
+    "0.1.0" : "2014-04-19T10:18:32.644Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/caller-path.git"
+  },
+  "users" : {
+    "stringparser" : true,
+    "bojand" : true,
+    "kevin.teljeur" : true,
+    "andfaulkner" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/caller-path#readme",
+  "keywords" : [ "caller", "calling", "module", "path", "parent", "callsites", "callsite", "stacktrace", "stack", "trace", "function", "file" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/caller-path/issues"
+  },
+  "license" : "MIT"
+}

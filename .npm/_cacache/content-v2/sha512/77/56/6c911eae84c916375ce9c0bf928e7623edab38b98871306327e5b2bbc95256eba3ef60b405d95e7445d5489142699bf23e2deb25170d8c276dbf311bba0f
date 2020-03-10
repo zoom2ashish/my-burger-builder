@@ -1,0 +1,259 @@
+{
+  "_id" : "identity-obj-proxy",
+  "_rev" : "8-e91df8022aa76a5744ee31984d741291",
+  "name" : "identity-obj-proxy",
+  "description" : "an identity object using ES6 proxies",
+  "dist-tags" : {
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "identity-obj-proxy",
+      "description" : "an identity object using ES6 proxies",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Keyan Zhang",
+        "email" : "root@keyanzhang.com",
+        "url" : "http://keya.nz"
+      },
+      "homepage" : "https://github.com/keyanzhang/identity-obj-proxy#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/keyanzhang/identity-obj-proxy.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/keyanzhang/identity-obj-proxy/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/identity-obj-proxy/-/identity-obj-proxy-2.0.0.tgz",
+        "shasum" : "3e69b32ad4d32ab1c5066456e7a59a781c57318c"
+      },
+      "dependencies" : {
+        "harmony-reflect" : "^1.4.6"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.9",
+        "eslint" : "^2.11.0",
+        "eslint-config-airbnb-base" : "^3.0.1",
+        "eslint-plugin-import" : "^1.8.1",
+        "jest-cli" : "^12.1.1"
+      },
+      "keywords" : [ "proxy", "proxies", "identity", "jest", "mock" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "keyanzhang",
+        "email" : "root@keyanzhang.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "node --harmony_proxies node_modules/.bin/jest",
+        "coverage" : "node --harmony_proxies node_modules/.bin/jest --coverage",
+        "coveralls" : "npm run coverage && cat ./coverage/lcov.info | coveralls",
+        "prepublish" : "npm run lint && npm run test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.5",
+      "_npmUser" : {
+        "name" : "keyanzhang",
+        "email" : "root@keyanzhang.com"
+      },
+      "_id" : "identity-obj-proxy@2.0.0",
+      "gitHead" : "96bfc30cf06545289804372f6bce4070691750e8",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/identity-obj-proxy-2.0.0.tgz_1464564475978_0.7305952492170036"
+      },
+      "_shasum" : "3e69b32ad4d32ab1c5066456e7a59a781c57318c",
+      "jest" : {
+        "automock" : false,
+        "testPathDirs" : [ "<rootDir>/src" ]
+      },
+      "_nodeVersion" : "4.4.5"
+    },
+    "3.0.0" : {
+      "name" : "identity-obj-proxy",
+      "description" : "an identity object using ES6 proxies",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Keyan Zhang",
+        "email" : "root@keyanzhang.com",
+        "url" : "http://keya.nz"
+      },
+      "homepage" : "https://github.com/keyanzhang/identity-obj-proxy#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/keyanzhang/identity-obj-proxy.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/keyanzhang/identity-obj-proxy/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/identity-obj-proxy/-/identity-obj-proxy-3.0.0.tgz",
+        "shasum" : "94d2bda96084453ef36fbc5aaec37e0f79f1fc14"
+      },
+      "dependencies" : {
+        "harmony-reflect" : "^1.4.6"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.11.4",
+        "babel-jest" : "^14.1.0",
+        "babel-preset-es2015" : "^6.9.0",
+        "babel-preset-stage-0" : "^6.5.0",
+        "coveralls" : "^2.11.12",
+        "eslint" : "^3.2.2",
+        "eslint-config-airbnb-base" : "^5.0.1",
+        "eslint-plugin-import" : "^1.12.0",
+        "jest-cli" : "^14.1.0"
+      },
+      "keywords" : [ "proxy", "proxies", "identity", "jest", "mock" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "keyanzhang",
+        "email" : "root@keyanzhang.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src",
+        "test" : "node --harmony_proxies node_modules/.bin/jest",
+        "coverage" : "node --harmony_proxies node_modules/.bin/jest --coverage",
+        "coveralls" : "npm run coverage && cat ./coverage/lcov.info | coveralls",
+        "prepublish" : "npm run lint && npm run test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "keyanzhang",
+        "email" : "root@keyanzhang.com"
+      },
+      "_id" : "identity-obj-proxy@3.0.0",
+      "gitHead" : "4a4461f921802c76835b957776600f705d1e3351",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/identity-obj-proxy-3.0.0.tgz_1470207643186_0.03966312878765166"
+      },
+      "_shasum" : "94d2bda96084453ef36fbc5aaec37e0f79f1fc14",
+      "jest" : {
+        "automock" : false,
+        "testPathDirs" : [ "<rootDir>/src" ]
+      },
+      "_nodeVersion" : "6.3.0"
+    },
+    "1.0.0" : {
+      "name" : "identity-obj-proxy",
+      "description" : "an identity object using ES6 proxies",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Keyan Zhang",
+        "email" : "root@keyanzhang.com",
+        "url" : "http://keya.nz"
+      },
+      "homepage" : "https://github.com/keyanzhang/identity-obj-proxy#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/keyanzhang/identity-obj-proxy.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/keyanzhang/identity-obj-proxy/issues"
+      },
+      "engines" : {
+        "node" : ">=0.11"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/identity-obj-proxy/-/identity-obj-proxy-1.0.0.tgz",
+        "shasum" : "772729514231a528fbe6cb08a27633348e30fb2a"
+      },
+      "dependencies" : {
+        "harmony-reflect" : "^1.4.2"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.3.17",
+        "babel-core" : "^6.3.26",
+        "babel-eslint" : "^5.0.0-beta6",
+        "babel-preset-es2015" : "^6.3.13",
+        "eslint" : "^1.10.3",
+        "eslint-config-airbnb" : "^2.1.1",
+        "eslint-plugin-babel" : "^3.0.0",
+        "eslint-plugin-react" : "^3.13.0",
+        "expect" : "^1.13.4",
+        "mocha" : "^2.3.4",
+        "rimraf" : "^2.5.0"
+      },
+      "keywords" : [ "proxy", "proxies", "identity", "jest", "mock" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "keyanzhang",
+        "email" : "root@keyanzhang.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "rimraf build",
+        "lint" : "eslint src test",
+        "test" : "NODE_ENV=test mocha --harmony-proxies",
+        "test:watch" : "npm test -- --watch",
+        "build:babel" : "babel src --out-dir build",
+        "build" : "npm run clean && npm run lint && npm test && npm run build:babel",
+        "postinstall" : "npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "keyanzhang",
+        "email" : "root@keyanzhang.com"
+      },
+      "_id" : "identity-obj-proxy@1.0.0",
+      "gitHead" : "fa20a15b225f2c6750b317cfaa75020e173d816f",
+      "_shasum" : "772729514231a528fbe6cb08a27633348e30fb2a",
+      "_nodeVersion" : "0.12.7"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# identity-obj-proxy [![Build Status](https://img.shields.io/travis/keyanzhang/identity-obj-proxy.svg?style=flat-square)](https://travis-ci.org/keyanzhang/identity-obj-proxy) [![npm version](https://img.shields.io/npm/v/identity-obj-proxy.svg?style=flat-square)](https://www.npmjs.com/package/identity-obj-proxy) [![test coverage](https://img.shields.io/coveralls/keyanzhang/identity-obj-proxy/master.svg?style=flat-square)](https://coveralls.io/github/keyanzhang/identity-obj-proxy?branch=master)\nAn identity object using ES6 proxies. Useful for testing trivial webpack imports. For instance, you can tell Jest to mock this object as imported [CSS modules](https://github.com/css-modules/css-modules); then all your `className` lookups on the imported `styles` object will be returned as-is.\n\n```\nnpm install identity-obj-proxy\n```\n\n## Requirement\nNo flag is required for Node.js `v6.*`; use `node --harmony_proxies` flag for `v5.*` and `v4.*`.\n\n## Example\n``` javascript\nimport idObj from 'identity-obj-proxy';\nconsole.log(idObj.foo); // 'foo'\nconsole.log(idObj.bar); // 'bar'\nconsole.log(idObj[1]); // '1'\n```\n",
+  "maintainers" : [ {
+    "name" : "keyanzhang",
+    "email" : "root@keyanzhang.com"
+  } ],
+  "author" : {
+    "name" : "Keyan Zhang",
+    "email" : "root@keyanzhang.com",
+    "url" : "http://keya.nz"
+  },
+  "time" : {
+    "2.0.0" : "2016-05-29T23:27:56.623Z",
+    "3.0.0" : "2016-08-03T07:00:43.431Z",
+    "created" : "2015-12-26T08:31:13.306Z",
+    "modified" : "2017-06-03T02:29:04.074Z",
+    "1.0.0" : "2015-12-26T08:31:13.306Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/keyanzhang/identity-obj-proxy.git"
+  },
+  "users" : {
+    "tiendq" : true,
+    "josokinas" : true,
+    "alexxnica" : true,
+    "carly-lee" : true,
+    "kamui" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/keyanzhang/identity-obj-proxy#readme",
+  "keywords" : [ "proxy", "proxies", "identity", "jest", "mock" ],
+  "bugs" : {
+    "url" : "https://github.com/keyanzhang/identity-obj-proxy/issues"
+  },
+  "license" : "MIT"
+}

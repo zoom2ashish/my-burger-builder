@@ -1,0 +1,649 @@
+{
+  "_id" : "@jest/types",
+  "_rev" : "12-3800ba82025cae929a5e99bcf2d0183b",
+  "name" : "@jest/types",
+  "dist-tags" : {
+    "next" : "25.0.0",
+    "beta" : "24.2.0-alpha.0",
+    "latest" : "25.1.0"
+  },
+  "versions" : {
+    "25.0.0" : {
+      "name" : "@jest/types",
+      "version" : "25.0.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-25.0.0.tgz",
+        "shasum" : "fbd26aec433719fc4bf0f782c923e334ff6530c9"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-reports" : "^1.1.1",
+        "@types/yargs" : "^13.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/types@25.0.0",
+      "gitHead" : "ff9269be05fd8316e95232198fce3463bf2f270e",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_25.0.0_1566444224419_0.2239802656872263"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.6.0" : {
+      "name" : "@jest/types",
+      "version" : "24.6.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-24.6.0.tgz",
+        "shasum" : "cf018e56f3ef45e81119fd613fc20a9819f4eddd"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/yargs" : "^12.0.9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/types@24.6.0",
+      "gitHead" : "04e6a66d2ba8b18bee080bb28547db74a255d2c7",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_24.6.0_1554157576596_0.5048716264628086"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.7.0" : {
+      "name" : "@jest/types",
+      "version" : "24.7.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-24.7.0.tgz",
+        "shasum" : "c4ec8d1828cdf23234d9b4ee31f5482a3f04f48b"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/yargs" : "^12.0.9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/types@24.7.0",
+      "gitHead" : "eb0413622542bc0f70c32950d9daeeab9f6802ac",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_24.7.0_1554263712548_0.8474799012948884"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.8.0" : {
+      "name" : "@jest/types",
+      "version" : "24.8.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-24.8.0.tgz",
+        "shasum" : "f31e25948c58f0abd8c845ae26fcea1491dea7ad"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-reports" : "^1.1.1",
+        "@types/yargs" : "^12.0.9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "mjesun@hotmail.com",
+        "name" : "mjesun"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/types@24.8.0",
+      "gitHead" : "845728f24b3ef41e450595c384e9b5c9fdf248a4",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_24.8.0_1557021735083_0.5209489404034777"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "25.1.0" : {
+      "name" : "@jest/types",
+      "version" : "25.1.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 8.3"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-25.1.0.tgz",
+        "shasum" : "b26831916f0d7c381e11dbb5e103a72aed1b4395"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-reports" : "^1.1.1",
+        "@types/yargs" : "^15.0.0",
+        "chalk" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "davidzilburg@gmail.com",
+        "name" : "davidzilburg"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.20.2/node@v10.16.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "davidzilburg",
+        "email" : "davidzilburg@gmail.com"
+      },
+      "_id" : "@jest/types@25.1.0",
+      "gitHead" : "170eee11d03b0ed5c60077982fdbc3bafd403638",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_25.1.0_1579654784672_0.2158202359281549"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "24.9.0" : {
+      "name" : "@jest/types",
+      "version" : "24.9.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-24.9.0.tgz",
+        "shasum" : "63cb26cb7500d069e5a389441a7c6ab5e909fc59"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^2.0.0",
+        "@types/istanbul-reports" : "^1.1.1",
+        "@types/yargs" : "^13.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "aaron@abramov.io",
+        "name" : "aaronabramov"
+      }, {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "jean@lauliac.com",
+        "name" : "jeanlauliac"
+      }, {
+        "email" : "rubennorte@gmail.com",
+        "name" : "rubennorte"
+      }, {
+        "email" : "scott.hovestadt@gmail.com",
+        "name" : "scotthovestadt"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v11.12.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "scotthovestadt",
+        "email" : "scott.hovestadt@gmail.com"
+      },
+      "_id" : "@jest/types@24.9.0",
+      "gitHead" : "9ad0f4bc6b8bdd94989804226c28c9960d9da7d1",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_24.9.0_1565934946266_0.132747631553088"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "24.3.0" : {
+      "name" : "@jest/types",
+      "version" : "24.3.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-24.3.0.tgz",
+        "shasum" : "3f6e117e47248a9a6b5f1357ec645bd364f7ad23"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^1.1.0",
+        "@types/yargs" : "^12.0.9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/types@24.3.0",
+      "gitHead" : "3a7a4f3a3f5489ac8e07dcddf76bb949c482ec87",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_24.3.0_1551963571984_0.5964920725287659"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.2.0-alpha.0" : {
+      "name" : "@jest/types",
+      "version" : "24.2.0-alpha.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-24.2.0-alpha.0.tgz",
+        "shasum" : "360069c368c29cbfdd352e863742f2389bf97ca0"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^1.1.0",
+        "@types/yargs" : "^12.0.9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/types@24.2.0-alpha.0",
+      "gitHead" : "800f2f803d01c8ae194d71b251e4965dd70e5bf2",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_24.2.0-alpha.0_1551797188306_0.24485164256787462"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "24.5.0" : {
+      "name" : "@jest/types",
+      "version" : "24.5.0",
+      "homepage" : "https://github.com/facebook/jest#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/jest.git",
+        "directory" : "packages/jest-types"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/jest/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@jest/types/-/types-24.5.0.tgz",
+        "shasum" : "feee214a4d0167b0ca447284e95a57aa10b3ee95"
+      },
+      "dependencies" : {
+        "@types/istanbul-lib-coverage" : "^1.1.0",
+        "@types/yargs" : "^12.0.9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "aaronabramov",
+        "email" : "aaron@abramov.io"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "fb",
+        "email" : "opensource+npm@fb.com"
+      }, {
+        "name" : "jeanlauliac",
+        "email" : "jean@lauliac.com"
+      }, {
+        "name" : "mjesun",
+        "email" : "mjesun@hotmail.com"
+      }, {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v8.11.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "rubennorte",
+        "email" : "rubennorte@gmail.com"
+      },
+      "_id" : "@jest/types@24.5.0",
+      "gitHead" : "800533020f5b2f153615c821ed7cb12fd868fa6f",
+      "types" : "build/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/types_24.5.0_1552408580805_0.9672887484361055"
+      },
+      "_nodeVersion" : "8.11.3"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "maintainers" : [ {
+    "email" : "aaron@abramov.io",
+    "name" : "aaronabramov"
+  }, {
+    "email" : "christoph.pojer@gmail.com",
+    "name" : "cpojer"
+  }, {
+    "email" : "davidzilburg@gmail.com",
+    "name" : "davidzilburg"
+  }, {
+    "email" : "opensource+npm@fb.com",
+    "name" : "fb"
+  }, {
+    "email" : "rubennorte@gmail.com",
+    "name" : "rubennorte"
+  }, {
+    "email" : "scott.hovestadt@gmail.com",
+    "name" : "scotthovestadt"
+  } ],
+  "time" : {
+    "25.0.0" : "2019-08-22T03:23:44.599Z",
+    "created" : "2019-03-05T14:46:28.107Z",
+    "24.6.0" : "2019-04-01T22:26:16.841Z",
+    "modified" : "2020-01-22T00:59:52.232Z",
+    "24.7.0" : "2019-04-03T03:55:12.702Z",
+    "24.8.0" : "2019-05-05T02:02:15.301Z",
+    "25.1.0" : "2020-01-22T00:59:44.843Z",
+    "24.9.0" : "2019-08-16T05:55:46.400Z",
+    "24.3.0" : "2019-03-07T12:59:32.094Z",
+    "24.2.0-alpha.0" : "2019-03-05T14:46:28.429Z",
+    "24.5.0" : "2019-03-12T16:36:20.936Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/facebook/jest.git",
+    "directory" : "packages/jest-types"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/facebook/jest#readme",
+  "bugs" : {
+    "url" : "https://github.com/facebook/jest/issues"
+  },
+  "license" : "MIT"
+}

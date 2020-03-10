@@ -1,0 +1,342 @@
+{
+  "_id" : "next-tick",
+  "_rev" : "18-e1f1d8c92f80fa4917c4682136840e60",
+  "name" : "next-tick",
+  "description" : "Environment agnostic nextTick polyfill",
+  "dist-tags" : {
+    "latest" : "1.1.0"
+  },
+  "versions" : {
+    "0.2.2" : {
+      "name" : "next-tick",
+      "description" : "Environment agnostic nextTick polyfill",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Mariusz Nowak",
+        "email" : "medykk@medikoo.com",
+        "url" : "http://www.medikoo.com/"
+      },
+      "homepage" : "https://github.com/medikoo/next-tick",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/medikoo/next-tick.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/medikoo/next-tick/issues",
+        "email" : "medikoo+next-tick@medikoo.com"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/next-tick/-/next-tick-0.2.2.tgz",
+        "shasum" : "75da4a927ee5887e39065880065b7336413b310d"
+      },
+      "devDependencies" : {
+        "tad" : "~0.1.21"
+      },
+      "keywords" : [ "nexttick", "setImmediate", "setTimeout", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node node_modules/tad/bin/tad"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      },
+      "_id" : "next-tick@0.2.2"
+    },
+    "0.2.0" : {
+      "name" : "next-tick",
+      "description" : "Environment agnostic nextTick polyfill",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Mariusz Nowak",
+        "email" : "medykk@medikoo.com",
+        "url" : "http://www.medikoo.com/"
+      },
+      "homepage" : "https://github.com/medikoo/next-tick",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/medikoo/next-tick.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/medikoo/next-tick/issues",
+        "email" : "medikoo+next-tick@medikoo.com"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/next-tick/-/next-tick-0.2.0.tgz",
+        "shasum" : "820b2855de56cec3732bd574a9102df0640d3ec7"
+      },
+      "dependencies" : {
+        "es5-ext" : "~0.9.2"
+      },
+      "devDependencies" : {
+        "tad" : "~0.1.21"
+      },
+      "keywords" : [ "nexttick", "setImmediate", "setTimeout", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node node_modules/tad/bin/tad"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      },
+      "_id" : "next-tick@0.2.0"
+    },
+    "0.2.1" : {
+      "name" : "next-tick",
+      "description" : "Environment agnostic nextTick polyfill",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Mariusz Nowak",
+        "email" : "medykk@medikoo.com",
+        "url" : "http://www.medikoo.com/"
+      },
+      "homepage" : "https://github.com/medikoo/next-tick",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/medikoo/next-tick.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/medikoo/next-tick/issues",
+        "email" : "medikoo+next-tick@medikoo.com"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/next-tick/-/next-tick-0.2.1.tgz",
+        "shasum" : "eed3ee871fb86fe81d7f96cf4743a6ccb84f581a"
+      },
+      "dependencies" : {
+        "es5-ext" : "~0.9.2"
+      },
+      "devDependencies" : {
+        "tad" : "~0.1.21"
+      },
+      "keywords" : [ "nexttick", "setImmediate", "setTimeout", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node node_modules/tad/bin/tad"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      },
+      "_id" : "next-tick@0.2.1"
+    },
+    "1.0.0" : {
+      "name" : "next-tick",
+      "description" : "Environment agnostic nextTick polyfill",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Mariusz Nowak",
+        "email" : "medyk@medikoo.com",
+        "url" : "http://www.medikoo.com/"
+      },
+      "homepage" : "https://github.com/medikoo/next-tick#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/medikoo/next-tick.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/medikoo/next-tick/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/next-tick/-/next-tick-1.0.0.tgz",
+        "shasum" : "ca86d1fe8828169b0120208e3dc8424b9db8342c"
+      },
+      "devDependencies" : {
+        "tad" : "^0.2.4",
+        "xlint" : "^0.2.2",
+        "xlint-jslint-medikoo" : "^0.1.4"
+      },
+      "keywords" : [ "nexttick", "setImmediate", "setTimeout", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --no-cache --no-stream",
+        "lint-console" : "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
+        "test" : "node node_modules/tad/bin/tad"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.5",
+      "_npmUser" : {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      },
+      "_id" : "next-tick@1.0.0",
+      "gitHead" : "5b1c1d0ad81f3c494ca74db1cb8012c0f6a7e512",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/next-tick-1.0.0.tgz_1465503233826_0.9096911298111081"
+      },
+      "_shasum" : "ca86d1fe8828169b0120208e3dc8424b9db8342c",
+      "_nodeVersion" : "4.4.5"
+    },
+    "1.1.0" : {
+      "name" : "next-tick",
+      "description" : "Environment agnostic nextTick polyfill",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Mariusz Nowak",
+        "email" : "medyk@medikoo.com",
+        "url" : "http://www.medikoo.com/"
+      },
+      "homepage" : "https://github.com/medikoo/next-tick#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/medikoo/next-tick.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/medikoo/next-tick/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/next-tick/-/next-tick-1.1.0.tgz",
+        "shasum" : "1836ee30ad56d67ef281b22bd199f709449b35eb"
+      },
+      "devDependencies" : {
+        "tad" : "^3.0.1",
+        "xlint" : "^0.2.2",
+        "xlint-jslint-medikoo" : "^0.1.4"
+      },
+      "keywords" : [ "nexttick", "setImmediate", "setTimeout", "async" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --no-cache --no-stream",
+        "lint-console" : "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
+        "test" : "node node_modules/tad/bin/tad"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      },
+      "_id" : "next-tick@1.1.0",
+      "gitHead" : "ce6c733a67f82ea84ba8f30fc853217da80154e3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/next-tick_1.1.0_1581393794879_0.9569821817226247"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "0.1.0" : {
+      "name" : "next-tick",
+      "description" : "Cross environment nextTick polyfill",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Mariusz Nowak",
+        "email" : "medikoo+next-tick@medikoo.com",
+        "url" : "http://www.medikoo.com/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/medikoo/next-tick.git"
+      },
+      "bugs" : {
+        "email" : "medikoo+next-tick@medikoo.com",
+        "url" : "https://github.com/medikoo/next-tick/issues"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "lib/next-tick",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/next-tick/-/next-tick-0.1.0.tgz",
+        "shasum" : "1912cce8eb9b697d640fbba94f8f00dec3b94259"
+      },
+      "devDependencies" : {
+        "tad" : "0.1.x"
+      },
+      "keywords" : [ "nexttick", "setImmediate", "setTimeout", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "node node_modules/tad/bin/tad lib"
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "medikoo",
+        "email" : "medikoo+npm@medikoo.com"
+      },
+      "_id" : "next-tick@0.1.0"
+    }
+  },
+  "readme" : "# next-tick\n## Environment agnostic nextTick polyfill\n\nTo be used in environment agnostic modules that need nextTick functionality.\n\n- When run in Node.js `process.nextTick` is used\n- In modern engines, microtask resolution is guaranteed by `queueMicrotask`\n- In older browsers, `MutationObserver` is used as a fallback \n- In other engines `setImmediate` or `setTimeout(fn, 0)` is used as fallback.\n- If none of the above is supported module resolves to `null`\n\n## Installation\n### NPM\n\nIn your project path:\n\n\t$ npm install next-tick\n\n#### Browser\n\nTo port it to Browser or any other (non CJS) environment, use your favorite CJS bundler. No favorite yet? Try: [Browserify](http://browserify.org/), [Webmake](https://github.com/medikoo/modules-webmake) or [Webpack](http://webpack.github.io/)\n\n## Tests [![Build Status](https://api.travis-ci.org/medikoo/next-tick.png?branch=master)](https://travis-ci.org/medikoo/next-tick)\n\n\t$ npm test\n\n## Security contact information\n\nTo report a security vulnerability, please use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-next-tick?utm_source=npm-next-tick&utm_medium=referral&utm_campaign=readme\">Get professional support for d with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "name" : "medikoo",
+    "email" : "medikoo+npm@medikoo.com"
+  } ],
+  "author" : {
+    "name" : "Mariusz Nowak",
+    "email" : "medyk@medikoo.com",
+    "url" : "http://www.medikoo.com/"
+  },
+  "time" : {
+    "0.2.2" : "2014-04-18T16:24:29.209Z",
+    "created" : "2012-08-29T20:37:49.603Z",
+    "modified" : "2020-02-11T04:03:17.335Z",
+    "0.2.0" : "2014-02-24T16:21:07.746Z",
+    "0.2.1" : "2014-02-24T16:31:08.038Z",
+    "1.0.0" : "2016-06-09T20:13:56.167Z",
+    "1.1.0" : "2020-02-11T04:03:15.049Z",
+    "0.1.0" : "2012-08-29T20:37:51.133Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/medikoo/next-tick.git"
+  },
+  "users" : {
+    "bret" : true,
+    "antixrist" : true,
+    "julien-f" : true,
+    "erikvold" : true,
+    "xiechao06" : true,
+    "subchen" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/medikoo/next-tick#readme",
+  "keywords" : [ "nexttick", "setImmediate", "setTimeout", "async" ],
+  "bugs" : {
+    "url" : "https://github.com/medikoo/next-tick/issues"
+  },
+  "license" : "ISC"
+}

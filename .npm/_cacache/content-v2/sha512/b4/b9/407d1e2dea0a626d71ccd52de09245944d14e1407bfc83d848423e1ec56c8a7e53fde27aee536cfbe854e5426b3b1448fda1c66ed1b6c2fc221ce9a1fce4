@@ -1,0 +1,996 @@
+{
+  "_id" : "merge-deep",
+  "_rev" : "31-9c035f30fb1128d576120f8bb144848a",
+  "name" : "merge-deep",
+  "description" : "Recursively merge values in a javascript object.",
+  "dist-tags" : {
+    "latest" : "3.0.2"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-0.1.5.tgz",
+        "shasum" : "3ab66de37d13ac9a350ba9968e584d4484e03f6c"
+      },
+      "dependencies" : {
+        "array-slice" : "^0.2.2",
+        "clone-deep" : "^0.1.1",
+        "is-plain-object" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.0"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/merge-deep/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@0.1.5",
+      "gitHead" : "9e16df6c0bf35718bdf609dd6d4f91779af79c91",
+      "_shasum" : "3ab66de37d13ac9a350ba9968e584d4484e03f6c",
+      "_nodeVersion" : "0.12.0"
+    },
+    "2.0.0" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-2.0.0.tgz",
+        "shasum" : "7a6dbf34daac7f44bdd1b4001366b7f4fc329176"
+      },
+      "dependencies" : {
+        "clone-deep" : "^0.2.0",
+        "is-extendable" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "should" : "^6.0.3"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@2.0.0",
+      "gitHead" : "2d8bf5bd7c2cc9e95bb61ce64dd7c93d0fc458ed",
+      "_shasum" : "7a6dbf34daac7f44bdd1b4001366b7f4fc329176",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.0.1" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-2.0.1.tgz",
+        "shasum" : "b655428f2183212a989b9b884295d0d800f02adf"
+      },
+      "dependencies" : {
+        "clone-deep" : "^0.2.1",
+        "is-extendable" : "^0.1.1",
+        "lazy-cache" : "^0.2.3"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@2.0.1",
+      "gitHead" : "173efe8ee57f394dcda7abd1583db34cb78a47c2",
+      "_shasum" : "b655428f2183212a989b9b884295d0d800f02adf",
+      "_nodeVersion" : "0.12.4"
+    },
+    "0.1.3" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-0.1.3.tgz",
+        "shasum" : "a3422fb4cbf6d6e0252f670b3ced1a15a6095eab"
+      },
+      "dependencies" : {
+        "array-slice" : "^0.2.2",
+        "clone-deep" : "^0.1.0",
+        "is-plain-object" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "^4.0.4",
+        "verb" : ">= 0.2.6",
+        "verb-tag-jscomments" : ">= 0.2.0"
+      },
+      "keywords" : [ "array", "arrays", "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "javascript", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "regex", "regexp", "util", "utilities", "utility", "utils", "value", "values" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/merge-deep/blob/master/LICENSE-MIT"
+      } ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@0.1.3",
+      "_shasum" : "a3422fb4cbf6d6e0252f670b3ced1a15a6095eab"
+    },
+    "0.1.4" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-0.1.4.tgz",
+        "shasum" : "587c936c2e0193b175062659f8414c6d085a6c63"
+      },
+      "dependencies" : {
+        "array-slice" : "^0.2.2",
+        "clone-deep" : "^0.1.1",
+        "is-plain-object" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.0"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/merge-deep/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@0.1.4",
+      "gitHead" : "86ce8afe12754f37e4d32d1825d472f36b81a674",
+      "_shasum" : "587c936c2e0193b175062659f8414c6d085a6c63",
+      "_nodeVersion" : "0.12.0"
+    },
+    "0.1.2" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-0.1.2.tgz",
+        "shasum" : "8974cb710c627e081b52e8cbe9b964592162ceda"
+      },
+      "dependencies" : {
+        "clone-deep" : "^0.1.0",
+        "is-plain-object" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "^4.0.4",
+        "verb" : ">= 0.2.6",
+        "verb-tag-jscomments" : ">= 0.2.0"
+      },
+      "keywords" : [ "array", "arrays", "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "javascript", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "regex", "regexp", "util", "utilities", "utility", "utils", "value", "values" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/merge-deep/blob/master/LICENSE-MIT"
+      } ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@0.1.2",
+      "_shasum" : "8974cb710c627e081b52e8cbe9b964592162ceda"
+    },
+    "2.0.2" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-2.0.2.tgz",
+        "shasum" : "87e46a2d548821287e022ad577732f25410de977"
+      },
+      "dependencies" : {
+        "clone-deep" : "^0.2.4",
+        "is-extendable" : "^0.1.1",
+        "lazy-cache" : "^1.0.3"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "utils.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@2.0.2",
+      "gitHead" : "6195b9f8005b898d6f02360de4a7e8b309d00db8",
+      "verb" : {
+        "related" : {
+          "list" : [ "assign-deep", "defaults-deep", "extend-shallow", "merge-deep", "mixin-deep", "omit-deep" ]
+        },
+        "plugins" : [ "gulp-format-md" ]
+      },
+      "_shasum" : "87e46a2d548821287e022ad577732f25410de977",
+      "_nodeVersion" : "5.0.0"
+    },
+    "0.1.0" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-0.1.0.tgz",
+        "shasum" : "ee08ea8eb463f15a693e341c4c230d03e80fa6cd"
+      },
+      "dependencies" : {
+        "clone-deep" : "^0.1.0",
+        "is-plain-object" : "^0.1.0",
+        "isobject" : "^0.2.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "^4.0.4",
+        "verb" : ">= 0.2.6",
+        "verb-tag-jscomments" : ">= 0.2.0"
+      },
+      "keywords" : [ "array", "arrays", "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "javascript", "merge", "merge-deep", "object", "objects", "util", "utilities", "utility", "utils", "value" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/merge-deep/blob/master/LICENSE-MIT"
+      } ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@0.1.0",
+      "_shasum" : "ee08ea8eb463f15a693e341c4c230d03e80fa6cd"
+    },
+    "1.0.3" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonschlinkert/merge-deep"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-1.0.3.tgz",
+        "shasum" : "1d5be72ab56ede176a55c52158b94055851c9efa"
+      },
+      "dependencies" : {
+        "clone-deep" : "^0.1.1",
+        "is-plain-object" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "should" : "^6.0.3"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      },
+      "_id" : "merge-deep@1.0.3",
+      "gitHead" : "3a7a220b035b2bbb7a73555b07adeaa59c8a9e3a",
+      "_shasum" : "1d5be72ab56ede176a55c52158b94055851c9efa",
+      "_nodeVersion" : "0.12.0"
+    },
+    "3.0.0" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-3.0.0.tgz",
+        "shasum" : "cc9129ded79dca65a95144af3e98e94d2ad7a317"
+      },
+      "dependencies" : {
+        "arr-union" : "^3.1.0",
+        "clone-deep" : "^0.2.4",
+        "kind-of" : "^3.0.2",
+        "lazy-cache" : "^1.0.3"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.7",
+        "mocha" : "^2.4.5"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "utils.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@3.0.0",
+      "gitHead" : "7be7e50163dc4ef467ace5371186a77028a66cc9",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assign-deep", "defaults-deep", "extend-shallow", "merge-deep", "mixin-deep", "omit-deep" ]
+        },
+        "reflinks" : [ "verb" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/merge-deep-3.0.0.tgz_1460553822383_0.8398850641679019"
+      },
+      "_shasum" : "cc9129ded79dca65a95144af3e98e94d2ad7a317",
+      "_nodeVersion" : "5.5.0"
+    },
+    "3.0.1" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-3.0.1.tgz",
+        "shasum" : "75ee9a3d9c5dbb2f74e3a40d0d2bfefa36b6187b"
+      },
+      "dependencies" : {
+        "arr-union" : "^3.1.0",
+        "clone-deep" : "^0.2.4",
+        "kind-of" : "^3.0.2",
+        "lazy-cache" : "^1.0.3"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.7",
+        "mocha" : "^2.4.5"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "utils.js" ],
+      "maintainers" : [ {
+        "email" : "brian.woodward@gmail.com",
+        "name" : "doowb"
+      }, {
+        "email" : "github@sellside.com",
+        "name" : "jonschlinkert"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      },
+      "_id" : "merge-deep@3.0.1",
+      "gitHead" : "209ed07aec07e87f1f7cda828056e5283f2df7e0",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assign-deep", "defaults-deep", "extend-shallow", "merge-deep", "mixin-deep", "omit-deep" ]
+        },
+        "reflinks" : [ "verb" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/merge-deep_3.0.1_1518021852349_0.5051057915898678"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.0.0" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-1.0.0.tgz",
+        "shasum" : "a23b248669df39b0c3f3aa43acd09354c718f8fe"
+      },
+      "dependencies" : {
+        "array-slice" : "^0.2.2",
+        "clone-deep" : "^0.1.1",
+        "is-plain-object" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.0"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/merge-deep/blob/master/LICENSE"
+      },
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@1.0.0",
+      "gitHead" : "a02b531f5ce92164a9bb9cc8f67bebd3036b1bb6",
+      "_shasum" : "a23b248669df39b0c3f3aa43acd09354c718f8fe",
+      "_nodeVersion" : "0.12.0"
+    },
+    "3.0.2" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-3.0.2.tgz",
+        "shasum" : "f39fa100a4f1bd34ff29f7d2bf4508fbb8d83ad2"
+      },
+      "dependencies" : {
+        "arr-union" : "^3.1.0",
+        "clone-deep" : "^0.2.4",
+        "kind-of" : "^3.0.2"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.7",
+        "mocha" : "^2.4.5"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "brian.woodward@gmail.com",
+        "name" : "doowb"
+      }, {
+        "email" : "github@sellside.com",
+        "name" : "jonschlinkert"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@3.0.2",
+      "gitHead" : "12cbc0b9437f9d72e1003df173bb30a001d51df9",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "assign-deep", "defaults-deep", "extend-shallow", "merge-deep", "mixin-deep", "omit-deep" ]
+        },
+        "reflinks" : [ "verb" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/merge-deep_3.0.2_1531315957059_0.5315114738633913"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "1.0.1" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/merge-deep.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-1.0.1.tgz",
+        "shasum" : "09eb574596964c464428ddc187dca7c70b6e52e9"
+      },
+      "dependencies" : {
+        "clone-deep" : "^0.1.1",
+        "is-plain-object" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.0"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/merge-deep/blob/master/LICENSE"
+      },
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@1.0.1",
+      "gitHead" : "a02b531f5ce92164a9bb9cc8f67bebd3036b1bb6",
+      "_shasum" : "09eb574596964c464428ddc187dca7c70b6e52e9",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.0.2" : {
+      "name" : "merge-deep",
+      "description" : "Recursively merge values in a javascript object.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/merge-deep",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonschlinkert/merge-deep"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-deep/-/merge-deep-1.0.2.tgz",
+        "shasum" : "35aeb8f87d67d460da2b2477b8e768bb45bdf018"
+      },
+      "dependencies" : {
+        "clone-deep" : "^0.1.1",
+        "is-plain-object" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "should" : "^6.0.3"
+      },
+      "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "merge-deep@1.0.2",
+      "gitHead" : "dfb6df1e219acd736efdcb508334bf8e9ba35f6e",
+      "_shasum" : "35aeb8f87d67d460da2b2477b8e768bb45bdf018",
+      "_nodeVersion" : "0.12.0"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# merge-deep [![NPM version](https://img.shields.io/npm/v/merge-deep.svg?style=flat)](https://www.npmjs.com/package/merge-deep) [![NPM monthly downloads](https://img.shields.io/npm/dm/merge-deep.svg?style=flat)](https://npmjs.org/package/merge-deep) [![NPM total downloads](https://img.shields.io/npm/dt/merge-deep.svg?style=flat)](https://npmjs.org/package/merge-deep) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/merge-deep.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/merge-deep)\n\n> Recursively merge values in a javascript object.\n\nPlease consider following this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), and consider starring the project to show your :heart: and support.\n\n## Install\n\nInstall with [npm](https://www.npmjs.com/):\n\n```sh\n$ npm install --save merge-deep\n```\n\nBased on [mout's](https://github.com/mout/mout) implementation of merge\n\n## Usage\n\n```js\nvar merge = require('merge-deep');\n\nmerge({a: {b: {c: 'c', d: 'd'}}}, {a: {b: {e: 'e', f: 'f'}}});\n//=> { a: { b: { c: 'c', d: 'd', e: 'e', f: 'f' } } }\n```\n\n## About\n\n<details>\n<summary><strong>Contributing</strong></summary>\n\nPull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).\n\n</details>\n\n<details>\n<summary><strong>Running Tests</strong></summary>\n\nRunning and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:\n\n```sh\n$ npm install && npm test\n```\n\n</details>\n\n<details>\n<summary><strong>Building docs</strong></summary>\n\n_(This project's readme.md is generated by [verb](https://github.com/verbose/verb-generate-readme), please don't edit the readme directly. Any changes to the readme must be made in the [.verb.md](.verb.md) readme template.)_\n\nTo generate the readme, run the following command:\n\n```sh\n$ npm install -g verbose/verb#dev verb-generate-readme && verb\n```\n\n</details>\n\n### Related projects\n\nYou might also be interested in these projects:\n\n* [assign-deep](https://www.npmjs.com/package/assign-deep): Deeply assign the enumerable properties and/or es6 Symbol properies of source objects to the target… [more](https://github.com/jonschlinkert/assign-deep) | [homepage](https://github.com/jonschlinkert/assign-deep)\n* [defaults-deep](https://www.npmjs.com/package/defaults-deep): Like `extend` but recursively copies only the missing properties/values to the target object. | [homepage](https://github.com/jonschlinkert/defaults-deep)\n* [extend-shallow](https://www.npmjs.com/package/extend-shallow): Extend an object with the properties of additional objects. node.js/javascript util. | [homepage](https://github.com/jonschlinkert/extend-shallow)\n* [merge-deep](https://www.npmjs.com/package/merge-deep): Recursively merge values in a javascript object. | [homepage](https://github.com/jonschlinkert/merge-deep)\n* [mixin-deep](https://www.npmjs.com/package/mixin-deep): Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. | [homepage](https://github.com/jonschlinkert/mixin-deep)\n* [omit-deep](https://www.npmjs.com/package/omit-deep): Recursively omit the specified key or keys from an object. | [homepage](https://github.com/jonschlinkert/omit-deep)\n\n### Contributors\n\n| **Commits** | **Contributor** |  \n| --- | --- |  \n| 29 | [jonschlinkert](https://github.com/jonschlinkert) |  \n| 4  | [doowb](https://github.com/doowb) |\n\n### Author\n\n**Jon Schlinkert**\n\n* [LinkedIn Profile](https://linkedin.com/in/jonschlinkert)\n* [GitHub Profile](https://github.com/jonschlinkert)\n* [Twitter Profile](https://twitter.com/jonschlinkert)\n\n### License\n\nCopyright © 2018, [Jon Schlinkert](https://github.com/jonschlinkert).\nReleased under the [MIT License](LICENSE).\n\n***\n\n_This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.6.0, on July 11, 2018._",
+  "maintainers" : [ {
+    "email" : "brian.woodward@gmail.com",
+    "name" : "doowb"
+  }, {
+    "email" : "github@sellside.com",
+    "name" : "jonschlinkert"
+  } ],
+  "author" : {
+    "name" : "Jon Schlinkert",
+    "url" : "https://github.com/jonschlinkert"
+  },
+  "time" : {
+    "0.1.5" : "2015-02-19T09:38:28.930Z",
+    "2.0.0" : "2015-06-29T08:26:32.950Z",
+    "2.0.1" : "2015-08-21T06:22:00.044Z",
+    "0.1.3" : "2014-11-04T16:23:12.216Z",
+    "0.1.4" : "2015-02-19T09:36:23.867Z",
+    "created" : "2014-10-03T01:18:22.990Z",
+    "0.1.2" : "2014-10-08T00:15:50.297Z",
+    "2.0.2" : "2015-12-23T18:57:48.352Z",
+    "0.1.0" : "2014-10-03T01:18:22.990Z",
+    "1.0.3" : "2015-06-13T00:10:40.070Z",
+    "3.0.0" : "2016-04-13T13:23:44.064Z",
+    "modified" : "2018-07-11T13:32:39.587Z",
+    "3.0.1" : "2018-02-07T16:44:13.060Z",
+    "1.0.0" : "2015-02-25T11:25:45.513Z",
+    "3.0.2" : "2018-07-11T13:32:37.139Z",
+    "1.0.1" : "2015-02-25T11:27:00.298Z",
+    "1.0.2" : "2015-05-28T07:46:44.746Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jonschlinkert/merge-deep.git"
+  },
+  "users" : {
+    "hugov" : true,
+    "adius" : true,
+    "shanewholloway" : true,
+    "jonschlinkert" : true,
+    "cronfy" : true,
+    "coldasice83" : true,
+    "zason" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jonschlinkert/merge-deep",
+  "keywords" : [ "clone", "clone-deep", "copy", "deep", "deep-clone", "deep-merge", "extend", "key", "keys", "merge", "merge-deep", "object", "objects", "prop", "properties", "property", "props", "value", "values" ],
+  "bugs" : {
+    "url" : "https://github.com/jonschlinkert/merge-deep/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,606 @@
+{
+  "_id" : "@hapi/address",
+  "_rev" : "16-b81b26edd0fb310e522f186c56645bf9",
+  "name" : "@hapi/address",
+  "description" : "Email address and domain validation",
+  "dist-tags" : {
+    "lts" : "2.1.4",
+    "latest" : "4.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "2.0.0",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-2.0.0.tgz",
+        "shasum" : "9f05469c88cb2fd3dcd624776b54ee95c312126a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "code" : "5.x.x",
+        "lab" : "18.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      }, {
+        "name" : "nlf",
+        "email" : "quitlahok@gmail.com"
+      }, {
+        "name" : "marsup",
+        "email" : "nicolas@morel.io"
+      }, {
+        "name" : "wyatt",
+        "email" : "wpreul@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a code -t 100 -L",
+        "test-cov-html" : "lab -a code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@2.0.0",
+      "gitHead" : "ec4caba8e0d453436d5d5e1a801c16c3f14c24b9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_2.0.0_1553454011103_0.4364178519439146"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "2.1.0" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "2.1.0",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-2.1.0.tgz",
+        "shasum" : "d86223d40c73942cc6151838d9f264997e6673f9"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@hapi/code" : "6.x.x",
+        "@hapi/lab" : "20.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.11.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@2.1.0",
+      "gitHead" : "b06024faa7e489526b04fca23ea9095cb71425db",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_2.1.0_1567518026107_0.6652055868365394"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "4.0.0" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "4.0.0",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-4.0.0.tgz",
+        "shasum" : "36affb4509b5a6adc628bcc394450f2a7d51d111"
+      },
+      "dependencies" : {
+        "@hapi/hoek" : "^9.0.0"
+      },
+      "devDependencies" : {
+        "@hapi/code" : "8.x.x",
+        "@hapi/lab" : "22.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L -Y",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@4.0.0",
+      "gitHead" : "2844b060ee67a231d7e01f717b438c98775154da",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_4.0.0_1578127643043_0.8319112514727318"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "3.1.0" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "3.1.0",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-3.1.0.tgz",
+        "shasum" : "bf13ea61cac37bfa12542af501b5ccd389d1a37d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@hapi/code" : "7.x.x",
+        "@hapi/lab" : "21.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L -Y",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@3.1.0",
+      "gitHead" : "4f685578b1372d1cc2e0b2e6d93612bed7aeb583",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_3.1.0_1571200681256_0.9730723746501586"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "2.1.3" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "2.1.3",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-2.1.3.tgz",
+        "shasum" : "fd03ebec63f7b7e1704a364d96f20cd300b98e2f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@hapi/code" : "6.x.x",
+        "@hapi/lab" : "20.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@2.1.3",
+      "gitHead" : "13a3d645ed34af911d93a64def0168fe02477be4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_2.1.3_1573970242818_0.2453979845564329"
+      },
+      "readme" : "<a href=\"https://hapi.dev\"><img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/family.png\" width=\"180px\" align=\"right\" /></a>\n\n# @hapi/address\n\n#### Validate email address and domain.\n\n**address** is part of the **hapi** ecosystem and was designed to work seamlessly with the [hapi web framework](https://hapi.dev) and its other components (but works great on its own or with other frameworks). If you are using a different web framework and find this module useful, check out [hapi](https://hapi.dev) � they work even better together.\n\n### Visit the [hapi.dev](https://hapi.dev) Developer Portal for tutorials, documentation, and support\n\n## Useful resources\n\n- [Documentation and API](https://hapi.dev/family/address/)\n- [Versions status](https://hapi.dev/resources/status/#address)\n- [Project policies](https://hapi.dev/policies/)\n- [Free and commercial support options](https://hapi.dev/support/)",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "3.2.0" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "3.2.0",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-3.2.0.tgz",
+        "shasum" : "12ea4c053319c33866a8a28f7fbc38b58d5901b2"
+      },
+      "dependencies" : {
+        "@hapi/hoek" : "^8.4.0"
+      },
+      "devDependencies" : {
+        "@hapi/code" : "7.x.x",
+        "@hapi/lab" : "21.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L -Y",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@3.2.0",
+      "gitHead" : "82257ba459f62908ec62ace46977f07af73fe530",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_3.2.0_1572478517742_0.5037281613009126"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "2.1.4" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "2.1.4",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-2.1.4.tgz",
+        "shasum" : "5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@hapi/code" : "6.x.x",
+        "@hapi/lab" : "20.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@2.1.4",
+      "gitHead" : "d517d83653096272db47a0dfad9ecfd43d53924c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_2.1.4_1573976803234_0.808161933141534"
+      },
+      "readme" : "<a href=\"https://hapi.dev\"><img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/family.png\" width=\"180px\" align=\"right\" /></a>\n\n# @hapi/address\n\n#### Validate email address and domain.\n\n**address** is part of the **hapi** ecosystem and was designed to work seamlessly with the [hapi web framework](https://hapi.dev) and its other components (but works great on its own or with other frameworks). If you are using a different web framework and find this module useful, check out [hapi](https://hapi.dev) � they work even better together.\n\n### Visit the [hapi.dev](https://hapi.dev) Developer Portal for tutorials, documentation, and support\n\n## Useful resources\n\n- [Documentation and API](https://hapi.dev/family/address/)\n- [Versions status](https://hapi.dev/resources/status/#address)\n- [Project policies](https://hapi.dev/policies/)\n- [Free and commercial support options](https://hapi.dev/support/)",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "2.1.1" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "2.1.1",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-2.1.1.tgz",
+        "shasum" : "61395b5ed94c4cb19c2dc4c85969cff3d40d583f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@hapi/code" : "6.x.x",
+        "@hapi/lab" : "20.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.11.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@2.1.1",
+      "gitHead" : "2197a6c2498ee6ae470542de80d2ec700f0274da",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_2.1.1_1567675346516_0.6808178722514049"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "3.2.1" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "3.2.1",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-3.2.1.tgz",
+        "shasum" : "75dce4fba5d50dbed92eb023dbe0931fcc0e270a"
+      },
+      "dependencies" : {
+        "@hapi/hoek" : "^8.4.0"
+      },
+      "devDependencies" : {
+        "@hapi/code" : "7.x.x",
+        "@hapi/lab" : "21.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L -Y",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@3.2.1",
+      "gitHead" : "a1b1fe571fe7d54fe6ebbf7ab5a09f45f820518b",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_3.2.1_1573969779270_0.03835870191641799"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "2.1.2" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "2.1.2",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-2.1.2.tgz",
+        "shasum" : "1c794cd6dbf2354d1eb1ef10e0303f573e1c7222"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@hapi/code" : "6.x.x",
+        "@hapi/lab" : "20.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@2.1.2",
+      "gitHead" : "a0617c0abb59f6639f895dda8875a4bf44d34807",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_2.1.2_1569015820036_0.6742326238958603"
+      },
+      "_nodeVersion" : "12.9.1"
+    },
+    "3.2.2" : {
+      "name" : "@hapi/address",
+      "description" : "Email address and domain validation",
+      "version" : "3.2.2",
+      "homepage" : "https://github.com/hapijs/address#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/hapijs/address.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/hapijs/address/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@hapi/address/-/address-3.2.2.tgz",
+        "shasum" : "b3511e4af42553be0957a2b93f8018526cc0c8ca"
+      },
+      "dependencies" : {
+        "@hapi/hoek" : "^8.4.0"
+      },
+      "devDependencies" : {
+        "@hapi/code" : "7.x.x",
+        "@hapi/lab" : "21.x.x"
+      },
+      "keywords" : [ "email", "domain", "address", "validation" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "eran@hammer.io",
+        "name" : "hueniverse"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "lab -a @hapi/code -t 100 -L -Y",
+        "test-cov-html" : "lab -a @hapi/code -t 100 -L -r html -o coverage.html"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "hueniverse",
+        "email" : "eran@hammer.io"
+      },
+      "_id" : "@hapi/address@3.2.2",
+      "gitHead" : "f09c00684f7258cc35956434c3cd5e3e32cd5e42",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/address_3.2.2_1573976653551_0.3981312971864859"
+      },
+      "_nodeVersion" : "10.16.3"
+    }
+  },
+  "readme" : "<a href=\"https://hapi.dev\"><img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/family.png\" width=\"180px\" align=\"right\" /></a>\n\n# @hapi/address\n\n#### Validate email address and domain.\n\n**address** is part of the **hapi** ecosystem and was designed to work seamlessly with the [hapi web framework](https://hapi.dev) and its other components (but works great on its own or with other frameworks). If you are using a different web framework and find this module useful, check out [hapi](https://hapi.dev) � they work even better together.\n\n### Visit the [hapi.dev](https://hapi.dev) Developer Portal for tutorials, documentation, and support\n\n## Useful resources\n\n- [Documentation and API](https://hapi.dev/family/address/)\n- [Versions status](https://hapi.dev/resources/status/#address)\n- [Changelog](https://hapi.dev/family/address/changelog/)\n- [Project policies](https://hapi.dev/policies/)\n- [Free and commercial support options](https://hapi.dev/support/)\n",
+  "maintainers" : [ {
+    "email" : "eran@hammer.io",
+    "name" : "hueniverse"
+  } ],
+  "time" : {
+    "2.0.0" : "2019-03-24T19:00:11.370Z",
+    "2.1.0" : "2019-09-03T13:40:26.751Z",
+    "created" : "2019-03-24T19:00:10.969Z",
+    "4.0.0" : "2020-01-04T08:47:23.244Z",
+    "2.1.3" : "2019-11-17T05:57:23.006Z",
+    "2.1.4" : "2019-11-17T07:46:43.373Z",
+    "2.1.1" : "2019-09-05T09:22:26.667Z",
+    "2.1.2" : "2019-09-20T21:43:40.271Z",
+    "modified" : "2020-01-04T08:47:25.665Z",
+    "3.1.0" : "2019-10-16T04:38:01.461Z",
+    "3.2.0" : "2019-10-30T23:35:18.026Z",
+    "3.2.1" : "2019-11-17T05:49:39.394Z",
+    "3.2.2" : "2019-11-17T07:44:13.694Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/hapijs/address.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/hapijs/address#readme",
+  "keywords" : [ "email", "domain", "address", "validation" ],
+  "bugs" : {
+    "url" : "https://github.com/hapijs/address/issues"
+  },
+  "license" : "BSD-3-Clause"
+}

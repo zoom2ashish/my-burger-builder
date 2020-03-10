@@ -1,0 +1,252 @@
+{
+  "_id" : "os-tmpdir",
+  "_rev" : "6-c4ded03eb6d8bec1f3f0d2e3d52206b7",
+  "name" : "os-tmpdir",
+  "description" : "Node.js os.tmpdir() ponyfill",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "os-tmpdir",
+      "description" : "Node.js os.tmpdir() ponyfill",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/os-tmpdir#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/os-tmpdir.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/os-tmpdir/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/os-tmpdir/-/os-tmpdir-2.0.0.tgz",
+        "shasum" : "610a70c5c2a986d5fef3830c429a837c4c4b2968"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "built-in", "core", "ponyfill", "polyfill", "shim", "os", "tmpdir", "tempdir", "tmp", "temp", "dir", "directory", "env", "environment" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "os-tmpdir@2.0.0",
+      "gitHead" : "8e6b12fd39910ca62c642b4f2ba458defb91dbfa",
+      "deprecated" : "This is not needed anymore. `require('os').tmpdir()` in Node.js 4 and up is good.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/os-tmpdir_2.0.0_1541675655412_0.8308333488963193"
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.0.0" : {
+      "name" : "os-tmpdir",
+      "description" : "Node.js os.tmpdir() ponyfill",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/os-tmpdir#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/os-tmpdir.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/os-tmpdir/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/os-tmpdir/-/os-tmpdir-1.0.0.tgz",
+        "shasum" : "698cf46067e8843fb930eb600cbf80a6c1b92066"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "built-in", "core", "ponyfill", "polyfill", "shim", "os", "tmpdir", "tempdir", "tmp", "temp", "dir", "directory", "env", "environment" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "os-tmpdir@1.0.0",
+      "gitHead" : "0cba129ac9a79ecd7c2f18786a41ab228ac37c6d",
+      "_shasum" : "698cf46067e8843fb930eb600cbf80a6c1b92066",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.0.1" : {
+      "name" : "os-tmpdir",
+      "description" : "Node.js os.tmpdir() ponyfill",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/os-tmpdir",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/os-tmpdir"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/os-tmpdir/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/os-tmpdir/-/os-tmpdir-1.0.1.tgz",
+        "shasum" : "e9b423a1edaf479882562e92ed71d7743a071b6e"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "built-in", "core", "ponyfill", "polyfill", "shim", "os", "tmpdir", "tempdir", "tmp", "temp", "dir", "directory", "env", "environment" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "os-tmpdir@1.0.1",
+      "gitHead" : "5c5d355f81378980db629d60128ad03e02b1c1e5",
+      "_shasum" : "e9b423a1edaf479882562e92ed71d7743a071b6e",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.0.2" : {
+      "name" : "os-tmpdir",
+      "description" : "Node.js os.tmpdir() ponyfill",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/os-tmpdir#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/os-tmpdir.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/os-tmpdir/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/os-tmpdir/-/os-tmpdir-1.0.2.tgz",
+        "shasum" : "bbe67406c79aa85c5cfec766fe5734555dfa1274"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "built-in", "core", "ponyfill", "polyfill", "shim", "os", "tmpdir", "tempdir", "tmp", "temp", "dir", "directory", "env", "environment" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "os-tmpdir@1.0.2",
+      "gitHead" : "1abf9cf5611b4be7377060ea67054b45cbf6813c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/os-tmpdir-1.0.2.tgz_1475211274587_0.14931037812493742"
+      },
+      "_shasum" : "bbe67406c79aa85c5cfec766fe5734555dfa1274",
+      "_nodeVersion" : "6.6.0"
+    }
+  },
+  "readme" : "**Deprecated:** This is not needed anymore. `require('os').tmpdir()` in Node.js 4 and up is good.\n\n---\n\n# os-tmpdir [![Build Status](https://travis-ci.org/sindresorhus/os-tmpdir.svg?branch=master)](https://travis-ci.org/sindresorhus/os-tmpdir)\n\n> Node.js [`os.tmpdir()`](https://nodejs.org/api/os.html#os_os_tmpdir) [ponyfill](https://ponyfill.com)\n\nUse this instead of `require('os').tmpdir()` to get a consistent behavior on different Node.js versions (even 0.8).\n\n\n## Install\n\n```\n$ npm install --save os-tmpdir\n```\n\n\n## Usage\n\n```js\nconst osTmpdir = require('os-tmpdir');\n\nosTmpdir();\n//=> '/var/folders/m3/5574nnhn0yj488ccryqr7tc80000gn/T'\n```\n\n\n## API\n\nSee the [`os.tmpdir()` docs](https://nodejs.org/api/os.html#os_os_tmpdir).\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-11-08T11:14:15.596Z",
+    "created" : "2015-05-07T19:12:57.265Z",
+    "modified" : "2019-01-05T01:42:02.561Z",
+    "1.0.0" : "2015-05-07T19:12:57.265Z",
+    "1.0.1" : "2015-05-16T00:01:21.701Z",
+    "1.0.2" : "2016-09-30T04:54:34.812Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/os-tmpdir.git"
+  },
+  "users" : {
+    "jacopkane" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/os-tmpdir#readme",
+  "keywords" : [ "built-in", "core", "ponyfill", "polyfill", "shim", "os", "tmpdir", "tempdir", "tmp", "temp", "dir", "directory", "env", "environment" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/os-tmpdir/issues"
+  },
+  "license" : "MIT"
+}

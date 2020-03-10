@@ -1,0 +1,3814 @@
+{
+  "_id" : "workbox-google-analytics",
+  "_rev" : "64-7674ce4bd899a05be38ed347b864fd80",
+  "name" : "workbox-google-analytics",
+  "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+  "dist-tags" : {
+    "next" : "5.0.0-rc.2",
+    "latest" : "5.0.0"
+  },
+  "versions" : {
+    "4.1.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.1.1.tgz",
+        "shasum" : "e3901d9edc00ce269db1a86aef8d2e12b3fca222"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.1.1",
+        "workbox-core" : "^4.1.1",
+        "workbox-routing" : "^4.1.1",
+        "workbox-strategies" : "^4.1.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.1.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.1.1",
+      "gitHead" : "fb837ca0bd15bdc8f4e5563ee28957dc266c31f6",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.1.1_1552686653397_0.9023894907505168"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.3.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.3.0.tgz",
+        "shasum" : "ef47cb9fe959bfbc16bd123210ff88891c4afeeb"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.3.0",
+        "workbox-core" : "^4.3.0",
+        "workbox-routing" : "^4.3.0",
+        "workbox-strategies" : "^4.3.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.3.0.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@4.3.0",
+      "gitHead" : "7c873eb2b7e4530fb554c41d9c425c5167e45de7",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.3.0_1555357767270_0.668821441575824"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "11.14.0"
+    },
+    "4.1.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.1.0.tgz",
+        "shasum" : "082c90b559738b707ff4b07d7766e7b6835148dc"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.1.0",
+        "workbox-core" : "^4.1.0",
+        "workbox-routing" : "^4.1.0",
+        "workbox-strategies" : "^4.1.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.1.0.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.1.0",
+      "gitHead" : "6fd1909f69406b7dd5edf3ac6bad3da0ba1e638d",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.1.0_1551984806375_0.33457982584928647"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "0.0.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v0.0.2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-0.0.2.tgz",
+        "shasum" : "4ab7bfb40a79b53458146db5b733a40a87749ed2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@0.0.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/workbox-google-analytics-0.0.2.tgz_1494877326294_0.9470809316262603"
+      },
+      "_shasum" : "4ab7bfb40a79b53458146db5b733a40a87749ed2",
+      "_nodeVersion" : "7.9.0"
+    },
+    "0.0.3" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v0.0.3.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-0.0.3.tgz",
+        "shasum" : "91a0f682813e7c0725d7358c446c8ce7a39a3370"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.5",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@0.0.3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/workbox-google-analytics-0.0.3.tgz_1495054642162_0.887987193884328"
+      },
+      "_shasum" : "91a0f682813e7c0725d7358c446c8ce7a39a3370",
+      "_nodeVersion" : "7.4.0"
+    },
+    "4.3.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.3.1.tgz",
+        "shasum" : "9eda0183b103890b5c256e6f4ea15a1f1548519a"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.3.1",
+        "workbox-core" : "^4.3.1",
+        "workbox-routing" : "^4.3.1",
+        "workbox-strategies" : "^4.3.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.3.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.3.1",
+      "gitHead" : "194cdeb63d5abb21490f88f01f02f4bcf7e6d54b",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.3.1_1556733238579_0.05698880924162175"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.0.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v0.0.1.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-0.0.1.tgz",
+        "shasum" : "9b0b8e706c9f16662f3c92e268b62955b3ba9cbb"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@0.0.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/workbox-google-analytics-0.0.1.tgz_1494608865669_0.3152270521968603"
+      },
+      "_shasum" : "9b0b8e706c9f16662f3c92e268b62955b3ba9cbb",
+      "_nodeVersion" : "7.10.0"
+    },
+    "4.0.0-beta.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-beta.0.tgz",
+        "shasum" : "afdd40b2854e63ee54bcbd25d9c509b32a3bdfcb"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-beta.0",
+        "workbox-core" : "^4.0.0-beta.0",
+        "workbox-routing" : "^4.0.0-beta.0",
+        "workbox-strategies" : "^4.0.0-beta.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-beta.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-beta.0",
+      "gitHead" : "bc90cc4bdb1f8ad435564aa84b0c90acfac611e2",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-beta.0_1541529651720_0.03022429191609466"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.5.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.5.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.5.0.tgz",
+        "shasum" : "fb4af515ecd207054370beae2917b08c7e9175dc"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.5.0",
+        "workbox-core" : "^3.5.0",
+        "workbox-routing" : "^3.5.0",
+        "workbox-strategies" : "^3.5.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.5.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.5.0_1536677748527_0.8662116660061845"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0-beta.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-beta.1.tgz",
+        "shasum" : "daac4df714afda7b38e82b75c7c12c638582a4a4"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-beta.1",
+        "workbox-core" : "^4.0.0-beta.1",
+        "workbox-routing" : "^4.0.0-beta.1",
+        "workbox-strategies" : "^4.0.0-beta.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-beta.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-beta.1",
+      "gitHead" : "dda07c48e184f57ce5dfe3b3e93af316989a0877",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-beta.1_1547582141968_0.744200242985853"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-beta.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-beta.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-beta.2.tgz",
+        "shasum" : "1bfd92ad50035da9979cc30198f5899da1f9403f"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-beta.2",
+        "workbox-core" : "^4.0.0-beta.2",
+        "workbox-routing" : "^4.0.0-beta.2",
+        "workbox-strategies" : "^4.0.0-beta.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-beta.2.tgz",
+      "_npmVersion" : "6.6.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-beta.2",
+      "gitHead" : "a0baa6ac838e1bff9a140ccbe2e78551d9605466",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-beta.2_1548798977544_0.7609710626314736"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "8.15.0"
+    },
+    "3.1.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.1.0.tgz",
+        "shasum" : "ce7acd4e56b71ae425708717fe2e8d217b7b5750"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.1.0",
+        "workbox-core" : "^3.1.0",
+        "workbox-routing" : "^3.1.0",
+        "workbox-strategies" : "^3.1.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.1.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.1.0_1523552078278_0.6226365148496451"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "3.3.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.3.0.tgz",
+        "shasum" : "380ecefc24040db9e191b2789bced19ad61c8ccb"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.3.0",
+        "workbox-core" : "^3.3.0",
+        "workbox-routing" : "^3.3.0",
+        "workbox-strategies" : "^3.3.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.3.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.3.0_1529344603251_0.709060224050744"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "3.3.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.3.1.tgz",
+        "shasum" : "7a90b1e9193c32479e6d7acf07d547e95873887a"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.3.1",
+        "workbox-core" : "^3.3.1",
+        "workbox-routing" : "^3.3.1",
+        "workbox-strategies" : "^3.3.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.3.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.3.1_1530121586335_0.7018902991318787"
+      },
+      "_nodeVersion" : "10.5.0"
+    },
+    "2.1.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v2.1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-2.1.0.tgz",
+        "shasum" : "d60ea613cfeb049c66bc001b624e7e60a3960abb"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@2.1.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-2.1.0.tgz_1507243344547_0.20869306358508766"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "3.6.3" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.6.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.6.3.tgz",
+        "shasum" : "99df2a3d70d6e91961e18a6752bac12e91fbf727"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.6.3",
+        "workbox-core" : "^3.6.3",
+        "workbox-routing" : "^3.6.3",
+        "workbox-strategies" : "^3.6.3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.6.3",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.6.3_1540216489066_0.05255210924339804"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "2.1.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v2.1.1.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-2.1.1.tgz",
+        "shasum" : "eb80da73a78cb8be32b0fe82d8c97b2b08135626"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@2.1.1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-2.1.1.tgz_1509634386316_0.6575500788167119"
+      },
+      "_nodeVersion" : "8.9.0"
+    },
+    "1.3.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v1.3.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-1.3.0.tgz",
+        "shasum" : "9061809065c8d539a7eea287195e77f03501d3c1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@1.3.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-1.3.0.tgz_1502306748439_0.8069526366889477"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.0.0-beta.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-beta.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-beta.2.tgz",
+        "shasum" : "4a2ca51f604615bac78d3eb81a903b9178d67a3d"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-beta.2",
+        "workbox-core" : "^3.0.0-beta.2",
+        "workbox-routing" : "^3.0.0-beta.2",
+        "workbox-strategies" : "^3.0.0-beta.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-beta.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.0.0-beta.2_1520359216202_0.2708657837439796"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-beta.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-beta.0.tgz",
+        "shasum" : "657a0f0a78c96a3e0bb6a3148351e0621b33851a"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-beta.0",
+        "workbox-core" : "^3.0.0-beta.0",
+        "workbox-routing" : "^3.0.0-beta.0",
+        "workbox-strategies" : "^3.0.0-beta.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-beta.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-3.0.0-beta.0.tgz_1517526058361_0.9273126255720854"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-beta.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-beta.1.tgz",
+        "shasum" : "66a793248db2fe1a912790f8e55e8921cd4839f7"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-beta.1",
+        "workbox-core" : "^3.0.0-beta.1",
+        "workbox-routing" : "^3.0.0-beta.1",
+        "workbox-strategies" : "^3.0.0-beta.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-beta.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.0.0-beta.1_1519671242539_0.2538999644441329"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "8.9.4"
+    },
+    "5.0.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0.tgz",
+        "shasum" : "a52791ddb51074b87e2eb29fcaaba5d08f4664ca"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0",
+        "workbox-core" : "^5.0.0",
+        "workbox-routing" : "^5.0.0",
+        "workbox-strategies" : "^5.0.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.17.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0",
+      "gitHead" : "571ffded1872309a305f108a99a5a36982fde342",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0_1580266143749_0.39967968124039466"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "1.1.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v1.1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-1.1.0.tgz",
+        "shasum" : "d66fdd1795cf447dac7414afeca35992e66205d1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.2.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@1.1.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-1.1.0.tgz_1499893278615_0.5943879985716194"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.2.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.2.0.tgz",
+        "shasum" : "2f08d21a4edc279aabe7b361fd7d434cc8c1a380"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.2.0",
+        "workbox-core" : "^4.2.0",
+        "workbox-routing" : "^4.2.0",
+        "workbox-strategies" : "^4.2.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.2.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@4.2.0",
+      "gitHead" : "60f99c8c017b62ffe90b591b7f4be37dc44d92f6",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.2.0_1554311986060_0.07641336066674231"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.0-rc.4" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-rc.4",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-rc.4.tgz",
+        "shasum" : "b09c3454c078f2c5a8c37591ceef33d2f1a0520e"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-rc.4",
+        "workbox-core" : "^4.0.0-rc.4",
+        "workbox-routing" : "^4.0.0-rc.4",
+        "workbox-strategies" : "^4.0.0-rc.4"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-rc.4.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-rc.4",
+      "gitHead" : "cddab54b7b1b7fee18765dcf8350f7e118285efb",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-rc.4_1551149719476_0.054556990767358204"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0.tgz",
+        "shasum" : "51c98cc471e5b35c7f86b3aff1d74a28036707e2"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0",
+        "workbox-core" : "^4.0.0",
+        "workbox-routing" : "^4.0.0",
+        "workbox-strategies" : "^4.0.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0",
+      "gitHead" : "51ec243c7afc67d5cec835b685bd9ad1e70fb78b",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0_1551288794625_0.03779278649192985"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-rc.2.tgz",
+        "shasum" : "a8467915fb880b718e4c73bbd96a52562a78dc55"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-rc.2",
+        "workbox-core" : "^4.0.0-rc.2",
+        "workbox-routing" : "^4.0.0-rc.2",
+        "workbox-strategies" : "^4.0.0-rc.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-rc.2.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-rc.2",
+      "gitHead" : "36439d00d488159fd552b6e805bd4cb1be827ece",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-rc.2_1550094603521_0.48675720676340295"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.3" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-rc.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-rc.3.tgz",
+        "shasum" : "18f40efb43992663941323abf221779b0f6da335"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-rc.3",
+        "workbox-core" : "^4.0.0-rc.3",
+        "workbox-routing" : "^4.0.0-rc.3",
+        "workbox-strategies" : "^4.0.0-rc.3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-rc.3.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-rc.3",
+      "gitHead" : "6cf9c94ff17beea2b211e91d4a96c22c8611d3b4",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-rc.3_1550607155884_0.8820501907607738"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-rc.0.tgz",
+        "shasum" : "74dbec82986e25ce5ffb1bec0da0e9d350e6cf47"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-rc.0",
+        "workbox-core" : "^4.0.0-rc.0",
+        "workbox-routing" : "^4.0.0-rc.0",
+        "workbox-strategies" : "^4.0.0-rc.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-rc.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-rc.0",
+      "gitHead" : "895940b985bea024e086713c319af216f7c5ee95",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-rc.0_1549483127036_0.7146014917785337"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-rc.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-rc.1.tgz",
+        "shasum" : "06cfc6ac966d5c546955a6a6dd759ac31f8bd87b"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-rc.1",
+        "workbox-core" : "^4.0.0-rc.1",
+        "workbox-routing" : "^4.0.0-rc.1",
+        "workbox-strategies" : "^4.0.0-rc.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-rc.1.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-rc.1",
+      "gitHead" : "5e19e1c192d867f0db97e23f1262c3cab19bf6c6",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-rc.1_1550086327713_0.3954442508616376"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "3.0.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0.tgz",
+        "shasum" : "9ce8f21cebb5a268121ec67607c75ecb20fc0b74"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0",
+        "workbox-core" : "^3.0.0",
+        "workbox-routing" : "^3.0.0",
+        "workbox-strategies" : "^3.0.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.0.0_1520905355995_0.24116955792862282"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.4.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.4.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.4.1.tgz",
+        "shasum" : "98f407b7d157be68087e0f3edb432cba291fd614"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.4.1",
+        "workbox-core" : "^3.4.1",
+        "workbox-routing" : "^3.4.1",
+        "workbox-strategies" : "^3.4.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.4.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.4.1_1531409972355_0.4878436076391859"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "3.6.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.6.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.6.1.tgz",
+        "shasum" : "5e5dbcecdfc59836a554357ec80358cacace9b94"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.6.1",
+        "workbox-core" : "^3.6.1",
+        "workbox-routing" : "^3.6.1",
+        "workbox-strategies" : "^3.6.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@3.6.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.6.1_1537385278673_0.8111217667938568"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "3.6.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.6.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.6.2.tgz",
+        "shasum" : "e6fcbf6c77b215a556c4e342aa20c378205a9f63"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.6.2",
+        "workbox-core" : "^3.6.2",
+        "workbox-routing" : "^3.6.2",
+        "workbox-strategies" : "^3.6.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.6.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.6.2_1538145721136_0.5254228931474811"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "3.0.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.1.tgz",
+        "shasum" : "693a4a8d2f534796b5af172af01132a9691bddb7"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.1",
+        "workbox-core" : "^3.0.1",
+        "workbox-routing" : "^3.0.1",
+        "workbox-strategies" : "^3.0.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.0.1_1521757721173_0.09095175878076533"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.2.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.2.0.tgz",
+        "shasum" : "1005bc71ae03a8948b687896235dafecb1696c46"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.2.0",
+        "workbox-core" : "^3.2.0",
+        "workbox-routing" : "^3.2.0",
+        "workbox-strategies" : "^3.2.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.2.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_3.2.0_1525285067019_0.42484986002477254"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.2-rc1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "2.0.2-rc1",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v2.0.2-rc1-2.0.2-rc1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-2.0.2-rc1.tgz",
+        "shasum" : "74f15ea3d828bfc9e18597b855fe53ff62ada343"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@2.0.2-rc1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-2.0.2-rc1.tgz_1506092336302_0.8362595168873668"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.0.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v2.0.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-2.0.0.tgz",
+        "shasum" : "a2d42a8f82dd5f24b945d660fa233e82a6fa915a"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@2.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-2.0.0.tgz_1503584435233_0.7830929511692375"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "5.0.0-alpha.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0-alpha.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0-alpha.0.tgz",
+        "shasum" : "c5fa9f9e99487a5cb14eb6ff8356fd01e5604da8"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0-alpha.0",
+        "workbox-core" : "^5.0.0-alpha.0",
+        "workbox-routing" : "^5.0.0-alpha.0",
+        "workbox-strategies" : "^5.0.0-alpha.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-5.0.0-alpha.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0-alpha.0",
+      "gitHead" : "7f231c04023669bc42d5a939d1359b0867e2efda",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0-alpha.0_1562771128662_0.8529853667625624"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-alpha.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0-alpha.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0-alpha.1.tgz",
+        "shasum" : "d0b7d2b73af7837e2cb0668b7ca7875ba2af9828"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0-alpha.1",
+        "workbox-core" : "^5.0.0-alpha.1",
+        "workbox-routing" : "^5.0.0-alpha.1",
+        "workbox-strategies" : "^5.0.0-alpha.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-5.0.0-alpha.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0-alpha.1",
+      "gitHead" : "20d2110ddace710a46af06addd4977cae08f5942",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0-alpha.1_1563225695399_0.3868161289807095"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.0-alpha.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "4.0.0-alpha.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-offline-ga.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-4.0.0-alpha.0.tgz",
+        "shasum" : "159e5d8ca13ea59e0703d6569e19b322fb3ba3b5"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^4.0.0-alpha.0",
+        "workbox-core" : "^4.0.0-alpha.0",
+        "workbox-routing" : "^4.0.0-alpha.0",
+        "workbox-strategies" : "^4.0.0-alpha.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-4.0.0-alpha.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@4.0.0-alpha.0",
+      "gitHead" : "db1fb73fd32fbd5cbf42e246e6144011a5c6edc2",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_4.0.0-alpha.0_1539194843108_0.9379133292510842"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "5.0.0-alpha.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0-alpha.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0-alpha.2.tgz",
+        "shasum" : "e6e5798a08ede8999dcddb3f8dd7b387a184ebd4"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0-alpha.2",
+        "workbox-core" : "^5.0.0-alpha.2",
+        "workbox-routing" : "^5.0.0-alpha.2",
+        "workbox-strategies" : "^5.0.0-alpha.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-google-analytics-5.0.0-alpha.2.tgz",
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0-alpha.2",
+      "gitHead" : "0cb0029b692c3802545238fe59b6d6179ca32f6c",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0-alpha.2_1564684737926_0.9650082914472877"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-beta.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0-beta.1.tgz",
+        "shasum" : "0c1e7d626f3060df84a1ef1a177f8e4d21fe2640"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0-beta.1",
+        "workbox-core" : "^5.0.0-beta.1",
+        "workbox-routing" : "^5.0.0-beta.1",
+        "workbox-strategies" : "^5.0.0-beta.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0-beta.1",
+      "gitHead" : "01a9e9be8291f0a592891c8e2eb8d2dd09b93caf",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0-beta.1_1569959084085_0.7550397033162812"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-rc.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0-rc.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0-rc.2.tgz",
+        "shasum" : "f6d552010d0fec691d2f79946f52988b5c0060d9"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0-rc.2",
+        "workbox-core" : "^5.0.0-rc.2",
+        "workbox-routing" : "^5.0.0-rc.2",
+        "workbox-strategies" : "^5.0.0-rc.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0-rc.2",
+      "gitHead" : "89904768b2210e59c830dd380cf88a06e1c26a2b",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0-rc.2_1579641371463_0.7203855220856608"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "5.0.0-beta.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0-beta.0.tgz",
+        "shasum" : "2b15ccd9614a3558240f0e4a9b89b6ce9750896f"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0-beta.0",
+        "workbox-core" : "^5.0.0-beta.0",
+        "workbox-routing" : "^5.0.0-beta.0",
+        "workbox-strategies" : "^5.0.0-beta.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0-beta.0",
+      "gitHead" : "136b38f2c701bd7c04e808d19961310a9ede524b",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0-beta.0_1566406749014_0.5369832346805896"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-rc.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0-rc.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0-rc.1.tgz",
+        "shasum" : "974b134dbdb4da7160496271a995c536863fc363"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0-rc.1",
+        "workbox-core" : "^5.0.0-rc.1",
+        "workbox-routing" : "^5.0.0-rc.1",
+        "workbox-strategies" : "^5.0.0-rc.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.17.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0-rc.1",
+      "gitHead" : "f03f71e50507e13d82d4e0a875cc49ba4501aff3",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0-rc.1_1574705094844_0.8138643718963194"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.17.0"
+    },
+    "2.0.2-2.0.2-rc1.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "2.0.2-2.0.2-rc1.0",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v2.0.2-2.0.2-rc1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-2.0.2-2.0.2-rc1.0.tgz",
+        "shasum" : "8be48c20ce2df690d08062a3ed74d46b3c76a707"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@2.0.2-2.0.2-rc1.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-2.0.2-2.0.2-rc1.0.tgz_1506091813090_0.2203852462116629"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.0.0-alpha.4" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-alpha.4",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-alpha.4.tgz",
+        "shasum" : "94076e4e23045d6c7b3a8505272d40e96f8bb141"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-alpha.4",
+        "workbox-core" : "^3.0.0-alpha.4",
+        "workbox-routing" : "^3.0.0-alpha.4",
+        "workbox-strategies" : "^3.0.0-alpha.4"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-alpha.4",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-3.0.0-alpha.4.tgz_1515522327967_0.9919337218161672"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "5.0.0-rc.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "5.0.0-rc.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-5.0.0-rc.0.tgz",
+        "shasum" : "371a7f1ef17cb0e7fd6b94ece65ef6383e41eb04"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^5.0.0-rc.0",
+        "workbox-core" : "^5.0.0-rc.0",
+        "workbox-routing" : "^5.0.0-rc.0",
+        "workbox-strategies" : "^5.0.0-rc.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-google-analytics@5.0.0-rc.0",
+      "gitHead" : "94542f92ceaec96ef59a09bda3aee1677ea5512b",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "outputFilename" : "workbox-offline-ga",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics_5.0.0-rc.0_1571258507546_0.7211363940221052"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "3.0.0-alpha.5" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-alpha.5",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-alpha.5.tgz",
+        "shasum" : "0a5f344694bb28d25e69a95cb5c2f25e8d806b99"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-alpha.5",
+        "workbox-core" : "^3.0.0-alpha.5",
+        "workbox-routing" : "^3.0.0-alpha.5",
+        "workbox-strategies" : "^3.0.0-alpha.5"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-alpha.5",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-3.0.0-alpha.5.tgz_1515785169894_0.01753090019337833"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-alpha.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-alpha.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-alpha.2.tgz",
+        "shasum" : "33f35e73360a3328be5459f0a7d7fafa4aeb041f"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-alpha.2",
+        "workbox-core" : "^3.0.0-alpha.2",
+        "workbox-routing" : "^3.0.0-alpha.2",
+        "workbox-strategies" : "^3.0.0-alpha.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-alpha.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-3.0.0-alpha.2.tgz_1512164885828_0.7583270848263055"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.0.0-alpha.3" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-alpha.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-alpha.3.tgz",
+        "shasum" : "11de0755f7533ff8e11b749e2613ed54e165bdb7"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-alpha.3",
+        "workbox-core" : "^3.0.0-alpha.3",
+        "workbox-routing" : "^3.0.0-alpha.3",
+        "workbox-strategies" : "^3.0.0-alpha.3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-alpha.3",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-3.0.0-alpha.3.tgz_1513192157886_0.8139873999170959"
+      },
+      "_nodeVersion" : "8.9.3"
+    },
+    "3.0.0-alpha.1" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-alpha.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-alpha.1.tgz",
+        "shasum" : "70eea11fda6dee46070397dda598c028869f6fad"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-alpha.1",
+        "workbox-core" : "^3.0.0-alpha.1",
+        "workbox-routing" : "^3.0.0-alpha.1",
+        "workbox-strategies" : "^3.0.0-alpha.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-alpha.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-3.0.0-alpha.1.tgz_1511385040006_0.7006066821049899"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.2" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v2.0.2-rc1-2.0.2-rc1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-2.0.2.tgz",
+        "shasum" : "7c8a4593c4ebea50fd5e91ac011ad9950cb765f6"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@2.0.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-2.0.2.tgz_1506436467354_0.7325039792340249"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.0.3" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v2.0.3.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-2.0.3.tgz",
+        "shasum" : "19fc541b5f22e111bd0bacd1a27b523711f78712"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@2.0.3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-2.0.3.tgz_1506437246581_0.84444714570418"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.0.0-alpha.6" : {
+      "name" : "workbox-google-analytics",
+      "description" : "Queues failed requests and uses the Background Sync API to replay them when the network is available",
+      "version" : "3.0.0-alpha.6",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-google-analytics.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-3.0.0-alpha.6.tgz",
+        "shasum" : "2456a1c1edc9ee4f04bb40bbe1d66c4839905a90"
+      },
+      "dependencies" : {
+        "workbox-background-sync" : "^3.0.0-alpha.6",
+        "workbox-core" : "^3.0.0-alpha.6",
+        "workbox-routing" : "^3.0.0-alpha.6",
+        "workbox-strategies" : "^3.0.0-alpha.6"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-google-analytics",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-google-analytics@3.0.0-alpha.6",
+      "workbox" : {
+        "browserNamespace" : "workbox.googleAnalytics",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-google-analytics-3.0.0-alpha.6.tgz_1516811443318_0.7771208216436207"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.0" : {
+      "name" : "workbox-google-analytics",
+      "description" : "A service worker helper library to retry offline Google Analytics requests when a connection is available.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jeff Posnick",
+        "email" : "jeffy@google.com",
+        "url" : "https://jeffy.info"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-google-analytics",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-google-analytics.prod.v1.0.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-google-analytics/-/workbox-google-analytics-1.0.0.tgz",
+        "shasum" : "b5d880e962ea83ab9ea98de7c121297653357f70"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "analytics" ],
+      "license" : "Apache-2.0",
+      "files" : [ "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-google-analytics"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.5",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-google-analytics@1.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/workbox-google-analytics-1.0.0.tgz_1495058972926_0.1318086301907897"
+      },
+      "_shasum" : "b5d880e962ea83ab9ea98de7c121297653357f70",
+      "_nodeVersion" : "7.4.0"
+    }
+  },
+  "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-google-analytics\n",
+  "maintainers" : [ {
+    "email" : "addyosmani@gmail.com",
+    "name" : "addyosmani"
+  }, {
+    "email" : "matt@gauntface.co.uk",
+    "name" : "gauntface"
+  }, {
+    "email" : "jeffy@google.com",
+    "name" : "jeffposnick"
+  }, {
+    "email" : "philip@philipwalton.com",
+    "name" : "philipwalton"
+  } ],
+  "author" : {
+    "name" : "Google's Web DevRel Team"
+  },
+  "time" : {
+    "4.1.1" : "2019-03-15T21:50:53.543Z",
+    "4.3.0" : "2019-04-15T19:49:27.383Z",
+    "4.1.0" : "2019-03-07T18:53:26.530Z",
+    "0.0.2" : "2017-05-15T19:42:06.547Z",
+    "0.0.3" : "2017-05-17T20:57:22.394Z",
+    "4.3.1" : "2019-05-01T17:53:58.741Z",
+    "0.0.1" : "2017-05-12T17:07:47.587Z",
+    "4.0.0-beta.0" : "2018-11-06T18:40:51.848Z",
+    "3.5.0" : "2018-09-11T14:55:48.643Z",
+    "4.0.0-beta.1" : "2019-01-15T19:55:42.091Z",
+    "modified" : "2020-01-29T02:49:06.180Z",
+    "4.0.0-beta.2" : "2019-01-29T21:56:17.646Z",
+    "3.1.0" : "2018-04-12T16:54:38.356Z",
+    "3.3.0" : "2018-06-18T17:56:43.452Z",
+    "3.3.1" : "2018-06-27T17:46:32.895Z",
+    "2.1.0" : "2017-10-05T22:42:25.588Z",
+    "3.6.3" : "2018-10-22T13:54:49.181Z",
+    "created" : "2017-05-12T17:07:47.587Z",
+    "2.1.1" : "2017-11-02T14:53:07.977Z",
+    "1.3.0" : "2017-08-09T19:25:49.665Z",
+    "3.0.0-beta.2" : "2018-03-06T18:00:16.242Z",
+    "3.0.0-beta.0" : "2018-02-01T23:00:58.426Z",
+    "3.0.0-beta.1" : "2018-02-26T18:54:02.645Z",
+    "5.0.0" : "2020-01-29T02:49:03.883Z",
+    "1.1.0" : "2017-07-12T21:01:19.818Z",
+    "4.2.0" : "2019-04-03T17:19:46.187Z",
+    "4.0.0-rc.4" : "2019-02-26T02:55:19.635Z",
+    "4.0.0" : "2019-02-27T17:33:14.764Z",
+    "4.0.0-rc.2" : "2019-02-13T21:50:03.670Z",
+    "4.0.0-rc.3" : "2019-02-19T20:12:36.043Z",
+    "4.0.0-rc.0" : "2019-02-06T19:58:47.149Z",
+    "4.0.0-rc.1" : "2019-02-13T19:32:07.903Z",
+    "3.0.0" : "2018-03-13T01:42:36.057Z",
+    "3.4.1" : "2018-07-12T15:39:32.416Z",
+    "3.6.1" : "2018-09-19T19:27:58.861Z",
+    "3.6.2" : "2018-09-28T14:42:01.307Z",
+    "3.0.1" : "2018-03-22T22:28:41.221Z",
+    "3.2.0" : "2018-05-02T18:17:47.131Z",
+    "2.0.2-rc1" : "2017-09-22T14:58:57.354Z",
+    "2.0.0" : "2017-08-24T14:20:35.335Z",
+    "5.0.0-alpha.0" : "2019-07-10T15:05:28.877Z",
+    "5.0.0-alpha.1" : "2019-07-15T21:21:35.506Z",
+    "4.0.0-alpha.0" : "2018-10-10T18:07:23.247Z",
+    "5.0.0-alpha.2" : "2019-08-01T18:38:58.101Z",
+    "5.0.0-beta.1" : "2019-10-01T19:44:44.267Z",
+    "5.0.0-rc.2" : "2020-01-21T21:16:11.645Z",
+    "5.0.0-beta.0" : "2019-08-21T16:59:09.178Z",
+    "5.0.0-rc.1" : "2019-11-25T18:04:54.961Z",
+    "2.0.2-2.0.2-rc1.0" : "2017-09-22T14:50:14.182Z",
+    "3.0.0-alpha.4" : "2018-01-09T18:25:28.025Z",
+    "5.0.0-rc.0" : "2019-10-16T20:41:47.711Z",
+    "3.0.0-alpha.5" : "2018-01-12T19:26:09.984Z",
+    "3.0.0-alpha.2" : "2017-12-01T21:48:05.894Z",
+    "3.0.0-alpha.3" : "2017-12-13T19:09:17.964Z",
+    "3.0.0-alpha.1" : "2017-11-22T21:10:40.172Z",
+    "2.0.2" : "2017-09-26T14:34:28.337Z",
+    "2.0.3" : "2017-09-26T14:47:27.712Z",
+    "3.0.0-alpha.6" : "2018-01-24T16:30:45.208Z",
+    "1.0.0" : "2017-05-17T22:09:33.175Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/googlechrome/workbox.git"
+  },
+  "users" : {
+    "chrissimari" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/GoogleChrome/workbox",
+  "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "offline", "google", "analytics" ],
+  "bugs" : {
+    "url" : "https://github.com/googlechrome/workbox/issues"
+  },
+  "license" : "MIT"
+}

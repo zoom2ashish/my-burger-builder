@@ -1,0 +1,312 @@
+{
+  "_id" : "html-comment-regex",
+  "_rev" : "8-2ef59bc64be32ab30f1849c4653a3638",
+  "name" : "html-comment-regex",
+  "description" : "Regular expression for matching HTML comments",
+  "dist-tags" : {
+    "latest" : "1.1.2"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "html-comment-regex",
+      "description" : "Regular expression for matching HTML comments",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Steve Mao",
+        "email" : "maochenyan@gmail.com",
+        "url" : "https://github.com/stevemao"
+      },
+      "homepage" : "https://github.com/stevemao/html-comment-regex",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/stevemao/html-comment-regex.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/stevemao/html-comment-regex/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/html-comment-regex/-/html-comment-regex-1.1.2.tgz",
+        "shasum" : "97d4688aeb5c81886a364faa0cad1dda14d433a7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.11.3",
+        "jshint" : "^2.6.3",
+        "mocha" : "*"
+      },
+      "keywords" : [ "html-comment-regex", "text", "string", "regex", "regexp", "re", "match", "test", "find", "pattern", "comment", "comments", "html", "HTML", "HyperText Markup Language" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "stevemao",
+        "email" : "steve.mao@healthinteract.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint *.js --exclude node_modules && jscs *.js",
+        "test" : "npm run-script lint && mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "stevemao",
+        "email" : "maochenyan@gmail.com"
+      },
+      "_id" : "html-comment-regex@1.1.2",
+      "gitHead" : "62ef1d5f46bd03e36ea0c8f2f4d2c91b60ff39d0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/html-comment-regex_1.1.2_1539126666515_0.5434059886857252"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "1.0.0" : {
+      "name" : "html-comment-regex",
+      "description" : "Regular expression for matching HTML comments",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Steve Mao",
+        "email" : "maochenyan@gmail.com",
+        "url" : "https://github.com/stevemao"
+      },
+      "homepage" : "https://github.com/stevemao/html-comment-regex",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/stevemao/html-comment-regex.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/stevemao/html-comment-regex/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/html-comment-regex/-/html-comment-regex-1.0.0.tgz",
+        "shasum" : "456217ccf9b668b67989e8e2128ce29da537dcbc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.11.3",
+        "jshint" : "^2.6.3",
+        "mocha" : "*"
+      },
+      "keywords" : [ "html-comment-regex", "text", "string", "regex", "regexp", "re", "match", "test", "find", "pattern", "comment", "comments", "html", "HTML", "HyperText Markup Language" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "stevemao",
+        "email" : "steve.mao@healthinteract.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint *.js --exclude node_modules && jscs *.js",
+        "test" : "npm run-script lint && mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "stevemao",
+        "email" : "steve.mao@healthinteract.com.au"
+      },
+      "_id" : "html-comment-regex@1.0.0",
+      "gitHead" : "f63b72332ee00de4a7ee0009656c507486893f32",
+      "_shasum" : "456217ccf9b668b67989e8e2128ce29da537dcbc",
+      "_nodeVersion" : "0.12.2"
+    },
+    "0.0.0" : {
+      "name" : "html-comment-regex",
+      "description" : "Regular expression for matching HTML comments",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Steve Mao",
+        "email" : "maochenyan@gmail.com",
+        "url" : "https://github.com/stevemao"
+      },
+      "homepage" : "https://github.com/stevemao/html-comment-regex",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/stevemao/html-comment-regex.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/stevemao/html-comment-regex/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/html-comment-regex/-/html-comment-regex-0.0.0.tgz",
+        "shasum" : "c6b8934e403402cc782cccaabe3e833c37660925"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.11.3",
+        "jshint" : "^2.6.3",
+        "mocha" : "*"
+      },
+      "keywords" : [ "html-comment-regex", "text", "string", "regex", "regexp", "re", "match", "test", "find", "pattern", "comment", "comments", "html", "HTML", "HyperText Markup Language" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "stevemao",
+        "email" : "steve.mao@healthinteract.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint *.js --exclude node_modules && jscs *.js",
+        "test" : "npm run-script lint && mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "stevemao",
+        "email" : "steve.mao@healthinteract.com.au"
+      },
+      "_id" : "html-comment-regex@0.0.0",
+      "gitHead" : "2dbb3be06587c4aa517d86981efba75c78e6ebe2",
+      "_shasum" : "c6b8934e403402cc782cccaabe3e833c37660925",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.1.0" : {
+      "name" : "html-comment-regex",
+      "description" : "Regular expression for matching HTML comments",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Steve Mao",
+        "email" : "maochenyan@gmail.com",
+        "url" : "https://github.com/stevemao"
+      },
+      "homepage" : "https://github.com/stevemao/html-comment-regex",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/stevemao/html-comment-regex.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/stevemao/html-comment-regex/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/html-comment-regex/-/html-comment-regex-1.1.0.tgz",
+        "shasum" : "76ad081a3ef5f9cb8fbd9c858cff30677dbacabc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.11.3",
+        "jshint" : "^2.6.3",
+        "mocha" : "*"
+      },
+      "keywords" : [ "html-comment-regex", "text", "string", "regex", "regexp", "re", "match", "test", "find", "pattern", "comment", "comments", "html", "HTML", "HyperText Markup Language" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "stevemao",
+        "email" : "steve.mao@healthinteract.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint *.js --exclude node_modules && jscs *.js",
+        "test" : "npm run-script lint && mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "stevemao",
+        "email" : "steve.mao@healthinteract.com.au"
+      },
+      "_id" : "html-comment-regex@1.1.0",
+      "gitHead" : "018895b886dfe19a6ddc543df914cc124109f3d6",
+      "_shasum" : "76ad081a3ef5f9cb8fbd9c858cff30677dbacabc",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.1.1" : {
+      "name" : "html-comment-regex",
+      "description" : "Regular expression for matching HTML comments",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Steve Mao",
+        "email" : "maochenyan@gmail.com",
+        "url" : "https://github.com/stevemao"
+      },
+      "homepage" : "https://github.com/stevemao/html-comment-regex",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/stevemao/html-comment-regex.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/stevemao/html-comment-regex/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/html-comment-regex/-/html-comment-regex-1.1.1.tgz",
+        "shasum" : "668b93776eaae55ebde8f3ad464b307a4963625e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "jscs" : "^1.11.3",
+        "jshint" : "^2.6.3",
+        "mocha" : "*"
+      },
+      "keywords" : [ "html-comment-regex", "text", "string", "regex", "regexp", "re", "match", "test", "find", "pattern", "comment", "comments", "html", "HTML", "HyperText Markup Language" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "stevemao",
+        "email" : "steve.mao@healthinteract.com.au"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "jshint *.js --exclude node_modules && jscs *.js",
+        "test" : "npm run-script lint && mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.1",
+      "_npmUser" : {
+        "name" : "stevemao",
+        "email" : "maochenyan@gmail.com"
+      },
+      "_id" : "html-comment-regex@1.1.1",
+      "gitHead" : "8829fa5dcecdabb8680cdd8cf36fe73b297fffdf",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/html-comment-regex-1.1.1.tgz_1468323643310_0.8147242439445108"
+      },
+      "_shasum" : "668b93776eaae55ebde8f3ad464b307a4963625e",
+      "_nodeVersion" : "4.4.4"
+    }
+  },
+  "readme" : "#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]\n\n> Regular expression for matching HTML comments\n\n\n## Install\n\n```sh\n$ npm install --save html-comment-regex\n```\n\n\n## Usage\n\n```js\nvar htmlCommentRegex = require('html-comment-regex');\n\nhtmlCommentRegex.test('<!DOCTYPE html><!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]--><html lang=\"en\"><head><meta charset=\"UTF-8\"><title>Document</title></head><body></body></html>');\n//=> true\n\nhtmlCommentRegex.test('<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><title>Document</title></head><body></body></html>');\n//=> false\n```\n\n\n## License\n\nMIT © [Steve Mao](https://github.com/stevemao)\n\n\n[npm-image]: https://badge.fury.io/js/html-comment-regex.svg\n[npm-url]: https://npmjs.org/package/html-comment-regex\n[travis-image]: https://travis-ci.org/stevemao/html-comment-regex.svg?branch=master\n[travis-url]: https://travis-ci.org/stevemao/html-comment-regex\n",
+  "maintainers" : [ {
+    "name" : "stevemao",
+    "email" : "steve.mao@healthinteract.com.au"
+  } ],
+  "author" : {
+    "name" : "Steve Mao",
+    "email" : "maochenyan@gmail.com",
+    "url" : "https://github.com/stevemao"
+  },
+  "time" : {
+    "1.1.2" : "2018-10-09T23:11:06.676Z",
+    "created" : "2015-05-21T08:09:32.571Z",
+    "modified" : "2019-01-08T05:42:17.809Z",
+    "1.0.0" : "2015-05-21T08:12:36.019Z",
+    "0.0.0" : "2015-05-21T08:09:32.571Z",
+    "1.1.0" : "2015-05-22T12:02:58.138Z",
+    "1.1.1" : "2016-07-12T11:40:46.193Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/stevemao/html-comment-regex.git"
+  },
+  "users" : {
+    "rubiadias" : true,
+    "hualei" : true,
+    "rocket0191" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/stevemao/html-comment-regex",
+  "keywords" : [ "html-comment-regex", "text", "string", "regex", "regexp", "re", "match", "test", "find", "pattern", "comment", "comments", "html", "HTML", "HyperText Markup Language" ],
+  "bugs" : {
+    "url" : "https://github.com/stevemao/html-comment-regex/issues"
+  },
+  "license" : "MIT"
+}

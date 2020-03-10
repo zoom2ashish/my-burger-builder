@@ -1,0 +1,1279 @@
+{
+  "_id" : "@babel/helper-member-expression-to-functions",
+  "_rev" : "31-d64bb41ab1954407f210a33d508afc58",
+  "name" : "@babel/helper-member-expression-to-functions",
+  "description" : "Helper function to replace certain member expressions with function calls",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.0.0-rc.1" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-rc.1",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-rc.1.tgz",
+        "shasum" : "03a3b200fc00f8100dbcef9a351b69cfc0234b4f"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-rc.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-rc.1_1533845208066_0.8729942062478655"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-rc.2",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-rc.2.tgz",
+        "shasum" : "5a9c585f86a35428860d8c93a315317ba565106c"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-rc.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-rc.2_1534879370660_0.32324177138219956"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-rc.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-rc.0.tgz",
+        "shasum" : "2626ca0004594be576b3d1abca2bae8aa24b1197"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-rc.0_1533830215033_0.4884120810755812"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0.tgz",
+        "shasum" : "8cd14b0a0df7ff00f009e7d7a436945f47c7a16f"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0_1535406128578_0.560849728264029"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/helper-member-expression-to-functions\n\n> Helper function to replace certain member expressions with function calls\n\nSee our website [@babel/helper-member-expression-to-functions](https://babeljs.io/docs/en/next/babel-helper-member-expression-to-functions.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-member-expression-to-functions\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-member-expression-to-functions --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.49",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.49.tgz",
+        "shasum" : "2f642b003d45155e0a9e7a4ad0e688d91bbc1583"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.49"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.49_1527264046127_0.15470326419646385"
+      },
+      "_shasum" : "2f642b003d45155e0a9e7a4ad0e688d91bbc1583",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-rc.3",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-rc.3.tgz",
+        "shasum" : "65a455f0d35e40ee205a89e7c991472e85ffe09a"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-rc.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-rc.3_1535134005982_0.7133035435130779"
+      }
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.48",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.48.tgz",
+        "shasum" : "19055af6a942463539f75ee4a5b81d583faa6bec"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.48"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.48_1527189662916_0.7008479606039328"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-rc.4",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-rc.4.tgz",
+        "shasum" : "140a1b3a0f278b52bee3ae216e672f6985a0bdeb"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0-rc.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-rc.4_1535388176874_0.7802162998357527"
+      }
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.54",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.54.tgz",
+        "shasum" : "bce9ddc484317b13d2615bafe2b524d0d56d99df"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.54"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.54_1531763993012_0.06859149632805916"
+      }
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.53",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.53.tgz",
+        "shasum" : "0fb0ef8b2d3b903d1c3bf426da4a74575e019ce4"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.53"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.53_1531316402786_0.4226584891087777"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.52",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.52.tgz",
+        "shasum" : "b098c54f3b72405b2ac8e9f63e22e3f06cc92719"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.52"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.52_1530838753202_0.7733007467075366"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.51",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.51.tgz",
+        "shasum" : "2a42536574176588806e602eb17a52d323f82870"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.51"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.51_1528838357842_0.27539873262928594"
+      }
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.47",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.47.tgz",
+        "shasum" : "35bfcf1d16dce481ef3dec66d5a1ae6a7d80bb45"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.47"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.47_1526342862954_0.6581279594008209"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.46",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.46.tgz",
+        "shasum" : "736344c1d68fb2c4b75cbe62370eb610c0578427"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.46"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.46_1524457815331_0.0026134027944899607"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.45",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.45.tgz",
+        "shasum" : "25d029b1de0f9e5ee8aaa406b3714417820c14b3"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.45"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.45_1524448552353_0.4016799322730593"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.56",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.56.tgz",
+        "shasum" : "f7d8d673e140c1bf051abf9661652788ae37b1b4"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.56"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.56_1533344621374_0.14237878654428981"
+      }
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.55",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.55.tgz",
+        "shasum" : "823d254bc9bd019a529fe2ab7f9e1d26870c5e50"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.55"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.55_1532815617036_0.28937223607016826"
+      }
+    },
+    "7.5.5" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.5.5",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.5.5.tgz",
+        "shasum" : "1fb5b8ec4453a93c439ee9fe3aeea4a84b76b590"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.5.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v11.14.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.5.5",
+      "gitHead" : "0407f034f09381b95e9cabefbf6b176c76485a43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.5.5_1563398500337_0.34120053123010696"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "7.7.4" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.7.4",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.7.4.tgz",
+        "shasum" : "356438e2569df7321a8326644d4b790d2122cb74"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.7.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.7.4_1574465596694_0.7359418970684244"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.8.3",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.8.3.tgz",
+        "shasum" : "659b710498ea6c1d9907e0c73f206eee7dadc24c"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.8.3_1578951710735_0.7779764986340891"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.0.0-beta.50",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.0.0-beta.50.tgz",
+        "shasum" : "874b4f0cbaac72ef6ae2d91d873cd70d1fbd8948"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.50"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.0.0-beta.50_1528832813683_0.15442484532165013"
+      }
+    },
+    "7.7.0" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.7.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.7.0.tgz",
+        "shasum" : "472b93003a57071f95a541ea6c2b098398bcad8a"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.7.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v13.0.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.7.0",
+      "gitHead" : "97faa83953cb87e332554fa559a4956d202343ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.7.0_1572951209198_0.7790866597213724"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "7.8.0" : {
+      "name" : "@babel/helper-member-expression-to-functions",
+      "description" : "Helper function to replace certain member expressions with function calls",
+      "version" : "7.8.0",
+      "author" : {
+        "name" : "Justin Ridgewell",
+        "email" : "justin@ridgewell.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.8.0.tgz",
+        "shasum" : "50d0ed445d2da11beb60e2dbc2c428254bd5a4ae"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-member-expression-to-functions@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-member-expression-to-functions_7.8.0_1578788206232_0.33461136947836234"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    }
+  },
+  "readme" : "# @babel/helper-member-expression-to-functions\n\n> Helper function to replace certain member expressions with function calls\n\nSee our website [@babel/helper-member-expression-to-functions](https://babeljs.io/docs/en/next/babel-helper-member-expression-to-functions.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-member-expression-to-functions\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-member-expression-to-functions --dev\n```\n",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "author" : {
+    "name" : "Justin Ridgewell",
+    "email" : "justin@ridgewell.name"
+  },
+  "time" : {
+    "7.0.0-rc.1" : "2018-08-09T20:06:48.133Z",
+    "7.0.0-rc.2" : "2018-08-21T19:22:50.717Z",
+    "7.0.0-rc.0" : "2018-08-09T15:56:55.139Z",
+    "7.0.0-rc.3" : "2018-08-24T18:06:46.097Z",
+    "7.0.0-rc.4" : "2018-08-27T16:42:56.933Z",
+    "7.0.0-beta.54" : "2018-07-16T17:59:53.126Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:02.885Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:13.275Z",
+    "7.0.0-beta.51" : "2018-06-12T21:19:17.894Z",
+    "7.0.0-beta.56" : "2018-08-04T01:03:41.426Z",
+    "7.0.0-beta.55" : "2018-07-28T22:06:57.112Z",
+    "modified" : "2020-01-13T21:41:56.270Z",
+    "7.5.5" : "2019-07-17T21:21:40.489Z",
+    "7.7.4" : "2019-11-22T23:33:16.898Z",
+    "7.8.3" : "2020-01-13T21:41:50.922Z",
+    "7.0.0-beta.50" : "2018-06-12T19:46:53.746Z",
+    "7.7.0" : "2019-11-05T10:53:29.390Z",
+    "7.8.0" : "2020-01-12T00:16:46.337Z",
+    "created" : "2018-04-23T01:55:52.304Z",
+    "7.0.0" : "2018-08-27T21:42:08.745Z",
+    "7.0.0-beta.49" : "2018-05-25T16:00:46.199Z",
+    "7.0.0-beta.48" : "2018-05-24T19:21:03.247Z",
+    "7.0.0-beta.47" : "2018-05-15T00:07:43.064Z",
+    "7.0.0-beta.46" : "2018-04-23T04:30:16.407Z",
+    "7.0.0-beta.45" : "2018-04-23T01:55:52.430Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-member-expression-to-functions"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

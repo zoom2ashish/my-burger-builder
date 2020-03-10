@@ -1,0 +1,2056 @@
+{
+  "_id" : "uuid",
+  "_rev" : "406-aacab891a0b7146676b63a8de9b76430",
+  "name" : "uuid",
+  "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+  "dist-tags" : {
+    "beta" : "7.0.0-beta.0",
+    "latest" : "7.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "uuid",
+      "description" : "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      },
+      "homepage" : "https://github.com/shtylman/node-uuid",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/shtylman/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/shtylman/node-uuid/issues"
+      },
+      "main" : "./uuid.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-2.0.0.tgz",
+        "shasum" : "377ab4417736dba5ce379ff0a0c1a539921ebb74"
+      },
+      "devDependencies" : {
+        "mocha" : "1.8.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      },
+      "_id" : "uuid@2.0.0",
+      "gitHead" : "3c007a5748d6fcbd0916ea8b6d18539958972932",
+      "browser" : {
+        "./rng.js" : "./rng-browser.js"
+      },
+      "testling" : {
+        "browsers" : [ "ie6..latest", "firefox/3.6..latest", "chrome/22..latest", "safari/5.1..latest" ],
+        "harness" : "mocha-tdd",
+        "files" : "test/*.js"
+      },
+      "_shasum" : "377ab4417736dba5ce379ff0a0c1a539921ebb74"
+    },
+    "7.0.1" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "7.0.1",
+      "homepage" : "https://github.com/uuidjs/uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/uuidjs/uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/uuidjs/uuid/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-7.0.1.tgz",
+        "shasum" : "95ed6ff3d8c881cbf85f0f05cc3915ef994818ef"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "7.8.4",
+        "@babel/core" : "7.8.4",
+        "@babel/preset-env" : "7.8.4",
+        "@commitlint/cli" : "8.3.5",
+        "@commitlint/config-conventional" : "8.3.4",
+        "@rollup/plugin-node-resolve" : "7.1.1",
+        "babel-eslint" : "10.0.3",
+        "babel-plugin-add-module-exports" : "1.0.2",
+        "browserstack-local" : "1.4.5",
+        "bundlewatch" : "0.2.5",
+        "eslint" : "6.8.0",
+        "eslint-config-prettier" : "6.10.0",
+        "eslint-plugin-prettier" : "3.1.2",
+        "esm" : "3.2.25",
+        "http-server" : "0.12.1",
+        "husky" : "3.0.9",
+        "jest" : "25.1.0",
+        "lint-staged" : "10.0.7",
+        "npm-run-all" : "4.1.5",
+        "prettier" : "1.19.1",
+        "rollup" : "1.31.1",
+        "rollup-plugin-terser" : "5.2.0",
+        "runmd" : "1.3.2",
+        "selenium-webdriver" : "3.6.0",
+        "standard-version" : "7.1.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "dist/bin/uuid"
+      },
+      "maintainers" : [ {
+        "email" : "robert@broofa.com",
+        "name" : "broofa"
+      }, {
+        "email" : "dev@tavan.de",
+        "name" : "ctavan"
+      }, {
+        "email" : "shtylman@gmail.com",
+        "name" : "defunctzombie"
+      }, {
+        "email" : "vincent.voyer@gmail.com",
+        "name" : "vvo"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "examples:browser-webpack:build" : "cd examples/browser-webpack && npm install && npm run build",
+        "examples:browser-rollup:build" : "cd examples/browser-rollup && npm install && npm run build",
+        "examples:browser-esmodules:build" : "cd examples/browser-esmodules && npm install && npm run build",
+        "lint" : "npm run eslint:check && npm run prettier:check",
+        "eslint:check" : "eslint src/ test/ examples/ *.js",
+        "eslint:fix" : "eslint --fix src/ test/ examples/ *.js",
+        "pretest" : "npm run build",
+        "test" : "BABEL_ENV=commonjs node --throw-deprecation node_modules/.bin/jest test/unit/",
+        "pretest:browser" : "npm run build && npm-run-all --parallel examples:**",
+        "test:browser" : "BABEL_ENV=commonjs jest --forceExit --verbose test/browser/${BROWSER:-}*",
+        "prettier:check" : "prettier --ignore-path .prettierignore --check '**/*.{js,jsx,json,md}'",
+        "prettier:fix" : "prettier --ignore-path .prettierignore --write '**/*.{js,jsx,json,md}'",
+        "ci" : "npm run lint && npm run test && npm run prettier:check && npm run docs:diff && npm run bundlewatch",
+        "bundlewatch" : "( node --version | grep -vq 'v12' ) || ( npm run pretest:browser && CI_REPO_OWNER=uuidjs CI_REPO_NAME=uuid CI_COMMIT_SHA=$GITHUB_SHA CI_BRANCH=${GITHUB_REF##refs/heads/} bundlewatch --config bundlewatch.config.json )",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "docs" : "( node --version | grep -q 'v12' ) && ( npm run build && runmd --output=README.md README_js.md )",
+        "docs:diff" : "( node --version | grep -vq 'v12' ) || ( npm run docs && git diff --quiet README.md )",
+        "build" : "./scripts/build.sh",
+        "release" : "standard-version --no-verify"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "ctavan",
+        "email" : "dev@tavan.de"
+      },
+      "_id" : "uuid@7.0.1",
+      "lint-staged" : {
+        "*.{js,jsx,json,md}" : [ "prettier --write" ],
+        "*.{js,jsx}" : [ "eslint --fix" ]
+      },
+      "gitHead" : "3f78220564ff2abcb06cbf5ea173513a0e0cba43",
+      "husky" : {
+        "hooks" : {
+          "commit-msg" : "commitlint -E HUSKY_GIT_PARAMS",
+          "pre-commit" : "lint-staged"
+        }
+      },
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "module" : "dist/esm-node/index.js",
+      "browser" : {
+        "./dist/md5.js" : "./dist/md5-browser.js",
+        "./dist/rng.js" : "./dist/rng-browser.js",
+        "./dist/sha1.js" : "./dist/sha1-browser.js",
+        "./dist/esm-node/index.js" : "./dist/esm-browser/index.js"
+      },
+      "standard-version" : {
+        "scripts" : {
+          "postchangelog" : "prettier --write CHANGELOG.md",
+          "postcommit" : "npm run build"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid_7.0.1_1582662395609_0.09015471273563103"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "12.16.0"
+    },
+    "2.0.1" : {
+      "name" : "uuid",
+      "description" : "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      },
+      "homepage" : "https://github.com/shtylman/node-uuid",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/shtylman/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/shtylman/node-uuid/issues"
+      },
+      "main" : "./uuid.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-2.0.1.tgz",
+        "shasum" : "c2a30dedb3e535d72ccf82e343941a50ba8533ac"
+      },
+      "devDependencies" : {
+        "mocha" : "1.8.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      },
+      "_id" : "uuid@2.0.1",
+      "gitHead" : "ddaf90942095f26ee8c1961b4346f093b3e7eb5b",
+      "browser" : {
+        "./rng.js" : "./rng-browser.js"
+      },
+      "testling" : {
+        "browsers" : [ "ie6..latest", "firefox/3.6..latest", "chrome/22..latest", "safari/5.1..latest" ],
+        "harness" : "mocha-tdd",
+        "files" : "test/*.js"
+      },
+      "_shasum" : "c2a30dedb3e535d72ccf82e343941a50ba8533ac"
+    },
+    "7.0.0-beta.0" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "7.0.0-beta.0",
+      "homepage" : "https://github.com/uuidjs/uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/uuidjs/uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/uuidjs/uuid/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-7.0.0-beta.0.tgz",
+        "shasum" : "7f2bd91cf896f8f3d8d911d995edd7d66d4c2651"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "7.8.3",
+        "@babel/core" : "7.8.3",
+        "@babel/preset-env" : "7.8.3",
+        "@commitlint/cli" : "8.3.5",
+        "@commitlint/config-conventional" : "8.3.4",
+        "babel-eslint" : "10.0.3",
+        "babel-plugin-add-module-exports" : "1.0.2",
+        "browserstack-local" : "1.4.4",
+        "bundlewatch" : "0.2.5",
+        "eslint" : "6.8.0",
+        "eslint-config-prettier" : "6.9.0",
+        "eslint-plugin-prettier" : "3.1.2",
+        "esm" : "3.2.25",
+        "http-server" : "0.12.1",
+        "husky" : "3.0.9",
+        "jest" : "24.9.0",
+        "lint-staged" : "10.0.1",
+        "npm-run-all" : "4.1.5",
+        "prettier" : "1.19.1",
+        "rollup" : "1.30.0",
+        "rollup-plugin-terser" : "5.2.0",
+        "runmd" : "1.3.2",
+        "selenium-webdriver" : "3.6.0",
+        "standard-version" : "7.0.1"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "dist/bin/uuid"
+      },
+      "maintainers" : [ {
+        "email" : "robert@broofa.com",
+        "name" : "broofa"
+      }, {
+        "email" : "dev@tavan.de",
+        "name" : "ctavan"
+      }, {
+        "email" : "shtylman@gmail.com",
+        "name" : "defunctzombie"
+      }, {
+        "email" : "vincent.voyer@gmail.com",
+        "name" : "vvo"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "examples:browser-webpack:build" : "cd examples/browser-webpack && npm install && npm run build",
+        "examples:browser-rollup:build" : "cd examples/browser-rollup && npm install && npm run build",
+        "examples:browser-esmodules:build" : "cd examples/browser-esmodules && npm install && npm run build",
+        "lint" : "npm run eslint:check && npm run prettier:check",
+        "eslint:check" : "eslint src/ test/ examples/ *.js",
+        "eslint:fix" : "eslint --fix src/ test/ examples/ *.js",
+        "pretest" : "npm run build",
+        "test" : "BABEL_ENV=commonjs node --throw-deprecation node_modules/.bin/jest test/unit/",
+        "pretest:browser" : "npm run build && npm-run-all --parallel examples:**",
+        "test:browser" : "BABEL_ENV=commonjs jest --forceExit --verbose test/browser/${BROWSER:-}*",
+        "prettier:check" : "prettier --ignore-path .prettierignore --check '**/*.{js,jsx,json,md}'",
+        "prettier:fix" : "prettier --ignore-path .prettierignore --write '**/*.{js,jsx,json,md}'",
+        "ci" : "npm run lint && npm run test && npm run prettier:check && npm run docs:diff && npm run bundlewatch",
+        "bundlewatch" : "( node --version | grep -vq 'v12' ) || ( npm run pretest:browser && CI_REPO_OWNER=uuidjs CI_REPO_NAME=uuid CI_COMMIT_SHA=$GITHUB_SHA CI_BRANCH=${GITHUB_REF##refs/heads/} bundlewatch --config bundlewatch.config.json )",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "docs" : "( node --version | grep -q 'v12' ) && ( npm run build && runmd --output=README.md README_js.md )",
+        "docs:diff" : "( node --version | grep -vq 'v12' ) || ( npm run docs && git diff --quiet README.md )",
+        "build" : "./scripts/build.sh",
+        "release" : "standard-version --no-verify"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "ctavan",
+        "email" : "dev@tavan.de"
+      },
+      "_id" : "uuid@7.0.0-beta.0",
+      "lint-staged" : {
+        "*.{js,jsx,json,md}" : [ "prettier --write" ],
+        "*.{js,jsx}" : [ "eslint --fix" ]
+      },
+      "gitHead" : "522e44c055871493303ec0158dac75d7ce1eba5b",
+      "husky" : {
+        "hooks" : {
+          "commit-msg" : "commitlint -E HUSKY_GIT_PARAMS",
+          "pre-commit" : "lint-staged"
+        }
+      },
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "module" : "dist/esm-browser/index.js",
+      "standard-version" : {
+        "scripts" : {
+          "postchangelog" : "prettier --write CHANGELOG.md",
+          "postcommit" : "npm run build"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid_7.0.0-beta.0_1581938725845_0.7896196061229703"
+      },
+      "readme" : "<!--\n  -- This file is auto-generated from README_js.md. Changes should be made there.\n  -->\n\n# uuid [![Build Status](https://github.com/uuidjs/uuid/workflows/CI/badge.svg)](https://github.com/uuidjs/uuid/actions)\n\nSimple, fast generation of [RFC4122](http://www.ietf.org/rfc/rfc4122.txt) UUIDs.\n\nFeatures:\n\n- Support for version 1, 3, 4 and 5 UUIDs\n- Cross-platform: CommonJS build for Node.js and [ECMAScript Modules](#ecmascript-modules) for the\n  browser.\n- Uses cryptographically-strong random number APIs\n- Zero-dependency, small footprint\n\n⚠️⚠️⚠️ This is the README of the upcoming major version of this library. You can still [access the README\nof the current stable version](https://github.com/uuidjs/uuid/blob/v3.4.0/README.md). ⚠️⚠️⚠️\n\n## Upgrading from v3.x of this Module\n\nIn v3.x of this library we were promoting the use of deep requires to reduce bundlesize for browser\nbuilds:\n\n```javascript\nconst uuidv4 = require('uuid/v4');\nuuidv4();\n```\n\nAs of v7.x this library has been converted to ECMAScript Modules and deep requires are now\ndeprecated and may be removed in a future major version of this library.\n\nSince all modern bundlers like rollup or Webpack support tree-shaking for ECMAScript Modules out of\nthe box we now encourage you to use modern `import` syntax instead, see [ECMAScript Modules /\nESM](#ecmascript-modules--esm):\n\n```javascript\nimport { v4 as uuidv4 } from 'uuid';\nuuidv4();\n```\n\nFor use as CommonJS module with Node.js you can use:\n\n```javascript\nconst { v4: uuidv4 } = require('uuid');\nuuidv4();\n```\n\n## Quickstart - Node.js/CommonJS\n\n```shell\nnpm install uuid\n```\n\nThen generate a random UUID (v4 algorithm), which is almost always what you want ...\n\nVersion 4 (random):\n\n```javascript\nimport { v4 as uuidv4 } from 'uuid';\nuuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'\n```\n\nOr generate UUIDs with other algorithms of your choice ...\n\nVersion 1 (timestamp):\n\n```javascript\nimport { v1 as uuidv1 } from 'uuid';\nuuidv1(); // ⇨ '2c5ea4c0-4067-11e9-8b2d-1b9d6bcdbbfd'\n```\n\nVersion 3 (namespace):\n\n```javascript\nimport { v3 as uuidv3 } from 'uuid';\n\n// ... using predefined DNS namespace (for domain names)\nuuidv3('hello.example.com', uuidv3.DNS); // ⇨ '9125a8dc-52ee-365b-a5aa-81b0b3681cf6'\n\n// ... using predefined URL namespace (for, well, URLs)\nuuidv3('http://example.com/hello', uuidv3.URL); // ⇨ 'c6235813-3ba4-3801-ae84-e0a6ebb7d138'\n\n// ... using a custom namespace\n//\n// Note: Custom namespaces should be a UUID string specific to your application!\n// E.g. the one here was generated using this modules `uuid` CLI.\nconst MY_NAMESPACE = '1b671a64-40d5-491e-99b0-da01ff1f3341';\nuuidv3('Hello, World!', MY_NAMESPACE); // ⇨ 'e8b5a51d-11c8-3310-a6ab-367563f20686'\n```\n\nVersion 5 (namespace):\n\n```javascript\nimport { v5 as uuidv5 } from 'uuid';\n\n// ... using predefined DNS namespace (for domain names)\nuuidv5('hello.example.com', uuidv5.DNS); // ⇨ 'fdda765f-fc57-5604-a269-52a7df8164ec'\n\n// ... using predefined URL namespace (for, well, URLs)\nuuidv5('http://example.com/hello', uuidv5.URL); // ⇨ '3bbcee75-cecc-5b56-8031-b6641c1ed1f1'\n\n// ... using a custom namespace\n//\n// Note: Custom namespaces should be a UUID string specific to your application!\n// E.g. the one here was generated using this modules `uuid` CLI.\nconst MY_NAMESPACE = '1b671a64-40d5-491e-99b0-da01ff1f3341';\nuuidv5('Hello, World!', MY_NAMESPACE); // ⇨ '630eb68f-e0fa-5ecc-887a-7c7a62614681'\n```\n\n## Supported Platforms\n\n- Node.js: All LTS, i.e. 8.x, 10.x, 12.x\n- Browsers (with bundlers like webpack/rollup):\n  - Chrome: >= 49\n  - Safari: >= 10\n  - Firefox: >= 44\n  - Edge: >= 15\n  - IE: 11\n\n## ECMAScript Modules / ESM\n\nFor usage in the browser `uuid` provides support for [ECMAScript\nModules](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ESM) that enable\ntree-shaking for bundlers, like [rollup.js](https://rollupjs.org/guide/en/#tree-shaking)\n([example](./examples/browser-rollup/)) and [webpack](https://webpack.js.org/guides/tree-shaking/)\n([example](./examples/browser-webpack/)).\n\n```javascript\nimport { v4 as uuidv4 } from 'uuid';\nuuidv4(); // ⇨ '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'\n```\n\nThere is experimental native ESM support for [the browser](./examples/browser-esmodules/) but it\nshould not be considered ready for production use and may change or disappear in future releases.\n\nTo run the examples you must first create a dist build of this library in the module root:\n\n```\nnpm run build\n```\n\n## API\n\n### Version 4 (Random)\n\n```javascript\nimport { v4 as uuidv4 } from 'uuid';\n\n// Incantations\nuuidv4();\nuuidv4(options);\nuuidv4(options, buffer, offset);\n```\n\nGenerate and return a RFC4122 v4 UUID.\n\n- `options` - (Object) Optional uuid state to apply. Properties may include:\n  - `random` - (Number[16]) Array of 16 numbers (0-255) to use in place of randomly generated values. Takes precedence over `options.rng`.\n  - `rng` - (Function) Random # generator function that returns an Array[16] of byte values (0-255). Alternative to `options.random`.\n- `buffer` - (Array | Buffer) Array or buffer where UUID bytes are to be written.\n- `offset` - (Number) Starting index in `buffer` at which to begin writing.\n\nReturns `buffer`, if specified, otherwise the string form of the UUID\n\nExample: Generate string UUID with predefined `random` values\n\n```javascript\nconst v4options = {\n  random: [\n    0x10,\n    0x91,\n    0x56,\n    0xbe,\n    0xc4,\n    0xfb,\n    0xc1,\n    0xea,\n    0x71,\n    0xb4,\n    0xef,\n    0xe1,\n    0x67,\n    0x1c,\n    0x58,\n    0x36,\n  ],\n};\nuuidv4(v4options); // ⇨ '109156be-c4fb-41ea-b1b4-efe1671c5836'\n```\n\nExample: Generate two IDs in a single buffer\n\n```javascript\nconst buffer = new Array();\nuuidv4(null, buffer, 0); // ⇨ \n  // [\n  //   155, 29, 235,  77,  59,\n  //   125, 75, 173, 155, 221,\n  //    43, 13, 123,  61, 203,\n  //   109\n  // ]\nuuidv4(null, buffer, 16); // ⇨ \n  // [\n  //   155,  29, 235,  77,  59, 125,  75, 173,\n  //   155, 221,  43,  13, 123,  61, 203, 109,\n  //    27, 157, 107, 205, 187, 253,  75,  45,\n  //   155,  93, 171, 141, 251, 189,  75, 237\n  // ]\n```\n\n### Version 1 (Timestamp + Node)\n\n⚠️⚠️⚠️ **Please make sure to check whether you really need the timestamp properties of Version 1 UUIDs\nbefore using them. In many cases, Version 4 random UUIDs are the better choice. [This\nFAQ](https://github.com/tc39/proposal-uuid#faq) covers more details.** ⚠️⚠️⚠️\n\n```javascript\nimport { v1 as uuidv1 } from 'uuid';\n\n// Incantations\nuuidv1();\nuuidv1(options);\nuuidv1(options, buffer, offset);\n```\n\nGenerate and return a RFC4122 v1 (timestamp-based) UUID.\n\n- `options` - (Object) Optional uuid state to apply. Properties may include:\n  - `node` - (Array) Node id as Array of 6 bytes (per 4.1.6). Default: Randomly generated ID. See note 1.\n  - `clockseq` - (Number between 0 - 0x3fff) RFC clock sequence. Default: An internally maintained clockseq is used.\n  - `msecs` - (Number) Time in milliseconds since unix Epoch. Default: The current time is used.\n  - `nsecs` - (Number between 0-9999) additional time, in 100-nanosecond units. Ignored if `msecs` is unspecified. Default: internal uuid counter is used, as per 4.2.1.2.\n  - `random` - (Number[16]) Array of 16 numbers (0-255) to use for initialization of `node` and `clockseq` as described above. Takes precedence over `options.rng`.\n  - `rng` - (Function) Random # generator function that returns an Array[16] of byte values (0-255). Alternative to `options.random`.\n- `buffer` - (Array | Buffer) Array or buffer where UUID bytes are to be written.\n- `offset` - (Number) Starting index in `buffer` at which to begin writing.\n\nReturns `buffer`, if specified, otherwise the string form of the UUID\n\nNote: The default [node id](https://tools.ietf.org/html/rfc4122#section-4.1.6) (the last 12 digits in the UUID) is generated once, randomly, on process startup, and then remains unchanged for the duration of the process.\n\nExample: Generate string UUID with fully-specified options\n\n```javascript\nconst v1options = {\n  node: [0x01, 0x23, 0x45, 0x67, 0x89, 0xab],\n  clockseq: 0x1234,\n  msecs: new Date('2011-11-01').getTime(),\n  nsecs: 5678,\n};\nuuidv1(v1options); // ⇨ '710b962e-041c-11e1-9234-0123456789ab'\n```\n\nExample: In-place generation of two binary IDs\n\n```javascript\n// Generate two ids in an array\nconst arr = new Array();\nuuidv1(null, arr, 0); // ⇨ \n  // [\n  //    44,  94, 164, 192,  64,\n  //   103,  17, 233, 146,  52,\n  //    27, 157, 107, 205, 187,\n  //   253\n  // ]\nuuidv1(null, arr, 16); // ⇨ \n  // [\n  //    44, 94, 164, 192,  64, 103,  17, 233,\n  //   146, 52,  27, 157, 107, 205, 187, 253,\n  //    44, 94, 164, 193,  64, 103,  17, 233,\n  //   146, 52,  27, 157, 107, 205, 187, 253\n  // ]\n```\n\n### Version 3 (Namespace)\n\n```javascript\nimport { v3 as uuidv3 } from 'uuid';\n\n// Incantations\nuuidv3(name, namespace);\nuuidv3(name, namespace, buffer);\nuuidv3(name, namespace, buffer, offset);\n```\n\nGenerate and return a RFC4122 v3 UUID.\n\n- `name` - (String | Array[]) \"name\" to create UUID with\n- `namespace` - (String | Array[]) \"namespace\" UUID either as a String or Array[16] of byte values\n- `buffer` - (Array | Buffer) Array or buffer where UUID bytes are to be written.\n- `offset` - (Number) Starting index in `buffer` at which to begin writing. Default = 0\n\nReturns `buffer`, if specified, otherwise the string form of the UUID\n\nExample:\n\n```javascript\nuuidv3('hello world', MY_NAMESPACE); // ⇨ '042ffd34-d989-321c-ad06-f60826172424'\n```\n\n### Version 5 (Namespace)\n\n```javascript\nimport { v5 as uuidv5 } from 'uuid';\n\n// Incantations\nuuidv5(name, namespace);\nuuidv5(name, namespace, buffer);\nuuidv5(name, namespace, buffer, offset);\n```\n\nGenerate and return a RFC4122 v5 UUID.\n\n- `name` - (String | Array[]) \"name\" to create UUID with\n- `namespace` - (String | Array[]) \"namespace\" UUID either as a String or Array[16] of byte values\n- `buffer` - (Array | Buffer) Array or buffer where UUID bytes are to be written.\n- `offset` - (Number) Starting index in `buffer` at which to begin writing. Default = 0\n\nReturns `buffer`, if specified, otherwise the string form of the UUID\n\nExample:\n\n```javascript\nuuidv5('hello world', MY_NAMESPACE); // ⇨ '9f282611-e0fd-5650-8953-89c8e342da0b'\n```\n\n## Command Line\n\nUUIDs can be generated from the command line with the `uuid` command.\n\n```shell\n$ uuid\nddeb27fb-d9a0-4624-be4d-4615062daed4\n\n$ uuid v1\n02d37060-d446-11e7-a9fa-7bdae751ebe1\n```\n\nType `uuid --help` for usage details\n\n## UMD Build\n\nIf you want to load a minified UMD build directly in the browser you can use one of the popular npm\nCDNs:\n\n```html\n<script src=\"https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js\"></script>\n<script>\n  alert(uuidv4());\n</script>\n```\n\nor\n\n```html\n<script src=\"https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js\"></script>\n<script>\n  alert(uuidv4());\n</script>\n```\n\nAvailable bundles:\n\n- https://unpkg.com/uuid@latest/dist/umd/\n- https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/\n\n----\nMarkdown generated from [README_js.md](README_js.md) by [![RunMD Logo](http://i.imgur.com/h0FVyzU.png)](https://github.com/broofa/runmd)",
+      "readmeFilename" : "README.md",
+      "sideEffects" : false,
+      "_nodeVersion" : "12.15.0"
+    },
+    "7.0.0" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "7.0.0",
+      "homepage" : "https://github.com/uuidjs/uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/uuidjs/uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/uuidjs/uuid/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-7.0.0.tgz",
+        "shasum" : "1833d4b9ce50b732bfaa271f9cb74e974d303c79"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "7.8.4",
+        "@babel/core" : "7.8.4",
+        "@babel/preset-env" : "7.8.4",
+        "@commitlint/cli" : "8.3.5",
+        "@commitlint/config-conventional" : "8.3.4",
+        "babel-eslint" : "10.0.3",
+        "babel-plugin-add-module-exports" : "1.0.2",
+        "browserstack-local" : "1.4.5",
+        "bundlewatch" : "0.2.5",
+        "eslint" : "6.8.0",
+        "eslint-config-prettier" : "6.10.0",
+        "eslint-plugin-prettier" : "3.1.2",
+        "esm" : "3.2.25",
+        "http-server" : "0.12.1",
+        "husky" : "3.0.9",
+        "jest" : "25.1.0",
+        "lint-staged" : "10.0.7",
+        "npm-run-all" : "4.1.5",
+        "prettier" : "1.19.1",
+        "rollup" : "1.31.1",
+        "rollup-plugin-terser" : "5.2.0",
+        "runmd" : "1.3.2",
+        "selenium-webdriver" : "3.6.0",
+        "standard-version" : "7.1.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "dist/bin/uuid"
+      },
+      "maintainers" : [ {
+        "email" : "robert@broofa.com",
+        "name" : "broofa"
+      }, {
+        "email" : "dev@tavan.de",
+        "name" : "ctavan"
+      }, {
+        "email" : "shtylman@gmail.com",
+        "name" : "defunctzombie"
+      }, {
+        "email" : "vincent.voyer@gmail.com",
+        "name" : "vvo"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "examples:browser-webpack:build" : "cd examples/browser-webpack && npm install && npm run build",
+        "examples:browser-rollup:build" : "cd examples/browser-rollup && npm install && npm run build",
+        "examples:browser-esmodules:build" : "cd examples/browser-esmodules && npm install && npm run build",
+        "lint" : "npm run eslint:check && npm run prettier:check",
+        "eslint:check" : "eslint src/ test/ examples/ *.js",
+        "eslint:fix" : "eslint --fix src/ test/ examples/ *.js",
+        "pretest" : "npm run build",
+        "test" : "BABEL_ENV=commonjs node --throw-deprecation node_modules/.bin/jest test/unit/",
+        "pretest:browser" : "npm run build && npm-run-all --parallel examples:**",
+        "test:browser" : "BABEL_ENV=commonjs jest --forceExit --verbose test/browser/${BROWSER:-}*",
+        "prettier:check" : "prettier --ignore-path .prettierignore --check '**/*.{js,jsx,json,md}'",
+        "prettier:fix" : "prettier --ignore-path .prettierignore --write '**/*.{js,jsx,json,md}'",
+        "ci" : "npm run lint && npm run test && npm run prettier:check && npm run docs:diff && npm run bundlewatch",
+        "bundlewatch" : "( node --version | grep -vq 'v12' ) || ( npm run pretest:browser && CI_REPO_OWNER=uuidjs CI_REPO_NAME=uuid CI_COMMIT_SHA=$GITHUB_SHA CI_BRANCH=${GITHUB_REF##refs/heads/} bundlewatch --config bundlewatch.config.json )",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "docs" : "( node --version | grep -q 'v12' ) && ( npm run build && runmd --output=README.md README_js.md )",
+        "docs:diff" : "( node --version | grep -vq 'v12' ) || ( npm run docs && git diff --quiet README.md )",
+        "build" : "./scripts/build.sh",
+        "release" : "standard-version --no-verify"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "ctavan",
+        "email" : "dev@tavan.de"
+      },
+      "_id" : "uuid@7.0.0",
+      "lint-staged" : {
+        "*.{js,jsx,json,md}" : [ "prettier --write" ],
+        "*.{js,jsx}" : [ "eslint --fix" ]
+      },
+      "gitHead" : "63e5702d7629303a5193c4dd31825376f240f888",
+      "husky" : {
+        "hooks" : {
+          "commit-msg" : "commitlint -E HUSKY_GIT_PARAMS",
+          "pre-commit" : "lint-staged"
+        }
+      },
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "module" : "dist/esm-browser/index.js",
+      "standard-version" : {
+        "scripts" : {
+          "postchangelog" : "prettier --write CHANGELOG.md",
+          "postcommit" : "npm run build"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid_7.0.0_1582550626542_0.483157796354976"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "12.16.0"
+    },
+    "0.0.2" : {
+      "name" : "uuid",
+      "description" : "Simple libuuid bindings to allow UUIDs to be generated from JS.",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Nikhil Marathe"
+      },
+      "repository" : {
+        "type" : "hg",
+        "url" : "http://bitbucket.org/nikhilm/uuidjs"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "build/default/uuid",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-0.0.2.tgz",
+        "shasum" : "3171f2c4f58895b8b307692a335fb2349ddf6733"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "preinstall" : "node-waf configure && node-waf build"
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "uuid@0.0.2",
+      "engine" : [ "node >=0.1.103" ],
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "2.0.2" : {
+      "name" : "uuid",
+      "description" : "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      },
+      "homepage" : "https://github.com/shtylman/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shtylman/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/shtylman/node-uuid/issues"
+      },
+      "main" : "./uuid.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-2.0.2.tgz",
+        "shasum" : "48bd5698f0677e3c7901a1c46ef15b1643794726"
+      },
+      "devDependencies" : {
+        "mocha" : "1.8.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.2",
+      "_npmUser" : {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      },
+      "_id" : "uuid@2.0.2",
+      "gitHead" : "6e95855ff4b79881aa95c5502478314adc6719dc",
+      "browser" : {
+        "./rng.js" : "./rng-browser.js"
+      },
+      "testling" : {
+        "browsers" : [ "ie6..latest", "firefox/3.6..latest", "chrome/22..latest", "safari/5.1..latest" ],
+        "harness" : "mocha-tdd",
+        "files" : "test/*.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/uuid-2.0.2.tgz_1460533041436_0.07706069457344711"
+      },
+      "_shasum" : "48bd5698f0677e3c7901a1c46ef15b1643794726",
+      "_nodeVersion" : "5.9.1"
+    },
+    "0.0.1" : {
+      "name" : "uuid",
+      "description" : "Simple libuuid bindings to allow UUIDs to be generated from JS.",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Nikhil Marathe"
+      },
+      "repository" : {
+        "type" : "hg",
+        "url" : "http://bitbucket.org/nikhilm/uuidjs"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "build/default/uuid",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-0.0.1.tgz",
+        "shasum" : "5b43a6840d25914b5a76a0664d71a51601ddec79"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "preinstall" : "node-waf configure && node-waf build"
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "uuid@0.0.1",
+      "engine" : [ "node >=0.1.103" ],
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "2.0.3" : {
+      "name" : "uuid",
+      "description" : "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      },
+      "homepage" : "https://github.com/defunctzombie/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/defunctzombie/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/defunctzombie/node-uuid/issues"
+      },
+      "main" : "./uuid.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-2.0.3.tgz",
+        "shasum" : "67e2e863797215530dff318e5bf9dcebfd47b21a"
+      },
+      "devDependencies" : {
+        "mocha" : "1.8.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      },
+      "_id" : "uuid@2.0.3",
+      "gitHead" : "3f44acd0e722e965c14af816e2f658361a6b15f9",
+      "browser" : {
+        "./rng.js" : "./rng-browser.js"
+      },
+      "testling" : {
+        "browsers" : [ "ie6..latest", "firefox/3.6..latest", "chrome/22..latest", "safari/5.1..latest" ],
+        "harness" : "mocha-tdd",
+        "files" : "test/*.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/uuid-2.0.3.tgz_1474232617862_0.6578061426989734"
+      },
+      "_shasum" : "67e2e863797215530dff318e5bf9dcebfd47b21a",
+      "_nodeVersion" : "6.2.0"
+    },
+    "1.4.0" : {
+      "name" : "uuid",
+      "description" : "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/broofa/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      } ],
+      "main" : "./uuid.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-1.4.0.tgz",
+        "shasum" : "d0d3b84ab56902e99ff952f2a17aa3986d44d36f"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.66",
+      "_npmUser" : {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      },
+      "_id" : "uuid@1.4.0",
+      "lib" : ".",
+      "url" : "http://github.com/broofa/node-uuid"
+    },
+    "1.4.1" : {
+      "name" : "uuid",
+      "description" : "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/shtylman/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      } ],
+      "main" : "./uuid.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-1.4.1.tgz",
+        "shasum" : "a337828580d426e375b8ee11bd2bf901a596e0b8"
+      },
+      "devDependencies" : {
+        "mocha" : "1.8.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.11",
+      "_npmUser" : {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      },
+      "_id" : "uuid@1.4.1",
+      "browser" : {
+        "./rng.js" : "./rng-browser.js"
+      },
+      "testling" : {
+        "browsers" : [ "ie6..latest", "firefox/3.6..latest", "chrome/22..latest", "safari/5.1..latest" ],
+        "harness" : "mocha-tdd",
+        "files" : "test/*.js"
+      }
+    },
+    "1.4.2" : {
+      "name" : "uuid",
+      "description" : "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      },
+      "homepage" : "https://github.com/shtylman/node-uuid",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/shtylman/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/shtylman/node-uuid/issues"
+      },
+      "main" : "./uuid.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-1.4.2.tgz",
+        "shasum" : "453019f686966a6df83cdc5244e7c990ecc332fc"
+      },
+      "devDependencies" : {
+        "mocha" : "1.8.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      },
+      "_id" : "uuid@1.4.2",
+      "gitHead" : "688730efe3ec3ab7c12c6b92db2aa2826a50ed14",
+      "browser" : {
+        "./rng.js" : "./rng-browser.js",
+        "./buffer.js" : "./buffer-browser.js"
+      },
+      "testling" : {
+        "browsers" : [ "ie6..latest", "firefox/3.6..latest", "chrome/22..latest", "safari/5.1..latest" ],
+        "harness" : "mocha-tdd",
+        "files" : "test/*.js"
+      },
+      "_shasum" : "453019f686966a6df83cdc5244e7c990ecc332fc"
+    },
+    "3.0.0" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1 and v4) generator",
+      "version" : "3.0.0",
+      "homepage" : "https://github.com/kelektiv/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kelektiv/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/kelektiv/node-uuid/issues"
+      },
+      "main" : "./uuid.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.0.0.tgz",
+        "shasum" : "6728fc0459c450d796a99c31837569bdf672d728"
+      },
+      "devDependencies" : {
+        "mocha" : "3.1.2"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "tim-smart",
+        "email" : "tim@fostle.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      },
+      "_id" : "uuid@3.0.0",
+      "gitHead" : "923fe4a7893c2057b608c0c74743ad5512599072",
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/uuid-3.0.0.tgz_1479448535568_0.9578766466584057"
+      },
+      "_shasum" : "6728fc0459c450d796a99c31837569bdf672d728",
+      "_nodeVersion" : "6.7.0"
+    },
+    "3.3.2" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "3.3.2",
+      "homepage" : "https://github.com/kelektiv/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kelektiv/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/kelektiv/node-uuid/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.3.2.tgz",
+        "shasum" : "1b4af4955eb3077c501c23872fc6513811587131"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "7.0.0",
+        "@commitlint/config-conventional" : "7.0.1",
+        "eslint" : "4.19.1",
+        "husky" : "0.14.3",
+        "mocha" : "5.2.0",
+        "runmd" : "1.0.1",
+        "standard-version" : "4.4.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "commitmsg" : "commitlint -E GIT_PARAMS",
+        "test" : "mocha test/test.js",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "release" : "standard-version",
+        "prepare" : "runmd --output=README.md README_js.md"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      },
+      "_id" : "uuid@3.3.2",
+      "gitHead" : "fe4ae79c55af2c7cbf2bb39d3bcb6716d5367091",
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js",
+        "./lib/sha1.js" : "./lib/sha1-browser.js",
+        "./lib/md5.js" : "./lib/md5-browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid_3.3.2_1530221341707_0.5404045638057293"
+      },
+      "_nodeVersion" : "10.5.0"
+    },
+    "3.3.3" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "3.3.3",
+      "homepage" : "https://github.com/kelektiv/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kelektiv/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/kelektiv/node-uuid/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.3.3.tgz",
+        "shasum" : "4568f0216e78760ee1dbf3a4d2cf53e224112866"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "8.1.0",
+        "@commitlint/config-conventional" : "8.1.0",
+        "eslint" : "6.2.0",
+        "husky" : "3.0.4",
+        "mocha" : "6.2.0",
+        "runmd" : "1.2.1",
+        "standard-version" : "7.0.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "commitmsg" : "commitlint -E HUSKY_GIT_PARAMS",
+        "test" : "mocha test/test.js",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "release" : "standard-version",
+        "prepare" : "runmd --output=README.md README_js.md"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      },
+      "_id" : "uuid@3.3.3",
+      "gitHead" : "ab33c8a77df180de1a12fede423490b3c2de9d07",
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js",
+        "./lib/sha1.js" : "./lib/sha1-browser.js",
+        "./lib/md5.js" : "./lib/md5-browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid_3.3.3_1566221184938_0.9358725731017152"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "3.0.1" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1 and v4) generator",
+      "version" : "3.0.1",
+      "homepage" : "https://github.com/kelektiv/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kelektiv/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/kelektiv/node-uuid/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.0.1.tgz",
+        "shasum" : "6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
+      },
+      "devDependencies" : {
+        "mocha" : "3.1.2"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      },
+      "_id" : "uuid@3.0.1",
+      "gitHead" : "374de826de71d8997f71b4641f65552e48956ced",
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/uuid-3.0.1.tgz_1480403886767_0.2584113120101392"
+      },
+      "_shasum" : "6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1",
+      "_nodeVersion" : "6.7.0"
+    },
+    "3.1.0" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "3.1.0",
+      "homepage" : "https://github.com/kelektiv/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kelektiv/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/kelektiv/node-uuid/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.1.0.tgz",
+        "shasum" : "3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
+      },
+      "devDependencies" : {
+        "mocha" : "3.1.2"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      },
+      "_id" : "uuid@3.1.0",
+      "gitHead" : "c50ac88f098ecfbff9a940816c8e6825ffd7e05a",
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js",
+        "./lib/sha1.js" : "./lib/sha1-browser.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid-3.1.0.tgz_1497635691778_0.6424044836312532"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "3.2.0" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "3.2.0",
+      "homepage" : "https://github.com/kelektiv/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kelektiv/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/kelektiv/node-uuid/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.2.0.tgz",
+        "shasum" : "19a63e22b3b32a0ba23984a4f384836465e24949"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "eslint" : "4.5.0",
+        "mocha" : "3.1.2",
+        "runmd" : "1.0.1",
+        "standard-version" : "4.2.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "release" : "standard-version",
+        "prepare" : "runmd --output=README.md README_js.md"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      },
+      "_id" : "uuid@3.2.0",
+      "gitHead" : "c0d44fda8abeac5eb1444f03a135f8a6353854da",
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js",
+        "./lib/sha1.js" : "./lib/sha1-browser.js",
+        "./lib/md5.js" : "./lib/md5-browser.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid-3.2.0.tgz_1516113890512_0.8254034700803459"
+      },
+      "_nodeVersion" : "7.10.1"
+    },
+    "3.2.1" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "3.2.1",
+      "homepage" : "https://github.com/kelektiv/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kelektiv/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/kelektiv/node-uuid/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.2.1.tgz",
+        "shasum" : "12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "eslint" : "4.5.0",
+        "mocha" : "3.1.2",
+        "runmd" : "1.0.1",
+        "standard-version" : "4.2.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/test.js",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "release" : "standard-version",
+        "prepare" : "runmd --output=README.md README_js.md"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      },
+      "_id" : "uuid@3.2.1",
+      "gitHead" : "ce7d3176fc927ab83b4e29b8d5a37b7243ce3360",
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js",
+        "./lib/sha1.js" : "./lib/sha1-browser.js",
+        "./lib/md5.js" : "./lib/md5-browser.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid-3.2.1.tgz_1516124697652_0.3172094284091145"
+      },
+      "_nodeVersion" : "7.10.1"
+    },
+    "3.3.0" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "3.3.0",
+      "homepage" : "https://github.com/kelektiv/node-uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kelektiv/node-uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/kelektiv/node-uuid/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.3.0.tgz",
+        "shasum" : "b237147804881d7b86f40a7ff8f590f15c37de32"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "7.0.0",
+        "@commitlint/config-conventional" : "7.0.1",
+        "eslint" : "4.19.1",
+        "husky" : "0.14.3",
+        "mocha" : "5.2.0",
+        "runmd" : "1.0.1",
+        "standard-version" : "4.4.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "vvo",
+        "email" : "vincent.voyer@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "commitmsg" : "commitlint -E GIT_PARAMS",
+        "test" : "mocha test/test.js",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "release" : "standard-version",
+        "prepare" : "runmd --output=README.md README_js.md"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "broofa",
+        "email" : "robert@broofa.com"
+      },
+      "_id" : "uuid@3.3.0",
+      "gitHead" : "1cb9826260b46352db19ccbfb36dfdbc323c35c9",
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js",
+        "./lib/sha1.js" : "./lib/sha1-browser.js",
+        "./lib/md5.js" : "./lib/md5-browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid_3.3.0_1530019419356_0.9632179204070574"
+      },
+      "_nodeVersion" : "8.11.1"
+    },
+    "3.4.0" : {
+      "name" : "uuid",
+      "description" : "RFC4122 (v1, v4, and v5) UUIDs",
+      "version" : "3.4.0",
+      "homepage" : "https://github.com/uuidjs/uuid#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/uuidjs/uuid.git"
+      },
+      "contributors" : [ {
+        "name" : "Robert Kieffer",
+        "email" : "robert@broofa.com"
+      }, {
+        "name" : "Christoph Tavan",
+        "email" : "dev@tavan.de"
+      }, {
+        "name" : "AJ ONeal",
+        "email" : "coolaj86@gmail.com"
+      }, {
+        "name" : "Vincent Voyer",
+        "email" : "vincent@zeroload.net"
+      }, {
+        "name" : "Roman Shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/uuidjs/uuid/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/uuid/-/uuid-3.4.0.tgz",
+        "shasum" : "b23e4358afa8a202fe7a100af1f5f883f02007ee"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "~8.2.0",
+        "@commitlint/config-conventional" : "~8.2.0",
+        "eslint" : "~6.4.0",
+        "husky" : "~3.0.5",
+        "mocha" : "6.2.0",
+        "runmd" : "1.2.1",
+        "standard-version" : "7.0.0"
+      },
+      "keywords" : [ "uuid", "guid", "rfc4122" ],
+      "license" : "MIT",
+      "bin" : {
+        "uuid" : "./bin/uuid"
+      },
+      "maintainers" : [ {
+        "email" : "robert@broofa.com",
+        "name" : "broofa"
+      }, {
+        "email" : "dev@tavan.de",
+        "name" : "ctavan"
+      }, {
+        "email" : "shtylman@gmail.com",
+        "name" : "defunctzombie"
+      }, {
+        "email" : "vincent.voyer@gmail.com",
+        "name" : "vvo"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "npm run lint && mocha test/test.js",
+        "md" : "runmd --watch --output=README.md README_js.md",
+        "release" : "standard-version",
+        "prepare" : "runmd --output=README.md README_js.md"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "ctavan",
+        "email" : "dev@tavan.de"
+      },
+      "_id" : "uuid@3.4.0",
+      "gitHead" : "3df73a98f07c0a38a94bcaf1ecde0e384dc3b126",
+      "husky" : {
+        "hooks" : {
+          "commit-msg" : "commitlint -E HUSKY_GIT_PARAMS"
+        }
+      },
+      "commitlint" : {
+        "extends" : [ "@commitlint/config-conventional" ]
+      },
+      "browser" : {
+        "./lib/rng.js" : "./lib/rng-browser.js",
+        "./lib/sha1.js" : "./lib/sha1-browser.js",
+        "./lib/md5.js" : "./lib/md5-browser.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/uuid_3.4.0_1579208738423_0.4772515028870088"
+      },
+      "_nodeVersion" : "12.13.0"
+    }
+  },
+  "readme" : "<!--\n  -- This file is auto-generated from README_js.md. Changes should be made there.\n  -->\n\n# uuid [![Build Status](https://github.com/uuidjs/uuid/workflows/CI/badge.svg)](https://github.com/uuidjs/uuid/actions)\n\nFor the creation of [RFC4122](http://www.ietf.org/rfc/rfc4122.txt) UUIDs\n\n- **Complete** - Support for RFC4122 version 1, 3, 4, and 5 UUIDs\n- **Cross-platform** - Support for ...\n  - CommonJS, [ECMAScript Modules](#ecmascript-modules) and UMD builds\n  - Node 8, 10, 12\n  - Chrome, Safari, Firefox, Edge, IE 11 browsers\n  - Webpack and rollup.js module bundlers\n- **Secure** - Cryptographically-strong random values\n- **Small** - Zero-dependency, small footprint, plays nice with \"tree shaking\" packagers\n- **CLI** - Includes the [`uuid` command line](#command-line) utility\n\n**Upgrading from uuid\\@3?** Your code is probably okay, but check out [Upgrading\nFrom uuid\\@3](#upgrading-from-uuid3) for details.\n\n## Quickstart - Node.js/CommonJS\n\n```shell\nnpm install uuid\n```\n\nOnce installed, decide which type of UUID you need. RFC4122 provides for four\nversions, all of which are supported here. In order of popularity, they are:\n\n- Version 4 (random) - Created from cryptographically-strong random values\n- Version 1 (timestamp) - Created from the system clock (plus random values)\n- Version 5 (namespace, SHA-1) - Created from user-supplied name and namespace strings\n- Version 3 (namespace, MD5) - Like version 5, above, but with a poorer hash algorithm\n\n**Unsure which one to use?** Use version 4 (random) unless you have a specific need for one of the other versions. See also [this FAQ](https://github.com/tc39/proposal-uuid#faq).\n\n### Create Version 4 (Random) UUIDs\n\n```javascript\nimport { v4 as uuidv4 } from 'uuid';\nuuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'\n```\n\n### Create Version 1 (Timestamp) UUIDs\n\n```javascript\nimport { v1 as uuidv1 } from 'uuid';\nuuidv1(); // ⇨ '2c5ea4c0-4067-11e9-8b2d-1b9d6bcdbbfd'\n```\n\n### Create Version 3 or Version 5 (Namespace) UUIDs\n\n&#x26a0;&#xfe0f; Version 3 and Version 5 UUIDs are basically the same, differing\nonly in the underlying hash algorithm. Note that per the RFC, \"_If backward\ncompatibility is not an issue, SHA-1 [Version 5] is preferred_.\"\n\n&#x26a0;&#xfe0f; If using a custom namespace **be sure to generate your own\nnamespace UUID**. You can grab one [here](https://www.uuidgenerator.net/).\n\n```javascript\nimport { v5 as uuidv5 } from 'uuid'; // For version 5\nimport { v3 as uuidv3 } from 'uuid'; // For version 3\n\n// Using predefined DNS namespace (for domain names)\nuuidv5('hello.example.com', uuidv5.DNS); // ⇨ 'fdda765f-fc57-5604-a269-52a7df8164ec'\nuuidv3('hello.example.com', uuidv3.DNS); // ⇨ '9125a8dc-52ee-365b-a5aa-81b0b3681cf6'\n\n// Using predefined URL namespace (for URLs)\nuuidv5('http://example.com/hello', uuidv5.URL); // ⇨ '3bbcee75-cecc-5b56-8031-b6641c1ed1f1'\nuuidv3('http://example.com/hello', uuidv3.URL); // ⇨ 'c6235813-3ba4-3801-ae84-e0a6ebb7d138'\n\n// Using a custom namespace (See note, above, about generating your own\n// namespace UUID)\nconst MY_NAMESPACE = '1b671a64-40d5-491e-99b0-da01ff1f3341';\nuuidv5('Hello, World!', MY_NAMESPACE); // ⇨ '630eb68f-e0fa-5ecc-887a-7c7a62614681'\nuuidv3('Hello, World!', MY_NAMESPACE); // ⇨ 'e8b5a51d-11c8-3310-a6ab-367563f20686'\n```\n\n## API\n\n### Version 4 (Random)\n\n```javascript\nimport { v4 as uuidv4 } from 'uuid';\n\n// Incantations\nuuidv4();\nuuidv4(options);\nuuidv4(options, buffer, offset);\n```\n\nGenerate and return a RFC4122 version 4 UUID.\n\n- `options` - (Object) Optional uuid state to apply. Properties may include:\n  - `random` - (Number[16]) Array of 16 numbers (0-255) to use in place of randomly generated values. Takes precedence over `options.rng`.\n  - `rng` - (Function) Random # generator function that returns an Array[16] of byte values (0-255). Alternative to `options.random`.\n- `buffer` - (Array | Buffer) Array or buffer where UUID bytes are to be written.\n- `offset` - (Number) Starting index in `buffer` at which to begin writing.\n\nReturns `buffer`, if specified, otherwise the string form of the UUID\n\nExample: Generate string UUID with predefined `random` values\n\n```javascript\nconst v4options = {\n  random: [\n    0x10,\n    0x91,\n    0x56,\n    0xbe,\n    0xc4,\n    0xfb,\n    0xc1,\n    0xea,\n    0x71,\n    0xb4,\n    0xef,\n    0xe1,\n    0x67,\n    0x1c,\n    0x58,\n    0x36,\n  ],\n};\nuuidv4(v4options); // ⇨ '109156be-c4fb-41ea-b1b4-efe1671c5836'\n```\n\nExample: Generate two IDs in a single buffer\n\n```javascript\nconst buffer = new Array();\nuuidv4(null, buffer, 0); // ⇨ \n  // [\n  //   155, 29, 235,  77,  59,\n  //   125, 75, 173, 155, 221,\n  //    43, 13, 123,  61, 203,\n  //   109\n  // ]\nuuidv4(null, buffer, 16); // ⇨ \n  // [\n  //   155,  29, 235,  77,  59, 125,  75, 173,\n  //   155, 221,  43,  13, 123,  61, 203, 109,\n  //    27, 157, 107, 205, 187, 253,  75,  45,\n  //   155,  93, 171, 141, 251, 189,  75, 237\n  // ]\n```\n\n### Version 1 (Timestamp)\n\n```javascript\nimport { v1 as uuidv1 } from 'uuid';\n\n// Incantations\nuuidv1();\nuuidv1(options);\nuuidv1(options, buffer, offset);\n```\n\nGenerate and return a RFC4122 version 1 (timestamp) UUID.\n\n- `options` - (Object) Optional uuid state to apply. Properties may include:\n  - `node` - (Array) Node id as Array of 6 bytes (per 4.1.6). Default: Randomly generated ID. See note 1.\n  - `clockseq` - (Number between 0 - 0x3fff) RFC clock sequence. Default: An internally maintained clockseq is used.\n  - `msecs` - (Number) Time in milliseconds since unix Epoch. Default: The current time is used.\n  - `nsecs` - (Number between 0-9999) additional time, in 100-nanosecond units. Ignored if `msecs` is unspecified. Default: internal uuid counter is used, as per 4.2.1.2.\n  - `random` - (Number[16]) Array of 16 numbers (0-255) to use for initialization of `node` and `clockseq` as described above. Takes precedence over `options.rng`.\n  - `rng` - (Function) Random # generator function that returns an Array[16] of byte values (0-255). Alternative to `options.random`.\n- `buffer` - (Array | Buffer) Array or buffer where UUID bytes are to be written.\n- `offset` - (Number) Starting index in `buffer` at which to begin writing.\n\nReturns `buffer`, if specified, otherwise the string form of the UUID\n\nNote: The default [node id](https://tools.ietf.org/html/rfc4122#section-4.1.6) (the last 12 digits in the UUID) is generated once, randomly, on process startup, and then remains unchanged for the duration of the process.\n\nExample: Generate string UUID with fully-specified options\n\n```javascript\nconst v1options = {\n  node: [0x01, 0x23, 0x45, 0x67, 0x89, 0xab],\n  clockseq: 0x1234,\n  msecs: new Date('2011-11-01').getTime(),\n  nsecs: 5678,\n};\nuuidv1(v1options); // ⇨ '710b962e-041c-11e1-9234-0123456789ab'\n```\n\nExample: In-place generation of two binary IDs\n\n```javascript\n// Generate two ids in an array\nconst arr = new Array();\nuuidv1(null, arr, 0); // ⇨ \n  // [\n  //    44,  94, 164, 192,  64,\n  //   103,  17, 233, 146,  52,\n  //    27, 157, 107, 205, 187,\n  //   253\n  // ]\nuuidv1(null, arr, 16); // ⇨ \n  // [\n  //    44, 94, 164, 192,  64, 103,  17, 233,\n  //   146, 52,  27, 157, 107, 205, 187, 253,\n  //    44, 94, 164, 193,  64, 103,  17, 233,\n  //   146, 52,  27, 157, 107, 205, 187, 253\n  // ]\n```\n\n### Version 5 (Namespace)\n\n```javascript\nimport { v5 as uuidv5 } from 'uuid';\n\n// Incantations\nuuidv5(name, namespace);\nuuidv5(name, namespace, buffer);\nuuidv5(name, namespace, buffer, offset);\n```\n\nGenerate and return a RFC4122 version 5 UUID.\n\n- `name` - (String | Array[]) \"name\" to create UUID with\n- `namespace` - (String | Array[]) \"namespace\" UUID either as a String or Array[16] of byte values\n- `buffer` - (Array | Buffer) Array or buffer where UUID bytes are to be written.\n- `offset` - (Number) Starting index in `buffer` at which to begin writing. Default = 0\n\nReturns `buffer`, if specified, otherwise the string form of the UUID\n\nExample:\n\n```javascript\nuuidv5('hello world', MY_NAMESPACE); // ⇨ '9f282611-e0fd-5650-8953-89c8e342da0b'\n```\n\n### Version 3 (Namespace)\n\n&#x26a0;&#xfe0f; Note: Per the RFC, \"_If backward compatibility is not an issue, SHA-1 [Version 5] is preferred_.\"\n\n```javascript\nimport { v3 as uuidv3 } from 'uuid';\n\n// Incantations\nuuidv3(name, namespace);\nuuidv3(name, namespace, buffer);\nuuidv3(name, namespace, buffer, offset);\n```\n\nGenerate and return a RFC4122 version 3 UUID.\n\n- `name` - (String | Array[]) \"name\" to create UUID with\n- `namespace` - (String | Array[]) \"namespace\" UUID either as a String or Array[16] of byte values\n- `buffer` - (Array | Buffer) Array or buffer where UUID bytes are to be written.\n- `offset` - (Number) Starting index in `buffer` at which to begin writing. Default = 0\n\nReturns `buffer`, if specified, otherwise the string form of the UUID\n\nExample:\n\n```javascript\nuuidv3('hello world', MY_NAMESPACE); // ⇨ '042ffd34-d989-321c-ad06-f60826172424'\n```\n\n## Command Line\n\nUUIDs can be generated from the command line using `uuid`.\n\n```shell\n$ uuid\nddeb27fb-d9a0-4624-be4d-4615062daed4\n```\n\nThe default is to generate version 4 UUIDS, however the other versions are supported. Type `uuid --help` for details:\n\n```\n$ uuid --help\n\nUsage:\n  uuid\n  uuid v1\n  uuid v3 <name> <namespace uuid>\n  uuid v4\n  uuid v5 <name> <namespace uuid>\n  uuid --help\n\nNote: <namespace uuid> may be \"URL\" or \"DNS\" to use the corresponding UUIDs\ndefined by RFC4122\n```\n\n## ECMAScript Modules\n\nFor usage in the browser `uuid` provides support for [ECMAScript\nModules](https://www.ecma-international.org/ecma-262/6.0/#sec-modules) (ESM) that enable\ntree-shaking for bundlers, like [rollup.js](https://rollupjs.org/guide/en/#tree-shaking)\n([example](./examples/browser-rollup/)) and [webpack](https://webpack.js.org/guides/tree-shaking/)\n([example](./examples/browser-webpack/)).\n\n```javascript\nimport { v4 as uuidv4 } from 'uuid';\nuuidv4(); // ⇨ '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'\n```\n\nThere is experimental native ESM support for [the browser](./examples/browser-esmodules/) but it\nshould not be considered ready for production use and may change or disappear in future releases.\n\nTo run the examples you must first create a dist build of this library in the module root:\n\n```\nnpm run build\n```\n\n## UMD Builds\n\nIf you want to load a minified UMD build directly in the browser you can use one of the popular npm\nCDNs:\n\n```html\n<script src=\"https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js\"></script>\n<script>\n  alert(uuidv4());\n</script>\n```\n\nor\n\n```html\n<script src=\"https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js\"></script>\n<script>\n  alert(uuidv4());\n</script>\n```\n\nAvailable bundles:\n\n- https://unpkg.com/uuid@latest/dist/umd/\n- https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/\n\n## Upgrading From uuid\\@3\n\n\"_Wait... what happened to uuid\\@4 - uuid\\@6?!?_\"\n\nIn order to avoid confusion with RFC [version 4](#version-4-random) and [version\n5](#version-5-namespace) UUIDs, and a possible [version\n6](http://gh.peabody.io/uuidv6/), releases 4 thru 6 of this module have been\nskipped. Hence, how we're now at uuid\\@7.\n\n### Deep Requires Now Deprecated\n\nuuid\\@3 encouraged the use of deep requires to minimize the bundle size of\nbrowser builds:\n\n```javascript\nconst uuidv4 = require('uuid/v4'); // <== NOW DEPRECATED!\nuuidv4();\n```\n\nAs of uuid\\@7 this library now provides ECMAScript modules builds, which allow\npackagers like Webpack and Rollup to do \"tree-shaking\" to remove dead code.\nInstead, use the `import` syntax:\n\n```javascript\nimport { v4 as uuidv4 } from 'uuid';\nuuidv4();\n```\n\n... or for CommonJS:\n\n```javascript\nconst { v4: uuidv4 } = require('uuid');\nuuidv4();\n```\n\n### Default Export Removed\n\nuuid\\@3 was exporting the Version 4 UUID method as a default export:\n\n```javascript\nconst uuid = require('uuid'); // <== REMOVED!\n```\n\nThis usage pattern was already discouraged in uuid\\@3 and has been removed in uuid\\@7.\n\n----\nMarkdown generated from [README_js.md](README_js.md) by [![RunMD Logo](http://i.imgur.com/h0FVyzU.png)](https://github.com/broofa/runmd)",
+  "maintainers" : [ {
+    "email" : "robert@broofa.com",
+    "name" : "broofa"
+  }, {
+    "email" : "dev@tavan.de",
+    "name" : "ctavan"
+  }, {
+    "email" : "shtylman@gmail.com",
+    "name" : "defunctzombie"
+  }, {
+    "email" : "vincent.voyer@gmail.com",
+    "name" : "vvo"
+  } ],
+  "time" : {
+    "2.0.0" : "2014-09-29T09:03:24.612Z",
+    "7.0.1" : "2020-02-25T20:26:35.800Z",
+    "2.0.1" : "2014-09-29T09:16:55.228Z",
+    "7.0.0-beta.0" : "2020-02-17T11:25:25.965Z",
+    "created" : "2011-03-31T08:12:51.801Z",
+    "7.0.0" : "2020-02-24T13:23:46.712Z",
+    "0.0.2" : "2011-03-31T08:12:51.801Z",
+    "2.0.2" : "2016-04-13T07:37:23.788Z",
+    "0.0.1" : "2011-03-31T08:12:51.801Z",
+    "2.0.3" : "2016-09-18T21:03:38.127Z",
+    "1.4.0" : "2013-02-19T22:28:10.376Z",
+    "1.4.1" : "2013-03-14T05:25:04.735Z",
+    "1.4.2" : "2014-09-25T09:03:34.083Z",
+    "3.0.0" : "2016-11-18T05:55:37.542Z",
+    "3.3.2" : "2018-06-28T21:29:01.853Z",
+    "modified" : "2020-02-25T20:26:38.387Z",
+    "3.3.3" : "2019-08-19T13:26:25.072Z",
+    "3.0.1" : "2016-11-29T07:18:07.016Z",
+    "3.1.0" : "2017-06-16T17:54:51.877Z",
+    "3.2.0" : "2018-01-16T14:44:50.639Z",
+    "3.2.1" : "2018-01-16T17:44:57.871Z",
+    "3.3.0" : "2018-06-26T13:23:39.426Z",
+    "3.4.0" : "2020-01-16T21:05:38.628Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/uuidjs/uuid.git"
+  },
+  "users" : {
+    "xfloops" : true,
+    "luk" : true,
+    "ijidau" : true,
+    "sundaycrafts" : true,
+    "lifecube" : true,
+    "andfaulkner" : true,
+    "etsit" : true,
+    "r3nya" : true,
+    "almccann" : true,
+    "456wyc" : true,
+    "zand3rs" : true,
+    "ckaatz" : true,
+    "cschmitz81" : true,
+    "evanyeung" : true,
+    "jian263994241" : true,
+    "avivharuzi" : true,
+    "miadzadfallah" : true,
+    "gzg1500521074" : true,
+    "xinwangwang" : true,
+    "techmuch" : true,
+    "potentii" : true,
+    "qqqppp9998" : true,
+    "nohomey" : true,
+    "chilts" : true,
+    "brentonhouse" : true,
+    "chrisyipw" : true,
+    "smd4" : true,
+    "parkerproject" : true,
+    "leapm" : true,
+    "restuta" : true,
+    "jamiechoi" : true,
+    "ferrari" : true,
+    "partsunknown" : true,
+    "procom" : true,
+    "monsterkodi" : true,
+    "rocket0191" : true,
+    "sgvinci" : true,
+    "antanst" : true,
+    "vivek.vikhere" : true,
+    "danielye" : true,
+    "davidnyhuis" : true,
+    "wenbing" : true,
+    "nonemoticoner" : true,
+    "fengmiaosen" : true,
+    "heartnett" : true,
+    "arnold-almeida" : true,
+    "i3fox" : true,
+    "donggw2030521" : true,
+    "diegorbaquero" : true,
+    "danharper" : true,
+    "rojo2" : true,
+    "karzanosman984" : true,
+    "ianpaschal" : true,
+    "harumambur" : true,
+    "gamersdelight" : true,
+    "sammade" : true,
+    "mlohscheidt" : true,
+    "johntbales" : true,
+    "akarem" : true,
+    "isayme" : true,
+    "shekharreddy" : true,
+    "leon740727" : true,
+    "bart1208" : true,
+    "cbetancourt" : true,
+    "simonja" : true,
+    "asaupup" : true,
+    "cognivator" : true,
+    "bapinney" : true,
+    "augiethornton" : true,
+    "flxa888" : true,
+    "jasonbbelcher" : true,
+    "kaufmo" : true,
+    "blackbunny" : true,
+    "horrorandtropics" : true,
+    "nhz.io" : true,
+    "stevenvachon" : true,
+    "tjfwalker" : true,
+    "shtylman" : true,
+    "defunctzombie" : true,
+    "ash" : true,
+    "wolfram77" : true,
+    "snowdream" : true,
+    "monolithed" : true,
+    "abuelwafa" : true,
+    "appleboy" : true,
+    "lych" : true,
+    "xrush" : true,
+    "albertofdzm" : true,
+    "koulmomo" : true,
+    "justforuse" : true,
+    "matteospampani" : true,
+    "satoru" : true,
+    "sternelee" : true,
+    "martinspinks" : true,
+    "kankungyip" : true,
+    "mirkoj" : true,
+    "moimikey" : true,
+    "stretchgz" : true,
+    "artjacob" : true,
+    "luffy84217" : true,
+    "chaofeis" : true,
+    "afollestad" : true,
+    "nomemires" : true,
+    "jonaslomholdt" : true,
+    "atomgao" : true,
+    "isenricho" : true,
+    "vwal" : true,
+    "subinvarghesein" : true,
+    "vparaskevas" : true,
+    "gollojs" : true,
+    "razor164" : true,
+    "appsparkler" : true,
+    "programmer.severson" : true,
+    "bigglesatlarge" : true,
+    "shadowlong" : true,
+    "xufz" : true,
+    "dtunes" : true,
+    "tmypawa" : true,
+    "rochejul" : true,
+    "rikstam" : true,
+    "max_devjs" : true,
+    "yash3492" : true,
+    "tjg" : true,
+    "ninozhang" : true,
+    "haihepeng" : true,
+    "faraoman" : true,
+    "matsgm" : true,
+    "jlagunas" : true,
+    "justdomepaul" : true,
+    "wangxb" : true,
+    "flozz" : true,
+    "abhijitkalta" : true,
+    "benburwell" : true,
+    "ralphkay" : true,
+    "walexstevens" : true,
+    "xxsnake28" : true,
+    "kvrao" : true,
+    "erincinci" : true,
+    "winjeysong" : true,
+    "jakedalus" : true,
+    "aitorllj93" : true,
+    "guurgle" : true,
+    "obsessiveprogrammer" : true,
+    "davidrlee" : true,
+    "cblumer" : true,
+    "eserozvataf" : true,
+    "vchouhan" : true,
+    "sachacr" : true,
+    "itcorp" : true,
+    "marlberm2014" : true,
+    "jakecadams" : true,
+    "ashco" : true,
+    "shiva127" : true,
+    "kkho595" : true,
+    "esessoms" : true,
+    "warcrydoggie" : true,
+    "juananto11" : true,
+    "bpatel" : true,
+    "rparris" : true,
+    "leland-kwong" : true,
+    "thomas.han" : true,
+    "biao166" : true,
+    "jaxelson" : true,
+    "sourcesoft" : true,
+    "serge-nikitin" : true,
+    "jonathas" : true,
+    "leonardothibes" : true,
+    "writech" : true,
+    "cainwatson" : true,
+    "apopek" : true,
+    "mhaidarh" : true,
+    "wozhizui" : true,
+    "pospi" : true,
+    "jk6" : true,
+    "lionel86" : true,
+    "zhoutk" : true,
+    "jueb" : true,
+    "sonhuytran" : true,
+    "laoshaw" : true,
+    "tmurngon" : true,
+    "processbrain" : true,
+    "jez9999" : true,
+    "leota" : true,
+    "kodekracker" : true,
+    "jarrodhroberson" : true,
+    "gavaxiang" : true,
+    "dzhou777" : true,
+    "jlmorgan" : true,
+    "rumkin" : true,
+    "sunkeysun" : true,
+    "swedendrift" : true,
+    "lestad" : true,
+    "jtrh" : true,
+    "praxiq" : true,
+    "papasavva" : true,
+    "lex_nel" : true,
+    "soulchainer" : true,
+    "adamk" : true,
+    "piecioshka" : true,
+    "segen" : true,
+    "palsson" : true,
+    "whathejoe" : true,
+    "reggiezhang" : true,
+    "selenasong" : true,
+    "alexcoady" : true,
+    "blade254353074" : true,
+    "leonardorb" : true,
+    "fearnbuster" : true,
+    "orkisz" : true,
+    "jesusgoku" : true,
+    "wfcookie" : true,
+    "hugovila" : true,
+    "roman-io" : true,
+    "kikna" : true,
+    "zpoons" : true,
+    "ahvonenj" : true,
+    "guzgarcia" : true,
+    "clarenceho" : true,
+    "thomask33" : true,
+    "yashprit" : true,
+    "someok" : true,
+    "ezeikel" : true,
+    "markthethomas" : true,
+    "broofa" : true,
+    "philipjc" : true,
+    "hecto932" : true,
+    "ivan.marquez" : true,
+    "caiofossa" : true,
+    "wangnan0610" : true,
+    "wayn" : true,
+    "shahabkhalvati" : true,
+    "wandyezj" : true,
+    "freebird" : true,
+    "marcker" : true,
+    "ganeshkbhat" : true,
+    "shipengyan" : true,
+    "ferchoriverar" : true,
+    "huangshijuan" : true,
+    "reinoud" : true,
+    "jamesbedont" : true,
+    "he313572052" : true,
+    "daizch" : true,
+    "holly" : true,
+    "icognivator" : true,
+    "wenhsiaoyi" : true,
+    "marcobiedermann" : true,
+    "jybleau" : true,
+    "lwgojustgo" : true,
+    "raycharles" : true,
+    "joelwallis" : true,
+    "shrike" : true,
+    "ziflex" : true,
+    "mgub" : true,
+    "arefm" : true,
+    "epdplus" : true,
+    "quafoo" : true,
+    "octetstream" : true,
+    "infernocloud" : true,
+    "scott.m.sarsfield" : true,
+    "geooogle" : true,
+    "pavel.zubkou" : true,
+    "neo1" : true,
+    "crwnvr" : true,
+    "dheerajvs" : true,
+    "zhyq0826" : true,
+    "reyronald" : true,
+    "pddivine" : true,
+    "tztz" : true,
+    "esilva2902" : true,
+    "junjiansyu" : true,
+    "n0f3" : true,
+    "dkblay" : true,
+    "carlosvillademor" : true,
+    "bsara" : true,
+    "awhmandan" : true,
+    "scotchulous" : true,
+    "superchenney" : true,
+    "yourhoneysky" : true,
+    "bluelover" : true,
+    "somerayg" : true,
+    "sasquatch" : true,
+    "jasonpearson" : true,
+    "maxblock" : true,
+    "akshay.vs9543" : true,
+    "gildasdubois" : true,
+    "jochemstoel" : true,
+    "nigel0913" : true,
+    "gdibble" : true,
+    "astesio" : true,
+    "dwqs" : true,
+    "yakumat" : true,
+    "keyn" : true,
+    "zuojiang" : true,
+    "mauriciolauffer" : true,
+    "yswon" : true,
+    "fedor" : true,
+    "vjenks" : true,
+    "gpuente" : true,
+    "kavyababu7" : true,
+    "mikestaub" : true,
+    "nuwaio" : true,
+    "pixelventures" : true,
+    "edwardxyt" : true,
+    "yikuo" : true,
+    "nickleefly" : true,
+    "iainhallam" : true,
+    "tomgao365" : true,
+    "xtx1130" : true,
+    "tdevm" : true,
+    "grantcarthew" : true,
+    "lgl1993" : true,
+    "ysk8" : true,
+    "po" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/uuidjs/uuid#readme",
+  "keywords" : [ "uuid", "guid", "rfc4122" ],
+  "contributors" : [ {
+    "name" : "Robert Kieffer",
+    "email" : "robert@broofa.com"
+  }, {
+    "name" : "Christoph Tavan",
+    "email" : "dev@tavan.de"
+  }, {
+    "name" : "AJ ONeal",
+    "email" : "coolaj86@gmail.com"
+  }, {
+    "name" : "Vincent Voyer",
+    "email" : "vincent@zeroload.net"
+  }, {
+    "name" : "Roman Shtylman",
+    "email" : "shtylman@gmail.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/uuidjs/uuid/issues"
+  },
+  "license" : "MIT"
+}

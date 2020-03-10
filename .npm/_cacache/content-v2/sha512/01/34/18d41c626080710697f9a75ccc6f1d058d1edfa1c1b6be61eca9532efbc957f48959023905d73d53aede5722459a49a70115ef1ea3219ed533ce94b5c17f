@@ -1,0 +1,560 @@
+{
+  "_id" : "tr46",
+  "_rev" : "10-93c9b25d18ee23be9c24f79cd5071754",
+  "name" : "tr46",
+  "description" : "An implementation of the Unicode UTS #46: Unicode IDNA Compatibility Processing",
+  "dist-tags" : {
+    "latest" : "2.0.2"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "tr46",
+      "description" : "An implementation of the Unicode TR46 spec",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sebastian Mayr",
+        "email" : "npm@smayr.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jsdom/tr46.js"
+      },
+      "contributors" : [ {
+        "name" : "Timothy Gu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/tr46/-/tr46-2.0.0.tgz",
+        "shasum" : "a85da3f8511231357b347caa686abb3dfb150634"
+      },
+      "dependencies" : {
+        "punycode" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^6.8.0",
+        "mocha" : "^6.2.2",
+        "regenerate" : "^1.4.0",
+        "request" : "^2.88.0",
+        "unicode-12.1.0" : "^0.8.0"
+      },
+      "keywords" : [ "unicode", "tr46", "url", "whatwg" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "d@domenic.me",
+        "name" : "domenic"
+      }, {
+        "email" : "joris@jorisvanderwel.com",
+        "name" : "joris-van-der-wel"
+      }, {
+        "email" : "sebmaster16@gmail.com",
+        "name" : "sebmaster"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      }, {
+        "email" : "tmpvar@gmail.com",
+        "name" : "tmpvar"
+      }, {
+        "email" : "code@zirro.se",
+        "name" : "zirro"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint .",
+        "pretest" : "node scripts/getLatestTests.js",
+        "prepublish" : "node scripts/generateMappingTable.js && node scripts/generateRegexes.js"
+      },
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "tr46@2.0.0",
+      "unicodeVersion" : "12.1.0",
+      "licenseText" : "The MIT License (MIT)\n\nCopyright (c) 2016 Sebastian Mayr\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tr46_2.0.0_1577945129387_0.8387283270153352"
+      }
+    },
+    "2.0.1" : {
+      "name" : "tr46",
+      "description" : "An implementation of the Unicode UTS #46: Unicode IDNA Compatibility Processing",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Sebastian Mayr",
+        "email" : "npm@smayr.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jsdom/tr46"
+      },
+      "contributors" : [ {
+        "name" : "Timothy Gu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/tr46/-/tr46-2.0.1.tgz",
+        "shasum" : "ffc413a775a745866bc1c493ad3536c2b406c573"
+      },
+      "dependencies" : {
+        "punycode" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^6.8.0",
+        "mocha" : "^6.2.2",
+        "node-fetch" : "^2.6.0",
+        "pump" : "^3.0.0",
+        "regenerate" : "^1.4.0",
+        "unicode-12.1.0" : "^0.8.0"
+      },
+      "keywords" : [ "unicode", "tr46", "uts46", "punycode", "url", "whatwg" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "d@domenic.me",
+        "name" : "domenic"
+      }, {
+        "email" : "joris@jorisvanderwel.com",
+        "name" : "joris-van-der-wel"
+      }, {
+        "email" : "sebmaster16@gmail.com",
+        "name" : "sebmaster"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      }, {
+        "email" : "tmpvar@gmail.com",
+        "name" : "tmpvar"
+      }, {
+        "email" : "code@zirro.se",
+        "name" : "zirro"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint .",
+        "pretest" : "node scripts/getLatestTests.js",
+        "prepublish" : "node scripts/generateMappingTable.js && node scripts/generateRegexes.js"
+      },
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "tr46@2.0.1",
+      "unicodeVersion" : "12.1.0",
+      "licenseText" : "The MIT License (MIT)\n\nCopyright (c) 2016 Sebastian Mayr\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tr46_2.0.1_1582173039771_0.48082004913141674"
+      }
+    },
+    "0.0.2" : {
+      "name" : "tr46",
+      "description" : "An implementation of the Unicode TR46 spec",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Sebastian Mayr",
+        "email" : "npm@smayr.name"
+      },
+      "homepage" : "https://github.com/Sebmaster/tr46.js#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Sebmaster/tr46.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Sebmaster/tr46.js/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/tr46/-/tr46-0.0.2.tgz",
+        "shasum" : "847ca51535dcb1c9bd5df07a1e0ee7c3ed3f1479"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "request" : "^2.57.0"
+      },
+      "keywords" : [ "unicode", "tr46", "url", "whatwg" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "pretest" : "node scripts/getLatestUnicodeTests.js",
+        "prepublish" : "node scripts/generateMappingTable.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      },
+      "_id" : "tr46@0.0.2",
+      "gitHead" : "fe029c592abe09154512f0d0ddb90d8d0e24dd87",
+      "_shasum" : "847ca51535dcb1c9bd5df07a1e0ee7c3ed3f1479",
+      "_nodeVersion" : "2.2.1"
+    },
+    "0.0.3" : {
+      "name" : "tr46",
+      "description" : "An implementation of the Unicode TR46 spec",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Sebastian Mayr",
+        "email" : "npm@smayr.name"
+      },
+      "homepage" : "https://github.com/Sebmaster/tr46.js#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Sebmaster/tr46.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Sebmaster/tr46.js/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/tr46/-/tr46-0.0.3.tgz",
+        "shasum" : "8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "request" : "^2.57.0"
+      },
+      "keywords" : [ "unicode", "tr46", "url", "whatwg" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "pretest" : "node scripts/getLatestUnicodeTests.js",
+        "prepublish" : "node scripts/generateMappingTable.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      },
+      "_id" : "tr46@0.0.3",
+      "gitHead" : "a8009f9ce80ff5dbe71dd71e203afe4e4c878d28",
+      "_shasum" : "8184fd347dac9cdc185992f3a6622e14b9d9ab6a",
+      "_nodeVersion" : "5.4.1"
+    },
+    "1.0.0" : {
+      "name" : "tr46",
+      "description" : "An implementation of the Unicode TR46 spec",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sebastian Mayr",
+        "email" : "npm@smayr.name"
+      },
+      "homepage" : "https://github.com/sebmaster/tr46.js#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sebmaster/tr46.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sebmaster/tr46.js/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/tr46/-/tr46-1.0.0.tgz",
+        "shasum" : "78aa45b58a8f60382fcc66598d1499e38ac1b953"
+      },
+      "dependencies" : {
+        "punycode" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.13.0",
+        "mocha" : "^3.2.0",
+        "regenerate" : "^1.3.2",
+        "request" : "^2.79.0",
+        "unicode-10.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "unicode", "tr46", "url", "whatwg" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib/mappingTable.json", "lib/regexes.js" ],
+      "maintainers" : [ {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint .",
+        "pretest" : "node scripts/getLatestUnicodeTests.js",
+        "prepublish" : "node scripts/generateMappingTable.js && node scripts/generateRegexes.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      },
+      "_id" : "tr46@1.0.0",
+      "gitHead" : "fe7e40f3464ff14b9da11c1d64e1470b60fed043",
+      "deprecated" : "1.0.0 has some bugs with host name validation, mainly wrt BiDi rules. Please wait for v1.0.1.",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tr46-1.0.0.tgz_1501195911430_0.7034000705461949"
+      },
+      "_shasum" : "78aa45b58a8f60382fcc66598d1499e38ac1b953",
+      "_nodeVersion" : "7.9.0"
+    },
+    "1.0.1" : {
+      "name" : "tr46",
+      "description" : "An implementation of the Unicode TR46 spec",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sebastian Mayr",
+        "email" : "npm@smayr.name"
+      },
+      "homepage" : "https://github.com/sebmaster/tr46.js#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sebmaster/tr46.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sebmaster/tr46.js/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/tr46/-/tr46-1.0.1.tgz",
+        "shasum" : "a8b13fd6bfd2489519674ccde55ba3693b706d09"
+      },
+      "dependencies" : {
+        "punycode" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.13.0",
+        "mocha" : "^3.2.0",
+        "regenerate" : "^1.3.2",
+        "request" : "^2.79.0",
+        "unicode-10.0.0" : "^0.7.4"
+      },
+      "keywords" : [ "unicode", "tr46", "url", "whatwg" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib/mappingTable.json", "lib/regexes.js" ],
+      "maintainers" : [ {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint .",
+        "pretest" : "node scripts/getLatestTests.js",
+        "prepublish" : "node scripts/generateMappingTable.js && node scripts/generateRegexes.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      },
+      "_id" : "tr46@1.0.1",
+      "gitHead" : "89825520a434d1d750103e05b6fa19b1a75b7ab4",
+      "unicodeVersion" : "10.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tr46-1.0.1.tgz_1504404535111_0.9779330701567233"
+      },
+      "_shasum" : "a8b13fd6bfd2489519674ccde55ba3693b706d09",
+      "_nodeVersion" : "7.7.2"
+    },
+    "2.0.2" : {
+      "name" : "tr46",
+      "description" : "An implementation of the Unicode UTS #46: Unicode IDNA Compatibility Processing",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Sebastian Mayr",
+        "email" : "npm@smayr.name"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jsdom/tr46"
+      },
+      "contributors" : [ {
+        "name" : "Timothy Gu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/tr46/-/tr46-2.0.2.tgz",
+        "shasum" : "03273586def1595ae08fedb38d7733cee91d2479"
+      },
+      "dependencies" : {
+        "punycode" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^6.8.0",
+        "mocha" : "^6.2.2",
+        "node-fetch" : "^2.6.0",
+        "pump" : "^3.0.0",
+        "regenerate" : "^1.4.0",
+        "unicode-12.1.0" : "^0.8.0"
+      },
+      "keywords" : [ "unicode", "tr46", "uts46", "punycode", "url", "whatwg" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "d@domenic.me",
+        "name" : "domenic"
+      }, {
+        "email" : "joris@jorisvanderwel.com",
+        "name" : "joris-van-der-wel"
+      }, {
+        "email" : "sebmaster16@gmail.com",
+        "name" : "sebmaster"
+      }, {
+        "email" : "timothygu99@gmail.com",
+        "name" : "timothygu"
+      }, {
+        "email" : "tmpvar@gmail.com",
+        "name" : "tmpvar"
+      }, {
+        "email" : "code@zirro.se",
+        "name" : "zirro"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint .",
+        "pretest" : "node scripts/getLatestTests.js",
+        "prepublish" : "node scripts/generateMappingTable.js && node scripts/generateRegexes.js"
+      },
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "tr46@2.0.2",
+      "unicodeVersion" : "12.1.0",
+      "licenseText" : "The MIT License (MIT)\n\nCopyright (c) 2016 Sebastian Mayr\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tr46_2.0.2_1582173169710_0.6400932710120866"
+      }
+    },
+    "0.0.1" : {
+      "name" : "tr46",
+      "description" : "An implementation of the Unicode TR46 spec",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Sebastian Mayr",
+        "email" : "npm@smayr.name"
+      },
+      "homepage" : "https://github.com/Sebmaster/tr46.js#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Sebmaster/tr46.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Sebmaster/tr46.js/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/tr46/-/tr46-0.0.1.tgz",
+        "shasum" : "b09da8c4b972bc43ba0cd750292358167a2b1dae"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "request" : "^2.57.0"
+      },
+      "keywords" : [ "unicode", "tr46", "url", "whatwg" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "prepublish" : "node scripts/generate_mapping_table.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "sebmaster",
+        "email" : "sebmaster16@gmail.com"
+      },
+      "_id" : "tr46@0.0.1",
+      "gitHead" : "b22c3e63e038c82b9e96aa1c274162cdec52e002",
+      "_shasum" : "b09da8c4b972bc43ba0cd750292358167a2b1dae",
+      "_nodeVersion" : "2.2.1"
+    }
+  },
+  "readme" : "# tr46\n\nAn JavaScript implementation of [Unicode Technical Standard #46: Unicode IDNA Compatibility Processing](https://unicode.org/reports/tr46/).\n\n\n## Installation\n\n[Node.js](http://nodejs.org) ≥ 8 is required. To install, type this at the command line:\n```shell\nnpm install tr46\n# or\nyarn add tr46\n```\n\n\n## API\n\n### `toASCII(domainName[, options])`\n\nConverts a string of Unicode symbols to a case-folded Punycode string of ASCII symbols.\n\nAvailable options:\n* [`checkBidi`](#checkBidi)\n* [`checkHyphens`](#checkHyphens)\n* [`checkJoiners`](#checkJoiners)\n* [`processingOption`](#processingOption)\n* [`useSTD3ASCIIRules`](#useSTD3ASCIIRules)\n* [`verifyDNSLength`](#verifyDNSLength)\n\n### `toUnicode(domainName[, options])`\n\nConverts a case-folded Punycode string of ASCII symbols to a string of Unicode symbols.\n\nAvailable options:\n* [`checkBidi`](#checkBidi)\n* [`checkHyphens`](#checkHyphens)\n* [`checkJoiners`](#checkJoiners)\n* [`processingOption`](#processingOption)\n* [`useSTD3ASCIIRules`](#useSTD3ASCIIRules)\n\n\n## Options\n\n### `checkBidi`\nType: `Boolean`  \nDefault value: `false`  \nWhen set to `true`, any bi-directional text within the input will be checked for validation.\n\n### `checkHyphens`\nType: `Boolean`  \nDefault value: `false`  \nWhen set to `true`, the positions of any hyphen characters within the input will be checked for validation.\n\n### `checkJoiners`\nType: `Boolean`  \nDefault value: `false`  \nWhen set to `true`, any word joiner characters within the input will be checked for validation.\n\n### `processingOption`\nType: `String`  \nDefault value: `\"nontransitional\"`  \nWhen set to `\"transitional\"`, symbols within the input will be validated according to the older IDNA2003 protocol. When set to `\"nontransitional\"`, the current IDNA2008 protocol will be used.\n\n### `useSTD3ASCIIRules`\nType: `Boolean`  \nDefault value: `false`  \nWhen set to `true`, input will be validated according to [STD3 Rules](http://unicode.org/reports/tr46/#STD3_Rules).\n\n### `verifyDNSLength`\nType: `Boolean`  \nDefault value: `false`  \nWhen set to `true`, the length of each DNS label within the input will be checked for validation.\n",
+  "maintainers" : [ {
+    "email" : "d@domenic.me",
+    "name" : "domenic"
+  }, {
+    "email" : "joris@jorisvanderwel.com",
+    "name" : "joris-van-der-wel"
+  }, {
+    "email" : "sebmaster16@gmail.com",
+    "name" : "sebmaster"
+  }, {
+    "email" : "timothygu99@gmail.com",
+    "name" : "timothygu"
+  }, {
+    "email" : "tmpvar@gmail.com",
+    "name" : "tmpvar"
+  }, {
+    "email" : "code@zirro.se",
+    "name" : "zirro"
+  } ],
+  "author" : {
+    "name" : "Sebastian Mayr",
+    "email" : "npm@smayr.name"
+  },
+  "time" : {
+    "2.0.0" : "2020-01-02T06:05:29.532Z",
+    "2.0.1" : "2020-02-20T04:30:39.918Z",
+    "created" : "2015-06-06T07:11:07.303Z",
+    "modified" : "2020-02-20T04:32:52.975Z",
+    "0.0.2" : "2015-06-06T15:17:30.114Z",
+    "0.0.3" : "2016-01-20T02:08:54.875Z",
+    "1.0.0" : "2017-07-27T22:51:52.630Z",
+    "1.0.1" : "2017-09-03T02:08:56.379Z",
+    "2.0.2" : "2020-02-20T04:32:49.819Z",
+    "0.0.1" : "2015-06-06T07:11:07.303Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/jsdom/tr46"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "unicode", "tr46", "uts46", "punycode", "url", "whatwg" ],
+  "contributors" : [ {
+    "name" : "Timothy Gu",
+    "email" : "timothygu99@gmail.com"
+  } ],
+  "license" : "MIT"
+}

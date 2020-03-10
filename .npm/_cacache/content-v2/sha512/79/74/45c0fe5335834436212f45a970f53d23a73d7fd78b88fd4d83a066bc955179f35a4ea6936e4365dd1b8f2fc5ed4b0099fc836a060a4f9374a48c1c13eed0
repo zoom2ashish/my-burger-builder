@@ -1,0 +1,3193 @@
+{
+  "_id" : "query-string",
+  "_rev" : "169-8374c3640ca7b51bba65920987173018",
+  "name" : "query-string",
+  "description" : "Parse and stringify URL query strings",
+  "dist-tags" : {
+    "latest" : "6.11.0"
+  },
+  "versions" : {
+    "0.4.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "query-string.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-0.4.0.tgz",
+        "shasum" : "d59a94786444be226cd2bd356b035543ecd05a5f"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@0.4.0",
+      "_shasum" : "d59a94786444be226cd2bd356b035543ecd05a5f"
+    },
+    "0.4.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "0.4.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "query-string.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-0.4.1.tgz",
+        "shasum" : "ac823a3d9414bc58887ed4ac4113db640d2b44da"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@0.4.1",
+      "gitHead" : "d39b02b8ceee997abcbb2ad89f2d94641d48ee8e",
+      "_shasum" : "ac823a3d9414bc58887ed4ac4113db640d2b44da"
+    },
+    "4.3.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.3.0.tgz",
+        "shasum" : "6f39ee0ce2f713b28a6517809b4a974a623fbb42"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.3.0",
+      "gitHead" : "4926913bf89a1922325cfab6eb041acd8bb0c6f0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.3.0.tgz_1484238845681_0.9434215982910246"
+      },
+      "_shasum" : "6f39ee0ce2f713b28a6517809b4a974a623fbb42",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.1.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.1.0.tgz",
+        "shasum" : "a092273bcef2dddad4a2f0d4e1796701beb35a23"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.1.0",
+      "gitHead" : "c8b800640dd52d5c84fd80ec0886c85ac5cf5cf5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.1.0.tgz_1459315470544_0.5692825824953616"
+      },
+      "_shasum" : "a092273bcef2dddad4a2f0d4e1796701beb35a23",
+      "_nodeVersion" : "4.3.0"
+    },
+    "0.2.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "query-string.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-0.2.0.tgz",
+        "shasum" : "198d8d86da7d295bc23a4aeb6f8beb3e639d0480"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@0.2.0"
+    },
+    "4.3.3" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.3.3",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.3.3.tgz",
+        "shasum" : "91c90ff7173d9acd9e088b3cc223f9b437865692"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.3.3",
+      "gitHead" : "9a0ba4b0715fa1af97e72792405988aa57ad0fa1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.3.3.tgz_1492408392319_0.38521313201636076"
+      },
+      "_shasum" : "91c90ff7173d9acd9e088b3cc223f9b437865692",
+      "_nodeVersion" : "4.7.3"
+    },
+    "4.3.4" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.3.4",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.3.4.tgz",
+        "shasum" : "bbb693b9ca915c232515b228b1a02b609043dbeb"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.3.4",
+      "gitHead" : "27e4fae3e79d179bcf79c32cf3bb404770ac0491",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.3.4.tgz_1492605771151_0.2800749952439219"
+      },
+      "_shasum" : "bbb693b9ca915c232515b228b1a02b609043dbeb",
+      "_nodeVersion" : "7.8.0"
+    },
+    "6.9.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.9.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.9.0.tgz",
+        "shasum" : "1c3b727c370cf00f177c99f328fda2108f8fa3dd"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.9.0",
+      "gitHead" : "cca729511b8ee4244caab51b7fce2c2a39775dc7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.9.0_1573620374959_0.1914658487774883"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "4.3.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.3.1.tgz",
+        "shasum" : "54baada6713eafc92be75c47a731f2ebd09cd11d"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.3.1",
+      "gitHead" : "6370e961cb37d4d5b64d43f9fcbab8b9f4069216",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.3.1.tgz_1484381633488_0.036341213155537844"
+      },
+      "_shasum" : "54baada6713eafc92be75c47a731f2ebd09cd11d",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.3.2" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.3.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.3.2.tgz",
+        "shasum" : "ec0fd765f58a50031a3968c2431386f8947a5cdd"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.3.2",
+      "gitHead" : "bae3bb136152c10baed2070164e7c22312bc0594",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.3.2.tgz_1487063285789_0.8447663846891373"
+      },
+      "_shasum" : "ec0fd765f58a50031a3968c2431386f8947a5cdd",
+      "_nodeVersion" : "4.6.2"
+    },
+    "6.7.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.7.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.7.0.tgz",
+        "shasum" : "7e92bf8525140cf8c5ebf500f26716b0de5b7023"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.7.0",
+      "gitHead" : "d4f029693f4af8f8df691d2c9e6acbd2b32d1cec",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.7.0_1559990915200_0.5022516772413022"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "6.10.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.10.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.10.0.tgz",
+        "shasum" : "a89b2cd8e751d23f58334c28fa614178ffbc0650"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.10.0",
+      "gitHead" : "081bb9b03c38f76e2e4a2a0c7c87647a33605f45",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.10.0_1579187204563_0.9475724261650316"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "6.10.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.10.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.10.1.tgz",
+        "shasum" : "30b3505f6fca741d5ae541964d1b3ae9dc2a0de8"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.10.1",
+      "gitHead" : "db66e68fc7e323995de713c38504a192472038fa",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.10.1_1579245499153_0.45276416946612374"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "2.1.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-2.1.0.tgz",
+        "shasum" : "62cdd524f82680ed6f0d55297fad1b1c82c9ad4c"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@2.1.0",
+      "gitHead" : "42731bec1a752adb78fd9b61686950a953aa1a58",
+      "_shasum" : "62cdd524f82680ed6f0d55297fad1b1c82c9ad4c",
+      "_nodeVersion" : "0.12.2"
+    },
+    "2.3.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-2.3.0.tgz",
+        "shasum" : "4e016c5449c04c483da72b651eac4262ef6fe394"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@2.3.0",
+      "gitHead" : "7bee64c16f2da1a326579e96977b9227bf6da9e6",
+      "_shasum" : "4e016c5449c04c483da72b651eac4262ef6fe394",
+      "_nodeVersion" : "0.12.4"
+    },
+    "6.4.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.4.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.4.0.tgz",
+        "shasum" : "1566c0cec3a2da2d82c222ed3f9e2a921dba5e6a"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.3.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd-check" : "^0.3.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.4.0",
+      "gitHead" : "a429c8e48d899fa302440ccb702e6c7ff8fd4621",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.4.0_1552567334027_0.03945613075175758"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "6.2.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.2.0.tgz",
+        "shasum" : "468edeb542b7e0538f9f9b1aeb26f034f19c86e1"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.25.0",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "xo" : "^0.23.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.2.0",
+      "gitHead" : "eda1fdc654687326f21992fb98433fab9d8760f7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.2.0_1538459293109_0.20629258496726366"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "6.0.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.0.0.tgz",
+        "shasum" : "8b8f39447b73e8290d6f5e3581779218e9171142"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.0.0",
+      "gitHead" : "0f62856743eb44215423cf7800244e16af8418c9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.0.0_1521006664772_0.9964281990327477"
+      },
+      "_shasum" : "8b8f39447b73e8290d6f5e3581779218e9171142",
+      "_nodeVersion" : "6.11.0"
+    },
+    "5.0.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-5.0.0.tgz",
+        "shasum" : "fbdf7004b4d2aff792f9871981b7a2794f555947"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@5.0.0",
+      "gitHead" : "3e469d205f6773950b001160a0262cd48620fb73",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string-5.0.0.tgz_1500763474171_0.2981360084377229"
+      },
+      "_shasum" : "fbdf7004b4d2aff792f9871981b7a2794f555947",
+      "_nodeVersion" : "4.8.3"
+    },
+    "5.0.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-5.0.1.tgz",
+        "shasum" : "6e2b86fe0e08aef682ecbe86e85834765402bd88"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@5.0.1",
+      "gitHead" : "6404fd9dd2d59c8a775e2392e6703ea074b48894",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string-5.0.1.tgz_1508837888282_0.8475330204237252"
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "0.3.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "0.3.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "query-string.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-0.3.1.tgz",
+        "shasum" : "a250aee01afcafa8896d3f24e1f30e342ce9e9f7"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@0.3.1"
+    },
+    "4.0.2" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.0.2.tgz",
+        "shasum" : "04a81d3420fdf009cf029d37dec47c07d2099bd2"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.0.2",
+      "gitHead" : "ff65d12d5658657429464706127e432f75452350",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.0.2.tgz_1459098865678_0.6111183094326407"
+      },
+      "_shasum" : "04a81d3420fdf009cf029d37dec47c07d2099bd2",
+      "_nodeVersion" : "4.3.0"
+    },
+    "4.2.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.2.0.tgz",
+        "shasum" : "253927ee1bc829ac0e943d8c8ce4806295cc5609"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.2.0",
+      "gitHead" : "db76619fef82eac87a7ca30500fe9a56914db004",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.2.0.tgz_1464617267378_0.11798767372965813"
+      },
+      "_shasum" : "253927ee1bc829ac0e943d8c8ce4806295cc5609",
+      "_nodeVersion" : "4.4.2"
+    },
+    "4.2.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.2.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.2.1.tgz",
+        "shasum" : "88bd7028d6631d23393e8e0238e37fbcdc83672c"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.2.1",
+      "gitHead" : "df17d8e3a692eb6fafa489136aa9b416865c39f6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.2.1.tgz_1465230493108_0.52174421120435"
+      },
+      "_shasum" : "88bd7028d6631d23393e8e0238e37fbcdc83672c",
+      "_nodeVersion" : "4.4.2"
+    },
+    "4.0.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.0.0.tgz",
+        "shasum" : "e8d4abba4382465ea5842c6da65a233b98d67bbb"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.0.0",
+      "gitHead" : "505e82570a5d84c875821652f4642ab479894288",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.0.0.tgz_1458988452599_0.6341880965046585"
+      },
+      "_shasum" : "e8d4abba4382465ea5842c6da65a233b98d67bbb",
+      "_nodeVersion" : "4.3.0"
+    },
+    "6.8.2" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.8.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.8.2.tgz",
+        "shasum" : "36cb7e452ae11a4b5e9efee83375e0954407b2f6"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.8.2",
+      "gitHead" : "22b55326ec439b656a9f8f24e419202a62f3de15",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.8.2_1564172827297_0.18176086072641184"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "6.8.3" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.8.3",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.8.3.tgz",
+        "shasum" : "fd9fb7ffb068b79062b43383685611ee47777d4b"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.10.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.8.3",
+      "gitHead" : "de0536a7be7029a93936d2610f1b08606ac93ce7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.8.3_1567240493851_0.18460316239078445"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "0.1.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "query-string",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-0.1.1.tgz",
+        "shasum" : "29b0b212dc8df7782143437e11f88650b07f8d07"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.14.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@0.1.1"
+    },
+    "6.8.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.8.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.8.0.tgz",
+        "shasum" : "08be5c20ea6657150bacaa6bd9829cfa8e546dc2"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.8.0",
+      "gitHead" : "a8710ebd25bfa27a48e8040c36e5635205b2c3ed",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.8.0_1561043709405_0.5452735567224976"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "0.3.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "query-string.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-0.3.0.tgz",
+        "shasum" : "ccee1b1fd6a9db1355f8902c02129b502e9118cb"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@0.3.0"
+    },
+    "6.8.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.8.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.8.1.tgz",
+        "shasum" : "62c54a7ef37d01b538c8fd56f95740c81d438a26"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.8.1",
+      "gitHead" : "17315ad730cc8e74815e2a198ceec7532cce7927",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.8.1_1561123379097_0.0060118691319424045"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "4.2.2" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.2.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.2.2.tgz",
+        "shasum" : "888a6fcb6f76070ba39f2f3025c87099defa1645"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.2.2",
+      "gitHead" : "1f40d2df7b5975f8b097345bb7a53117e57a36ff",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.2.2.tgz_1465765608160_0.35775360255502164"
+      },
+      "_shasum" : "888a6fcb6f76070ba39f2f3025c87099defa1645",
+      "_nodeVersion" : "4.4.2"
+    },
+    "6.4.2" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.4.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.4.2.tgz",
+        "shasum" : "8be1dbd105306aebf86022144f575a29d516b713"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.3.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd-check" : "^0.3.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.4.2",
+      "gitHead" : "183508e008da7ff20fc8a2ea7599582d54e40cf9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.4.2_1553675489742_0.9999503682182318"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "6.6.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.6.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.6.0.tgz",
+        "shasum" : "a6b7dfd57ad67e346b143d033df2b1e4cfb6b53a"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.0.0",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.6.0",
+      "gitHead" : "823e95f56b48a0be2a7371ffc5cd86acca3f16ce",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.6.0_1559746038385_0.496962712829907"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "0.1.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8.0"
+      },
+      "main" : "query-string",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-0.1.0.tgz",
+        "shasum" : "1da57678ae837d324abc30b324cb394cd447bb0e"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.14.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@0.1.0"
+    },
+    "4.2.3" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "4.2.3",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-4.2.3.tgz",
+        "shasum" : "9f27273d207a25a8ee4c7b8c74dcd45d556db822"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.5",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@4.2.3",
+      "gitHead" : "3ba022410dbcff27404de090b33ce9b67768c139",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/query-string-4.2.3.tgz_1471046653328_0.06692232307977974"
+      },
+      "_shasum" : "9f27273d207a25a8ee4c7b8c74dcd45d556db822",
+      "_nodeVersion" : "4.4.5"
+    },
+    "3.0.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-3.0.0.tgz",
+        "shasum" : "02fd306f0432040b91b11063f9404fe1bbd4ba7b"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@3.0.0",
+      "gitHead" : "265aee0b8bf185be8cc33bb38393b1156081a0f1",
+      "_shasum" : "02fd306f0432040b91b11063f9404fe1bbd4ba7b",
+      "_nodeVersion" : "4.1.1"
+    },
+    "3.0.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-3.0.1.tgz",
+        "shasum" : "f04a0758902ab2788582d8177203db9cd9e6a0ad"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@3.0.1",
+      "gitHead" : "229eabc7487d8f1a012a287dc0ac7605e86a39be",
+      "_npmOperationalInternal" : {
+        "host" : "packages-5-east.internal.npmjs.com",
+        "tmp" : "tmp/query-string-3.0.1.tgz_1456549355439_0.5011087558232248"
+      },
+      "_shasum" : "f04a0758902ab2788582d8177203db9cd9e6a0ad",
+      "_nodeVersion" : "4.3.0"
+    },
+    "3.0.2" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-3.0.2.tgz",
+        "shasum" : "30c0824b6fda9f210600771616b9eee146450363"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@3.0.2",
+      "gitHead" : "f93c1352d56181c5a48e30344bf9e304743437c0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-3.0.2.tgz_1458291008381_0.6589810803998262"
+      },
+      "_shasum" : "30c0824b6fda9f210600771616b9eee146450363",
+      "_nodeVersion" : "4.3.0"
+    },
+    "3.0.3" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "3.0.3",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-3.0.3.tgz",
+        "shasum" : "ae2e14b4d05071d4e9b9eb4873c35b0dcd42e638"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@3.0.3",
+      "gitHead" : "71bc3ed002a25def027174da9f3651b6d3c26db4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/query-string-3.0.3.tgz_1458385547492_0.6452929894439876"
+      },
+      "_shasum" : "ae2e14b4d05071d4e9b9eb4873c35b0dcd42e638",
+      "_nodeVersion" : "4.3.0"
+    },
+    "6.11.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.11.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.11.0.tgz",
+        "shasum" : "dc27a05733d1be66f16d0f83dfa957270f45f66d"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.11.0",
+      "gitHead" : "4d5101846313d791a2f48cf3ef1454297ed42642",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.11.0_1581601460729_0.08077038356731547"
+      },
+      "_nodeVersion" : "10.18.1"
+    },
+    "2.0.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-2.0.0.tgz",
+        "shasum" : "433a0c45e8a9939672983bf9b794aae523553b57"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@2.0.0",
+      "gitHead" : "448c09358f3fdd26f60e083f267615d734b0836a",
+      "_shasum" : "433a0c45e8a9939672983bf9b794aae523553b57",
+      "_nodeVersion" : "0.12.2"
+    },
+    "2.4.2" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "2.4.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-2.4.2.tgz",
+        "shasum" : "7db0666420804baa92ae9f268962855a76143dfb"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@2.4.2",
+      "gitHead" : "101a6d5e846bd5222a5a26287ea7ce250c73d78c",
+      "_shasum" : "7db0666420804baa92ae9f268962855a76143dfb",
+      "_nodeVersion" : "4.1.1"
+    },
+    "2.4.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-2.4.0.tgz",
+        "shasum" : "fe32743ca2e33ee63250e0f68c4384568a93f76f"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@2.4.0",
+      "gitHead" : "13a3b5c0b889a4bc427d2215a6e63a05c7064014",
+      "_shasum" : "fe32743ca2e33ee63250e0f68c4384568a93f76f",
+      "_nodeVersion" : "0.12.5"
+    },
+    "2.4.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "2.4.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-2.4.1.tgz",
+        "shasum" : "092dbcc0758fa564172333002eb4484674684c35"
+      },
+      "dependencies" : {
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@2.4.1",
+      "gitHead" : "94585f4684ccb5277d830a0b3cf5d662ee51388a",
+      "_shasum" : "092dbcc0758fa564172333002eb4484674684c35",
+      "_nodeVersion" : "0.12.7"
+    },
+    "2.2.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-2.2.0.tgz",
+        "shasum" : "b069235aeccd2f60f5ebb3434170b7a1750b21b5"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@2.2.0",
+      "gitHead" : "ba1dd29894eccfea1612ec8e4ed5826b1da284c1",
+      "_shasum" : "b069235aeccd2f60f5ebb3434170b7a1750b21b5",
+      "_nodeVersion" : "0.12.4"
+    },
+    "6.5.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.5.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.5.0.tgz",
+        "shasum" : "2e1a70125af01f6f04573692d02c09302a1d8bfc"
+      },
+      "dependencies" : {
+        "split-on-first" : "^1.0.0",
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.3.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd" : "^0.7.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.5.0",
+      "gitHead" : "5d67103a26fe73f9d23432feab03216c5f8c4de2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.5.0_1556442068216_0.4219176353797842"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "6.3.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.3.0.tgz",
+        "shasum" : "41ae8a61e1213c80b182d5db6cf129e05af89fc5"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.2.1",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.5.0",
+        "tsd-check" : "^0.3.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.3.0",
+      "gitHead" : "c138b1123462882bb2b44d8ecac83f0b372b53eb",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.3.0_1551611992571_0.9541459023607144"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "6.1.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "6.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-6.1.0.tgz",
+        "shasum" : "01e7d69f6a0940dac67a937d6c6325647aa4532a"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "strict-uri-encode" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "deep-equal" : "^1.0.1",
+        "fast-check" : "^1.0.1",
+        "xo" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@6.1.0",
+      "gitHead" : "158cf12c3e361cb50bbedf74ac48d23c55495029",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_6.1.0_1525282937893_0.2041620379421316"
+      },
+      "_nodeVersion" : "8.11.1"
+    },
+    "5.1.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-5.1.0.tgz",
+        "shasum" : "9583b15fd1307f899e973ed418886426a9976469"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@5.1.0",
+      "gitHead" : "d1a714e5e510b3aee7c96ccb4fb9e7c8cdee415b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string-5.1.0.tgz_1517665295438_0.901781131979078"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "5.1.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "5.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/query-string.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-5.1.1.tgz",
+        "shasum" : "a78c012b71c17e05f2e3fa2319dd330682efb3cb"
+      },
+      "dependencies" : {
+        "decode-uri-component" : "^0.2.0",
+        "object-assign" : "^4.1.0",
+        "strict-uri-encode" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.17.0",
+        "xo" : "^0.16.0"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@5.1.1",
+      "gitHead" : "8b5d5ec5e0503c892e779a0063bd1a06b841677d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/query-string_5.1.1_1521003106466_0.4587538452807758"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.0.0" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "query-string.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-1.0.0.tgz",
+        "shasum" : "c1bc6af99fa698a5395922ae5b3de3efe978c59b"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@1.0.0",
+      "gitHead" : "674d36f3cd8f9ee7d84722df73928cfcc0d4b59b",
+      "_shasum" : "c1bc6af99fa698a5395922ae5b3de3efe978c59b"
+    },
+    "1.0.1" : {
+      "name" : "query-string",
+      "description" : "Parse and stringify URL query strings",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/query-string",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/query-string"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/query-string/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "query-string.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/query-string/-/query-string-1.0.1.tgz",
+        "shasum" : "63ac953352499ad670a9681a75680f6bf3dd1faf"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "uri", "parse", "stringify", "encode", "decode" ],
+      "license" : "MIT",
+      "files" : [ "query-string.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "query-string@1.0.1",
+      "gitHead" : "c52d7c6640053612c0eb38a98b0e9f653d951f02",
+      "_shasum" : "63ac953352499ad670a9681a75680f6bf3dd1faf",
+      "_nodeVersion" : "0.12.2"
+    }
+  },
+  "readme" : "# query-string [![Build Status](https://travis-ci.org/sindresorhus/query-string.svg?branch=master)](https://travis-ci.org/sindresorhus/query-string)\n\n> Parse and stringify URL [query strings](https://en.wikipedia.org/wiki/Query_string)\n\n<br>\n\n---\n\n<div align=\"center\">\n\t<p>\n\t\t<p>\n\t\t\t<sup>\n\t\t\t\t<a href=\"https://github.com/sponsors/sindresorhus\">My open source work is supported by the community</a>\n\t\t\t</sup>\n\t\t</p>\n\t\t<sup>Special thanks to:</sup>\n\t\t<br>\n\t\t<br>\n\t\t<a href=\"https://github.com/botpress/botpress\">\n\t\t\t<img src=\"https://sindresorhus.com/assets/thanks/botpress-logo.svg\" width=\"260\" alt=\"Botpress\">\n\t\t</a>\n\t\t<br>\n\t\t<sub><b>Botpress is an open-source conversational assistant creation platform.</b></sub>\n\t\t<br>\n\t\t<sub>They <a href=\"https://github.com/botpress/botpress/blob/master/.github/CONTRIBUTING.md\">welcome contributions</a> from anyone, whether you're into machine learning,<br>want to get started in open-source, or just have an improvement idea.</sub>\n\t\t<br>\n\t</p>\n</div>\n\n---\n\n<br>\n\n## Install\n\n```\n$ npm install query-string\n```\n\nThis module targets Node.js 6 or later and the latest version of Chrome, Firefox, and Safari. If you want support for older browsers, or, if your project is using create-react-app v1, use version 5: `npm install query-string@5`.\n\n## Usage\n\n```js\nconst queryString = require('query-string');\n\nconsole.log(location.search);\n//=> '?foo=bar'\n\nconst parsed = queryString.parse(location.search);\nconsole.log(parsed);\n//=> {foo: 'bar'}\n\nconsole.log(location.hash);\n//=> '#token=bada55cafe'\n\nconst parsedHash = queryString.parse(location.hash);\nconsole.log(parsedHash);\n//=> {token: 'bada55cafe'}\n\nparsed.foo = 'unicorn';\nparsed.ilike = 'pizza';\n\nconst stringified = queryString.stringify(parsed);\n//=> 'foo=unicorn&ilike=pizza'\n\nlocation.search = stringified;\n// note that `location.search` automatically prepends a question mark\nconsole.log(location.search);\n//=> '?foo=unicorn&ilike=pizza'\n```\n\n## API\n\n### .parse(string, options?)\n\nParse a query string into an object. Leading `?` or `#` are ignored, so you can pass `location.search` or `location.hash` directly.\n\nThe returned object is created with [`Object.create(null)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) and thus does not have a `prototype`.\n\n#### options\n\nType: `object`\n\n##### decode\n\nType: `boolean`\\\nDefault: `true`\n\nDecode the keys and values. URL components are decoded with [`decode-uri-component`](https://github.com/SamVerschueren/decode-uri-component).\n\n##### arrayFormat\n\nType: `string`\\\nDefault: `'none'`\n\n- `'bracket'`: Parse arrays with bracket representation:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parse('foo[]=1&foo[]=2&foo[]=3', {arrayFormat: 'bracket'});\n//=> {foo: ['1', '2', '3']}\n```\n\n- `'index'`: Parse arrays with index representation:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parse('foo[0]=1&foo[1]=2&foo[3]=3', {arrayFormat: 'index'});\n//=> {foo: ['1', '2', '3']}\n```\n\n- `'comma'`: Parse arrays with elements separated by comma:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parse('foo=1,2,3', {arrayFormat: 'comma'});\n//=> {foo: ['1', '2', '3']}\n```\n\n- `'separator'`: Parse arrays with elements separated by a custom character:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parse('foo=1|2|3', {arrayFormat: 'separator', arrayFormatSeparator: '|'});\n//=> {foo: ['1', '2', '3']}\n```\n\n- `'none'`: Parse arrays with elements using duplicate keys:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parse('foo=1&foo=2&foo=3');\n//=> {foo: ['1', '2', '3']}\n```\n\n##### arrayFormatSeparator\n\nType: `string`\\\nDefault: `','`\n\nThe character used to separate array elements when using `{arrayFormat: 'separator'}`.\n\n##### sort\n\nType: `Function | boolean`\\\nDefault: `true`\n\nSupports both `Function` as a custom sorting function or `false` to disable sorting.\n\n##### parseNumbers\n\nType: `boolean`\\\nDefault: `false`\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parse('foo=1', {parseNumbers: true});\n//=> {foo: 1}\n```\n\nParse the value as a number type instead of string type if it's a number.\n\n##### parseBooleans\n\nType: `boolean`\\\nDefault: `false`\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parse('foo=true', {parseBooleans: true});\n//=> {foo: true}\n```\n\nParse the value as a boolean type instead of string type if it's a boolean.\n\n### .stringify(object, options?)\n\nStringify an object into a query string and sorting the keys.\n\n#### options\n\nType: `object`\n\n##### strict\n\nType: `boolean`\\\nDefault: `true`\n\nStrictly encode URI components with [strict-uri-encode](https://github.com/kevva/strict-uri-encode). It uses [encodeURIComponent](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent) if set to false. You probably [don't care](https://github.com/sindresorhus/query-string/issues/42) about this option.\n\n##### encode\n\nType: `boolean`\\\nDefault: `true`\n\n[URL encode](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent) the keys and values.\n\n##### arrayFormat\n\nType: `string`\\\nDefault: `'none'`\n\n- `'bracket'`: Serialize arrays using bracket representation:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({foo: [1, 2, 3]}, {arrayFormat: 'bracket'});\n//=> 'foo[]=1&foo[]=2&foo[]=3'\n```\n\n- `'index'`: Serialize arrays using index representation:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({foo: [1, 2, 3]}, {arrayFormat: 'index'});\n//=> 'foo[0]=1&foo[1]=2&foo[2]=3'\n```\n\n- `'comma'`: Serialize arrays by separating elements with comma:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({foo: [1, 2, 3]}, {arrayFormat: 'comma'});\n//=> 'foo=1,2,3'\n```\n\n- `'none'`: Serialize arrays by using duplicate keys:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({foo: [1, 2, 3]});\n//=> 'foo=1&foo=2&foo=3'\n```\n\n##### arrayFormatSeparator\n\nType: `string`\\\nDefault: `','`\n\nThe character used to separate array elements when using `{arrayFormat: 'separator'}`.\n\n##### sort\n\nType: `Function | boolean`\n\nSupports both `Function` as a custom sorting function or `false` to disable sorting.\n\n```js\nconst queryString = require('query-string');\n\nconst order = ['c', 'a', 'b'];\n\nqueryString.stringify({a: 1, b: 2, c: 3}, {\n\tsort: (a, b) => order.indexOf(a) - order.indexOf(b)\n});\n//=> 'c=3&a=1&b=2'\n```\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({b: 1, c: 2, a: 3}, {sort: false});\n//=> 'b=1&c=2&a=3'\n```\n\nIf omitted, keys are sorted using `Array#sort()`, which means, converting them to strings and comparing strings in Unicode code point order.\n\n##### skipNull\n\nSkip keys with `null` as the value.\n\nNote that keys with `undefined` as the value are always skipped.\n\nType: `boolean`\\\nDefault: `false`\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({a: 1, b: undefined, c: null, d: 4}, {\n\tskipNull: true\n});\n//=> 'a=1&d=4'\n```\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({a: undefined, b: null}, {\n\tskipNull: true\n});\n//=> ''\n```\n\n### .extract(string)\n\nExtract a query string from a URL that can be passed into `.parse()`.\n\nNote: This behaviour can be changed with the `skipNull` option.\n\n### .parseUrl(string, options?)\n\nExtract the URL and the query string as an object.\n\nThe `options` are the same as for `.parse()`.\n\nReturns an object with a `url` and `query` property.\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parseUrl('https://foo.bar?foo=bar');\n//=> {url: 'https://foo.bar', query: {foo: 'bar'}}\n```\n\n### .stringifyUrl(object, options?)\n\nStringify an object into a URL with a query string and sorting the keys. The inverse of [`.parseUrl()`](https://github.com/sindresorhus/query-string#parseurlstring-options)\n\nThe `options` are the same as for `.stringify()`.\n\nReturns a string with the URL and a query string.\n\nQuery items in the `query` property overrides queries in the `url` property.\n\n```js\nqueryString.stringifyUrl({url: 'https://foo.bar', query: {foo: 'bar'}});\n//=> 'https://foo.bar?foo=bar'\n\nqueryString.stringifyUrl({url: 'https://foo.bar?foo=baz', query: {foo: 'bar'}});\n//=> 'https://foo.bar?foo=bar'\n```\n\n#### object\n\nType: `object`\n\n##### url\n\nType: `string`\n\nThe URL to stringify.\n\n##### query\n\nType: `object`\n\nQuery items to add to the URL.\n\n## Nesting\n\nThis module intentionally doesn't support nesting as it's not spec'd and varies between implementations, which causes a lot of [edge cases](https://github.com/visionmedia/node-querystring/issues).\n\nYou're much better off just converting the object to a JSON string:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({\n\tfoo: 'bar',\n\tnested: JSON.stringify({\n\t\tunicorn: 'cake'\n\t})\n});\n//=> 'foo=bar&nested=%7B%22unicorn%22%3A%22cake%22%7D'\n```\n\nHowever, there is support for multiple instances of the same key:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.parse('likes=cake&name=bob&likes=icecream');\n//=> {likes: ['cake', 'icecream'], name: 'bob'}\n\nqueryString.stringify({color: ['taupe', 'chartreuse'], id: '515'});\n//=> 'color=taupe&color=chartreuse&id=515'\n```\n\n## Falsy values\n\nSometimes you want to unset a key, or maybe just make it present without assigning a value to it. Here is how falsy values are stringified:\n\n```js\nconst queryString = require('query-string');\n\nqueryString.stringify({foo: false});\n//=> 'foo=false'\n\nqueryString.stringify({foo: null});\n//=> 'foo'\n\nqueryString.stringify({foo: undefined});\n//=> ''\n```\n\n## query-string for enterprise\n\nAvailable as part of the Tidelift Subscription.\n\nThe maintainers of query-string and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. [Learn more.](https://tidelift.com/subscription/pkg/npm-query-string?utm_source=npm-query-string&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "0.4.0" : "2014-05-15T00:41:48.332Z",
+    "0.4.1" : "2014-07-23T15:18:46.741Z",
+    "4.3.0" : "2017-01-12T16:34:05.921Z",
+    "4.1.0" : "2016-03-30T05:24:31.000Z",
+    "0.2.0" : "2014-03-03T19:21:52.779Z",
+    "4.3.3" : "2017-04-17T05:53:14.116Z",
+    "4.3.4" : "2017-04-19T12:42:51.423Z",
+    "6.9.0" : "2019-11-13T04:46:15.072Z",
+    "4.3.1" : "2017-01-14T08:13:53.727Z",
+    "4.3.2" : "2017-02-14T09:08:07.738Z",
+    "6.7.0" : "2019-06-08T10:48:35.318Z",
+    "modified" : "2020-02-13T13:44:28.277Z",
+    "6.10.0" : "2020-01-16T15:06:44.674Z",
+    "6.10.1" : "2020-01-17T07:18:19.313Z",
+    "2.1.0" : "2015-05-07T22:37:43.746Z",
+    "created" : "2013-11-13T20:08:10.866Z",
+    "2.3.0" : "2015-06-04T13:02:37.364Z",
+    "6.4.0" : "2019-03-14T12:42:14.250Z",
+    "6.4.1" : "2019-03-27T07:52:36.561Z",
+    "6.2.0" : "2018-10-02T05:48:13.208Z",
+    "6.0.0" : "2018-03-14T05:51:04.999Z",
+    "5.0.0" : "2017-07-22T22:44:35.109Z",
+    "5.0.1" : "2017-10-24T09:38:08.359Z",
+    "0.3.1" : "2014-04-30T22:45:44.178Z",
+    "4.0.2" : "2016-03-27T17:14:26.080Z",
+    "4.2.0" : "2016-05-30T14:07:47.949Z",
+    "4.2.1" : "2016-06-06T16:28:14.802Z",
+    "4.0.0" : "2016-03-26T10:34:13.025Z",
+    "6.8.2" : "2019-07-26T20:27:07.435Z",
+    "6.8.3" : "2019-08-31T08:34:53.979Z",
+    "0.1.1" : "2013-11-16T01:48:52.855Z",
+    "6.8.0" : "2019-06-20T15:15:09.535Z",
+    "0.3.0" : "2014-03-25T01:05:57.520Z",
+    "6.8.1" : "2019-06-21T13:22:59.321Z",
+    "4.2.2" : "2016-06-12T21:06:50.823Z",
+    "6.4.2" : "2019-03-27T08:31:29.892Z",
+    "6.6.0" : "2019-06-05T14:47:18.474Z",
+    "0.1.0" : "2013-11-13T20:08:13.752Z",
+    "4.2.3" : "2016-08-13T00:04:14.842Z",
+    "3.0.0" : "2015-10-13T05:50:20.278Z",
+    "3.0.1" : "2016-02-27T05:02:37.860Z",
+    "3.0.2" : "2016-03-18T08:50:08.796Z",
+    "3.0.3" : "2016-03-19T11:05:47.948Z",
+    "6.11.0" : "2020-02-13T13:44:20.843Z",
+    "2.0.0" : "2015-05-04T12:28:02.293Z",
+    "2.4.2" : "2015-10-04T13:39:56.949Z",
+    "2.4.0" : "2015-07-24T11:55:01.780Z",
+    "2.4.1" : "2015-09-04T08:50:42.530Z",
+    "2.2.0" : "2015-05-25T16:14:29.227Z",
+    "6.5.0" : "2019-04-28T09:01:08.407Z",
+    "6.3.0" : "2019-03-03T11:19:52.736Z",
+    "6.1.0" : "2018-05-02T17:42:18.025Z",
+    "5.1.0" : "2018-02-03T13:41:35.524Z",
+    "5.1.1" : "2018-03-14T04:51:47.167Z",
+    "1.0.0" : "2014-08-17T23:51:55.847Z",
+    "1.0.1" : "2015-05-04T12:23:57.636Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/query-string.git"
+  },
+  "users" : {
+    "sammyteahan" : true,
+    "jamescostian" : true,
+    "biao166" : true,
+    "markhe" : true,
+    "lunelson" : true,
+    "serge-nikitin" : true,
+    "maobon" : true,
+    "loasnir" : true,
+    "zhanghaili" : true,
+    "xinwangwang" : true,
+    "kodekracker" : true,
+    "pillar0514" : true,
+    "kvangrae" : true,
+    "hjodiawalla" : true,
+    "rocket0191" : true,
+    "xgenvn" : true,
+    "alex-cory" : true,
+    "bphanikumar" : true,
+    "xiechao06" : true,
+    "shangsinian" : true,
+    "intuitivcloud" : true,
+    "r_java" : true,
+    "jjj201200" : true,
+    "troyblank" : true,
+    "shubham54" : true,
+    "sopepos" : true,
+    "sergeymakoveev" : true,
+    "monjer" : true,
+    "noitidart" : true,
+    "zvit" : true,
+    "asaupup" : true,
+    "wangnan0610" : true,
+    "nsisodiya" : true,
+    "harrymahardhika" : true,
+    "uojo" : true,
+    "gurunate" : true,
+    "kaufmo" : true,
+    "zeroth007" : true,
+    "bourne" : true,
+    "yusef.ho.tw" : true,
+    "weerd" : true,
+    "taylorpzreal" : true,
+    "arttse" : true,
+    "xrush" : true,
+    "orenschwartz" : true,
+    "viktorthebaker" : true,
+    "koulmomo" : true,
+    "aslezak" : true,
+    "shay-altman" : true,
+    "sternelee" : true,
+    "raycharles" : true,
+    "tarex" : true,
+    "jrobinsonc" : true,
+    "usingthesystem" : true,
+    "wangshijun" : true,
+    "codelabstudios" : true,
+    "filipve" : true,
+    "gugiserman" : true,
+    "shawndsouza" : true,
+    "wuxiaword" : true,
+    "adamyonk" : true,
+    "gaohaoyang" : true,
+    "adamdreszer" : true,
+    "alexey-mish" : true,
+    "luckyulin" : true,
+    "ming371" : true,
+    "anhulife" : true,
+    "ycjcl868" : true,
+    "arcticicestudio" : true,
+    "billhinderman" : true,
+    "ungurys" : true,
+    "sexyoung1985" : true,
+    "lorenazohar" : true,
+    "jaggedsoft" : true,
+    "neversmile" : true,
+    "nukosuke" : true,
+    "rahulraghavankklm" : true,
+    "scotchulous" : true,
+    "akwa770" : true,
+    "ldq-first" : true,
+    "weavile" : true,
+    "knownasilya" : true,
+    "amaghfur" : true,
+    "re8260" : true,
+    "theaklair" : true,
+    "yunji7" : true,
+    "dwqs" : true,
+    "fanjieqi" : true,
+    "liximomo" : true,
+    "julen" : true,
+    "lukefiji" : true,
+    "maysay" : true,
+    "soenkekluth" : true,
+    "nuwaio" : true,
+    "nkalodimas" : true,
+    "pantyuhind" : true,
+    "hoanganh25991" : true,
+    "sai109" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/query-string#readme",
+  "keywords" : [ "browser", "querystring", "query", "string", "qs", "param", "parameter", "url", "parse", "stringify", "encode", "decode", "searchparams" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/query-string/issues"
+  },
+  "license" : "MIT"
+}

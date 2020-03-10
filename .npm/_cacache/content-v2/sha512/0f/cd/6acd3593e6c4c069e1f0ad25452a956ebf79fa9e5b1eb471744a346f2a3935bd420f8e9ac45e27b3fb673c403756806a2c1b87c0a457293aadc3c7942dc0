@@ -1,0 +1,3550 @@
+{
+  "_id" : "yaml",
+  "_rev" : "82-615d437c45b6d57a787fd7b357a978dc",
+  "name" : "yaml",
+  "description" : "JavaScript parser and stringifier for YAML",
+  "dist-tags" : {
+    "latest" : "1.7.2"
+  },
+  "versions" : {
+    "0.2.2" : {
+      "name" : "yaml",
+      "description" : "Yaml parser",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/yaml.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-0.2.2.tgz",
+        "shasum" : "1c83dd0b800f2dc867d6d3e4b260907f8ea0a0aa"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmVersion" : "1.0.24",
+      "_id" : "yaml@0.2.2",
+      "_npmJsonOpts" : {
+        "file" : "/Users/tj/.npm/yaml/0.2.2/package/package.json",
+        "wscript" : false,
+        "contributors" : false,
+        "serverjs" : false
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.11"
+    },
+    "0.2.3" : {
+      "name" : "yaml",
+      "description" : "Yaml parser",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/yaml.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-0.2.3.tgz",
+        "shasum" : "b5450e92e76ef36b5dd24e3660091ebaeef3e5c7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.0.104",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "yaml@0.2.3",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.12"
+    },
+    "1.0.0-rc.2" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-rc.2",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-rc.2.tgz",
+        "shasum" : "aeffa1ee128b7babc8f154de08e824376b674f43"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.46",
+        "@babel/core" : "^7.0.0-beta.46",
+        "@babel/preset-env" : "^7.0.0-beta.46",
+        "@babel/preset-stage-3" : "^7.0.0-beta.46",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.4.3",
+        "prettier" : "1.12.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/", "types/", "*.js" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-rc.2",
+      "gitHead" : "f6fd3d463e4a1c70dd7c2b2e4ea8637ccb05f2c7",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-rc.2_1529356738698_0.7431503725995268"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/). See the project's [documentation site](https://eemeli.org/yaml/) for more information.\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/ast/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "1.0.0-rc.1" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-rc.1",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-rc.1.tgz",
+        "shasum" : "0c03cab07797c2f55de3afd651e739d3cb941efd"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.46",
+        "@babel/core" : "^7.0.0-beta.46",
+        "@babel/preset-env" : "^7.0.0-beta.46",
+        "@babel/preset-stage-3" : "^7.0.0-beta.46",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.4.3",
+        "prettier" : "1.12.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-rc.1",
+      "gitHead" : "4ad0e6b81dc31b1e130b9ee5007dacde2a65d903",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-rc.1_1529356423774_0.727602425586136"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/). See the project's [documentation site](https://eemeli.org/yaml/) for more information.\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/ast/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "1.0.0-rc.4" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-rc.4",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-rc.4.tgz",
+        "shasum" : "850dc77d9b03975b5e5ea8a9b37cde252a8f1f0b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.46",
+        "@babel/core" : "^7.0.0-beta.46",
+        "@babel/preset-env" : "^7.0.0-beta.46",
+        "@babel/preset-stage-3" : "^7.0.0-beta.46",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.4.3",
+        "prettier" : "1.12.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/", "types/", "*.js" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-rc.4",
+      "gitHead" : "cfab593098fe7473f463a2b8c9a50e3f6a078084",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-rc.4_1530134416486_0.0414128667357736"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/). See the project's [documentation site](https://eemeli.org/yaml/) for more information.\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "1.0.0-rc.3" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-rc.3",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-rc.3.tgz",
+        "shasum" : "e4831862a0a89baca9382e772a5b7d34f60a3cf5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.46",
+        "@babel/core" : "^7.0.0-beta.46",
+        "@babel/preset-env" : "^7.0.0-beta.46",
+        "@babel/preset-stage-3" : "^7.0.0-beta.46",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.4.3",
+        "prettier" : "1.12.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/", "types/", "*.js" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-rc.3",
+      "gitHead" : "da10c705e55c03dbbeeefa7f30e86225b10a7b82",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-rc.3_1530040358554_0.503312615896834"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/). See the project's [documentation site](https://eemeli.org/yaml/) for more information.\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/ast/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "1.0.0-beta.7" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-beta.7",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://github.com/eemeli/yaml#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-beta.7.tgz",
+        "shasum" : "681937c5b2d85b6eb474d47e877f5e63a7efe20c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.46",
+        "@babel/core" : "^7.0.0-beta.46",
+        "@babel/preset-env" : "^7.0.0-beta.46",
+        "@babel/preset-stage-3" : "^7.0.0-beta.46",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.4.3",
+        "prettier" : "1.12.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-beta.7",
+      "gitHead" : "4286bdfe98609dbf600526930359d17b96f0c1be",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-beta.7_1529071479501_0.20629537654386376"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/)\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n\n\n## Usage\n\n```\nnpm install yaml@next\n```\n\n```js\nimport YAML from 'yaml'\n\nconst yaml =\n`YAML:\n  - A human-readable data serialization language\n  - https://en.wikipedia.org/wiki/YAML\nyaml:\n  - A complete JavaScript implementation\n  - https://www.npmjs.com/package/yaml\n`\n\nYAML.parse(yaml)\n/*\n *  { YAML:\n *    [ 'A human-readable data serialization language',\n *      'https://en.wikipedia.org/wiki/YAML' ],\n *    yaml:\n *    [ 'A complete JavaScript implementation',\n *      'https://www.npmjs.com/package/yaml' ] }\n*/\n\nconst docs = YAML.parseDocuments(yaml)\ndocs[0].toString() === yaml\n```\n\n\n## Beta Progress\n\nThe reason why this project exists is to have a tool that's capable of properly generating and handling YAML files with comments, specifically to provide context for translation strings that have been lifted out of JS source code. We're not there quite yet, as the prerequisite for that is having a complete and functioning YAML library.\n\n\n### What Works So Far\n\n#### Parsing\n- Support for all YAML node types, including alias nodes and multi-document streams\n- Complete support for the Fallback, JSON, and Core [Schemas], as well as an \"extended\" schema that covers all of the YAML 1.1 scalar [types] except for `!!yaml`.\n- `YAML.parse` converts string input to native JavaScript values\n- Comments are parsed and included in the outputs of `YAML.parseAST` ([lower-level AST] of the input) and `YAML.parseDocuments` (array of `Document` objects with `Map`/`Seq`/`Scalar` contents). These functions should never throw, but include arrays of `errors` and `warnings`.\n- Support for `<<` merge keys (default-disabled, enable with `merge: true` option)\n- Complete match between the parsed `in.yaml`, `in.json`, `out.yaml`, and `error` files across all of the [yaml-test-suite] test cases (note: A few of the tests are not in agreement with the spec, so this requires the use of a [custom branch] until the relevant [pull requests] and [issues] are resolved)\n- \"Native\" `Map` and `Seq` collections have `toJSON()` methods for bare JavaScript `Object` and `Array` output\n- Any string input should be accepted, and produce some output. Errors (if any) are not thrown, but included in the document's `errors` array\n\n[Schemas]: http://www.yaml.org/spec/1.2/spec.html#Schema\n[types]: http://yaml.org/type/\n[yaml-test-suite]: https://github.com/yaml/yaml-test-suite\n[custom branch]: https://github.com/eemeli/yaml-test-suite/tree/fixed-data\n[pull requests]: https://github.com/yaml/yaml-test-suite/pulls/eemeli\n[issues]: https://github.com/yaml/yaml-test-suite/issues/created_by/eemeli\n[lower-level AST]: src/ast/README.md\n\n#### Creating\n- `new YAML.Document()` does not need any arguments to create new documents, which may then have their `#contents` set to any type\n- `Document#resolveValue(value)` wraps values in `yaml` objects, deeply mapping arrays to `Seq`, objects to `Map`, and everything else to `Scalar`\n- Comments can be attached on or before any `Seq`, `Map` and `Scalar`\n\n#### Stringifying\n- `Document#toString()` produces idempotent YAML from all non-error spec examples and test suite cases\n- Comments and non-default tags are explicitly included in the output\n- String output is folded when possible to fit to a max width of 80 characters (customisable)\n- `AST#toString()` works completely, but is clumsy to use\n\n\n### Still Needs Work\n- Alias nodes are resolved too early, and can't be created\n- Need to consider handling stream input\n- Better documentation\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/ast/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "1.0.0-beta.6" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-beta.6",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://github.com/eemeli/yaml#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-beta.6.tgz",
+        "shasum" : "531cc4dd6327481f0a76c37a276b7eae4ef4f1d1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.46",
+        "@babel/core" : "^7.0.0-beta.46",
+        "@babel/preset-env" : "^7.0.0-beta.46",
+        "@babel/preset-stage-3" : "^7.0.0-beta.46",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.4.3",
+        "prettier" : "1.12.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-beta.6",
+      "gitHead" : "872ce41b02827fea03987c1fd759556058ceea55",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-beta.6_1527626518743_0.8261273455543487"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/)\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n\n\n## Usage\n\n```\nnpm install yaml@next\n```\n\n```js\nimport YAML from 'yaml'\n\nconst yaml =\n`YAML:\n  - A human-readable data serialization language\n  - https://en.wikipedia.org/wiki/YAML\nyaml:\n  - A complete JavaScript implementation\n  - https://www.npmjs.com/package/yaml\n`\n\nYAML.parse(yaml)\n/*\n *  { YAML:\n *    [ 'A human-readable data serialization language',\n *      'https://en.wikipedia.org/wiki/YAML' ],\n *    yaml:\n *    [ 'A complete JavaScript implementation',\n *      'https://www.npmjs.com/package/yaml' ] }\n*/\n\nconst docs = YAML.parseDocuments(yaml)\ndocs[0].toString() === yaml\n```\n\n\n## Beta Progress\n\nThe reason why this project exists is to have a tool that's capable of properly generating and handling YAML files with comments, specifically to provide context for translation strings that have been lifted out of JS source code. We're not there quite yet, as the prerequisite for that is having a complete and functioning YAML library.\n\n\n### What Works So Far\n\n#### Parsing\n- Support for all YAML node types, including alias nodes and multi-document streams\n- Complete support for the Fallback, JSON, and Core [Schemas], as well as an \"extended\" schema that covers all of the YAML 1.1 scalar [types] except for `!!yaml`.\n- `YAML.parse` converts string input to native JavaScript values\n- Comments are parsed and included in the outputs of `YAML.parseAST` ([lower-level AST] of the input) and `YAML.parseDocuments` (array of `Document` objects with `Map`/`Seq`/`Scalar` contents). These functions should never throw, but include arrays of `errors` and `warnings`.\n- Support for `<<` merge keys (default-disabled, enable with `merge: true` option)\n- Complete match between the parsed `in.yaml`, `in.json`, `out.yaml`, and `error` files across all of the [yaml-test-suite] test cases (note: A few of the tests are not in agreement with the spec, so this requires the use of a [custom branch] until the relevant [pull requests] and [issues] are resolved)\n- \"Native\" `Map` and `Seq` collections have `toJSON()` methods for bare JavaScript `Object` and `Array` output\n- Any string input should be accepted, and produce some output. Errors (if any) are not thrown, but included in the document's `errors` array\n\n[Schemas]: http://www.yaml.org/spec/1.2/spec.html#Schema\n[types]: http://yaml.org/type/\n[yaml-test-suite]: https://github.com/yaml/yaml-test-suite\n[custom branch]: https://github.com/eemeli/yaml-test-suite/tree/fixed-data\n[pull requests]: https://github.com/yaml/yaml-test-suite/pulls/eemeli\n[issues]: https://github.com/yaml/yaml-test-suite/issues/created_by/eemeli\n[lower-level AST]: src/ast/README.md\n\n#### Creating\n- `new YAML.Document()` does not need any arguments to create new documents, which may then have their `#contents` set to any type\n- `Document#resolveValue(value)` wraps values in `yaml` objects, deeply mapping arrays to `Seq`, objects to `Map`, and everything else to `Scalar`\n- Comments can be attached on or before any `Seq`, `Map` and `Scalar`\n\n#### Stringifying\n- `Document#toString()` produces idempotent YAML from all non-error spec examples and test suite cases\n- Comments and non-default tags are explicitly included in the output\n- String output is folded when possible to fit to a max width of 80 characters (customisable)\n- `AST#toString()` works completely, but is clumsy to use\n\n\n### Still Needs Work\n- Alias nodes are resolved too early, and can't be created\n- Need to consider handling stream input\n- Better documentation\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/ast/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "0.1.1" : {
+      "name" : "yaml",
+      "description" : "Yaml parser",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/yaml",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-0.1.1.tgz",
+        "shasum" : "ac2a0ea9eb89f3d86c436763bd98b5bd92ed92f8"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.11-5",
+      "_id" : "yaml@0.1.1",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.2.5"
+    },
+    "0.2.0" : {
+      "name" : "yaml",
+      "description" : "Yaml parser",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/yaml.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-0.2.0.tgz",
+        "shasum" : "6c37d91f3081690ec0e11c1b7d624dcb0e37cbe3"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmVersion" : "1.0.3",
+      "_id" : "yaml@0.2.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.8"
+    },
+    "0.1.2" : {
+      "name" : "yaml",
+      "description" : "Yaml parser",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/yaml.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-0.1.2.tgz",
+        "shasum" : "0459d27fecb4f015f072b15db8ec64ca64af603f"
+      },
+      "files" : [ "" ],
+      "directories" : {
+        "lib" : "./lib"
+      },
+      "_npmVersion" : "0.3.18",
+      "_id" : "yaml@0.1.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.6"
+    },
+    "0.2.1" : {
+      "name" : "yaml",
+      "description" : "Yaml parser",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/yaml.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-0.2.1.tgz",
+        "shasum" : "e925585765208789e7006d673d79e52deee92b54"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmVersion" : "1.0.3",
+      "_id" : "yaml@0.2.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.8"
+    },
+    "0.3.0" : {
+      "name" : "yaml",
+      "description" : "Yaml parser",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "homepage" : "https://github.com/tj/js-yaml",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/tj/js-yaml"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tj/js-yaml/issues"
+      },
+      "main" : "./lib/yaml.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-0.3.0.tgz",
+        "shasum" : "c31a616d07acdbc2012d73a6ba5b1b0bdd185a7f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      },
+      "_id" : "yaml@0.3.0",
+      "gitHead" : "18814da3b49eea33186c48e3d5ebf8a4b7c2af6c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/yaml-0.3.0.tgz_1456059619421_0.44368707737885416"
+      },
+      "_shasum" : "c31a616d07acdbc2012d73a6ba5b1b0bdd185a7f",
+      "_nodeVersion" : "4.2.6"
+    },
+    "0.1.0" : {
+      "name" : "yaml",
+      "description" : "Yaml parser",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/yaml",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-0.1.0.tgz",
+        "shasum" : "56bf2e28ebe93efe9df58b3ed3f93ad8e16a10c3"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "yaml@0.1.0",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "1.0.0-beta.1" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-beta.1",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://github.com/eemeli/yaml#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-beta.1.tgz",
+        "shasum" : "48b24957df6a666fe77389f1fc72bfc33d857877"
+      },
+      "dependencies" : {
+        "raw-yaml" : "^0.2.3"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.37",
+        "@babel/core" : "^7.0.0-beta.37",
+        "@babel/preset-env" : "^7.0.0-beta.37",
+        "@babel/preset-stage-3" : "^7.0.0-beta.37",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.0.6",
+        "babel-plugin-trace" : "github:eemeli/babel-plugin-trace#babel7-build",
+        "jest" : "^22.0.6"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-beta.1",
+      "gitHead" : "ac6371fe45ee45da0dd50dd46cef702130922da4",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-beta.1_1518515923055_0.953793947984761"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/)\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n\n\n## Usage\n\n```\nnpm install yaml\n```\n\n```js\nimport { resolve } from 'yaml'\n\nconst yaml =\n`YAML:\n  - A human-readable data serialization language\n  - https://en.wikipedia.org/wiki/YAML\nyaml:\n  - A complete JavaScript implementation\n  - https://www.npmjs.com/package/yaml\n`\n\nconst doc = resolve(yaml)[0]\n\ndoc.toJSON()\n/*\n *  { YAML:\n *    [ 'A human-readable data serialization language',\n *      'https://en.wikipedia.org/wiki/YAML' ],\n *    yaml:\n *    [ 'A complete JavaScript implementation',\n *      'https://www.npmjs.com/package/yaml' ] }\n*/\n\ndoc.toString() === yaml\n```\n\n\n## Beta Progress\n\nThe reason why this project exists is to have a tool that's capable of properly generating and handling YAML files with comments, specifically to provide context for translation strings that have been lifted out of JS source code. We're not there yet, as the prerequisite for that is having a complete and functioning YAML library.\n\nThe [AST level] of the library has been released separately, and is fully functional.\n\n\n### What Works So Far\n\n#### Parsing\n- Support for all YAML node types, including alias nodes and multi-document streams\n- Complete support for the Fallback, JSON, and Core [Schemas], as well as an \"extended\" schema that covers all of the YAML 1.1 scalar [types] except for `!!yaml`.\n- Support for `<<` merge keys (default-enabled, disable with `merge: false` option)\n- Complete match between the parsed `in.yaml` and `in.json` files across all of the [yaml-test-suite] test cases (note: A few of the tests are not in agreement with the spec, so this requires the use of a [custom branch] until [PR #24] and [issue #25] are resolved)\n- Comments are parsed and included up to the [AST level] of the API\n- \"Native\" `Map` and `Seq` collections have `toJSON()` methods for bare JavaScript `Object` and `Array` output\n- Any string input should be accepted, and produce some output. Errors (if any) are not thrown, but included in the document's `errors` array\n\n[Schemas]: http://www.yaml.org/spec/1.2/spec.html#Schema\n[types]: http://yaml.org/type/\n[yaml-test-suite]: https://github.com/yaml/yaml-test-suite\n[custom branch]: https://github.com/eemeli/yaml-test-suite/tree/fixed-data\n[PR #25]: https://github.com/yaml/yaml-test-suite/pull/24\n[issue #25]: https://github.com/yaml/yaml-test-suite/issues/25\n[AST level]: https://www.npmjs.com/package/raw-yaml\n\n#### Stringifying\n- `Document#toString()` mostly works, producing idempotent YAML from all but a few [corner cases]\n- `AST#toString()` works completely, but is clumsy to use\n\n[corner cases]: https://github.com/eemeli/yaml/commit/b237e55e00071700ae02a748dff3a857cea8674a\n\n\n### Still Needs Work\n\n- Object creation: `Document`, `Map` and `Seq` need constructors accepting plain JS objects\n- Long lines should be wrapped\n- Collections need to retain tag and comment data\n- Item add/remove should keep tags and comments in place\n- Not all parser errors are reported\n- API needs finalising\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common" ]
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "1.0.0-beta.5" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-beta.5",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://github.com/eemeli/yaml#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-beta.5.tgz",
+        "shasum" : "17ac674c225f72d74a9eeecfc81d30ec369ed1b6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.46",
+        "@babel/core" : "^7.0.0-beta.46",
+        "@babel/preset-env" : "^7.0.0-beta.46",
+        "@babel/preset-stage-3" : "^7.0.0-beta.46",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.4.3"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-beta.5",
+      "gitHead" : "f8705ab4f49d1c787d383136b4783a1ff390d749",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-beta.5_1526408505479_0.08075331494999771"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/)\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n\n\n## Usage\n\n```\nnpm install yaml@next\n```\n\n```js\nimport YAML from 'yaml'\n\nconst yaml =\n`YAML:\n  - A human-readable data serialization language\n  - https://en.wikipedia.org/wiki/YAML\nyaml:\n  - A complete JavaScript implementation\n  - https://www.npmjs.com/package/yaml\n`\n\nYAML.parse(yaml)\n/*\n *  { YAML:\n *    [ 'A human-readable data serialization language',\n *      'https://en.wikipedia.org/wiki/YAML' ],\n *    yaml:\n *    [ 'A complete JavaScript implementation',\n *      'https://www.npmjs.com/package/yaml' ] }\n*/\n\nconst docStream = YAML.parseStream(yaml)\ndocStream[0].toString() === yaml\n```\n\n\n## Beta Progress\n\nThe reason why this project exists is to have a tool that's capable of properly generating and handling YAML files with comments, specifically to provide context for translation strings that have been lifted out of JS source code. We're not there quite yet, as the prerequisite for that is having a complete and functioning YAML library.\n\n\n### What Works So Far\n\n#### Parsing\n- Support for all YAML node types, including alias nodes and multi-document streams\n- Complete support for the Fallback, JSON, and Core [Schemas], as well as an \"extended\" schema that covers all of the YAML 1.1 scalar [types] except for `!!yaml`.\n- `YAML.parse` converts string input to native JavaScript values\n- Comments are parsed and included in the outputs of `YAML.parseAST` ([lower-level AST] of the input) and `YAML.parseStream` (array of `Document` objects with `Map`/`Seq`/`Scalar` contents). These functions should never throw, but include arrays of `errors` and `warnings`.\n- Support for `<<` merge keys (default-disabled, enable with `merge: true` option)\n- Complete match between the parsed `in.yaml`, `in.json`, `out.yaml`, and `error` files across all of the [yaml-test-suite] test cases (note: A few of the tests are not in agreement with the spec, so this requires the use of a [custom branch] until the relevant [pull requests] and [issues] are resolved)\n- \"Native\" `Map` and `Seq` collections have `toJSON()` methods for bare JavaScript `Object` and `Array` output\n- Any string input should be accepted, and produce some output. Errors (if any) are not thrown, but included in the document's `errors` array\n\n[Schemas]: http://www.yaml.org/spec/1.2/spec.html#Schema\n[types]: http://yaml.org/type/\n[yaml-test-suite]: https://github.com/yaml/yaml-test-suite\n[custom branch]: https://github.com/eemeli/yaml-test-suite/tree/fixed-data\n[pull requests]: https://github.com/yaml/yaml-test-suite/pulls/eemeli\n[issues]: https://github.com/yaml/yaml-test-suite/issues/created_by/eemeli\n[lower-level AST]: src/ast/README.md\n\n#### Creating\n- `new YAML.Document()` does not need any arguments to create new documents, which may then have their `#contents` set to any type\n- `Document#resolveValue(value)` wraps values in `yaml` objects, deeply mapping arrays to `Seq`, objects to `Map`, and everything else to `Scalar`\n- Comments can be attached on or before any `Seq`, `Map` and `Scalar`\n\n#### Stringifying\n- `Document#toString()` produces idempotent YAML from all non-error spec examples and test suite cases\n- Non-default tags are explicitly included in the output\n- `AST#toString()` works completely, but is clumsy to use\n\n\n### Still Needs Work\n- Long lines should be wrapped\n- API needs finalising\n- Better documentation\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/ast/common" ]
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "1.0.0-beta.4" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-beta.4",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://github.com/eemeli/yaml#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-beta.4.tgz",
+        "shasum" : "c04bd5411e6126d773604c3a1725c8a025813d3f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.40",
+        "@babel/core" : "^7.0.0-beta.40",
+        "@babel/preset-env" : "^7.0.0-beta.40",
+        "@babel/preset-stage-3" : "^7.0.0-beta.40",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.2.2",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.3.0"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-beta.4",
+      "gitHead" : "443ddb7898a88ae379862ce4f5c7457572000556",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-beta.4_1523192219652_0.9381838682754213"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/)\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n\n\n## Usage\n\n```\nnpm install yaml@next\n```\n\n```js\nimport { resolve } from 'yaml'\n\nconst yaml =\n`YAML:\n  - A human-readable data serialization language\n  - https://en.wikipedia.org/wiki/YAML\nyaml:\n  - A complete JavaScript implementation\n  - https://www.npmjs.com/package/yaml\n`\n\nconst doc = resolve(yaml)[0]\n\ndoc.toJSON()\n/*\n *  { YAML:\n *    [ 'A human-readable data serialization language',\n *      'https://en.wikipedia.org/wiki/YAML' ],\n *    yaml:\n *    [ 'A complete JavaScript implementation',\n *      'https://www.npmjs.com/package/yaml' ] }\n*/\n\ndoc.toString() === yaml\n```\n\n\n## Beta Progress\n\nThe reason why this project exists is to have a tool that's capable of properly generating and handling YAML files with comments, specifically to provide context for translation strings that have been lifted out of JS source code. We're not there quite yet, as the prerequisite for that is having a complete and functioning YAML library.\n\nThe [AST level] of the library has been released separately, and is fully functional.\n\n\n### What Works So Far\n\n#### Parsing\n- Support for all YAML node types, including alias nodes and multi-document streams\n- Complete support for the Fallback, JSON, and Core [Schemas], as well as an \"extended\" schema that covers all of the YAML 1.1 scalar [types] except for `!!yaml`.\n- Support for `<<` merge keys (default-disabled, enable with `merge: true` option)\n- Complete match between the parsed `in.yaml`, `in.json`, `out.yaml`, and `error` files across all of the [yaml-test-suite] test cases (note: A few of the tests are not in agreement with the spec, so this requires the use of a [custom branch] until the relevant [pull requests] and [issues] are resolved)\n- Comments are parsed and included up to the [AST level] of the API\n- \"Native\" `Map` and `Seq` collections have `toJSON()` methods for bare JavaScript `Object` and `Array` output\n- Any string input should be accepted, and produce some output. Errors (if any) are not thrown, but included in the document's `errors` array\n\n[Schemas]: http://www.yaml.org/spec/1.2/spec.html#Schema\n[types]: http://yaml.org/type/\n[yaml-test-suite]: https://github.com/yaml/yaml-test-suite\n[custom branch]: https://github.com/eemeli/yaml-test-suite/tree/fixed-data\n[pull requests]: https://github.com/yaml/yaml-test-suite/pulls/eemeli\n[issues]: https://github.com/yaml/yaml-test-suite/issues/created_by/eemeli\n[AST level]: src/ast/README.md\n\n#### Stringifying\n- `Document#toString()` produces idempotent YAML from all non-error spec examples and test suite cases\n- `AST#toString()` works completely, but is clumsy to use\n\n\n### Still Needs Work\n\n- Object creation: `Document`, `Map` and `Seq` need constructors accepting plain JS objects\n- Long lines should be wrapped\n- Collections need to retain tag and comment data\n- Item add/remove should keep tags and comments in place\n- Explicit tags are not included in the stringified output\n- API needs finalising\n- Better documentation\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/ast/common" ]
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "1.0.0-beta.3" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-beta.3",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://github.com/eemeli/yaml#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-beta.3.tgz",
+        "shasum" : "87062d37a4f17b159c7a766b42d2dbec10615560"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.40",
+        "@babel/core" : "^7.0.0-beta.40",
+        "@babel/preset-env" : "^7.0.0-beta.40",
+        "@babel/preset-stage-3" : "^7.0.0-beta.40",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.2.2",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.3.0"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-beta.3",
+      "gitHead" : "ebedaa294bce0e807782687010a43d583755a0cf",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-beta.3_1519340574025_0.14518911144196167"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/)\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n\n\n## Usage\n\n```\nnpm install yaml@next\n```\n\n```js\nimport { resolve } from 'yaml'\n\nconst yaml =\n`YAML:\n  - A human-readable data serialization language\n  - https://en.wikipedia.org/wiki/YAML\nyaml:\n  - A complete JavaScript implementation\n  - https://www.npmjs.com/package/yaml\n`\n\nconst doc = resolve(yaml)[0]\n\ndoc.toJSON()\n/*\n *  { YAML:\n *    [ 'A human-readable data serialization language',\n *      'https://en.wikipedia.org/wiki/YAML' ],\n *    yaml:\n *    [ 'A complete JavaScript implementation',\n *      'https://www.npmjs.com/package/yaml' ] }\n*/\n\ndoc.toString() === yaml\n```\n\n\n## Beta Progress\n\nThe reason why this project exists is to have a tool that's capable of properly generating and handling YAML files with comments, specifically to provide context for translation strings that have been lifted out of JS source code. We're not there quite yet, as the prerequisite for that is having a complete and functioning YAML library.\n\nThe [AST level] of the library has been released separately, and is fully functional.\n\n\n### What Works So Far\n\n#### Parsing\n- Support for all YAML node types, including alias nodes and multi-document streams\n- Complete support for the Fallback, JSON, and Core [Schemas], as well as an \"extended\" schema that covers all of the YAML 1.1 scalar [types] except for `!!yaml`.\n- Support for `<<` merge keys (default-disabled, enable with `merge: true` option)\n- Complete match between the parsed `in.yaml`, `in.json`, `out.yaml`, and `error` files across all of the [yaml-test-suite] test cases (note: A few of the tests are not in agreement with the spec, so this requires the use of a [custom branch] until the relevant [pull requests] and [issues] are resolved)\n- Comments are parsed and included up to the [AST level] of the API\n- \"Native\" `Map` and `Seq` collections have `toJSON()` methods for bare JavaScript `Object` and `Array` output\n- Any string input should be accepted, and produce some output. Errors (if any) are not thrown, but included in the document's `errors` array\n\n[Schemas]: http://www.yaml.org/spec/1.2/spec.html#Schema\n[types]: http://yaml.org/type/\n[yaml-test-suite]: https://github.com/yaml/yaml-test-suite\n[custom branch]: https://github.com/eemeli/yaml-test-suite/tree/fixed-data\n[pull requests]: https://github.com/yaml/yaml-test-suite/pulls/eemeli\n[issues]: https://github.com/yaml/yaml-test-suite/issues/created_by/eemeli\n[AST level]: src/ast/README.md\n\n#### Stringifying\n- `Document#toString()` produces idempotent YAML from all non-error spec examples and test suite cases\n- `AST#toString()` works completely, but is clumsy to use\n\n\n### Still Needs Work\n\n- Object creation: `Document`, `Map` and `Seq` need constructors accepting plain JS objects\n- Long lines should be wrapped\n- Collections need to retain tag and comment data\n- Item add/remove should keep tags and comments in place\n- Explicit tags are not included in the stringified output\n- API needs finalising\n- Better documentation\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/ast/common" ]
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "1.0.0-beta.2" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-beta.2",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://github.com/eemeli/yaml#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-beta.2.tgz",
+        "shasum" : "342c988cbe8a4e1bd5bf2e1c6217093bfc0d0ab4"
+      },
+      "dependencies" : {
+        "raw-yaml" : "^0.2.5"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.40",
+        "@babel/core" : "^7.0.0-beta.40",
+        "@babel/preset-env" : "^7.0.0-beta.40",
+        "@babel/preset-stage-3" : "^7.0.0-beta.40",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.2.2",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.3.0"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-beta.2",
+      "gitHead" : "5a668ef279fde809f47e1320773c5e0c05a062de",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-beta.2_1519030800463_0.9062757794447585"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/)\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n\n\n## Usage\n\n```\nnpm install yaml@next\n```\n\n```js\nimport { resolve } from 'yaml'\n\nconst yaml =\n`YAML:\n  - A human-readable data serialization language\n  - https://en.wikipedia.org/wiki/YAML\nyaml:\n  - A complete JavaScript implementation\n  - https://www.npmjs.com/package/yaml\n`\n\nconst doc = resolve(yaml)[0]\n\ndoc.toJSON()\n/*\n *  { YAML:\n *    [ 'A human-readable data serialization language',\n *      'https://en.wikipedia.org/wiki/YAML' ],\n *    yaml:\n *    [ 'A complete JavaScript implementation',\n *      'https://www.npmjs.com/package/yaml' ] }\n*/\n\ndoc.toString() === yaml\n```\n\n\n## Beta Progress\n\nThe reason why this project exists is to have a tool that's capable of properly generating and handling YAML files with comments, specifically to provide context for translation strings that have been lifted out of JS source code. We're not there quite yet, as the prerequisite for that is having a complete and functioning YAML library.\n\nThe [AST level] of the library has been released separately, and is fully functional.\n\n\n### What Works So Far\n\n#### Parsing\n- Support for all YAML node types, including alias nodes and multi-document streams\n- Complete support for the Fallback, JSON, and Core [Schemas], as well as an \"extended\" schema that covers all of the YAML 1.1 scalar [types] except for `!!yaml`.\n- Support for `<<` merge keys (default-enabled, disable with `merge: false` option)\n- Complete match between the parsed `in.yaml`, `in.json`, and `out.yaml` files across all of the [yaml-test-suite] test cases (note: A few of the tests are not in agreement with the spec, so this requires the use of a [custom branch] until the relevant [pull requests] and [issues] are resolved)\n- Comments are parsed and included up to the [AST level] of the API\n- \"Native\" `Map` and `Seq` collections have `toJSON()` methods for bare JavaScript `Object` and `Array` output\n- Any string input should be accepted, and produce some output. Errors (if any) are not thrown, but included in the document's `errors` array\n\n[Schemas]: http://www.yaml.org/spec/1.2/spec.html#Schema\n[types]: http://yaml.org/type/\n[yaml-test-suite]: https://github.com/yaml/yaml-test-suite\n[custom branch]: https://github.com/eemeli/yaml-test-suite/tree/fixed-data\n[pull requests]: https://github.com/yaml/yaml-test-suite/pulls/eemeli\n[issues]: https://github.com/yaml/yaml-test-suite/issues/created_by/eemeli\n[AST level]: https://www.npmjs.com/package/raw-yaml\n\n#### Stringifying\n- `Document#toString()` produces idempotent YAML from all non-error spec examples and test suite cases\n- `AST#toString()` works completely, but is clumsy to use\n\n\n### Still Needs Work\n\n- Object creation: `Document`, `Map` and `Seq` need constructors accepting plain JS objects\n- Long lines should be wrapped\n- Collections need to retain tag and comment data\n- Item add/remove should keep tags and comments in place\n- Explicit tags are not included in the stringified output\n- Not all parser errors are reported\n- API needs finalising\n- Better documentation\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common" ]
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "1.0.0-rc.6" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-rc.6",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-rc.6.tgz",
+        "shasum" : "42beacf1dd7ea2e32e50456051bbe54ea54a1244"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.52",
+        "@babel/core" : "^7.0.0-beta.52",
+        "@babel/preset-env" : "^7.0.0-beta.52",
+        "@babel/preset-stage-3" : "^7.0.0-beta.52",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.2.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^23.3.0",
+        "prettier" : "^1.13.7"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/", "types/", "*.js" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-rc.6",
+      "gitHead" : "eaca37a799e7a74318a2f3aef2a3614f23180e0b",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-rc.6_1531052171357_0.6230809306507668"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/). See the project's [documentation site](https://eemeli.org/yaml/) for more information.\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "1.0.0-rc.5" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-rc.5",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-rc.5.tgz",
+        "shasum" : "113aad47e7a6c1c59759fb318459e42b96708021"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.46",
+        "@babel/core" : "^7.0.0-beta.46",
+        "@babel/preset-env" : "^7.0.0-beta.46",
+        "@babel/preset-stage-3" : "^7.0.0-beta.46",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^22.4.3",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^22.4.3",
+        "prettier" : "1.12.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/", "types/", "*.js" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "version" : "git commit -am \"Update version\" && git add -f dist/",
+        "postversion" : "git reset --hard HEAD^",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-rc.5",
+      "gitHead" : "d5f7ca612a84f5f31c5aad24f06d4b441a39b710",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-rc.5_1530372700405_0.4796536218428211"
+      },
+      "readme" : "# YAML\n\nJavaScript parser and stringifier for [YAML 1.2](http://yaml.org/). See the project's [documentation site](https://eemeli.org/yaml/) for more information.\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "1.0.0-rc.8" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.0.0-rc.8",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-rc.8.tgz",
+        "shasum" : "e5604c52b7b07b16e469bcf875ab0dfe08c50d42"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-rc.2",
+        "@babel/core" : "^7.0.0-rc.2",
+        "@babel/plugin-proposal-class-properties" : "^7.0.0-rc.2",
+        "@babel/preset-env" : "^7.0.0-rc.2",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.4.2",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^23.5.0",
+        "prettier" : "^1.14.2"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/", "types/", "*.js" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-rc.8",
+      "gitHead" : "21633235dfafe60796213e42b5ba1903413a2df5",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : {
+            "node" : "6"
+          }
+        } ] ],
+        "plugins" : [ "@babel/plugin-proposal-class-properties", [ "babel-plugin-trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-rc.8_1535000596262_0.4265001788812868"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.8.0"
+    },
+    "1.0.0-rc.7" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML 1.2",
+      "version" : "1.0.0-rc.7",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0-rc.7.tgz",
+        "shasum" : "7cf9dba3c78992542b7a2d7cb9a7eeacbff63f77"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.0.0-beta.52",
+        "@babel/core" : "^7.0.0-beta.52",
+        "@babel/preset-env" : "^7.0.0-beta.52",
+        "@babel/preset-stage-3" : "^7.0.0-beta.52",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.2.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^23.3.0",
+        "prettier" : "^1.13.7"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "files" : [ "dist/", "types/", "*.js" ],
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0-rc.7",
+      "gitHead" : "d41b9e71567b0210a1c09e1cdec7cf5fa9369057",
+      "babel" : {
+        "presets" : [ "@babel/env", "@babel/stage-3" ],
+        "plugins" : [ [ "trace", {
+          "strip" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0-rc.7_1531323079119_0.8255308437424624"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "1.0.3" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.3.tgz",
+        "shasum" : "6eed55f60edb3ac1402283fba94c91b6a0a026f7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.1.5",
+        "@babel/core" : "^7.1.6",
+        "@babel/plugin-proposal-class-properties" : "^7.1.0",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.2"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.3",
+      "gitHead" : "f4e7c1f8d3ece09da5725bbe30ccaf4010095a9d",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : {
+            "node" : "6"
+          }
+        } ] ],
+        "plugins" : [ "@babel/plugin-proposal-class-properties", [ "babel-plugin-trace", {
+          "strip" : true
+        } ], [ "babel-plugin-add-module-exports", {
+          "addDefaultProperty" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.3_1543439281126_0.8664904182340489"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.2.1" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.2.1.tgz",
+        "shasum" : "7057ee224c96e7dcd591a83a871ad89d3df1c6ed"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.3",
+        "@babel/core" : "^7.2.2",
+        "@babel/plugin-proposal-class-properties" : "^7.2.3",
+        "@babel/preset-env" : "^7.2.3",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^23.6.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "eslint" : "^5.11.1",
+        "eslint-config-prettier" : "^3.3.0",
+        "fast-check" : "^1.9.1",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.3"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "lint" : "eslint src/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.2.1",
+      "gitHead" : "978a42a4d8184bbdddd3ff4cccff7f8cacf3c062",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : {
+            "node" : "6"
+          }
+        } ] ],
+        "plugins" : [ "@babel/plugin-proposal-class-properties", [ "babel-plugin-trace", {
+          "strip" : true
+        } ], [ "babel-plugin-add-module-exports", {
+          "addDefaultProperty" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.2.1_1547720138016_0.5830178511833091"
+      },
+      "eslintConfig" : {
+        "root" : true,
+        "parser" : "babel-eslint",
+        "env" : {
+          "node" : true
+        },
+        "extends" : [ "eslint:recommended", "prettier" ],
+        "rules" : {
+          "array-callback-return" : "error",
+          "camelcase" : "error",
+          "consistent-return" : "error",
+          "eqeqeq" : [ "error", "always", {
+            "null" : "ignore"
+          } ],
+          "no-constant-condition" : [ "error", {
+            "checkLoops" : false
+          } ],
+          "no-control-regex" : 0,
+          "no-implicit-globals" : "error",
+          "no-template-curly-in-string" : "warn",
+          "no-unused-labels" : 0,
+          "no-var" : "error",
+          "prefer-const" : [ "warn", {
+            "destructuring" : "all"
+          } ]
+        },
+        "overrides" : [ {
+          "files" : [ "src/**/*.js" ],
+          "env" : {
+            "es6" : true,
+            "node" : false
+          }
+        }, {
+          "files" : [ "__tests__/*.js", "__tests__/cst/*.js" ],
+          "env" : {
+            "es6" : true,
+            "jest" : true
+          },
+          "rules" : {
+            "camelcase" : 0
+          }
+        } ]
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.3.0" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.3.0.tgz",
+        "shasum" : "61abb4269417185410d91f78a45cdd1f1cf3a0a5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.3",
+        "@babel/core" : "^7.2.2",
+        "@babel/plugin-proposal-class-properties" : "^7.3.0",
+        "@babel/plugin-transform-runtime" : "^7.2.0",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^24.0.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^5.12.1",
+        "eslint-config-prettier" : "^4.0.0",
+        "fast-check" : "^1.10.0",
+        "jest" : "^24.0.0",
+        "prettier" : "^1.16.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.3.0",
+      "gitHead" : "2c2fbe89631bcba08012a3b0cc411f0982477862",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./dist/index.js" : "./browser/dist/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.3.0_1548578017342_0.08806500083654667"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "1.3.1" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.3.1.tgz",
+        "shasum" : "058453683f6e459bfa1854ae6110b68c72438c8e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.3",
+        "@babel/core" : "^7.2.2",
+        "@babel/plugin-proposal-class-properties" : "^7.3.0",
+        "@babel/plugin-transform-runtime" : "^7.2.0",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^24.0.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^5.12.1",
+        "eslint-config-prettier" : "^4.0.0",
+        "fast-check" : "^1.10.0",
+        "jest" : "^24.0.0",
+        "prettier" : "^1.16.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.3.1",
+      "gitHead" : "00a411df872b7e80ca9fcfbe86ed6afb0fd05451",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./dist/index.js" : "./browser/dist/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.3.1_1548589363639_0.8162751298100426"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "1.4.0" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.4.0.tgz",
+        "shasum" : "b729a3ef7e35bdc5ece8f28900e20a9b41510fc3"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.3.4"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.3",
+        "@babel/core" : "^7.3.4",
+        "@babel/plugin-proposal-class-properties" : "^7.3.4",
+        "@babel/plugin-transform-runtime" : "^7.3.4",
+        "@babel/preset-env" : "^7.3.4",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^24.3.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^5.15.1",
+        "eslint-config-prettier" : "^4.1.0",
+        "fast-check" : "^1.12.0",
+        "jest" : "^24.3.0",
+        "prettier" : "^1.16.4"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "start" : "npm run dist:build && node -i -e 'YAML=require(\".\")'",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.4.0",
+      "gitHead" : "d677a97aaa86aadf35bf3793cde8880d97d9f059",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./dist/index.js" : "./browser/dist/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.4.0_1551988099594_0.1660201266175827"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "1.3.2" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.3.2.tgz",
+        "shasum" : "3de83fafed3799fb0b0029c12f80035bc7611303"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.3",
+        "@babel/core" : "^7.2.2",
+        "@babel/plugin-proposal-class-properties" : "^7.3.0",
+        "@babel/plugin-transform-runtime" : "^7.2.0",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^24.0.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^5.12.1",
+        "eslint-config-prettier" : "^4.0.0",
+        "fast-check" : "^1.10.0",
+        "jest" : "^24.0.0",
+        "prettier" : "^1.16.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.3.2",
+      "gitHead" : "80e13b723f639ba4fce6e211e50ae88e887c69d8",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./dist/index.js" : "./browser/dist/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.3.2_1549661262361_0.7309622508498113"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "1.5.0" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.5.0.tgz",
+        "shasum" : "1d879dd069ce1036041c23229cb5d7ef47a58ec6"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.4.3"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.4.3",
+        "@babel/core" : "^7.4.3",
+        "@babel/plugin-proposal-class-properties" : "^7.4.0",
+        "@babel/plugin-transform-runtime" : "^7.4.3",
+        "@babel/preset-env" : "^7.4.3",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^24.7.1",
+        "babel-plugin-trace" : "^1.1.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^5.16.0",
+        "eslint-config-prettier" : "^4.1.0",
+        "eslint-plugin-prettier" : "^3.0.1",
+        "fast-check" : "^1.13.0",
+        "jest" : "^24.7.1",
+        "prettier" : "^1.16.4"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "start" : "npm run dist:build && node -i -e 'YAML=require(\".\")'",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.5.0",
+      "gitHead" : "a9cea169f5df4ce91bc9b385bf6cce06c7ff2daf",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./index.js" : "./browser/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types.js" : "./browser/types.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js",
+        "./util.js" : "./browser/util.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.5.0_1554533457198_0.9067313453742425"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "1.5.1" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.5.1.tgz",
+        "shasum" : "e8201678064fbcfef6afe4122ef802573b6cade8"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.4.4"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.4.4",
+        "@babel/core" : "^7.4.4",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-transform-runtime" : "^7.4.4",
+        "@babel/preset-env" : "^7.4.4",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^24.8.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^5.16.0",
+        "eslint-config-prettier" : "^4.2.0",
+        "eslint-plugin-prettier" : "^3.0.1",
+        "fast-check" : "^1.14.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.17.0"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "start" : "npm run dist:build && node -i -e 'YAML=require(\".\")'",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.5.1",
+      "gitHead" : "9e1c4b96d62f0ada331d426889467d5628e8a4a3",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./index.js" : "./browser/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types.js" : "./browser/types.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js",
+        "./util.js" : "./browser/util.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.5.1_1557062063993_0.5923152821557844"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "1.6.0" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.6.0.tgz",
+        "shasum" : "d8a985cfb26086dd73f91c637f6e6bc909fddd3c"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.4.5"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.4.4",
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-transform-runtime" : "^7.4.4",
+        "@babel/preset-env" : "^7.4.5",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^24.8.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "common-tags" : "^1.8.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^5.16.0",
+        "eslint-config-prettier" : "^4.3.0",
+        "eslint-plugin-prettier" : "^3.1.0",
+        "fast-check" : "^1.15.1",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.17.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "start" : "npm run dist:build && node -i -e 'YAML=require(\".\")'",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.6.0",
+      "gitHead" : "f8d35f4b01f97ac42b12f08f7eb5db80f48e2ed4",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./index.js" : "./browser/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types.js" : "./browser/types.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js",
+        "./util.js" : "./browser/util.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.6.0_1558620474283_0.07865803018687756"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "11.9.0"
+    },
+    "1.7.0" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.7.0.tgz",
+        "shasum" : "b4cddb83490051e6c4b6ffe2bb08221c23f4c6cf"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.5.5"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.5.5",
+        "@babel/core" : "^7.5.5",
+        "@babel/plugin-proposal-class-properties" : "^7.5.5",
+        "@babel/plugin-transform-runtime" : "^7.5.5",
+        "@babel/preset-env" : "^7.5.5",
+        "babel-eslint" : "^10.0.3",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "common-tags" : "^1.8.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^6.2.2",
+        "eslint-config-prettier" : "^6.1.0",
+        "eslint-plugin-prettier" : "^3.1.0",
+        "fast-check" : "^1.16.2",
+        "jest" : "^24.9.0",
+        "prettier" : "^1.18.2"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "start" : "npm run dist:build && node -i -e 'YAML=require(\".\")'",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.7.0",
+      "gitHead" : "40acaa76b727b9f3dd028f283e3f10edd8321909",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./index.js" : "./browser/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types.js" : "./browser/types.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js",
+        "./util.js" : "./browser/util.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.7.0_1569417345729_0.8224342352563792"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "1.7.1" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.7.1",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.7.1.tgz",
+        "shasum" : "86db1b39a6434a7928d3750cbe08303a50a24d6b"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.5.5"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.5.5",
+        "@babel/core" : "^7.5.5",
+        "@babel/plugin-proposal-class-properties" : "^7.5.5",
+        "@babel/plugin-transform-runtime" : "^7.5.5",
+        "@babel/preset-env" : "^7.5.5",
+        "babel-eslint" : "^10.0.3",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "common-tags" : "^1.8.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^6.2.2",
+        "eslint-config-prettier" : "^6.1.0",
+        "eslint-plugin-prettier" : "^3.1.0",
+        "fast-check" : "^1.16.2",
+        "jest" : "^24.9.0",
+        "prettier" : "^1.18.2"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "clean" : "git clean -fdxe node_modules",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "start" : "npm run dist:build && node -i -e 'YAML=require(\".\")'",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm run clean && npm test && npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.7.1",
+      "gitHead" : "ebc640a0b127caad8edb91a098dd410171fdd5fc",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./index.js" : "./browser/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types.js" : "./browser/types.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js",
+        "./util.js" : "./browser/util.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.7.1_1570451991117_0.25252138960074433"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "1.7.2" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.7.2",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.7.2.tgz",
+        "shasum" : "f26aabf738590ab61efaca502358e48dc9f348b2"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.6.3"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.6.4",
+        "@babel/core" : "^7.6.4",
+        "@babel/plugin-proposal-class-properties" : "^7.5.5",
+        "@babel/plugin-transform-runtime" : "^7.6.2",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-eslint" : "^10.0.3",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "common-tags" : "^1.8.0",
+        "cpy-cli" : "^2.0.0",
+        "eslint" : "^6.5.1",
+        "eslint-config-prettier" : "^6.4.0",
+        "eslint-plugin-prettier" : "^3.1.1",
+        "fast-check" : "^1.17.0",
+        "jest" : "^24.9.0",
+        "prettier" : "^1.18.2"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "browser:build" : "BABEL_ENV=browser babel src/ --out-dir browser/dist/",
+        "browser:copy" : "cpy '*.js' '!*.config.js' types/ browser/ --parents",
+        "clean" : "git clean -fdxe node_modules",
+        "dist:build" : "babel src/ --out-dir dist/",
+        "build" : "npm run dist:build && npm run browser:build && npm run browser:copy",
+        "prettier" : "prettier --write \"{src,tests}/**/*.js\"",
+        "lint" : "eslint src/",
+        "start" : "npm run dist:build && node -i -e 'YAML=require(\".\")'",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm run clean && npm test && npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.7.2",
+      "gitHead" : "752d9e0f4ba0b38e203e8a731b926d8b81e5f9e4",
+      "browserslist" : "> 0.5%, not dead",
+      "browser" : {
+        "./index.js" : "./browser/index.js",
+        "./map.js" : "./browser/map.js",
+        "./pair.js" : "./browser/pair.js",
+        "./parse-cst.js" : "./browser/parse-cst.js",
+        "./scalar.js" : "./browser/scalar.js",
+        "./schema.js" : "./browser/schema.js",
+        "./seq.js" : "./browser/seq.js",
+        "./types.js" : "./browser/types.js",
+        "./types/binary.js" : "./browser/types/binary.js",
+        "./types/omap.js" : "./browser/types/omap.js",
+        "./types/pairs.js" : "./browser/types/pairs.js",
+        "./types/set.js" : "./browser/types/set.js",
+        "./types/timestamp.js" : "./browser/types/timestamp.js",
+        "./util.js" : "./browser/util.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.7.2_1571138650658_0.6368482969622014"
+      },
+      "jest" : {
+        "testMatch" : [ "**/tests/**/*.js" ],
+        "testPathIgnorePatterns" : [ "tests/common", "tests/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "1.0.0" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.0.tgz",
+        "shasum" : "9d428cd4641c87ff4b17b2d4f4ab96bb6dd17154"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.1.0",
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-class-properties" : "^7.1.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.14.3"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.0",
+      "gitHead" : "3649942472ddc6258415b4c8b697a73d86253207",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : {
+            "node" : "6"
+          }
+        } ] ],
+        "plugins" : [ "@babel/plugin-proposal-class-properties", [ "babel-plugin-trace", {
+          "strip" : true
+        } ], [ "babel-plugin-add-module-exports", {
+          "addDefaultProperty" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.0_1537387011211_0.15249343030622997"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "10.8.0"
+    },
+    "1.0.1" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.1.tgz",
+        "shasum" : "3a8b01e4dda66445904ee743a95951d67a47a0c5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.1.5",
+        "@babel/core" : "^7.1.5",
+        "@babel/plugin-proposal-class-properties" : "^7.1.0",
+        "@babel/preset-env" : "^7.1.5",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.1"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.1",
+      "gitHead" : "e48e5586bf0a4f9d577310b01cac395965877cbc",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : {
+            "node" : "6"
+          }
+        } ] ],
+        "plugins" : [ "@babel/plugin-proposal-class-properties", [ "babel-plugin-trace", {
+          "strip" : true
+        } ], [ "babel-plugin-add-module-exports", {
+          "addDefaultProperty" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.1_1541586739472_0.3313737259786691"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.1.0" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.1.0.tgz",
+        "shasum" : "6168f2beb28e80ee88f82efcb6da01d8e496ba30"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.0",
+        "@babel/core" : "^7.2.0",
+        "@babel/plugin-proposal-class-properties" : "^7.2.1",
+        "@babel/preset-env" : "^7.2.0",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.3"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.1.0",
+      "gitHead" : "31a2993c2693b443a4cab995c762f10c2e69506c",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : {
+            "node" : "6"
+          }
+        } ] ],
+        "plugins" : [ "@babel/plugin-proposal-class-properties", [ "babel-plugin-trace", {
+          "strip" : true
+        } ], [ "babel-plugin-add-module-exports", {
+          "addDefaultProperty" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.1.0_1544569208499_0.9677343781674859"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.0.2" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.0.2.tgz",
+        "shasum" : "77941a457090e17b8ca65b53322e68a050e090d4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.1.5",
+        "@babel/core" : "^7.1.6",
+        "@babel/plugin-proposal-class-properties" : "^7.1.0",
+        "@babel/preset-env" : "^7.1.6",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.2"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.0.2",
+      "gitHead" : "06195c068fc7a6fa5da3e6061309250c611f403a",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : {
+            "node" : "6"
+          }
+        } ] ],
+        "plugins" : [ "@babel/plugin-proposal-class-properties", [ "babel-plugin-trace", {
+          "strip" : true
+        } ], [ "babel-plugin-add-module-exports", {
+          "addDefaultProperty" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.0.2_1542279202769_0.6724954608891509"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.2.0" : {
+      "name" : "yaml",
+      "description" : "JavaScript parser and stringifier for YAML",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Eemeli Aro",
+        "email" : "eemeli@gmail.com"
+      },
+      "homepage" : "https://eemeli.org/yaml/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eemeli/yaml.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eemeli/yaml/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/yaml/-/yaml-1.2.0.tgz",
+        "shasum" : "aa105d0794cdfeb1db5ec9f3a9efe73145dd817d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.2.3",
+        "@babel/core" : "^7.2.2",
+        "@babel/plugin-proposal-class-properties" : "^7.2.3",
+        "@babel/preset-env" : "^7.2.3",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-eslint" : "^10.0.1",
+        "babel-jest" : "^23.6.0",
+        "babel-plugin-add-module-exports" : "^1.0.0",
+        "babel-plugin-trace" : "^1.1.0",
+        "eslint" : "^5.11.1",
+        "eslint-config-prettier" : "^3.3.0",
+        "fast-check" : "^1.9.1",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.3"
+      },
+      "keywords" : [ "YAML", "parser", "stringifier" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "eemeli@gmail.com",
+        "name" : "eemeli"
+      }, {
+        "email" : "jappelman@xebia.com",
+        "name" : "jbnicolai"
+      }, {
+        "email" : "tj@vision-media.ca",
+        "name" : "tjholowaychuk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src/ --out-dir dist/",
+        "prettier" : "prettier --write \"{src,__tests__}/**/*.js\"",
+        "lint" : "eslint src/",
+        "test" : "TRACE_LEVEL=log jest",
+        "test:trace" : "TRACE_LEVEL=trace,log jest --no-cache",
+        "docs:install" : "cd docs/ && bundle install",
+        "docs:deploy" : "cd docs/ && ./deploy.sh",
+        "docs" : "cd docs/ && bundle exec middleman server",
+        "preversion" : "npm test && npm run build",
+        "prepublishOnly" : "npm test && npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "eemeli",
+        "email" : "eemeli@gmail.com"
+      },
+      "_id" : "yaml@1.2.0",
+      "gitHead" : "b6b760920c9acb6eaf24d2f39ec2a246c7cf6eb5",
+      "babel" : {
+        "presets" : [ [ "@babel/env", {
+          "targets" : {
+            "node" : "6"
+          }
+        } ] ],
+        "plugins" : [ "@babel/plugin-proposal-class-properties", [ "babel-plugin-trace", {
+          "strip" : true
+        } ], [ "babel-plugin-add-module-exports", {
+          "addDefaultProperty" : true
+        } ] ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yaml_1.2.0_1546335248440_0.4342656343825382"
+      },
+      "eslintConfig" : {
+        "root" : true,
+        "parser" : "babel-eslint",
+        "env" : {
+          "node" : true
+        },
+        "extends" : [ "eslint:recommended", "prettier" ],
+        "rules" : {
+          "array-callback-return" : "error",
+          "camelcase" : "error",
+          "consistent-return" : "error",
+          "eqeqeq" : [ "error", "always", {
+            "null" : "ignore"
+          } ],
+          "no-constant-condition" : [ "error", {
+            "checkLoops" : false
+          } ],
+          "no-control-regex" : 0,
+          "no-implicit-globals" : "error",
+          "no-template-curly-in-string" : "warn",
+          "no-unused-labels" : 0,
+          "no-var" : "error",
+          "prefer-const" : [ "warn", {
+            "destructuring" : "all"
+          } ]
+        },
+        "overrides" : [ {
+          "files" : [ "src/**/*.js" ],
+          "env" : {
+            "es6" : true,
+            "node" : false
+          }
+        }, {
+          "files" : [ "__tests__/*.js", "__tests__/cst/*.js" ],
+          "env" : {
+            "es6" : true,
+            "jest" : true
+          },
+          "rules" : {
+            "camelcase" : 0
+          }
+        } ]
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "__tests__/common", "__tests__/cst/common" ]
+      },
+      "prettier" : {
+        "semi" : false,
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "8.12.0"
+    }
+  },
+  "readme" : "# YAML <a href=\"https://www.npmjs.com/package/yaml\"><img align=\"right\" src=\"https://badge.fury.io/js/yaml.svg\" title=\"npm package\" /></a><a href=\"https://travis-ci.org/eemeli/yaml\"><img align=\"right\" src=\"https://travis-ci.org/eemeli/yaml.svg?branch=master\" title=\"Build status\" /></a>\n\n`yaml` is a JavaScript parser and stringifier for [YAML](http://yaml.org/), a human friendly data serialization standard. It supports both parsing and stringifying data using all versions of YAML, along with all common data schemas. As a particularly distinguishing feature, `yaml` fully supports reading and writing comments and blank lines in YAML documents.\n\nThe library is released under the ISC open source license, and the code is [available on GitHub](https://github.com/eemeli/yaml/). It runs on Node.js 6 and later with no external dependencies, and in browsers from IE 11 upwards (Note: `@babel/runtime` is used only by the `\"browser\"` entry point).\n\nFor more information, see the project's documentation site: [**eemeli.org/yaml**](https://eemeli.org/yaml/)\n\n> To install:\n\n```sh\nnpm install yaml\n# or\nyarn add yaml\n```\n\nNote: `yaml` 0.x and 1.x are rather different implementations. For the earlier `yaml`, see [tj/js-yaml](https://github.com/tj/js-yaml).\n\n## API Overview\n\nThe API provided by `yaml` has three layers, depending on how deep you need to go: [Parse & Stringify](https://eemeli.org/yaml/#parse-amp-stringify), [Documents](https://eemeli.org/yaml/#documents), and the [CST Parser](https://eemeli.org/yaml/#cst-parser). The first has the simplest API and \"just works\", the second gets you all the bells and whistles supported by the library along with a decent [AST](https://eemeli.org/yaml/#content-nodes), and the third is the closest to YAML source, making it fast, raw, and crude.\n\n```js\nimport YAML from 'yaml'\n// or\nconst YAML = require('yaml')\n```\n\n### Parse & Stringify\n\n- [`YAML.parse(str, options): value`](https://eemeli.org/yaml/#yaml-parse)\n- [`YAML.stringify(value, options): string`](https://eemeli.org/yaml/#yaml-stringify)\n\n### YAML Documents\n\n- [`YAML.createNode(value, wrapScalars, tag): Node`](https://eemeli.org/yaml/#creating-nodes)\n- [`YAML.defaultOptions`](https://eemeli.org/yaml/#options)\n- [`YAML.Document`](https://eemeli.org/yaml/#yaml-documents)\n  - [`constructor(options)`](https://eemeli.org/yaml/#creating-documents)\n  - [`defaults`](https://eemeli.org/yaml/#options)\n  - [`#anchors`](https://eemeli.org/yaml/#working-with-anchors)\n  - [`#contents`](https://eemeli.org/yaml/#content-nodes)\n  - [`#errors`](https://eemeli.org/yaml/#errors)\n- [`YAML.parseAllDocuments(str, options): YAML.Document[]`](https://eemeli.org/yaml/#parsing-documents)\n- [`YAML.parseDocument(str, options): YAML.Document`](https://eemeli.org/yaml/#parsing-documents)\n\n```js\nimport { Pair, YAMLMap, YAMLSeq } from 'yaml/types'\n```\n\n- [`new Pair(key, value)`](https://eemeli.org/yaml/#creating-nodes)\n- [`new YAMLMap()`](https://eemeli.org/yaml/#creating-nodes)\n- [`new YAMLSeq()`](https://eemeli.org/yaml/#creating-nodes)\n\n### CST Parser\n\n```js\nimport parseCST from 'yaml/parse-cst'\n```\n\n- [`parseCST(str): CSTDocument[]`](https://eemeli.org/yaml/#parsecst)\n- [`YAML.parseCST(str): CSTDocument[]`](https://eemeli.org/yaml/#parsecst)\n\n## YAML.parse\n\n```yaml\n# file.yml\nYAML:\n  - A human-readable data serialization language\n  - https://en.wikipedia.org/wiki/YAML\nyaml:\n  - A complete JavaScript implementation\n  - https://www.npmjs.com/package/yaml\n```\n\n```js\nimport fs from 'fs'\nimport YAML from 'yaml'\n\nYAML.parse('3.14159')\n// 3.14159\n\nYAML.parse('[ true, false, maybe, null ]\\n')\n// [ true, false, 'maybe', null ]\n\nconst file = fs.readFileSync('./file.yml', 'utf8')\nYAML.parse(file)\n// { YAML:\n//   [ 'A human-readable data serialization language',\n//     'https://en.wikipedia.org/wiki/YAML' ],\n//   yaml:\n//   [ 'A complete JavaScript implementation',\n//     'https://www.npmjs.com/package/yaml' ] }\n```\n\n## YAML.stringify\n\n```js\nimport YAML from 'yaml'\n\nYAML.stringify(3.14159)\n// '3.14159\\n'\n\nYAML.stringify([true, false, 'maybe', null])\n// `- true\n// - false\n// - maybe\n// - null\n// `\n\nYAML.stringify({ number: 3, plain: 'string', block: 'two\\nlines\\n' })\n// `number: 3\n// plain: string\n// block: >\n//   two\n//\n//   lines\n// `\n```\n\n---\n\nBrowser testing provided by:\n\n<a href=\"https://www.browserstack.com/open-source\">\n<img width=200 src=\"https://eemeli.org/yaml/images/browserstack.svg\" />\n</a>\n",
+  "maintainers" : [ {
+    "email" : "eemeli@gmail.com",
+    "name" : "eemeli"
+  } ],
+  "author" : {
+    "name" : "Eemeli Aro",
+    "email" : "eemeli@gmail.com"
+  },
+  "time" : {
+    "0.2.2" : "2011-08-31T17:45:55.087Z",
+    "0.2.3" : "2011-12-05T20:18:09.979Z",
+    "1.0.0-rc.2" : "2018-06-18T21:18:58.840Z",
+    "1.0.0-rc.1" : "2018-06-18T21:13:43.889Z",
+    "1.0.0-rc.4" : "2018-06-27T21:20:16.651Z",
+    "1.0.0-rc.3" : "2018-06-26T19:12:38.659Z",
+    "1.0.0-beta.7" : "2018-06-15T14:04:39.596Z",
+    "1.0.0-beta.6" : "2018-05-29T20:41:59.158Z",
+    "0.1.1" : "2011-04-15T16:25:52.216Z",
+    "0.2.0" : "2011-05-21T19:08:13.195Z",
+    "0.1.2" : "2011-04-15T16:25:52.216Z",
+    "0.2.1" : "2011-05-22T17:20:58.242Z",
+    "0.3.0" : "2016-02-21T13:00:23.937Z",
+    "0.1.0" : "2011-04-15T16:25:52.216Z",
+    "1.0.0-beta.1" : "2018-02-13T09:58:43.794Z",
+    "1.0.0-beta.5" : "2018-05-15T18:21:45.622Z",
+    "1.0.0-beta.4" : "2018-04-08T12:56:59.760Z",
+    "1.0.0-beta.3" : "2018-02-22T23:02:54.112Z",
+    "1.0.0-beta.2" : "2018-02-19T09:00:00.612Z",
+    "1.0.0-rc.6" : "2018-07-08T12:16:11.502Z",
+    "modified" : "2019-10-15T11:24:14.331Z",
+    "1.0.0-rc.5" : "2018-06-30T15:31:40.511Z",
+    "1.0.0-rc.8" : "2018-08-23T05:03:16.366Z",
+    "1.0.0-rc.7" : "2018-07-11T15:31:19.241Z",
+    "created" : "2011-04-15T16:25:52.216Z",
+    "1.0.3" : "2018-11-28T21:08:01.305Z",
+    "1.2.1" : "2019-01-17T10:15:38.143Z",
+    "1.3.0" : "2019-01-27T08:33:37.515Z",
+    "1.3.1" : "2019-01-27T11:42:43.790Z",
+    "1.4.0" : "2019-03-07T19:48:19.735Z",
+    "1.3.2" : "2019-02-08T21:27:42.462Z",
+    "1.5.0" : "2019-04-06T06:50:57.336Z",
+    "1.5.1" : "2019-05-05T13:14:24.175Z",
+    "1.6.0" : "2019-05-23T14:07:54.388Z",
+    "1.7.0" : "2019-09-25T13:15:45.991Z",
+    "1.7.1" : "2019-10-07T12:39:51.322Z",
+    "1.7.2" : "2019-10-15T11:24:10.790Z",
+    "1.0.0" : "2018-09-19T19:56:51.387Z",
+    "1.0.1" : "2018-11-07T10:32:19.623Z",
+    "1.1.0" : "2018-12-11T23:00:08.695Z",
+    "1.0.2" : "2018-11-15T10:53:22.920Z",
+    "1.2.0" : "2019-01-01T09:34:08.556Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/eemeli/yaml.git"
+  },
+  "users" : {
+    "vibesharing" : true,
+    "coalesce" : true,
+    "naholyr" : true,
+    "pid" : true,
+    "gabeio" : true,
+    "rdesoky" : true,
+    "tamikot" : true,
+    "bphanikumar" : true,
+    "stone_breaker" : true,
+    "semencov" : true,
+    "gejiawen" : true,
+    "fgribreau" : true,
+    "monjer" : true,
+    "jordanskole" : true,
+    "jbnicolai" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://eemeli.org/yaml/",
+  "keywords" : [ "YAML", "parser", "stringifier" ],
+  "bugs" : {
+    "url" : "https://github.com/eemeli/yaml/issues"
+  },
+  "license" : "ISC"
+}

@@ -1,0 +1,484 @@
+{
+  "_id" : "@types/json-schema",
+  "_rev" : "371-ec5de537cb04990798b99109352e5ac0",
+  "name" : "@types/json-schema",
+  "description" : "TypeScript definitions for json-schema 4.0, 6.0 and",
+  "dist-tags" : {
+    "ts2.2" : "7.0.3",
+    "ts3.1" : "7.0.4",
+    "ts3.0" : "7.0.4",
+    "ts3.9" : "7.0.4",
+    "ts2.9" : "7.0.4",
+    "ts3.8" : "7.0.4",
+    "ts2.8" : "7.0.4",
+    "ts3.7" : "7.0.4",
+    "ts2.7" : "7.0.3",
+    "ts3.6" : "7.0.4",
+    "ts2.6" : "7.0.3",
+    "ts3.5" : "7.0.4",
+    "ts2.5" : "7.0.3",
+    "ts3.4" : "7.0.4",
+    "ts2.4" : "7.0.3",
+    "ts3.3" : "7.0.4",
+    "ts2.3" : "7.0.3",
+    "ts3.2" : "7.0.4",
+    "latest" : "7.0.4"
+  },
+  "versions" : {
+    "7.0.1" : {
+      "name" : "@types/json-schema",
+      "description" : "TypeScript definitions for json-schema 4.0, 6.0 and",
+      "version" : "7.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "Cyrille Tuzi",
+        "url" : "https://github.com/cyrilletuzi",
+        "githubUsername" : "cyrilletuzi"
+      }, {
+        "name" : "Lucian Buzzo",
+        "url" : "https://github.com/lucianbuzzo",
+        "githubUsername" : "lucianbuzzo"
+      }, {
+        "name" : "Roland Groza",
+        "url" : "https://github.com/rolandjitsu",
+        "githubUsername" : "rolandjitsu"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/json-schema/-/json-schema-7.0.1.tgz",
+        "shasum" : "fcaa655260285b8061850789f8268c51a4ec8ee1"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/json-schema@7.0.1",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "1d7882aae5175e28c219f017173825d4ad27a8c949ff86a12b015a1d0d5fd563",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-schema_7.0.1_1537481206031_0.1327706648229745"
+      }
+    },
+    "7.0.2" : {
+      "name" : "@types/json-schema",
+      "description" : "TypeScript definitions for json-schema 4.0, 6.0 and",
+      "version" : "7.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "Cyrille Tuzi",
+        "url" : "https://github.com/cyrilletuzi",
+        "githubUsername" : "cyrilletuzi"
+      }, {
+        "name" : "Lucian Buzzo",
+        "url" : "https://github.com/lucianbuzzo",
+        "githubUsername" : "lucianbuzzo"
+      }, {
+        "name" : "Roland Groza",
+        "url" : "https://github.com/rolandjitsu",
+        "githubUsername" : "rolandjitsu"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/json-schema/-/json-schema-7.0.2.tgz",
+        "shasum" : "39e4bb68007c8cfa56393d867d192917a59b0723"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/json-schema@7.0.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "2b6bccb0106a3a136e309bae456373a4f14bb3bd6b85ac9151f5137ff9c0fc5f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-schema_7.0.2_1549053651807_0.11659938635121891"
+      }
+    },
+    "7.0.3" : {
+      "name" : "@types/json-schema",
+      "description" : "TypeScript definitions for json-schema 4.0, 6.0 and",
+      "version" : "7.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "Cyrille Tuzi",
+        "url" : "https://github.com/cyrilletuzi",
+        "githubUsername" : "cyrilletuzi"
+      }, {
+        "name" : "Lucian Buzzo",
+        "url" : "https://github.com/lucianbuzzo",
+        "githubUsername" : "lucianbuzzo"
+      }, {
+        "name" : "Roland Groza",
+        "url" : "https://github.com/rolandjitsu",
+        "githubUsername" : "rolandjitsu"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/json-schema/-/json-schema-7.0.3.tgz",
+        "shasum" : "bdfd69d61e464dcc81b25159c270d75a73c1a636"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/json-schema@7.0.3",
+      "types" : "index",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "4fedab4ea57f920a295b3d27f75afbe1e2156a36991650487260757be56d811c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-schema_7.0.3_1550085421630_0.9196625457772489"
+      }
+    },
+    "7.0.4" : {
+      "name" : "@types/json-schema",
+      "description" : "TypeScript definitions for json-schema 4.0, 6.0 and",
+      "version" : "7.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/json-schema"
+      },
+      "contributors" : [ {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "Cyrille Tuzi",
+        "url" : "https://github.com/cyrilletuzi",
+        "githubUsername" : "cyrilletuzi"
+      }, {
+        "name" : "Lucian Buzzo",
+        "url" : "https://github.com/lucianbuzzo",
+        "githubUsername" : "lucianbuzzo"
+      }, {
+        "name" : "Roland Groza",
+        "url" : "https://github.com/rolandjitsu",
+        "githubUsername" : "rolandjitsu"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/json-schema/-/json-schema-7.0.4.tgz",
+        "shasum" : "38fd73ddfd9b55abb1e1b2ed578cb55bd7b7d339"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/json-schema@7.0.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "868495cc33eb63def9feb79d7da312499752aa5641dde5a5dad8edbd13998a40",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-schema_7.0.4_1577131773570_0.31945875120162137"
+      }
+    },
+    "6.0.0" : {
+      "name" : "@types/json-schema",
+      "description" : "TypeScript definitions for json-schema 4.0 and",
+      "version" : "6.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "Cyrille Tuzi",
+        "url" : "https://github.com/cyrilletuzi",
+        "githubUsername" : "cyrilletuzi"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/json-schema/-/json-schema-6.0.0.tgz",
+        "shasum" : "5842b43db9d199a2dabf6fe52b6d09200e8203bc"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/json-schema@6.0.0",
+      "typeScriptVersion" : "2.2",
+      "typesPublisherContentHash" : "4ec73e3090a6ba402893bbfcf3069afcce94d178fa4e318a56cb6f25b79e7634",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-schema-6.0.0.tgz_1512318460487_0.13760951673611999"
+      }
+    },
+    "6.0.1" : {
+      "name" : "@types/json-schema",
+      "description" : "TypeScript definitions for json-schema 4.0 and",
+      "version" : "6.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "Cyrille Tuzi",
+        "url" : "https://github.com/cyrilletuzi",
+        "githubUsername" : "cyrilletuzi"
+      }, {
+        "name" : "Lucian Buzzo",
+        "url" : "https://github.com/lucianbuzzo",
+        "githubUsername" : "lucianbuzzo"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/json-schema/-/json-schema-6.0.1.tgz",
+        "shasum" : "a761975746f1c1b2579c62e3a4b5e88f986f7e2e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/json-schema@6.0.1",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5c07b3f559a36032852670dda7149875d6a81180ce537279d154d550556fb348",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-schema_6.0.1_1521155981168_0.5014673712057454"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@types/json-schema",
+      "description" : "TypeScript definitions for json-schema 4.0, 6.0 and",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny",
+        "githubUsername" : "bcherny"
+      }, {
+        "name" : "Cyrille Tuzi",
+        "url" : "https://github.com/cyrilletuzi",
+        "githubUsername" : "cyrilletuzi"
+      }, {
+        "name" : "Lucian Buzzo",
+        "url" : "https://github.com/lucianbuzzo",
+        "githubUsername" : "lucianbuzzo"
+      }, {
+        "name" : "Roland Groza",
+        "url" : "https://github.com/rolandjitsu",
+        "githubUsername" : "rolandjitsu"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/json-schema/-/json-schema-7.0.0.tgz",
+        "shasum" : "5a2b780fec9f2cf851e1b5e0a29a4cac6c9686c5"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/json-schema@7.0.0",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ef0c5629d4da15a4e911b66ec83ecbe8f9da2c530a7304d78924ca62637b2ba8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-schema_7.0.0_1532482046552_0.7756135088281311"
+      }
+    },
+    "4.0.0" : {
+      "name" : "@types/json-schema",
+      "description" : "TypeScript definitions for json-schema",
+      "version" : "4.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Boris Cherny",
+        "url" : "https://github.com/bcherny"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/json-schema/-/json-schema-4.0.0.tgz",
+        "shasum" : "fbf6c078369546bd15ffa78ba7f3f2e170480769"
+      },
+      "dependencies" : {
+        "@types/node" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/json-schema@4.0.0",
+      "typeScriptVersion" : "2.2",
+      "typesPublisherContentHash" : "cac63b5636698357e41e4602b733389ac15c85ca6df1c87534227ebe2408e62d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/json-schema-4.0.0.tgz_1492528083185_0.7843128894455731"
+      }
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/json-schema`\r\n\r\n# Summary\r\nThis package contains type definitions for json-schema 4.0, 6.0 and (https://github.com/kriszyp/json-schema).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/json-schema.\r\n\r\n### Additional Details\r\n * Last updated: Mon, 23 Dec 2019 20:09:15 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Boris Cherny (https://github.com/bcherny), Cyrille Tuzi (https://github.com/cyrilletuzi), Lucian Buzzo (https://github.com/lucianbuzzo), and Roland Groza (https://github.com/rolandjitsu).\r\n",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "7.0.1" : "2018-09-20T22:06:46.196Z",
+    "7.0.2" : "2019-02-01T20:40:52.065Z",
+    "7.0.3" : "2019-02-13T19:17:01.767Z",
+    "7.0.4" : "2019-12-23T20:09:33.968Z",
+    "6.0.0" : "2017-12-03T16:27:40.649Z",
+    "6.0.1" : "2018-03-15T23:19:41.331Z",
+    "created" : "2017-04-18T15:08:04.964Z",
+    "7.0.0" : "2018-07-25T01:27:26.648Z",
+    "modified" : "2020-02-04T18:44:11.891Z",
+    "4.0.0" : "2017-04-18T15:08:04.964Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/json-schema"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "contributors" : [ {
+    "name" : "Boris Cherny",
+    "url" : "https://github.com/bcherny",
+    "githubUsername" : "bcherny"
+  }, {
+    "name" : "Cyrille Tuzi",
+    "url" : "https://github.com/cyrilletuzi",
+    "githubUsername" : "cyrilletuzi"
+  }, {
+    "name" : "Lucian Buzzo",
+    "url" : "https://github.com/lucianbuzzo",
+    "githubUsername" : "lucianbuzzo"
+  }, {
+    "name" : "Roland Groza",
+    "url" : "https://github.com/rolandjitsu",
+    "githubUsername" : "rolandjitsu"
+  } ],
+  "license" : "MIT"
+}

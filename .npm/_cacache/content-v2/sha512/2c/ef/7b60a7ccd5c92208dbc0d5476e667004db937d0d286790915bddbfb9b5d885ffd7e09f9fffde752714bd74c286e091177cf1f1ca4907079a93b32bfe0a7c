@@ -1,0 +1,1273 @@
+{
+  "_id" : "@svgr/core",
+  "_rev" : "21-904814082295b098932fa464aa096b08",
+  "name" : "@svgr/core",
+  "description" : "Transform SVG into React Components.",
+  "dist-tags" : {
+    "canary" : "2.0.0-alpha.26fa501a",
+    "latest" : "5.2.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-2.0.0.tgz",
+        "shasum" : "c458fdf18a99ac843483c0178215a500eaef3b92"
+      },
+      "dependencies" : {
+        "commander" : "^2.15.1",
+        "cosmiconfig" : "^5.0.5",
+        "glob" : "^7.1.2",
+        "h2x-core" : "^1.0.0",
+        "h2x-plugin-jsx" : "^1.0.0",
+        "loader-utils" : "^1.1.0",
+        "lodash" : "^4.17.10",
+        "mz" : "^2.6.0",
+        "output-file-sync" : "^2.0.1",
+        "prettier" : "^1.13.5",
+        "recursive-readdir" : "^2.2.2",
+        "svgo" : "^1.0.5"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@2.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_2.0.0_1528818795458_0.027678897575536654"
+      }
+    },
+    "2.1.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-2.1.0.tgz",
+        "shasum" : "bd6d0971a3bc02f5190108d910751004f4d87ce5"
+      },
+      "dependencies" : {
+        "cosmiconfig" : "^5.0.5",
+        "h2x-core" : "^1.0.0",
+        "h2x-plugin-jsx" : "^1.0.0",
+        "lodash" : "^4.17.10",
+        "prettier" : "^1.13.7",
+        "svgo" : "^1.0.5"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@2.1.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_2.1.0_1531085444445_0.06764250823722406"
+      }
+    },
+    "4.0.2" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.0.2.tgz",
+        "shasum" : "ad4ae7dcdd99a057c2ff5ad83ab5a323b31a1c3b"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.0.2",
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.6"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.0.2",
+      "gitHead" : "fb7ed11b2885c2c86546c9fa10c8aa2d3f4b13e0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.0.2_1541705836768_0.25758488261418333"
+      }
+    },
+    "4.2.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/core"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.2.0.tgz",
+        "shasum" : "f32ef8b9d05312aaa775896ec30ae46a6521e248"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.2.0",
+        "camelcase" : "^5.3.1",
+        "cosmiconfig" : "^5.2.0"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.2.0",
+      "gitHead" : "35d3f4d446e5402902ee922a3f9984000bb74920",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.2.0_1554966122819_0.9340652744190809"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "4.0.3" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.0.3.tgz",
+        "shasum" : "1bc50f43ee123e1e9f41a9657ab1cecee1307dac"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.0.3",
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.7"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.0.3",
+      "gitHead" : "3c7d6caafb687bf8532f040bdfe8eb0a12a1da94",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.0.3_1542101717438_0.7446620776286028"
+      }
+    },
+    "4.3.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/core"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.3.0.tgz",
+        "shasum" : "4a2bcb41e0946679a2ebe6b5bb2edd88ed35706b"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.3.0",
+        "camelcase" : "^5.3.1",
+        "cosmiconfig" : "^5.2.0"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.3.0",
+      "gitHead" : "79069edba617457cc0255fdf48425e8d877a0b52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.3.0_1559054653737_0.021624114870013367"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "4.0.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.0.0.tgz",
+        "shasum" : "03691f0df52da88421a2423375a0c7201ef2adaf"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.0.0",
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.6"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.0.0",
+      "gitHead" : "d6beadaa9943157b59c085f03a45813897cc337c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.0.0_1541344676194_0.5143702132401893"
+      }
+    },
+    "4.0.1" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.0.1.tgz",
+        "shasum" : "5cd4e18084668875a35aaa3007f8b5d8b435a429"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.0.1",
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.6"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.0.1",
+      "gitHead" : "fb2511c8d1a3da712442fc01b33534ede6c2a857",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.0.1_1541686450402_0.6330725567042099"
+      }
+    },
+    "4.1.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.1.0.tgz",
+        "shasum" : "4f8ad24fb4ab25c787c12a6bbb511c6430558f83"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.1.0",
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.7"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.1.0",
+      "gitHead" : "36a43e2d45469d6ff9aae6d4de004487fc649f03",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.1.0_1543073366330_0.7006121835432817"
+      }
+    },
+    "2.4.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-2.4.0.tgz",
+        "shasum" : "fe43eb2ba722884a640ad174f294e56c43b1f48e"
+      },
+      "dependencies" : {
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.6",
+        "h2x-core" : "^1.1.0",
+        "h2x-plugin-jsx" : "^1.1.0",
+        "merge-deep" : "^3.0.2",
+        "prettier" : "^1.14.2",
+        "svgo" : "^1.0.5"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@2.4.0",
+      "gitHead" : "d84e80fe460f194653e79504bf9a4e733364fc26",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_2.4.0_1537112124503_0.7557009627416811"
+      }
+    },
+    "4.3.3" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.3.3",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/core"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.3.3.tgz",
+        "shasum" : "b37b89d5b757dc66e8c74156d00c368338d24293"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.3.3",
+        "camelcase" : "^5.3.1",
+        "cosmiconfig" : "^5.2.1"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v12.9.1+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.3.3",
+      "gitHead" : "14a26644e7bda24c2ff97524f3d8841801a6442f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.3.3_1569310965519_0.6870260584486296"
+      },
+      "_nodeVersion" : "12.9.1"
+    },
+    "2.4.1" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "2.4.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-2.4.1.tgz",
+        "shasum" : "03a407c28c4a1d84305ae95021e8eabfda8fa731"
+      },
+      "dependencies" : {
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.6",
+        "h2x-core" : "^1.1.0",
+        "h2x-plugin-jsx" : "^1.1.0",
+        "merge-deep" : "^3.0.2",
+        "prettier" : "^1.14.2",
+        "svgo" : "^1.0.5"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@2.4.1",
+      "gitHead" : "8683967eba69079e1ce0fde9de340a6bb16cf433",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_2.4.1_1537135472090_0.14295876577238253"
+      }
+    },
+    "2.0.0-alpha.26fa501a" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "2.0.0-alpha.26fa501a",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-2.0.0-alpha.26fa501a.tgz",
+        "shasum" : "82b2c7123fbe3f9a1e60218ca852613deab67b3e"
+      },
+      "dependencies" : {
+        "commander" : "^2.15.1",
+        "cosmiconfig" : "^5.0.5",
+        "glob" : "^7.1.2",
+        "h2x-core" : "^1.0.0",
+        "h2x-plugin-jsx" : "^1.0.0",
+        "loader-utils" : "^1.1.0",
+        "lodash" : "^4.17.10",
+        "mz" : "^2.6.0",
+        "output-file-sync" : "^2.0.1",
+        "prettier" : "^1.13.5",
+        "recursive-readdir" : "^2.2.2",
+        "svgo" : "^1.0.5"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@2.0.0-alpha.26fa501a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_2.0.0-alpha.26fa501a_1528812670446_0.25210562539354897"
+      }
+    },
+    "2.1.1" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-2.1.1.tgz",
+        "shasum" : "e241576eeb42142a971c07dd83c10a0e60928cdc"
+      },
+      "dependencies" : {
+        "cosmiconfig" : "^5.0.5",
+        "h2x-core" : "^1.0.0",
+        "h2x-plugin-jsx" : "^1.0.0",
+        "lodash" : "^4.17.10",
+        "prettier" : "^1.13.7",
+        "svgo" : "^1.0.5"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@2.1.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_2.1.1_1531323503444_0.5760748425672331"
+      }
+    },
+    "2.2.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "homepage" : "https://github.com/smooth-code/svgr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/smooth-code/svgr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/smooth-code/svgr/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-2.2.0.tgz",
+        "shasum" : "59219d92b4c372bb925c4ad3ebc66ccd04e9d5c3"
+      },
+      "dependencies" : {
+        "cosmiconfig" : "^5.0.6",
+        "h2x-core" : "^1.0.0",
+        "h2x-plugin-jsx" : "^1.0.0",
+        "lodash" : "^4.17.10",
+        "prettier" : "^1.14.2",
+        "svgo" : "^1.0.5"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "_from" : "file:svgr-core-2.2.0.tgz",
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@2.2.0",
+      "gitHead" : "c7ab92b534b0e099670bb9c826e2ffe611a8926c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_2.2.0_1534177819426_0.211098727714649"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.3.1" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/core"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.3.1.tgz",
+        "shasum" : "58c44d0ccc3fe41718c50433758b549dabd4d197"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.3.1",
+        "camelcase" : "^5.3.1",
+        "cosmiconfig" : "^5.2.1"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.14.1/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.3.1",
+      "gitHead" : "06e1e996a92289183fca0aabe4ba286e3a227f1b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.3.1_1561971401585_0.12500858449137398"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "4.3.2" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "4.3.2",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/core"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-4.3.2.tgz",
+        "shasum" : "939c89be670ad79b762f4c063f213f0e02535f2e"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^4.3.2",
+        "camelcase" : "^5.3.1",
+        "cosmiconfig" : "^5.2.1"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@4.3.2",
+      "gitHead" : "85446119414d768be3ab660ed4a20930a59f8eb5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_4.3.2_1563180957442_0.12191897070061519"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "3.0.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-3.0.0.tgz",
+        "shasum" : "f18f042d58f17f2f44f0a5323ded76feaad412fb"
+      },
+      "dependencies" : {
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.6",
+        "h2x-core" : "^1.1.0",
+        "h2x-plugin-jsx" : "^1.1.0",
+        "merge-deep" : "^3.0.2",
+        "prettier" : "^1.14.3",
+        "svgo" : "^1.1.1"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@3.0.0",
+      "gitHead" : "a4e63f058e8e0e19b1802cef0015d97723721a3d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_3.0.0_1538417134406_0.7568954060776583"
+      }
+    },
+    "5.0.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/core"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-5.0.0.tgz",
+        "shasum" : "226efaa6b763557c75435b3fd902838e30cdcf5c"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^5.0.0",
+        "camelcase" : "^5.3.1",
+        "cosmiconfig" : "^6.0.0"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@5.0.0",
+      "gitHead" : "cfc0fc2786024820ea476739eda6cca342cf4230",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_5.0.0_1577110028005_0.911312789933995"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "5.0.1" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "homepage" : "https://react-svgr.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gregberge/svgr/tree/master/packages/core"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-5.0.1.tgz",
+        "shasum" : "b7ec46665de21248b650fe94a2325a30b25569a9"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^5.0.1",
+        "camelcase" : "^5.3.1",
+        "cosmiconfig" : "^6.0.0"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@5.0.1",
+      "gitHead" : "2c0863b6821ef6b86bd7ad1a0267ba7e07b163ff",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/gregberge"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_5.0.1_1577611815151_0.9707034796271345"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "5.2.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "5.2.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "homepage" : "https://react-svgr.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gregberge/svgr/tree/master/packages/core"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-5.2.0.tgz",
+        "shasum" : "9b12191478960bb6e9a0bc9f8f58c39bbcfc8c82"
+      },
+      "dependencies" : {
+        "@svgr/plugin-jsx" : "^5.2.0",
+        "camelcase" : "^5.3.1",
+        "cosmiconfig" : "^6.0.0"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.15.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@5.2.0",
+      "gitHead" : "8b2129b5628778a9384048512298305b3c02b6f0",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/gregberge"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_5.2.0_1582488287032_0.9584074703860059"
+      },
+      "_nodeVersion" : "12.15.0"
+    },
+    "3.1.0" : {
+      "name" : "@svgr/core",
+      "description" : "Transform SVG into React Components.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/core/-/core-3.1.0.tgz",
+        "shasum" : "49fa80a604e250bc9fc6517edcfb94950c230538"
+      },
+      "dependencies" : {
+        "camelcase" : "^5.0.0",
+        "cosmiconfig" : "^5.0.6",
+        "h2x-core" : "^1.1.1",
+        "h2x-plugin-jsx" : "^1.2.0",
+        "merge-deep" : "^3.0.2",
+        "prettier" : "^1.14.3",
+        "svgo" : "^1.1.1"
+      },
+      "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/core@3.1.0",
+      "gitHead" : "62c78151dcd9c0b73196f6d3f859e96c5a25c9a4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/core_3.1.0_1538766846266_0.42892550420330067"
+      }
+    }
+  },
+  "readme" : "# @svgr/core\n\n[![Build Status][build-badge]][build]\n[![version][version-badge]][package]\n[![MIT License][license-badge]][license]\n\nNode API of SVGR.\n\n```\nnpm install @svgr/core\n```\n\n## Usage\n\n```js\nimport svgr from '@svgr/core'\n\nconst svgCode = `\n<svg xmlns=\"http://www.w3.org/2000/svg\"\n  xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <rect x=\"10\" y=\"10\" height=\"100\" width=\"100\"\n    style=\"stroke:#ff0000; fill: #0000ff\"/>\n</svg>\n`\n\nsvgr(svgCode, { icon: true }, { componentName: 'MyComponent' }).then(jsCode => {\n  console.log(jsCode)\n})\n```\n\nUse `svgr.sync(code, config, state)` if you would like to use sync version.\n\n### Plugins\n\nBy default `@svgr/core` doesn't include `svgo` and `prettier` plugins, if you want them, you have to install them and include them in config.\n\n```js\nsvgr(svgCode, {\n  plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],\n}).then(jsCode => {\n  console.log(jsCode)\n})\n```\n\n## License\n\nMIT\n\n[build-badge]: https://img.shields.io/travis/smooth-code/svgr.svg?style=flat-square\n[build]: https://travis-ci.org/smooth-code/svgr\n[version-badge]: https://img.shields.io/npm/v/@svgr/core.svg?style=flat-square\n[package]: https://www.npmjs.com/package/@svgr/core\n[license-badge]: https://img.shields.io/npm/l/@svgr/core.svg?style=flat-square\n[license]: https://github.com/smooth-code/svgr/blob/master/LICENSE\n\n```\n\n```\n",
+  "maintainers" : [ {
+    "name" : "neoziro",
+    "email" : "berge.greg@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Greg Bergé",
+    "email" : "berge.greg@gmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-06-12T15:53:15.508Z",
+    "2.1.0" : "2018-07-08T21:30:44.501Z",
+    "created" : "2018-06-12T14:11:10.227Z",
+    "4.0.2" : "2018-11-08T19:37:16.868Z",
+    "4.2.0" : "2019-04-11T07:02:02.956Z",
+    "4.0.3" : "2018-11-13T09:35:17.566Z",
+    "4.3.0" : "2019-05-28T14:44:13.843Z",
+    "4.0.0" : "2018-11-04T15:17:56.351Z",
+    "4.0.1" : "2018-11-08T14:14:10.848Z",
+    "4.1.0" : "2018-11-24T15:29:26.599Z",
+    "2.4.0" : "2018-09-16T15:35:24.602Z",
+    "4.3.3" : "2019-09-24T07:42:45.653Z",
+    "2.4.1" : "2018-09-16T22:04:32.250Z",
+    "2.0.0-alpha.26fa501a" : "2018-06-12T14:11:10.510Z",
+    "2.1.1" : "2018-07-11T15:38:23.709Z",
+    "2.2.0" : "2018-08-13T16:30:19.526Z",
+    "4.3.1" : "2019-07-01T08:56:41.706Z",
+    "4.3.2" : "2019-07-15T08:55:57.602Z",
+    "3.0.0" : "2018-10-01T18:05:34.545Z",
+    "modified" : "2020-02-23T20:04:49.555Z",
+    "5.0.0" : "2019-12-23T14:07:08.099Z",
+    "5.0.1" : "2019-12-29T09:30:15.276Z",
+    "5.2.0" : "2020-02-23T20:04:47.192Z",
+    "3.1.0" : "2018-10-05T19:14:06.450Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/gregberge/svgr/tree/master/packages/core"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://react-svgr.com",
+  "keywords" : [ "svgr", "svg", "react", "core", "api" ],
+  "license" : "MIT"
+}

@@ -1,0 +1,344 @@
+{
+  "_id" : "map-age-cleaner",
+  "_rev" : "3-8c3f085f21d812e596565b386d8588a1",
+  "name" : "map-age-cleaner",
+  "description" : "Automatically cleanup expired items in a Map",
+  "dist-tags" : {
+    "latest" : "0.1.3"
+  },
+  "versions" : {
+    "0.1.3" : {
+      "name" : "map-age-cleaner",
+      "description" : "Automatically cleanup expired items in a Map",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Sam Verschueren",
+        "email" : "sam.verschueren@gmail.com",
+        "url" : "github.com/SamVerschueren"
+      },
+      "homepage" : "https://github.com/SamVerschueren/map-age-cleaner#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/SamVerschueren/map-age-cleaner.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/SamVerschueren/map-age-cleaner/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/map-age-cleaner/-/map-age-cleaner-0.1.3.tgz",
+        "shasum" : "7d583a7306434c055fe474b0f45078e6e1b4b92a"
+      },
+      "dependencies" : {
+        "p-defer" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@types/delay" : "^2.0.1",
+        "@types/node" : "^10.7.1",
+        "ava" : "^0.25.0",
+        "codecov" : "^3.0.0",
+        "del-cli" : "^1.1.0",
+        "delay" : "^3.0.0",
+        "nyc" : "^12.0.0",
+        "tslint" : "^5.11.0",
+        "tslint-xo" : "^0.9.0",
+        "typescript" : "^3.0.1"
+      },
+      "keywords" : [ "map", "age", "cleaner", "maxage", "expire", "expiration", "expiring" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "samverschueren",
+        "email" : "sam.verschueren@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm run build",
+        "pretest" : "npm run build -- --sourceMap",
+        "test" : "npm run lint && nyc ava dist/test.js",
+        "lint" : "tslint --format stylish --project .",
+        "build" : "npm run clean && tsc",
+        "clean" : "del-cli dist"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "samverschueren",
+        "email" : "sam.verschueren@gmail.com"
+      },
+      "_id" : "map-age-cleaner@0.1.3",
+      "gitHead" : "4583ef67c78be004e80ad9b67bf43c770ff810b2",
+      "typings" : "dist/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "dist/test.js" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/map-age-cleaner_0.1.3_1542128600104_0.44162900083517775"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.9.4"
+    },
+    "0.1.1" : {
+      "name" : "map-age-cleaner",
+      "description" : "Automatically cleanup expired items in a Map",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Sam Verschueren",
+        "email" : "sam.verschueren@gmail.com",
+        "url" : "github.com/SamVerschueren"
+      },
+      "homepage" : "https://github.com/SamVerschueren/map-age-cleaner#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/SamVerschueren/map-age-cleaner.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/SamVerschueren/map-age-cleaner/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/map-age-cleaner/-/map-age-cleaner-0.1.1.tgz",
+        "shasum" : "4ccb0eb60bf5b96bbe8ee3dc2c7e3e497efc7b1a"
+      },
+      "dependencies" : {
+        "p-defer" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@types/delay" : "^2.0.1",
+        "@types/node" : "^10.7.1",
+        "ava" : "^0.25.0",
+        "codecov" : "^3.0.0",
+        "del-cli" : "^1.1.0",
+        "delay" : "^3.0.0",
+        "nyc" : "^12.0.0",
+        "tslint" : "^5.11.0",
+        "tslint-xo" : "^0.9.0",
+        "typescript" : "^3.0.1"
+      },
+      "keywords" : [ "map", "age", "cleaner", "maxage", "expire", "expiration", "expiring" ],
+      "license" : "MIT",
+      "files" : [ "dist/index.js", "dist/index.d.ts" ],
+      "maintainers" : [ {
+        "name" : "samverschueren",
+        "email" : "sam.verschueren@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm run build",
+        "pretest" : "npm run build -- --sourceMap",
+        "test" : "npm run lint && nyc ava dist/test.js",
+        "lint" : "tslint --format stylish --project .",
+        "build" : "npm run clean && tsc",
+        "clean" : "del-cli dist"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "samverschueren",
+        "email" : "sam.verschueren@gmail.com"
+      },
+      "_id" : "map-age-cleaner@0.1.1",
+      "gitHead" : "403f779421efb729933cdc17f31abe52ec45abd1",
+      "typings" : "dist/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "dist/test.js" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/map-age-cleaner_0.1.1_1534917563676_0.012036050134123899"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.9.4"
+    },
+    "0.1.2" : {
+      "name" : "map-age-cleaner",
+      "description" : "Automatically cleanup expired items in a Map",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Sam Verschueren",
+        "email" : "sam.verschueren@gmail.com",
+        "url" : "github.com/SamVerschueren"
+      },
+      "homepage" : "https://github.com/SamVerschueren/map-age-cleaner#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/SamVerschueren/map-age-cleaner.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/SamVerschueren/map-age-cleaner/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/map-age-cleaner/-/map-age-cleaner-0.1.2.tgz",
+        "shasum" : "098fb15538fd3dbe461f12745b0ca8568d4e3f74"
+      },
+      "dependencies" : {
+        "p-defer" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@types/delay" : "^2.0.1",
+        "@types/node" : "^10.7.1",
+        "ava" : "^0.25.0",
+        "codecov" : "^3.0.0",
+        "del-cli" : "^1.1.0",
+        "delay" : "^3.0.0",
+        "nyc" : "^12.0.0",
+        "tslint" : "^5.11.0",
+        "tslint-xo" : "^0.9.0",
+        "typescript" : "^3.0.1"
+      },
+      "keywords" : [ "map", "age", "cleaner", "maxage", "expire", "expiration", "expiring" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "samverschueren",
+        "email" : "sam.verschueren@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm run build",
+        "pretest" : "npm run build -- --sourceMap",
+        "test" : "npm run lint && nyc ava dist/test.js",
+        "lint" : "tslint --format stylish --project .",
+        "build" : "npm run clean && tsc",
+        "clean" : "del-cli dist"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "samverschueren",
+        "email" : "sam.verschueren@gmail.com"
+      },
+      "_id" : "map-age-cleaner@0.1.2",
+      "gitHead" : "e6cb1808735f53e460ef03f8defe8a2785dcfa1d",
+      "typings" : "dist/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "dist/test.js" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/map-age-cleaner_0.1.2_1536226801733_0.6184748509416897"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.9.4"
+    },
+    "0.1.0" : {
+      "name" : "map-age-cleaner",
+      "description" : "Cleanup expired items in a Map",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sam Verschueren",
+        "email" : "sam.verschueren@gmail.com",
+        "url" : "github.com/SamVerschueren"
+      },
+      "homepage" : "https://github.com/SamVerschueren/map-age-cleaner#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/SamVerschueren/map-age-cleaner.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/SamVerschueren/map-age-cleaner/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/map-age-cleaner/-/map-age-cleaner-0.1.0.tgz",
+        "shasum" : "225e0400bb63c181dd9cfd39c05d4772ef30cfa5"
+      },
+      "dependencies" : {
+        "p-defer" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@types/delay" : "^2.0.1",
+        "@types/node" : "^10.7.1",
+        "ava" : "^0.25.0",
+        "codecov" : "^3.0.0",
+        "del-cli" : "^1.1.0",
+        "delay" : "^3.0.0",
+        "nyc" : "^12.0.0",
+        "tslint" : "^5.11.0",
+        "tslint-xo" : "^0.9.0",
+        "typescript" : "^3.0.1"
+      },
+      "keywords" : [ "map", "age", "cleaner", "maxage", "expire", "expiration", "expiring" ],
+      "license" : "MIT",
+      "files" : [ "dist/index.js", "dist/index.d.ts" ],
+      "maintainers" : [ {
+        "name" : "samverschueren",
+        "email" : "sam.verschueren@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm run build",
+        "pretest" : "npm run build -- --sourceMap",
+        "test" : "npm run lint && nyc ava dist/test.js",
+        "lint" : "tslint --format stylish --project .",
+        "build" : "npm run clean && tsc",
+        "clean" : "del-cli dist"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "samverschueren",
+        "email" : "sam.verschueren@gmail.com"
+      },
+      "_id" : "map-age-cleaner@0.1.0",
+      "gitHead" : "26336d68ab8faf00c7d54c7f1b195b6417cedc97",
+      "typings" : "dist/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "dist/test.js" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/map-age-cleaner_0.1.0_1534875715612_0.029706993657249603"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.9.4"
+    }
+  },
+  "readme" : "# map-age-cleaner\n\n[![Build Status](https://travis-ci.org/SamVerschueren/map-age-cleaner.svg?branch=master)](https://travis-ci.org/SamVerschueren/map-age-cleaner) [![codecov](https://codecov.io/gh/SamVerschueren/map-age-cleaner/badge.svg?branch=master)](https://codecov.io/gh/SamVerschueren/map-age-cleaner?branch=master)\n\n> Automatically cleanup expired items in a Map\n\n\n## Install\n\n```\n$ npm install map-age-cleaner\n```\n\n\n## Usage\n\n```js\nimport mapAgeCleaner from 'map-age-cleaner';\n\nconst map = new Map([\n\t['unicorn', {data: '🦄', maxAge: Date.now() + 1000}]\n]);\n\nmapAgeCleaner(map);\n\nmap.has('unicorn');\n//=> true\n\n// Wait for 1 second...\n\nmap.has('unicorn');\n//=> false\n```\n\n> **Note**: Items have to be ordered ascending based on the expiry property. This means that the item which will be expired first, should be in the first position of the `Map`.\n\n\n## API\n\n### mapAgeCleaner(map, [property])\n\nReturns the `Map` instance.\n\n#### map\n\nType: `Map`\n\nMap instance which should be cleaned up.\n\n#### property\n\nType: `string`<br>\nDefault: `maxAge`\n\nName of the property which olds the expiry timestamp.\n\n\n## Related\n\n- [expiry-map](https://github.com/SamVerschueren/expiry-map) - A `Map` implementation with expirable items\n- [expiry-set](https://github.com/SamVerschueren/expiry-set) - A `Set` implementation with expirable keys\n- [mem](https://github.com/sindresorhus/mem) - Memoize functions\n\n\n## License\n\nMIT © [Sam Verschueren](https://github.com/SamVerschueren)\n",
+  "maintainers" : [ {
+    "name" : "samverschueren",
+    "email" : "sam.verschueren@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sam Verschueren",
+    "email" : "sam.verschueren@gmail.com",
+    "url" : "github.com/SamVerschueren"
+  },
+  "time" : {
+    "0.1.3" : "2018-11-13T17:03:20.204Z",
+    "created" : "2018-08-21T18:21:55.611Z",
+    "modified" : "2018-11-13T17:03:22.809Z",
+    "0.1.1" : "2018-08-22T05:59:23.783Z",
+    "0.1.2" : "2018-09-06T09:40:01.941Z",
+    "0.1.0" : "2018-08-21T18:21:55.740Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/SamVerschueren/map-age-cleaner.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/SamVerschueren/map-age-cleaner#readme",
+  "keywords" : [ "map", "age", "cleaner", "maxage", "expire", "expiration", "expiring" ],
+  "bugs" : {
+    "url" : "https://github.com/SamVerschueren/map-age-cleaner/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,3819 @@
+{
+  "_id" : "minipass",
+  "_rev" : "65-ea0fb0c7255c08a1c2566a77a81fc8fc",
+  "name" : "minipass",
+  "description" : "minimal implementation of a PassThrough stream",
+  "dist-tags" : {
+    "next" : "3.1.1",
+    "latest" : "3.1.1"
+  },
+  "versions" : {
+    "2.8.6" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.8.6",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.8.6.tgz",
+        "shasum" : "620d889ace26356391d010ecb9458749df9b6db5"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.8.6",
+      "gitHead" : "8243e5efd6a058d28479a66e40ab3aba0207cb76",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.8.6_1569342147428_0.013183884532681267"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.8.4" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.8.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.8.4.tgz",
+        "shasum" : "490fe62adeb620c4a3373f62ee1c31cf2ef36385"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.8.4",
+      "gitHead" : "b49a11897700937c425ec1439ec1af2c055b16a8",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "deprecated" : "This version of Minipass has a serious regression which was fixed in v2.8.5.  Please update ASAP.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.8.4_1569287012744_0.2723172970443315"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.8.5" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.8.5",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.8.5.tgz",
+        "shasum" : "072f3c67b1f05fe4703f58a3c38e186c03a17692"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.8.5",
+      "gitHead" : "5718d456b6bc535febe3b3f52168fa8b2acada04",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.8.5_1569311764545_0.23634394433582018"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.6.4" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.6.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.6.4.tgz",
+        "shasum" : "c15b8e86d1ecee001652564a2c240c0b6e58e817"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.6.4",
+      "gitHead" : "e3b7320555e1d7a258bda1987e205ed72c623305",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.6.4_1568737215637_0.8029580992745486"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.8.2" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.8.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.8.2.tgz",
+        "shasum" : "17ce3a7ecac3bdb8cafc9caf311e9176e6c840db"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.8.2",
+      "gitHead" : "320eb57f38b3e03965e761efa878ef11ae6afea0",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.8.2_1569257837761_0.27577167683323145"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.6.5" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.6.5",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.6.5.tgz",
+        "shasum" : "1c245f9f2897f70fd4a219066261ce6c29f80b18"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.6.5",
+      "gitHead" : "eb03b7ad760791ebb727a393a1056aab490e45ba",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.6.5_1568758710901_0.00493985783646278"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.8.3" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.8.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.8.3.tgz",
+        "shasum" : "aa87cf674150a1b3c8e278c5f5937d1d3d02b955"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.8.3",
+      "gitHead" : "549cb9a7f8bad5346e5855ceb6d5e702a6e6049f",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.8.3_1569264510349_0.9347850990046873"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "3.1.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-3.1.0.tgz",
+        "shasum" : "c08b140a0d5e8b6c6034056f7a168a3f5441df3b"
+      },
+      "dependencies" : {
+        "yallist" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.5",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish --tag=next",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@3.1.0",
+      "gitHead" : "4a5f1c26a1881fb3370d9c28ea9bdefc6a3eb402",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_3.1.0_1571547208516_0.163407317672416"
+      },
+      "readme" : "# minipass\n\nA _very_ minimal implementation of a [PassThrough\nstream](https://nodejs.org/api/stream.html#stream_class_stream_passthrough)\n\n[It's very\nfast](https://docs.google.com/spreadsheets/d/1oObKSrVwLX_7Ut4Z6g3fZW-AX1j1-k6w-cDsrkaSbHM/edit#gid=0)\nfor objects, strings, and buffers.\n\nSupports pipe()ing (including multi-pipe() and backpressure transmission),\nbuffering data until either a `data` event handler or `pipe()` is added (so\nyou don't lose the first chunk), and most other cases where PassThrough is\na good idea.\n\nThere is a `read()` method, but it's much more efficient to consume data\nfrom this stream via `'data'` events or by calling `pipe()` into some other\nstream.  Calling `read()` requires the buffer to be flattened in some\ncases, which requires copying memory.\n\nThere is also no `unpipe()` method.  Once you start piping, there is no\nstopping it!\n\nIf you set `objectMode: true` in the options, then whatever is written will\nbe emitted.  Otherwise, it'll do a minimal amount of Buffer copying to\nensure proper Streams semantics when `read(n)` is called.\n\n`objectMode` can also be set by doing `stream.objectMode = true`, or by\nwriting any non-string/non-buffer data.  `objectMode` cannot be set to\nfalse once it is set.\n\nThis is not a `through` or `through2` stream.  It doesn't transform the\ndata, it just passes it right through.  If you want to transform the data,\nextend the class, and override the `write()` method.  Once you're done\ntransforming the data however you want, call `super.write()` with the\ntransform output.\n\nFor some examples of streams that extend Minipass in various ways, check\nout:\n\n- [minizlib](http://npm.im/minizlib)\n- [fs-minipass](http://npm.im/fs-minipass)\n- [tar](http://npm.im/tar)\n- [minipass-collect](http://npm.im/minipass-collect)\n- [minipass-flush](http://npm.im/minipass-flush)\n- [minipass-pipeline](http://npm.im/minipass-pipeline)\n- [tap](http://npm.im/tap)\n- [tap-parser](http://npm.im/tap)\n- [treport](http://npm.im/tap)\n- [minipass-fetch](http://npm.im/minipass-fetch)\n\n## Differences from Node.js Streams\n\nThere are several things that make Minipass streams different from (and in\nsome ways superior to) Node.js core streams.\n\nPlease read these caveats if you are familiar with noode-core streams and\nintend to use Minipass streams in your programs.\n\n### Timing\n\nMinipass streams are designed to support synchronous use-cases.  Thus, data\nis emitted as soon as it is available, always.  It is buffered until read,\nbut no longer.  Another way to look at it is that Minipass streams are\nexactly as synchronous as the logic that writes into them.\n\nThis can be surprising if your code relies on `PassThrough.write()` always\nproviding data on the next tick rather than the current one, or being able\nto call `resume()` and not have the entire buffer disappear immediately.\n\nHowever, without this synchronicity guarantee, there would be no way for\nMinipass to achieve the speeds it does, or support the synchronous use\ncases that it does.  Simply put, waiting takes time.\n\nThis non-deferring approach makes Minipass streams much easier to reason\nabout, especially in the context of Promises and other flow-control\nmechanisms.\n\n### No High/Low Water Marks\n\nNode.js core streams will optimistically fill up a buffer, returning `true`\non all writes until the limit is hit, even if the data has nowhere to go.\nThen, they will not attempt to draw more data in until the buffer size dips\nbelow a minimum value.\n\nMinipass streams are much simpler.  The `write()` method will return `true`\nif the data has somewhere to go (which is to say, given the timing\nguarantees, that the data is already there by the time `write()` returns).\n\nIf the data has nowhere to go, then `write()` returns false, and the data\nsits in a buffer, to be drained out immediately as soon as anyone consumes\nit.\n\n### Hazards of Buffering (or: Why Minipass Is So Fast)\n\nSince data written to a Minipass stream is immediately written all the way\nthrough the pipeline, and `write()` always returns true/false based on\nwhether the data was fully flushed, backpressure is communicated\nimmediately to the upstream caller.  This minimizes buffering.\n\nConsider this case:\n\n```js\nconst {PassThrough} = require('stream')\nconst p1 = new PassThrough({ highWaterMark: 1024 })\nconst p2 = new PassThrough({ highWaterMark: 1024 })\nconst p3 = new PassThrough({ highWaterMark: 1024 })\nconst p4 = new PassThrough({ highWaterMark: 1024 })\n\np1.pipe(p2).pipe(p3).pipe(p4)\np4.on('data', () => console.log('made it through'))\n\n// this returns false and buffers, then writes to p2 on next tick (1)\n// p2 returns false and buffers, pausing p1, then writes to p3 on next tick (2)\n// p3 returns false and buffers, pausing p2, then writes to p4 on next tick (3)\n// p4 returns false and buffers, pausing p3, then emits 'data' and 'drain'\n// on next tick (4)\n// p3 sees p4's 'drain' event, and calls resume(), emitting 'resume' and\n// 'drain' on next tick (5)\n// p2 sees p3's 'drain', calls resume(), emits 'resume' and 'drain' on next tick (6)\n// p1 sees p2's 'drain', calls resume(), emits 'resume' and 'drain' on next\n// tick (7)\n\np1.write(Buffer.alloc(2048)) // returns false\n```\n\nAlong the way, the data was buffered and deferred at each stage, and\nmultiple event deferrals happened, for an unblocked pipeline where it was\nperfectly safe to write all the way through!\n\nFurthermore, setting a `highWaterMark` of `1024` might lead someone reading\nthe code to think an advisory maximum of 1KiB is being set for the\npipeline.  However, the actual advisory buffering level is the _sum_ of\n`highWaterMark` values, since each one has its own bucket.\n\nConsider the Minipass case:\n\n```js\nconst m1 = new Minipass()\nconst m2 = new Minipass()\nconst m3 = new Minipass()\nconst m4 = new Minipass()\n\nm1.pipe(m2).pipe(m3).pipe(m4)\nm4.on('data', () => console.log('made it through'))\n\n// m1 is flowing, so it writes the data to m2 immediately\n// m2 is flowing, so it writes the data to m3 immediately\n// m3 is flowing, so it writes the data to m4 immediately\n// m4 is flowing, so it fires the 'data' event immediately, returns true\n// m4's write returned true, so m3 is still flowing, returns true\n// m3's write returned true, so m2 is still flowing, returns true\n// m2's write returned true, so m1 is still flowing, returns true\n// No event deferrals or buffering along the way!\n\nm1.write(Buffer.alloc(2048)) // returns true\n```\n\nIt is extremely unlikely that you _don't_ want to buffer any data written,\nor _ever_ buffer data that can be flushed all the way through.  Neither\nnode-core streams nor Minipass ever fail to buffer written data, but\nnode-core streams do a lot of unnecessary buffering and pausing.\n\nAs always, the faster implementation is the one that does less stuff and\nwaits less time to do it.\n\n### Immediately emit `end` for empty streams (when not paused)\n\nIf a stream is not paused, and `end()` is called before writing any data\ninto it, then it will emit `end` immediately.\n\nIf you have logic that occurs on the `end` event which you don't want to\npotentially happen immediately (for example, closing file descriptors,\nmoving on to the next entry in an archive parse stream, etc.) then be sure\nto call `stream.pause()` on creation, and then `stream.resume()` once you\nare ready to respond to the `end` event.\n\n### Emit `end` When Asked\n\nOne hazard of immediately emitting `'end'` is that you may not yet have had\na chance to add a listener.  In order to avoid this hazard, Minipass\nstreams safely re-emit the `'end'` event if a new listener is added after\n`'end'` has been emitted.\n\nIe, if you do `stream.on('end', someFunction)`, and the stream has already\nemitted `end`, then it will call the handler right away.  (You can think of\nthis somewhat like attaching a new `.then(fn)` to a previously-resolved\nPromise.)\n\nTo prevent calling handlers multiple times who would not expect multiple\nends to occur, all listeners are removed from the `'end'` event whenever it\nis emitted.\n\n### Impact of \"immediate flow\" on Tee-streams\n\nA \"tee stream\" is a stream piping to multiple destinations:\n\n```js\nconst tee = new Minipass()\nt.pipe(dest1)\nt.pipe(dest2)\nt.write('foo') // goes to both destinations\n```\n\nSince Minipass streams _immediately_ process any pending data through the\npipeline when a new pipe destination is added, this can have surprising\neffects, especially when a stream comes in from some other function and may\nor may not have data in its buffer.\n\n```js\n// WARNING! WILL LOSE DATA!\nconst src = new Minipass()\nsrc.write('foo')\nsrc.pipe(dest1) // 'foo' chunk flows to dest1 immediately, and is gone\nsrc.pipe(dest2) // gets nothing!\n```\n\nThe solution is to create a dedicated tee-stream junction that pipes to\nboth locations, and then pipe to _that_ instead.\n\n```js\n// Safe example: tee to both places\nconst src = new Minipass()\nsrc.write('foo')\nconst tee = new Minipass()\ntee.pipe(dest1)\ntee.pipe(dest2)\nstream.pipe(tee) // tee gets 'foo', pipes to both locations\n```\n\nThe same caveat applies to `on('data')` event listeners.  The first one\nadded will _immediately_ receive all of the data, leaving nothing for the\nsecond:\n\n```js\n// WARNING! WILL LOSE DATA!\nconst src = new Minipass()\nsrc.write('foo')\nsrc.on('data', handler1) // receives 'foo' right away\nsrc.on('data', handler2) // nothing to see here!\n```\n\nUsing a dedicated tee-stream can be used in this case as well:\n\n```js\n// Safe example: tee to both data handlers\nconst src = new Minipass()\nsrc.write('foo')\nconst tee = new Minipass()\ntee.on('data', handler1)\ntee.on('data', handler2)\nsrc.pipe(tee)\n```\n\n## USAGE\n\nIt's a stream!  Use it like a stream and it'll most likely do what you\nwant.\n\n```js\nconst Minipass = require('minipass')\nconst mp = new Minipass(options) // optional: { encoding, objectMode }\nmp.write('foo')\nmp.pipe(someOtherStream)\nmp.end('bar')\n```\n\n### OPTIONS\n\n* `encoding` How would you like the data coming _out_ of the stream to be\n  encoded?  Accepts any values that can be passed to `Buffer.toString()`.\n* `objectMode` Emit data exactly as it comes in.  This will be flipped on\n  by default if you write() something other than a string or Buffer at any\n  point.  Setting `objectMode: true` will prevent setting any encoding\n  value.\n\n### API\n\nImplements the user-facing portions of Node.js's `Readable` and `Writable`\nstreams.\n\n### Methods\n\n* `write(chunk, [encoding], [callback])` - Put data in.  (Note that, in the\n  base Minipass class, the same data will come out.)  Returns `false` if\n  the stream will buffer the next write, or true if it's still in \"flowing\"\n  mode.\n* `end([chunk, [encoding]], [callback])` - Signal that you have no more\n  data to write.  This will queue an `end` event to be fired when all the\n  data has been consumed.\n* `setEncoding(encoding)` - Set the encoding for data coming of the stream.\n  This can only be done once.\n* `pause()` - No more data for a while, please.  This also prevents `end`\n  from being emitted for empty streams until the stream is resumed.\n* `resume()` - Resume the stream.  If there's data in the buffer, it is all\n  discarded.  Any buffered events are immediately emitted.\n* `pipe(dest)` - Send all output to the stream provided.  There is no way\n  to unpipe.  When data is emitted, it is immediately written to any and\n  all pipe destinations.\n* `on(ev, fn)`, `emit(ev, fn)` - Minipass streams are EventEmitters.  Some\n  events are given special treatment, however.  (See below under \"events\".)\n* `promise()` - Returns a Promise that resolves when the stream emits\n  `end`, or rejects if the stream emits `error`.\n* `collect()` - Return a Promise that resolves on `end` with an array\n  containing each chunk of data that was emitted, or rejects if the stream\n  emits `error`.  Note that this consumes the stream data.\n* `concat()` - Same as `collect()`, but concatenates the data into a single\n  Buffer object.  Will reject the returned promise if the stream is in\n  objectMode, or if it goes into objectMode by the end of the data.\n* `read(n)` - Consume `n` bytes of data out of the buffer.  If `n` is not\n  provided, then consume all of it.  If `n` bytes are not available, then\n  it returns null.  **Note** consuming streams in this way is less\n  efficient, and can lead to unnecessary Buffer copying.\n* `destroy([er])` - Destroy the stream.  If an error is provided, then an\n  `'error'` event is emitted.  If the stream has a `close()` method, and\n  has not emitted a `'close'` event yet, then `stream.close()` will be\n  called.  Any Promises returned by `.promise()`, `.collect()` or\n  `.concat()` will be rejected.  After being destroyed, writing to the\n  stream will emit an error.  No more data will be emitted if the stream is\n  destroyed, even if it was previously buffered.\n\n### Properties\n\n* `bufferLength` Read-only.  Total number of bytes buffered, or in the case\n  of objectMode, the total number of objects.\n* `encoding` The encoding that has been set.  (Setting this is equivalent\n  to calling `setEncoding(enc)` and has the same prohibition against\n  setting multiple times.)\n* `flowing` Read-only.  Boolean indicating whether a chunk written to the\n  stream will be immediately emitted.\n* `emittedEnd` Read-only.  Boolean indicating whether the end-ish events\n  (ie, `end`, `prefinish`, `finish`) have been emitted.  Note that\n  listening on any end-ish event will immediateyl re-emit it if it has\n  already been emitted.\n* `writable` Whether the stream is writable.  Default `true`.  Set to\n  `false` when `end()`\n* `readable` Whether the stream is readable.  Default `true`.\n* `buffer` A [yallist](http://npm.im/yallist) linked list of chunks written\n  to the stream that have not yet been emitted.  (It's probably a bad idea\n  to mess with this.)\n* `pipes` A [yallist](http://npm.im/yallist) linked list of streams that\n  this stream is piping into.  (It's probably a bad idea to mess with\n  this.)\n* `destroyed` A getter that indicates whether the stream was destroyed.\n* `paused` True if the stream has been explicitly paused, otherwise false.\n* `objectMode` Indicates whether the stream is in `objectMode`.  Once set\n  to `true`, it cannot be set to `false`.\n\n### Events\n\n* `data` Emitted when there's data to read.  Argument is the data to read.\n  This is never emitted while not flowing.  If a listener is attached, that\n  will resume the stream.\n* `end` Emitted when there's no more data to read.  This will be emitted\n  immediately for empty streams when `end()` is called.  If a listener is\n  attached, and `end` was already emitted, then it will be emitted again.\n  All listeners are removed when `end` is emitted.\n* `prefinish` An end-ish event that follows the same logic as `end` and is\n  emitted in the same conditions where `end` is emitted.  Emitted after\n  `'end'`.\n* `finish` An end-ish event that follows the same logic as `end` and is\n  emitted in the same conditions where `end` is emitted.  Emitted after\n  `'prefinish'`.\n* `close` An indication that an underlying resource has been released.\n  Minipass does not emit this event, but will defer it until after `end`\n  has been emitted, since it throws off some stream libraries otherwise.\n* `drain` Emitted when the internal buffer empties, and it is again\n  suitable to `write()` into the stream.\n* `readable` Emitted when data is buffered and ready to be read by a\n  consumer.\n* `resume` Emitted when stream changes state from buffering to flowing\n  mode.  (Ie, when `resume` is called, `pipe` is called, or a `data` event\n  listener is added.)\n\n### Static Methods\n\n* `Minipass.isStream(stream)` Returns `true` if the argument is a stream,\n  and false otherwise.  To be considered a stream, the object must be\n  either an instance of Minipass, or an EventEmitter that has either a\n  `pipe()` method, or both `write()` and `end()` methods.  (Pretty much any\n  stream in node-land will return `true` for this.)\n\n## EXAMPLES\n\nHere are some examples of things you can do with Minipass streams.\n\n### simple \"are you done yet\" promise\n\n```js\nmp.promise().then(() => {\n  // stream is finished\n}, er => {\n  // stream emitted an error\n})\n```\n\n### collecting\n\n```js\nmp.collect().then(all => {\n  // all is an array of all the data emitted\n  // encoding is supported in this case, so\n  // so the result will be a collection of strings if\n  // an encoding is specified, or buffers/objects if not.\n  //\n  // In an async function, you may do\n  // const data = await stream.collect()\n})\n```\n\n### collecting into a single blob\n\nThis is a bit slower because it concatenates the data into one chunk for\nyou, but if you're going to do it yourself anyway, it's convenient this\nway:\n\n```js\nmp.concat().then(onebigchunk => {\n  // onebigchunk is a string if the stream\n  // had an encoding set, or a buffer otherwise.\n})\n```\n\n### iteration\n\nYou can iterate over streams synchronously or asynchronously in platforms\nthat support it.\n\nSynchronous iteration will end when the currently available data is\nconsumed, even if the `end` event has not been reached.  In string and\nbuffer mode, the data is concatenated, so unless multiple writes are\noccurring in the same tick as the `read()`, sync iteration loops will\ngenerally only have a single iteration.\n\nTo consume chunks in this way exactly as they have been written, with no\nflattening, create the stream with the `{ objectMode: true }` option.\n\n```js\nconst mp = new Minipass({ objectMode: true })\nmp.write('a')\nmp.write('b')\nfor (let letter of mp) {\n  console.log(letter) // a, b\n}\nmp.write('c')\nmp.write('d')\nfor (let letter of mp) {\n  console.log(letter) // c, d\n}\nmp.write('e')\nmp.end()\nfor (let letter of mp) {\n  console.log(letter) // e\n}\nfor (let letter of mp) {\n  console.log(letter) // nothing\n}\n```\n\nAsynchronous iteration will continue until the end event is reached,\nconsuming all of the data.\n\n```js\nconst mp = new Minipass({ encoding: 'utf8' })\n\n// some source of some data\nlet i = 5\nconst inter = setInterval(() => {\n  if (i --> 0)\n    mp.write(Buffer.from('foo\\n', 'utf8'))\n  else {\n    mp.end()\n    clearInterval(inter)\n  }\n}, 100)\n\n// consume the data with asynchronous iteration\nasync function consume () {\n  for await (let chunk of mp) {\n    console.log(chunk)\n  }\n  return 'ok'\n}\n\nconsume().then(res => console.log(res))\n// logs `foo\\n` 5 times, and then `ok`\n```\n\n### subclass that `console.log()`s everything written into it\n\n```js\nclass Logger extends Minipass {\n  write (chunk, encoding, callback) {\n    console.log('WRITE', chunk, encoding)\n    return super.write(chunk, encoding, callback)\n  }\n  end (chunk, encoding, callback) {\n    console.log('END', chunk, encoding)\n    return super.end(chunk, encoding, callback)\n  }\n}\n\nsomeSource.pipe(new Logger()).pipe(someDest)\n```\n\n### same thing, but using an inline anonymous class\n\n```js\n// js classes are fun\nsomeSource\n  .pipe(new (class extends Minipass {\n    emit (ev, ...data) {\n      // let's also log events, because debugging some weird thing\n      console.log('EMIT', ev)\n      return super.emit(ev, ...data)\n    }\n    write (chunk, encoding, callback) {\n      console.log('WRITE', chunk, encoding)\n      return super.write(chunk, encoding, callback)\n    }\n    end (chunk, encoding, callback) {\n      console.log('END', chunk, encoding)\n      return super.end(chunk, encoding, callback)\n    }\n  }))\n  .pipe(someDest)\n```\n\n### subclass that defers 'end' for some reason\n\n```js\nclass SlowEnd extends Minipass {\n  emit (ev, ...args) {\n    if (ev === 'end') {\n      console.log('going to end, hold on a sec')\n      setTimeout(() => {\n        console.log('ok, ready to end now')\n        super.emit('end', ...args)\n      }, 100)\n    } else {\n      return super.emit(ev, ...args)\n    }\n  }\n}\n```\n\n### transform that creates newline-delimited JSON\n\n```js\nclass NDJSONEncode extends Minipass {\n  write (obj, cb) {\n    try {\n      // JSON.stringify can throw, emit an error on that\n      return super.write(JSON.stringify(obj) + '\\n', 'utf8', cb)\n    } catch (er) {\n      this.emit('error', er)\n    }\n  }\n  end (obj, cb) {\n    if (typeof obj === 'function') {\n      cb = obj\n      obj = undefined\n    }\n    if (obj !== undefined) {\n      this.write(obj)\n    }\n    return super.end(cb)\n  }\n}\n```\n\n### transform that parses newline-delimited JSON\n\n```js\nclass NDJSONDecode extends Minipass {\n  constructor (options) {\n    // always be in object mode, as far as Minipass is concerned\n    super({ objectMode: true })\n    this._jsonBuffer = ''\n  }\n  write (chunk, encoding, cb) {\n    if (typeof chunk === 'string' &&\n        typeof encoding === 'string' &&\n        encoding !== 'utf8') {\n      chunk = Buffer.from(chunk, encoding).toString()\n    } else if (Buffer.isBuffer(chunk))\n      chunk = chunk.toString()\n    }\n    if (typeof encoding === 'function') {\n      cb = encoding\n    }\n    const jsonData = (this._jsonBuffer + chunk).split('\\n')\n    this._jsonBuffer = jsonData.pop()\n    for (let i = 0; i < jsonData.length; i++) {\n      let parsed\n      try {\n        super.write(parsed)\n      } catch (er) {\n        this.emit('error', er)\n        continue\n      }\n    }\n    if (cb)\n      cb()\n  }\n}\n```\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.12.0"
+    },
+    "3.1.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-3.1.1.tgz",
+        "shasum" : "7607ce778472a185ad6d89082aa2070f79cedcd5"
+      },
+      "dependencies" : {
+        "yallist" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.5",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish --tag=next",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@3.1.1",
+      "gitHead" : "0e866597838dadaf8dcfd7872ab8951f3c8ba3c0",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_3.1.1_1571952897280_0.4106563063011017"
+      },
+      "readme" : "# minipass\n\nA _very_ minimal implementation of a [PassThrough\nstream](https://nodejs.org/api/stream.html#stream_class_stream_passthrough)\n\n[It's very\nfast](https://docs.google.com/spreadsheets/d/1oObKSrVwLX_7Ut4Z6g3fZW-AX1j1-k6w-cDsrkaSbHM/edit#gid=0)\nfor objects, strings, and buffers.\n\nSupports pipe()ing (including multi-pipe() and backpressure transmission),\nbuffering data until either a `data` event handler or `pipe()` is added (so\nyou don't lose the first chunk), and most other cases where PassThrough is\na good idea.\n\nThere is a `read()` method, but it's much more efficient to consume data\nfrom this stream via `'data'` events or by calling `pipe()` into some other\nstream.  Calling `read()` requires the buffer to be flattened in some\ncases, which requires copying memory.\n\nThere is also no `unpipe()` method.  Once you start piping, there is no\nstopping it!\n\nIf you set `objectMode: true` in the options, then whatever is written will\nbe emitted.  Otherwise, it'll do a minimal amount of Buffer copying to\nensure proper Streams semantics when `read(n)` is called.\n\n`objectMode` can also be set by doing `stream.objectMode = true`, or by\nwriting any non-string/non-buffer data.  `objectMode` cannot be set to\nfalse once it is set.\n\nThis is not a `through` or `through2` stream.  It doesn't transform the\ndata, it just passes it right through.  If you want to transform the data,\nextend the class, and override the `write()` method.  Once you're done\ntransforming the data however you want, call `super.write()` with the\ntransform output.\n\nFor some examples of streams that extend Minipass in various ways, check\nout:\n\n- [minizlib](http://npm.im/minizlib)\n- [fs-minipass](http://npm.im/fs-minipass)\n- [tar](http://npm.im/tar)\n- [minipass-collect](http://npm.im/minipass-collect)\n- [minipass-flush](http://npm.im/minipass-flush)\n- [minipass-pipeline](http://npm.im/minipass-pipeline)\n- [tap](http://npm.im/tap)\n- [tap-parser](http://npm.im/tap)\n- [treport](http://npm.im/tap)\n- [minipass-fetch](http://npm.im/minipass-fetch)\n\n## Differences from Node.js Streams\n\nThere are several things that make Minipass streams different from (and in\nsome ways superior to) Node.js core streams.\n\nPlease read these caveats if you are familiar with noode-core streams and\nintend to use Minipass streams in your programs.\n\n### Timing\n\nMinipass streams are designed to support synchronous use-cases.  Thus, data\nis emitted as soon as it is available, always.  It is buffered until read,\nbut no longer.  Another way to look at it is that Minipass streams are\nexactly as synchronous as the logic that writes into them.\n\nThis can be surprising if your code relies on `PassThrough.write()` always\nproviding data on the next tick rather than the current one, or being able\nto call `resume()` and not have the entire buffer disappear immediately.\n\nHowever, without this synchronicity guarantee, there would be no way for\nMinipass to achieve the speeds it does, or support the synchronous use\ncases that it does.  Simply put, waiting takes time.\n\nThis non-deferring approach makes Minipass streams much easier to reason\nabout, especially in the context of Promises and other flow-control\nmechanisms.\n\n### No High/Low Water Marks\n\nNode.js core streams will optimistically fill up a buffer, returning `true`\non all writes until the limit is hit, even if the data has nowhere to go.\nThen, they will not attempt to draw more data in until the buffer size dips\nbelow a minimum value.\n\nMinipass streams are much simpler.  The `write()` method will return `true`\nif the data has somewhere to go (which is to say, given the timing\nguarantees, that the data is already there by the time `write()` returns).\n\nIf the data has nowhere to go, then `write()` returns false, and the data\nsits in a buffer, to be drained out immediately as soon as anyone consumes\nit.\n\n### Hazards of Buffering (or: Why Minipass Is So Fast)\n\nSince data written to a Minipass stream is immediately written all the way\nthrough the pipeline, and `write()` always returns true/false based on\nwhether the data was fully flushed, backpressure is communicated\nimmediately to the upstream caller.  This minimizes buffering.\n\nConsider this case:\n\n```js\nconst {PassThrough} = require('stream')\nconst p1 = new PassThrough({ highWaterMark: 1024 })\nconst p2 = new PassThrough({ highWaterMark: 1024 })\nconst p3 = new PassThrough({ highWaterMark: 1024 })\nconst p4 = new PassThrough({ highWaterMark: 1024 })\n\np1.pipe(p2).pipe(p3).pipe(p4)\np4.on('data', () => console.log('made it through'))\n\n// this returns false and buffers, then writes to p2 on next tick (1)\n// p2 returns false and buffers, pausing p1, then writes to p3 on next tick (2)\n// p3 returns false and buffers, pausing p2, then writes to p4 on next tick (3)\n// p4 returns false and buffers, pausing p3, then emits 'data' and 'drain'\n// on next tick (4)\n// p3 sees p4's 'drain' event, and calls resume(), emitting 'resume' and\n// 'drain' on next tick (5)\n// p2 sees p3's 'drain', calls resume(), emits 'resume' and 'drain' on next tick (6)\n// p1 sees p2's 'drain', calls resume(), emits 'resume' and 'drain' on next\n// tick (7)\n\np1.write(Buffer.alloc(2048)) // returns false\n```\n\nAlong the way, the data was buffered and deferred at each stage, and\nmultiple event deferrals happened, for an unblocked pipeline where it was\nperfectly safe to write all the way through!\n\nFurthermore, setting a `highWaterMark` of `1024` might lead someone reading\nthe code to think an advisory maximum of 1KiB is being set for the\npipeline.  However, the actual advisory buffering level is the _sum_ of\n`highWaterMark` values, since each one has its own bucket.\n\nConsider the Minipass case:\n\n```js\nconst m1 = new Minipass()\nconst m2 = new Minipass()\nconst m3 = new Minipass()\nconst m4 = new Minipass()\n\nm1.pipe(m2).pipe(m3).pipe(m4)\nm4.on('data', () => console.log('made it through'))\n\n// m1 is flowing, so it writes the data to m2 immediately\n// m2 is flowing, so it writes the data to m3 immediately\n// m3 is flowing, so it writes the data to m4 immediately\n// m4 is flowing, so it fires the 'data' event immediately, returns true\n// m4's write returned true, so m3 is still flowing, returns true\n// m3's write returned true, so m2 is still flowing, returns true\n// m2's write returned true, so m1 is still flowing, returns true\n// No event deferrals or buffering along the way!\n\nm1.write(Buffer.alloc(2048)) // returns true\n```\n\nIt is extremely unlikely that you _don't_ want to buffer any data written,\nor _ever_ buffer data that can be flushed all the way through.  Neither\nnode-core streams nor Minipass ever fail to buffer written data, but\nnode-core streams do a lot of unnecessary buffering and pausing.\n\nAs always, the faster implementation is the one that does less stuff and\nwaits less time to do it.\n\n### Immediately emit `end` for empty streams (when not paused)\n\nIf a stream is not paused, and `end()` is called before writing any data\ninto it, then it will emit `end` immediately.\n\nIf you have logic that occurs on the `end` event which you don't want to\npotentially happen immediately (for example, closing file descriptors,\nmoving on to the next entry in an archive parse stream, etc.) then be sure\nto call `stream.pause()` on creation, and then `stream.resume()` once you\nare ready to respond to the `end` event.\n\n### Emit `end` When Asked\n\nOne hazard of immediately emitting `'end'` is that you may not yet have had\na chance to add a listener.  In order to avoid this hazard, Minipass\nstreams safely re-emit the `'end'` event if a new listener is added after\n`'end'` has been emitted.\n\nIe, if you do `stream.on('end', someFunction)`, and the stream has already\nemitted `end`, then it will call the handler right away.  (You can think of\nthis somewhat like attaching a new `.then(fn)` to a previously-resolved\nPromise.)\n\nTo prevent calling handlers multiple times who would not expect multiple\nends to occur, all listeners are removed from the `'end'` event whenever it\nis emitted.\n\n### Impact of \"immediate flow\" on Tee-streams\n\nA \"tee stream\" is a stream piping to multiple destinations:\n\n```js\nconst tee = new Minipass()\nt.pipe(dest1)\nt.pipe(dest2)\nt.write('foo') // goes to both destinations\n```\n\nSince Minipass streams _immediately_ process any pending data through the\npipeline when a new pipe destination is added, this can have surprising\neffects, especially when a stream comes in from some other function and may\nor may not have data in its buffer.\n\n```js\n// WARNING! WILL LOSE DATA!\nconst src = new Minipass()\nsrc.write('foo')\nsrc.pipe(dest1) // 'foo' chunk flows to dest1 immediately, and is gone\nsrc.pipe(dest2) // gets nothing!\n```\n\nThe solution is to create a dedicated tee-stream junction that pipes to\nboth locations, and then pipe to _that_ instead.\n\n```js\n// Safe example: tee to both places\nconst src = new Minipass()\nsrc.write('foo')\nconst tee = new Minipass()\ntee.pipe(dest1)\ntee.pipe(dest2)\nstream.pipe(tee) // tee gets 'foo', pipes to both locations\n```\n\nThe same caveat applies to `on('data')` event listeners.  The first one\nadded will _immediately_ receive all of the data, leaving nothing for the\nsecond:\n\n```js\n// WARNING! WILL LOSE DATA!\nconst src = new Minipass()\nsrc.write('foo')\nsrc.on('data', handler1) // receives 'foo' right away\nsrc.on('data', handler2) // nothing to see here!\n```\n\nUsing a dedicated tee-stream can be used in this case as well:\n\n```js\n// Safe example: tee to both data handlers\nconst src = new Minipass()\nsrc.write('foo')\nconst tee = new Minipass()\ntee.on('data', handler1)\ntee.on('data', handler2)\nsrc.pipe(tee)\n```\n\n## USAGE\n\nIt's a stream!  Use it like a stream and it'll most likely do what you\nwant.\n\n```js\nconst Minipass = require('minipass')\nconst mp = new Minipass(options) // optional: { encoding, objectMode }\nmp.write('foo')\nmp.pipe(someOtherStream)\nmp.end('bar')\n```\n\n### OPTIONS\n\n* `encoding` How would you like the data coming _out_ of the stream to be\n  encoded?  Accepts any values that can be passed to `Buffer.toString()`.\n* `objectMode` Emit data exactly as it comes in.  This will be flipped on\n  by default if you write() something other than a string or Buffer at any\n  point.  Setting `objectMode: true` will prevent setting any encoding\n  value.\n\n### API\n\nImplements the user-facing portions of Node.js's `Readable` and `Writable`\nstreams.\n\n### Methods\n\n* `write(chunk, [encoding], [callback])` - Put data in.  (Note that, in the\n  base Minipass class, the same data will come out.)  Returns `false` if\n  the stream will buffer the next write, or true if it's still in \"flowing\"\n  mode.\n* `end([chunk, [encoding]], [callback])` - Signal that you have no more\n  data to write.  This will queue an `end` event to be fired when all the\n  data has been consumed.\n* `setEncoding(encoding)` - Set the encoding for data coming of the stream.\n  This can only be done once.\n* `pause()` - No more data for a while, please.  This also prevents `end`\n  from being emitted for empty streams until the stream is resumed.\n* `resume()` - Resume the stream.  If there's data in the buffer, it is all\n  discarded.  Any buffered events are immediately emitted.\n* `pipe(dest)` - Send all output to the stream provided.  There is no way\n  to unpipe.  When data is emitted, it is immediately written to any and\n  all pipe destinations.\n* `on(ev, fn)`, `emit(ev, fn)` - Minipass streams are EventEmitters.  Some\n  events are given special treatment, however.  (See below under \"events\".)\n* `promise()` - Returns a Promise that resolves when the stream emits\n  `end`, or rejects if the stream emits `error`.\n* `collect()` - Return a Promise that resolves on `end` with an array\n  containing each chunk of data that was emitted, or rejects if the stream\n  emits `error`.  Note that this consumes the stream data.\n* `concat()` - Same as `collect()`, but concatenates the data into a single\n  Buffer object.  Will reject the returned promise if the stream is in\n  objectMode, or if it goes into objectMode by the end of the data.\n* `read(n)` - Consume `n` bytes of data out of the buffer.  If `n` is not\n  provided, then consume all of it.  If `n` bytes are not available, then\n  it returns null.  **Note** consuming streams in this way is less\n  efficient, and can lead to unnecessary Buffer copying.\n* `destroy([er])` - Destroy the stream.  If an error is provided, then an\n  `'error'` event is emitted.  If the stream has a `close()` method, and\n  has not emitted a `'close'` event yet, then `stream.close()` will be\n  called.  Any Promises returned by `.promise()`, `.collect()` or\n  `.concat()` will be rejected.  After being destroyed, writing to the\n  stream will emit an error.  No more data will be emitted if the stream is\n  destroyed, even if it was previously buffered.\n\n### Properties\n\n* `bufferLength` Read-only.  Total number of bytes buffered, or in the case\n  of objectMode, the total number of objects.\n* `encoding` The encoding that has been set.  (Setting this is equivalent\n  to calling `setEncoding(enc)` and has the same prohibition against\n  setting multiple times.)\n* `flowing` Read-only.  Boolean indicating whether a chunk written to the\n  stream will be immediately emitted.\n* `emittedEnd` Read-only.  Boolean indicating whether the end-ish events\n  (ie, `end`, `prefinish`, `finish`) have been emitted.  Note that\n  listening on any end-ish event will immediateyl re-emit it if it has\n  already been emitted.\n* `writable` Whether the stream is writable.  Default `true`.  Set to\n  `false` when `end()`\n* `readable` Whether the stream is readable.  Default `true`.\n* `buffer` A [yallist](http://npm.im/yallist) linked list of chunks written\n  to the stream that have not yet been emitted.  (It's probably a bad idea\n  to mess with this.)\n* `pipes` A [yallist](http://npm.im/yallist) linked list of streams that\n  this stream is piping into.  (It's probably a bad idea to mess with\n  this.)\n* `destroyed` A getter that indicates whether the stream was destroyed.\n* `paused` True if the stream has been explicitly paused, otherwise false.\n* `objectMode` Indicates whether the stream is in `objectMode`.  Once set\n  to `true`, it cannot be set to `false`.\n\n### Events\n\n* `data` Emitted when there's data to read.  Argument is the data to read.\n  This is never emitted while not flowing.  If a listener is attached, that\n  will resume the stream.\n* `end` Emitted when there's no more data to read.  This will be emitted\n  immediately for empty streams when `end()` is called.  If a listener is\n  attached, and `end` was already emitted, then it will be emitted again.\n  All listeners are removed when `end` is emitted.\n* `prefinish` An end-ish event that follows the same logic as `end` and is\n  emitted in the same conditions where `end` is emitted.  Emitted after\n  `'end'`.\n* `finish` An end-ish event that follows the same logic as `end` and is\n  emitted in the same conditions where `end` is emitted.  Emitted after\n  `'prefinish'`.\n* `close` An indication that an underlying resource has been released.\n  Minipass does not emit this event, but will defer it until after `end`\n  has been emitted, since it throws off some stream libraries otherwise.\n* `drain` Emitted when the internal buffer empties, and it is again\n  suitable to `write()` into the stream.\n* `readable` Emitted when data is buffered and ready to be read by a\n  consumer.\n* `resume` Emitted when stream changes state from buffering to flowing\n  mode.  (Ie, when `resume` is called, `pipe` is called, or a `data` event\n  listener is added.)\n\n### Static Methods\n\n* `Minipass.isStream(stream)` Returns `true` if the argument is a stream,\n  and false otherwise.  To be considered a stream, the object must be\n  either an instance of Minipass, or an EventEmitter that has either a\n  `pipe()` method, or both `write()` and `end()` methods.  (Pretty much any\n  stream in node-land will return `true` for this.)\n\n## EXAMPLES\n\nHere are some examples of things you can do with Minipass streams.\n\n### simple \"are you done yet\" promise\n\n```js\nmp.promise().then(() => {\n  // stream is finished\n}, er => {\n  // stream emitted an error\n})\n```\n\n### collecting\n\n```js\nmp.collect().then(all => {\n  // all is an array of all the data emitted\n  // encoding is supported in this case, so\n  // so the result will be a collection of strings if\n  // an encoding is specified, or buffers/objects if not.\n  //\n  // In an async function, you may do\n  // const data = await stream.collect()\n})\n```\n\n### collecting into a single blob\n\nThis is a bit slower because it concatenates the data into one chunk for\nyou, but if you're going to do it yourself anyway, it's convenient this\nway:\n\n```js\nmp.concat().then(onebigchunk => {\n  // onebigchunk is a string if the stream\n  // had an encoding set, or a buffer otherwise.\n})\n```\n\n### iteration\n\nYou can iterate over streams synchronously or asynchronously in platforms\nthat support it.\n\nSynchronous iteration will end when the currently available data is\nconsumed, even if the `end` event has not been reached.  In string and\nbuffer mode, the data is concatenated, so unless multiple writes are\noccurring in the same tick as the `read()`, sync iteration loops will\ngenerally only have a single iteration.\n\nTo consume chunks in this way exactly as they have been written, with no\nflattening, create the stream with the `{ objectMode: true }` option.\n\n```js\nconst mp = new Minipass({ objectMode: true })\nmp.write('a')\nmp.write('b')\nfor (let letter of mp) {\n  console.log(letter) // a, b\n}\nmp.write('c')\nmp.write('d')\nfor (let letter of mp) {\n  console.log(letter) // c, d\n}\nmp.write('e')\nmp.end()\nfor (let letter of mp) {\n  console.log(letter) // e\n}\nfor (let letter of mp) {\n  console.log(letter) // nothing\n}\n```\n\nAsynchronous iteration will continue until the end event is reached,\nconsuming all of the data.\n\n```js\nconst mp = new Minipass({ encoding: 'utf8' })\n\n// some source of some data\nlet i = 5\nconst inter = setInterval(() => {\n  if (i --> 0)\n    mp.write(Buffer.from('foo\\n', 'utf8'))\n  else {\n    mp.end()\n    clearInterval(inter)\n  }\n}, 100)\n\n// consume the data with asynchronous iteration\nasync function consume () {\n  for await (let chunk of mp) {\n    console.log(chunk)\n  }\n  return 'ok'\n}\n\nconsume().then(res => console.log(res))\n// logs `foo\\n` 5 times, and then `ok`\n```\n\n### subclass that `console.log()`s everything written into it\n\n```js\nclass Logger extends Minipass {\n  write (chunk, encoding, callback) {\n    console.log('WRITE', chunk, encoding)\n    return super.write(chunk, encoding, callback)\n  }\n  end (chunk, encoding, callback) {\n    console.log('END', chunk, encoding)\n    return super.end(chunk, encoding, callback)\n  }\n}\n\nsomeSource.pipe(new Logger()).pipe(someDest)\n```\n\n### same thing, but using an inline anonymous class\n\n```js\n// js classes are fun\nsomeSource\n  .pipe(new (class extends Minipass {\n    emit (ev, ...data) {\n      // let's also log events, because debugging some weird thing\n      console.log('EMIT', ev)\n      return super.emit(ev, ...data)\n    }\n    write (chunk, encoding, callback) {\n      console.log('WRITE', chunk, encoding)\n      return super.write(chunk, encoding, callback)\n    }\n    end (chunk, encoding, callback) {\n      console.log('END', chunk, encoding)\n      return super.end(chunk, encoding, callback)\n    }\n  }))\n  .pipe(someDest)\n```\n\n### subclass that defers 'end' for some reason\n\n```js\nclass SlowEnd extends Minipass {\n  emit (ev, ...args) {\n    if (ev === 'end') {\n      console.log('going to end, hold on a sec')\n      setTimeout(() => {\n        console.log('ok, ready to end now')\n        super.emit('end', ...args)\n      }, 100)\n    } else {\n      return super.emit(ev, ...args)\n    }\n  }\n}\n```\n\n### transform that creates newline-delimited JSON\n\n```js\nclass NDJSONEncode extends Minipass {\n  write (obj, cb) {\n    try {\n      // JSON.stringify can throw, emit an error on that\n      return super.write(JSON.stringify(obj) + '\\n', 'utf8', cb)\n    } catch (er) {\n      this.emit('error', er)\n    }\n  }\n  end (obj, cb) {\n    if (typeof obj === 'function') {\n      cb = obj\n      obj = undefined\n    }\n    if (obj !== undefined) {\n      this.write(obj)\n    }\n    return super.end(cb)\n  }\n}\n```\n\n### transform that parses newline-delimited JSON\n\n```js\nclass NDJSONDecode extends Minipass {\n  constructor (options) {\n    // always be in object mode, as far as Minipass is concerned\n    super({ objectMode: true })\n    this._jsonBuffer = ''\n  }\n  write (chunk, encoding, cb) {\n    if (typeof chunk === 'string' &&\n        typeof encoding === 'string' &&\n        encoding !== 'utf8') {\n      chunk = Buffer.from(chunk, encoding).toString()\n    } else if (Buffer.isBuffer(chunk))\n      chunk = chunk.toString()\n    }\n    if (typeof encoding === 'function') {\n      cb = encoding\n    }\n    const jsonData = (this._jsonBuffer + chunk).split('\\n')\n    this._jsonBuffer = jsonData.pop()\n    for (let i = 0; i < jsonData.length; i++) {\n      let parsed\n      try {\n        super.write(parsed)\n      } catch (er) {\n        this.emit('error', er)\n        continue\n      }\n    }\n    if (cb)\n      cb()\n  }\n}\n```\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.12.0"
+    },
+    "2.1.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.1.0.tgz",
+        "shasum" : "a25f21dd72a2b8e715ea5c784aa0dbd703759ef7"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "10",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.1.0",
+      "gitHead" : "7c67ec39540408cc404bac8d96e8bdf572cc641f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-2.1.0.tgz_1497457050581_0.37674622470512986"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "1.1.10" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.10",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.10.tgz",
+        "shasum" : "cb0f3810d3380435597763069693b1c72f219eb2"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.10",
+      "gitHead" : "939c3e089af81de898e715151b11ac4cdb3f2887",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.10.tgz_1493340043913_0.4495376900304109"
+      },
+      "_shasum" : "cb0f3810d3380435597763069693b1c72f219eb2",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.11" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.11",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.11.tgz",
+        "shasum" : "0780ea6f54a04253e680eace2602302fc123af53"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.11",
+      "gitHead" : "ce4800e752946d0dd11b4779123da0d9f5bb6930",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.11.tgz_1493519761127_0.9377385785337538"
+      },
+      "_shasum" : "0780ea6f54a04253e680eace2602302fc123af53",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "2.3.5" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.3.5",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.3.5.tgz",
+        "shasum" : "cacebe492022497f656b0f0f51e2682a9ed2d848"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^12.0.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.3.5",
+      "gitHead" : "d362cb255c2b2ad24b0b6bf8cef35c522ba29019",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.3.5_1540331177990_0.793403052371799"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "2.9.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.9.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.9.0.tgz",
+        "shasum" : "e713762e7d3e32fed803115cf93e04bca9fcc9a6"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.5",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.9.0",
+      "gitHead" : "86068755a48b4d58d21376c0c30c1ecc44fe4a8e",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.9.0_1569368581649_0.9807254959544474"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.3.3" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.3.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.3.3.tgz",
+        "shasum" : "a7dcc8b7b833f5d368759cce544dccb55f50f233"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^12.0.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.0.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.3.3",
+      "gitHead" : "eb6835c4199e205fae9ae48c5340ff4b3edca60e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.3.3_1527015575005_0.7372253058813618"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "2.5.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.5.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.5.1.tgz",
+        "shasum" : "cf435a9bf9408796ca3a3525a8b851464279c9b8"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.5.1",
+      "gitHead" : "43f76e2a9dfaccd1b6cc1f93c4130a849df29523",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.5.1_1568064840586_0.8526816449859596"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.3.4" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.3.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.3.4.tgz",
+        "shasum" : "4768d7605ed6194d6d576169b9e12ef71e9d9957"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^12.0.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.3.4",
+      "gitHead" : "6b2713ffe4871849d232caca4f05d390cfcb93dc",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.3.4_1533918321682_0.4793462682470073"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "2.7.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.7.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.7.0.tgz",
+        "shasum" : "c01093a82287c8331f08f1075499fef124888796"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.7.0",
+      "gitHead" : "6e1486f21bc805f98221d1ab07969b39a498a79d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.7.0_1569134359593_0.6757777043008619"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.3.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.3.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.3.1.tgz",
+        "shasum" : "4e872b959131a672837ab3cb554962bc84b1537d"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.1",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^11.1.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.0.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.3.1",
+      "gitHead" : "df22eac41ed1d11e9f7bd2903f88f021cc34f27f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.3.1_1526685947485_0.8626022137673797"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "2.3.2" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.3.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.3.2.tgz",
+        "shasum" : "2bb00e836f1f8d44573f96b08c4f440b330072e4"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.1",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^11.1.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.0.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.3.2",
+      "gitHead" : "77971fac31a26cada594071e82cadfdfdd4949f3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.3.2_1526960561378_0.7850614237575084"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "2.5.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.5.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.5.0.tgz",
+        "shasum" : "dddb1d001976978158a05badfcbef4a771612857"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.5.0",
+      "gitHead" : "fab29874f70b04730c864ac52136a7a01bd1801c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.5.0_1567034403527_0.5492616475869285"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.1.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.1.1.tgz",
+        "shasum" : "c80c80a3491c180d4071d8f219bd1b4b0284999d"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "10",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.1.1",
+      "gitHead" : "cc4d17e603adf90567fc0e0da2cf0b9cfb43d72b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-2.1.1.tgz_1497457610522_0.42575242393650115"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.3.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.3.0.tgz",
+        "shasum" : "2e11b1c46df7fe7f1afbe9a490280add21ffe384"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.1",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^11.1.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.3.0",
+      "gitHead" : "bcb7f538847de6d30af0c8e83933af7cade2cc58",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.3.0_1525629147927_0.7791628235820471"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "1.1.2" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.2.tgz",
+        "shasum" : "83b490887b77c95f3049a1083403e16d3c0be6fa"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.2",
+      "gitHead" : "a226cbecaec3f354e7d3d3c68918d8d4ad552690",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.2.tgz_1490688898041_0.4253221561666578"
+      },
+      "_shasum" : "83b490887b77c95f3049a1083403e16d3c0be6fa",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.3" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.3.tgz",
+        "shasum" : "ed16a0d8585a2e67fe0762352e8cf9110c125427"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.3",
+      "gitHead" : "852e03965a06911ff7f650b9d9d502e1a649c785",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.3.tgz_1490749088000_0.1479788450524211"
+      },
+      "_shasum" : "ed16a0d8585a2e67fe0762352e8cf9110c125427",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.4" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.4.tgz",
+        "shasum" : "c8801d72c80981c0e29e59d10e18cd15cadc927d"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.4",
+      "gitHead" : "b9cb84b174cd7295eada68d071a590d4f0c47642",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.4.tgz_1490750723304_0.5657442165538669"
+      },
+      "_shasum" : "c8801d72c80981c0e29e59d10e18cd15cadc927d",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.5" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.5",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.5.tgz",
+        "shasum" : "b7a2293b9cc7a123f4878581b8e139693a39891b"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.5",
+      "gitHead" : "0232f2585e43297c6b5c15b36453ab6d43183be3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.5.tgz_1490768335439_0.06365093612112105"
+      },
+      "_shasum" : "b7a2293b9cc7a123f4878581b8e139693a39891b",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.6" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.6",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.6.tgz",
+        "shasum" : "0dde63c08a781ad3f72ee2ba68f1cc23012b8944"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.6",
+      "gitHead" : "8e1550a1fc92eea4cf4266782daf5c66682e22a9",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.6.tgz_1490770011445_0.6162307255435735"
+      },
+      "_shasum" : "0dde63c08a781ad3f72ee2ba68f1cc23012b8944",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.7" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.7",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.7.tgz",
+        "shasum" : "8e800c24c61e49e1424d8c367855509df550f453"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.7",
+      "gitHead" : "88b390364333585399e82bcac5878a56b42b9e90",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.7.tgz_1491250866481_0.022621459094807506"
+      },
+      "_shasum" : "8e800c24c61e49e1424d8c367855509df550f453",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.8" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.8",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.8.tgz",
+        "shasum" : "70f2d1ec93c9f11613b6150529e9e1571e562b5c"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.8",
+      "gitHead" : "cfc08d331585f233a0a513a15f9eb0804cdc814c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.8.tgz_1491846777505_0.5472147725522518"
+      },
+      "_shasum" : "70f2d1ec93c9f11613b6150529e9e1571e562b5c",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.9" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.9",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.9.tgz",
+        "shasum" : "5fc44fce0b7f1a1f0c27418ec2fa4127f31bb1dc"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.9",
+      "gitHead" : "374dee67e86ca47b79573ed70a642ab20ae50853",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.9.tgz_1492830145534_0.7150215269066393"
+      },
+      "_shasum" : "5fc44fce0b7f1a1f0c27418ec2fa4127f31bb1dc",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.0.tgz",
+        "shasum" : "a0bac558ae88e5f2652b2dea6b80e77aecdbe5be"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.0",
+      "gitHead" : "5ff9f9e0394a3f997072e347204b0c2deea48d58",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.0.tgz_1490681589971_0.4406989624258131"
+      },
+      "_shasum" : "a0bac558ae88e5f2652b2dea6b80e77aecdbe5be",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.1.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.1.1.tgz",
+        "shasum" : "e5c6a6a64562e6038330d2d46694f660e7ebeed1"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.1.1",
+      "gitHead" : "27bbc0c5d090f3deff5836aeb43b20e115e874fd",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.1.1.tgz_1490684781086_0.2492500205989927"
+      },
+      "_shasum" : "e5c6a6a64562e6038330d2d46694f660e7ebeed1",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "3.0.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-3.0.0.tgz",
+        "shasum" : "adb830268348df8b32217ceda3fc48684faff232"
+      },
+      "dependencies" : {
+        "yallist" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.5",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish --tag=next",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.0-next.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@3.0.0",
+      "gitHead" : "76ac42b7ffa1bd3cc2f669d828ec5aedf74ad6f5",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_3.0.0_1569874565676_0.7731705094606287"
+      },
+      "readme" : "# minipass\n\nA _very_ minimal implementation of a [PassThrough\nstream](https://nodejs.org/api/stream.html#stream_class_stream_passthrough)\n\n[It's very\nfast](https://docs.google.com/spreadsheets/d/1oObKSrVwLX_7Ut4Z6g3fZW-AX1j1-k6w-cDsrkaSbHM/edit#gid=0)\nfor objects, strings, and buffers.\n\nSupports pipe()ing (including multi-pipe() and backpressure\ntransmission), buffering data until either a `data` event handler or\n`pipe()` is added (so you don't lose the first chunk), and most other\ncases where PassThrough is a good idea.\n\nThere is a `read()` method, but it's much more efficient to consume\ndata from this stream via `'data'` events or by calling `pipe()` into\nsome other stream.  Calling `read()` requires the buffer to be\nflattened in some cases, which requires copying memory.\n\nThere is also no `unpipe()` method.  Once you start piping, there is\nno stopping it!\n\nIf you set `objectMode: true` in the options, then whatever is written\nwill be emitted.  Otherwise, it'll do a minimal amount of Buffer\ncopying to ensure proper Streams semantics when `read(n)` is called.\n\n`objectMode` can also be set by doing `stream.objectMode = true`, or by\nwriting any non-string/non-buffer data.  `objectMode` cannot be set to\nfalse once it is set.\n\nThis is not a `through` or `through2` stream.  It doesn't transform\nthe data, it just passes it right through.  If you want to transform\nthe data, extend the class, and override the `write()` method.  Once\nyou're done transforming the data however you want, call\n`super.write()` with the transform output.\n\nFor some examples of streams that extend Minipass in various ways, check\nout:\n\n- [minizlib](http://npm.im/minizlib)\n- [fs-minipass](http://npm.im/fs-minipass)\n- [tar](http://npm.im/tar)\n- [minipass-collect](http://npm.im/minipass-collect)\n- [minipass-flush](http://npm.im/minipass-flush)\n- [minipass-pipeline](http://npm.im/minipass-pipeline)\n- [tap](http://npm.im/tap)\n- [tap-parser](http://npm.im/tap)\n- [treport](http://npm.im/tap)\n\n## Differences from Node.js Streams\n\nThere are several things that make Minipass streams different from (and in\nsome ways superior to) Node.js core streams.\n\nPlease read these caveats if you are familiar with noode-core streams and\nintend to use Minipass streams in your programs.\n\n### Timing\n\nMinipass streams are designed to support synchronous use-cases.  Thus, data\nis emitted as soon as it is available, always.  It is buffered until read,\nbut no longer.  Another way to look at it is that Minipass streams are\nexactly as synchronous as the logic that writes into them.\n\nThis can be surprising if your code relies on `PassThrough.write()` always\nproviding data on the next tick rather than the current one, or being able\nto call `resume()` and not have the entire buffer disappear immediately.\n\nHowever, without this synchronicity guarantee, there would be no way for\nMinipass to achieve the speeds it does, or support the synchronous use\ncases that it does.  Simply put, waiting takes time.\n\nThis non-deferring approach makes Minipass streams much easier to reason\nabout, especially in the context of Promises and other flow-control\nmechanisms.\n\n### No High/Low Water Marks\n\nNode.js core streams will optimistically fill up a buffer, returning `true`\non all writes until the limit is hit, even if the data has nowhere to go.\nThen, they will not attempt to draw more data in until the buffer size dips\nbelow a minimum value.\n\nMinipass streams are much simpler.  The `write()` method will return `true`\nif the data has somewhere to go (which is to say, given the timing\nguarantees, that the data is already there by the time `write()` returns).\n\nIf the data has nowhere to go, then `write()` returns false, and the data\nsits in a buffer, to be drained out immediately as soon as anyone consumes\nit.\n\n### Hazards of Buffering (or: Why Minipass Is So Fast)\n\nSince data written to a Minipass stream is immediately written all the way\nthrough the pipeline, and `write()` always returns true/false based on\nwhether the data was fully flushed, backpressure is communicated\nimmediately to the upstream caller.  This minimizes buffering.\n\nConsider this case:\n\n```js\nconst {PassThrough} = require('stream')\nconst p1 = new PassThrough({ highWaterMark: 1024 })\nconst p2 = new PassThrough({ highWaterMark: 1024 })\nconst p3 = new PassThrough({ highWaterMark: 1024 })\nconst p4 = new PassThrough({ highWaterMark: 1024 })\n\np1.pipe(p2).pipe(p3).pipe(p4)\np4.on('data', () => console.log('made it through'))\n\n// this returns false and buffers, then writes to p2 on next tick (1)\n// p2 returns false and buffers, pausing p1, then writes to p3 on next tick (2)\n// p3 returns false and buffers, pausing p2, then writes to p4 on next tick (3)\n// p4 returns false and buffers, pausing p3, then emits 'data' and 'drain'\n// on next tick (4)\n// p3 sees p4's 'drain' event, and calls resume(), emitting 'resume' and\n// 'drain' on next tick (5)\n// p2 sees p3's 'drain', calls resume(), emits 'resume' and 'drain' on next tick (6)\n// p1 sees p2's 'drain', calls resume(), emits 'resume' and 'drain' on next\n// tick (7)\n\np1.write(Buffer.alloc(2048)) // returns false\n```\n\nAlong the way, the data was buffered and deferred at each stage, and\nmultiple event deferrals happened, for an unblocked pipeline where it was\nperfectly safe to write all the way through!\n\nFurthermore, setting a `highWaterMark` of `1024` might lead someone reading\nthe code to think an advisory maximum of 1KiB is being set for the\npipeline.  However, the actual advisory buffering level is the _sum_ of\n`highWaterMark` values, since each one has its own bucket.\n\nConsider the Minipass case:\n\n```js\nconst m1 = new Minipass()\nconst m2 = new Minipass()\nconst m3 = new Minipass()\nconst m4 = new Minipass()\n\nm1.pipe(m2).pipe(m3).pipe(m4)\nm4.on('data', () => console.log('made it through'))\n\n// m1 is flowing, so it writes the data to m2 immediately\n// m2 is flowing, so it writes the data to m3 immediately\n// m3 is flowing, so it writes the data to m4 immediately\n// m4 is flowing, so it fires the 'data' event immediately, returns true\n// m4's write returned true, so m3 is still flowing, returns true\n// m3's write returned true, so m2 is still flowing, returns true\n// m2's write returned true, so m1 is still flowing, returns true\n// No event deferrals or buffering along the way!\n\nm1.write(Buffer.alloc(2048)) // returns true\n```\n\nIt is extremely unlikely that you _don't_ want to buffer any data written,\nor _ever_ buffer data that can be flushed all the way through.  Neither\nnode-core streams nor Minipass ever fail to buffer written data, but\nnode-core streams do a lot of unnecessary buffering and pausing.\n\nAs always, the faster implementation is the one that does less stuff and\nwaits less time to do it.\n\n### Immediately emit `end` for empty streams (when not paused)\n\nIf a stream is not paused, and `end()` is called before writing any data\ninto it, then it will emit `end` immediately.\n\nIf you have logic that occurs on the `end` event which you don't want to\npotentially happen immediately (for example, closing file descriptors,\nmoving on to the next entry in an archive parse stream, etc.) then be sure\nto call `stream.pause()` on creation, and then `stream.resume()` once you\nare ready to respond to the `end` event.\n\n### Emit `end` When Asked\n\nOne hazard of immediately emitting `'end'` is that you may not yet have had\na chance to add a listener.  In order to avoid this hazard, Minipass\nstreams safely re-emit the `'end'` event if a new listener is added after\n`'end'` has been emitted.\n\nIe, if you do `stream.on('end', someFunction)`, and the stream has already\nemitted `end`, then it will call the handler right away.  (You can think of\nthis somewhat like attaching a new `.then(fn)` to a previously-resolved\nPromise.)\n\nTo prevent calling handlers multiple times who would not expect multiple\nends to occur, all listeners are removed from the `'end'` event whenever it\nis emitted.\n\n### Impact of \"immediate flow\" on Tee-streams\n\nA \"tee stream\" is a stream piping to multiple destinations:\n\n```js\nconst tee = new Minipass()\nt.pipe(dest1)\nt.pipe(dest2)\nt.write('foo') // goes to both destinations\n```\n\nSince Minipass streams _immediately_ process any pending data through the\npipeline when a new pipe destination is added, this can have surprising\neffects, especially when a stream comes in from some other function and may\nor may not have data in its buffer.\n\n```js\n// WARNING! WILL LOSE DATA!\nconst src = new Minipass()\nsrc.write('foo')\nsrc.pipe(dest1) // 'foo' chunk flows to dest1 immediately, and is gone\nsrc.pipe(dest2) // gets nothing!\n```\n\nThe solution is to create a dedicated tee-stream junction that pipes to\nboth locations, and then pipe to _that_ instead.\n\n```js\n// Safe example: tee to both places\nconst src = new Minipass()\nsrc.write('foo')\nconst tee = new Minipass()\ntee.pipe(dest1)\ntee.pipe(dest2)\nstream.pipe(tee) // tee gets 'foo', pipes to both locations\n```\n\nThe same caveat applies to `on('data')` event listeners.  The first one\nadded will _immediately_ receive all of the data, leaving nothing for the\nsecond:\n\n```js\n// WARNING! WILL LOSE DATA!\nconst src = new Minipass()\nsrc.write('foo')\nsrc.on('data', handler1) // receives 'foo' right away\nsrc.on('data', handler2) // nothing to see here!\n```\n\nUsing a dedicated tee-stream can be used in this case as well:\n\n```js\n// Safe example: tee to both data handlers\nconst src = new Minipass()\nsrc.write('foo')\nconst tee = new Minipass()\ntee.on('data', handler1)\ntee.on('data', handler2)\nsrc.pipe(tee)\n```\n\n## USAGE\n\nIt's a stream!  Use it like a stream and it'll most likely do what you want.\n\n```js\nconst Minipass = require('minipass')\nconst mp = new Minipass(options) // optional: { encoding, objectMode }\nmp.write('foo')\nmp.pipe(someOtherStream)\nmp.end('bar')\n```\n\n### OPTIONS\n\n* `encoding` How would you like the data coming _out_ of the stream to be\n  encoded?  Accepts any values that can be passed to `Buffer.toString()`.\n* `objectMode` Emit data exactly as it comes in.  This will be flipped on\n  by default if you write() something other than a string or Buffer at any\n  point.  Setting `objectMode: true` will prevent setting any encoding\n  value.\n\n### API\n\nImplements the user-facing portions of Node.js's `Readable` and `Writable`\nstreams.\n\n### Methods\n\n* `write(chunk, [encoding], [callback])` - Put data in.  (Note that, in the\n  base Minipass class, the same data will come out.)  Returns `false` if\n  the stream will buffer the next write, or true if it's still in\n  \"flowing\" mode.\n* `end([chunk, [encoding]], [callback])` - Signal that you have no more\n  data to write.  This will queue an `end` event to be fired when all the\n  data has been consumed.\n* `setEncoding(encoding)` - Set the encoding for data coming of the\n  stream.  This can only be done once.\n* `pause()` - No more data for a while, please.  This also prevents `end`\n  from being emitted for empty streams until the stream is resumed.\n* `resume()` - Resume the stream.  If there's data in the buffer, it is\n  all discarded.  Any buffered events are immediately emitted.\n* `pipe(dest)` - Send all output to the stream provided.  There is no way\n  to unpipe.  When data is emitted, it is immediately written to any and\n  all pipe destinations.\n* `on(ev, fn)`, `emit(ev, fn)` - Minipass streams are EventEmitters.\n  Some events are given special treatment, however.  (See below under\n  \"events\".)\n* `promise()` - Returns a Promise that resolves when the stream emits\n  `end`, or rejects if the stream emits `error`.\n* `collect()` - Return a Promise that resolves on `end` with an array\n  containing each chunk of data that was emitted, or rejects if the\n  stream emits `error`.  Note that this consumes the stream data.\n* `concat()` - Same as `collect()`, but concatenates the data into a\n  single Buffer object.  Will reject the returned promise if the stream is\n  in objectMode, or if it goes into objectMode by the end of the data.\n* `read(n)` - Consume `n` bytes of data out of the buffer.  If `n` is not\n  provided, then consume all of it.  If `n` bytes are not available, then\n  it returns null.  **Note** consuming streams in this way is less\n  efficient, and can lead to unnecessary Buffer copying.\n* `destroy([er])` - Destroy the stream.  If an error is provided, then an\n  `'error'` event is emitted.  If the stream has a `close()` method, and\n  has not emitted a `'close'` event yet, then `stream.close()` will be\n  called.  Any Promises returned by `.promise()`, `.collect()` or\n  `.concat()` will be rejected.  After being destroyed, writing to the\n  stream will emit an error.  No more data will be emitted if the stream is\n  destroyed, even if it was previously buffered.\n\n### Properties\n\n* `bufferLength` Read-only.  Total number of bytes buffered, or in the case\n  of objectMode, the total number of objects.\n* `encoding` The encoding that has been set.  (Setting this is equivalent\n  to calling `setEncoding(enc)` and has the same prohibition against\n  setting multiple times.)\n* `flowing` Read-only.  Boolean indicating whether a chunk written to the\n  stream will be immediately emitted.\n* `emittedEnd` Read-only.  Boolean indicating whether the end-ish events\n  (ie, `end`, `prefinish`, `finish`) have been emitted.  Note that\n  listening on any end-ish event will immediateyl re-emit it if it has\n  already been emitted.\n* `writable` Whether the stream is writable.  Default `true`.  Set to\n  `false` when `end()`\n* `readable` Whether the stream is readable.  Default `true`.\n* `buffer` A [yallist](http://npm.im/yallist) linked list of chunks written\n  to the stream that have not yet been emitted.  (It's probably a bad idea\n  to mess with this.)\n* `pipes` A [yallist](http://npm.im/yallist) linked list of streams that\n  this stream is piping into.  (It's probably a bad idea to mess with\n  this.)\n* `destroyed` A getter that indicates whether the stream was destroyed.\n* `paused` True if the stream has been explicitly paused, otherwise false.\n* `objectMode` Indicates whether the stream is in `objectMode`.  Once set\n  to `true`, it cannot be set to `false`.\n\n### Events\n\n* `data` Emitted when there's data to read.  Argument is the data to read.\n  This is never emitted while not flowing.  If a listener is attached, that\n  will resume the stream.\n* `end` Emitted when there's no more data to read.  This will be emitted\n  immediately for empty streams when `end()` is called.  If a listener is\n  attached, and `end` was already emitted, then it will be emitted again.\n  All listeners are removed when `end` is emitted.\n* `prefinish` An end-ish event that follows the same logic as `end` and is\n  emitted in the same conditions where `end` is emitted.  Emitted after\n  `'end'`.\n* `finish` An end-ish event that follows the same logic as `end` and is\n  emitted in the same conditions where `end` is emitted.  Emitted after\n  `'prefinish'`.\n* `close` An indication that an underlying resource has been released.\n  Minipass does not emit this event, but will defer it until after `end`\n  has been emitted, since it throws off some stream libraries otherwise.\n* `drain` Emitted when the internal buffer empties, and it is again\n  suitable to `write()` into the stream.\n* `readable` Emitted when data is buffered and ready to be read by a\n  consumer.\n* `resume` Emitted when stream changes state from buffering to flowing\n  mode.  (Ie, when `resume` is called, `pipe` is called, or a `data` event\n  listener is added.)\n\n### Static Methods\n\n* `Minipass.isStream(stream)` Returns `true` if the argument is a stream,\n  and false otherwise.  To be considered a stream, the object must be\n  either an instance of Minipass, or an EventEmitter that has either a\n  `pipe()` method, or both `write()` and `end()` methods.  (Pretty much any\n  stream in node-land will return `true` for this.)\n\n## EXAMPLES\n\nHere are some examples of things you can do with Minipass streams.\n\n### simple \"are you done yet\" promise\n\n```js\nmp.promise().then(() => {\n  // stream is finished\n}, er => {\n  // stream emitted an error\n})\n```\n\n### collecting\n\n```js\nmp.collect().then(all => {\n  // all is an array of all the data emitted\n  // encoding is supported in this case, so\n  // so the result will be a collection of strings if\n  // an encoding is specified, or buffers/objects if not.\n  //\n  // In an async function, you may do\n  // const data = await stream.collect()\n})\n```\n\n### collecting into a single blob\n\nThis is a bit slower because it concatenates the data into one chunk for\nyou, but if you're going to do it yourself anyway, it's convenient this\nway:\n\n```js\nmp.concat().then(onebigchunk => {\n  // onebigchunk is a string if the stream\n  // had an encoding set, or a buffer otherwise.\n})\n```\n\n### iteration\n\nYou can iterate over streams synchronously or asynchronously in\nplatforms that support it.\n\nSynchronous iteration will end when the currently available data is\nconsumed, even if the `end` event has not been reached.  In string and\nbuffer mode, the data is concatenated, so unless multiple writes are\noccurring in the same tick as the `read()`, sync iteration loops will\ngenerally only have a single iteration.\n\nTo consume chunks in this way exactly as they have been written, with\nno flattening, create the stream with the `{ objectMode: true }`\noption.\n\n```js\nconst mp = new Minipass({ objectMode: true })\nmp.write('a')\nmp.write('b')\nfor (let letter of mp) {\n  console.log(letter) // a, b\n}\nmp.write('c')\nmp.write('d')\nfor (let letter of mp) {\n  console.log(letter) // c, d\n}\nmp.write('e')\nmp.end()\nfor (let letter of mp) {\n  console.log(letter) // e\n}\nfor (let letter of mp) {\n  console.log(letter) // nothing\n}\n```\n\nAsynchronous iteration will continue until the end event is reached,\nconsuming all of the data.\n\n```js\nconst mp = new Minipass({ encoding: 'utf8' })\n\n// some source of some data\nlet i = 5\nconst inter = setInterval(() => {\n  if (i --> 0)\n    mp.write(Buffer.from('foo\\n', 'utf8'))\n  else {\n    mp.end()\n    clearInterval(inter)\n  }\n}, 100)\n\n// consume the data with asynchronous iteration\nasync function consume () {\n  for await (let chunk of mp) {\n    console.log(chunk)\n  }\n  return 'ok'\n}\n\nconsume().then(res => console.log(res))\n// logs `foo\\n` 5 times, and then `ok`\n```\n\n### subclass that `console.log()`s everything written into it\n\n```js\nclass Logger extends Minipass {\n  write (chunk, encoding, callback) {\n    console.log('WRITE', chunk, encoding)\n    return super.write(chunk, encoding, callback)\n  }\n  end (chunk, encoding, callback) {\n    console.log('END', chunk, encoding)\n    return super.end(chunk, encoding, callback)\n  }\n}\n\nsomeSource.pipe(new Logger()).pipe(someDest)\n```\n\n### same thing, but using an inline anonymous class\n\n```js\n// js classes are fun\nsomeSource\n  .pipe(new (class extends Minipass {\n    emit (ev, ...data) {\n      // let's also log events, because debugging some weird thing\n      console.log('EMIT', ev)\n      return super.emit(ev, ...data)\n    }\n    write (chunk, encoding, callback) {\n      console.log('WRITE', chunk, encoding)\n      return super.write(chunk, encoding, callback)\n    }\n    end (chunk, encoding, callback) {\n      console.log('END', chunk, encoding)\n      return super.end(chunk, encoding, callback)\n    }\n  }))\n  .pipe(someDest)\n```\n\n### subclass that defers 'end' for some reason\n\n```js\nclass SlowEnd extends Minipass {\n  emit (ev, ...args) {\n    if (ev === 'end') {\n      console.log('going to end, hold on a sec')\n      setTimeout(() => {\n        console.log('ok, ready to end now')\n        super.emit('end', ...args)\n      }, 100)\n    } else {\n      return super.emit(ev, ...args)\n    }\n  }\n}\n```\n\n### transform that creates newline-delimited JSON\n\n```js\nclass NDJSONEncode extends Minipass {\n  write (obj, cb) {\n    try {\n      // JSON.stringify can throw, emit an error on that\n      return super.write(JSON.stringify(obj) + '\\n', 'utf8', cb)\n    } catch (er) {\n      this.emit('error', er)\n    }\n  }\n  end (obj, cb) {\n    if (typeof obj === 'function') {\n      cb = obj\n      obj = undefined\n    }\n    if (obj !== undefined) {\n      this.write(obj)\n    }\n    return super.end(cb)\n  }\n}\n```\n\n### transform that parses newline-delimited JSON\n\n```js\nclass NDJSONDecode extends Minipass {\n  constructor (options) {\n    // always be in object mode, as far as Minipass is concerned\n    super({ objectMode: true })\n    this._jsonBuffer = ''\n  }\n  write (chunk, encoding, cb) {\n    if (typeof chunk === 'string' &&\n        typeof encoding === 'string' &&\n        encoding !== 'utf8') {\n      chunk = Buffer.from(chunk, encoding).toString()\n    } else if (Buffer.isBuffer(chunk))\n      chunk = chunk.toString()\n    }\n    if (typeof encoding === 'function') {\n      cb = encoding\n    }\n    const jsonData = (this._jsonBuffer + chunk).split('\\n')\n    this._jsonBuffer = jsonData.pop()\n    for (let i = 0; i < jsonData.length; i++) {\n      let parsed\n      try {\n        super.write(parsed)\n      } catch (er) {\n        this.emit('error', er)\n        continue\n      }\n    }\n    if (cb)\n      cb()\n  }\n}\n```\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.8.1"
+    },
+    "3.0.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-3.0.1.tgz",
+        "shasum" : "b4fec73bd61e8a40f0b374ddd04260ade2c8ec20"
+      },
+      "dependencies" : {
+        "yallist" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.5",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish --tag=next",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.0-next.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@3.0.1",
+      "gitHead" : "603b8116ea11af26b43f2f2d0888edad77696b4f",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_3.0.1_1570034097465_0.9922015990068342"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.0.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.0.0.tgz",
+        "shasum" : "e095385c8e8a89be8b2577c7b09ffa91e091fa02"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.0.0",
+      "gitHead" : "81ddd48d09008cea36adaa7b2d307cb181901140",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-2.0.0.tgz_1493884792228_0.924768059514463"
+      },
+      "_shasum" : "e095385c8e8a89be8b2577c7b09ffa91e091fa02",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "2.0.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.0.1.tgz",
+        "shasum" : "9ce4b0ce5b065eb2e5e2e20687e7e1d43579ef78"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0-beta.33",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.0.1",
+      "gitHead" : "d029efb88726070e7c18c61259021e46efb1b8b1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/minipass-2.0.1.tgz_1493930811196_0.312193572986871"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "2.6.2" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.6.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.6.2.tgz",
+        "shasum" : "c3075a22680b3b1479bae5915904cb1eba50f5c0"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.6.2",
+      "gitHead" : "61a76c19b9cd2159c0784585a77d50645bdfe2d4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.6.2_1568671093262_0.8670196477368928"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.8.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.8.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.8.0.tgz",
+        "shasum" : "63eb51b46697cbaeb75158ae00cf4f95fb3d88e5"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.8.0",
+      "gitHead" : "8cfe8502b45c48bdd3df7ced13a726f0e69f345a",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.8.0_1569196592923_0.383813049498406"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.6.3" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.6.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.6.3.tgz",
+        "shasum" : "3ac4ae0fc8835946fdf6d2480659e98e17e88424"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.6.3",
+      "gitHead" : "0e5cd3265fd37d33ffd2474868d20fd529e40519",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.6.3_1568731016405_0.9743197614232673"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.8.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.8.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.8.1.tgz",
+        "shasum" : "a73bdc84cad62e8e6c8d56eba1302a5fe04c5910"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.4",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.8.1",
+      "gitHead" : "f193f5cf35b3b04d434c0b1cea954928842b3770",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.8.1_1569197083493_0.4502391094175884"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.2.4" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.2.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.2.4.tgz",
+        "shasum" : "03c824d84551ec38a8d1bb5bc350a5a30a354a40"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.1",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^10.7.0",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.2.4",
+      "gitHead" : "73cf8431e3678b27083e353b8ef0a6bfab84650c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.2.4_1521564268128_0.1298490999080657"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.6.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.6.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.6.0.tgz",
+        "shasum" : "80a68c8a43257b7f744ce09733f6a9c6eef9f731"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.6.0",
+      "gitHead" : "f55f91cdda83c20552e431be8fb5ed1daed23ea4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.6.0_1568614365824_0.06329190526617268"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.6.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.6.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.6.1.tgz",
+        "shasum" : "5f44a94f0d0cd1a347fd65274f32122f68b76acd"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^14.6.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "mike@mikecorp.ca",
+        "name" : "mikemimik"
+      }, {
+        "email" : "ruyadorno@hotmail.com",
+        "name" : "ruyadorno"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.6.1",
+      "gitHead" : "78150126c62caef9e2f2d59e33ce6101adbaf95b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.6.1_1568667348804_0.059379787938716344"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.2.2" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.2.2.tgz",
+        "shasum" : "26feb237462d235ed8b6542abf36fe019490063a"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^10.7.0",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.2.2",
+      "gitHead" : "ba027488f63fc7de95ccf1ef770901693ae14c2f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.2.2_1521563006537_0.0684973195384373"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.4.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.4.0.tgz",
+        "shasum" : "38f0af94f42fb6f34d3d7d82a90e2c99cd3ff485"
+      },
+      "dependencies" : {
+        "safe-buffer" : "^5.1.2",
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^12.0.1",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "anne@npmjs.com",
+        "name" : "annekimsey"
+      }, {
+        "email" : "billatnpm@gmail.com",
+        "name" : "billatnpm"
+      }, {
+        "email" : "cghr1990@gmail.com",
+        "name" : "claudiahdz"
+      }, {
+        "email" : "darcy@darcyclarke.me",
+        "name" : "darcyclarke"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.11.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.4.0",
+      "gitHead" : "565ebb363ae2b6720fe4d0795aed96ba90f059d7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.4.0_1566578162152_0.5234555613255545"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "2.2.3" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.2.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.2.3.tgz",
+        "shasum" : "cf0ec79c88cd3880da991a9c376a77fe1140ed63"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^10.7.0",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.2.3",
+      "gitHead" : "8af41a48a2ca01dc857003d650dd74765e950e03",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass_2.2.3_1521563195774_0.8260329475137804"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.2" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.0.2.tgz",
+        "shasum" : "fae5c78124051f56fd2007df0012e0dac7a752ce"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.0.0-beta.44",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.0.2",
+      "gitHead" : "b18627e376d16f9188cd4049efb8febacf8b2fa2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/minipass-2.0.2.tgz_1494436039082_0.553761099698022"
+      },
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "2.2.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.2.0.tgz",
+        "shasum" : "c0db6c9d8ec7609e5a98b40a01bb229b803c961d"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^10.7.0",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.1.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.2.0",
+      "gitHead" : "277abefa0edbac568083d05b2d7130bc768ed552",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-2.2.0.tgz_1499577467556_0.7973325287457556"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.2.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-2.2.1.tgz",
+        "shasum" : "5ada97538b1027b4cf7213432428578cb564011f"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "^10.7.0",
+        "through2" : "^2.0.3"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "5.1.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@2.2.1",
+      "gitHead" : "7b7d9ad23f01dd0a6347f66a8441cb2dbc0abcec",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-2.2.1.tgz_1499663387972_0.7067792634479702"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "1.0.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.0.0.tgz",
+        "shasum" : "0ca84f7235109ffe3a8e459cb14d7d6bc3119a67"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.3.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.0.0",
+      "gitHead" : "6e91377e7c076f768c2cfd556f365090717d249b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.0.0.tgz_1489450315564_0.20009294734336436"
+      },
+      "_shasum" : "0ca84f7235109ffe3a8e459cb14d7d6bc3119a67",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.0.1" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.0.1.tgz",
+        "shasum" : "ca57afde318b5ba9e059a7e64844baa53cdb4034"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.0.1",
+      "gitHead" : "2ee0d11bc4ed89dda4892cffe92718190e4aa4ef",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.0.1.tgz_1490142376611_0.3365593715570867"
+      },
+      "_shasum" : "ca57afde318b5ba9e059a7e64844baa53cdb4034",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.0.2" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.0.2.tgz",
+        "shasum" : "c2169e3f3ac2119f6e128ad860c679bf9854c0ec"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.0.2",
+      "gitHead" : "bbd2607d80a77b3b2e880f065552ada47089f6f2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.0.2.tgz_1490157604381_0.3243618570268154"
+      },
+      "_shasum" : "c2169e3f3ac2119f6e128ad860c679bf9854c0ec",
+      "_nodeVersion" : "8.0.0-pre"
+    },
+    "1.2.0" : {
+      "name" : "minipass",
+      "description" : "minimal implementation of a PassThrough stream",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/minipass#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass/-/minipass-1.2.0.tgz",
+        "shasum" : "1f4af9c2803921d3035de8aa19443aa5860fea7c"
+      },
+      "dependencies" : {
+        "yallist" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "end-of-stream" : "^1.4.0",
+        "tap" : "10"
+      },
+      "keywords" : [ "passthrough", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass@1.2.0",
+      "gitHead" : "e133c4120ae4ab18acc2cd468bd5668f499054cd",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/minipass-1.2.0.tgz_1493525670102_0.469406632008031"
+      },
+      "_shasum" : "1f4af9c2803921d3035de8aa19443aa5860fea7c",
+      "_nodeVersion" : "8.0.0-pre"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "email" : "ruyadorno@hotmail.com",
+    "name" : "ruyadorno"
+  }, {
+    "email" : "mike@mikecorp.ca",
+    "name" : "mikemimik"
+  }, {
+    "email" : "cghr1990@gmail.com",
+    "name" : "claudiahdz"
+  }, {
+    "email" : "darcy@darcyclarke.me",
+    "name" : "darcyclarke"
+  }, {
+    "email" : "evilpacket@gmail.com",
+    "name" : "adam_baldwin"
+  }, {
+    "email" : "ahmad@ahmadnassri.com",
+    "name" : "ahmadnassri"
+  }, {
+    "email" : "i@izs.me",
+    "name" : "isaacs"
+  } ],
+  "author" : {
+    "name" : "Isaac Z. Schlueter",
+    "email" : "i@izs.me",
+    "url" : "http://blog.izs.me/"
+  },
+  "time" : {
+    "2.8.6" : "2019-09-24T16:22:27.580Z",
+    "2.8.4" : "2019-09-24T01:03:32.894Z",
+    "2.8.5" : "2019-09-24T07:56:04.688Z",
+    "2.6.4" : "2019-09-17T16:20:15.752Z",
+    "2.8.2" : "2019-09-23T16:57:17.916Z",
+    "2.6.5" : "2019-09-17T22:18:31.028Z",
+    "2.8.3" : "2019-09-23T18:48:30.530Z",
+    "modified" : "2020-01-02T04:05:48.882Z",
+    "3.1.0" : "2019-10-20T04:53:28.706Z",
+    "3.1.1" : "2019-10-24T21:34:57.398Z",
+    "2.1.0" : "2017-06-14T16:17:30.707Z",
+    "1.1.10" : "2017-04-28T00:40:45.977Z",
+    "created" : "2017-03-14T00:11:57.420Z",
+    "1.1.11" : "2017-04-30T02:36:01.406Z",
+    "2.3.5" : "2018-10-23T21:46:18.167Z",
+    "2.9.0" : "2019-09-24T23:43:01.864Z",
+    "2.3.3" : "2018-05-22T18:59:35.084Z",
+    "2.5.1" : "2019-09-09T21:34:00.679Z",
+    "2.3.4" : "2018-08-10T16:25:21.783Z",
+    "2.7.0" : "2019-09-22T06:39:19.777Z",
+    "2.3.1" : "2018-05-18T23:25:47.557Z",
+    "2.3.2" : "2018-05-22T03:42:41.482Z",
+    "2.5.0" : "2019-08-28T23:20:03.661Z",
+    "2.1.1" : "2017-06-14T16:26:50.686Z",
+    "2.3.0" : "2018-05-06T17:52:27.992Z",
+    "1.1.2" : "2017-03-28T08:14:58.366Z",
+    "1.1.3" : "2017-03-29T00:58:09.871Z",
+    "1.1.4" : "2017-03-29T01:25:23.560Z",
+    "1.1.5" : "2017-03-29T06:18:55.673Z",
+    "1.1.6" : "2017-03-29T06:46:51.682Z",
+    "1.1.7" : "2017-04-03T20:21:06.787Z",
+    "1.1.8" : "2017-04-10T17:52:57.826Z",
+    "1.1.9" : "2017-04-22T03:02:25.768Z",
+    "1.1.0" : "2017-03-28T06:13:10.262Z",
+    "1.1.1" : "2017-03-28T07:06:23.059Z",
+    "3.0.0" : "2019-09-30T20:16:05.884Z",
+    "3.0.1" : "2019-10-02T16:34:57.711Z",
+    "2.0.0" : "2017-05-04T07:59:52.477Z",
+    "2.0.1" : "2017-05-04T20:46:53.600Z",
+    "2.6.2" : "2019-09-16T21:58:13.409Z",
+    "2.8.0" : "2019-09-22T23:56:33.134Z",
+    "2.6.3" : "2019-09-17T14:36:56.519Z",
+    "2.8.1" : "2019-09-23T00:04:43.683Z",
+    "2.2.4" : "2018-03-20T16:44:28.516Z",
+    "2.6.0" : "2019-09-16T06:12:45.936Z",
+    "2.6.1" : "2019-09-16T20:55:48.943Z",
+    "2.2.2" : "2018-03-20T16:23:26.657Z",
+    "2.4.0" : "2019-08-23T16:36:02.314Z",
+    "2.2.3" : "2018-03-20T16:26:35.853Z",
+    "2.0.2" : "2017-05-10T17:07:21.058Z",
+    "2.2.0" : "2017-07-09T05:17:47.759Z",
+    "2.2.1" : "2017-07-10T05:09:48.146Z",
+    "1.0.0" : "2017-03-14T00:11:57.420Z",
+    "1.0.1" : "2017-03-22T00:26:16.857Z",
+    "1.0.2" : "2017-03-22T04:40:04.601Z",
+    "1.2.0" : "2017-04-30T04:14:30.434Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/isaacs/minipass.git"
+  },
+  "users" : {
+    "davidrapin" : true,
+    "isaacs" : true
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/isaacs/minipass#readme",
+  "keywords" : [ "passthrough", "stream" ],
+  "bugs" : {
+    "url" : "https://github.com/isaacs/minipass/issues"
+  },
+  "license" : "ISC"
+}

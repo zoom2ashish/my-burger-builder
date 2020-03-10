@@ -1,0 +1,462 @@
+{
+  "_id" : "pinkie",
+  "_rev" : "21-8ea2aefea6fbaeffe61539266c217ff5",
+  "name" : "pinkie",
+  "description" : "Itty bitty little widdle twinkie pinkie ES2015 Promise implementation",
+  "dist-tags" : {
+    "latest" : "2.0.4"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "pinkie",
+      "description" : "Itty bitty little widdle twinkie pinkie ES2015 Promise implementation",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-2.0.0.tgz",
+        "shasum" : "51737918d16ab5859a90a5a031b6f7e0d6f245cc"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "mocha" : "*",
+        "nyc" : "^3.2.2",
+        "promises-aplus-tests" : "*",
+        "xo" : "^0.10.1"
+      },
+      "keywords" : [ "promise", "promises", "es2015", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc mocha",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@2.0.0",
+      "_shasum" : "51737918d16ab5859a90a5a031b6f7e0d6f245cc",
+      "_nodeVersion" : "0.0.0-fake"
+    },
+    "2.0.1" : {
+      "name" : "pinkie",
+      "description" : "Itty bitty little widdle twinkie pinkie ES2015 Promise implementation",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-2.0.1.tgz",
+        "shasum" : "4236c86fc29f261c2045bbe81f78cbb2a5e8306c"
+      },
+      "devDependencies" : {
+        "core-assert" : "^0.1.1",
+        "coveralls" : "^2.11.4",
+        "mocha" : "*",
+        "nyc" : "^3.2.2",
+        "promises-aplus-tests" : "*",
+        "xo" : "^0.10.1"
+      },
+      "keywords" : [ "promise", "promises", "es2015", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc mocha",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@2.0.1",
+      "_shasum" : "4236c86fc29f261c2045bbe81f78cbb2a5e8306c",
+      "_nodeVersion" : "0.0.0-fake"
+    },
+    "0.0.2" : {
+      "name" : "pinkie",
+      "description" : "Itty bitty little wittle twinkie pinkie ES6 Promise implementation",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-0.0.2.tgz",
+        "shasum" : "38d4aa2f720dd91ec7ddbf5c136bdde53d18d8ec"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "promises-aplus-tests" : "*"
+      },
+      "keywords" : [ "promise", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@0.0.2",
+      "_shasum" : "38d4aa2f720dd91ec7ddbf5c136bdde53d18d8ec",
+      "_nodeVersion" : "0.0.0-fake"
+    },
+    "2.0.4" : {
+      "name" : "pinkie",
+      "description" : "Itty bitty little widdle twinkie pinkie ES2015 Promise implementation",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-2.0.4.tgz",
+        "shasum" : "72556b80cfa0d48a974e80e77248e80ed4f7f870"
+      },
+      "devDependencies" : {
+        "core-assert" : "^0.1.1",
+        "coveralls" : "^2.11.4",
+        "mocha" : "*",
+        "nyc" : "^3.2.2",
+        "promises-aplus-tests" : "*",
+        "xo" : "^0.10.1"
+      },
+      "keywords" : [ "promise", "promises", "es2015", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc mocha",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@2.0.4",
+      "_shasum" : "72556b80cfa0d48a974e80e77248e80ed4f7f870",
+      "_nodeVersion" : "0.0.0-fake"
+    },
+    "1.0.0" : {
+      "name" : "pinkie",
+      "description" : "Itty bitty little wittle twinkie pinkie ES6 Promise implementation",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-1.0.0.tgz",
+        "shasum" : "5a47f28ba1015d0201bda7bf0f358e47bec8c7e4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "promises-aplus-tests" : "*"
+      },
+      "keywords" : [ "promise", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@1.0.0",
+      "_shasum" : "5a47f28ba1015d0201bda7bf0f358e47bec8c7e4",
+      "_nodeVersion" : "0.0.0-fake"
+    },
+    "0.0.0" : {
+      "name" : "pinkie",
+      "description" : "Sweetly small promises/a+ implementation",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-0.0.0.tgz",
+        "shasum" : "4f5a4afb5336a4957e6affdcf93431e36f3bc270"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "promises-aplus-tests" : "*"
+      },
+      "keywords" : [ "promise", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@0.0.0",
+      "_shasum" : "4f5a4afb5336a4957e6affdcf93431e36f3bc270",
+      "_nodeVersion" : "0.0.0-fake"
+    },
+    "2.0.2" : {
+      "name" : "pinkie",
+      "description" : "Itty bitty little widdle twinkie pinkie ES2015 Promise implementation",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-2.0.2.tgz",
+        "shasum" : "9ecc4e4c70dce2960505d62c9d008a0bbff8455b"
+      },
+      "devDependencies" : {
+        "core-assert" : "^0.1.1",
+        "coveralls" : "^2.11.4",
+        "mocha" : "*",
+        "nyc" : "^3.2.2",
+        "promises-aplus-tests" : "*",
+        "xo" : "^0.10.1"
+      },
+      "keywords" : [ "promise", "promises", "es2015", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc mocha",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@2.0.2",
+      "_shasum" : "9ecc4e4c70dce2960505d62c9d008a0bbff8455b",
+      "_nodeVersion" : "0.0.0-fake"
+    },
+    "0.0.1" : {
+      "name" : "pinkie",
+      "description" : "Itty bitty little wittle twinkie pinkie ES6 Promise implementation",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-0.0.1.tgz",
+        "shasum" : "d829dd84053ac8d39bbacccf6bad98dfce163a83"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "promises-aplus-tests" : "*"
+      },
+      "keywords" : [ "promise", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@0.0.1",
+      "_shasum" : "d829dd84053ac8d39bbacccf6bad98dfce163a83",
+      "_nodeVersion" : "0.0.0-fake"
+    },
+    "2.0.3" : {
+      "name" : "pinkie",
+      "description" : "Itty bitty little widdle twinkie pinkie ES2015 Promise implementation",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Vsevolod Strukchinsky",
+        "email" : "floatdrop@gmail.com",
+        "url" : "github.com/floatdrop"
+      },
+      "repository" : "floatdrop/pinkie",
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pinkie/-/pinkie-2.0.3.tgz",
+        "shasum" : "378e61d21cad58817deaee4b51495dce95c971d4"
+      },
+      "devDependencies" : {
+        "core-assert" : "^0.1.1",
+        "coveralls" : "^2.11.4",
+        "mocha" : "*",
+        "nyc" : "^3.2.2",
+        "promises-aplus-tests" : "*",
+        "xo" : "^0.10.1"
+      },
+      "keywords" : [ "promise", "promises", "es2015", "es6" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "puradox",
+        "email" : "sambalana247@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc mocha",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "0.0.0-fake",
+      "_npmUser" : {
+        "name" : "npm",
+        "email" : "support@npmjs.com"
+      },
+      "_id" : "pinkie@2.0.3",
+      "_shasum" : "378e61d21cad58817deaee4b51495dce95c971d4",
+      "_nodeVersion" : "0.0.0-fake"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "<h1 align=\"center\">\r\n\t<br>\r\n\t<img width=\"256\" src=\"media/logo.png\" alt=\"pinkie\">\r\n\t<br>\r\n\t<br>\r\n</h1>\r\n\r\n> Itty bitty little widdle twinkie pinkie [ES2015 Promise](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects) implementation\r\n\r\n[![Build Status](https://travis-ci.org/floatdrop/pinkie.svg?branch=master)](https://travis-ci.org/floatdrop/pinkie)  [![Coverage Status](https://coveralls.io/repos/floatdrop/pinkie/badge.svg?branch=master&service=github)](https://coveralls.io/github/floatdrop/pinkie?branch=master)\r\n\r\nThere are [tons of Promise implementations](https://github.com/promises-aplus/promises-spec/blob/master/implementations.md#standalone) out there, but all of them focus on browser compatibility and are often bloated with functionality.\r\n\r\nThis module is an exact Promise specification polyfill (like [native-promise-only](https://github.com/getify/native-promise-only)), but in Node.js land (it should be browserify-able though).\r\n\r\n\r\n## Install\r\n\r\n```\r\n$ npm install --save pinkie\r\n```\r\n\r\n\r\n## Usage\r\n\r\n```js\r\nvar fs = require('fs');\r\nvar Promise = require('pinkie');\r\n\r\nnew Promise(function (resolve, reject) {\r\n\tfs.readFile('foo.json', 'utf8', function (err, data) {\r\n\t\tif (err) {\r\n\t\t\treject(err);\r\n\t\t\treturn;\r\n\t\t}\r\n\r\n\t\tresolve(data);\r\n\t});\r\n});\r\n//=> Promise\r\n```\r\n\r\n\r\n### API\r\n\r\n`pinkie` exports bare [ES2015 Promise](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects) implementation and polyfills [Node.js rejection events](https://nodejs.org/api/process.html#process_event_unhandledrejection). In case you forgot:\r\n\r\n#### new Promise(executor)\r\n\r\nReturns new instance of `Promise`.\r\n\r\n##### executor\r\n\r\n*Required*  \r\nType: `function`\r\n\r\nFunction with two arguments `resolve` and `reject`. The first argument fulfills the promise, the second argument rejects it.\r\n\r\n#### pinkie.all(promises)\r\n\r\nReturns a promise that resolves when all of the promises in the `promises` Array argument have resolved.\r\n\r\n#### pinkie.race(promises)\r\n\r\nReturns a promise that resolves or rejects as soon as one of the promises in the `promises` Array resolves or rejects, with the value or reason from that promise.\r\n\r\n#### pinkie.reject(reason)\r\n\r\nReturns a Promise object that is rejected with the given `reason`.\r\n\r\n#### pinkie.resolve(value)\r\n\r\nReturns a Promise object that is resolved with the given `value`. If the `value` is a thenable (i.e. has a then method), the returned promise will \"follow\" that thenable, adopting its eventual state; otherwise the returned promise will be fulfilled with the `value`.\r\n\r\n\r\n## Related\r\n\r\n- [pinkie-promise](https://github.com/floatdrop/pinkie-promise) - Returns the native Promise or this module\r\n\r\n\r\n## License\r\n\r\nMIT © [Vsevolod Strukchinsky](http://github.com/floatdrop)\r\n",
+  "maintainers" : [ {
+    "email" : "floatdrop@gmail.com",
+    "name" : "floatdrop"
+  } ],
+  "author" : {
+    "name" : "Vsevolod Strukchinsky",
+    "email" : "floatdrop@gmail.com",
+    "url" : "github.com/floatdrop"
+  },
+  "time" : {
+    "2.0.0" : "2015-11-12T08:40:50.048Z",
+    "2.0.1" : "2015-11-17T10:14:11.603Z",
+    "created" : "2015-05-10T19:57:51.100Z",
+    "modified" : "2018-01-11T02:17:10.107Z",
+    "0.0.2" : "2015-05-11T05:28:50.155Z",
+    "2.0.4" : "2016-02-01T11:08:46.357Z",
+    "1.0.0" : "2015-05-11T05:58:51.352Z",
+    "2.0.5" : "2018-01-06T18:50:54.900Z",
+    "0.0.0" : "2015-05-10T19:57:51.100Z",
+    "2.0.2" : "2016-01-31T05:27:06.382Z",
+    "0.0.1" : "2015-05-10T20:31:36.745Z",
+    "2.0.3" : "2016-02-01T10:25:14.821Z"
+  },
+  "repository" : "floatdrop/pinkie",
+  "users" : {
+  },
+  "readmeFilename" : "readme.md",
+  "keywords" : [ "promise", "promises", "es2015", "es6" ],
+  "license" : "MIT"
+}

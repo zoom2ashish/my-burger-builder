@@ -1,0 +1,1282 @@
+{
+  "_id" : "@babel/helper-plugin-utils",
+  "_rev" : "37-fafcf3db01810460e5a19c988dd126b9",
+  "name" : "@babel/helper-plugin-utils",
+  "description" : "General utilities for plugins to use",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.0.0-rc.1" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-rc.1",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-rc.1.tgz",
+        "shasum" : "3e277eae59818e7d4caf4174f58a7a00d441336e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-rc.1_1533845170685_0.6092487833805416"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-rc.2",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-rc.2.tgz",
+        "shasum" : "95bc3225bf6aeda5a5ebc90af2546b5b9317c0b4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-rc.2_1534879329333_0.4033633011575706"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-rc.0",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-rc.0.tgz",
+        "shasum" : "d03f90d00bd8fc7ad7269e1621f3fb2cd4278de5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-rc.0_1533830162528_0.4455215365983134"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz",
+        "shasum" : "bbb3fbee98661c569034237cc03967ba99b4f250"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0_1535406083544_0.2817009730233926"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/helper-plugin-utils\n\n> General utilities for plugins to use\n\nSee our website [@babel/helper-plugin-utils](https://babeljs.io/docs/en/next/babel-helper-plugin-utils.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-plugin-utils\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-plugin-utils --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.49",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.49.tgz",
+        "shasum" : "0e9fcbb834f878bb365d2a8ea90eee21ba3ccd23"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.49_1527264011142_0.5593949762225983"
+      },
+      "_shasum" : "0e9fcbb834f878bb365d2a8ea90eee21ba3ccd23",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-rc.3",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-rc.3.tgz",
+        "shasum" : "f68392896f4f3b90bdf7e72e5cc7127cdd5441fd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-rc.3_1535133961496_0.6641938472129634"
+      }
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.48",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.48.tgz",
+        "shasum" : "bf310f89e91d146ac0f1369562164be45edba587"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.48_1527189269142_0.5148981786844631"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-rc.4",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-rc.4.tgz",
+        "shasum" : "75fc55485d62174787cb5edc8fad1fc375b7c48f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-rc.4_1535388123158_0.8609699064006322"
+      }
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.43",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.43.tgz",
+        "shasum" : "a5c95110e9bf53b96b339661c96c37efd0960568"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.43_1522687678015_0.49278130882194127"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.54",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.54.tgz",
+        "shasum" : "61d2a9a0f9a3e31838a458debb9eebd7bdd249b4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.54_1531763984982_0.11652407562383038"
+      }
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.42",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.42.tgz",
+        "shasum" : "9aa8b3e5dc72abea6b4f686712a7363cb29ea057"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "andarist",
+        "email" : "mateuszburzynski@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.42",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.42_1521147006344_0.5762704995152472"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.53",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.53.tgz",
+        "shasum" : "d64458636ffc258b42714a9dd93aeb6f8b8cf3ed"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.53_1531316394127_0.3295980847845037"
+      }
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.41",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.41.tgz",
+        "shasum" : "b515524853b2e509409ccbcd8b0bc3586da3e7f0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "andarist",
+        "email" : "mateuszburzynski@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.41",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.41_1521044730826_0.032488662018060666"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.52",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.52.tgz",
+        "shasum" : "2f058c5f7c3a5fe4bc219036b2e78e11bddeb7ad"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.52_1530838744676_0.4851264475559136"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.51",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.51.tgz",
+        "shasum" : "0f6a5f2b6d1c6444413f8fab60940d79b63c2031"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.51_1528838344002_0.9434863142596832"
+      }
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.47",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.47.tgz",
+        "shasum" : "4f564117ec39f96cf60fafcde35c9ddce0e008fd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.47_1526342820091_0.8314983592479641"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.46",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.46.tgz",
+        "shasum" : "f630adbd9d645d0ba2e43f4955b4ad61f44ccdf4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.46_1524457785959_0.07584508577456783"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.45",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.45.tgz",
+        "shasum" : "f4b8732a0478c358ff9cfc90b3491de76a310614"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.45_1524448519261_0.1871793542868765"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.56",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.56.tgz",
+        "shasum" : "e5f63cae8b3b716825d64e69ad8b59d71cd2080c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.56_1533344563739_0.956882431205843"
+      }
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.44",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.44.tgz",
+        "shasum" : "9f590bc3ae6daa8a10b853233baa3e25d263751d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.44",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.44_1522707580673_0.2124581976773141"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.55",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.55.tgz",
+        "shasum" : "31f40777efd6b961da8496a923c22d2b062b3f73"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.55_1532815603287_0.9757457217340315"
+      }
+    },
+    "7.8.3" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.8.3",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.8.3.tgz",
+        "shasum" : "9ea293be19babc0f52ff8ca88b34c3611b208670"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.8.3_1578951657344_0.9958516428875395"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.0.0-beta.50",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.50.tgz",
+        "shasum" : "e1e9bc63b22e758cae771190fe5eb6e81c6df271"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.0.0-beta.50_1528832798424_0.01287816131937869"
+      }
+    },
+    "7.8.0" : {
+      "name" : "@babel/helper-plugin-utils",
+      "description" : "General utilities for plugins to use",
+      "version" : "7.8.0",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.8.0.tgz",
+        "shasum" : "59ec882d43c21c544ccb51decaecb306b34a8231"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-plugin-utils@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-plugin-utils_7.8.0_1578788155617_0.9231882378183012"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    }
+  },
+  "readme" : "# @babel/helper-plugin-utils\n\n> General utilities for plugins to use\n\nSee our website [@babel/helper-plugin-utils](https://babeljs.io/docs/en/next/babel-helper-plugin-utils.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-plugin-utils\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-plugin-utils --dev\n```\n",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "author" : {
+    "name" : "Logan Smyth",
+    "email" : "loganfsmyth@gmail.com"
+  },
+  "time" : {
+    "7.0.0-rc.1" : "2018-08-09T20:06:10.779Z",
+    "7.0.0-rc.2" : "2018-08-21T19:22:09.432Z",
+    "7.0.0-rc.0" : "2018-08-09T15:56:03.471Z",
+    "7.0.0-rc.3" : "2018-08-24T18:06:01.588Z",
+    "7.0.0-rc.4" : "2018-08-27T16:42:03.252Z",
+    "7.0.0-beta.54" : "2018-07-16T17:59:45.089Z",
+    "7.0.0-beta.53" : "2018-07-11T13:39:54.226Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:04.811Z",
+    "7.0.0-beta.51" : "2018-06-12T21:19:04.053Z",
+    "7.0.0-beta.56" : "2018-08-04T01:02:43.797Z",
+    "7.0.0-beta.55" : "2018-07-28T22:06:43.345Z",
+    "modified" : "2020-01-13T21:41:01.151Z",
+    "7.8.3" : "2020-01-13T21:40:57.481Z",
+    "7.0.0-beta.50" : "2018-06-12T19:46:38.511Z",
+    "7.8.0" : "2020-01-12T00:15:55.725Z",
+    "created" : "2018-03-14T16:25:30.768Z",
+    "7.0.0" : "2018-08-27T21:41:23.600Z",
+    "7.0.0-beta.49" : "2018-05-25T16:00:11.230Z",
+    "7.0.0-beta.48" : "2018-05-24T19:14:29.222Z",
+    "7.0.0-beta.43" : "2018-04-02T16:47:58.546Z",
+    "7.0.0-beta.42" : "2018-03-15T20:50:06.394Z",
+    "7.0.0-beta.41" : "2018-03-14T16:25:30.939Z",
+    "7.0.0-beta.47" : "2018-05-15T00:07:00.237Z",
+    "7.0.0-beta.46" : "2018-04-23T04:29:46.009Z",
+    "7.0.0-beta.45" : "2018-04-23T01:55:19.338Z",
+    "7.0.0-beta.44" : "2018-04-02T22:19:40.729Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-plugin-utils"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://babeljs.io/",
+  "license" : "MIT"
+}

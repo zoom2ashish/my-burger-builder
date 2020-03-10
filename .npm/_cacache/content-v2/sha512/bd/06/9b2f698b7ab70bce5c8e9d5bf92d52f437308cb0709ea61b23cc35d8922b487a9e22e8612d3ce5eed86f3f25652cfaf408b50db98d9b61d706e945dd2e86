@@ -1,0 +1,859 @@
+{
+  "_id" : "open",
+  "_rev" : "123-c6576ac140147c57ca9cacbcce19deeb",
+  "name" : "open",
+  "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+  "dist-tags" : {
+    "latest" : "7.0.2"
+  },
+  "versions" : {
+    "7.0.1" : {
+      "name" : "open",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "7.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-7.0.1.tgz",
+        "shasum" : "259a6c2097da6b95c596a2734f2ed05643c432b8"
+      },
+      "dependencies" : {
+        "is-docker" : "^2.0.0",
+        "is-wsl" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.7.5",
+        "ava" : "^2.3.0",
+        "tsd" : "^0.11.0",
+        "xo" : "^0.25.3"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "open@7.0.1",
+      "gitHead" : "79a90bfb2cf0ff6e22eedce3e6c8bfa7c4ea7021",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/open_7.0.1_1580308750649_0.5905894351050964"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.0.2" : {
+      "name" : "open",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "7.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-7.0.2.tgz",
+        "shasum" : "fb3681f11f157f2361d2392307548ca1792960e8"
+      },
+      "dependencies" : {
+        "is-docker" : "^2.0.0",
+        "is-wsl" : "^2.1.1"
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.7.5",
+        "ava" : "^2.3.0",
+        "tsd" : "^0.11.0",
+        "xo" : "^0.25.3"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "open@7.0.2",
+      "gitHead" : "d8bf43e8435c00952bbe41cf5d40d52cf0b45242",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/open_7.0.2_1580544797415_0.3206222834581336"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "0.0.4" : {
+      "name" : "open",
+      "description" : "open a file or url in the user's preferred application",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "J Jordan",
+        "email" : "jjrdn@styosis.com"
+      },
+      "homepage" : "https://github.com/jjrdn/node-open",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pwnall/node-open.git"
+      },
+      "contributors" : [ {
+        "name" : "Victor Costan",
+        "email" : "victor@costan.us",
+        "url" : "http://www.costan.us"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/pwnall/node-open/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6.0"
+      },
+      "main" : "lib/open.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-0.0.4.tgz",
+        "shasum" : "5de46a0858b9f49f9f211aa8f26628550657f262"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "start", "open", "browser", "editor", "default" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jjrdn",
+        "email" : "jjrdn@styosis.com"
+      }, {
+        "name" : "pwnall",
+        "email" : "costan@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/mocha/bin/mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.2",
+      "_npmUser" : {
+        "name" : "pwnall",
+        "email" : "costan@gmail.com"
+      },
+      "_id" : "open@0.0.4"
+    },
+    "0.0.5" : {
+      "name" : "open",
+      "description" : "open a file or url in the user's preferred application",
+      "version" : "0.0.5",
+      "author" : {
+        "name" : "J Jordan",
+        "email" : "jjrdn@styosis.com"
+      },
+      "homepage" : "https://github.com/jjrdn/node-open",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/pwnall/node-open.git"
+      },
+      "contributors" : [ {
+        "name" : "Victor Costan",
+        "email" : "victor@costan.us",
+        "url" : "http://www.costan.us"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/pwnall/node-open/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6.0"
+      },
+      "main" : "lib/open.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-0.0.5.tgz",
+        "shasum" : "42c3e18ec95466b6bf0dc42f3a2945c3f0cad8fc"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "start", "open", "browser", "editor", "default" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jjrdn",
+        "email" : "jjrdn@styosis.com"
+      }, {
+        "name" : "pwnall",
+        "email" : "costan@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/mocha/bin/mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "pwnall",
+        "email" : "costan@gmail.com"
+      },
+      "_id" : "open@0.0.5"
+    },
+    "7.0.0" : {
+      "name" : "open",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-7.0.0.tgz",
+        "shasum" : "7e52999b14eb73f90f0f0807fe93897c4ae73ec9"
+      },
+      "dependencies" : {
+        "is-wsl" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.7.5",
+        "ava" : "^2.3.0",
+        "tsd" : "^0.9.0",
+        "xo" : "^0.25.3"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "open@7.0.0",
+      "gitHead" : "ed757758dd556ae561b58b80ec7dee5e7c6ffddc",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/open_7.0.0_1571164940433_0.04787258939201888"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "0.0.2" : {
+      "name" : "open",
+      "description" : "open a file or uri with the users preferred application",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "J Jordan",
+        "email" : "jjrdn@styosis.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jjrdn/node-open.git"
+      },
+      "engines" : {
+        "node" : ">= 0.6.0"
+      },
+      "main" : "lib/open.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-0.0.2.tgz",
+        "shasum" : "0a620ba2574464742f51e69f8ba8eccfd97b5dfc"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "start", "open", "browser", "editor", "default" ],
+      "maintainers" : [ {
+        "name" : "jjrdn",
+        "email" : "jjrdn@styosis.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "1.1.24",
+      "_npmUser" : {
+        "name" : "jjrdn",
+        "email" : "jjrdn@styosis.com"
+      },
+      "_id" : "open@0.0.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.19"
+    },
+    "0.0.3" : {
+      "name" : "open",
+      "description" : "open a file or url in the user's preferred application",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "J Jordan",
+        "email" : "jjrdn@styosis.com"
+      },
+      "homepage" : "https://github.com/jjrdn/node-open",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jjrdn/node-open.git"
+      },
+      "contributors" : [ {
+        "name" : "Victor Costan",
+        "email" : "victor@costan.us",
+        "url" : "http://www.costan.us"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jjrdn/node-open/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6.0"
+      },
+      "main" : "lib/open.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-0.0.3.tgz",
+        "shasum" : "fa377f4ff308212d92a9b8e6395240854646a713"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "start", "open", "browser", "editor", "default" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jjrdn",
+        "email" : "jjrdn@styosis.com"
+      }, {
+        "name" : "pwnall",
+        "email" : "costan@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/mocha/bin/mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "pwnall",
+        "email" : "costan@gmail.com"
+      },
+      "_id" : "open@0.0.3"
+    },
+    "0.0.0" : {
+      "name" : "open",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "J. Jordan",
+        "email" : "jordan@styosis.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/fixedset/open.js.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-0.0.0.tgz",
+        "shasum" : "7b5f1e7bc4f68effd4d6ba17de7ac852723b5186"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "maintainers" : [ {
+        "name" : "jjordan",
+        "email" : "jordan@styosis.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.12",
+      "_npmUser" : {
+        "name" : "jjordan",
+        "email" : "jordan@styosis.com"
+      },
+      "_id" : "open@0.0.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.14"
+    },
+    "6.4.0" : {
+      "name" : "open",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "6.4.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-6.4.0.tgz",
+        "shasum" : "5c13e96d0dc894686164f18965ecfe889ecfc8a9"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "^11.13.6",
+        "ava" : "^1.4.0",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "open@6.4.0",
+      "gitHead" : "37a769d6073862ab4a46c00b1a21b2ba814e68cf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/open_6.4.0_1561819105278_0.010991781535895528"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "6.2.0" : {
+      "name" : "open",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "6.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-6.2.0.tgz",
+        "shasum" : "7cf92cb961b5d8498b071e64098bf5e27f57230c"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "^11.13.6",
+        "ava" : "^1.4.0",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "open@6.2.0",
+      "gitHead" : "27ac3c2bfda8aba058c753e9b0b7ed9b9eeba76c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/open_6.2.0_1556007160345_0.13004161557012583"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "6.3.0" : {
+      "name" : "open",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "6.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-6.3.0.tgz",
+        "shasum" : "60d0b845ee38fae0631f5d739a21bd40e3d2a527"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "^11.13.6",
+        "ava" : "^1.4.0",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "open@6.3.0",
+      "gitHead" : "b73529feb8543f91381b246843a3d15ab9238e95",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/open_6.3.0_1557651039851_0.7746317779507104"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "6.0.0" : {
+      "name" : "open",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-6.0.0.tgz",
+        "shasum" : "cae5e2c1a3a1bfaee0d0acc8c4b7609374750346"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "open@6.0.0",
+      "gitHead" : "c3569171f477765d16349421fce1d3b2517a7b81",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/open_6.0.0_1553622883011_0.17607051667538376"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "6.1.0" : {
+      "name" : "open",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "6.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/open/-/open-6.1.0.tgz",
+        "shasum" : "0e7e671b883976a4e5251b5d1ca905ab6f4be78f"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "open@6.1.0",
+      "gitHead" : "48dfe3d209554584dfa448c1c19d919cfb3270f3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/open_6.1.0_1554630076079_0.11965164174216758"
+      },
+      "_nodeVersion" : "10.15.1"
+    }
+  },
+  "readme" : "# open\n\n> Open stuff like URLs, files, executables. Cross-platform.\n\nThis is meant to be used in command-line tools and scripts, not in the browser.\n\nIf need this for Electron, use [`shell.openItem()`](https://electronjs.org/docs/api/shell#shellopenitemfullpath) instead.\n\nNote: The original [`open` package](https://github.com/pwnall/node-open) was previously deprecated in favor of this package, and we got the name, so this package is now named `open` instead of `opn`. If you're upgrading from the original `open` package (`open@0.0.5` or lower), keep in mind that the API is different.\n\n#### Why?\n\n- Actively maintained.\n- Supports app arguments.\n- Safer as it uses `spawn` instead of `exec`.\n- Fixes most of the open original `node-open` issues.\n- Includes the latest [`xdg-open` script](http://cgit.freedesktop.org/xdg/xdg-utils/commit/?id=c55122295c2a480fa721a9614f0e2d42b2949c18) for Linux.\n- Supports WSL paths to Windows apps under `/mnt/*`.\n\n## Install\n\n```\n$ npm install open\n```\n\n## Usage\n\n```js\nconst open = require('open');\n\n(async () => {\n\t// Opens the image in the default image viewer and waits for the opened app to quit.\n\tawait open('unicorn.png', {wait: true});\n\tconsole.log('The image viewer app quit');\n\n\t// Opens the URL in the default browser.\n\tawait open('https://sindresorhus.com');\n\n\t// Opens the URL in a specified browser.\n\tawait open('https://sindresorhus.com', {app: 'firefox'});\n\n\t// Specify app arguments.\n\tawait open('https://sindresorhus.com', {app: ['google chrome', '--incognito']});\n})();\n```\n\n## API\n\nIt uses the command `open` on macOS, `start` on Windows and `xdg-open` on other platforms.\n\n### open(target, options?)\n\nReturns a promise for the [spawned child process](https://nodejs.org/api/child_process.html#child_process_class_childprocess). You would normally not need to use this for anything, but it can be useful if you'd like to attach custom event listeners or perform other operations directly on the spawned process.\n\n#### target\n\nType: `string`\n\nThe thing you want to open. Can be a URL, file, or executable.\n\nOpens in the default app for the file type. For example, URLs opens in your default browser.\n\n#### options\n\nType: `object`\n\n##### wait\n\nType: `boolean`\\\nDefault: `false`\n\nWait for the opened app to exit before fulfilling the promise. If `false` it's fulfilled immediately when opening the app.\n\nNote that it waits for the app to exit, not just for the window to close.\n\nOn Windows, you have to explicitly specify an app for it to be able to wait.\n\n##### background <sup>(macOS only)</sup>\n\nType: `boolean`\\\nDefault: `false`\n\nDo not bring the app to the foreground.\n\n##### app\n\nType: `string | string[]`\n\nSpecify the app to open the `target` with, or an array with the app and app arguments.\n\nThe app name is platform dependent. Don't hard code it in reusable modules. For example, Chrome is `google chrome` on macOS, `google-chrome` on Linux and `chrome` on Windows.\n\nYou may also pass in the app's full path. For example on WSL, this can be `/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe` for the Windows installation of Chrome.\n\n##### url\n\nType: `boolean`\\\nDefault: `false`\n\nUses `encodeURI` to encode the target before executing it.<br>\nWe do not recommend using it on targets that are not URLs.\n\nEspecially useful when dealing with the [double-quotes on Windows](#double-quotes-on-windows) caveat.\n\n## Caveats\n\n### Double-quotes on Windows\n\nTL;DR: All double-quotes are stripped from the `target` and do not get to your desired destination (on Windows!).\n\nDue to specific behaviors of Window's Command Prompt (`cmd.exe`) regarding ampersand (`&`) characters breaking commands and URLs, double-quotes are now a special case.\n\nThe solution ([#146](https://github.com/sindresorhus/open/pull/146)) to this and other problems was to leverage the fact that `cmd.exe` interprets a double-quoted argument as a plain text argument just by quoting it (like Node.js already does). Unfortunately, `cmd.exe` can only do **one** of two things: handle them all **OR** not handle them at all. As per its own documentation:\n\n>*If /C or /K is specified, then the remainder of the command line after the switch is processed as a command line, where the following logic is used to process quote (\") characters:*\n>\n>    1.  *If all of the following conditions are met, then quote characters on the command line are preserved:*\n>        - *no /S switch*\n>        - *exactly two quote characters*\n>        - *no special characters between the two quote characters, where special is one of: &<>()@^|*\n>        - *there are one or more whitespace characters between the two quote characters*\n>        - *the string between the two quote characters is the name of an executable file.*\n>\n>    2.  *Otherwise, old behavior is to see if the first character is a quote character and if so, strip the leading character and remove the last quote character on the command line, preserving any text after the last quote character.*\n\nThe option that solved all of the problems was the second one, and for additional behavior consistency we're also now using the `/S` switch, so we **always** get the second option. The caveat is that this built-in double-quotes handling ends up stripping all of them from the command line and so far we weren't able to find an escaping method that works (if you do, please feel free to contribute!).\n\nTo make this caveat somewhat less impactful (at least for URLs), check out the [url option](#url). Double-quotes will be \"preserved\" when using it with an URL.\n\n## Related\n\n- [open-cli](https://github.com/sindresorhus/open-cli) - CLI for this module\n- [open-editor](https://github.com/sindresorhus/open-editor) - Open files in your editor at a specific line and column\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-opn?utm_source=npm-opn&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "email" : "sindresorhus@gmail.com",
+    "name" : "sindresorhus"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "7.0.1" : "2020-01-29T14:39:10.822Z",
+    "7.0.2" : "2020-02-01T08:13:17.589Z",
+    "0.0.4" : "2013-07-25T01:14:22.671Z",
+    "0.0.5" : "2014-04-10T11:46:19.980Z",
+    "created" : "2012-04-14T16:52:46.254Z",
+    "7.0.0" : "2019-10-15T18:42:20.550Z",
+    "0.0.2" : "2012-06-19T18:04:28.431Z",
+    "0.0.3" : "2013-01-26T17:59:49.412Z",
+    "0.0.0" : "2012-04-14T16:52:47.921Z",
+    "6.4.0" : "2019-06-29T14:38:25.420Z",
+    "6.2.0" : "2019-04-23T08:12:40.548Z",
+    "6.3.0" : "2019-05-12T08:50:39.977Z",
+    "6.0.0" : "2019-03-26T17:54:43.168Z",
+    "6.1.0" : "2019-04-07T09:41:16.344Z",
+    "modified" : "2020-02-21T20:48:01.918Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/open.git"
+  },
+  "users" : {
+    "xieranmaya" : true,
+    "sternelee" : true,
+    "lichangwei" : true,
+    "dbsweets" : true,
+    "zhouanbo" : true,
+    "phoenix-xsy" : true,
+    "haeck" : true,
+    "h4des" : true,
+    "rsaa" : true,
+    "miadzadfallah" : true,
+    "kahboom" : true,
+    "tg-z" : true,
+    "matiasmarani" : true,
+    "dvk" : true,
+    "atomgao" : true,
+    "jyounce" : true,
+    "shakakira" : true,
+    "wangzongxu" : true,
+    "xueboren" : true,
+    "rbecheras" : true,
+    "lgomez" : true,
+    "pwnall" : true,
+    "erikvold" : true,
+    "kserks" : true,
+    "rethinkflash" : true,
+    "gochomugo" : true,
+    "nbuchanan" : true,
+    "lgh06" : true,
+    "thangakumar" : true,
+    "pddivine" : true,
+    "sapjax" : true,
+    "pagoru" : true,
+    "uniquevn" : true,
+    "tiggem1993" : true,
+    "logeshpaul" : true,
+    "themiddleman" : true,
+    "amirmehmood" : true,
+    "zacbarton" : true,
+    "alexyan" : true,
+    "cuth" : true,
+    "timur.shemsedinov" : true,
+    "papiro" : true,
+    "jclo" : true,
+    "preco21" : true,
+    "bluejeansandrain" : true,
+    "rmlewisuk" : true,
+    "iori20091101" : true,
+    "ldq-first" : true,
+    "ergunozyurt" : true,
+    "lezuse" : true,
+    "fourq" : true,
+    "yumeng03" : true,
+    "yashprit" : true,
+    "laomu" : true,
+    "zapo" : true,
+    "djadmin" : true,
+    "buzz-dee" : true,
+    "fattypanda" : true,
+    "wangnan0610" : true,
+    "axelrindle" : true,
+    "ralucas" : true,
+    "vutran" : true,
+    "fusijie" : true,
+    "zoxon" : true,
+    "troygizzi" : true,
+    "yoksel" : true,
+    "alexkval" : true,
+    "edwardxyt" : true,
+    "bencevans" : true,
+    "yanghcc" : true,
+    "henriesteves" : true,
+    "itonyyo" : true,
+    "tomgao365" : true,
+    "rubiadias" : true,
+    "jacks" : true,
+    "ayoungh" : true,
+    "semencov" : true,
+    "monolithed" : true,
+    "mastayoda" : true,
+    "pandao" : true,
+    "ineo6" : true,
+    "zeke" : true,
+    "fibo" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/open#readme",
+  "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/open/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,365 @@
+{
+  "_id" : "postcss-normalize-display-values",
+  "_rev" : "9-b5bdeb01fcac0cbeb439739c966e71f6",
+  "name" : "postcss-normalize-display-values",
+  "description" : "Normalize multiple value display syntaxes into single values.",
+  "dist-tags" : {
+    "next" : "4.0.0-rc.2",
+    "latest" : "4.0.2"
+  },
+  "versions" : {
+    "4.0.2" : {
+      "name" : "postcss-normalize-display-values",
+      "description" : "Normalize multiple value display syntaxes into single values.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize-display-values/-/postcss-normalize-display-values-4.0.2.tgz",
+        "shasum" : "0dbe04a4ce9063d4667ed2be476bb830c825935a"
+      },
+      "dependencies" : {
+        "cssnano-util-get-match" : "^4.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-normalize-display-values@4.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-display-values_4.0.2_1549994175147_0.08995971195979147"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-normalize-display-values",
+      "description" : "Normalize multiple value display syntaxes into single values.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize-display-values/-/postcss-normalize-display-values-4.0.0.tgz",
+        "shasum" : "950e0c7be3445770a160fffd6b6644c3c0cd8f89"
+      },
+      "dependencies" : {
+        "cssnano-util-get-match" : "^4.0.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmUser" : {
+        "name" : "evilebottnawi",
+        "email" : "sheo13666q@gmail.com"
+      },
+      "_id" : "postcss-normalize-display-values@4.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-display-values_4.0.0_1530702688675_0.9174104858972985"
+      }
+    },
+    "4.0.1" : {
+      "name" : "postcss-normalize-display-values",
+      "description" : "Normalize multiple value display syntaxes into single values.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/cssnano/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/cssnano/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/cssnano/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize-display-values/-/postcss-normalize-display-values-4.0.1.tgz",
+        "shasum" : "d9a83d47c716e8a980f22f632c8b0458cfb48a4c"
+      },
+      "dependencies" : {
+        "cssnano-util-get-match" : "^4.0.0",
+        "postcss" : "^7.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^5.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "andrey@sitnik.ru",
+        "name" : "ai"
+      }, {
+        "email" : "beneb.info@gmail.com",
+        "name" : "beneb"
+      }, {
+        "email" : "chris@eppsteins.net",
+        "name" : "chriseppstein"
+      }, {
+        "email" : "sheo13666q@gmail.com",
+        "name" : "evilebottnawi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ai",
+        "email" : "andrey@sitnik.ru"
+      },
+      "_id" : "postcss-normalize-display-values@4.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-display-values_4.0.1_1537823080775_0.5510778951022037"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "postcss-normalize-display-values",
+      "description" : "Normalize multiple value display syntaxes into single values.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize-display-values/-/postcss-normalize-display-values-4.0.0-rc.2.tgz",
+        "shasum" : "d802d77dc7fba66f72a201e94804029b24acd271"
+      },
+      "dependencies" : {
+        "cssnano-util-get-match" : "^4.0.0-rc.2",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-normalize-display-values@4.0.0-rc.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-display-values-4.0.0-rc.2.tgz_1502049221490_0.3861531070433557"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "postcss-normalize-display-values",
+      "description" : "Normalize multiple value display syntaxes into single values.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Ben Briggs",
+        "email" : "beneb.info@gmail.com",
+        "url" : "http://beneb.info"
+      },
+      "homepage" : "https://github.com/ben-eb/cssnano",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ben-eb/cssnano.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ben-eb/cssnano/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize-display-values/-/postcss-normalize-display-values-4.0.0-rc.0.tgz",
+        "shasum" : "4da750bec46e33c4e90a05ee159b358f69e1a252"
+      },
+      "dependencies" : {
+        "cssnano-util-get-match" : "^4.0.0-rc.0",
+        "postcss" : "^6.0.0",
+        "postcss-value-parser" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.0.0",
+        "cross-env" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT", "dist" ],
+      "maintainers" : [ {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "cross-env BABEL_ENV=publish babel src --out-dir dist --ignore /__tests__/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "beneb",
+        "email" : "beneb.info@gmail.com"
+      },
+      "_id" : "postcss-normalize-display-values@4.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-display-values-4.0.0-rc.0.tgz_1496311207060_0.6949101849459112"
+      },
+      "_shasum" : "4da750bec46e33c4e90a05ee159b358f69e1a252",
+      "_nodeVersion" : "6.9.1"
+    }
+  },
+  "readme" : "# [postcss][postcss]-normalize-display-values\n\n> Normalize display property values with PostCSS.\n\n## Install\n\nWith [npm](https://npmjs.org/package/postcss-normalize-display-values) do:\n\n```\nnpm install postcss-normalize-display-values --save\n```\n\n## Example\n\n### Input\n\n```css\ndiv {\n    display: inline flow-root\n}\n```\n\n### Output\n\n```css\ndiv {\n    display: inline-block\n}\n``` \n\n## Usage\n\nSee the [PostCSS documentation](https://github.com/postcss/postcss#usage) for\nexamples for your environment.\n\n## Contributors\n\nSee [CONTRIBUTORS.md](https://github.com/cssnano/cssnano/blob/master/CONTRIBUTORS.md).\n\n## License\n\nMIT © [Ben Briggs](http://beneb.info)\n\n[postcss]: https://github.com/postcss/postcss\n",
+  "maintainers" : [ {
+    "email" : "andrey@sitnik.ru",
+    "name" : "ai"
+  }, {
+    "email" : "beneb.info@gmail.com",
+    "name" : "beneb"
+  }, {
+    "email" : "chris@eppsteins.net",
+    "name" : "chriseppstein"
+  }, {
+    "email" : "sheo13666q@gmail.com",
+    "name" : "evilebottnawi"
+  } ],
+  "author" : {
+    "name" : "Ben Briggs",
+    "email" : "beneb.info@gmail.com",
+    "url" : "http://beneb.info"
+  },
+  "time" : {
+    "created" : "2017-06-01T10:00:07.961Z",
+    "4.0.2" : "2019-02-12T17:56:15.262Z",
+    "modified" : "2019-02-12T17:56:17.937Z",
+    "4.0.0" : "2018-07-04T11:11:28.759Z",
+    "4.0.1" : "2018-09-24T21:04:41.012Z",
+    "4.0.0-rc.2" : "2017-08-06T19:53:42.365Z",
+    "4.0.0-rc.0" : "2017-06-01T10:00:07.961Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/cssnano/cssnano.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/cssnano/cssnano",
+  "bugs" : {
+    "url" : "https://github.com/cssnano/cssnano/issues"
+  },
+  "license" : "MIT"
+}

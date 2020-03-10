@@ -1,0 +1,726 @@
+{
+  "_id" : "postcss-initial",
+  "_rev" : "16-2d6d29448fc2674e51b3c206d72fb33a",
+  "name" : "postcss-initial",
+  "description" : "PostCSS plugin to fallback initial keyword.",
+  "dist-tags" : {
+    "latest" : "3.0.2"
+  },
+  "versions" : {
+    "1.3.0" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-1.3.0.tgz",
+        "shasum" : "b91918240b56a2d6745990816f394980639ae3c4"
+      },
+      "dependencies" : {
+        "lodash.template" : "^3.6.2",
+        "postcss" : "^5.0.2"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "1.0.0",
+        "gulp-mocha" : "2.1.3",
+        "mocha" : "2.2.5",
+        "chai" : "3.2.0",
+        "gulp" : "3.9.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@1.3.0",
+      "gitHead" : "18dc2c1e82383cfa4e9b7a0f1c35ffdc66ccf050",
+      "_shasum" : "b91918240b56a2d6745990816f394980639ae3c4",
+      "_nodeVersion" : "0.12.0"
+    },
+    "2.0.0" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-2.0.0.tgz",
+        "shasum" : "72715f7336e0bb79351d99ee65c4a253a8441ba4"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.2.4",
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "eslint" : "^3.19.0",
+        "mocha" : "^3.3.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@2.0.0",
+      "gitHead" : "db5697a52a18d2903b4435b77397dbdfd404ab0b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-initial-2.0.0.tgz_1494330548408_0.5301505110692233"
+      },
+      "_shasum" : "72715f7336e0bb79351d99ee65c4a253a8441ba4",
+      "_nodeVersion" : "7.9.0"
+    },
+    "1.3.1" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-1.3.1.tgz",
+        "shasum" : "ccd5f77e943ff60c57eb6c1d3ef9457ab2e4e538"
+      },
+      "dependencies" : {
+        "lodash.template" : "^3.6.2",
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "chai" : "3.2.0",
+        "gulp" : "3.9.0",
+        "gulp-eslint" : "1.0.0",
+        "gulp-mocha" : "2.1.3",
+        "mocha" : "^2.3.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@1.3.1",
+      "gitHead" : "ac137b750a01d121c2083d4ff37ebed1cbc93c15",
+      "_shasum" : "ccd5f77e943ff60c57eb6c1d3ef9457ab2e4e538",
+      "_nodeVersion" : "4.0.0"
+    },
+    "1.4.0" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-1.4.0.tgz",
+        "shasum" : "f995d89b697ec6fef49eaad3bc6614b62683ce29"
+      },
+      "dependencies" : {
+        "lodash.template" : "^3.6.2",
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "chai" : "3.2.0",
+        "gulp" : "3.9.0",
+        "gulp-eslint" : "1.0.0",
+        "gulp-mocha" : "2.1.3",
+        "mocha" : "^2.3.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-beta.0",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@1.4.0",
+      "gitHead" : "640d5fab258e865e036d1d3d5233d69cf2039858",
+      "_shasum" : "f995d89b697ec6fef49eaad3bc6614b62683ce29"
+    },
+    "1.4.1" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-1.4.1.tgz",
+        "shasum" : "e7e746c9aefc0f1f3e57043a5e5ddf5bcd56cf93"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.0.2",
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "chai" : "3.2.0",
+        "eslint" : "^1.10.3",
+        "mocha" : "^2.3.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@1.4.1",
+      "gitHead" : "3f24bffd0a2fe8c912b8effa58a72beb7d567d23",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-initial-1.4.1.tgz_1454622090998_0.29715670133009553"
+      },
+      "_shasum" : "e7e746c9aefc0f1f3e57043a5e5ddf5bcd56cf93",
+      "_nodeVersion" : "5.4.1"
+    },
+    "1.5.0" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-1.5.0.tgz",
+        "shasum" : "06ae340727bfe0109cc7030c04b94501817a4149"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.0.2",
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "eslint" : "^2.3.0",
+        "mocha" : "^2.3.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-beta.0",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@1.5.0",
+      "gitHead" : "d818733d171c3e6c560bf8247a20c77a764a8c43",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-initial-1.5.0.tgz_1457521455220_0.3459634187165648"
+      },
+      "_shasum" : "06ae340727bfe0109cc7030c04b94501817a4149"
+    },
+    "1.5.1" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-1.5.1.tgz",
+        "shasum" : "d4d70ca70bbc4c6217ba2fa5e87ac8f1f89b91eb"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.2.4",
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "eslint" : "^2.7.0",
+        "mocha" : "^2.4.5"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@1.5.1",
+      "gitHead" : "594dfa8371d9c611d8a50a8043bdb692f20e1bfe",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-initial-1.5.1.tgz_1460207552747_0.5124656481202692"
+      },
+      "_shasum" : "d4d70ca70bbc4c6217ba2fa5e87ac8f1f89b91eb",
+      "_nodeVersion" : "5.4.1"
+    },
+    "3.0.0" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-3.0.0.tgz",
+        "shasum" : "1772512faf11421b791fb2ca6879df5f68aa0517"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.2.4",
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "eslint" : "^3.19.0",
+        "mocha" : "^3.3.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css"
+      },
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@3.0.0",
+      "licenseText" : "The MIT License (MIT)\n\nCopyright 2015 Maksim Koretskiy <mr.green.tv@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-initial_3.0.0_1534414979472_0.025202651923696306"
+      }
+    },
+    "1.5.2" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "1.5.2",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-1.5.2.tgz",
+        "shasum" : "61eb5ad871e7991aadfb3f497b16fe61aea92ffb"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.2.4",
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "eslint" : "^2.7.0",
+        "mocha" : "^2.4.5"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@1.5.2",
+      "gitHead" : "8669acb57ee9ff4b82bc82772cb842e4cb2ab687",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-initial-1.5.2.tgz_1469002662530_0.9288114060182124"
+      },
+      "_shasum" : "61eb5ad871e7991aadfb3f497b16fe61aea92ffb",
+      "_nodeVersion" : "5.11.1"
+    },
+    "1.5.3" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "1.5.3",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-1.5.3.tgz",
+        "shasum" : "20c3e91c96822ddb1bed49508db96d56bac377d0"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.2.4",
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "eslint" : "^2.7.0",
+        "mocha" : "^2.4.5"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@1.5.3",
+      "gitHead" : "8e1ed228ca23b4f5992c679b36af7b5de2a60bb1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-initial-1.5.3.tgz_1480515828354_0.9686717621516436"
+      },
+      "_shasum" : "20c3e91c96822ddb1bed49508db96d56bac377d0",
+      "_nodeVersion" : "6.7.0"
+    },
+    "3.0.1" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-3.0.1.tgz",
+        "shasum" : "99d319669a13d6c06ef8e70d852f68cb1b399b61"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.5.0",
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "eslint" : "^3.19.0",
+        "mocha" : "^3.3.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@3.0.1",
+      "gitHead" : "f0901cbbadee7169a5e2e77e35da57bd0c87a00c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-initial_3.0.1_1562851649651_0.5491240366930297"
+      },
+      "_nodeVersion" : "8.9.2"
+    },
+    "3.0.2" : {
+      "name" : "postcss-initial",
+      "description" : "PostCSS plugin to fallback initial keyword.",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Maksim Koretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-initial/-/postcss-initial-3.0.2.tgz",
+        "shasum" : "f018563694b3c16ae8eaabe3c585ac6319637b2d"
+      },
+      "dependencies" : {
+        "lodash.template" : "^4.5.0",
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "eslint" : "^4.18.2",
+        "mocha" : "^3.3.0",
+        "husky" : "^3.0.9",
+        "standard-version" : "^7.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js ./lib/ ./test/",
+        "test" : "npm run lint && mocha",
+        "tdd" : "mocha -w --watch-extensions js,json,css",
+        "release" : "standard-version"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "maximkoretskiy",
+        "email" : "mr.green.tv@gmail.com"
+      },
+      "_id" : "postcss-initial@3.0.2",
+      "gitHead" : "2f241783671468096d822c4eacf29dddb56abec1",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "yarn test",
+          "pre-push" : "yarn test"
+        }
+      },
+      "standard-version" : {
+        "scripts" : {
+          "prerelease" : "yarn test"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-initial_3.0.2_1572520109048_0.4216066113127144"
+      },
+      "_nodeVersion" : "8.16.0"
+    }
+  },
+  "readme" : "# PostCSS Initial\n[![CSS Standard Status][css-img]][css] [![Build Status][ci-img]][ci] [![NPM Module][npm-img]][npm] [![David DM][david-img]][david]\n\n<img align=\"right\" width=\"135\" height=\"95\"\n     title=\"Philosopher’s stone, logo of PostCSS\"\n     src=\"http://postcss.github.io/postcss/logo-leftp.png\">\n\n[PostCSS] plugin to fallback `initial` keyword. Very useful in combination with\n[postcss-autoreset][reset].\n\n[PostCSS]: https://github.com/postcss/postcss\n[css-img]: https://jonathantneal.github.io/css-db/badge/css-cascade-all-shorthand.svg\n[css]:     https://jonathantneal.github.io/css-db/#css-cascade-all-shorthand\n[ci-img]:  https://travis-ci.org/maximkoretskiy/postcss-initial.svg\n[ci]:      https://travis-ci.org/maximkoretskiy/postcss-initial\n[npm-img]: https://badge.fury.io/js/postcss-initial.svg\n[npm]:     https://www.npmjs.com/package/postcss-initial\n[david-img]:   https://david-dm.org/maximkoretskiy/postcss-initial.svg\n[david]:   https://david-dm.org/maximkoretskiy/postcss-initial\n[reset]:   https://github.com/maximkoretskiy/postcss-autoreset\n\n\n```css\na {\n  animation: initial;\n  background: initial;\n  white-space: initial;\n}\np {\n  background: url(/img1.png),\n              url(/img2.png);\n  background-repeat: initial no-repeat\n}\n```\n\n```css\na {\n  animation: none 0s ease 0s 1 normal none running;\n  animation: initial;\n  background: transparent none repeat 0 0 / auto auto padding-box border-box scroll;\n  background: initial;\n  white-space: normal;\n  white-space: initial;\n}\np {\n  background: url(/img1.png),\n              url(/img2.png);\n  background-repeat: repeat no-repeat\n}\n```\n\n**Killer feature!**\n\nUniversal reset from future css!\n```css\na {\n  all: initial;\n}\n```\n\n```css\na {\n  animation: none 0s ease 0s 1 normal none running;\n  backface-visibility: visible;\n  background: transparent none repeat 0 0 / auto auto padding-box border-box scroll;\n  border: medium none currentColor;\n  border-collapse: separate;\n  border-image: none;\n  border-radius: 0;\n  border-spacing: 0;\n  bottom: auto;\n  box-shadow: none;\n  box-sizing: content-box;\n  caption-side: top;\n  clear: none;\n  clip: auto;\n  color: #000;\n  columns: auto;\n  column-count: auto;\n  column-fill: balance;\n  column-gap: normal;\n  column-rule: medium none currentColor;\n  column-span: 1;\n  column-width: auto;\n  content: normal;\n  counter-increment: none;\n  counter-reset: none;\n  cursor: auto;\n  direction: ltr;\n  display: inline;\n  empty-cells: show;\n  float: none;\n  font-family: serif;\n  font-size: medium;\n  font-style: normal;\n  font-variant: normal;\n  font-weight: normal;\n  font-stretch: normal;\n  line-height: normal;\n  height: auto;\n  hyphens: none;\n  left: auto;\n  letter-spacing: normal;\n  list-style: disc outside none;\n  margin: 0;\n  max-height: none;\n  max-width: none;\n  min-height: 0;\n  min-width: 0;\n  opacity: 1;\n  orphans: 2;\n  outline: medium none invert;\n  overflow: visible;\n  overflow-x: visible;\n  overflow-y: visible;\n  padding: 0;\n  page-break-after: auto;\n  page-break-before: auto;\n  page-break-inside: auto;\n  perspective: none;\n  perspective-origin: 50% 50%;\n  position: static;\n  right: auto;\n  tab-size: 8;\n  table-layout: auto;\n  text-align: left;\n  text-align-last: auto;\n  text-decoration: none;\n  text-indent: 0;\n  text-shadow: none;\n  text-transform: none;\n  top: auto;\n  transform: none;\n  transform-origin: 50% 50% 0;\n  transform-style: flat;\n  transition: none 0s ease 0s;\n  unicode-bidi: normal;\n  vertical-align: baseline;\n  visibility: visible;\n  white-space: normal;\n  widows: 2;\n  width: auto;\n  word-spacing: normal;\n  z-index: auto;\n  all: initial;\n}\n```\n\n## Options\n\n### reset\n\nTakes `string`.\nDescribes what subset of rules should be unsetted with `all` property (to reduce code weight).\nPossible subsets: `all`, `inherited`.\nDefault value: `'all'`.\n\n### replace\n\nTakes `boolean`.\nReplace the `initial` with the fallback instead of adding it.\nDefault value: `false`.\n\n## Usage\n\n```js\npostcss([ require('postcss-initial')({\n  reset: 'inherited' // reset only inherited rules\n}) ])\n```\n\nSee [PostCSS] docs for examples for your environment.\n\n## [Changelog](./CHANGELOG.md)\n",
+  "maintainers" : [ {
+    "name" : "maximkoretskiy",
+    "email" : "mr.green.tv@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Maksim Koretskiy",
+    "email" : "mr.green.tv@gmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2017-05-09T11:49:09.300Z",
+    "created" : "2015-08-27T09:01:02.465Z",
+    "1.3.0" : "2015-08-27T09:01:02.465Z",
+    "1.3.1" : "2015-09-09T20:54:11.203Z",
+    "1.4.0" : "2015-11-10T07:13:45.486Z",
+    "1.4.1" : "2016-02-04T21:41:33.911Z",
+    "1.5.0" : "2016-03-09T11:04:19.664Z",
+    "1.5.1" : "2016-04-09T13:12:35.019Z",
+    "3.0.0" : "2018-08-16T10:22:59.605Z",
+    "1.5.2" : "2016-07-20T08:17:44.431Z",
+    "1.5.3" : "2016-11-30T14:23:50.196Z",
+    "modified" : "2019-10-31T11:08:31.578Z",
+    "3.0.1" : "2019-07-11T13:27:29.793Z",
+    "3.0.2" : "2019-10-31T11:08:29.254Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/maximkoretskiy/postcss-initial.git"
+  },
+  "users" : {
+    "xiechao06" : true,
+    "denji" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/maximkoretskiy/postcss-initial#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "reset" ],
+  "bugs" : {
+    "url" : "https://github.com/maximkoretskiy/postcss-initial/issues"
+  },
+  "license" : "MIT"
+}

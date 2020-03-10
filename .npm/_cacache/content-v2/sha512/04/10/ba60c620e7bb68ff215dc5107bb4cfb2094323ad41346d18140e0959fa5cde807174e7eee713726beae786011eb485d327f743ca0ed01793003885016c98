@@ -1,0 +1,3656 @@
+{
+  "_id" : "workbox-routing",
+  "_rev" : "63-513b463bb5fa3c07993d3f08eea17e8b",
+  "name" : "workbox-routing",
+  "description" : "A service worker helper library to route request URLs to handlers.",
+  "dist-tags" : {
+    "next" : "5.0.0-rc.2",
+    "latest" : "5.0.0"
+  },
+  "versions" : {
+    "4.1.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.1.1.tgz",
+        "shasum" : "c31d663c6c4c0e9a6f03b5a6fdfe79fb6ee7f29d"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.1.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.1.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.1.1",
+      "gitHead" : "fb837ca0bd15bdc8f4e5563ee28957dc266c31f6",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.1.1_1552686644839_0.792021855338106"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.3.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.3.0.tgz",
+        "shasum" : "6bf838d0dc5be43cb5bcba9010874971ab642067"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.3.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.3.0.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@4.3.0",
+      "gitHead" : "7c873eb2b7e4530fb554c41d9c425c5167e45de7",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.3.0_1555357758409_0.7539883705980586"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "11.14.0"
+    },
+    "4.1.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.1.0.tgz",
+        "shasum" : "dba0512524c5cb58431668a1f7cdfc112d0c7bb4"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.1.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.1.0.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.1.0",
+      "gitHead" : "6fd1909f69406b7dd5edf3ac6bad3da0ba1e638d",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.1.0_1551984797508_0.6502731606733057"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "0.0.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v0.0.2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-0.0.2.tgz",
+        "shasum" : "eee0dc7a8f33c54e751b753f95a7ed872641d6ed"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@0.0.2",
+      "module" : "build/modules/workbox-routing.prod.v0.0.2.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/workbox-routing-0.0.2.tgz_1494877329191_0.49744403874501586"
+      },
+      "_shasum" : "eee0dc7a8f33c54e751b753f95a7ed872641d6ed",
+      "_nodeVersion" : "7.9.0"
+    },
+    "0.0.3" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v0.0.3.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-0.0.3.tgz",
+        "shasum" : "8a3bed0980e7f1bc10b29c33b9e284c3395a5585"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.5",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@0.0.3",
+      "module" : "build/modules/workbox-routing.prod.v0.0.3.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/workbox-routing-0.0.3.tgz_1495054645938_0.005004892125725746"
+      },
+      "_shasum" : "8a3bed0980e7f1bc10b29c33b9e284c3395a5585",
+      "_nodeVersion" : "7.4.0"
+    },
+    "4.3.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.3.1.tgz",
+        "shasum" : "a675841af623e0bb0c67ce4ed8e724ac0bed0cda"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.3.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.3.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.3.1",
+      "gitHead" : "194cdeb63d5abb21490f88f01f02f4bcf7e6d54b",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.3.1_1556733226093_0.8025743885807577"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.0.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v0.0.1.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-0.0.1.tgz",
+        "shasum" : "0c69485656c44aa5415936196ba1f794d934368e"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@0.0.1",
+      "module" : "build/modules/workbox-routing.prod.v0.0.1.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/workbox-routing-0.0.1.tgz_1494608867190_0.958528422517702"
+      },
+      "_shasum" : "0c69485656c44aa5415936196ba1f794d934368e",
+      "_nodeVersion" : "7.10.0"
+    },
+    "4.0.0-beta.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-beta.0.tgz",
+        "shasum" : "649ca862106d98f52f9fb9e03cf8de5126ff1361"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-beta.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-beta.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@4.0.0-beta.0",
+      "gitHead" : "bc90cc4bdb1f8ad435564aa84b0c90acfac611e2",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-beta.0_1541529640133_0.3433377953580965"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.5.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.5.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.5.0.tgz",
+        "shasum" : "93ab4037b49f243c5b5cc7a09b2b391700cdb4d1"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.5.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.5.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.5.0_1536677735944_0.8908383720062703"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0-beta.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-beta.1.tgz",
+        "shasum" : "4c6d9ed3095ab0b2e1929f4829d75d26dc447a57"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-beta.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-beta.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.0.0-beta.1",
+      "gitHead" : "dda07c48e184f57ce5dfe3b3e93af316989a0877",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-beta.1_1547582131907_0.31111318759657425"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-beta.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-beta.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-beta.2.tgz",
+        "shasum" : "52362f525e670e25a95e8518b12f2c2393cb74c9"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-beta.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-beta.2.tgz",
+      "_npmVersion" : "6.6.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@4.0.0-beta.2",
+      "gitHead" : "a0baa6ac838e1bff9a140ccbe2e78551d9605466",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-beta.2_1548798964828_0.3266237206914824"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "8.15.0"
+    },
+    "3.1.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.1.0.tgz",
+        "shasum" : "05a76ae7083c17402f4493407f15450e42e71bfd"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.1.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.1.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.1.0_1523552073915_0.5943448564725569"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "3.3.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.3.0.tgz",
+        "shasum" : "8184d0159c8c4e4c9dd7a0da08e28e579e372319"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.3.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.3.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.3.0_1529344587870_0.1889918464619469"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "3.3.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.3.1.tgz",
+        "shasum" : "c11b9c64857096e2bc5225471a79d6b0aadd86a8"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.3.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.3.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.3.1_1530121562474_0.06200769560821118"
+      },
+      "_nodeVersion" : "10.5.0"
+    },
+    "2.1.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v2.1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-2.1.0.tgz",
+        "shasum" : "3b18f91aa8a5503b4c9795b80b309d3abcfeb4b5"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@2.1.0",
+      "module" : "build/modules/workbox-routing.prod.v2.1.0.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-2.1.0.tgz_1507243345870_0.23988403915427625"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "3.6.3" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.6.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.6.3.tgz",
+        "shasum" : "659cd8f9274986cfa98fda0d050de6422075acf7"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.6.3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.6.3",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.6.3_1540216475987_0.22437832204705122"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "1.3.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v1.3.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-1.3.0.tgz",
+        "shasum" : "2ddd75ad8a607a6e75ec79a27aa1ce0b3a04ef96"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@1.3.0",
+      "module" : "build/modules/workbox-routing.prod.v1.3.0.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-1.3.0.tgz_1502306750675_0.5802227666135877"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.0.0-beta.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-beta.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-beta.2.tgz",
+        "shasum" : "3b395995e9321ee2334bdad3cbe74ba0f395f1ae"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-beta.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0-beta.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.0.0-beta.2_1520359210863_0.9360373504626085"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-beta.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-beta.0.tgz",
+        "shasum" : "55e35c2be9a37d358381766916f5c75c9ea95b26"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-beta.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0-beta.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-3.0.0-beta.0.tgz_1517526055525_0.31305355462245643"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-beta.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-beta.1.tgz",
+        "shasum" : "50232fa9b4b03eb17d9fbae89e319f79132fec2c"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-beta.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0-beta.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.0.0-beta.1_1519671238968_0.08847881063769525"
+      },
+      "readme" : "ERROR: No README data found!",
+      "_nodeVersion" : "8.9.4"
+    },
+    "5.0.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0.tgz",
+        "shasum" : "d8caf5ff5f01996d764e18c72cfe34f95b75ae6e"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.17.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@5.0.0",
+      "gitHead" : "571ffded1872309a305f108a99a5a36982fde342",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0_1580266132237_0.02816218343358634"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "1.1.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v1.1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-1.1.0.tgz",
+        "shasum" : "f849e5f74340b468d56d764f9bcdb6dbba6285a1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_npmVersion" : "5.2.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@1.1.0",
+      "module" : "build/modules/workbox-routing.prod.v1.1.0.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-1.1.0.tgz_1499893281193_0.946176748489961"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "4.2.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.2.0.tgz",
+        "shasum" : "752abdd382c0b55269ddc687c63351ae6105e4dc"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.2.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.2.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@4.2.0",
+      "gitHead" : "60f99c8c017b62ffe90b591b7f4be37dc44d92f6",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.2.0_1554312211936_0.7954903309701606"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.0-rc.4" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-rc.4",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-rc.4.tgz",
+        "shasum" : "f56d9069cdca3f19dbb2254e7c5063df83030cf5"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.4"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-rc.4.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.0.0-rc.4",
+      "gitHead" : "cddab54b7b1b7fee18765dcf8350f7e118285efb",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-rc.4_1551149709231_0.11576132053240107"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0.tgz",
+        "shasum" : "96c078287494b9d279afd44739da97d3d4d782cb"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.0.0",
+      "gitHead" : "51ec243c7afc67d5cec835b685bd9ad1e70fb78b",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0_1551288782680_0.5720487687353242"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-rc.2.tgz",
+        "shasum" : "487540e687c61758cf8794bc9c5873ea74276217"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-rc.2.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.0.0-rc.2",
+      "gitHead" : "36439d00d488159fd552b6e805bd4cb1be827ece",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-rc.2_1550094593878_0.8183999435829914"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.3" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-rc.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-rc.3.tgz",
+        "shasum" : "25ad8756e594158742ca23d1a63e2a6dcbc6abb2"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-rc.3.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.0.0-rc.3",
+      "gitHead" : "6cf9c94ff17beea2b211e91d4a96c22c8611d3b4",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-rc.3_1550607146572_0.03392838663497244"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-rc.0.tgz",
+        "shasum" : "a8952a12a707d96e17b8a54be2fdfa183e9af232"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-rc.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.0.0-rc.0",
+      "gitHead" : "895940b985bea024e086713c319af216f7c5ee95",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-rc.0_1549483117735_0.38045161312596565"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-rc.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-rc.1.tgz",
+        "shasum" : "e95d4c23693ab03f9ad008f05d9c6e8bb2570a93"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-rc.1.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@4.0.0-rc.1",
+      "gitHead" : "5e19e1c192d867f0db97e23f1262c3cab19bf6c6",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-rc.1_1550086319672_0.796393285617985"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "3.0.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0.tgz",
+        "shasum" : "0554b38eba0acbb358a067eb7b5ed9afa5048586"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.0.0_1520905352112_0.16581574089952267"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.4.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.4.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.4.1.tgz",
+        "shasum" : "c5ac213480869da29a91a88db57b679ba7ddf58a"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.4.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.4.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.4.1_1531409958638_0.7862393763654691"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "3.6.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.6.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.6.0.tgz",
+        "shasum" : "b2325bd174f22dff29e1684f67b57107af1d5f4b"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.6.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@3.6.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.6.0_1537384215450_0.21103523953456205"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "3.6.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.6.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.6.1.tgz",
+        "shasum" : "4cd41e319d0dc9df5db36c7d2054e829855f14e8"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.6.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@3.6.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.6.1_1537385245051_0.045129188989935454"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "3.6.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.6.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.6.2.tgz",
+        "shasum" : "a074a5291d8c4bec1af36b4ce269e7585ae59dea"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.6.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.6.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.6.2_1538145714265_0.21376023295898294"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "3.0.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.1.tgz",
+        "shasum" : "2784d8b0eb41de57bfb330b09336b60eb12505b2"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.0.1_1521757716848_0.45964625240646706"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.2.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.2.0.tgz",
+        "shasum" : "6aef7622ede2412dd116231f4f9408a6485a4832"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.2.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.2.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_3.2.0_1525285052589_0.5488314628105677"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.2-rc1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "2.0.2-rc1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v2.0.2-rc1-2.0.2-rc1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-2.0.2-rc1.tgz",
+        "shasum" : "6d0fee9227eec937b3348e8c9e9232bf7c942a57"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@2.0.2-rc1",
+      "module" : "build/modules/workbox-routing.prod.v2.0.2-rc1-2.0.2-rc1.0.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-2.0.2-rc1.tgz_1506092340182_0.5121633135713637"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.0.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v2.0.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-2.0.0.tgz",
+        "shasum" : "693b56fb3d67d211572b712813f6032586f08065"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@2.0.0",
+      "module" : "build/modules/workbox-routing.prod.v2.0.0.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-2.0.0.tgz_1503584435377_0.9333846834488213"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "5.0.0-alpha.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0-alpha.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0-alpha.0.tgz",
+        "shasum" : "d71be2a997b4abb4c19e8228c421daa52bba7354"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-alpha.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-5.0.0-alpha.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@5.0.0-alpha.0",
+      "gitHead" : "7f231c04023669bc42d5a939d1359b0867e2efda",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0-alpha.0_1562771117485_0.13060822489166646"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-alpha.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0-alpha.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0-alpha.1.tgz",
+        "shasum" : "5c73153835a54219de53cdd2174e387bea7e4bee"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-alpha.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-5.0.0-alpha.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@5.0.0-alpha.1",
+      "gitHead" : "20d2110ddace710a46af06addd4977cae08f5942",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0-alpha.1_1563225683185_0.790903938382516"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.0-alpha.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "4.0.0-alpha.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-4.0.0-alpha.0.tgz",
+        "shasum" : "1124a2ccb31c5da1cda5665a8fe03ed71888e18f"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-alpha.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-4.0.0-alpha.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@4.0.0-alpha.0",
+      "gitHead" : "db1fb73fd32fbd5cbf42e246e6144011a5c6edc2",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_4.0.0-alpha.0_1539194833270_0.024365388593257764"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "5.0.0-alpha.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0-alpha.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0-alpha.2.tgz",
+        "shasum" : "f8255d17fa2c9b40c7b9e61c9a09bddd30c4eaf6"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-alpha.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-routing-5.0.0-alpha.2.tgz",
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@5.0.0-alpha.2",
+      "gitHead" : "0cb0029b692c3802545238fe59b6d6179ca32f6c",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0-alpha.2_1564684724084_0.25987949560371715"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-beta.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0-beta.1.tgz",
+        "shasum" : "a23fda0c64f1f5e34e5b42764d87dd8384d65d69"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-beta.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@5.0.0-beta.1",
+      "gitHead" : "01a9e9be8291f0a592891c8e2eb8d2dd09b93caf",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0-beta.1_1569959071809_0.9411758279836624"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-rc.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0-rc.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0-rc.2.tgz",
+        "shasum" : "72bf32f17d60ea1adb6e6a4835ee01d6ee1cce77"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-rc.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@5.0.0-rc.2",
+      "gitHead" : "89904768b2210e59c830dd380cf88a06e1c26a2b",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0-rc.2_1579641358689_0.13325668293642146"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "5.0.0-beta.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0-beta.0.tgz",
+        "shasum" : "4a57544ba0478027553b0380ed8fab1023e6e342"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-beta.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@5.0.0-beta.0",
+      "gitHead" : "136b38f2c701bd7c04e808d19961310a9ede524b",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0-beta.0_1566406736957_0.23205053759480876"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-rc.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0-rc.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0-rc.1.tgz",
+        "shasum" : "7bae90659ee5bd8c1ff3840aeb4a11fea15d703c"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-rc.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.17.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@5.0.0-rc.1",
+      "gitHead" : "f03f71e50507e13d82d4e0a875cc49ba4501aff3",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0-rc.1_1574705087092_0.4570491126678753"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.17.0"
+    },
+    "2.0.2-2.0.2-rc1.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "2.0.2-2.0.2-rc1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v2.0.2-2.0.2-rc1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-2.0.2-2.0.2-rc1.0.tgz",
+        "shasum" : "612ad6f9d32caabd2f806f40169ec7d366765b58"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@2.0.2-2.0.2-rc1.0",
+      "module" : "build/modules/workbox-routing.prod.v2.0.2-2.0.2-rc1.0.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-2.0.2-2.0.2-rc1.0.tgz_1506091816897_0.4342092350125313"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.0.0-alpha.4" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-alpha.4",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-alpha.4.tgz",
+        "shasum" : "bb483c2c392d5b31a5997c9f9b9024123a8d8979"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-alpha.4"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0-alpha.4",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-3.0.0-alpha.4.tgz_1515522323667_0.3399394555017352"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "5.0.0-rc.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "5.0.0-rc.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-5.0.0-rc.0.tgz",
+        "shasum" : "3abc573a86975f158238f7b4820b83ea2b99fe8f"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-rc.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-routing@5.0.0-rc.0",
+      "gitHead" : "94542f92ceaec96ef59a09bda3aee1677ea5512b",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing_5.0.0-rc.0_1571258494031_0.7210395360424104"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "3.0.0-alpha.5" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-alpha.5",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-alpha.5.tgz",
+        "shasum" : "ca60d137092aad91720e9c6a0f4c71fb4a94ede8"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-alpha.5"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0-alpha.5",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-3.0.0-alpha.5.tgz_1515785166451_0.43334188195876777"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0-alpha.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-alpha.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-alpha.2.tgz",
+        "shasum" : "c7d775db781737c3bd0f9329678d2107819245a8"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-alpha.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0-alpha.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-3.0.0-alpha.2.tgz_1512164878520_0.4515853866469115"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.0.0-alpha.3" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-alpha.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-alpha.3.tgz",
+        "shasum" : "72221a817cd8bfb7b56f7b83d1602763c49f690f"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-alpha.3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0-alpha.3",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-3.0.0-alpha.3.tgz_1513192154778_0.9477914785966277"
+      },
+      "_nodeVersion" : "8.9.3"
+    },
+    "3.0.0-alpha.1" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-alpha.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-alpha.1.tgz",
+        "shasum" : "23246dd0f30cebfef43f8002150830104d1d2637"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-alpha.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@3.0.0-alpha.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-3.0.0-alpha.1.tgz_1511385031735_0.511195304337889"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.2" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v2.0.2-rc1-2.0.2-rc1.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-2.0.2.tgz",
+        "shasum" : "62b3d645a7f8c830a48b3b8ea69255c234c29254"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@2.0.2",
+      "module" : "build/modules/workbox-routing.prod.v2.0.2-rc1-2.0.2-rc1.0.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-2.0.2.tgz_1506436470649_0.0190704925917089"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.0.3" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v2.0.3.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-2.0.3.tgz",
+        "shasum" : "84c490f97eb571c659c223a653d55dd9d376f8dd"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@2.0.3",
+      "module" : "build/modules/workbox-routing.prod.v2.0.3.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-2.0.3.tgz_1506437249480_0.2430633381009102"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "3.0.0-alpha.6" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "3.0.0-alpha.6",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-routing.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-3.0.0-alpha.6.tgz",
+        "shasum" : "cd97867f6b95e2a184e773788c2e2d0dc411e12d"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.0.0-alpha.6"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      }, {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-routing",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-routing@3.0.0-alpha.6",
+      "workbox" : {
+        "browserNamespace" : "workbox.routing",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-routing-3.0.0-alpha.6.tgz_1516811435073_0.5763212309684604"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.0" : {
+      "name" : "workbox-routing",
+      "description" : "A service worker helper library to route request URLs to handlers.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox/tree/master/packages/workbox-routing",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/importScripts/workbox-routing.prod.v1.0.0.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-routing/-/workbox-routing-1.0.0.tgz",
+        "shasum" : "1375d37f8ab506b68af22d7a30318ab32f3dcd76"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+      "license" : "Apache-2.0",
+      "files" : [ "src", "build" ],
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp build --project workbox-routing"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.5",
+      "_npmUser" : {
+        "name" : "gauntface",
+        "email" : "matt@gauntface.co.uk"
+      },
+      "_id" : "workbox-routing@1.0.0",
+      "module" : "build/modules/workbox-routing.prod.v1.0.0.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/workbox-routing-1.0.0.tgz_1495058974776_0.8324335527140647"
+      },
+      "_shasum" : "1375d37f8ab506b68af22d7a30318ab32f3dcd76",
+      "_nodeVersion" : "7.4.0"
+    }
+  },
+  "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/modules/workbox-routing\n",
+  "maintainers" : [ {
+    "email" : "addyosmani@gmail.com",
+    "name" : "addyosmani"
+  }, {
+    "email" : "matt@gauntface.co.uk",
+    "name" : "gauntface"
+  }, {
+    "email" : "jeffy@google.com",
+    "name" : "jeffposnick"
+  }, {
+    "email" : "philip@philipwalton.com",
+    "name" : "philipwalton"
+  } ],
+  "author" : {
+    "name" : "Google's Web DevRel Team"
+  },
+  "time" : {
+    "4.1.1" : "2019-03-15T21:50:44.960Z",
+    "4.3.0" : "2019-04-15T19:49:18.493Z",
+    "4.1.0" : "2019-03-07T18:53:17.700Z",
+    "0.0.2" : "2017-05-15T19:42:13.202Z",
+    "0.0.3" : "2017-05-17T20:57:26.184Z",
+    "4.3.1" : "2019-05-01T17:53:46.263Z",
+    "0.0.1" : "2017-05-12T17:07:48.590Z",
+    "4.0.0-beta.0" : "2018-11-06T18:40:40.282Z",
+    "3.5.0" : "2018-09-11T14:55:36.080Z",
+    "4.0.0-beta.1" : "2019-01-15T19:55:32.112Z",
+    "modified" : "2020-01-29T02:48:58.351Z",
+    "4.0.0-beta.2" : "2019-01-29T21:56:04.990Z",
+    "3.1.0" : "2018-04-12T16:54:34.046Z",
+    "3.3.0" : "2018-06-18T17:56:27.954Z",
+    "3.3.1" : "2018-06-27T17:46:10.881Z",
+    "2.1.0" : "2017-10-05T22:42:27.282Z",
+    "3.6.3" : "2018-10-22T13:54:36.116Z",
+    "created" : "2017-05-12T17:07:48.590Z",
+    "1.3.0" : "2017-08-09T19:25:51.855Z",
+    "3.0.0-beta.2" : "2018-03-06T18:00:10.914Z",
+    "3.0.0-beta.0" : "2018-02-01T23:00:55.627Z",
+    "3.0.0-beta.1" : "2018-02-26T18:53:59.069Z",
+    "5.0.0" : "2020-01-29T02:48:52.413Z",
+    "1.1.0" : "2017-07-12T21:01:22.514Z",
+    "4.2.0" : "2019-04-03T17:23:32.120Z",
+    "4.0.0-rc.4" : "2019-02-26T02:55:09.397Z",
+    "4.0.0" : "2019-02-27T17:33:02.804Z",
+    "4.0.0-rc.2" : "2019-02-13T21:49:54.060Z",
+    "4.0.0-rc.3" : "2019-02-19T20:12:26.725Z",
+    "4.0.0-rc.0" : "2019-02-06T19:58:37.847Z",
+    "4.0.0-rc.1" : "2019-02-13T19:31:59.814Z",
+    "3.0.0" : "2018-03-13T01:42:32.203Z",
+    "3.4.1" : "2018-07-12T15:39:18.758Z",
+    "3.6.0" : "2018-09-19T19:10:15.580Z",
+    "3.6.1" : "2018-09-19T19:27:25.182Z",
+    "3.6.2" : "2018-09-28T14:41:54.507Z",
+    "3.0.1" : "2018-03-22T22:28:36.951Z",
+    "3.2.0" : "2018-05-02T18:17:34.033Z",
+    "2.0.2-rc1" : "2017-09-22T14:59:01.457Z",
+    "2.0.0" : "2017-08-24T14:20:35.495Z",
+    "5.0.0-alpha.0" : "2019-07-10T15:05:17.628Z",
+    "5.0.0-alpha.1" : "2019-07-15T21:21:23.330Z",
+    "4.0.0-alpha.0" : "2018-10-10T18:07:13.396Z",
+    "5.0.0-alpha.2" : "2019-08-01T18:38:44.242Z",
+    "5.0.0-beta.1" : "2019-10-01T19:44:31.940Z",
+    "5.0.0-rc.2" : "2020-01-21T21:15:58.945Z",
+    "5.0.0-beta.0" : "2019-08-21T16:58:57.147Z",
+    "5.0.0-rc.1" : "2019-11-25T18:04:47.233Z",
+    "2.0.2-2.0.2-rc1.0" : "2017-09-22T14:50:18.163Z",
+    "3.0.0-alpha.4" : "2018-01-09T18:25:23.767Z",
+    "5.0.0-rc.0" : "2019-10-16T20:41:34.207Z",
+    "3.0.0-alpha.5" : "2018-01-12T19:26:06.546Z",
+    "3.0.0-alpha.2" : "2017-12-01T21:47:58.589Z",
+    "3.0.0-alpha.3" : "2017-12-13T19:09:15.055Z",
+    "3.0.0-alpha.1" : "2017-11-22T21:10:31.851Z",
+    "2.0.2" : "2017-09-26T14:34:32.014Z",
+    "2.0.3" : "2017-09-26T14:47:30.774Z",
+    "3.0.0-alpha.6" : "2018-01-24T16:30:37.190Z",
+    "1.0.0" : "2017-05-17T22:09:39.126Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/googlechrome/workbox.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/GoogleChrome/workbox",
+  "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "router", "routing" ],
+  "bugs" : {
+    "url" : "https://github.com/googlechrome/workbox/issues"
+  },
+  "license" : "MIT"
+}

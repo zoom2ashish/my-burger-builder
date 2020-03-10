@@ -1,0 +1,991 @@
+{
+  "_id" : "css-what",
+  "_rev" : "18-5bd4ef414b7bbda833473cb7689d2c21",
+  "name" : "css-what",
+  "description" : "a CSS selector parser",
+  "dist-tags" : {
+    "latest" : "3.2.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what",
+      "repository" : {
+        "url" : "https://github.com/fb55/css-what"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-2.0.0.tgz",
+        "shasum" : "107fecc449dd4e4a5df950262364def6014e5f30"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "jshint" : "2"
+      },
+      "license" : "BSD-like",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test.js && jshint *.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@2.0.0",
+      "gitHead" : "f46f4aac8ce43a6be6279d8894e7bc1e4195a1db",
+      "jshintConfig" : {
+        "eqeqeq" : true,
+        "freeze" : true,
+        "latedef" : "nofunc",
+        "noarg" : true,
+        "nonbsp" : true,
+        "quotmark" : "double",
+        "undef" : true,
+        "unused" : true,
+        "trailing" : true,
+        "eqnull" : true,
+        "proto" : true,
+        "smarttabs" : true,
+        "node" : true,
+        "globals" : {
+          "describe" : true,
+          "it" : true
+        }
+      },
+      "_shasum" : "107fecc449dd4e4a5df950262364def6014e5f30",
+      "_nodeVersion" : "1.3.0"
+    },
+    "2.0.1" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what",
+      "repository" : {
+        "url" : "https://github.com/fb55/css-what"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-2.0.1.tgz",
+        "shasum" : "84546261ea504e3cdf0bf1fbc3436c9180fce4d2"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "jshint" : "2"
+      },
+      "license" : "BSD-like",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test.js && jshint *.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.6.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@2.0.1",
+      "gitHead" : "e411927d535b5904bf05cf32ba68825d8071a061",
+      "jshintConfig" : {
+        "eqeqeq" : true,
+        "freeze" : true,
+        "latedef" : "nofunc",
+        "noarg" : true,
+        "nonbsp" : true,
+        "quotmark" : "double",
+        "undef" : true,
+        "unused" : true,
+        "trailing" : true,
+        "eqnull" : true,
+        "proto" : true,
+        "smarttabs" : true,
+        "node" : true,
+        "globals" : {
+          "describe" : true,
+          "it" : true
+        }
+      },
+      "_shasum" : "84546261ea504e3cdf0bf1fbc3436c9180fce4d2",
+      "_nodeVersion" : "1.4.2"
+    },
+    "2.1.0" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-2.1.0.tgz",
+        "shasum" : "9467d032c38cfaefb9f2d79501253062f87fa1bd"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "jshint" : "2"
+      },
+      "license" : "BSD-like",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test.js && jshint *.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.9",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@2.1.0",
+      "gitHead" : "fd6b9f62146efec8e17ee80ddaebdfb6ede21d7b",
+      "jshintConfig" : {
+        "eqeqeq" : true,
+        "freeze" : true,
+        "latedef" : "nofunc",
+        "noarg" : true,
+        "nonbsp" : true,
+        "quotmark" : "double",
+        "undef" : true,
+        "unused" : true,
+        "trailing" : true,
+        "eqnull" : true,
+        "proto" : true,
+        "smarttabs" : true,
+        "node" : true,
+        "globals" : {
+          "describe" : true,
+          "it" : true
+        }
+      },
+      "_shasum" : "9467d032c38cfaefb9f2d79501253062f87fa1bd",
+      "_nodeVersion" : "5.0.0"
+    },
+    "2.1.3" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "2.1.3",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-2.1.3.tgz",
+        "shasum" : "a6d7604573365fe74686c3f311c56513d88285f2"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "jshint" : "2"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test.js && jshint *.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@2.1.3",
+      "gitHead" : "2db00ca221922c5b5131d798614aa043f2f6f80e",
+      "jshintConfig" : {
+        "eqeqeq" : true,
+        "freeze" : true,
+        "latedef" : "nofunc",
+        "noarg" : true,
+        "nonbsp" : true,
+        "undef" : true,
+        "unused" : true,
+        "eqnull" : true,
+        "proto" : true,
+        "node" : true,
+        "globals" : {
+          "describe" : true,
+          "it" : true
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-what_2.1.3_1550168598043_0.9607567623567257"
+      },
+      "prettier" : {
+        "tabWidth" : 4
+      },
+      "_nodeVersion" : "11.4.0"
+    },
+    "2.0.2" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what",
+      "repository" : {
+        "url" : "https://github.com/fb55/css-what"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-2.0.2.tgz",
+        "shasum" : "555f87ac386768db09cb43962571fe851409bce8"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "jshint" : "2"
+      },
+      "license" : "BSD-like",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test.js && jshint *.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.6.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@2.0.2",
+      "gitHead" : "1ddb673f1c7425dfe286a2dcfd1609d06e633105",
+      "jshintConfig" : {
+        "eqeqeq" : true,
+        "freeze" : true,
+        "latedef" : "nofunc",
+        "noarg" : true,
+        "nonbsp" : true,
+        "quotmark" : "double",
+        "undef" : true,
+        "unused" : true,
+        "trailing" : true,
+        "eqnull" : true,
+        "proto" : true,
+        "smarttabs" : true,
+        "node" : true,
+        "globals" : {
+          "describe" : true,
+          "it" : true
+        }
+      },
+      "_shasum" : "555f87ac386768db09cb43962571fe851409bce8",
+      "_nodeVersion" : "1.5.1"
+    },
+    "2.1.2" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-2.1.2.tgz",
+        "shasum" : "c0876d9d0480927d7d4920dcd72af3595649554d"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "jshint" : "2"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test.js && jshint *.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@2.1.2",
+      "gitHead" : "b2a2117cc0732f05d3345e15c1884645c8be280c",
+      "jshintConfig" : {
+        "eqeqeq" : true,
+        "freeze" : true,
+        "latedef" : "nofunc",
+        "noarg" : true,
+        "nonbsp" : true,
+        "undef" : true,
+        "unused" : true,
+        "eqnull" : true,
+        "proto" : true,
+        "node" : true,
+        "globals" : {
+          "describe" : true,
+          "it" : true
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-what_2.1.2_1540160305964_0.11466746951668294"
+      },
+      "prettier" : {
+        "tabWidth" : 4
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "3.0.0" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-3.0.0.tgz",
+        "shasum" : "dd631b3ef8d4714917a1de033186181cc7bad9cc"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.6.2",
+        "@typescript-eslint/eslint-plugin" : "^1.12.0",
+        "@typescript-eslint/parser" : "^1.12.0",
+        "eslint" : "^6.0.1",
+        "eslint-config-prettier" : "^6.0.0",
+        "prettier" : "^1.18.2",
+        "ts-node" : "^8.3.0",
+        "typescript" : "^3.5.3"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run ts-test && npm run eslint && npm run format -- --check",
+        "ts-test" : "ts-node tests/test.ts",
+        "eslint" : "eslint '**/*.ts'",
+        "format" : "prettier --write **/*.{ts,json,md}",
+        "build" : "tsc",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@3.0.0",
+      "gitHead" : "7009b7ef2c909aed216797412977dd2ec0b16206",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-what_3.0.0_1563046302127_0.7712229632341447"
+      },
+      "prettier" : {
+        "tabWidth" : 4
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "3.0.1" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-3.0.1.tgz",
+        "shasum" : "880b1ffee440578296ff27987bad7a623cc96350"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.6.2",
+        "@typescript-eslint/eslint-plugin" : "^1.12.0",
+        "@typescript-eslint/parser" : "^1.12.0",
+        "eslint" : "^6.0.1",
+        "eslint-config-prettier" : "^6.0.0",
+        "prettier" : "^1.18.2",
+        "ts-node" : "^8.3.0",
+        "typescript" : "^3.5.3"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run ts-test && npm run eslint && npm run format -- --check",
+        "ts-test" : "ts-node tests/test.ts",
+        "eslint" : "eslint '**/*.ts'",
+        "format" : "prettier --write **/*.{ts,json,md}",
+        "build" : "tsc",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@3.0.1",
+      "gitHead" : "00ea1c90247c25142b79a8a284684904cbaf4471",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-what_3.0.1_1563046563670_0.42916446731205693"
+      },
+      "prettier" : {
+        "tabWidth" : 4
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "3.1.0" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-3.1.0.tgz",
+        "shasum" : "4254ec60a07808f383f91cdcb2e83a164bbe65a9"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.6.2",
+        "@typescript-eslint/eslint-plugin" : "^1.12.0",
+        "@typescript-eslint/parser" : "^1.12.0",
+        "eslint" : "^6.0.1",
+        "eslint-config-prettier" : "^6.0.0",
+        "prettier" : "^1.18.2",
+        "ts-node" : "^8.3.0",
+        "typescript" : "^3.5.3"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run ts-test && npm run eslint && npm run format -- --check",
+        "ts-test" : "ts-node tests/test.ts",
+        "eslint" : "eslint '**/*.ts'",
+        "format" : "prettier --write **/*.{ts,json,md}",
+        "build" : "tsc",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.10.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@3.1.0",
+      "gitHead" : "e20b8a61a31cef811d3471d35c3de68a0c1ce9b0",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-what_3.1.0_1563844264802_0.4718894424955744"
+      },
+      "prettier" : {
+        "tabWidth" : 4
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.0.0" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what",
+      "repository" : {
+        "url" : "https://github.com/fb55/css-what"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-1.0.0.tgz",
+        "shasum" : "d7cc2df45180666f99d2b14462639469e00f736c"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "jshint" : "2"
+      },
+      "license" : "BSD-like",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test.js && jshint *.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@1.0.0",
+      "gitHead" : "d54c2857acbb22d56190fc998b48744597ddd730",
+      "jshintConfig" : {
+        "eqeqeq" : true,
+        "freeze" : true,
+        "latedef" : "nofunc",
+        "noarg" : true,
+        "nonbsp" : true,
+        "quotmark" : "double",
+        "undef" : true,
+        "unused" : true,
+        "trailing" : true,
+        "eqnull" : true,
+        "proto" : true,
+        "smarttabs" : true,
+        "node" : true,
+        "globals" : {
+          "describe" : true,
+          "it" : true
+        }
+      },
+      "_shasum" : "d7cc2df45180666f99d2b14462639469e00f736c",
+      "_nodeVersion" : "1.0.4"
+    },
+    "3.0.2" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-3.0.2.tgz",
+        "shasum" : "655948f53a48fb567d735bfda5b5cb9986f40b37"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.6.2",
+        "@typescript-eslint/eslint-plugin" : "^1.12.0",
+        "@typescript-eslint/parser" : "^1.12.0",
+        "eslint" : "^6.0.1",
+        "eslint-config-prettier" : "^6.0.0",
+        "prettier" : "^1.18.2",
+        "ts-node" : "^8.3.0",
+        "typescript" : "^3.5.3"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run ts-test && npm run eslint && npm run format -- --check",
+        "ts-test" : "ts-node tests/test.ts",
+        "eslint" : "eslint '**/*.ts'",
+        "format" : "prettier --write **/*.{ts,json,md}",
+        "build" : "tsc",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@3.0.2",
+      "gitHead" : "9b9a4d8470334559a2b193f9e1847ef1b823bacf",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-what_3.0.2_1563046676214_0.9501119600956538"
+      },
+      "prettier" : {
+        "tabWidth" : 4
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "3.2.0" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-3.2.0.tgz",
+        "shasum" : "0ce44ada45f97bcbbec450563a23ef04ee2572ef"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "@types/node" : "^12.6.2",
+        "@typescript-eslint/eslint-plugin" : "^1.12.0",
+        "@typescript-eslint/parser" : "^1.12.0",
+        "eslint" : "^6.0.1",
+        "eslint-config-prettier" : "^6.0.0",
+        "prettier" : "^1.18.2",
+        "ts-node" : "^8.3.0",
+        "typescript" : "^3.5.3"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run ts-test && npm run eslint && npm run format -- --check",
+        "ts-test" : "ts-node tests/test.ts",
+        "eslint" : "eslint '**/*.ts'",
+        "format" : "prettier --write **/*.{ts,json,md}",
+        "build" : "tsc",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.10.1",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@3.2.0",
+      "gitHead" : "fd814bbd3869fb9568063a510697a059c5f883d1",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-what_3.2.0_1564773860738_0.8302602418166052"
+      },
+      "prettier" : {
+        "tabWidth" : 4
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "3.2.1" : {
+      "name" : "css-what",
+      "description" : "a CSS selector parser",
+      "version" : "3.2.1",
+      "author" : {
+        "name" : "Felix Böhm",
+        "email" : "me@feedic.com",
+        "url" : "http://feedic.com"
+      },
+      "homepage" : "https://github.com/fb55/css-what#readme",
+      "repository" : {
+        "url" : "git+https://github.com/fb55/css-what.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/fb55/css-what/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/css-what/-/css-what-3.2.1.tgz",
+        "shasum" : "f4a8f12421064621b456755e34a03a2c22df5da1"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "@types/jest" : "^24.0.16",
+        "@types/node" : "^12.6.2",
+        "@typescript-eslint/eslint-plugin" : "^1.12.0",
+        "@typescript-eslint/parser" : "^1.12.0",
+        "coveralls" : "^3.0.5",
+        "eslint" : "^6.0.1",
+        "eslint-config-prettier" : "^6.0.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.18.2",
+        "ts-jest" : "^24.0.2",
+        "typescript" : "^3.5.3"
+      },
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest --coverage -u && npm run lint",
+        "coverage" : "cat coverage/lcov.info | coveralls",
+        "lint" : "eslint --ext=js,ts src",
+        "format" : "prettier --write '**/*.{ts,md,json}'",
+        "build" : "tsc",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "feedic",
+        "email" : "me@feedic.com"
+      },
+      "_id" : "css-what@3.2.1",
+      "gitHead" : "8c5462a9b982bf7ce1b6cd8fb3bb1b90843605ac",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/css-what_3.2.1_1573339176106_0.37499740005408944"
+      },
+      "jest" : {
+        "preset" : "ts-jest",
+        "testEnvironment" : "node"
+      },
+      "prettier" : {
+        "tabWidth" : 4
+      },
+      "_nodeVersion" : "12.4.0"
+    }
+  },
+  "readme" : "# css-what [![Build Status](https://secure.travis-ci.org/fb55/css-what.svg?branch=master)](http://travis-ci.org/fb55/css-what)\n\na CSS selector parser\n\n## Example\n\n```js\nconst CSSwhat = require(\"css-what\")\nCSSwhat.parse(\"foo[bar]:baz\")\n\n~> [\n    [\n        { type: \"tag\", name: \"foo\" },\n        {\n            type: \"attribute\",\n            name: \"bar\",\n            action: \"exists\",\n            value: \"\",\n            ignoreCase: false\n        },\n        { type: \"pseudo\", name: \"baz\", data: null }\n    ]\n]\n```\n\n## API\n\n**`CSSwhat.parse(str, options)` - Parses `str`, optionally with the passed `options`.**\n\nThe function returns a two-dimensional array. The first array represents selectors separated by commas (eg. `sub1, sub2`), the second contains the relevant tokens for that selector. Possible token types are:\n\n| name             | attributes                              | example       | output                                                                                   |\n| ---------------- | --------------------------------------- | ------------- | ---------------------------------------------------------------------------------------- |\n| `tag`            | `name`                                  | `div`         | `{ type: 'tag', name: 'div' }`                                                           |\n| `universal`      | -                                       | `*`           | `{ type: 'universal' }`                                                                  |\n| `pseudo`         | `name`, `data`                          | `:name(data)` | `{ type: 'pseudo', name: 'name', data: 'data' }`                                         |\n| `pseudo`         | `name`, `data`                          | `:name`       | `{ type: 'pseudo', name: 'name', data: null }`                                           |\n| `pseudo-element` | `name`                                  | `::name`      | `{ type: 'pseudo-element', name: 'name' }`                                               |\n| `attribute`      | `name`, `action`, `value`, `ignoreCase` | `[attr]`      | `{ type: 'attribute', name: 'attr', action: 'exists', value: '', ignoreCase: false }`    |\n| `attribute`      | `name`, `action`, `value`, `ignoreCase` | `[attr=val]`  | `{ type: 'attribute', name: 'attr', action: 'equals', value: 'val', ignoreCase: false }` |\n| `attribute`      | `name`, `action`, `value`, `ignoreCase` | `[attr^=val]` | `{ type: 'attribute', name: 'attr', action: 'start', value: 'val', ignoreCase: false }`  |\n| `attribute`      | `name`, `action`, `value`, `ignoreCase` | `[attr$=val]` | `{ type: 'attribute', name: 'attr', action: 'end', value: 'val', ignoreCase: false }`    |\n| `child`          | -                                       | `>`           | `{ type: 'child' }`                                                                      |\n| `parent`         | -                                       | `<`           | `{ type: 'parent' }`                                                                     |\n| `sibling`        | -                                       | `~`           | `{ type: 'sibling' }`                                                                    |\n| `adjacent`       | -                                       | `+`           | `{ type: 'adjacent' }`                                                                   |\n| `descendant`     | -                                       |               | `{ type: 'descendant' }`                                                                 |\n\n**Options:**\n\n-   `lowerCaseTags`: When false, tag names will not be lowercased. Defaults to `true`.\n-   `lowerCaseAttributeNames`: When false, attribute names will not be lowercased. Defaults to `true`.\n-   `xmlMode`: When `true`, `xmlMode` implies both `lowerCaseTags` and `lowerCaseAttributeNames` are set to `false`.\n\n**`CSSwhat.stringify(selector)` - Turns `selector` back into a string.**\n\n---\n\nLicense: BSD-2-Clause\n\n## Security contact information\n\nTo report a security vulnerability, please use the [Tidelift security contact](https://tidelift.com/security).\nTidelift will coordinate the fix and disclosure.\n\n## `css-what` for enterprise\n\nAvailable as part of the Tidelift Subscription\n\nThe maintainers of `css-what` and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. [Learn more.](https://tidelift.com/subscription/pkg/npm-css-what?utm_source=npm-css-what&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)\n",
+  "maintainers" : [ {
+    "name" : "feedic",
+    "email" : "me@feedic.com"
+  } ],
+  "author" : {
+    "name" : "Felix Böhm",
+    "email" : "me@feedic.com",
+    "url" : "http://feedic.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-03-01T13:46:19.791Z",
+    "2.0.1" : "2015-03-05T17:47:57.399Z",
+    "2.1.0" : "2015-11-22T13:25:14.930Z",
+    "created" : "2015-02-03T22:10:20.029Z",
+    "2.1.3" : "2019-02-14T18:23:18.507Z",
+    "2.0.2" : "2015-03-12T12:34:37.829Z",
+    "2.1.2" : "2018-10-21T22:18:26.101Z",
+    "3.0.0" : "2019-07-13T19:31:42.303Z",
+    "modified" : "2019-11-09T22:39:38.718Z",
+    "3.0.1" : "2019-07-13T19:36:03.831Z",
+    "3.1.0" : "2019-07-23T01:11:04.982Z",
+    "1.0.0" : "2015-02-03T22:10:20.029Z",
+    "3.0.2" : "2019-07-13T19:37:56.308Z",
+    "3.2.0" : "2019-08-02T19:24:20.868Z",
+    "3.2.1" : "2019-11-09T22:39:36.281Z"
+  },
+  "repository" : {
+    "url" : "git+https://github.com/fb55/css-what.git"
+  },
+  "users" : {
+    "mojaray2k" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/fb55/css-what#readme",
+  "bugs" : {
+    "url" : "https://github.com/fb55/css-what/issues"
+  },
+  "license" : "BSD-2-Clause"
+}

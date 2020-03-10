@@ -1,0 +1,2220 @@
+{
+  "_id" : "@babel/helper-simple-access",
+  "_rev" : "68-8605e6de12dcf0e5447e078ff377f357",
+  "name" : "@babel/helper-simple-access",
+  "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.0.0-rc.1" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-rc.1",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-rc.1.tgz",
+        "shasum" : "ab3b179b5f009a1e17207b227c37410ad8d73949"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-rc.1",
+        "@babel/types" : "7.0.0-rc.1",
+        "lodash" : "^4.17.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-rc.1_1533845365471_0.8496008389568113"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-rc.2",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-rc.2.tgz",
+        "shasum" : "34043948cda9e6b883527bb827711bd427fea914"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-rc.2",
+        "@babel/types" : "7.0.0-rc.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-rc.2_1534879535392_0.14269697180012808"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-rc.0",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-rc.0.tgz",
+        "shasum" : "20823699cd038e78dc633098008a4717596abe4f"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-rc.0",
+        "@babel/types" : "7.0.0-rc.0",
+        "lodash" : "^4.17.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-rc.0_1533830374188_0.7337578421031759"
+      }
+    },
+    "7.0.0-beta.39" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.39",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.39.tgz",
+        "shasum" : "fbe9e70c4fe64e0dbe01e675b2bb97b5f3514d3a"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.39",
+        "@babel/types" : "7.0.0-beta.39",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.39",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.39.tgz_1517344075295_0.8555972187314183"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.38" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.38",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.38.tgz",
+        "shasum" : "98bd95b2a2489dcbe8eae93022de758ce53370d3"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.38",
+        "@babel/types" : "7.0.0-beta.38",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.38",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.38.tgz_1516206747566_0.3748176193330437"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-rc.3",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-rc.3.tgz",
+        "shasum" : "c5a316c0838785eab896b7578ee05b1ac8193f2b"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-rc.3",
+        "@babel/types" : "7.0.0-rc.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-rc.3_1535134152254_0.5822762444032099"
+      }
+    },
+    "7.0.0-beta.37" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.37",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.37.tgz",
+        "shasum" : "55ec47b51d5e7240791112472087053142fbaee2"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.37",
+        "@babel/types" : "7.0.0-beta.37",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.37",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.37.tgz_1515427411367_0.7566759027540684"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-rc.4",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-rc.4.tgz",
+        "shasum" : "d1106272fd6eb23c1b9fc2019e533ebe93a08db0"
+      },
+      "dependencies" : {
+        "@babel/template" : "^7.0.0-rc.4",
+        "@babel/types" : "^7.0.0-rc.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-rc.4_1535388360183_0.3066977112677547"
+      }
+    },
+    "7.0.0-beta.5" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.5",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.5.tgz",
+        "shasum" : "91a0e2ead87bb8ff0d81ad0f4e385c170295e923"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.5",
+        "@babel/types" : "7.0.0-beta.5",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.5.tgz_1509397037544_0.5437107642646879"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.4" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.4",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.4.tgz",
+        "shasum" : "41f7bcac7273a6ac70b37ff6c055cc95659147f5"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.4",
+        "@babel/types" : "7.0.0-beta.4",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.4.tgz_1509388538807_0.501710984390229"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.32" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.32",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.32.tgz",
+        "shasum" : "3606ef42f5c958d2b242d73f1723b58a607142d6"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.32",
+        "@babel/types" : "7.0.0-beta.32",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.32",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.32.tgz_1510493627458_0.759501664666459"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.54",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.54.tgz",
+        "shasum" : "5f760a19589a9b6f07e80a65ef4bcbd4fba8c253"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.54",
+        "@babel/types" : "7.0.0-beta.54",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.54_1531764022470_0.27858820634368064"
+      }
+    },
+    "7.0.0-beta.31" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.31",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.31.tgz",
+        "shasum" : "02f49733ed2124f7504c898da9ca741fc8f7edc6"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.31",
+        "@babel/types" : "7.0.0-beta.31",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.31",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.31.tgz_1509739443735_0.8713123050983995"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.53",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.53.tgz",
+        "shasum" : "72f6db9abe42f8681fa6f028efd59d81544752b3"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.53",
+        "@babel/types" : "7.0.0-beta.53",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.53_1531316440503_0.46903356328189294"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.52",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.52.tgz",
+        "shasum" : "d2995ce9c4c9f03fe72af922373677a8eb6424ee"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.52",
+        "@babel/types" : "7.0.0-beta.52",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.52_1530838781382_0.3944851614331293"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.51",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.51.tgz",
+        "shasum" : "c9d7fecd84a181d50a3afcc422fc94a968be3050"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.51",
+        "@babel/types" : "7.0.0-beta.51",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.51_1528838431466_0.6832699983846053"
+      }
+    },
+    "7.0.0-beta.36" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.36",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.36.tgz",
+        "shasum" : "89e018b0b3b36eb2cb448a8fdd7f7d430e749f33"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.36",
+        "@babel/types" : "7.0.0-beta.36",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "james@henry.sc",
+        "name" : "jameshenry"
+      }, {
+        "email" : "kent@doddsfamily.us",
+        "name" : "kentcdodds"
+      }, {
+        "email" : "kaicataldo@gmail.com",
+        "name" : "kaicataldo"
+      }, {
+        "email" : "teddy.katz@gmail.com",
+        "name" : "not-an-aardvark"
+      }, {
+        "email" : "star.ctor@gmail.com",
+        "name" : "mysticatea"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.36",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.36.tgz_1514228721353_0.7843392679933459"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.35" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.35",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.35.tgz",
+        "shasum" : "1e7221daa67261f541d9125a4f7a1fc7badf884e"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.35",
+        "@babel/types" : "7.0.0-beta.35",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.35",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.35.tgz_1513288095663_0.45178717910312116"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.34" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.34",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.34.tgz",
+        "shasum" : "ad7506e04c98c81aff85c623c7882b95fcef3aa0"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.34",
+        "@babel/types" : "7.0.0-beta.34",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.34",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.34.tgz_1512225598797_0.0057463624980300665"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.56",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.56.tgz",
+        "shasum" : "bb6569e0ada73f408ca6e00514f9ca2c02970c0d"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.56",
+        "@babel/types" : "7.0.0-beta.56",
+        "lodash" : "^4.17.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.56_1533344875492_0.8911759860276813"
+      }
+    },
+    "7.0.0-beta.33" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.33",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.33.tgz",
+        "shasum" : "7ddb9ba50bf606cc64bfd547a650eef4447bea85"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.33",
+        "@babel/types" : "7.0.0-beta.33",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.33",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access-7.0.0-beta.33.tgz_1512138541185_0.44353486876934767"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.55",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.55.tgz",
+        "shasum" : "f3f3ce279f20fc90c166c4fea1667646857ba559"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.55",
+        "@babel/types" : "7.0.0-beta.55",
+        "lodash" : "^4.17.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.55_1532815667698_0.9119567521612064"
+      }
+    },
+    "7.7.4" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.7.4",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.7.4.tgz",
+        "shasum" : "a169a0adb1b5f418cfc19f22586b2ebf58a9a294"
+      },
+      "dependencies" : {
+        "@babel/template" : "^7.7.4",
+        "@babel/types" : "^7.7.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.7.4_1574465616699_0.8464131172357914"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.8.3",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.8.3.tgz",
+        "shasum" : "7f8109928b4dab4654076986af575231deb639ae"
+      },
+      "dependencies" : {
+        "@babel/template" : "^7.8.3",
+        "@babel/types" : "^7.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.8.3_1578951733044_0.2121444442823679"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.50",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.50.tgz",
+        "shasum" : "878bbb6d4c58ae777cfbebc7c1875f411e137eec"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.50",
+        "@babel/types" : "7.0.0-beta.50",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.50_1528832874396_0.004400910318691498"
+      }
+    },
+    "7.7.0" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.7.0",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.7.0.tgz",
+        "shasum" : "97a8b6c52105d76031b86237dc1852b44837243d"
+      },
+      "dependencies" : {
+        "@babel/template" : "^7.7.0",
+        "@babel/types" : "^7.7.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v13.0.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.7.0",
+      "gitHead" : "97faa83953cb87e332554fa559a4956d202343ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.7.0_1572951221543_0.3511795452617765"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "7.8.0" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.8.0",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.8.0.tgz",
+        "shasum" : "a5095ab031f759995134183fa7719aa85f0ec962"
+      },
+      "dependencies" : {
+        "@babel/template" : "^7.8.0",
+        "@babel/types" : "^7.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.8.0_1578788229952_0.9057897180577217"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.1.0" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.1.0",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.1.0.tgz",
+        "shasum" : "65eeb954c8c245beaa4e859da6188f39d71e585c"
+      },
+      "dependencies" : {
+        "@babel/template" : "^7.1.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.1.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.1.0_1537212637893_0.25247859060538147"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0.tgz",
+        "shasum" : "ff36a27983ae4c27122da2f7f294dced80ecbd08"
+      },
+      "dependencies" : {
+        "@babel/template" : "^7.0.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0_1535406264036_0.8864298900738399"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/helper-simple-access\n\n> Babel helper for ensuring that access to a given value is performed through simple accesses\n\nSee our website [@babel/helper-simple-access](https://babeljs.io/docs/en/next/babel-helper-simple-access.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-simple-access\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-simple-access --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.49",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.49.tgz",
+        "shasum" : "97a41e2789a9bf8a6c30536a258b79e7444c5d82"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.49",
+        "@babel/types" : "7.0.0-beta.49",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.49_1527264228948_0.30304993695504256"
+      },
+      "_shasum" : "97a41e2789a9bf8a6c30536a258b79e7444c5d82",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.48",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.48.tgz",
+        "shasum" : "740e2c0055396ea2d31d0ab8cfc7c37d3e44584d"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.48",
+        "@babel/types" : "7.0.0-beta.48",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.48_1527189859340_0.40863467022648514"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.43",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.43.tgz",
+        "shasum" : "b8e869f5a4cf1e88a5c11b9e32998d5045d89cc7"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.43",
+        "@babel/types" : "7.0.0-beta.43",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.43_1522687728280_0.14336596580478722"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.42",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.42.tgz",
+        "shasum" : "9d32bed186b0bc365115c600817e791c22d72c74"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.42",
+        "@babel/types" : "7.0.0-beta.42",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.42",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.42_1521147113992_0.6743815227481109"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.41",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.41.tgz",
+        "shasum" : "fd6791214dac026d6cc3f2a3b15477137205fbad"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.41",
+        "@babel/types" : "7.0.0-beta.41",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.41",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.41_1521044799494_0.056855245387483766"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.40" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.40",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.40.tgz",
+        "shasum" : "018f765090a3d25153778958969f235dc6ce5b57"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.40",
+        "@babel/types" : "7.0.0-beta.40",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.40",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.40_1518453748626_0.3590840229295349"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.47",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.47.tgz",
+        "shasum" : "234d754acbda9251a10db697ef50181eab125042"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.47",
+        "@babel/types" : "7.0.0-beta.47",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.47_1526343442676_0.03222080311317588"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.46",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.46.tgz",
+        "shasum" : "8eb0edf978c85915d11b6a7aa8591434e158170d"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.46",
+        "@babel/types" : "7.0.0-beta.46",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.46_1524457942985_0.4927209168675075"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.45",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.45.tgz",
+        "shasum" : "93c310ff6cde38d5c27c9984c34c532efe33a5ed"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.45",
+        "@babel/types" : "7.0.0-beta.45",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.45_1524448686161_0.00898902116439726"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/helper-simple-access",
+      "description" : "Babel helper for ensuring that access to a given value is performed through simple accesses",
+      "version" : "7.0.0-beta.44",
+      "author" : {
+        "name" : "Logan Smyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-simple-access/-/helper-simple-access-7.0.0-beta.44.tgz",
+        "shasum" : "03fb6bfc91eb0a95f6c11499153f8c663654dce5"
+      },
+      "dependencies" : {
+        "@babel/template" : "7.0.0-beta.44",
+        "@babel/types" : "7.0.0-beta.44",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-simple-access@7.0.0-beta.44",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-simple-access_7.0.0-beta.44_1522707628180_0.10947252966987908"
+      },
+      "_nodeVersion" : "8.10.0"
+    }
+  },
+  "readme" : "# @babel/helper-simple-access\n\n> Babel helper for ensuring that access to a given value is performed through simple accesses\n\nSee our website [@babel/helper-simple-access](https://babeljs.io/docs/en/next/babel-helper-simple-access.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-simple-access\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-simple-access --dev\n```\n",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "author" : {
+    "name" : "Logan Smyth",
+    "email" : "loganfsmyth@gmail.com"
+  },
+  "time" : {
+    "7.0.0-rc.1" : "2018-08-09T20:09:25.569Z",
+    "7.0.0-rc.2" : "2018-08-21T19:25:35.550Z",
+    "7.0.0-rc.0" : "2018-08-09T15:59:34.281Z",
+    "7.0.0-beta.39" : "2018-01-30T20:27:55.427Z",
+    "7.0.0-beta.38" : "2018-01-17T16:32:27.860Z",
+    "7.0.0-rc.3" : "2018-08-24T18:09:12.302Z",
+    "7.0.0-beta.37" : "2018-01-08T16:03:31.469Z",
+    "7.0.0-rc.4" : "2018-08-27T16:46:00.261Z",
+    "7.0.0-beta.5" : "2017-10-30T20:57:17.642Z",
+    "7.0.0-beta.4" : "2017-10-30T18:35:38.945Z",
+    "7.0.0-beta.32" : "2017-11-12T13:33:48.379Z",
+    "7.0.0-beta.54" : "2018-07-16T18:00:22.578Z",
+    "7.0.0-beta.31" : "2017-11-03T20:04:03.801Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:40.562Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:41.455Z",
+    "7.0.0-beta.51" : "2018-06-12T21:20:31.568Z",
+    "7.0.0-beta.36" : "2017-12-25T19:05:21.423Z",
+    "7.0.0-beta.35" : "2017-12-14T21:48:15.720Z",
+    "7.0.0-beta.34" : "2017-12-02T14:39:59.673Z",
+    "7.0.0-beta.56" : "2018-08-04T01:07:55.633Z",
+    "7.0.0-beta.33" : "2017-12-01T14:29:02.067Z",
+    "7.0.0-beta.55" : "2018-07-28T22:07:47.879Z",
+    "modified" : "2020-01-13T21:42:17.557Z",
+    "7.7.4" : "2019-11-22T23:33:36.822Z",
+    "7.8.3" : "2020-01-13T21:42:13.190Z",
+    "7.0.0-beta.50" : "2018-06-12T19:47:54.467Z",
+    "7.7.0" : "2019-11-05T10:53:41.704Z",
+    "7.8.0" : "2020-01-12T00:17:16.383Z",
+    "7.1.0" : "2018-09-17T19:30:38.027Z",
+    "created" : "2017-10-30T18:35:38.945Z",
+    "7.0.0" : "2018-08-27T21:44:24.097Z",
+    "7.0.0-beta.49" : "2018-05-25T16:03:49.006Z",
+    "7.0.0-beta.48" : "2018-05-24T19:24:19.401Z",
+    "7.0.0-beta.43" : "2018-04-02T16:48:48.402Z",
+    "7.0.0-beta.42" : "2018-03-15T20:51:54.039Z",
+    "7.0.0-beta.41" : "2018-03-14T16:26:39.762Z",
+    "7.0.0-beta.40" : "2018-02-12T16:42:28.697Z",
+    "7.0.0-beta.47" : "2018-05-15T00:17:22.737Z",
+    "7.0.0-beta.46" : "2018-04-23T04:32:23.032Z",
+    "7.0.0-beta.45" : "2018-04-23T01:58:06.220Z",
+    "7.0.0-beta.44" : "2018-04-02T22:20:28.235Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-simple-access"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://babeljs.io/",
+  "license" : "MIT"
+}

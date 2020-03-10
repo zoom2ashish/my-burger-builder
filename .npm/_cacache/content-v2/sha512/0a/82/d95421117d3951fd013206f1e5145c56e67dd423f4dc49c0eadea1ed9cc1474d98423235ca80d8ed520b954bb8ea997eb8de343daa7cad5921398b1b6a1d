@@ -1,0 +1,569 @@
+{
+  "_id" : "@svgr/hast-util-to-babel-ast",
+  "_rev" : "9-dd1441b8334bef98fa75c21af261af53",
+  "name" : "@svgr/hast-util-to-babel-ast",
+  "description" : "Transform HAST to Babel AST (JSX)",
+  "dist-tags" : {
+    "latest" : "5.0.1"
+  },
+  "versions" : {
+    "4.0.2" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-4.0.2.tgz",
+        "shasum" : "35d3c84ba7a0d7b591c440285b691d5d2946091b"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.1.3"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@4.0.2",
+      "gitHead" : "fb7ed11b2885c2c86546c9fa10c8aa2d3f4b13e0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_4.0.2_1541705828505_0.9609025052598767"
+      }
+    },
+    "4.2.0" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/hast-util-to-babel-ast"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-4.2.0.tgz",
+        "shasum" : "dd743435a5f3a8e84a1da067f27b5fae3d7b6b63"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.4.0"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@4.2.0",
+      "gitHead" : "35d3f4d446e5402902ee922a3f9984000bb74920",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_4.2.0_1554966103002_0.7127848772266565"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "4.0.3" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-4.0.3.tgz",
+        "shasum" : "c6a7038e532d944d6d75dc169e9cabfb5d585d76"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.1.5"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@4.0.3",
+      "gitHead" : "3c7d6caafb687bf8532f040bdfe8eb0a12a1da94",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_4.0.3_1542101701792_0.2732052988302849"
+      }
+    },
+    "5.0.0" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/hast-util-to-babel-ast"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-5.0.0.tgz",
+        "shasum" : "52f31acf0a3e1fb92d668835d6da2f659368b60a"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.4.4"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@5.0.0",
+      "gitHead" : "cfc0fc2786024820ea476739eda6cca342cf4230",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_5.0.0_1577110002123_0.9158389039653592"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "4.0.0" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-4.0.0.tgz",
+        "shasum" : "7ecab0927cfc24f110130d1cd0f8b90581105666"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.1.3"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@4.0.0",
+      "gitHead" : "d6beadaa9943157b59c085f03a45813897cc337c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_4.0.0_1541344663498_0.575768771660258"
+      }
+    },
+    "5.0.1" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "homepage" : "https://react-svgr.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gregberge/svgr/tree/master/packages/hast-util-to-babel-ast"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-5.0.1.tgz",
+        "shasum" : "0dce60a955465f0bd86bcd9c523b21472d6531d3"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.4.4"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@5.0.1",
+      "gitHead" : "2c0863b6821ef6b86bd7ad1a0267ba7e07b163ff",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/gregberge"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_5.0.1_1577611799384_0.5699320159385766"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "4.0.1" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-4.0.1.tgz",
+        "shasum" : "c08108f3e8e3899647ead59b7ad133009cf6825a"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.1.3"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@4.0.1",
+      "gitHead" : "fb2511c8d1a3da712442fc01b33534ede6c2a857",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_4.0.1_1541686433772_0.7751076681448115"
+      }
+    },
+    "4.1.0" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-4.1.0.tgz",
+        "shasum" : "a1eb0f47059769896f759f47995b636fce5d9fa4"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.1.6"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@4.1.0",
+      "gitHead" : "36a43e2d45469d6ff9aae6d4de004487fc649f03",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_4.1.0_1543073353743_0.13280797623208818"
+      }
+    },
+    "4.3.1" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/hast-util-to-babel-ast"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-4.3.1.tgz",
+        "shasum" : "b3ea5b2228b50ff335a5d3cf3855f4b1f9fbc70e"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.4.4"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.14.1/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@4.3.1",
+      "gitHead" : "06e1e996a92289183fca0aabe4ba286e3a227f1b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_4.3.1_1561971388684_0.4461614291264624"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "4.3.2" : {
+      "name" : "@svgr/hast-util-to-babel-ast",
+      "description" : "Transform HAST to Babel AST (JSX)",
+      "version" : "4.3.2",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/hast-util-to-babel-ast"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/hast-util-to-babel-ast/-/hast-util-to-babel-ast-4.3.2.tgz",
+        "shasum" : "1d5a082f7b929ef8f1f578950238f630e14532b8"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.4.4"
+      },
+      "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/hast-util-to-babel-ast@4.3.2",
+      "gitHead" : "85446119414d768be3ab660ed4a20930a59f8eb5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hast-util-to-babel-ast_4.3.2_1563180949509_0.03697438120783092"
+      },
+      "_nodeVersion" : "10.14.2"
+    }
+  },
+  "readme" : "# @svgr/hast-util-to-babel-ast\n\n[![Build Status](https://img.shields.io/travis/smooth-code/svgr.svg)](https://travis-ci.org/smooth-code/svgr)\n[![Version](https://img.shields.io/npm/v/@svgr/hast-util-to-babel-ast.svg)](https://www.npmjs.com/package/@svgr/hast-util-to-babel-ast)\n[![MIT License](https://img.shields.io/npm/l/@svgr/hast-util-to-babel-ast.svg)](https://github.com/smooth-code/svgr/blob/master/LICENSE)\n\nTransforms HAST into Babel AST.\n\n## Install\n\n```\b\nnpm install --save-dev @svgr/hast-util-to-babel-ast\n```\n\n## Usage\n\n```js\nimport { parse } from 'svg-parser';\nimport toBabelAST from '@svgr/hast-util-to-babel-ast'\n\nconst hastTree = parse(`<svg></svg>`)\n\nconst babelTree = hastToBabelAst(hastTree)\n```\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "neoziro",
+    "email" : "berge.greg@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Greg Bergé",
+    "email" : "berge.greg@gmail.com"
+  },
+  "time" : {
+    "created" : "2018-11-04T15:17:43.428Z",
+    "4.0.2" : "2018-11-08T19:37:08.605Z",
+    "4.2.0" : "2019-04-11T07:01:43.195Z",
+    "modified" : "2019-12-29T09:30:06.606Z",
+    "4.0.3" : "2018-11-13T09:35:01.912Z",
+    "5.0.0" : "2019-12-23T14:06:42.252Z",
+    "4.0.0" : "2018-11-04T15:17:43.642Z",
+    "5.0.1" : "2019-12-29T09:29:59.526Z",
+    "4.0.1" : "2018-11-08T14:13:53.901Z",
+    "4.1.0" : "2018-11-24T15:29:13.878Z",
+    "4.3.1" : "2019-07-01T08:56:28.793Z",
+    "4.3.2" : "2019-07-15T08:55:49.661Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/gregberge/svgr/tree/master/packages/hast-util-to-babel-ast"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://react-svgr.com",
+  "keywords" : [ "html", "hast", "babel", "hast-util", "unist-util", "unist" ],
+  "license" : "MIT"
+}

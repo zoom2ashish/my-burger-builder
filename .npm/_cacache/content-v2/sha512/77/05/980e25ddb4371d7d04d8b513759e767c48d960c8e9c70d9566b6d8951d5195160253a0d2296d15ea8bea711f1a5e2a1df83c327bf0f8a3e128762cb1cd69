@@ -1,0 +1,1223 @@
+{
+  "_id" : "camel-case",
+  "_rev" : "33-9cf233280b6b9124b202e4de2381d194",
+  "name" : "camel-case",
+  "description" : "Transform into a string with the separator denoted by the next word capitalized",
+  "dist-tags" : {
+    "latest" : "4.1.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-2.0.0.tgz",
+        "shasum" : "99b3a3f4fa1031452de20848087e606016b3aa5f"
+      },
+      "dependencies" : {
+        "no-case" : "^2.0.0",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.2.1",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "camel-case.js", "camel-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-spec" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@2.0.0",
+      "gitHead" : "b2cfdb79c6b08e0d8f5ccd8ead7a616c4529a470",
+      "typings" : "camel-case.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/camel-case-2.0.0.tgz_1465682040398_0.7212084690108895"
+      },
+      "_shasum" : "99b3a3f4fa1031452de20848087e606016b3aa5f",
+      "_nodeVersion" : "6.2.1"
+    },
+    "2.1.0" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-2.1.0.tgz",
+        "shasum" : "0a8c8a06c121684815260bd2b772abef25974b4d"
+      },
+      "dependencies" : {
+        "no-case" : "^2.2.0",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.4.3",
+        "mocha" : "^2.2.1",
+        "standard" : "^7.1.2"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "camel-case.js", "camel-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-spec" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@2.1.0",
+      "gitHead" : "1fa6a4bf19d25bcbd7de1eb1b1de43d154a6c684",
+      "typings" : "camel-case.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/camel-case-2.1.0.tgz_1465691984642_0.9845345632638782"
+      },
+      "_shasum" : "0a8c8a06c121684815260bd2b772abef25974b4d",
+      "_nodeVersion" : "6.2.1"
+    },
+    "4.1.1" : {
+      "name" : "camel-case",
+      "description" : "Transform into a string with the separator denoted by the next word capitalized",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/camel-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-4.1.1.tgz",
+        "shasum" : "1fc41c854f00e2f7d0139dfeba1542d6896fe547"
+      },
+      "dependencies" : {
+        "pascal-case" : "^3.1.1",
+        "tslib" : "^1.10.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "convert", "transform", "identifier" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@4.1.1",
+      "gitHead" : "1c1377a692d328ae01221b2a1532bade38e1eaa3",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camel-case_4.1.1_1576721500813_0.21204083794108497"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "450 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "4.0.0" : {
+      "name" : "camel-case",
+      "description" : "Transform into a string with the separator denoted by the next word capitalized",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/camel-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-4.0.0.tgz",
+        "shasum" : "bc52e4d40c63c291f99ac41d28f4e3064858d1ee"
+      },
+      "dependencies" : {
+        "pascal-case" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "convert", "transform", "identifier" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs && npm run size",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@4.0.0",
+      "gitHead" : "55911ca17c2e0c964b9b84143e14e29ffc9ff499",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camel-case_4.0.0_1575181158776_0.15874752185816043"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "450 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "4.0.1" : {
+      "name" : "camel-case",
+      "description" : "Transform into a string with the separator denoted by the next word capitalized",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/camel-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-4.0.1.tgz",
+        "shasum" : "6b111e4564974c34b371628a0915c7b8f9b8e576"
+      },
+      "dependencies" : {
+        "pascal-case" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "convert", "transform", "identifier" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs && npm run size",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@4.0.1",
+      "gitHead" : "a3df3a43bfd3d8e3386d0fb09b69454b91516d18",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camel-case_4.0.1_1575351625132_0.967600880855932"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "450 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "4.1.0" : {
+      "name" : "camel-case",
+      "description" : "Transform into a string with the separator denoted by the next word capitalized",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/camel-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-4.1.0.tgz",
+        "shasum" : "bdfcea5134eb8dc928e13c1ee84fd5635ba65e25"
+      },
+      "dependencies" : {
+        "pascal-case" : "^3.1.0",
+        "tslib" : "^1.10.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "convert", "transform", "identifier" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@4.1.0",
+      "gitHead" : "07b68e1a696a1a34090d4f1fc136b1bd467aaa3f",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camel-case_4.1.0_1575601552317_0.9801505099616716"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "450 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "0.0.2" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-0.0.2.tgz",
+        "shasum" : "f85413e63996ace087c54163c93bc15ab6523ed6"
+      },
+      "dependencies" : {
+        "sentence-case" : "0.0.2"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "camel", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@0.0.2"
+    },
+    "0.0.1" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-0.0.1.tgz",
+        "shasum" : "6234e47624573e03d7ecac073176a8d1176b4b76"
+      },
+      "dependencies" : {
+        "sentence-case" : "0.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "camel", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@0.0.1"
+    },
+    "0.1.0" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-0.1.0.tgz",
+        "shasum" : "ecc04d6fc1fadb0067147b1a22571f307a9f3861"
+      },
+      "dependencies" : {
+        "sentence-case" : "^0.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "camel", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@0.1.0"
+    },
+    "1.1.2" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.1.2.tgz",
+        "shasum" : "6129245add2f3f0cb352933e727b0ca8c76bf8bf"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.1",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.2.1",
+        "pre-commit" : "^1.0.6",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "camel-case.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.1.2",
+      "gitHead" : "46c7454979db430a08ae449276e9f1e2b0771e25",
+      "_shasum" : "6129245add2f3f0cb352933e727b0ca8c76bf8bf",
+      "_nodeVersion" : "2.0.1"
+    },
+    "1.2.1" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.2.1.tgz",
+        "shasum" : "e805e6fe6c0788996991f3c50cb7d368c5257fff"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.1",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.2.1",
+        "pre-commit" : "^1.0.6",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "camel-case.js", "camel-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.2.1",
+      "gitHead" : "ff700c508a3c5470129cc4eee1aaee25bf10189d",
+      "typings" : "camel-case.d.ts",
+      "_shasum" : "e805e6fe6c0788996991f3c50cb7d368c5257fff",
+      "_nodeVersion" : "5.2.0"
+    },
+    "1.2.2" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.2.2.tgz",
+        "shasum" : "1aca7c4d195359a2ce9955793433c6e5542511f2"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.1",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.2.1",
+        "pre-commit" : "^1.0.6",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "camel-case.js", "camel-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.2.2",
+      "gitHead" : "7621750e383be5e4b553077a53d546a077fab872",
+      "typings" : "camel-case.d.ts",
+      "_shasum" : "1aca7c4d195359a2ce9955793433c6e5542511f2",
+      "_nodeVersion" : "5.2.0"
+    },
+    "3.0.0" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-3.0.0.tgz",
+        "shasum" : "ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
+      },
+      "dependencies" : {
+        "no-case" : "^2.2.0",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.4.3",
+        "mocha" : "^2.2.1",
+        "standard" : "^7.1.2"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "camel-case.js", "camel-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-spec" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@3.0.0",
+      "gitHead" : "719ebc39a5bf828f794db64bb1a78c8dd8fef133",
+      "typings" : "camel-case.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/camel-case-3.0.0.tgz_1465692427226_0.6504076849669218"
+      },
+      "_shasum" : "ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73",
+      "_nodeVersion" : "6.2.1"
+    },
+    "1.0.0" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.0.0.tgz",
+        "shasum" : "c26acc724ddf8a7e5ad5eeebfda6457e975053ce"
+      },
+      "dependencies" : {
+        "sentence-case" : "^0.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "camel", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.0.0",
+      "gitHead" : "db99be06bcabd47b74587fc342eacc8e7b56e16e",
+      "_shasum" : "c26acc724ddf8a7e5ad5eeebfda6457e975053ce"
+    },
+    "1.0.1" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.0.1.tgz",
+        "shasum" : "24b85d2416245136c04bccfdba92fb23709a451e"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "camel", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.0.1",
+      "gitHead" : "164f895a1b5b0ae42134fc52a8b79dd1378cac49",
+      "_shasum" : "24b85d2416245136c04bccfdba92fb23709a451e"
+    },
+    "1.1.0" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.1.0.tgz",
+        "shasum" : "f700f3f0be52c25510145d8aa07ab1a9b23b6ff1"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.1",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2",
+        "pre-commit" : "0.0.9"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.17",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.1.0",
+      "gitHead" : "7c136aaf22f42a3177fca08c30847027dbd65fe4",
+      "_shasum" : "f700f3f0be52c25510145d8aa07ab1a9b23b6ff1",
+      "_nodeVersion" : "0.11.14"
+    },
+    "1.0.2" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.0.2.tgz",
+        "shasum" : "700f8c6e3e4f242a0951ac709034ba12d28fd02a"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "camel", "case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.0.2",
+      "_shasum" : "700f8c6e3e4f242a0951ac709034ba12d28fd02a"
+    },
+    "1.1.1" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.1.1.tgz",
+        "shasum" : "0035dd78f24ac4c530d134b726cc39b6c7994c34"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.1",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2",
+        "pre-commit" : "0.0.9"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "camel-case.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.17",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.1.1",
+      "gitHead" : "2e20ae865f2ec30ba8452cf6cf92e77ae29b12ad",
+      "_shasum" : "0035dd78f24ac4c530d134b726cc39b6c7994c34",
+      "_nodeVersion" : "0.11.14"
+    },
+    "1.2.0" : {
+      "name" : "camel-case",
+      "description" : "Camel case a string",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/camel-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/camel-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/camel-case/issues"
+      },
+      "main" : "camel-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/camel-case/-/camel-case-1.2.0.tgz",
+        "shasum" : "b53c17e3f9c22f457ec42707c60864556a3335b7"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.1",
+        "upper-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.2.1",
+        "pre-commit" : "^1.0.6",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "camel", "case", "camelcase", "camel-case", "dash", "hyphen", "dot", "underscore", "lodash", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "camel-case.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "camel-case@1.2.0",
+      "gitHead" : "db857c209ade1ae5cf6fecafab23e0b12a28697d",
+      "_shasum" : "b53c17e3f9c22f457ec42707c60864556a3335b7",
+      "_nodeVersion" : "4.0.0"
+    }
+  },
+  "readme" : "# Camel Case\n\n[![NPM version][npm-image]][npm-url]\n[![NPM downloads][downloads-image]][downloads-url]\n[![Bundle size][bundlephobia-image]][bundlephobia-url]\n\n> Transform into a string with the separator denoted by the next word capitalized.\n\n## Installation\n\n```\nnpm install camel-case --save\n```\n\n## Usage\n\n```js\nimport { camelCase } from \"camel-case\";\n\ncamelCase(\"string\"); //=> \"string\"\ncamelCase(\"dot.case\"); //=> \"dotCase\"\ncamelCase(\"PascalCase\"); //=> \"pascalCase\"\ncamelCase(\"version 1.2.10\"); //=> \"version_1_2_10\"\n```\n\nThe function also accepts [`options`](https://github.com/blakeembrey/change-case#options).\n\n### Merge Numbers\n\nIf you'd like to remove the behavior prefixing `_` before numbers, you can use `camelCaseTransformMerge`:\n\n```js\nimport { camelCaseTransformMerge } from \"camel-case\";\n\ncamelCase(\"version 12\", { transform: camelCaseTransformMerge }); //=> \"version12\"\n```\n\n## License\n\nMIT\n\n[npm-image]: https://img.shields.io/npm/v/camel-case.svg?style=flat\n[npm-url]: https://npmjs.org/package/camel-case\n[downloads-image]: https://img.shields.io/npm/dm/camel-case.svg?style=flat\n[downloads-url]: https://npmjs.org/package/camel-case\n[bundlephobia-image]: https://img.shields.io/bundlephobia/minzip/camel-case.svg\n[bundlephobia-url]: https://bundlephobia.com/result?p=camel-case\n",
+  "maintainers" : [ {
+    "name" : "blakeembrey",
+    "email" : "hello@blakeembrey.com"
+  } ],
+  "author" : {
+    "name" : "Blake Embrey",
+    "email" : "hello@blakeembrey.com",
+    "url" : "http://blakeembrey.me"
+  },
+  "time" : {
+    "2.0.0" : "2016-06-11T21:54:02.635Z",
+    "2.1.0" : "2016-06-12T00:39:47.287Z",
+    "created" : "2014-03-24T22:35:20.984Z",
+    "4.1.1" : "2019-12-19T02:11:41.017Z",
+    "4.0.0" : "2019-12-01T06:19:18.902Z",
+    "4.0.1" : "2019-12-03T05:40:25.275Z",
+    "4.1.0" : "2019-12-06T03:05:52.504Z",
+    "0.0.2" : "2014-03-25T02:12:15.457Z",
+    "0.0.1" : "2014-03-24T22:35:20.984Z",
+    "0.1.0" : "2014-04-09T09:46:11.671Z",
+    "1.1.2" : "2015-05-11T23:34:37.712Z",
+    "1.2.1" : "2015-12-16T00:31:01.839Z",
+    "1.2.2" : "2015-12-16T00:32:06.801Z",
+    "3.0.0" : "2016-06-12T00:47:09.751Z",
+    "modified" : "2019-12-19T02:11:43.301Z",
+    "1.0.0" : "2014-08-17T18:34:38.703Z",
+    "1.0.1" : "2014-08-17T19:25:11.931Z",
+    "1.1.0" : "2015-01-12T08:16:25.752Z",
+    "1.0.2" : "2014-08-19T13:40:41.204Z",
+    "1.1.1" : "2015-01-12T08:17:11.890Z",
+    "1.2.0" : "2015-10-21T01:12:38.014Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/blakeembrey/change-case.git"
+  },
+  "users" : {
+    "jtrh" : true,
+    "itonyyo" : true,
+    "bardleware" : true,
+    "shangsinian" : true,
+    "bigdoods" : true,
+    "loki2302" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/camel-case#readme",
+  "keywords" : [ "camel", "case", "camelcase", "camel-case", "convert", "transform", "identifier" ],
+  "bugs" : {
+    "url" : "https://github.com/blakeembrey/change-case/issues"
+  },
+  "license" : "MIT"
+}

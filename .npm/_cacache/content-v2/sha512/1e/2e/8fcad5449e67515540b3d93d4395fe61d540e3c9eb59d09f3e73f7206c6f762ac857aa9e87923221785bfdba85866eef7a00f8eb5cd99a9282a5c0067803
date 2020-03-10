@@ -1,0 +1,936 @@
+{
+  "_id" : "@types/testing-library__dom",
+  "_rev" : "185-d4e0a74fbf1a5a0702ed226e17f5061e",
+  "name" : "@types/testing-library__dom",
+  "description" : "TypeScript definitions for @testing-library/dom",
+  "dist-tags" : {
+    "ts3.1" : "6.12.1",
+    "ts3.0" : "6.12.1",
+    "ts3.9" : "6.12.0",
+    "ts3.8" : "6.12.1",
+    "ts3.7" : "6.12.1",
+    "ts3.6" : "6.12.1",
+    "ts3.5" : "6.12.1",
+    "ts3.4" : "6.12.1",
+    "ts3.3" : "6.12.1",
+    "latest" : "6.12.1",
+    "ts3.2" : "6.12.1"
+  },
+  "versions" : {
+    "6.5.3" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.5.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      }, {
+        "name" : "Ronald Rey",
+        "url" : "https://github.com/reyronald",
+        "githubUsername" : "reyronald"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.5.3.tgz",
+        "shasum" : "4a33e91055994c9f08981253edec44c85f4dd7f0"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.5.3",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "358900b1cad57e8c98e082a5582bff749400126acd70d81fa372e5ed23590177",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.5.3_1571086253540_0.23150632998809573"
+      }
+    },
+    "6.5.1" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.5.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.5.1.tgz",
+        "shasum" : "542701cb6985e5327d0c0ebf78a9c183cf23681c"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.5.1",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "3b9bc9a5a912acbc550d19f699eeef57ef11f92c65a764b69eb3c0e17ff3f98d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.5.1_1570491717115_0.9725090931171081"
+      }
+    },
+    "6.5.2" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.5.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      }, {
+        "name" : "Ronald Rey",
+        "url" : "https://github.com/reyronald",
+        "githubUsername" : "reyronald"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.5.2.tgz",
+        "shasum" : "b449b6dbd2f90896c2ab23a67a879198263c9546"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.5.2",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "9d459ec0a9c67099940da3398cc7784d43f9b90b516e7e454865ab367d569f13",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.5.2_1570738785370_0.2988943358385072"
+      }
+    },
+    "6.4.0" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.4.0.tgz",
+        "shasum" : "a9411ed4942a11260ffd1790c4d2225959171c72"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.4.0",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "bce3a9036ac2238acafb9938e79b8544ac30e85a61fb8d4a421ae021aa7bd14a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.4.0_1569444635216_0.13572741614636552"
+      }
+    },
+    "6.5.0" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.5.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.5.0.tgz",
+        "shasum" : "ae67c9cdac1bb20dd210bbf3decac9da16981f84"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.5.0",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "dbcc80b3f7664ac04e6d9ca1e571e0bb0210f1493d61ea0f8d12655793cc12a6",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.5.0_1570135188401_0.7140942557216201"
+      }
+    },
+    "6.0.2" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.0.2.tgz",
+        "shasum" : "1e40c5f12671b98e86706f6c9ba55eaab3461edc"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.0.2",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "182d97d7a6143b6ca6f10d4976452d7fdc917056e7af0eb03c19886f48f56408",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.0.2_1567555682333_0.15003736836776937"
+      }
+    },
+    "6.0.3" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.0.3.tgz",
+        "shasum" : "fb7f98d215de209a9c8ad677c13c2955a5b8a999"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.0.3",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "b26fe5e394176c8bab2a3a32442d3d81c9c3da518f0387b17df964c681fa847e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.0.3_1567707467142_0.021170288236226797"
+      }
+    },
+    "6.0.0" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.0.0.tgz",
+        "shasum" : "89d756b5b31f4b9632bcf04ff86f2a427671d195"
+      },
+      "dependencies" : {
+        "@types/pretty-format" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.0.0",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "83b7b1b1e90908515ae194c35727f1a170ff0ab9e38d7afcfc984b4be5d489b7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.0.0_1565892591171_0.5753467339841085"
+      }
+    },
+    "6.0.1" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.0.1.tgz",
+        "shasum" : "e62c7799a210163ae72b8ac00cc4a841951f9f2d"
+      },
+      "dependencies" : {
+        "@types/pretty-format" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.0.1",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "b72a8db5133fa4983ad0fdaf8dfb846d8034f767c4fbce8cd3eca7f36b2379cd",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.0.1_1566253518136_0.34799277821434993"
+      }
+    },
+    "6.12.1" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.12.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      }, {
+        "name" : "Ronald Rey",
+        "url" : "https://github.com/reyronald",
+        "githubUsername" : "reyronald"
+      }, {
+        "name" : "Justin Hall",
+        "url" : "https://github.com/wKovacs64",
+        "githubUsername" : "wKovacs64"
+      }, {
+        "name" : "Wesley Tsai",
+        "url" : "https://github.com/wezleytsai",
+        "githubUsername" : "wezleytsai"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.12.1.tgz",
+        "shasum" : "37af28fae051f9e3feed5684535b1540c97ae28b"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.12.1",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "79b0d128697a5852e63ef0955f3cc80e098de7036ccd8205ae5416c9cf5e1567",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.12.1_1581368613079_0.21399752893676505"
+      }
+    },
+    "6.10.0" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.10.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      }, {
+        "name" : "Ronald Rey",
+        "url" : "https://github.com/reyronald",
+        "githubUsername" : "reyronald"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.10.0.tgz",
+        "shasum" : "590d76e3875a7c536dc744eb530cbf51b6483404"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.10.0",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "b4e074a80c6a813540dce8b69440756843a156f3c9c2a3cc6079968aa110ba91",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.10.0_1572623224612_0.4726556656213019"
+      }
+    },
+    "6.11.0" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.11.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      }, {
+        "name" : "Ronald Rey",
+        "url" : "https://github.com/reyronald",
+        "githubUsername" : "reyronald"
+      }, {
+        "name" : "Justin Hall",
+        "url" : "https://github.com/wKovacs64",
+        "githubUsername" : "wKovacs64"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.11.0.tgz",
+        "shasum" : "777e3ef44cb48f2430e3fad6a2053ec39004a5d3"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.11.0",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "4df2c60e7a195387f6cf0016b55fac009a331aaca282cb918a4ce2a230bf4440",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.11.0_1576494672617_0.6952332299308395"
+      }
+    },
+    "6.11.1" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.11.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      }, {
+        "name" : "Ronald Rey",
+        "url" : "https://github.com/reyronald",
+        "githubUsername" : "reyronald"
+      }, {
+        "name" : "Justin Hall",
+        "url" : "https://github.com/wKovacs64",
+        "githubUsername" : "wKovacs64"
+      }, {
+        "name" : "Wesley Tsai",
+        "url" : "https://github.com/wezleytsai",
+        "githubUsername" : "wezleytsai"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.11.1.tgz",
+        "shasum" : "6058a6ac391db679f7c60dbb27b81f0620de2dd9"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.11.1",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "52739ecd12a925654d3e8f8839e614c3d0784f76e52b9b42cccd7673dd629438",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.11.1_1577988297018_0.2850501056856152"
+      }
+    },
+    "6.12.0" : {
+      "name" : "@types/testing-library__dom",
+      "description" : "TypeScript definitions for @testing-library/dom",
+      "version" : "6.12.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/testing-library__dom"
+      },
+      "contributors" : [ {
+        "name" : "Alex Krolick",
+        "url" : "https://github.com/alexkrolick",
+        "githubUsername" : "alexkrolick"
+      }, {
+        "name" : "Kent C Dodds",
+        "url" : "https://github.com/kentcdodds",
+        "githubUsername" : "kentcdodds"
+      }, {
+        "name" : "Sebastian Silbermann",
+        "url" : "https://github.com/eps1lon",
+        "githubUsername" : "eps1lon"
+      }, {
+        "name" : "Weyert de Boer",
+        "url" : "https://github.com/weyert",
+        "githubUsername" : "weyert"
+      }, {
+        "name" : "Ronald Rey",
+        "url" : "https://github.com/reyronald",
+        "githubUsername" : "reyronald"
+      }, {
+        "name" : "Justin Hall",
+        "url" : "https://github.com/wKovacs64",
+        "githubUsername" : "wKovacs64"
+      }, {
+        "name" : "Wesley Tsai",
+        "url" : "https://github.com/wezleytsai",
+        "githubUsername" : "wezleytsai"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/testing-library__dom/-/testing-library__dom-6.12.0.tgz",
+        "shasum" : "7d3b9e1ea7c1bda249b08d3b2dee8bb08a57976b"
+      },
+      "dependencies" : {
+        "pretty-format" : "^24.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/testing-library__dom@6.12.0",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "1d946dd8cbd99f0575c71c3be2b1d2b661adcebcb6ffa0601de32eb6d356eeef",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/testing-library__dom_6.12.0_1580323330027_0.7821102674937923"
+      }
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/testing-library__dom`\r\n\r\n# Summary\r\nThis package contains type definitions for @testing-library/dom (https://github.com/testing-library/dom-testing-library).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/testing-library__dom.\r\n\r\n### Additional Details\r\n * Last updated: Mon, 10 Feb 2020 20:54:35 GMT\r\n * Dependencies: [@types/pretty-format](https://npmjs.com/package/@types/pretty-format)\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Alex Krolick (https://github.com/alexkrolick), Kent C Dodds (https://github.com/kentcdodds), Sebastian Silbermann (https://github.com/eps1lon), Weyert de Boer (https://github.com/weyert), Ronald Rey (https://github.com/reyronald), Justin Hall (https://github.com/wKovacs64), and Wesley Tsai (https://github.com/wezleytsai).\r\n",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "created" : "2019-08-15T18:09:50.612Z",
+    "6.5.3" : "2019-10-14T20:50:53.635Z",
+    "6.5.1" : "2019-10-07T23:41:57.291Z",
+    "6.5.2" : "2019-10-10T20:19:45.503Z",
+    "6.4.0" : "2019-09-25T20:50:35.378Z",
+    "6.5.0" : "2019-10-03T20:39:48.562Z",
+    "6.0.2" : "2019-09-04T00:08:02.547Z",
+    "6.0.3" : "2019-09-05T18:17:47.260Z",
+    "6.0.0" : "2019-08-15T18:09:51.378Z",
+    "6.0.1" : "2019-08-19T22:25:18.289Z",
+    "6.12.1" : "2020-02-10T21:03:33.375Z",
+    "modified" : "2020-02-10T21:03:42.633Z",
+    "6.10.0" : "2019-11-01T15:47:04.761Z",
+    "6.11.0" : "2019-12-16T11:11:12.752Z",
+    "6.11.1" : "2020-01-02T18:04:57.157Z",
+    "6.12.0" : "2020-01-29T18:42:10.122Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/testing-library__dom"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "contributors" : [ {
+    "name" : "Alex Krolick",
+    "url" : "https://github.com/alexkrolick",
+    "githubUsername" : "alexkrolick"
+  }, {
+    "name" : "Kent C Dodds",
+    "url" : "https://github.com/kentcdodds",
+    "githubUsername" : "kentcdodds"
+  }, {
+    "name" : "Sebastian Silbermann",
+    "url" : "https://github.com/eps1lon",
+    "githubUsername" : "eps1lon"
+  }, {
+    "name" : "Weyert de Boer",
+    "url" : "https://github.com/weyert",
+    "githubUsername" : "weyert"
+  }, {
+    "name" : "Ronald Rey",
+    "url" : "https://github.com/reyronald",
+    "githubUsername" : "reyronald"
+  }, {
+    "name" : "Justin Hall",
+    "url" : "https://github.com/wKovacs64",
+    "githubUsername" : "wKovacs64"
+  }, {
+    "name" : "Wesley Tsai",
+    "url" : "https://github.com/wezleytsai",
+    "githubUsername" : "wezleytsai"
+  } ],
+  "license" : "MIT"
+}

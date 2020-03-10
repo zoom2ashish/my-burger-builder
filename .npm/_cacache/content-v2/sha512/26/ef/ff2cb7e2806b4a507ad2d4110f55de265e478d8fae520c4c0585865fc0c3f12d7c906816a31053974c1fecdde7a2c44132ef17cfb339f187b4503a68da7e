@@ -1,0 +1,704 @@
+{
+  "_id" : "pify",
+  "_rev" : "78-4bab967fbe00b715d55f01f1788968da",
+  "name" : "pify",
+  "description" : "Promisify a callback-style function",
+  "dist-tags" : {
+    "latest" : "5.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/pify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-2.0.0.tgz",
+        "shasum" : "7caa2a72d2c4a5ebb9f4db1cfcc5bf5ea0c10264"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^1.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "es2015" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@2.0.0",
+      "gitHead" : "1498ffad69776d3906f0ef177f861d8e82ae8be7",
+      "_shasum" : "7caa2a72d2c4a5ebb9f4db1cfcc5bf5ea0c10264",
+      "_nodeVersion" : "0.12.7"
+    },
+    "2.1.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/pify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-2.1.0.tgz",
+        "shasum" : "093996c0190b737612e3519fd24c7147166fcb6e"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^1.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "es2015" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@2.1.0",
+      "gitHead" : "9b0d12e83b849f4b75264cf08e0bfcf93c85d346",
+      "_shasum" : "093996c0190b737612e3519fd24c7147166fcb6e",
+      "_nodeVersion" : "3.0.0"
+    },
+    "3.0.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/pify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-3.0.0.tgz",
+        "shasum" : "e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^2.0.0",
+        "v8-natives" : "^1.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "all", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "await", "es2015", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && npm run optimization-test",
+        "optimization-test" : "node --allow-natives-syntax optimization-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@3.0.0",
+      "gitHead" : "e64328eb378e2ecd6bf8c0eb40aa3277680aaff4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pify-3.0.0.tgz_1495952727749_0.4502641425933689"
+      },
+      "_shasum" : "e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176",
+      "_nodeVersion" : "4.8.3"
+    },
+    "5.0.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "https://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/pify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-5.0.0.tgz",
+        "shasum" : "1f5eca3f5e87ebec28cc6d54a0e4aaf00acc127f"
+      },
+      "devDependencies" : {
+        "ava" : "^2.4.0",
+        "pinkie-promise" : "^2.0.0",
+        "v8-natives" : "^1.1.0",
+        "xo" : "^0.26.1"
+      },
+      "keywords" : [ "promisify", "callback", "promise", "promises", "denodify", "denodeify", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "async", "await", "es2015", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava",
+        "optimization-test" : "node --allow-natives-syntax optimization-test.js"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@5.0.0",
+      "gitHead" : "5ef286ffc5310e7dbe99eee1891378ffde962ae9",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pify_5.0.0_1581697595574_0.40959682391034624"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "4.0.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/pify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-4.0.0.tgz",
+        "shasum" : "db04c982b632fd0df9090d14aaf1c8413cadb695"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^2.0.0",
+        "v8-natives" : "^1.1.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "all", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "await", "es2015", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava",
+        "optimization-test" : "node --allow-natives-syntax optimization-test.js"
+      },
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@4.0.0",
+      "gitHead" : "67f6c41e8deb55b12ff7bbd96a689eb464a8a0ac",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pify_4.0.0_1533822577421_0.49626587296341373"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "4.0.1" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/pify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-4.0.1.tgz",
+        "shasum" : "4b2cd25c50d598735c50292224fd8c6df41e3231"
+      },
+      "devDependencies" : {
+        "ava" : "^0.25.0",
+        "pinkie-promise" : "^2.0.0",
+        "v8-natives" : "^1.1.0",
+        "xo" : "^0.23.0"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "all", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "await", "es2015", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava",
+        "optimization-test" : "node --allow-natives-syntax optimization-test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@4.0.1",
+      "gitHead" : "ef763593863d2a55df41e7f25147fa989f958fa1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pify_4.0.1_1540213139409_0.804611630545673"
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.0.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/pify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-1.0.0.tgz",
+        "shasum" : "ef1490fdd87eb5f84c411507d72e2b535790bc4e"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^1.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "es2015" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@1.0.0",
+      "gitHead" : "9f9082534d0eff1f0bae57501e10c820342a4259",
+      "_shasum" : "ef1490fdd87eb5f84c411507d72e2b535790bc4e",
+      "_nodeVersion" : "0.12.7"
+    },
+    "1.1.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/pify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-1.1.0.tgz",
+        "shasum" : "0b89b22c63d089de78f9668e2148165e85b10674"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^1.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "es2015" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@1.1.0",
+      "gitHead" : "e8c4e6f46cbd20d4886da5ef748c2c8863fa8767",
+      "_shasum" : "0b89b22c63d089de78f9668e2148165e85b10674",
+      "_nodeVersion" : "0.12.7"
+    },
+    "2.2.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/pify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-2.2.0.tgz",
+        "shasum" : "c65e870246c78b5a4ce6c0a6f35048c9aecd6cff"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^1.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "es2015" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@2.2.0",
+      "gitHead" : "665ffa9dcac562c59187279b0220300aa21740b0",
+      "_shasum" : "c65e870246c78b5a4ce6c0a6f35048c9aecd6cff",
+      "_nodeVersion" : "4.0.0"
+    },
+    "1.1.1" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/pify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-1.1.1.tgz",
+        "shasum" : "d06afb0e685893d6c16566d1f819b5ede2b33a29"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^1.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "es2015" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@1.1.1",
+      "gitHead" : "e40e7d47d41acaf51dcea2299e583fea6c0157a8",
+      "_shasum" : "d06afb0e685893d6c16566d1f819b5ede2b33a29",
+      "_nodeVersion" : "0.12.7"
+    },
+    "2.3.0" : {
+      "name" : "pify",
+      "description" : "Promisify a callback-style function",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/pify",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/pify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/pify/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pify/-/pify-2.3.0.tgz",
+        "shasum" : "ed141a6ac043a849ea588498e7dca8b15330e90c"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "pinkie-promise" : "^1.0.0",
+        "v8-natives" : "0.0.2",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "promises", "promisify", "denodify", "denodeify", "callback", "cb", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "to", "async", "es2015" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && npm run optimization-test",
+        "optimization-test" : "node --allow-natives-syntax optimization-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "pify@2.3.0",
+      "gitHead" : "2dd0d8b880e4ebcc5cc33ae126b02647418e4440",
+      "_shasum" : "ed141a6ac043a849ea588498e7dca8b15330e90c",
+      "_nodeVersion" : "4.2.1"
+    }
+  },
+  "readme" : "# pify [![Build Status](https://travis-ci.org/sindresorhus/pify.svg?branch=master)](https://travis-ci.org/sindresorhus/pify)\n\n> Promisify a callback-style function\n\n## Install\n\n```\n$ npm install pify\n```\n\n## Usage\n\n```js\nconst fs = require('fs');\nconst pify = require('pify');\n\n(async () => {\n\t// Promisify a single function.\n\tconst data = await pify(fs.readFile)('package.json', 'utf8');\n\tconsole.log(JSON.parse(data).name);\n\t//=> 'pify'\n\n\t// Promisify all methods in a module.\n\tconst data2 = await pify(fs).readFile('package.json', 'utf8');\n\tconsole.log(JSON.parse(data2).name);\n\t//=> 'pify'\n})();\n```\n\n## API\n\n### pify(input, options?)\n\nReturns a `Promise` wrapped version of the supplied function or module.\n\n#### input\n\nType: `Function | object`\n\nCallback-style function or module whose methods you want to promisify.\n\n#### options\n\nType: `object`\n\n##### multiArgs\n\nType: `boolean`\\\nDefault: `false`\n\nBy default, the promisified function will only return the second argument from the callback, which works fine for most APIs. This option can be useful for modules like `request` that return multiple arguments. Turning this on will make it return an array of all arguments from the callback, excluding the error argument, instead of just the second argument. This also applies to rejections, where it returns an array of all the callback arguments, including the error.\n\n```js\nconst request = require('request');\nconst pify = require('pify');\n\nconst pRequest = pify(request, {multiArgs: true});\n\n(async () => {\n\tconst [httpResponse, body] = await pRequest('https://sindresorhus.com');\n})();\n```\n\n##### include\n\nType: `Array<string | RegExp>`\n\nMethods in a module to promisify. Remaining methods will be left untouched.\n\n##### exclude\n\nType: `Array<string | RegExp>`\\\nDefault: `[/.+(?:Sync|Stream)$/]`\n\nMethods in a module **not** to promisify. Methods with names ending with `'Sync'` are excluded by default.\n\n##### excludeMain\n\nType: `boolean`\\\nDefault: `false`\n\nIf the given module is a function itself, it will be promisified. Enable this option if you want to promisify only methods of the module.\n\n```js\nconst pify = require('pify');\n\nfunction fn() {\n\treturn true;\n}\n\nfn.method = (data, callback) => {\n\tsetImmediate(() => {\n\t\tcallback(null, data);\n\t});\n};\n\n(async () => {\n\t// Promisify methods but not `fn()`.\n\tconst promiseFn = pify(fn, {excludeMain: true});\n\n\tif (promiseFn()) {\n\t\tconsole.log(await promiseFn.method('hi'));\n\t}\n})();\n```\n\n##### errorFirst\n\nType: `boolean`\\\nDefault: `true`\n\nWhether the callback has an error as the first argument. You'll want to set this to `false` if you're dealing with an API that doesn't have an error as the first argument, like `fs.exists()`, some browser APIs, Chrome Extension APIs, etc.\n\n##### promiseModule\n\nType: `Function`\n\nCustom promise module to use instead of the native one.\n\n## FAQ\n\n#### How is this different from Node.js's [`util.promisify`](https://nodejs.org/api/util.html#util_util_promisify_original)?\n\n- Pify existed long before `util.promisify`.\n- Pify is [faster](https://github.com/sindresorhus/pify/issues/41#issuecomment-429988506).\n- Pify supports wrapping a whole module/object, not just a specific method.\n- Pify has useful options like the ability to handle multiple arguments (`multiArgs`).\n- Pify does not have [magic behavior](https://nodejs.org/api/util.html#util_custom_promisified_functions) for certain Node.js methods and instead focuses on predictability.\n\n## Related\n\n- [p-event](https://github.com/sindresorhus/p-event) - Promisify an event by waiting for it to be emitted\n- [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-pify?utm_source=npm-pify&utm_medium=referral&utm_campaign=readme\">Get professional support for 'pify' with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "https://sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-09-04T07:45:20.325Z",
+    "2.1.0" : "2015-09-08T19:54:14.378Z",
+    "created" : "2015-08-29T08:15:22.672Z",
+    "4.0.0" : "2018-08-09T13:49:37.494Z",
+    "4.0.1" : "2018-10-22T12:58:59.524Z",
+    "2.2.0" : "2015-09-11T07:09:26.197Z",
+    "2.3.0" : "2015-10-26T13:16:18.238Z",
+    "3.0.0" : "2017-05-28T06:25:28.083Z",
+    "modified" : "2020-02-14T16:26:38.249Z",
+    "5.0.0" : "2020-02-14T16:26:35.672Z",
+    "1.0.0" : "2015-08-29T08:15:22.672Z",
+    "1.1.0" : "2015-08-30T04:05:41.513Z",
+    "1.1.1" : "2015-09-01T16:53:09.168Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/pify.git"
+  },
+  "users" : {
+    "sonnycrockett" : true,
+    "axelav" : true,
+    "jamescostian" : true,
+    "theoy" : true,
+    "lunelson" : true,
+    "quocnguyen" : true,
+    "l3au" : true,
+    "riyadhalnur" : true,
+    "seangenabe" : true,
+    "sujeet555" : true,
+    "fargie_s" : true,
+    "shakakira" : true,
+    "nickytonline" : true,
+    "shanewholloway" : true,
+    "zeusdeux" : true,
+    "scott.m.sarsfield" : true,
+    "jireve999" : true,
+    "jherax" : true,
+    "3846masa" : true,
+    "vidhill" : true,
+    "benrussert" : true,
+    "rocket0191" : true,
+    "mestar" : true,
+    "zhenguo.zhao" : true,
+    "panlw" : true,
+    "edloidas" : true,
+    "faraoman" : true,
+    "zhangaz1" : true,
+    "shangsinian" : true,
+    "andygreenegrass" : true,
+    "dqisme" : true,
+    "josephst18" : true,
+    "rsp" : true,
+    "floby" : true,
+    "antixrist" : true,
+    "bluelovers" : true,
+    "mariusc23" : true,
+    "isayme" : true,
+    "robinblomberg" : true,
+    "j.su" : true,
+    "andreaspizsa" : true,
+    "laomu" : true,
+    "zuojiang" : true,
+    "grreenzz" : true,
+    "wangfeia" : true,
+    "joanmi" : true,
+    "larrychen" : true,
+    "gpuente" : true,
+    "taoqianbao" : true,
+    "danielpavelic" : true,
+    "soenkekluth" : true,
+    "sensui" : true,
+    "marcellk" : true,
+    "scottfreecode" : true,
+    "f124275809" : true,
+    "moonou" : true,
+    "ash" : true,
+    "qualiabyte" : true,
+    "dralc" : true,
+    "daizch" : true,
+    "fabien0102" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/pify#readme",
+  "keywords" : [ "promisify", "callback", "promise", "promises", "denodify", "denodeify", "node", "then", "thenify", "convert", "transform", "wrap", "wrapper", "bind", "async", "await", "es2015", "bluebird" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/pify/issues"
+  },
+  "license" : "MIT"
+}

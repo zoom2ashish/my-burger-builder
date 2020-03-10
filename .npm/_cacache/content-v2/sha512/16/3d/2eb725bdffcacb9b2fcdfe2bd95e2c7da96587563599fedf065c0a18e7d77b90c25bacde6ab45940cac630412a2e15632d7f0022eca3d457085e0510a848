@@ -1,0 +1,975 @@
+{
+  "_id" : "gzip-size",
+  "_rev" : "35-8c605fcf61a9c5cf4b29c953b7277f57",
+  "name" : "gzip-size",
+  "description" : "Get the gzipped size of a string or buffer",
+  "dist-tags" : {
+    "latest" : "5.1.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/gzip-size.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-2.0.0.tgz",
+        "shasum" : "52aeee3a9116e7e2265b4926af8db921e0b39b57"
+      },
+      "dependencies" : {
+        "concat-stream" : "^1.4.1",
+        "browserify-zlib" : "^0.1.4"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.3"
+      },
+      "keywords" : [ "cli-app", "cli", "bin", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@2.0.0",
+      "gitHead" : "d4ef575455b0312f00ebc6150d2b846fc374c2fe",
+      "_shasum" : "52aeee3a9116e7e2265b4926af8db921e0b39b57",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.0.1" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-2.0.1.tgz",
+        "shasum" : "821c9ad2a2a2470206912c43669962fa62ce18da"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "cli-app", "cli", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@2.0.1",
+      "gitHead" : "4fb173cc4b755f30b7f1d9f94179aebad6fb952b",
+      "_shasum" : "821c9ad2a2a2470206912c43669962fa62ce18da",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.1.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-2.1.0.tgz",
+        "shasum" : "e74d4e736bed70a48c76ddf0b57ce726f799a5b4"
+      },
+      "dependencies" : {
+        "duplexer" : "^0.1.1",
+        "meow" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "tap" : "^1.3.2",
+        "xo" : "*"
+      },
+      "keywords" : [ "cli-app", "cli", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tap test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@2.1.0",
+      "gitHead" : "dbc35b4e2659c1b8b3416b7709a0928c27c019fe",
+      "_shasum" : "e74d4e736bed70a48c76ddf0b57ce726f799a5b4",
+      "_nodeVersion" : "0.12.5"
+    },
+    "4.0.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/gzip-size.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-4.0.0.tgz",
+        "shasum" : "a80e13e18938bcb2e6702fec606f5cf8b666db3a"
+      },
+      "dependencies" : {
+        "duplexer" : "^0.1.1",
+        "pify" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "p-event" : "^1.3.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@4.0.0",
+      "gitHead" : "eb2df9a1b1108b67d4a51cc053d98c576e1b5e2f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/gzip-size-4.0.0.tgz_1504851422847_0.5748244689311832"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "4.0.1" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/gzip-size.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-4.0.1.tgz",
+        "shasum" : "92a6c44676305e009828dcc9a59b14b4c651c2a2"
+      },
+      "dependencies" : {
+        "duplexer" : "^0.1.1",
+        "pify" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "p-event" : "^1.3.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@4.0.1",
+      "gitHead" : "9aec7b759946ac3fda37b503cf103f849e1ccc3a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/gzip-size-4.0.1.tgz_1511359270748_0.07335771177895367"
+      },
+      "_shasum" : "92a6c44676305e009828dcc9a59b14b4c651c2a2",
+      "_nodeVersion" : "4.8.4"
+    },
+    "4.1.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/gzip-size.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-4.1.0.tgz",
+        "shasum" : "8ae096257eabe7d69c45be2b67c448124ffb517c"
+      },
+      "dependencies" : {
+        "duplexer" : "^0.1.1",
+        "pify" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "p-event" : "^1.3.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@4.1.0",
+      "gitHead" : "2c92b28156ebdb28ebe79baceaeeca7609d2913e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/gzip-size-4.1.0.tgz_1511361225463_0.7124082406517118"
+      },
+      "_shasum" : "8ae096257eabe7d69c45be2b67c448124ffb517c",
+      "_nodeVersion" : "4.8.4"
+    },
+    "0.1.1" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-0.1.1.tgz",
+        "shasum" : "ae33483b6fc8224e8342296de108ef93757f76e0"
+      },
+      "dependencies" : {
+        "concat-stream" : "^1.4.1",
+        "zlib-browserify" : "^0.0.3"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@0.1.1"
+    },
+    "0.2.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-0.2.0.tgz",
+        "shasum" : "e3a2a191205fe56ee326f5c271435dfaecfb3e1c"
+      },
+      "dependencies" : {
+        "concat-stream" : "^1.4.1",
+        "browserify-zlib" : "^0.1.4"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@0.2.0"
+    },
+    "2.0.2" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-2.0.2.tgz",
+        "shasum" : "892d5f837c49d20571c6e3b9e5ff5c7e1f5ed8e4"
+      },
+      "dependencies" : {
+        "concat-stream" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "cli-app", "cli", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@2.0.2",
+      "gitHead" : "c0cbc9d05e8774e1a8a1bfb5d34d6cb18941ba30",
+      "_shasum" : "892d5f837c49d20571c6e3b9e5ff5c7e1f5ed8e4",
+      "_nodeVersion" : "0.12.4"
+    },
+    "0.1.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-0.1.0.tgz",
+        "shasum" : "2beaecdaf4917bd151fe9a9d43ae199392d6c32a"
+      },
+      "dependencies" : {
+        "concat-stream" : "^1.4.1",
+        "zlib-browserify" : "^0.0.3"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@0.1.0"
+    },
+    "2.0.3" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-2.0.3.tgz",
+        "shasum" : "5d3deae089471cc57217b8ccc599187109392607"
+      },
+      "dependencies" : {
+        "concat-stream" : "^1.4.10"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "cli-app", "cli", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@2.0.3",
+      "gitHead" : "db4b3d44f8d9ca46da0ec7e8fbb187c6b42c45e9",
+      "_shasum" : "5d3deae089471cc57217b8ccc599187109392607",
+      "_nodeVersion" : "0.12.4"
+    },
+    "3.0.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-3.0.0.tgz",
+        "shasum" : "546188e9bdc337f673772f81660464b389dce520"
+      },
+      "dependencies" : {
+        "duplexer" : "^0.1.1"
+      },
+      "devDependencies" : {
+        "tap" : "^1.3.2",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && tap test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@3.0.0",
+      "gitHead" : "55cd41dd1ff020282b2e9fe47620e71838d29646",
+      "_shasum" : "546188e9bdc337f673772f81660464b389dce520",
+      "_nodeVersion" : "0.12.5"
+    },
+    "5.0.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/gzip-size.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-5.0.0.tgz",
+        "shasum" : "a55ecd99222f4c48fd8c01c625ce3b349d0a0e80"
+      },
+      "dependencies" : {
+        "duplexer" : "^0.1.1",
+        "pify" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "p-event" : "^2.1.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@5.0.0",
+      "gitHead" : "c28bd44300b319d9462aa8e3a5070716b48f4e79",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/gzip-size_5.0.0_1530813523280_0.5962328567792028"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "5.1.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/gzip-size.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-5.1.0.tgz",
+        "shasum" : "2db0396c71f5c902d5cf6b52add5030b93c99bd2"
+      },
+      "dependencies" : {
+        "duplexer" : "^0.1.1",
+        "pify" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "p-event" : "^2.1.0",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@5.1.0",
+      "gitHead" : "85ad6bfda8de0338cad37bc968b6f1f7096c286e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/gzip-size_5.1.0_1555296945397_0.4226837030836781"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "5.1.1" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "5.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/gzip-size.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-5.1.1.tgz",
+        "shasum" : "cb9bee692f87c0612b232840a873904e4c135274"
+      },
+      "dependencies" : {
+        "duplexer" : "^0.1.1",
+        "pify" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "p-event" : "^2.1.0",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@5.1.1",
+      "gitHead" : "379694d2da46973c8a441fd74c2b1308d3b8e909",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/gzip-size_5.1.1_1558413606619_0.9428227182335658"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "1.0.0" : {
+      "name" : "gzip-size",
+      "description" : "Get the gzipped size of a string or buffer",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/gzip-size",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/gzip-size"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/gzip-size/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gzip-size/-/gzip-size-1.0.0.tgz",
+        "shasum" : "66cf8b101047227b95bace6ea1da0c177ed5c22f"
+      },
+      "dependencies" : {
+        "concat-stream" : "^1.4.1",
+        "browserify-zlib" : "^0.1.4"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.3"
+      },
+      "keywords" : [ "cli", "bin", "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "gzip-size" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "gzip-size@1.0.0",
+      "gitHead" : "709ef7e7670931e33975837c32b6f786d562342d",
+      "_shasum" : "66cf8b101047227b95bace6ea1da0c177ed5c22f"
+    }
+  },
+  "readme" : "# gzip-size [![Build Status](https://travis-ci.org/sindresorhus/gzip-size.svg?branch=master)](https://travis-ci.org/sindresorhus/gzip-size)\n\n> Get the gzipped size of a string or buffer\n\n\n## Install\n\n```\n$ npm install gzip-size\n```\n\n\n## Usage\n\n```js\nconst gzipSize = require('gzip-size');\n\nconst text = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.';\n\nconsole.log(text.length);\n//=> 191\n\nconsole.log(gzipSize.sync(text));\n//=> 78\n```\n\n\n## API\n\n### gzipSize(input, [options])\n\nReturns a `Promise` for the size.\n\n### gzipSize.sync(input, [options])\n\nReturns the size.\n\n#### input\n\nType: `string` `Buffer`\n\n#### options\n\nType: `Object`\n\nAny [`zlib` option](https://nodejs.org/api/zlib.html#zlib_class_options).\n\n### gzipSize.stream([options])\n\nReturns a [`stream.PassThrough`](https://nodejs.org/api/stream.html#stream_class_stream_passthrough). The stream emits a `gzip-size` event and has a `gzipSize` property.\n\n### gzipSize.file(path, [options])\n\nReturns a `Promise` for the size of the file.\n\n#### path\n\nType: `string`\n\n### gzipSize.fileSync(path, [options])\n\nReturns the size of the file.\n\n\n## Related\n\n- [gzip-size-cli](https://github.com/sindresorhus/gzip-size-cli) - CLI for this module\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-06-10T12:21:46.152Z",
+    "2.0.1" : "2015-06-10T12:55:14.351Z",
+    "2.1.0" : "2015-08-14T07:01:37.527Z",
+    "created" : "2014-02-28T19:58:32.495Z",
+    "4.0.0" : "2017-09-08T06:17:03.097Z",
+    "4.0.1" : "2017-11-22T14:01:10.833Z",
+    "4.1.0" : "2017-11-22T14:33:45.523Z",
+    "0.1.1" : "2014-04-04T23:14:30.541Z",
+    "0.2.0" : "2014-04-18T08:28:01.076Z",
+    "2.0.2" : "2015-06-10T22:06:50.025Z",
+    "0.1.0" : "2014-02-28T19:58:32.495Z",
+    "2.0.3" : "2015-06-11T19:25:13.823Z",
+    "3.0.0" : "2015-08-17T15:46:29.009Z",
+    "modified" : "2019-05-21T04:40:09.450Z",
+    "5.0.0" : "2018-07-05T17:58:43.329Z",
+    "5.1.0" : "2019-04-15T02:55:45.494Z",
+    "5.1.1" : "2019-05-21T04:40:06.868Z",
+    "1.0.0" : "2014-08-09T23:13:27.579Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/gzip-size.git"
+  },
+  "users" : {
+    "~sincrow666" : true,
+    "program247365" : true,
+    "rankun203" : true,
+    "magemagic" : true,
+    "jerkovicl" : true,
+    "vbv" : true,
+    "rochejul" : true,
+    "morewry" : true,
+    "zouhir" : true,
+    "itonyyo" : true,
+    "mayq0422" : true,
+    "rubiadias" : true,
+    "drewigg" : true,
+    "amio" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/gzip-size#readme",
+  "keywords" : [ "app", "tool", "zlib", "gzip", "compressed", "size", "string", "buffer" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/gzip-size/issues"
+  },
+  "license" : "MIT"
+}

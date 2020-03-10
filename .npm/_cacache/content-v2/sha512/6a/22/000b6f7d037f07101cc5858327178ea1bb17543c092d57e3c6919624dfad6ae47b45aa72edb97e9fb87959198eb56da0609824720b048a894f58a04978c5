@@ -1,0 +1,4355 @@
+{
+  "_id" : "@types/yargs",
+  "_rev" : "512-609e67c0d0c27717e531d6bb83dc6c71",
+  "name" : "@types/yargs",
+  "description" : "TypeScript definitions for yargs",
+  "dist-tags" : {
+    "ts2.2" : "12.0.1",
+    "ts3.1" : "15.0.4",
+    "ts2.1" : "6.6.0",
+    "ts3.0" : "15.0.4",
+    "ts2.0" : "6.6.0",
+    "ts3.9" : "15.0.3",
+    "ts2.9" : "12.0.2",
+    "ts3.8" : "15.0.4",
+    "ts2.8" : "12.0.2",
+    "ts3.7" : "15.0.4",
+    "ts2.7" : "12.0.1",
+    "ts3.6" : "15.0.4",
+    "ts2.6" : "12.0.1",
+    "ts3.5" : "15.0.4",
+    "ts2.5" : "12.0.1",
+    "ts3.4" : "15.0.4",
+    "ts2.4" : "12.0.1",
+    "ts3.3" : "15.0.4",
+    "ts2.3" : "12.0.1",
+    "ts3.2" : "15.0.4",
+    "latest" : "15.0.4"
+  },
+  "versions" : {
+    "11.1.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "11.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-11.1.0.tgz",
+        "shasum" : "923caa0cca53745d83f139eeff4fa7906c52ebce"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@11.1.0",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "443dd5122e4e308fca65b3bfd3a88c8d7d0832bf7fd067c6e6f978d5624c91de",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_11.1.0_1531271708224_0.35790658892248817"
+      }
+    },
+    "11.1.2" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "11.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-11.1.2.tgz",
+        "shasum" : "fd4b676846fe731a5de5c6d2e5ef6a377262fc30"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@11.1.2",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "4e151c7149908a36f5af264a09bc90ef844de409ba28d1e08a74c8e40e33f18b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_11.1.2_1537170296099_0.1224772356203232"
+      }
+    },
+    "11.1.1" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "11.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-11.1.1.tgz",
+        "shasum" : "2e724257167fd6b615dbe4e54301e65fe597433f"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@11.1.1",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "d3ee457c90ddf019fe342e3044e28e2bf6a79b719952c1df5fa62eb256c596bc",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_11.1.1_1532139151816_0.3891170725704296"
+      }
+    },
+    "0.0.24-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.24-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.24-alpha.tgz",
+        "shasum" : "f66161be13f778504048becd751e118d22a2f3ed"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.24-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.24-alpha.tgz_1467431010928_0.6505357888527215"
+      },
+      "_shasum" : "f66161be13f778504048becd751e118d22a2f3ed",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "6.2.1"
+    },
+    "11.1.4" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "11.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-11.1.4.tgz",
+        "shasum" : "695d875cfd8010dfd9e292903bc3adf87e2cf514"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@11.1.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "6b9976d70813a6503538ce2eb47c68ca3269d44c9633a4c19f0c0b64b787a41e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_11.1.4_1579650957805_0.07234622670803503"
+      }
+    },
+    "11.1.3" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "11.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-11.1.3.tgz",
+        "shasum" : "33c8ebf05f78f1edeb249c1cde1a42ae57f5664e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@11.1.3",
+      "types" : "index",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "21eb788e57195b9950f4a37f78b2f7f304c68626d81e6f650f49092935202ede",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_11.1.3_1569427872046_0.4885960923645234"
+      }
+    },
+    "6.3.3" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "6.3.3",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>, Jeffery Grajkowski <https://github.com/pushplay>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-6.3.3.tgz",
+        "shasum" : "b088bf22c126ab3fa3b110e29318b3f47894c04d"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@6.3.3",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "5b9ebd53cb470e8ffc892ce7228a2cdfc28d2b0cac9e680ffa28646bb57e5edb",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-6.3.3.tgz_1480350683129_0.055670807836577296"
+      }
+    },
+    "11.1.5" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "11.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-11.1.5.tgz",
+        "shasum" : "8d71dfe4848ac5d714b75eca3df9cac75a4f8dac"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@11.1.5",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "28bb5643e71ccc0ef340e04936bc7b61fef8635af3c86b868537f533a936afb5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_11.1.5_1580514117373_0.2164406467520894"
+      }
+    },
+    "0.0.21-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.21-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.21-alpha.tgz",
+        "shasum" : "7d5d7cda247c3af42b6c0deba1f78bea3e4fa6ed"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.21-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.21-alpha.tgz_1464156765645_0.6809182935394347"
+      },
+      "_shasum" : "7d5d7cda247c3af42b6c0deba1f78bea3e4fa6ed",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "5.5.0"
+    },
+    "8.0.2" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "8.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-8.0.2.tgz",
+        "shasum" : "0f9c7b236e2d78cd8f4b6502de15d0728aa29385"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@8.0.2",
+      "typeScriptVersion" : "2.2",
+      "typesPublisherContentHash" : "b037ce9187ffa3e8ad3713f0e68c16c3d5a45863794058d4a279a4a45351648c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs-8.0.2.tgz_1501622422516_0.2728897363413125"
+      }
+    },
+    "8.0.3" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "8.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-8.0.3.tgz",
+        "shasum" : "6f0ad77792762fc69d209716dbab3201dcba56fb"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@8.0.3",
+      "typeScriptVersion" : "2.2",
+      "typesPublisherContentHash" : "d836b744e9686e8f0d13c5854e7311f5ca53ef83ad562a802c3d71608e10524a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs-8.0.3.tgz_1512591069450_0.4907161600422114"
+      }
+    },
+    "8.0.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "8.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-8.0.0.tgz",
+        "shasum" : "654d1e9d1729732a78436bde2b8076ee0d023693"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@8.0.0",
+      "typeScriptVersion" : "2.2",
+      "typesPublisherContentHash" : "71e333d1890d3635ff8d8fa07a03e2a999b5ddc8983c259e7ca901eddbe025e8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs-8.0.0.tgz_1498859200487_0.8413674111943692"
+      }
+    },
+    "8.0.1" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "8.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-8.0.1.tgz",
+        "shasum" : "f0e79284b713d9383f315fa38c71d933959637f8"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@8.0.1",
+      "typeScriptVersion" : "2.2",
+      "typesPublisherContentHash" : "8e76f45b7acb1ae810d25b1d95b44490c1d17d58edd20ac28f1e8fd2e1e38b94",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs-8.0.1.tgz_1499716055116_0.41899351798929274"
+      }
+    },
+    "0.0.14-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "Type definitions for yargs from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+      "version" : "0.0.14-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.14-alpha.tgz",
+        "shasum" : "48547d324b912311e1d51357f43b2b06e43a05e7"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.14-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.14-alpha.tgz_1463512754383_0.5021597156301141"
+      },
+      "_shasum" : "48547d324b912311e1d51357f43b2b06e43a05e7",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "5.5.0"
+    },
+    "0.0.25-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.25-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.25-alpha.tgz",
+        "shasum" : "022574e2686f895ec583a6a4b755a7b543c5ea4c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.25-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.25-alpha.tgz_1467596032407_0.17527196579612792"
+      },
+      "_shasum" : "022574e2686f895ec583a6a4b755a7b543c5ea4c",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "6.2.1"
+    },
+    "13.0.1" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.1.tgz",
+        "shasum" : "a45b3c9faadd7adfdb40646d14a7f6b70f4e8233"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.1",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "2f6dd0326983ad385bbf2b8a48bcd2b45bca39690a244ce0220c7e4bc491c8e0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.1_1564440460010_0.4098936053833053"
+      }
+    },
+    "13.0.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.0.tgz",
+        "shasum" : "d2acb3bec0047d8f648ebacdab6b928a900c42c4"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.0",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ba177d8ce098c69fde6038d1da47d06641703bdd8660fe3516a7ea28f3202104",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.0_1554688317844_0.6351838901271967"
+      }
+    },
+    "13.0.3" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.3.tgz",
+        "shasum" : "76482af3981d4412d65371a318f992d33464a380"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.3",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "500be969ef6ef1e24d5f2d9a3961407976a93ae7e549d23c155cf9d680f1cf8a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.3_1569427843456_0.648910804976947"
+      }
+    },
+    "13.0.2" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.2.tgz",
+        "shasum" : "a64674fc0149574ecd90ba746e932b5a5f7b3653"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.2",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5a8204a9fcea5ff2f6fd239ea4db72637ab00c6e3c82ff1855070c7ecc25394e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.2_1564593254438_0.6176418651380535"
+      }
+    },
+    "13.0.5" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.5.tgz",
+        "shasum" : "18121bfd39dc12f280cee58f92c5b21d32041908"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.5",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "7d64b1281d978136905c144b44bcb97416b072c0f8bf9c5265604ccf51bc6b6f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.5_1578512660884_0.03554400143619252"
+      }
+    },
+    "13.0.4" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.4.tgz",
+        "shasum" : "53d231cebe1a540e7e13727fc1f0d13ad4a9ba3b"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "37222ee5a663b0260061ab31ce6e21896839ea44a19eedd06a1d4856a40c5797",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.4_1577120490115_0.34260418979549856"
+      }
+    },
+    "13.0.7" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.7.tgz",
+        "shasum" : "658d8578a444670a41cc9c338d5e0e0a9910fd9e"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.7",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "6c911ce327cbccdeef5d3dd2b03e53cb4e431f8b053d826ed844864cccdc9cc1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.7_1580153587741_0.9103381657890242"
+      }
+    },
+    "13.0.6" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.6.tgz",
+        "shasum" : "6aed913a92c262c13b94d4bca8043237de202124"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.6",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "6277e48cf40a9a309249fe48f8ed71f5023b487808711d986f5b581ae561d44d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.6_1579650927281_0.5960471927997268"
+      }
+    },
+    "13.0.8" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "13.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-13.0.8.tgz",
+        "shasum" : "a38c22def2f1c2068f8971acb3ea734eb3c64a99"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@13.0.8",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "f60c17dfa3d977378df28a46766f943542171a73c8b80e517da0516865963578",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_13.0.8_1580514086821_0.4681797256307747"
+      }
+    },
+    "15.0.4" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "15.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      }, {
+        "name" : "Aankhen",
+        "url" : "https://github.com/Aankhen",
+        "githubUsername" : "Aankhen"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-15.0.4.tgz",
+        "shasum" : "7e5d0f8ca25e9d5849f2ea443cf7c402decd8299"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@15.0.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "33123d2b50bbbc5d15307f8a14b565cbb797530f625c3087b83b21aceb528536",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_15.0.4_1582662876372_0.7148680428744663"
+      }
+    },
+    "0.0.22-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.22-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.22-alpha.tgz",
+        "shasum" : "68a3713d34101d74ba39e0ed44d368e0b181561e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.9.5",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.22-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.22-alpha.tgz_1467406463191_0.46642183093354106"
+      },
+      "_shasum" : "68a3713d34101d74ba39e0ed44d368e0b181561e",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "6.2.2"
+    },
+    "15.0.1" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "15.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-15.0.1.tgz",
+        "shasum" : "9266a9d7be68cfcc982568211085a49a277f7c96"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@15.0.1",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "47def568d5c4e745a8fc7c19bff9f6398d27fbc7649331667a3029388cf016e1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_15.0.1_1579650903190_0.16762673508860626"
+      }
+    },
+    "15.0.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "15.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-15.0.0.tgz",
+        "shasum" : "26aa57277eec9ab9c5fce61bddec20ecc9a4cfb7"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@15.0.0",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "4fb8536f97078e909cdef4dc12a6f8d208218b2c02ada6d2898208d1ee677f94",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_15.0.0_1578512639972_0.9870982408844897"
+      }
+    },
+    "15.0.3" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "15.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-15.0.3.tgz",
+        "shasum" : "41453a0bc7ab393e995d1f5451455638edbd2baf"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@15.0.3",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ec77619dcd9e47142c40489fcc9caca6c0fd158e40ee327d9bd20dda2c4edad5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_15.0.3_1580514068445_0.1935555601722856"
+      }
+    },
+    "15.0.2" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "15.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-15.0.2.tgz",
+        "shasum" : "0bf292a0369493cee030e2e4f4ff84f5982b028d"
+      },
+      "dependencies" : {
+        "@types/yargs-parser" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@15.0.2",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "021b0b3397b0113bd7b139dc012200aa396c815e370bf1fc8ce853cdd3060fae",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_15.0.2_1580153562414_0.5039750755443047"
+      }
+    },
+    "11.0.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "11.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-11.0.0.tgz",
+        "shasum" : "124b9ed9c65b7091cc36da59ae12cbd47d8745ea"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@11.0.0",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "cc206e82380553e77085db67cf9e4cfc2efb9e903078296d0b635072d729cbbe",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_11.0.0_1518563714745_0.6680582201386478"
+      }
+    },
+    "0.0.29" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.29",
+      "author" : "Martin Poelstra <https://github.com/poelstra>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.29.tgz",
+        "shasum" : "996e087616b1fddd2d5e221028f7e70165a67df1"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.29",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.29.tgz_1470923724604_0.7135619251057506"
+      }
+    },
+    "0.0.28" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.28",
+      "author" : "Martin Poelstra <https://github.com/poelstra>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.28.tgz",
+        "shasum" : "09b85ded3c4c2939ac2b09d82e5862b14a7029ec"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.28",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.28.tgz_1470154553772_0.8299409840255976"
+      }
+    },
+    "0.0.26-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.26-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.26-alpha.tgz",
+        "shasum" : "980dbb9fda51d5b70805027a80e5039c9e4fc54e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.26-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.26-alpha.tgz_1468014494716_0.11605168972164392"
+      },
+      "_shasum" : "980dbb9fda51d5b70805027a80e5039c9e4fc54e",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "6.3.0"
+    },
+    "0.0.27" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.27",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.27.tgz",
+        "shasum" : "73f5cd692fee3557a0ba12eef5f6a89b2c1be6c4"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.27",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.27.tgz_1468513597694_0.9733309638686478"
+      },
+      "_shasum" : "73f5cd692fee3557a0ba12eef5f6a89b2c1be6c4",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "6.3.0"
+    },
+    "12.0.10" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.10.tgz",
+        "shasum" : "17a8ec65cd8e88f51b418ceb271af18d3137df67"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.10",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "16decea9a83fa2463923ceb31c20d21a09cc36cf83d3c1a900269bd3f006d4fe",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.10_1552936987890_0.8339408608009629"
+      }
+    },
+    "12.0.11" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.11.tgz",
+        "shasum" : "a090d88e1f40a910e6443c95493c1c035c76ebdc"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.11",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "037a31d5454e25bccfefef7d3e330e3f114fcdeef67576cdf8b35ca85c9b1909",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.11_1554151639121_0.726011549113099"
+      }
+    },
+    "12.0.14" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.14.tgz",
+        "shasum" : "917b57cb50c7421842a38de24fec10a55673b7f0"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.14",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "bf5d61c9b6478a51a2a5707302f5beea5368ae68197626f0216bc732fd68a1b7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.14_1577120511155_0.9688818356475128"
+      }
+    },
+    "12.0.15" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.15.tgz",
+        "shasum" : "581eaf3731649dde3baae7da3a173217af77a606"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.15",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "0ba19dd198ad8010ab4fdac4173d169293e3ef7f5c61b012c00115a17758af0a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.15_1579650942681_0.06335905060501301"
+      }
+    },
+    "6.6.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "6.6.0",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>, Jeffery Grajkowski <https://github.com/pushplay>, Jeff Kenney <https://github.com/jeffkenney>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-6.6.0.tgz",
+        "shasum" : "91f8e2580a8083049f78311c059aa57d6949df6b"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@6.6.0",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "9b79b82e6860eb01d6ac04eb73af8ddb6a1a6dd62caf985caee6f441ec6466ab",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-6.6.0.tgz_1486500871969_0.22539031482301652"
+      }
+    },
+    "12.0.12" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.12.tgz",
+        "shasum" : "45dd1d0638e8c8f153e87d296907659296873916"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.12",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "797da61a576678d4a7247c12796a39175a72c67c12a6b2e34a47306ad6c42cdf",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.12_1554688337268_0.6261583934231194"
+      }
+    },
+    "12.0.13" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.13.tgz",
+        "shasum" : "fcc05fb3188f2daefbf2b7643dea5af4c4883163"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.13",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ea9855e5c1ba05db1ffd4d41938348cfcfe0c40fa527d651521a4ca7ff4b0946",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.13_1569427859080_0.4176535649214572"
+      }
+    },
+    "12.0.16" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      }, {
+        "name" : "Emily Marigold Klassen",
+        "url" : "https://github.com/forivall",
+        "githubUsername" : "forivall"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.16.tgz",
+        "shasum" : "e3a5c0420bc72917f780d222d933871328d0ab72"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.16",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "cba1a6dea3113a7b337bff98071c30b4bc0d80d5ff5caecac589f1954d67d030",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.16_1580514102100_0.13097571900098903"
+      }
+    },
+    "12.0.2" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Teddy Cross",
+        "url" : "https://github.com/tkazec",
+        "githubUsername" : "tkazec"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.2.tgz",
+        "shasum" : "7569157b2601d49d4442023c0d22f81d23f62d1e"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "9fec9595952d38ad676bc9b63e0bc3b330ff2a35db1eae7078a2ebc6211397bf",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.2_1545265321699_0.8227783760790486"
+      }
+    },
+    "12.0.1" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Teddy Cross",
+        "url" : "https://github.com/tkazec",
+        "githubUsername" : "tkazec"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.1.tgz",
+        "shasum" : "c5ce4ad64499010ae4dc2acd9b14d49749a44233"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.1",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "d89217e465a095bcf84e7a680cb0c11e6aeb194f3979a2cd236bac0371817790",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.1_1538171272093_0.6983526786967587"
+      }
+    },
+    "12.0.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.0.tgz",
+        "shasum" : "cfadf4ca78505a074d9ffcb84f203e97c3ed4347"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.0",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "7c4387c17b589b29939b569af0a112f98b62245cba8ce42d1e17f8b33570a5cc",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.0_1537170299764_0.9337781389394944"
+      }
+    },
+    "0.0.36" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.36",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.36.tgz",
+        "shasum" : "5b901a46acda4f376a89245759adb369328eee5b"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.36",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "1929474cdc715fbd90b7ea7d3f01da58e977753f34d2a29e93a666eac9619f7c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.36.tgz_1478005322481_0.7942832577973604"
+      }
+    },
+    "12.0.6" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Teddy Cross",
+        "url" : "https://github.com/tkazec",
+        "githubUsername" : "tkazec"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.6.tgz",
+        "shasum" : "579f95b303d135f0c16928acfbb3550c8a78d4c2"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.6",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "d290f199781dd184e8349fd0730f94304519a30f2cbb87178ab9d13319028428",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.6_1548178675132_0.7050634248253829"
+      }
+    },
+    "0.0.35" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.35",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.35.tgz",
+        "shasum" : "407733576aced4895fbad67a3f0af633d2dfcbad"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.35",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "e68bc04ce382de4fdb1272e172544ed519cd8b096158b3a9818567a72cf03895",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.35.tgz_1478005089724_0.6062543736770749"
+      }
+    },
+    "12.0.5" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Teddy Cross",
+        "url" : "https://github.com/tkazec",
+        "githubUsername" : "tkazec"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.5.tgz",
+        "shasum" : "f4f85fe198e1e9cedc0bb53a8c2d30fb34299e50"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.5",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "b78c7590fee0bb28d640e69a0ac4e7259a9b7b50a350c46c73480ab4cb53fad6",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.5_1546274967904_0.4319440414813336"
+      }
+    },
+    "0.0.34" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.34",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.34.tgz",
+        "shasum" : "1560429fc550c43bc41a7b7d3dfa0afbcc914a35"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.34",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "e610252bcd82e49bcfb5cd652fd868ab04bec4f92861cb04576ffe68a6ae0d63",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.34.tgz_1477510173155_0.5542305284179747"
+      }
+    },
+    "12.0.4" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Teddy Cross",
+        "url" : "https://github.com/tkazec",
+        "githubUsername" : "tkazec"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.4.tgz",
+        "shasum" : "14a37542f01a1ed4d743d5f8bc3f40e63e5835d4"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.4",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "661d5822e65194cea3177d7d864f9c1c9bd3d4d18e9188c449bd70bdce43b9df",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.4_1545806831115_0.7289530279086667"
+      }
+    },
+    "0.0.33" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.33",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.33.tgz",
+        "shasum" : "1a5313b7485055f71bab4e3e2f7325981390af51"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.33",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "0a6484ee728a389d05df57ba31ac360727b46d60d728ded5c894ff063827ace6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.33.tgz_1476211710012_0.6248610080219805"
+      }
+    },
+    "12.0.3" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Teddy Cross",
+        "url" : "https://github.com/tkazec",
+        "githubUsername" : "tkazec"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.3.tgz",
+        "shasum" : "9a9fbaf6a81c9ebf5c283386162d1118274c6827"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.3",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "c23264db60b61f4da26432864983979fe2af6103fecbca84f6b6df949199b52d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.3_1545714481146_0.6563807222624229"
+      }
+    },
+    "0.0.32" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.32",
+      "author" : "Martin Poelstra <https://github.com/poelstra>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.32.tgz",
+        "shasum" : "d4c2b99be291bab12fd1c23fc472c4c2bba161cc"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.32",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "ba505357562494cf2f41ed38592b945d239906d932aace1bf0f1131b7d28b0a5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.32.tgz_1475773572351_0.9036764723714441"
+      }
+    },
+    "0.0.31" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.31",
+      "author" : "Martin Poelstra <https://github.com/poelstra>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.31.tgz",
+        "shasum" : "d4777f40d25787596c216040b81932ccbde2b56c"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.31",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "65b1a3dcb1ec0056dd8879b4454312683230f90410e07d9de6e6ee3b231f10dc",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.31.tgz_1474309292144_0.416815155884251"
+      }
+    },
+    "12.0.9" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.9.tgz",
+        "shasum" : "693e76a52f61a2f1e7fb48c0eef167b95ea4ffd0"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.9",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "fda2ac2cda4bb2a18e8f41d72ff8482c7c228b23cec274d1137fe4b1e377b2fa",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.9_1550107822825_0.3368993596164753"
+      }
+    },
+    "0.0.30" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.30",
+      "author" : "Martin Poelstra <https://github.com/poelstra>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.30.tgz",
+        "shasum" : "5d37290e02ad162ce05688515480dc2a9474e2d3"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.30",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.30.tgz_1472151885945_0.03414057660847902"
+      }
+    },
+    "12.0.8" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.8.tgz",
+        "shasum" : "0b45bf0607a5509b921335658d87489c12955176"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.8",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "7a9c81087e186aaa5608dd46c979c8709f28194a21c1754aca5de73ae6f67573",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.8_1548372580619_0.24176955480763884"
+      }
+    },
+    "12.0.7" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "12.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "Steffen Viken Valvåg",
+        "url" : "https://github.com/steffenvv",
+        "githubUsername" : "steffenvv"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-12.0.7.tgz",
+        "shasum" : "a9dc9b6db5f585396d05c1f07f08020a3a768db1"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@12.0.7",
+      "types" : "index",
+      "typeScriptVersion" : "3.0",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ed4322650527f599a980e23e571fb803beee9711e3be0424e35e9e743f090d06",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_12.0.7_1548296955444_0.9047506234660068"
+      }
+    },
+    "0.0.23-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.23-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.23-alpha.tgz",
+        "shasum" : "0ac69d52e57e7a01bfe1ef18be05307097808584"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.23-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.23-alpha.tgz_1467418673438_0.8948383273091167"
+      },
+      "_shasum" : "0ac69d52e57e7a01bfe1ef18be05307097808584",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "6.2.1"
+    },
+    "8.0.4" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "8.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-8.0.4.tgz",
+        "shasum" : "9665504f5bcdb3c37d7babacd038954692717684"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@8.0.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "3665807cdb22891a3fb47188b15e80a02ecac52eb363274cfd637acb9726b60f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_8.0.4_1579650990358_0.44948852401139083"
+      }
+    },
+    "6.3.1" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs 6.3.0",
+      "version" : "6.3.1",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>, Jeffery Grajkowski <https://github.com/pushplay>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-6.3.1.tgz",
+        "shasum" : "5ca7f6a5ac66d435fedabe6e15bced609f9054f8"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@6.3.1",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "2ab42ec302d732d3bc0ecc2ee4ae07bdb4831bb8abeac021438d6975d8ce85ab",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-6.3.1.tgz_1478617571821_0.7968124577309936"
+      }
+    },
+    "10.0.4" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "10.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-10.0.4.tgz",
+        "shasum" : "35e62f3d7a989340e8f5f1341effdef3ca451084"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@10.0.4",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "bbf28196acd1af579ab830dccd8883f724dc84ee64519e2756028328a988ae21",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_10.0.4_1579650974397_0.939549243028128"
+      }
+    },
+    "6.3.2" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs 6.3.0",
+      "version" : "6.3.2",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>, Jeffery Grajkowski <https://github.com/pushplay>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-6.3.2.tgz",
+        "shasum" : "cc744e1f0b75727e35b82ae0a0a1c7ff46212577"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@6.3.2",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "affdaa3cdd82793d448d1977e83f4fb5d2d146c9e0aa3d565191c8cdfe11f096",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-6.3.2.tgz_1479152267000_0.33144539571367204"
+      }
+    },
+    "6.5.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "6.5.0",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>, Jeffery Grajkowski <https://github.com/pushplay>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-6.5.0.tgz",
+        "shasum" : "308b17d5ca469f49ef76460baba793cb75657887"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@6.5.0",
+      "typeScriptVersion" : "2.0",
+      "typesPublisherContentHash" : "53899bf300e2fc8803e417647ff3e4d0c8fbce151c0426128d3724e75ac65354",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/yargs-6.5.0.tgz_1482502602359_0.7856357144191861"
+      }
+    },
+    "10.0.3" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "10.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-10.0.3.tgz",
+        "shasum" : "ab96616695c92aa9a085381ba8aa009773a089c2"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@10.0.3",
+      "types" : "index",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "ce6b9b48cdbeffebb15c0f4e6d23f6a5a0593b7c87635c445757fb9335cdacd6",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_10.0.3_1569427886727_0.1298180403348257"
+      }
+    },
+    "10.0.2" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "10.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-10.0.2.tgz",
+        "shasum" : "cc4ea921877874d1261e2c44b89807bc836e1b12"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@10.0.2",
+      "typeScriptVersion" : "2.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "1a6ae9fb05601f8629790c5e6361c306832badcdce339ca6d107648ac47cc7e4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_10.0.2_1518563720162_0.8532182022735189"
+      }
+    },
+    "6.3.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs 6.3.0",
+      "version" : "6.3.0",
+      "author" : "Martin Poelstra <https://github.com/poelstra>, Mizunashi Mana <https://github.com/mizunashi-mana>, Jeffery Grajkowski <https://github.com/pushplay>",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-6.3.0.tgz",
+        "shasum" : "78ed0b6197f0c0dcbb798a12e908362ceed22f71"
+      },
+      "dependencies" : {
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@6.3.0",
+      "typings" : "index.d.ts",
+      "typesPublisherContentHash" : "0305dead0231f4085cf78a714b96a4dab0ceb49959ef8ae1a6db1a44123b0b78",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-6.3.0.tgz_1478195017258_0.4471048575360328"
+      }
+    },
+    "10.0.1" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "10.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-10.0.1.tgz",
+        "shasum" : "f986e2b5d37f1fb8c13c0ed15f45d01bcc3fb3d6"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@10.0.1",
+      "typeScriptVersion" : "2.2",
+      "typesPublisherContentHash" : "22929d6a43057e6232ff6746e3e173e05c5d8d4070ef93b3f273ec279914a680",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs-10.0.1.tgz_1514969280241_0.4409500495530665"
+      }
+    },
+    "10.0.0" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "10.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-10.0.0.tgz",
+        "shasum" : "b93aa88155fe5106cddf3f934517411ca2a45939"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@10.0.0",
+      "typeScriptVersion" : "2.2",
+      "typesPublisherContentHash" : "dba3a0c62a61e2c1e5b43a9164b6e9c04ef1e6204fb9fe5e5c0e886e5b9871c8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs-10.0.0.tgz_1512591067544_0.44821297680027783"
+      }
+    },
+    "0.0.20-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "0.0.20-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.20-alpha.tgz",
+        "shasum" : "1437c7e298dc80951aee23e4b813e262abdde097"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.20-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.20-alpha.tgz_1463777875490_0.7535920685622841"
+      },
+      "_shasum" : "1437c7e298dc80951aee23e4b813e262abdde097",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "5.5.0"
+    },
+    "0.0.15-alpha" : {
+      "name" : "@types/yargs",
+      "description" : "Type definitions for yargs from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+      "version" : "0.0.15-alpha",
+      "author" : {
+        "name" : "Martin Poelstra",
+        "email" : "https://github.com/poelstra"
+      },
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-0.0.15-alpha.tgz",
+        "shasum" : "f0f5fccf391154241c50882991ce1bfbbcd0fade"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "output\\yargs",
+      "_npmVersion" : "3.8.2",
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ryan.cavanaugh@microsoft.com"
+      },
+      "_id" : "@types/yargs@0.0.15-alpha",
+      "typings" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/yargs-0.0.15-alpha.tgz_1463698039265_0.3103389753960073"
+      },
+      "_shasum" : "f0f5fccf391154241c50882991ce1bfbbcd0fade",
+      "_resolved" : "file:output\\yargs",
+      "_nodeVersion" : "5.5.0"
+    },
+    "10.0.5" : {
+      "name" : "@types/yargs",
+      "description" : "TypeScript definitions for yargs",
+      "version" : "10.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/yargs"
+      },
+      "contributors" : [ {
+        "name" : "Martin Poelstra",
+        "url" : "https://github.com/poelstra",
+        "githubUsername" : "poelstra"
+      }, {
+        "name" : "Mizunashi Mana",
+        "url" : "https://github.com/mizunashi-mana",
+        "githubUsername" : "mizunashi-mana"
+      }, {
+        "name" : "Jeffery Grajkowski",
+        "url" : "https://github.com/pushplay",
+        "githubUsername" : "pushplay"
+      }, {
+        "name" : "Jeff Kenney",
+        "url" : "https://github.com/jeffkenney",
+        "githubUsername" : "jeffkenney"
+      }, {
+        "name" : "Jimi (Dimitris) Charalampidis",
+        "url" : "https://github.com/JimiC",
+        "githubUsername" : "JimiC"
+      }, {
+        "name" : "ExE Boss",
+        "url" : "https://github.com/ExE-Boss",
+        "githubUsername" : "ExE-Boss"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@types/yargs/-/yargs-10.0.5.tgz",
+        "shasum" : "5b450199e35a145fcc86b4edfbb7a8d39ca16a03"
+      },
+      "dependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ts-npm-types@microsoft.com",
+        "name" : "types"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/yargs@10.0.5",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "093ebe0886fbf2b9a4b71fd52b4e676edec3238df82d81a42e1f92f803239e64",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/yargs_10.0.5_1580514132262_0.8253003989276486"
+      }
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/yargs`\r\n\r\n# Summary\r\nThis package contains type definitions for yargs (https://github.com/chevex/yargs).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/yargs.\r\n\r\n### Additional Details\r\n * Last updated: Tue, 25 Feb 2020 20:34:01 GMT\r\n * Dependencies: [@types/yargs-parser](https://npmjs.com/package/@types/yargs-parser)\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [Martin Poelstra](https://github.com/poelstra), [Mizunashi Mana](https://github.com/mizunashi-mana), [Jeffery Grajkowski](https://github.com/pushplay), [Jeff Kenney](https://github.com/jeffkenney), [Jimi (Dimitris) Charalampidis](https://github.com/JimiC), [Steffen Viken Valvåg](https://github.com/steffenvv), [Emily Marigold Klassen](https://github.com/forivall), [ExE Boss](https://github.com/ExE-Boss), and [Aankhen](https://github.com/Aankhen).\r\n",
+  "maintainers" : [ {
+    "email" : "ts-npm-types@microsoft.com",
+    "name" : "types"
+  } ],
+  "time" : {
+    "11.1.0" : "2018-07-11T01:15:08.345Z",
+    "11.1.2" : "2018-09-17T07:44:56.303Z",
+    "11.1.1" : "2018-07-21T02:12:31.967Z",
+    "0.0.24-alpha" : "2016-07-02T03:43:34.223Z",
+    "11.1.4" : "2020-01-21T23:55:57.922Z",
+    "11.1.3" : "2019-09-25T16:11:12.216Z",
+    "6.3.3" : "2016-11-28T16:31:24.904Z",
+    "11.1.5" : "2020-01-31T23:41:57.474Z",
+    "0.0.21-alpha" : "2016-05-25T06:12:46.143Z",
+    "8.0.2" : "2017-08-01T21:20:22.585Z",
+    "8.0.3" : "2017-12-06T20:11:09.523Z",
+    "8.0.0" : "2017-06-30T21:46:40.587Z",
+    "8.0.1" : "2017-07-10T19:47:35.199Z",
+    "modified" : "2020-02-25T20:34:43.775Z",
+    "0.0.14-alpha" : "2016-05-17T19:19:15.034Z",
+    "0.0.25-alpha" : "2016-07-04T01:33:53.014Z",
+    "created" : "2016-05-17T19:19:15.034Z",
+    "13.0.1" : "2019-07-29T22:47:40.145Z",
+    "13.0.0" : "2019-04-08T01:51:57.967Z",
+    "13.0.3" : "2019-09-25T16:10:43.647Z",
+    "13.0.2" : "2019-07-31T17:14:14.588Z",
+    "13.0.5" : "2020-01-08T19:44:21.009Z",
+    "13.0.4" : "2019-12-23T17:01:30.293Z",
+    "13.0.7" : "2020-01-27T19:33:08.473Z",
+    "13.0.6" : "2020-01-21T23:55:27.485Z",
+    "13.0.8" : "2020-01-31T23:41:26.999Z",
+    "15.0.4" : "2020-02-25T20:34:36.631Z",
+    "0.0.22-alpha" : "2016-07-01T20:54:26.514Z",
+    "15.0.1" : "2020-01-21T23:55:03.316Z",
+    "15.0.0" : "2020-01-08T19:44:00.226Z",
+    "15.0.3" : "2020-01-31T23:41:08.541Z",
+    "15.0.2" : "2020-01-27T19:32:42.560Z",
+    "11.0.0" : "2018-02-13T23:15:14.858Z",
+    "0.0.29" : "2016-08-11T13:55:26.989Z",
+    "0.0.28" : "2016-08-02T16:15:55.519Z",
+    "0.0.26-alpha" : "2016-07-08T21:48:17.291Z",
+    "0.0.27" : "2016-07-14T16:26:40.190Z",
+    "12.0.10" : "2019-03-18T19:23:07.985Z",
+    "12.0.11" : "2019-04-01T20:47:19.272Z",
+    "12.0.14" : "2019-12-23T17:01:51.416Z",
+    "12.0.15" : "2020-01-21T23:55:42.878Z",
+    "6.6.0" : "2017-02-07T20:54:32.193Z",
+    "12.0.12" : "2019-04-08T01:52:17.399Z",
+    "12.0.13" : "2019-09-25T16:10:59.208Z",
+    "12.0.16" : "2020-01-31T23:41:42.230Z",
+    "12.0.2" : "2018-12-20T00:22:01.922Z",
+    "12.0.1" : "2018-09-28T21:47:52.229Z",
+    "12.0.0" : "2018-09-17T07:44:59.856Z",
+    "0.0.36" : "2016-11-01T13:02:02.712Z",
+    "12.0.6" : "2019-01-22T17:37:55.354Z",
+    "0.0.35" : "2016-11-01T12:58:09.950Z",
+    "12.0.5" : "2018-12-31T16:49:28.113Z",
+    "0.0.34" : "2016-10-26T19:29:36.684Z",
+    "12.0.4" : "2018-12-26T06:47:11.216Z",
+    "0.0.33" : "2016-10-11T18:48:31.700Z",
+    "12.0.3" : "2018-12-25T05:08:01.231Z",
+    "0.0.32" : "2016-10-06T17:06:12.572Z",
+    "0.0.31" : "2016-09-19T18:21:35.422Z",
+    "12.0.9" : "2019-02-14T01:30:22.948Z",
+    "0.0.30" : "2016-08-25T19:04:47.871Z",
+    "12.0.8" : "2019-01-24T23:29:40.769Z",
+    "12.0.7" : "2019-01-24T02:29:15.563Z",
+    "0.0.23-alpha" : "2016-07-02T00:17:55.590Z",
+    "8.0.4" : "2020-01-21T23:56:30.539Z",
+    "6.3.1" : "2016-11-08T15:06:13.460Z",
+    "10.0.4" : "2020-01-21T23:56:14.560Z",
+    "6.3.2" : "2016-11-14T19:37:48.790Z",
+    "6.5.0" : "2016-12-23T14:16:42.630Z",
+    "10.0.3" : "2019-09-25T16:11:26.867Z",
+    "10.0.2" : "2018-02-13T23:15:20.379Z",
+    "6.3.0" : "2016-11-03T17:43:39.064Z",
+    "10.0.1" : "2018-01-03T08:48:00.333Z",
+    "10.0.0" : "2017-12-06T20:11:07.623Z",
+    "0.0.20-alpha" : "2016-05-20T20:57:57.798Z",
+    "0.0.15-alpha" : "2016-05-19T22:47:22.556Z",
+    "10.0.5" : "2020-01-31T23:42:12.388Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/yargs"
+  },
+  "users" : {
+    "vzivkovic" : true
+  },
+  "readmeFilename" : "",
+  "contributors" : [ {
+    "name" : "Martin Poelstra",
+    "url" : "https://github.com/poelstra",
+    "githubUsername" : "poelstra"
+  }, {
+    "name" : "Mizunashi Mana",
+    "url" : "https://github.com/mizunashi-mana",
+    "githubUsername" : "mizunashi-mana"
+  }, {
+    "name" : "Jeffery Grajkowski",
+    "url" : "https://github.com/pushplay",
+    "githubUsername" : "pushplay"
+  }, {
+    "name" : "Jeff Kenney",
+    "url" : "https://github.com/jeffkenney",
+    "githubUsername" : "jeffkenney"
+  }, {
+    "name" : "Jimi (Dimitris) Charalampidis",
+    "url" : "https://github.com/JimiC",
+    "githubUsername" : "JimiC"
+  }, {
+    "name" : "Steffen Viken Valvåg",
+    "url" : "https://github.com/steffenvv",
+    "githubUsername" : "steffenvv"
+  }, {
+    "name" : "Emily Marigold Klassen",
+    "url" : "https://github.com/forivall",
+    "githubUsername" : "forivall"
+  }, {
+    "name" : "ExE Boss",
+    "url" : "https://github.com/ExE-Boss",
+    "githubUsername" : "ExE-Boss"
+  }, {
+    "name" : "Aankhen",
+    "url" : "https://github.com/Aankhen",
+    "githubUsername" : "Aankhen"
+  } ],
+  "license" : "MIT"
+}

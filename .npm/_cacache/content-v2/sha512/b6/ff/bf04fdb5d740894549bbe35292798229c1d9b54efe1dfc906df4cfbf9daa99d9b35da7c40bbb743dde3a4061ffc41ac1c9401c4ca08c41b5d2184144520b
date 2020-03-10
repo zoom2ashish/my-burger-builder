@@ -1,0 +1,2823 @@
+{
+  "_id" : "postcss-values-parser",
+  "_rev" : "38-7f480f39669c20490069c2db4e87e8e3",
+  "name" : "postcss-values-parser",
+  "description" : "A CSS property value parser for use with PostCSS",
+  "dist-tags" : {
+    "next" : "3.0.0-beta.4",
+    "latest" : "3.1.1"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.5.tgz",
+        "shasum" : "256b71a05b97a7a77ee3058a5c9173bb55f122d8"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      }, {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@0.1.5",
+      "gitHead" : "c77661348a9f014447bbfd79d32d97570b91dd40",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.5.tgz_1468276838679_0.5302524531725794"
+      },
+      "_shasum" : "256b71a05b97a7a77ee3058a5c9173bb55f122d8",
+      "_nodeVersion" : "6.2.1"
+    },
+    "0.1.6" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.6",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.6.tgz",
+        "shasum" : "864ec36cf2c60a56934a665d18eebbb748e44e1e"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      }, {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@0.1.6",
+      "gitHead" : "ab07b72501fbee3cee421470d2d42ddde49fec7d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.6.tgz_1469624643501_0.6110910775605589"
+      },
+      "_shasum" : "864ec36cf2c60a56934a665d18eebbb748e44e1e",
+      "_nodeVersion" : "6.2.1"
+    },
+    "0.1.3" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.3.tgz",
+        "shasum" : "e80900efdb3519f1a9ef3c8e947ad425813c0ef0"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      }, {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      },
+      "_id" : "postcss-values-parser@0.1.3",
+      "gitHead" : "895a02536e3273af2543bf6e63f1aa0ecd69339b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.3.tgz_1461592801754_0.7992745272349566"
+      },
+      "_shasum" : "e80900efdb3519f1a9ef3c8e947ad425813c0ef0",
+      "_nodeVersion" : "5.7.0"
+    },
+    "0.1.4" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.4.tgz",
+        "shasum" : "a2f7e4493e22615ee6062e59b744b79005eb005a"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      }, {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      },
+      "_id" : "postcss-values-parser@0.1.4",
+      "gitHead" : "895a02536e3273af2543bf6e63f1aa0ecd69339b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.4.tgz_1461614753349_0.6795790905598551"
+      },
+      "_shasum" : "a2f7e4493e22615ee6062e59b744b79005eb005a",
+      "_nodeVersion" : "5.7.0"
+    },
+    "0.1.7" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.7",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.7.tgz",
+        "shasum" : "8f5677750d5b309b43951c4e396adb34bd4613c4"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      }, {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@0.1.7",
+      "gitHead" : "2d0f560853ff9cda455f4aab942d619d8a289b0f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.7.tgz_1469624762385_0.1753425772767514"
+      },
+      "_shasum" : "8f5677750d5b309b43951c4e396adb34bd4613c4",
+      "_nodeVersion" : "6.2.1"
+    },
+    "0.1.8" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.8",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.8.tgz",
+        "shasum" : "6dfb2c606b72b9196f87f32a717c23e31d01350c"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      }, {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@0.1.8",
+      "gitHead" : "bb375c80fd6a10c1047f17076a9f73388a9f4496",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.8.tgz_1480342334532_0.45770963723771274"
+      },
+      "_shasum" : "6dfb2c606b72b9196f87f32a717c23e31d01350c",
+      "_nodeVersion" : "7.1.0"
+    },
+    "0.1.1" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-value-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-value-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-value-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.1.tgz",
+        "shasum" : "a8d46a56c6a8f67d1cf5cbfe53e5a18dade150f4"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      },
+      "_id" : "postcss-values-parser@0.1.1",
+      "gitHead" : "2bff08d115a7d56481707ea9416055dd5193091c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.1.tgz_1459305208567_0.01911545288749039"
+      },
+      "_shasum" : "a8d46a56c6a8f67d1cf5cbfe53e5a18dade150f4",
+      "_nodeVersion" : "5.7.0"
+    },
+    "0.1.2" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.2.tgz",
+        "shasum" : "8aeaff84babc08bcf4a8e15d487d9014aa3815ee"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      },
+      "_id" : "postcss-values-parser@0.1.2",
+      "gitHead" : "6cd42c979fed3d2797566fd1c78087ad27c15d8f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.2.tgz_1459690318266_0.9999213761184365"
+      },
+      "_shasum" : "8aeaff84babc08bcf4a8e15d487d9014aa3815ee",
+      "_nodeVersion" : "5.7.0"
+    },
+    "0.1.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-value-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-value-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-value-parser/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-0.1.0.tgz",
+        "shasum" : "5a12c1eedeb9b51e08383f5ef080a7858ac44fa3"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.4.0",
+        "babel-core" : "^6.4.0",
+        "babel-eslint" : "^6.0.0",
+        "babel-plugin-add-module-exports" : "^0.1.2",
+        "babel-plugin-precompile-charcodes" : "^1.0.0",
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-es2015-loose" : "^7.0.0",
+        "babel-preset-stage-0" : "^6.3.13",
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "del" : "^2.2.0",
+        "eslint" : "^2.5.1",
+        "eslint-config-postcss" : "^2.0.2",
+        "gulp" : "^3.9.1",
+        "gulp-babel" : "^6.1.2",
+        "gulp-eslint" : "^2.0.0",
+        "gulp-mocha" : "^2.2.0",
+        "gulp-sourcemaps" : "^1.6.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "dist", "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      },
+      "_id" : "postcss-values-parser@0.1.0",
+      "gitHead" : "0d219e0819e58c07756d42cd785daf4bbca0950b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-0.1.0.tgz_1459183730208_0.9534471440128982"
+      },
+      "_shasum" : "5a12c1eedeb9b51e08383f5ef080a7858ac44fa3",
+      "_nodeVersion" : "5.7.0"
+    },
+    "3.0.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.0.tgz",
+        "shasum" : "a38b605383b1da5f09d412066e9354e22baf6609"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^2.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "chalk" : "^2.4.2",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "globby" : "^9.0.0",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^13.3.0",
+        "perfy" : "^1.1.5",
+        "postcss-value-parser" : "^3.3.1",
+        "postcss-values-parser" : "^2.0.1",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^4.4.0",
+        "strip-ansi" : "^5.0.0",
+        "text-table" : "^0.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "edb599ad6defabdb91005966e9babb25f3f1afa0",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.0_1551715805130_0.8502355199753835"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.5" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.5",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.5.tgz",
+        "shasum" : "9f83849fb89eaac74c2d5bf75e8e9715508a8c8d"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^3.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "chalk" : "^2.4.2",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "globby" : "^9.0.0",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^14.1.0",
+        "perfy" : "^1.1.5",
+        "postcss-value-parser" : "^3.3.1",
+        "postcss-values-parser" : "^3.0.3",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^5.0.2",
+        "strip-ansi" : "^5.0.0",
+        "text-table" : "^0.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.5",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "2d86d1b053500682b27a9027b09b5bd417c4773a",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.5_1561565009212_0.7026500492466512"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "3.0.1" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.1.tgz",
+        "shasum" : "a35aeb7ca8b55491e8e8abb88e6ee45422eaf613"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^2.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "chalk" : "^2.4.2",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "globby" : "^9.0.0",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^13.3.0",
+        "perfy" : "^1.1.5",
+        "postcss-value-parser" : "^3.3.1",
+        "postcss-values-parser" : "^2.0.1",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^4.4.0",
+        "strip-ansi" : "^5.0.0",
+        "text-table" : "^0.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.1",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "81069561428fdd5b29abfd8ad1a258687275487e",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.1_1551748782254_0.20984681275885442"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.1.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.1.0.tgz",
+        "shasum" : "5b4885b5d17b46e9aac42130afc0902b68441a04"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^3.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^8.1.0",
+        "@commitlint/config-conventional" : "^8.1.0",
+        "ava" : "^2.2.0",
+        "chalk" : "^2.4.2",
+        "eslint-config-shellscape" : "^2.0.2",
+        "globby" : "^10.0.1",
+        "lint-staged" : "^9.2.0",
+        "nyc" : "^14.1.0",
+        "perfy" : "^1.1.5",
+        "postcss-value-parser" : "^4.0.0",
+        "postcss-values-parser" : "^3.0.3",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^6.0.1",
+        "strip-ansi" : "^5.0.0",
+        "text-table" : "^0.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "_npmVersion" : "6.11.2",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.1.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "f9987b05d0f7bace20fa5d3c7238f6b9c9ec5b43",
+      "types" : "lib/index.d.js",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "include" : [ "lib/*.js" ],
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.1.0_1580819444332_0.9455796333711666"
+      },
+      "ava" : {
+        "files" : [ "!**/fixtures/**", "!**/helpers/**" ]
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "3.0.2" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.2.tgz",
+        "shasum" : "6388638ddce8e5ae8cd187fd79a2422e01927573"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^2.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "chalk" : "^2.4.2",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "globby" : "^9.0.0",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^13.3.0",
+        "perfy" : "^1.1.5",
+        "postcss-value-parser" : "^3.3.1",
+        "postcss-values-parser" : "^2.0.1",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^4.4.0",
+        "strip-ansi" : "^5.0.0",
+        "text-table" : "^0.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.2",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "ed608973a1fcda642f48a3126695b8c837dfacf1",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.2_1552441319328_0.9116346672804727"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.1.1" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.1.1.tgz",
+        "shasum" : "487111a0446117d3463d2d429a380788f1365f69"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^3.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^8.1.0",
+        "@commitlint/config-conventional" : "^8.1.0",
+        "ava" : "^2.2.0",
+        "chalk" : "^2.4.2",
+        "eslint-config-shellscape" : "^2.0.2",
+        "globby" : "^10.0.1",
+        "lint-staged" : "^9.2.0",
+        "nyc" : "^14.1.0",
+        "perfy" : "^1.1.5",
+        "postcss-value-parser" : "^4.0.0",
+        "postcss-values-parser" : "^3.0.3",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^6.0.1",
+        "strip-ansi" : "^5.0.0",
+        "text-table" : "^0.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "_npmVersion" : "6.11.2",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.1.1",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "fcfe128f3a1cb07151ca53a370eb6cee8a314ebd",
+      "types" : "lib/index.d.ts",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "include" : [ "lib/*.js" ],
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.1.1_1581076704190_0.23350613057357306"
+      },
+      "ava" : {
+        "files" : [ "!**/fixtures/**", "!**/helpers/**" ]
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "3.0.3" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.3",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.3.tgz",
+        "shasum" : "7835b3f7dab3b847282dfc220082b953759a057e"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^2.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "chalk" : "^2.4.2",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "globby" : "^9.0.0",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^13.3.0",
+        "perfy" : "^1.1.5",
+        "postcss-value-parser" : "^3.3.1",
+        "postcss-values-parser" : "^2.0.1",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^4.4.0",
+        "strip-ansi" : "^5.0.0",
+        "text-table" : "^0.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.3",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "dc43c80cd65c8aa7368faccbd9510bddf09e8811",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.3_1553635874828_0.3423408091932787"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.4" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.4",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.4.tgz",
+        "shasum" : "0a1d6c093f008fb7916fcadb2c4ac5d007e9c960"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^3.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "chalk" : "^2.4.2",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "globby" : "^9.0.0",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^14.1.0",
+        "perfy" : "^1.1.5",
+        "postcss-value-parser" : "^3.3.1",
+        "postcss-values-parser" : "^3.0.3",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^5.0.2",
+        "strip-ansi" : "^5.0.0",
+        "text-table" : "^0.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.4",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "b73b1d966b4ebed030e8e8614a085a909edd2fb8",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.4_1556997002486_0.7925132605500482"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "2.0.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-2.0.0.tgz",
+        "shasum" : "1ba42cae31367c44f96721cb5eb99462bfb39705"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^5.6.0",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^5.0.0",
+        "gulp-mocha" : "^6.0.0",
+        "markdown-toc" : "^1.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp",
+        "toc" : "markdown-toc -i API.md"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@2.0.0",
+      "gitHead" : "94de56629fbdbe1d25983dbcf636054156399021",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_2.0.0_1537279689711_0.4595001260349647"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "2.0.1" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-2.0.1.tgz",
+        "shasum" : "da8b472d901da1e205b47bdc98637b9e9e550e5f"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^5.6.0",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^5.0.0",
+        "gulp-mocha" : "^6.0.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@2.0.1",
+      "gitHead" : "c00f858ab8c86ce9f06fdb702e8f26376f467248",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_2.0.1_1547492982325_0.6234538346076379"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "1.0.3" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.0.3.tgz",
+        "shasum" : "37a752df581883148927dbc4f9f4a24840bef847"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^3.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.0.3",
+      "gitHead" : "45ddeeb19c4eb020f8ecaad28982bf3616a9434f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-1.0.3.tgz_1484759882601_0.6818395704030991"
+      },
+      "_shasum" : "37a752df581883148927dbc4f9f4a24840bef847",
+      "_nodeVersion" : "7.3.0"
+    },
+    "1.2.1" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.2.1.tgz",
+        "shasum" : "03e56a8309fa4abb04f0c0ea39a1fc8a6881323e"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^4.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.2.1",
+      "gitHead" : "e099b2445f47ecff338bc47c0e722909d797c20e",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-1.2.1.tgz_1493899351706_0.8870757068507373"
+      },
+      "_shasum" : "03e56a8309fa4abb04f0c0ea39a1fc8a6881323e",
+      "_nodeVersion" : "7.8.0"
+    },
+    "1.3.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.3.0.tgz",
+        "shasum" : "92cf38b9311b2e3d3fe6d2594106e97f650e24e9"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^4.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.3.0",
+      "gitHead" : "074e0977efa0221689c7361fcfee8d94f255dd31",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser-1.3.0.tgz_1500559136246_0.6782691553235054"
+      },
+      "_shasum" : "92cf38b9311b2e3d3fe6d2594106e97f650e24e9",
+      "_nodeVersion" : "7.8.0"
+    },
+    "1.2.2" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.2.2.tgz",
+        "shasum" : "f5eebdd7f6fe310e2e448b9cc03bfed8726ca271"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^4.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.2.2",
+      "gitHead" : "d3ecad23666272ee189f28ccfd2a13b94cfe9610",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser-1.2.2.tgz_1495286451206_0.49898907728493214"
+      },
+      "_shasum" : "f5eebdd7f6fe310e2e448b9cc03bfed8726ca271",
+      "_nodeVersion" : "7.8.0"
+    },
+    "1.3.1" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.3.1.tgz",
+        "shasum" : "2a6ceb39cecbbacd1d060f3b16f4c52dd6720c96"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^4.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.3.1",
+      "gitHead" : "507d5a8a41244df636b8ec7fcb8d048d3da7aacc",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser-1.3.1.tgz_1506614484612_0.004789373371750116"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "1.4.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.4.0.tgz",
+        "shasum" : "14a8d79caa8e93b28e4ffa46a79a990bb5e1dab3"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^4.17.0",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^4.0.2",
+        "gulp-mocha" : "^5.0.0",
+        "markdown-toc" : "^1.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp",
+        "toc" : "markdown-toc -i API.md"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.4.0",
+      "gitHead" : "81e32fb9fa032e07524fabfdd34a57b13e5af525",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_1.4.0_1519942405228_0.5803104140657698"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "1.3.2" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.3.2.tgz",
+        "shasum" : "051aa9619e15fa1b672aaf0f6c1398be961f17fd"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^4.0.1",
+        "markdown-toc" : "^1.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp",
+        "toc" : "markdown-toc -i API.md"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.3.2",
+      "gitHead" : "c19bc933a0b602fbbda55c9563b9bff08f39337b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_1.3.2_1518455084666_0.6877627259215033"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "1.5.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.5.0.tgz",
+        "shasum" : "5d9fa63e2bcb0179ce48f3235303765eb89f3047"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^4.17.0",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^4.0.2",
+        "gulp-mocha" : "^5.0.0",
+        "markdown-toc" : "^1.2.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp",
+        "toc" : "markdown-toc -i API.md"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.5.0",
+      "gitHead" : "4efb3474f2f53c6995e5b90496f057df29574a21",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_1.5.0_1521584207588_0.012238749965040041"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "3.0.0-beta.4" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.0-beta.4",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.0-beta.4.tgz",
+        "shasum" : "ede7e3a94bafa7f7ebbe0746f259a42c0d41d3cb"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "is-url-superb" : "^2.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^13.1.0",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^4.4.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "publishConfig" : {
+        "tag" : "next"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.0-beta.4",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "678149a7453981dcc60683e7c6edd18ef9e723e4",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.0-beta.4_1549820458021_0.19887929044193076"
+      },
+      "readme" : "[tests]: \thttps://img.shields.io/circleci/project/github/shellscape/postcss-values-parser.svg\n[tests-url]: https://circleci.com/gh/shellscape/postcss-values-parser\n\n[cover]: https://codecov.io/gh/shellscape/postcss-values-parser/branch/master/graph/badge.svg\n[cover-url]: https://codecov.io/gh/shellscape/postcss-values-parser\n\n[size]: https://packagephobia.now.sh/badge?p=postcss-values-parser\n[size-url]: https://packagephobia.now.sh/result?p=postcss-values-parser\n\n<div align=\"center\">\n  <img width=\"95\" height=\"95\" title=\"Philosopher’s stone, logo of PostCSS\" src=\"http://postcss.github.io/postcss/logo.svg\"><br/><br/>\n</div>\n\n# postcss-values-parser [![tests][tests]][tests-url] [![cover][cover]][cover-url] [![size][size]][size-url]\n\nA CSS property value parser built upon [PostCSS](https://github.com/postcss/postcss),\nfollowing the same node and traversal patterns as PostCSS.\n\n## Install\n\nUsing npm:\n\n```console\nnpm install postcss-values-parser --save-dev\n```\n\n<a href=\"https://www.patreon.com/shellscape\">\n  <img src=\"https://c5.patreon.com/external/logo/become_a_patron_button@2x.png\" width=\"160\">\n</a>\n\nPlease consider [becoming a patron](https://www.patreon.com/shellscape) if you find this module useful.\n\n## Requirements\n\n`postcss-values-parser` Node version v6.14.0+ and PostCSS v7.0.0+.\n\n## Benefits\n\n- Leverages PostCSS and its tokenizer under the hood\n- Doesn't strip characters; eg. parenthesis\n- Full [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) traversal\n- Ability to walk the AST for every Node type\n- Convenience methods to stringify Nodes\n- Follows PostCSS patterns for whitespace between Nodes\n- Provides convenience properties for number units, colors, etc.\n\n## Usage\n\nUsing the parser is straightforward and minimalistic:\n\n```js\nconst { parse } = require('postcss-values-parser');\n\nconst root = parse('#fff');\nconst node = root.first;\n\n// → Word {\n//     raws: { before: '', after: '' },\n//     value: '#fff',\n//     type: 'word',\n//     isHex: true,\n//     isColor: true,\n//     isVariable: false,\n//     ...\n//   }\n```\n\nPlease see the [Documentation](./docs/README.md) for further information on using the module.\n\n## Meta\n\n[CONTRIBUTING](./.github/CONTRIBUTING.md)\n\n[LICENSE (Mozilla Public License)](./LICENSE)\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.0-beta.2" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.0-beta.2",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.0-beta.2.tgz",
+        "shasum" : "63ec33241f4bf3a23920d647b89d283060a677f9"
+      },
+      "dependencies" : {
+        "is-number" : "^7.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^13.1.0",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^4.4.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "publishConfig" : {
+        "tag" : "next"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.0-beta.2",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "326151acf09cb1991d1bb5fba3ad041f3498f529",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.0-beta.2_1549165504503_0.444041353013211"
+      },
+      "readme" : "[tests]: \thttps://img.shields.io/circleci/project/github/shellscape/postcss-values-parser.svg\n[tests-url]: https://circleci.com/gh/shellscape/postcss-values-parser\n\n[cover]: https://codecov.io/gh/shellscape/postcss-values-parser/branch/master/graph/badge.svg\n[cover-url]: https://codecov.io/gh/shellscape/postcss-values-parser\n\n[size]: https://packagephobia.now.sh/badge?p=postcss-values-parser\n[size-url]: https://packagephobia.now.sh/result?p=postcss-values-parser\n\n<div align=\"center\">\n  <img width=\"95\" height=\"95\" title=\"Philosopher’s stone, logo of PostCSS\" src=\"http://postcss.github.io/postcss/logo.svg\"><br/><br/>\n</div>\n\n# postcss-values-parser [![tests][tests]][tests-url] [![cover][cover]][cover-url] [![size][size]][size-url]\n\nA CSS property value parser built upon [PostCSS](https://github.com/postcss/postcss),\nfollowing the same node and traversal patterns as PostCSS.\n\n## Install\n\nUsing npm:\n\n```console\nnpm install postcss-values-parser --save-dev\n```\n\n<a href=\"https://www.patreon.com/shellscape\">\n  <img src=\"https://c5.patreon.com/external/logo/become_a_patron_button@2x.png\" width=\"160\">\n</a>\n\nPlease consider [becoming a patron](https://www.patreon.com/shellscape) if you find this module useful.\n\n## Requirements\n\n`postcss-values-parser` Node version v6.14.0+ and PostCSS v7.0.0+.\n\n## Benefits\n\n- Leverages PostCSS and its tokenizer under the hood\n- Doesn't strip characters; eg. parenthesis\n- Full [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) traversal\n- Ability to walk the AST for every Node type\n- Convenience methods to stringify Nodes\n- Follows PostCSS patterns for whitespace between Nodes\n- Provides convenience properties for number units, colors, etc.\n\n## Usage\n\nUsing the parser is straightforward and minimalistic:\n\n```js\nconst { parse } = require('postcss-values-parser');\n\nconst root = parse('#fff');\nconst node = root.first;\n\n// → Word {\n//     raws: { before: '', after: '' },\n//     value: '#fff',\n//     type: 'word',\n//     isHex: true,\n//     isColor: true,\n//     isVariable: false,\n//     ...\n//   }\n```\n\nPlease see the [Documentation](./docs/README.md) for further information on using the module.\n\n## Meta\n\n[CONTRIBUTING](./.github/CONTRIBUTING.md)\n\n[LICENSE (Mozilla Public License)](./LICENSE)\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.0-beta.3" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.0-beta.3",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.0-beta.3.tgz",
+        "shasum" : "fb31db1a069794116ecfef0d86a00008ab839817"
+      },
+      "dependencies" : {
+        "color-name" : "^1.1.4",
+        "is-number" : "^7.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^13.1.0",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^4.4.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "publishConfig" : {
+        "tag" : "next"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.0-beta.3",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "4f706ac2ef87c63fcae9b707820cdcfb62098b62",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.0-beta.3_1549468394423_0.04682272641395535"
+      },
+      "readme" : "[tests]: \thttps://img.shields.io/circleci/project/github/shellscape/postcss-values-parser.svg\n[tests-url]: https://circleci.com/gh/shellscape/postcss-values-parser\n\n[cover]: https://codecov.io/gh/shellscape/postcss-values-parser/branch/master/graph/badge.svg\n[cover-url]: https://codecov.io/gh/shellscape/postcss-values-parser\n\n[size]: https://packagephobia.now.sh/badge?p=postcss-values-parser\n[size-url]: https://packagephobia.now.sh/result?p=postcss-values-parser\n\n<div align=\"center\">\n  <img width=\"95\" height=\"95\" title=\"Philosopher’s stone, logo of PostCSS\" src=\"http://postcss.github.io/postcss/logo.svg\"><br/><br/>\n</div>\n\n# postcss-values-parser [![tests][tests]][tests-url] [![cover][cover]][cover-url] [![size][size]][size-url]\n\nA CSS property value parser built upon [PostCSS](https://github.com/postcss/postcss),\nfollowing the same node and traversal patterns as PostCSS.\n\n## Install\n\nUsing npm:\n\n```console\nnpm install postcss-values-parser --save-dev\n```\n\n<a href=\"https://www.patreon.com/shellscape\">\n  <img src=\"https://c5.patreon.com/external/logo/become_a_patron_button@2x.png\" width=\"160\">\n</a>\n\nPlease consider [becoming a patron](https://www.patreon.com/shellscape) if you find this module useful.\n\n## Requirements\n\n`postcss-values-parser` Node version v6.14.0+ and PostCSS v7.0.0+.\n\n## Benefits\n\n- Leverages PostCSS and its tokenizer under the hood\n- Doesn't strip characters; eg. parenthesis\n- Full [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) traversal\n- Ability to walk the AST for every Node type\n- Convenience methods to stringify Nodes\n- Follows PostCSS patterns for whitespace between Nodes\n- Provides convenience properties for number units, colors, etc.\n\n## Usage\n\nUsing the parser is straightforward and minimalistic:\n\n```js\nconst { parse } = require('postcss-values-parser');\n\nconst root = parse('#fff');\nconst node = root.first;\n\n// → Word {\n//     raws: { before: '', after: '' },\n//     value: '#fff',\n//     type: 'word',\n//     isHex: true,\n//     isColor: true,\n//     isVariable: false,\n//     ...\n//   }\n```\n\nPlease see the [Documentation](./docs/README.md) for further information on using the module.\n\n## Meta\n\n[CONTRIBUTING](./.github/CONTRIBUTING.md)\n\n[LICENSE (Mozilla Public License)](./LICENSE)\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.0-beta.1" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "3.0.0-beta.1",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/shellscape/postcss-values-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=6.14.4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-3.0.0-beta.1.tgz",
+        "shasum" : "ad6eb07d97135437fb0d5458de6e1a55314d6c8a"
+      },
+      "dependencies" : {
+        "is-number" : "^7.0.0",
+        "postcss" : "^7.0.5",
+        "url-regex" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^7.2.1",
+        "@commitlint/config-conventional" : "^7.1.2",
+        "ava" : "^1.2.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-shellscape" : "^2.0.2",
+        "lint-staged" : "^8.0.4",
+        "nyc" : "^13.1.0",
+        "pre-commit" : "^1.2.2",
+        "prettier" : "^1.15.2",
+        "standard-version" : "^4.4.0"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MPL-2.0",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "ci:coverage" : "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
+        "ci:lint" : "npm run lint && npm run security",
+        "ci:lint:commits" : "commitlint --from=${CIRCLE_BRANCH} --to=${CIRCLE_SHA1}",
+        "ci:test" : "npm run test",
+        "commitlint" : "commitlint",
+        "commitmsg" : "commitlint -e $GIT_PARAMS",
+        "lint" : "eslint lib test --fix --cache",
+        "lint-staged" : "lint-staged",
+        "security" : "npm audit",
+        "test" : "ava"
+      },
+      "publishConfig" : {
+        "tag" : "next"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@3.0.0-beta.1",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "git add" ]
+      },
+      "gitHead" : "686ae5a0d42bf17c3be7bcab7c1faec026d6d05d",
+      "pre-commit" : "lint-staged",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "test/" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-values-parser_3.0.0-beta.1_1549165321423_0.7164069859013416"
+      },
+      "readme" : "[tests]: \thttps://img.shields.io/circleci/project/github/shellscape/postcss-values-parser.svg\n[tests-url]: https://circleci.com/gh/shellscape/postcss-values-parser\n\n[cover]: https://codecov.io/gh/shellscape/postcss-values-parser/branch/master/graph/badge.svg\n[cover-url]: https://codecov.io/gh/shellscape/postcss-values-parser\n\n[size]: https://packagephobia.now.sh/badge?p=postcss-values-parser\n[size-url]: https://packagephobia.now.sh/result?p=postcss-values-parser\n\n<div align=\"center\">\n  <img width=\"95\" height=\"95\" title=\"Philosopher’s stone, logo of PostCSS\" src=\"http://postcss.github.io/postcss/logo.svg\"><br/><br/>\n</div>\n\n# postcss-values-parser [![tests][tests]][tests-url] [![cover][cover]][cover-url] [![size][size]][size-url]\n\nA CSS property value parser built upon [PostCSS](https://github.com/postcss/postcss),\nfollowing the same node and traversal patterns as PostCSS.\n\n## Install\n\nUsing npm:\n\n```console\nnpm install postcss-values-parser --save-dev\n```\n\n<a href=\"https://www.patreon.com/shellscape\">\n  <img src=\"https://c5.patreon.com/external/logo/become_a_patron_button@2x.png\" width=\"160\">\n</a>\n\nPlease consider [becoming a patron](https://www.patreon.com/shellscape) if you find this module useful.\n\n## Requirements\n\n`postcss-values-parser` Node version v6.14.0+ and PostCSS v7.0.0+.\n\n## Benefits\n\n- Leverages PostCSS and its tokenizer under the hood\n- Doesn't strip characters; eg. parenthesis\n- Full [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) traversal\n- Ability to walk the AST for every Node type\n- Convenience methods to stringify Nodes\n- Follows PostCSS patterns for whitespace between Nodes\n- Provides convenience properties for number units, colors, etc.\n\n## Usage\n\nUsing the parser is straightforward and minimalistic:\n\n```js\nconst { parse } = require('postcss-values-parser');\n\nconst root = parse('#fff');\nconst node = root.first;\n\n// → Word {\n//     raws: { before: '', after: '' },\n//     value: '#fff',\n//     type: 'word',\n//     isHex: true,\n//     isColor: true,\n//     isVariable: false,\n//     ...\n//   }\n```\n\nPlease see the [Documentation](./docs/README.md) for further information on using the module.\n\n## Meta\n\n[CONTRIBUTING](./.github/CONTRIBUTING.md)\n\n[LICENSE (Mozilla Public License)](./LICENSE)\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.13.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.0.0.tgz",
+        "shasum" : "33c8cae8eeb5879601a8493657bc9d2bd8b6e53d"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^3.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "files" : [ "API.md", "LICENSE", "README.md" ],
+      "maintainers" : [ {
+        "name" : "gilt-tech",
+        "email" : "gilt-tech@gilt.com"
+      }, {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.0.0",
+      "gitHead" : "672689884356fe5c0224223d8e30457f075b83a0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-1.0.0.tgz_1484099556019_0.047551866387948394"
+      },
+      "_shasum" : "33c8cae8eeb5879601a8493657bc9d2bd8b6e53d",
+      "_nodeVersion" : "7.3.0"
+    },
+    "1.0.1" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.0.1.tgz",
+        "shasum" : "89ee2461c9c15cc0f4875af9c0359a42d34df123"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^3.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.0.1",
+      "gitHead" : "abe6f7f27ad4948e7fe499dd2ea44e3034455837",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-1.0.1.tgz_1484140461629_0.4158368883654475"
+      },
+      "_shasum" : "89ee2461c9c15cc0f4875af9c0359a42d34df123",
+      "_nodeVersion" : "7.3.0"
+    },
+    "1.1.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.1.0.tgz",
+        "shasum" : "ab1d2d51a961a8bb970fbc84a16c1ff76cf3b287"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^3.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.1.0",
+      "gitHead" : "93bc4e484c00df82c01fe212cb884baae9449540",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-1.1.0.tgz_1485956188877_0.6691625716630369"
+      },
+      "_shasum" : "ab1d2d51a961a8bb970fbc84a16c1ff76cf3b287",
+      "_nodeVersion" : "7.3.0"
+    },
+    "1.0.2" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.0.2.tgz",
+        "shasum" : "de9a862e885bf6b7e0682ab905ea9b677dad4ac0"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^3.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.0.2",
+      "gitHead" : "abe6f7f27ad4948e7fe499dd2ea44e3034455837",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-1.0.2.tgz_1484140625325_0.17261258140206337"
+      },
+      "_shasum" : "de9a862e885bf6b7e0682ab905ea9b677dad4ac0",
+      "_nodeVersion" : "7.3.0"
+    },
+    "1.2.0" : {
+      "name" : "postcss-values-parser",
+      "description" : "A CSS property value parser for use with PostCSS",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Andrew Powell",
+        "email" : "andrew@shellscape.org",
+        "url" : "shellscape"
+      },
+      "homepage" : "https://github.com/lesshint/postcss-values-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lesshint/postcss-values-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/lesshint/postcss-values-parser/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-values-parser/-/postcss-values-parser-1.2.0.tgz",
+        "shasum" : "1429bd8084c36265244df9a8689a3117989131c1"
+      },
+      "dependencies" : {
+        "flatten" : "^1.0.2",
+        "indexes-of" : "^1.0.1",
+        "uniq" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "chai" : "3.5.0",
+        "chai-shallow-deep-equal" : "^1.4.0",
+        "eslint" : "^3.11.1",
+        "gulp" : "^3.9.1",
+        "gulp-eslint" : "^3.0.1",
+        "gulp-mocha" : "^3.0.1"
+      },
+      "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.1",
+      "_npmUser" : {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      },
+      "_id" : "postcss-values-parser@1.2.0",
+      "gitHead" : "7346e7c7c66006b05906597abc7e266d4d29ab73",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-values-parser-1.2.0.tgz_1486742497177_0.17112550395540893"
+      },
+      "_shasum" : "1429bd8084c36265244df9a8689a3117989131c1",
+      "_nodeVersion" : "7.3.0"
+    }
+  },
+  "readme" : "[tests]: \thttps://img.shields.io/circleci/project/github/shellscape/postcss-values-parser.svg\n[tests-url]: https://circleci.com/gh/shellscape/postcss-values-parser\n\n[cover]: https://codecov.io/gh/shellscape/postcss-values-parser/branch/master/graph/badge.svg\n[cover-url]: https://codecov.io/gh/shellscape/postcss-values-parser\n\n[size]: https://packagephobia.now.sh/badge?p=postcss-values-parser\n[size-url]: https://packagephobia.now.sh/result?p=postcss-values-parser\n\n<div align=\"center\">\n  <img width=\"95\" height=\"95\" title=\"Philosopher’s stone, logo of PostCSS\" src=\"http://postcss.github.io/postcss/logo.svg\"><br/><br/>\n</div>\n\n# postcss-values-parser [![tests][tests]][tests-url] [![cover][cover]][cover-url] [![size][size]][size-url]\n\nA CSS property value parser built upon [PostCSS](https://github.com/postcss/postcss),\nfollowing the same node and traversal patterns as PostCSS.\n\n## Install\n\nUsing npm:\n\n```console\nnpm install postcss-values-parser --save-dev\n```\n\n<a href=\"https://www.patreon.com/shellscape\">\n  <img src=\"https://c5.patreon.com/external/logo/become_a_patron_button@2x.png\" width=\"160\">\n</a>\n\nPlease consider [becoming a patron](https://www.patreon.com/shellscape) if you find this module useful.\n\n## Requirements\n\n`postcss-values-parser` Node version v6.14.0+ and PostCSS v7.0.0+.\n\n## Benefits\n\n- Leverages PostCSS and its tokenizer under the hood\n- Doesn't strip characters; eg. parenthesis\n- Full [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) traversal\n- Ability to walk the AST for every Node type\n- Convenience methods to stringify Nodes\n- Follows PostCSS patterns for whitespace between Nodes\n- Provides convenience properties for number units, colors, etc.\n\n## Usage\n\nUsing the parser is straightforward and minimalistic:\n\n```js\nconst { parse } = require('postcss-values-parser');\n\nconst root = parse('#fff');\nconst node = root.first;\n\n// → Word {\n//     raws: { before: '', after: '' },\n//     value: '#fff',\n//     type: 'word',\n//     isHex: true,\n//     isColor: true,\n//     isVariable: false,\n//     ...\n//   }\n```\n\nPlease see the [Documentation](./docs/README.md) for further information on using the module.\n\n## Meta\n\n[CONTRIBUTING](./.github/CONTRIBUTING.md)\n\n[LICENSE (Mozilla Public License)](./LICENSE)\n",
+  "maintainers" : [ {
+    "name" : "shellscape",
+    "email" : "andrew@shellscape.org"
+  } ],
+  "author" : {
+    "name" : "Andrew Powell",
+    "email" : "andrew@shellscape.org",
+    "url" : "shellscape"
+  },
+  "time" : {
+    "0.1.5" : "2016-07-11T22:40:40.222Z",
+    "0.1.6" : "2016-07-27T13:04:06.140Z",
+    "0.1.3" : "2016-04-25T14:00:04.176Z",
+    "0.1.4" : "2016-04-25T20:05:55.274Z",
+    "0.1.7" : "2016-07-27T13:06:04.821Z",
+    "0.1.8" : "2016-11-28T14:12:16.819Z",
+    "0.1.1" : "2016-03-30T02:33:30.909Z",
+    "0.1.2" : "2016-04-03T13:32:00.702Z",
+    "0.1.0" : "2016-03-28T16:48:52.807Z",
+    "3.0.0" : "2019-03-04T16:10:05.269Z",
+    "3.0.5" : "2019-06-26T16:03:29.417Z",
+    "modified" : "2020-02-07T11:58:26.682Z",
+    "3.0.1" : "2019-03-05T01:19:42.400Z",
+    "3.1.0" : "2020-02-04T12:30:44.481Z",
+    "3.0.2" : "2019-03-13T01:41:59.549Z",
+    "3.1.1" : "2020-02-07T11:58:24.326Z",
+    "3.0.3" : "2019-03-26T21:31:15.065Z",
+    "3.0.4" : "2019-05-04T19:10:02.620Z",
+    "2.0.0" : "2018-09-18T14:08:09.796Z",
+    "2.0.1" : "2019-01-14T19:09:42.422Z",
+    "created" : "2016-03-28T16:48:52.807Z",
+    "1.0.3" : "2017-01-18T17:18:04.649Z",
+    "1.2.1" : "2017-05-04T12:02:33.653Z",
+    "1.3.0" : "2017-07-20T13:58:57.243Z",
+    "1.2.2" : "2017-05-20T13:20:52.264Z",
+    "1.3.1" : "2017-09-28T16:01:25.654Z",
+    "1.4.0" : "2018-03-01T22:13:25.486Z",
+    "1.3.2" : "2018-02-12T17:04:45.497Z",
+    "1.5.0" : "2018-03-20T22:16:47.701Z",
+    "3.0.0-beta.4" : "2019-02-10T17:40:58.120Z",
+    "3.0.0-beta.2" : "2019-02-03T03:45:04.633Z",
+    "3.0.0-beta.3" : "2019-02-06T15:53:14.557Z",
+    "3.0.0-beta.1" : "2019-02-03T03:42:01.563Z",
+    "1.0.0" : "2017-01-11T01:52:38.092Z",
+    "1.0.1" : "2017-01-11T13:14:22.253Z",
+    "1.1.0" : "2017-02-01T13:36:30.684Z",
+    "1.0.2" : "2017-01-11T13:17:07.088Z",
+    "1.2.0" : "2017-02-10T16:01:37.718Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/shellscape/postcss-values-parser.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/shellscape/postcss-values-parser",
+  "keywords" : [ "css", "less", "ast", "postcss", "value", "values", "parser", "parsing", "properties" ],
+  "bugs" : {
+    "url" : "https://github.com/shellscape/postcss-values-parser/issues"
+  },
+  "license" : "MPL-2.0"
+}

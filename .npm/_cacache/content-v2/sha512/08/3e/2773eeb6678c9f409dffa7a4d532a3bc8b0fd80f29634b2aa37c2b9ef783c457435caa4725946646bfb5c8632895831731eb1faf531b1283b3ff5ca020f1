@@ -1,0 +1,1479 @@
+{
+  "_id" : "postcss-nesting",
+  "_rev" : "26-0cb1bf66431b8114da66460a2c331ffc",
+  "name" : "postcss-nesting",
+  "description" : "Nest style rules inside each other",
+  "dist-tags" : {
+    "latest" : "7.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.0.0.tgz",
+        "shasum" : "58eb619b2176dc60b8515c8af3effc28c956fe39"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.5"
+      },
+      "devDependencies" : {
+        "chai" : "^3.2.0",
+        "gulp" : "^3.9.0",
+        "gulp-eslint" : "^1.0.0",
+        "gulp-mocha" : "^2.1.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.0.0",
+      "gitHead" : "4cd52b65701557878a5d7f294182b2f276b5b5c0",
+      "_shasum" : "58eb619b2176dc60b8515c8af3effc28c956fe39",
+      "_nodeVersion" : "0.12.5"
+    },
+    "7.0.1" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style rules inside each other",
+      "version" : "7.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-7.0.1.tgz",
+        "shasum" : "b50ad7b7f0173e5b5e3880c3501344703e04c052"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "babel-plugin-array-includes" : "^2.0.3",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@7.0.1",
+      "gitHead" : "643577f85cf6f1ec1b792cd63cd6687058133b90",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting_7.0.1_1564405271626_0.08689616432167524"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "12.6.0"
+    },
+    "2.0.1" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.0.1.tgz",
+        "shasum" : "b2e06f2ff46533f3f044dedbeb82781fbb863a5e"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.5"
+      },
+      "devDependencies" : {
+        "chai" : "^3.2.0",
+        "gulp" : "^3.9.0",
+        "gulp-eslint" : "^1.0.0",
+        "gulp-mocha" : "^2.1.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.0.1",
+      "gitHead" : "7e8e81a9f8f543a0ff49aba1e70d40009e17ddc3",
+      "_shasum" : "b2e06f2ff46533f3f044dedbeb82781fbb863a5e",
+      "_nodeVersion" : "0.12.5"
+    },
+    "7.0.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style rules inside each other",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-7.0.0.tgz",
+        "shasum" : "6e26a770a0c8fcba33782a6b6f350845e1a448f6"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "babel-plugin-array-includes" : "^2.0.3",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@7.0.0",
+      "gitHead" : "87c6d347d24798d9aa8e1917986ceac45377a059",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting_7.0.0_1537245629066_0.5996163704006126"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.2.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style and media rules inside each another, following the CSS Nesting Module Level 3 specification",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-4.2.0.tgz",
+        "shasum" : "fde9edaf13cedc71e29567e5cb8ef440adc32c47"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.11"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.7.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.1.0",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@4.2.0",
+      "gitHead" : "baeddefb21115ea2c02b7374548fee114200524e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting-4.2.0.tgz_1505755298487_0.761668355204165"
+      },
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "4.2.1" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style and media rules inside each another, following the CSS Nesting Module Level 3 specification",
+      "version" : "4.2.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-4.2.1.tgz",
+        "shasum" : "0483bce338b3f0828ced90ff530b29b98b00300d"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.11"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.7.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.1.0",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@4.2.1",
+      "gitHead" : "f51dda6c867a9bb8b63e28e24d22510ac237ab29",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting-4.2.1.tgz_1505833696863_0.5232817446812987"
+      },
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.0.6" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.0.6",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.0.6.tgz",
+        "shasum" : "a406629be1af2d5900c8f4c4d7172c0add7843c8"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.9"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --ignore-path .gitignore",
+        "test-fixtures" : "tape test/*.js | tap-spec",
+        "test" : "npm run lint && npm run test-fixtures"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.0.6",
+      "gitHead" : "e6c056f17d36c259356b1cd1f69d44e928fb0fd2",
+      "_shasum" : "a406629be1af2d5900c8f4c4d7172c0add7843c8",
+      "_nodeVersion" : "0.12.5"
+    },
+    "4.0.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style and media rules inside each another, following the CSS Nesting Module Level 3 specification",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-4.0.0.tgz",
+        "shasum" : "a45ff1c0f3b40455a3a4a4ff4abc62da4e4e6b4f"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@4.0.0",
+      "gitHead" : "4b783f94345cde3e21322e27e30696d28f0796f3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting-4.0.0.tgz_1495329539386_0.5893482817336917"
+      },
+      "_shasum" : "a45ff1c0f3b40455a3a4a4ff4abc62da4e4e6b4f",
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "4.0.1" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style and media rules inside each another, following the CSS Nesting Module Level 3 specification",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-4.0.1.tgz",
+        "shasum" : "8fc2ce40cbfcfab7ee24e7b68fb6ebe84b641469"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@4.0.1",
+      "gitHead" : "410cfc7f7a3fb1b5307f475a0a16eab522153ee1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting-4.0.1.tgz_1495474024834_0.49243149743415415"
+      },
+      "_shasum" : "8fc2ce40cbfcfab7ee24e7b68fb6ebe84b641469",
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "4.1.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style and media rules inside each another, following the CSS Nesting Module Level 3 specification",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-4.1.0.tgz",
+        "shasum" : "28ef1e7cf9d497618ad2e5fa4de25d4757da1653"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@4.1.0",
+      "gitHead" : "4d16c8425dc4b2189de3481deedc29652b01214f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting-4.1.0.tgz_1503162644158_0.3490615845657885"
+      },
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.0.4" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.0.4.tgz",
+        "shasum" : "7a984b8cf9c3fc60815ee8a1c35a1b401a14dafd"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.6"
+      },
+      "devDependencies" : {
+        "chai" : "^3.3.0",
+        "gulp" : "^3.9.0",
+        "gulp-eslint" : "^1.0.0",
+        "gulp-mocha" : "^2.1.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.0.4",
+      "gitHead" : "3d2c0b64d816226d7fa60aa4dcd53f04adf355db",
+      "_shasum" : "7a984b8cf9c3fc60815ee8a1c35a1b401a14dafd",
+      "_nodeVersion" : "0.12.5"
+    },
+    "2.3.1" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.3.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.3.1.tgz",
+        "shasum" : "94a6b6a4ef707fbec20a87fee5c957759b4e01cf"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.19"
+      },
+      "devDependencies" : {
+        "eslint" : "^2.4.0",
+        "jscs" : "^2.11.0",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.5.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "specifications", "specs", "w3c" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js --ignore-path .gitignore && jscs *.js",
+        "tape" : "tape test.js | tap-spec",
+        "test" : "npm run lint && npm run tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.5",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.3.1",
+      "gitHead" : "36bf8a1ff3833bde08dad2c3402a45168063e83b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-nesting-2.3.1.tgz_1458156336173_0.9555516592226923"
+      },
+      "_shasum" : "94a6b6a4ef707fbec20a87fee5c957759b4e01cf",
+      "_nodeVersion" : "5.4.1"
+    },
+    "2.0.5" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.0.5",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.0.5.tgz",
+        "shasum" : "810fd7b66889f136c219082f72beacf271b65f1e"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.9"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "tap-spec" : "^4.1.0",
+        "tape" : "^4.2.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --ignore-path .gitignore",
+        "test-fixtures" : "tape test/*.js | tap-spec",
+        "test" : "npm run lint && npm run test-fixtures"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.0.5",
+      "gitHead" : "ff04ca4e069851b0bb4bbcfca23bb1d2d7f77920",
+      "_shasum" : "810fd7b66889f136c219082f72beacf271b65f1e",
+      "_nodeVersion" : "0.12.5"
+    },
+    "2.0.2" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.0.2.tgz",
+        "shasum" : "7673d6a3ca18696a5a326d45d9e197b2ae7e46f6"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.5"
+      },
+      "devDependencies" : {
+        "chai" : "^3.2.0",
+        "gulp" : "^3.9.0",
+        "gulp-eslint" : "^1.0.0",
+        "gulp-mocha" : "^2.1.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.0.2",
+      "gitHead" : "e1ae8c0f1c9bbe48634da0d2953dd60570ac2356",
+      "_shasum" : "7673d6a3ca18696a5a326d45d9e197b2ae7e46f6",
+      "_nodeVersion" : "0.12.5"
+    },
+    "2.1.1" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.1.1.tgz",
+        "shasum" : "cc44eb99f0beda451ad04a5a8bfe127a12d8b536"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.14"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.10.3",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.4.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --ignore-path .gitignore",
+        "tape" : "tape test.js | tap-spec",
+        "test" : "npm run lint && npm run tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.2",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.1.1",
+      "gitHead" : "08bcbc85735d370fc912d61ce1109dd8451a75fc",
+      "_shasum" : "cc44eb99f0beda451ad04a5a8bfe127a12d8b536",
+      "_nodeVersion" : "0.12.5"
+    },
+    "2.2.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.2.0.tgz",
+        "shasum" : "3319d30bc87fdec8d5d409ffdfb60aafac3d237d"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.14"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.10.3",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.4.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules", "specs", "specifications", "cssnext" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint . --ignore-path .gitignore",
+        "tape" : "tape test.js | tap-spec",
+        "test" : "npm run lint && npm run tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.2",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.2.0",
+      "gitHead" : "ef0b764fc9eeccff9d1157ebd94127894030af86",
+      "_shasum" : "3319d30bc87fdec8d5d409ffdfb60aafac3d237d",
+      "_nodeVersion" : "0.12.5"
+    },
+    "0.1.0" : {
+      "name" : "postcss-nesting",
+      "description" : "PostCSS plugin ability to nest one style rule inside another",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-0.1.0.tgz",
+        "shasum" : "df384bea09695350f15f71a2a2f7a99fdfb8cd98"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9",
+        "postcss-selector-parser" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11",
+        "gulp-watch" : "^4.2.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nesting", "selector", "rule" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@0.1.0",
+      "gitHead" : "d63f6b6b1efef37c11d86a84de23fe901f74123a",
+      "_shasum" : "df384bea09695350f15f71a2a2f7a99fdfb8cd98",
+      "_nodeVersion" : "0.10.32"
+    },
+    "2.0.3" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.0.3.tgz",
+        "shasum" : "18d9a1674166ff15e2e5e3a3d1b5724ee68b57a7"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.6"
+      },
+      "devDependencies" : {
+        "chai" : "^3.3.0",
+        "gulp" : "^3.9.0",
+        "gulp-eslint" : "^1.0.0",
+        "gulp-mocha" : "^2.1.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.0.3",
+      "gitHead" : "837cddccd3a410762241b61e40f6a1138e40c0bf",
+      "_shasum" : "18d9a1674166ff15e2e5e3a3d1b5724ee68b57a7",
+      "_nodeVersion" : "0.12.5"
+    },
+    "2.3.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-2.3.0.tgz",
+        "shasum" : "50740230df6d47345d58fd3ace7fe6e83e2f3df6"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.16"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.10.3",
+        "jscs" : "^2.10.1",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.4.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "specifications", "specs", "w3c" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint *.js --ignore-path .gitignore && jscs *.js",
+        "tape" : "tape test.js | tap-spec",
+        "test" : "npm run lint && npm run tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@2.3.0",
+      "gitHead" : "f582a24ceceabe61c0b5a0a975c49de1d34466c3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-nesting-2.3.0.tgz_1456028016494_0.4500257442705333"
+      },
+      "_shasum" : "50740230df6d47345d58fd3ace7fe6e83e2f3df6",
+      "_nodeVersion" : "5.4.1"
+    },
+    "3.0.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style and media rules inside each another, following the CSS Nesting Module Level 3 specification",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-3.0.0.tgz",
+        "shasum" : "b0a749d7eff11d2550a04dea642b695d7582fb1d"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "5.0.0-beta.44",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@3.0.0",
+      "gitHead" : "2ae0263b0cfe22fb0cb288c45bf4088308983187",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-nesting-3.0.0.tgz_1494344526117_0.18865361739881337"
+      },
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "6.0.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style rules inside each other",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-6.0.0.tgz",
+        "shasum" : "4c45276a065765ec063efe1e4daf75c131518991"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.22"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.3",
+        "babel-plugin-array-includes" : "^2.0.3",
+        "babel-preset-env" : "^1.7.0",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.60.1",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@6.0.0",
+      "gitHead" : "d4691ebcd74172f158f5d066c139aba5448d4d41",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting_6.0.0_1528585643301_0.8264955929516122"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.4.0"
+    },
+    "5.0.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Nest style rules inside each other",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-5.0.0.tgz",
+        "shasum" : "973e3a7dc6426543affc0b0beb367c3b2a8d9923"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.21"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.0",
+        "babel-eslint" : "^8.2.3",
+        "babel-preset-env" : "^1.6.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.58.2",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@5.0.0",
+      "gitHead" : "78f9cd13806177e41128c182a447a705b7befef3",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-nesting_5.0.0_1524511916671_0.8290138625191774"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "1.0.0" : {
+      "name" : "postcss-nesting",
+      "description" : "Transpiles nested rules according to CSS Nesting Module Level 3",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-nesting",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+      },
+      "engines" : {
+        "iojs" : ">=2.0.0",
+        "node" : ">=0.12.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-nesting/-/postcss-nesting-1.0.0.tgz",
+        "shasum" : "95235970d352dc47314572a39d7d1902b3d17bfb"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.5"
+      },
+      "devDependencies" : {
+        "chai" : "^3.2.0",
+        "gulp" : "^3.9.0",
+        "gulp-eslint" : "^1.0.0",
+        "gulp-mocha" : "^2.1.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "nestings", "selectors", "rules" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-nesting@1.0.0",
+      "gitHead" : "60dd7b0fcc559df45764b305db40a9a99a232ae8",
+      "_shasum" : "95235970d352dc47314572a39d7d1902b3d17bfb",
+      "_nodeVersion" : "0.12.5"
+    }
+  },
+  "readme" : "# PostCSS Nesting [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[![NPM Version][npm-img]][npm-url]\n[![CSS Standard Status][css-img]][css-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[PostCSS Nesting] lets you nest style rules inside each other, following the\n[CSS Nesting] specification.\n\n```pcss\na, b {\n  color: red;\n\n  & c, & d {\n    color: white;\n  }\n}\n\n/* becomes */\n\na, b {\n  color: red;\n}\n\na c, a d, b c, b d {\n  color: white;\n}\n```\n\n**NOTICE**: In a future version of this project, nesting at-rules like `@media`\nmay be deprecated, as they are not part of the nesting proposal. In a comment,\na CSSWG member expressed interest in handling nested `@media` while handling\nselector nesting. So deprecating nested at-rules has been temporarily delayed.\n\n## Usage\n\nAdd [PostCSS Nesting] to your project:\n\n```bash\nnpm install postcss-nesting --save-dev\n```\n\nUse [PostCSS Nesting] to process your CSS:\n\n```js\nimport postcssNesting from 'postcss-nesting';\n\npostcssNesting.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nimport postcss from 'postcss';\nimport postcssNesting from 'postcss-nesting';\n\npostcss([\n  postcssNesting(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Nesting] runs in all Node environments, with special instructions for:\n\n| [Node](INSTALL.md#node) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- |\n\n[cli-img]: https://img.shields.io/travis/jonathantneal/postcss-nesting.svg\n[cli-url]: https://travis-ci.org/jonathantneal/postcss-nesting\n[css-img]: https://cssdb.org/badge/nesting-rules.svg\n[css-url]: https://cssdb.org/#nesting-rules\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/postcss-nesting.svg\n[npm-url]: https://www.npmjs.com/package/postcss-nesting\n\n[CSS Nesting]: https://drafts.csswg.org/css-nesting-1/\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Nesting]: https://github.com/jonathantneal/postcss-nesting\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "4.2.0" : "2017-09-18T17:21:39.522Z",
+    "4.2.1" : "2017-09-19T15:08:17.777Z",
+    "4.0.0" : "2017-05-21T01:19:00.294Z",
+    "4.0.1" : "2017-05-22T17:27:04.923Z",
+    "4.1.0" : "2017-08-19T17:10:44.992Z",
+    "0.1.0" : "2015-06-17T16:27:22.458Z",
+    "3.0.0" : "2017-05-09T15:42:07.771Z",
+    "modified" : "2019-07-29T13:01:14.259Z",
+    "2.0.0" : "2015-09-15T23:59:15.932Z",
+    "7.0.1" : "2019-07-29T13:01:11.725Z",
+    "2.0.1" : "2015-09-16T06:13:47.656Z",
+    "created" : "2015-06-17T16:27:22.458Z",
+    "7.0.0" : "2018-09-18T04:40:29.251Z",
+    "2.0.6" : "2015-10-15T05:31:26.863Z",
+    "2.0.4" : "2015-09-22T13:38:34.145Z",
+    "2.3.1" : "2016-03-16T19:25:38.335Z",
+    "2.0.5" : "2015-10-12T13:40:45.481Z",
+    "2.0.2" : "2015-09-16T07:23:14.738Z",
+    "2.1.1" : "2016-01-04T04:59:39.071Z",
+    "2.2.0" : "2016-01-30T06:33:42.121Z",
+    "2.0.3" : "2015-09-22T13:08:54.535Z",
+    "2.3.0" : "2016-02-21T04:13:41.065Z",
+    "6.0.0" : "2018-06-09T23:07:23.353Z",
+    "5.0.0" : "2018-04-23T19:31:56.756Z",
+    "1.0.0" : "2015-09-15T13:26:47.407Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jonathantneal/postcss-nesting.git"
+  },
+  "users" : {
+    "asaupup" : true,
+    "jaevans36" : true,
+    "nuwaio" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jonathantneal/postcss-nesting#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "atrules", "child", "children", "cssnext", "nested", "nestings", "rules", "selectors", "syntax", "specifications", "specs", "w3c", "csswg" ],
+  "bugs" : {
+    "url" : "https://github.com/jonathantneal/postcss-nesting/issues"
+  },
+  "license" : "CC0-1.0"
+}

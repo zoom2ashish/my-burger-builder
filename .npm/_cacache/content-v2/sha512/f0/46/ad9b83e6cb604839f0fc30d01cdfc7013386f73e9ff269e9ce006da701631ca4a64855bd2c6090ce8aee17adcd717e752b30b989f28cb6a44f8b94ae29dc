@@ -1,0 +1,1457 @@
+{
+  "_id" : "raf",
+  "_rev" : "73-a1ce70ff4f853b3ed19249b555dfa1f3",
+  "name" : "raf",
+  "description" : "requestAnimationFrame polyfill for node and the browser",
+  "dist-tags" : {
+    "latest" : "3.4.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-2.0.0.tgz",
+        "shasum" : "ad4b41ac7ce390ad29216e7a72d1997236f2139d"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.1.3"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "~2.12.3"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@2.0.0",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "ad4b41ac7ce390ad29216e7a72d1997236f2139d"
+    },
+    "2.0.1" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-2.0.1.tgz",
+        "shasum" : "c80667f652e139e02a87daf39fa7084c002886da"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.1.3"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "~2.12.3"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@2.0.1",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "c80667f652e139e02a87daf39fa7084c002886da"
+    },
+    "0.1.3" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.1.3.tgz",
+        "shasum" : "936a55adf6ae838aaa1ae80599a09cb717941001"
+      },
+      "devDependencies" : {
+        "tape" : "~2.11.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.1.3",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "0.0.2" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.0.2.tgz",
+        "shasum" : "289aa41b6622ac464171995b8c638398c608a11d"
+      },
+      "devDependencies" : {
+        "tape" : "~0.3.3"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.0.2",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "0.1.1" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.1.1.tgz",
+        "shasum" : "d59c91dd31c9cf9c581089f25b0d0257f4204311"
+      },
+      "devDependencies" : {
+        "tape" : "~2.11.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.1.1",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "0.2.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.2.0.tgz",
+        "shasum" : "35a454b89106d6cebc257254afec4252adae5168"
+      },
+      "devDependencies" : {
+        "tape" : "~2.11.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.2.0",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "2.0.4" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-2.0.4.tgz",
+        "shasum" : "4993e453ea5275bf6ef07a163bdfe9a23233b623"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.1.3"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "~2.12.3"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-alpha.7",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@2.0.4",
+      "gitHead" : "1001a6c0a91d3b8f92f07a62338d12bc9d702a3d",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "4993e453ea5275bf6ef07a163bdfe9a23233b623"
+    },
+    "0.0.3" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.0.3.tgz",
+        "shasum" : "9c7c5de355533881d2bb6b01764184a6e19f1354"
+      },
+      "devDependencies" : {
+        "tape" : "~0.3.3"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.0.3",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "0.1.2" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.1.2.tgz",
+        "shasum" : "0def1a432b20f1447663ab051fc10e675dd98898"
+      },
+      "devDependencies" : {
+        "tape" : "~2.11.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.1.2",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "0.0.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.0.0.tgz",
+        "shasum" : "d77a37a1763b519d8ea6ad08232df77e3367f8bd"
+      },
+      "devDependencies" : {
+        "tape" : "~0.1.5"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.0.0",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : {
+          "ie" : [ 9 ],
+          "firefox" : [ 4, 13 ],
+          "chrome" : [ 20 ],
+          "safari" : [ 5.1 ],
+          "opera" : [ 11, 12 ]
+        }
+      }
+    },
+    "2.0.2" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-2.0.2.tgz",
+        "shasum" : "b3196848170e55b1df999fe20fa124a116fd9642"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.1.3"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "~2.12.3"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.13",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@2.0.2",
+      "gitHead" : "95a952dedeb38c67b000c5f4f92c6fc1f8362abb",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "b3196848170e55b1df999fe20fa124a116fd9642"
+    },
+    "0.0.1" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.0.1.tgz",
+        "shasum" : "1cddaa6054ac7c407ef037131955a9d5861986fc"
+      },
+      "devDependencies" : {
+        "tape" : "~0.1.5"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.0.1",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : {
+          "ie" : [ 9 ],
+          "firefox" : [ 4, 13 ],
+          "chrome" : [ 20 ],
+          "safari" : [ 5.1 ],
+          "opera" : [ 11, 12 ]
+        }
+      }
+    },
+    "0.1.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill library",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-0.1.0.tgz",
+        "shasum" : "d8c1cde3d6d533ffbd19a6aa9c6fe170f0862a60"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.4"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@0.1.0",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "2.0.3" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-2.0.3.tgz",
+        "shasum" : "1f4221f69858ac52db577c846c03bfaf769528d7"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.1.3"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "~2.12.3"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-alpha.6",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@2.0.3",
+      "gitHead" : "ccb89cec4c0e485d03b648f4cf24c6ef077faf6e",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "1f4221f69858ac52db577c846c03bfaf769528d7"
+    },
+    "3.0.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-3.0.0.tgz",
+        "shasum" : "c83c41dcbd6f04f1b3a0873d2968cd5523f04cf2"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.1.3"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@3.0.0",
+      "gitHead" : "ecfbe05b882dadef810293f2b559a134db4e9214",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "c83c41dcbd6f04f1b3a0873d2968cd5523f04cf2",
+      "_nodeVersion" : "2.0.1"
+    },
+    "3.3.2" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "3.3.2",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-3.3.2.tgz",
+        "shasum" : "0c13be0b5b49b46f76d6669248d527cf2b02fe27"
+      },
+      "dependencies" : {
+        "performance-now" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@3.3.2",
+      "gitHead" : "daf8fdbbff93ee1d9ed2ea3b84a483596e459bfe",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/raf-3.3.2.tgz_1493920913310_0.4229720178991556"
+      },
+      "_shasum" : "0c13be0b5b49b46f76d6669248d527cf2b02fe27",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.4.1" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "3.4.1",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-3.4.1.tgz",
+        "shasum" : "0742e99a4a6552f445d73e3ee0328af0ff1ede39"
+      },
+      "dependencies" : {
+        "performance-now" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@3.4.1",
+      "gitHead" : "8b77b7b0f37275dce8930cd9888f1cab209fff6a",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/raf_3.4.1_1541154668669_0.7129521896863182"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "3.1.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-3.1.0.tgz",
+        "shasum" : "5d84bf81b57f979f8c492be08378c538bb4eecfc"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.1.0",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@3.1.0",
+      "gitHead" : "c9c566a78e71a50ae4ffbcd93cdcfecb513015dd",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_shasum" : "5d84bf81b57f979f8c492be08378c538bb4eecfc",
+      "_nodeVersion" : "2.0.1"
+    },
+    "1.0.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-1.0.0.tgz",
+        "shasum" : "a8444ecbec4db988692159c1a5c542243459bc44"
+      },
+      "dependencies" : {
+        "performance-now" : "^0.1.3"
+      },
+      "devDependencies" : {
+        "testling" : "^1.6.1",
+        "browserify" : "^3.46.0",
+        "tape" : "~2.11.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@1.0.0",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "3.2.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-3.2.0.tgz",
+        "shasum" : "2aba9a09bb70f8c2e9094dc60ace7c374fadec7e"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.4",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@3.2.0",
+      "gitHead" : "36f73baee1b9bede56e5b21c422091fb4186858a",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-5-east.internal.npmjs.com",
+        "tmp" : "tmp/raf-3.2.0.tgz_1455705777394_0.3654659006278962"
+      },
+      "_shasum" : "2aba9a09bb70f8c2e9094dc60ace7c374fadec7e",
+      "_nodeVersion" : "4.1.1"
+    },
+    "1.0.1" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-1.0.1.tgz",
+        "shasum" : "592c82b3b875a1cb8f2fc0ce46cb3a9528ff7e2f"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.1.3"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "~2.12.3"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@1.0.1",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      }
+    },
+    "3.3.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-3.3.0.tgz",
+        "shasum" : "93845eeffc773f8129039f677f80a36044eee2c3"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@3.3.0",
+      "gitHead" : "77781df73108fe4e28599ec72f4975820ed2ecaa",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/raf-3.3.0.tgz_1471367403973_0.4697482050396502"
+      },
+      "_shasum" : "93845eeffc773f8129039f677f80a36044eee2c3",
+      "_nodeVersion" : "6.0.0"
+    },
+    "3.3.1" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-3.3.1.tgz",
+        "shasum" : "399d80ea8572815c527eb317532e29467fe6a976"
+      },
+      "dependencies" : {
+        "performance-now" : "~0.2.0"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      },
+      "_id" : "raf@3.3.1",
+      "gitHead" : "78d9c16c2b058f3f32f7bb90fda54db77fe07d30",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/raf-3.3.1.tgz_1493920843651_0.10579369426704943"
+      },
+      "_shasum" : "399d80ea8572815c527eb317532e29467fe6a976",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.4.0" : {
+      "name" : "raf",
+      "description" : "requestAnimationFrame polyfill for node and the browser",
+      "version" : "3.4.0",
+      "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "homepage" : "https://github.com/chrisdickinson/raf#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/raf.git"
+      },
+      "contributors" : [ {
+        "name" : "Christian Maughan Tegnér",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/chrisdickinson/raf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/raf/-/raf-3.4.0.tgz",
+        "shasum" : "a28876881b4bc2ca9117d4138163ddb80f781575"
+      },
+      "dependencies" : {
+        "performance-now" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testling" : "~1.6.1",
+        "browserify" : "~4.1.2",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "requestAnimationFrame", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      }, {
+        "name" : "cmtegner",
+        "email" : "christian.tegner@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "testling" : "browserify test.js | testling",
+        "test" : "node test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "chrisdickinson",
+        "email" : "chris@neversaw.us"
+      },
+      "_id" : "raf@3.4.0",
+      "gitHead" : "8c7f9899ce288286cc34b6e8c11f4e9434ac8059",
+      "testling" : {
+        "files" : "test.js",
+        "browsers" : [ "iexplore/6.0..latest", "firefox/3.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/10.0..latest", "opera/next", "safari/4.0..latest", "ipad/6.0..latest", "iphone/6.0..latest" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/raf-3.4.0.tgz_1506919376442_0.5950144757516682"
+      },
+      "_nodeVersion" : "8.6.0"
+    }
+  },
+  "readme" : "# raf\n\n[![Browser Support](http://ci.testling.com/chrisdickinson/raf.png)](http://ci.testling.com/chrisdickinson/raf)\n\nrequestAnimationFrame polyfill for node and the browser.\n\n```js\nvar raf = require('raf')\n\nraf(function tick() {\n  // Animation logic\n  raf(tick)\n})\n```\n\n**Note:** The stream/event emitter logic found in versions prior to 1.0.0 can be found in [raf-stream](https://www.npmjs.org/package/raf-stream).\n\n## Getting started\n\n### CommonJS (Node, Browserify, Webpack, etc.)\n\nInstall `raf` from npm:\n\n```bash\nnpm install --save raf\n```\n\nRequire it like you would any other module:\n\n```js\nconst raf = require('raf')\n```\n\n### AMD (require.js, etc)\n\nDownload the UMD-bundle from [wzrd.in](https://wzrd.in/standalone/raf@latest) (remember to include the current version number in the filename).\n\nAdd it to your AMD module loader config and require it like you would any other module:\n\n```html\ndefine(['raf'], raf => {...})\n```\n\n### `<script>`\n\nDownload the UMD-bundle from [wzrd.in](https://wzrd.in/standalone/raf@latest) (remember to include the current version number in the filename).\n\nThen include it via a script tag:\n\n```html\n<script src=\"raf-x.x.x.js\"></script>\n```\n\nThe API will be available on `window.raf`.\n\n## API\n\n[Documentation at Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/window.requestAnimationFrame), [W3 Specification](http://www.w3.org/TR/animation-timing/#requestAnimationFrame)\n\n### var handle = raf(callback)\n\n`callback` is the function to invoke in the next frame. `handle` is a long integer value that uniquely identifies the entry in the callback list. This is a non-zero value, but you may not make any other assumptions about its value.\n\n### raf.cancel(handle)\n\n`handle` is the entry identifier returned by `raf()`. Removes the queued animation frame callback (other queued callbacks will still be invoked unless cancelled).\n\n### raf.polyfill([object])\n\nShorthand to polyfill `window.requestAnimationFrame` and `window.cancelAnimationFrame` if necessary (Polyfills `global` in node).\n\nAlternatively you can require `raf/polyfill` which will act the same as `require('raf').polyfill()`.\n\nIf you provide `object` the polyfills are attached to that given object, instead of the inferred global.\nUseful if you have an instance of a fake `window` object, and want to add `raf` and `caf` to it.\n\n## Acknowledgments\n\nBased on work by Erik Möller, Paul Irish, and Tino Zijdel (https://gist.github.com/paulirish/1579671)\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "chrisdickinson",
+    "email" : "chris@neversaw.us"
+  }, {
+    "name" : "cmtegner",
+    "email" : "christian.tegner@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Chris Dickinson",
+    "email" : "chris@neversaw.us"
+  },
+  "time" : {
+    "0.1.3" : "2014-04-24T06:09:35.612Z",
+    "0.0.2" : "2013-04-23T02:07:18.789Z",
+    "0.1.1" : "2014-04-01T05:56:24.841Z",
+    "0.2.0" : "2014-05-14T06:45:06.623Z",
+    "0.0.3" : "2013-05-17T21:40:40.428Z",
+    "0.1.2" : "2014-04-16T09:23:24.971Z",
+    "0.0.0" : "2012-12-28T04:55:36.292Z",
+    "0.0.1" : "2013-01-04T21:21:40.719Z",
+    "0.1.0" : "2014-03-20T20:11:31.923Z",
+    "3.0.0" : "2015-05-24T19:05:26.406Z",
+    "3.3.2" : "2017-05-04T18:01:54.296Z",
+    "3.4.1" : "2018-11-02T10:31:08.808Z",
+    "modified" : "2019-01-05T05:56:40.802Z",
+    "3.1.0" : "2015-07-16T15:02:30.608Z",
+    "3.2.0" : "2016-02-17T10:42:59.752Z",
+    "3.3.0" : "2016-08-16T17:10:05.520Z",
+    "3.3.1" : "2017-05-04T18:00:44.401Z",
+    "3.4.0" : "2017-10-02T04:42:56.587Z",
+    "2.0.0" : "2014-05-23T19:17:31.310Z",
+    "2.0.1" : "2014-06-09T20:40:26.830Z",
+    "created" : "2012-12-28T04:55:34.966Z",
+    "2.0.4" : "2014-10-02T20:05:06.423Z",
+    "2.0.2" : "2014-07-28T18:42:34.169Z",
+    "2.0.3" : "2014-08-17T14:11:40.385Z",
+    "1.0.0" : "2014-05-14T06:49:49.666Z",
+    "1.0.1" : "2014-05-14T17:28:17.794Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/chrisdickinson/raf.git"
+  },
+  "users" : {
+    "daniel-zahariev" : true,
+    "pengzhisun" : true,
+    "fearnbuster" : true,
+    "tangiblej" : true,
+    "wvlvik" : true,
+    "adrienhobbs" : true,
+    "preco21" : true,
+    "andywhite37" : true,
+    "285858315" : true,
+    "alexdickson" : true,
+    "isenricho" : true,
+    "losymear" : true,
+    "wesleylhandy" : true,
+    "program247365" : true,
+    "cmtegner" : true,
+    "amjil" : true,
+    "bro_strummer" : true,
+    "psychollama" : true,
+    "mubaidr" : true,
+    "sunaiwen" : true,
+    "qddegtya" : true,
+    "arcticicestudio" : true,
+    "omidantilong" : true,
+    "princetoad" : true,
+    "dkblay" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/chrisdickinson/raf#readme",
+  "keywords" : [ "requestAnimationFrame", "polyfill" ],
+  "contributors" : [ {
+    "name" : "Christian Maughan Tegnér",
+    "email" : "christian.tegner@gmail.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/chrisdickinson/raf/issues"
+  },
+  "license" : "MIT"
+}

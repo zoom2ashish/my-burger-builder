@@ -1,0 +1,367 @@
+{
+  "_id" : "minipass-flush",
+  "_rev" : "5-1a2e065a9905704a372b99598dd01b36",
+  "name" : "minipass-flush",
+  "description" : "A Minipass stream that calls a flush function before emitting 'end'",
+  "dist-tags" : {
+    "latest" : "1.0.5"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "minipass-flush",
+      "description" : "A Minipass stream that calls a flush function before emitting 'end'",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-flush/-/minipass-flush-1.0.3.tgz",
+        "shasum" : "3089d92b79ab157f7a39b63bc20826bc7d5bab2c"
+      },
+      "dependencies" : {
+        "minipass" : "^2.6.2"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-flush@1.0.3",
+      "gitHead" : "cb96dd6cfb8603a7d843a8693bc2fd65ae67054d",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-flush_1.0.3_1568683555793_0.23236597573625106"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.0.4" : {
+      "name" : "minipass-flush",
+      "description" : "A Minipass stream that calls a flush function before emitting 'end'",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "homepage" : "https://github.com/isaacs/minipass-flush#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass-flush.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass-flush/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-flush/-/minipass-flush-1.0.4.tgz",
+        "shasum" : "e43261649da7ff9b9db529edc635b8f835411759"
+      },
+      "dependencies" : {
+        "minipass" : "^2.6.2"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "keywords" : [ "minipass", "flush", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-flush@1.0.4",
+      "gitHead" : "280c5c62a489e130a82b38353608522b5468f759",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-flush_1.0.4_1568822904729_0.3900350616791064"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.0.5" : {
+      "name" : "minipass-flush",
+      "description" : "A Minipass stream that calls a flush function before emitting 'end'",
+      "version" : "1.0.5",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "homepage" : "https://github.com/isaacs/minipass-flush#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/minipass-flush.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/minipass-flush/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-flush/-/minipass-flush-1.0.5.tgz",
+        "shasum" : "82e7135d7e89a50ffe64610a787953c4c4cbb373"
+      },
+      "dependencies" : {
+        "minipass" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.9"
+      },
+      "keywords" : [ "minipass", "flush", "stream" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.0-next.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-flush@1.0.5",
+      "gitHead" : "9625266c18ca9d14bb13f85dfcdf8cb67763b14e",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-flush_1.0.5_1569876888688_0.9645134726115252"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.0.0" : {
+      "name" : "minipass-flush",
+      "description" : "A Minipass stream that calls a flush function before emitting 'end'",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-flush/-/minipass-flush-1.0.0.tgz",
+        "shasum" : "b5cfb95600f009a2c62f03fc769f59e0ea1d38ff"
+      },
+      "dependencies" : {
+        "minipass" : "^2.5.1"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-flush@1.0.0",
+      "gitHead" : "4c21526d3ace110d0f934e92d20ecc900496e259",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-flush_1.0.0_1568590149766_0.8079714738932278"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.0.1" : {
+      "name" : "minipass-flush",
+      "description" : "A Minipass stream that calls a flush function before emitting 'end'",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-flush/-/minipass-flush-1.0.1.tgz",
+        "shasum" : "5137a873b2c60b9eb52cf1d630fa22d98c040064"
+      },
+      "dependencies" : {
+        "minipass" : "^2.5.1"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-flush@1.0.1",
+      "gitHead" : "d6128f8833ced17233628bdbc597031ffc1a6f99",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-flush_1.0.1_1568590393736_0.9540662901907238"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.0.2" : {
+      "name" : "minipass-flush",
+      "description" : "A Minipass stream that calls a flush function before emitting 'end'",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-flush/-/minipass-flush-1.0.2.tgz",
+        "shasum" : "9160f1b98124c151f7b3565a493660ed7c1868e6"
+      },
+      "dependencies" : {
+        "minipass" : "^2.6.2"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-flush@1.0.2",
+      "gitHead" : "1fc00e064c1e43f1508141a2d3e7979fb057855f",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-flush_1.0.2_1568672438692_0.1324160550195963"
+      },
+      "_nodeVersion" : "12.8.1"
+    }
+  },
+  "readme" : "# minipass-flush\n\nA Minipass stream that calls a flush function before emitting 'end'\n\n## USAGE\n\n```js\nconst Flush = require('minipass-flush')\ncons f = new Flush({\n  flush (cb) {\n    // call the cb when done, or return a promise\n    // the 'end' event will wait for it, along with\n    // close, finish, and prefinish.\n    // call the cb with an error, or return a rejecting\n    // promise to emit 'error' instead of doing the 'end'\n    return rerouteAllEncryptions().then(() => clearAllChannels())\n  },\n  // all other minipass options accepted as well\n})\n\nsomeDataSource.pipe(f).on('end', () => {\n  // proper flushing has been accomplished\n})\n\n// Or as a subclass implementing a 'flush' method:\nclass MyFlush extends Flush {\n  flush (cb) {\n    // old fashioned callback style!\n    rerouteAllEncryptions(er => {\n      if (er)\n        return cb(er)\n      clearAllChannels(er => {\n        if (er)\n          cb(er)\n        cb()\n      })\n    })\n  }\n}\n```\n\nThat's about it.\n\nIf your `flush` method doesn't have to do anything asynchronous, then it's\nbetter to call the callback right away in this tick, rather than returning\n`Promise.resolve()`, so that the `end` event can happen as soon as\npossible.\n",
+  "maintainers" : [ {
+    "name" : "isaacs",
+    "email" : "i@izs.me"
+  } ],
+  "author" : {
+    "name" : "Isaac Z. Schlueter",
+    "email" : "i@izs.me",
+    "url" : "https://izs.me"
+  },
+  "time" : {
+    "1.0.3" : "2019-09-17T01:25:55.922Z",
+    "1.0.4" : "2019-09-18T16:08:24.970Z",
+    "1.0.5" : "2019-09-30T20:54:48.902Z",
+    "created" : "2019-09-15T23:29:09.766Z",
+    "modified" : "2019-09-30T20:54:52.080Z",
+    "1.0.0" : "2019-09-15T23:29:09.908Z",
+    "1.0.1" : "2019-09-15T23:33:13.881Z",
+    "1.0.2" : "2019-09-16T22:20:38.803Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/isaacs/minipass-flush.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/isaacs/minipass-flush#readme",
+  "keywords" : [ "minipass", "flush", "stream" ],
+  "bugs" : {
+    "url" : "https://github.com/isaacs/minipass-flush/issues"
+  },
+  "license" : "ISC"
+}

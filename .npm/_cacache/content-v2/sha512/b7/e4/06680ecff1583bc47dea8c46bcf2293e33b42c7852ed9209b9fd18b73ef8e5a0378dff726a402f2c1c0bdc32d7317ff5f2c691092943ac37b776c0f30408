@@ -1,0 +1,1442 @@
+{
+  "_id" : "@babel/helper-split-export-declaration",
+  "_rev" : "40-5e19d643c99bab6bcdfe1aed6ecf6710",
+  "name" : "@babel/helper-split-export-declaration",
+  "description" : ">",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.0.0-rc.1" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-rc.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-rc.1.tgz",
+        "shasum" : "b00323834343fd0210f1f46c7a53521ad53efa5e"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-rc.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-rc.1_1533845209911_0.05994010539705785"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-rc.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-rc.2.tgz",
+        "shasum" : "726b2dec4e46baeab32db67caa6e88b6521464f8"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-rc.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-rc.2_1534879371412_0.8762774185427087"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-rc.0.tgz",
+        "shasum" : "24948e34c06afa52ff3b5265884ff958272a7a90"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-rc.0_1533830222338_0.4790213989128096"
+      }
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-rc.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-rc.3.tgz",
+        "shasum" : "42ca01340ddb68ab471f81e6ff2c6270dbdbd113"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-rc.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-rc.3_1535134011967_0.15853682625835708"
+      }
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-rc.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-rc.4.tgz",
+        "shasum" : "6010bfb5db2785070ace96b394d73382aba1603b"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0-rc.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-rc.4_1535388184233_0.402907925959894"
+      }
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-beta.54",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.54.tgz",
+        "shasum" : "89cd8833c95481a0827ac6a1bfccddb92b75a109"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.54"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.54_1531763994280_0.31231247567945286"
+      }
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-beta.53",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.53.tgz",
+        "shasum" : "aef54b8b1f99616ea37c98478716a3780263325b"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.53"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.53_1531316403973_0.40726484101122584"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-beta.52",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.52.tgz",
+        "shasum" : "4aac4f30ea6384af3676e04b5246727632e460df"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.52"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.52_1530838754374_0.4178818058003533"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-beta.51",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.51.tgz",
+        "shasum" : "8a6c3f66c4d265352fc077484f9f6e80a51ab978"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.51"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.51_1528838363463_0.17171802959948668"
+      }
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-beta.56",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.56.tgz",
+        "shasum" : "82d53382836134ba3ed0ea2394ca21fe579ec241"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.56"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.56_1533344630686_0.8012547961086351"
+      }
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-beta.55",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.55.tgz",
+        "shasum" : "ecb8074bf2d22c6518a252282535def137a8704f"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.55"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.55_1532815618157_0.09588751320958422"
+      }
+    },
+    "7.7.4" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.7.4.tgz",
+        "shasum" : "57292af60443c4a3622cf74040ddc28e68336fd8"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.7.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.7.4_1574465601207_0.3010740580974265"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.8.3.tgz",
+        "shasum" : "31a9f30070f91368a7182cf05f831781065fc7a9"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.8.3_1578951718865_0.41867332161375437"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0-beta.50",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.50.tgz",
+        "shasum" : "2ac449bc755e1490675d5f37d957859f23e51dc1"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.50"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.50_1528832816031_0.2010365339888609"
+      }
+    },
+    "7.7.0" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.7.0.tgz",
+        "shasum" : "1365e74ea6c614deeb56ebffabd71006a0eb2300"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.7.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v13.0.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.7.0",
+      "gitHead" : "97faa83953cb87e332554fa559a4956d202343ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.7.0_1572951209256_0.4870543585796203"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "7.4.4" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.4.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.4.4.tgz",
+        "shasum" : "ff94894a340be78f53f06af038b205c49d993677"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.4.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.4.4",
+      "gitHead" : "2c88694388831b1e5b88e4bbed6781eb2be1edba",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.4.4_1556312668510_0.17819372911679188"
+      }
+    },
+    "7.8.0" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.8.0.tgz",
+        "shasum" : "ed10cb03b07454c0d40735fad4e9c9711e739588"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.8.0_1578788210819_0.9668525094998488"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.4.0" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.4.0.tgz",
+        "shasum" : "571bfd52701f492920d63b7f735030e9a3e10b55"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.4.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.4.0",
+      "gitHead" : "f1328fb913b5a93d54dfc6e3728b1f56c8f4a804",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.4.0_1553028298989_0.10982743922520943"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : ">",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0.tgz",
+        "shasum" : "3aae285c0311c2ab095d997b8c9a94cad547d813"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0_1535406132620_0.017453027119103126"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/helper-split-export-declaration\n\n> \n\nSee our website [@babel/helper-split-export-declaration](https://babeljs.io/docs/en/next/babel-helper-split-export-declaration.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-split-export-declaration\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-split-export-declaration --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.49",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.49.tgz",
+        "shasum" : "40d78eda0968d011b1c52866e5746cfb23e57548"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.49"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.49_1527264051310_0.7047046379776527"
+      },
+      "_shasum" : "40d78eda0968d011b1c52866e5746cfb23e57548",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.48",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.48.tgz",
+        "shasum" : "064da7c9011d9f17448376f5f1c5b593126f57db"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.48"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.48_1527189668392_0.438052567419158"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.43",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.43.tgz",
+        "shasum" : "1e95b16ce597df81ce1face60f5ea89a4631a7bf"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.43"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.43_1522687690607_0.47018613673882714"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.42",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.42.tgz",
+        "shasum" : "0d0d5254220a9cc4e7e226240306b939dc210ee7"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.42"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "andarist",
+        "email" : "mateuszburzynski@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.42",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.42_1521147021960_0.28494514559078743"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.41",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.41.tgz",
+        "shasum" : "8a0a67ded225ab7abeb4ad1fc138b4e0e882abee"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.41"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "andarist",
+        "email" : "mateuszburzynski@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.41",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.41_1521044747371_0.8171238931872131"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.47",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.47.tgz",
+        "shasum" : "e11277855472d8d83baf22f2d0186c4a2059b09a"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.47"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.47_1526342867289_0.21354408349160736"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.46",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.46.tgz",
+        "shasum" : "6903893c72bb2a3d54ed20b5ff2aa8a28e8d2ea1"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.46"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.46_1524457819158_0.44686253410914856"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.45",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.45.tgz",
+        "shasum" : "36bcabde04ed94f93a8bb51f7aede36fab0e0910"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.45"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.45_1524448553992_0.922497823817259"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/helper-split-export-declaration",
+      "description" : "## API",
+      "version" : "7.0.0-beta.44",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.0.0-beta.44.tgz",
+        "shasum" : "c0b351735e0fbcb3822c8ad8db4e583b05ebd9dc"
+      },
+      "dependencies" : {
+        "@babel/types" : "7.0.0-beta.44"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-split-export-declaration@7.0.0-beta.44",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-split-export-declaration_7.0.0-beta.44_1522707592178_0.5995347379277134"
+      },
+      "_nodeVersion" : "8.10.0"
+    }
+  },
+  "readme" : "# @babel/helper-split-export-declaration\n\n> \n\nSee our website [@babel/helper-split-export-declaration](https://babeljs.io/docs/en/next/babel-helper-split-export-declaration.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-split-export-declaration\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-split-export-declaration --dev\n```\n",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "time" : {
+    "7.0.0-rc.1" : "2018-08-09T20:06:50.013Z",
+    "7.0.0-rc.2" : "2018-08-21T19:22:51.516Z",
+    "7.0.0-rc.0" : "2018-08-09T15:57:02.407Z",
+    "7.0.0-rc.3" : "2018-08-24T18:06:52.096Z",
+    "7.0.0-rc.4" : "2018-08-27T16:43:04.293Z",
+    "7.0.0-beta.54" : "2018-07-16T17:59:54.401Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:04.018Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:14.424Z",
+    "7.0.0-beta.51" : "2018-06-12T21:19:23.649Z",
+    "7.0.0-beta.56" : "2018-08-04T01:03:50.750Z",
+    "7.0.0-beta.55" : "2018-07-28T22:06:58.232Z",
+    "modified" : "2020-01-13T21:42:06.161Z",
+    "7.7.4" : "2019-11-22T23:33:21.347Z",
+    "7.8.3" : "2020-01-13T21:41:59.024Z",
+    "7.0.0-beta.50" : "2018-06-12T19:46:56.130Z",
+    "7.7.0" : "2019-11-05T10:53:29.433Z",
+    "7.4.4" : "2019-04-26T21:04:28.591Z",
+    "7.8.0" : "2020-01-12T00:16:50.931Z",
+    "7.4.0" : "2019-03-19T20:44:59.133Z",
+    "created" : "2018-03-14T16:25:47.314Z",
+    "7.0.0" : "2018-08-27T21:42:12.717Z",
+    "7.0.0-beta.49" : "2018-05-25T16:00:51.384Z",
+    "7.0.0-beta.48" : "2018-05-24T19:21:08.464Z",
+    "7.0.0-beta.43" : "2018-04-02T16:48:10.676Z",
+    "7.0.0-beta.42" : "2018-03-15T20:50:22.082Z",
+    "7.0.0-beta.41" : "2018-03-14T16:25:47.423Z",
+    "7.0.0-beta.47" : "2018-05-15T00:07:47.389Z",
+    "7.0.0-beta.46" : "2018-04-23T04:30:19.506Z",
+    "7.0.0-beta.45" : "2018-04-23T01:55:54.048Z",
+    "7.0.0-beta.44" : "2018-04-02T22:19:52.268Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-split-export-declaration"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

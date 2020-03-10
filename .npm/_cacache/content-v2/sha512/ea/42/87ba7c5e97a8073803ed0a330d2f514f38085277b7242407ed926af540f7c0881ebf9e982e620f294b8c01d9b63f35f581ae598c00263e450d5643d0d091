@@ -1,0 +1,3081 @@
+{
+  "_id" : "istanbul-reports",
+  "_rev" : "65-893ad7cb89edcf2b0bc6530a15b925c4",
+  "name" : "istanbul-reports",
+  "description" : "istanbul reports",
+  "dist-tags" : {
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "3.0.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git",
+        "directory" : "packages/istanbul-reports"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-3.0.0.tgz",
+        "shasum" : "d4d16d035db99581b6194e119bbf36c963c5eb70"
+      },
+      "dependencies" : {
+        "html-escaper" : "^2.0.0",
+        "istanbul-lib-report" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.5",
+        "@babel/preset-env" : "^7.7.5",
+        "@babel/preset-react" : "^7.7.4",
+        "babel-loader" : "^8.0.6",
+        "chai" : "^4.2.0",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^3.0.0",
+        "mocha" : "^6.2.2",
+        "nyc" : "^15.0.0-beta.2",
+        "react" : "^16.12.0",
+        "react-dom" : "^16.12.0",
+        "webpack" : "^4.41.2",
+        "webpack-cli" : "^3.3.10"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc --nycrc-path=../../monorepo-per-package-nycrc.json mocha --recursive",
+        "prepare" : "webpack --config lib/html-spa/webpack.config.js --mode production",
+        "prepare:watch" : "webpack --config lib/html-spa/webpack.config.js --watch --mode development"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.3.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@3.0.0",
+      "gitHead" : "5319df684b508ff6fb19fe8b9a6147a3c5924e4b",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "lib/html/assets/**", "lib/html-spa/assets/**", "lib/html-spa/rollup.config.js", "test/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_3.0.0_1576875282314_0.8870901946773453"
+      },
+      "_nodeVersion" : "13.3.0"
+    },
+    "2.0.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.0.0.tgz",
+        "shasum" : "eb12eddf55724ebc557b32cd77c34d11ed7980c1"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^2.0.1",
+        "istanbul-lib-report" : "^2.0.1",
+        "jshint" : "^2.9.5",
+        "mocha" : "^5.2.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@2.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.0.0_1530990009546_0.07846620272987614"
+      },
+      "_nodeVersion" : "10.2.1"
+    },
+    "2.0.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.0.1.tgz",
+        "shasum" : "fb8d6ea850701a3984350b977a969e9a556116a7"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^2.0.1",
+        "istanbul-lib-report" : "^2.0.2",
+        "jshint" : "^2.9.5",
+        "mocha" : "^5.2.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.0.1_1536195198231_0.7729890857367994"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "2.1.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.1.0.tgz",
+        "shasum" : "87b8b55cd1901ba1748964c98ddd8900ce306d59"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.3",
+        "istanbul-lib-report" : "^2.0.4"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "lerna/3.10.5/node@v10.14.2+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.1.0",
+      "gitHead" : "7875defdc3c3640787ac5d83700246de119e8b83",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.1.0_1548469613775_0.340620455608001"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.14.2"
+    },
+    "1.0.0-alpha.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0-alpha.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:istanbuljs/istanbul-reports"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0-alpha.0.tgz",
+        "shasum" : "ac1e3bf7ce0928741372b136095bc8be82418680"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.0.0",
+        "coveralls" : "^2.11.4",
+        "istanbul" : "^0.4.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.3"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fast" : "mocha --recursive test/",
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "istanbul cover -x '**/assets/**/*.js' --include-all-sources --print=both _mocha --  --recursive test/",
+        "xposttest" : "istanbul check-coverage --statements 95 --branches 80"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "_id" : "istanbul-reports@1.0.0-alpha.0",
+      "gitHead" : "0728ca179c4ec21a75d9b92a5910efb33992555e",
+      "_shasum" : "ac1e3bf7ce0928741372b136095bc8be82418680"
+    },
+    "2.2.6" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.2.6",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.2.6.tgz",
+        "shasum" : "7b4f2660d82b29303a8fe6091f8ca4bf058da1af"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.5",
+        "istanbul-lib-report" : "^2.0.8"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.2.6",
+      "gitHead" : "90e60cc47833bb780680f916488ca24f0be36ca2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.2.6_1557907189667_0.38575683721006615"
+      },
+      "_nodeVersion" : "12.1.0"
+    },
+    "3.0.0-alpha.4" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "3.0.0-alpha.4",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git",
+        "directory" : "packages/istanbul-reports"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-3.0.0-alpha.4.tgz",
+        "shasum" : "f703c04cc76b27e89b88c4fa74efec7865582e73"
+      },
+      "dependencies" : {
+        "html-escaper" : "^2.0.0",
+        "istanbul-lib-report" : "^3.0.0-alpha.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/preset-env" : "^7.6.2",
+        "@babel/preset-react" : "^7.0.0",
+        "babel-loader" : "^8.0.6",
+        "chai" : "^4.2.0",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^3.0.0-alpha.1",
+        "mocha" : "^6.2.1",
+        "nyc" : "^14.1.1",
+        "react" : "^16.10.2",
+        "react-dom" : "^16.10.2",
+        "webpack" : "^4.41.0",
+        "webpack-cli" : "^3.3.9"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc --nycrc-path=../../monorepo-per-package-nycrc.json mocha --recursive",
+        "prepare" : "webpack --config lib/html-spa/webpack.config.js --mode production",
+        "prepare:watch" : "webpack --config lib/html-spa/webpack.config.js --watch --mode development"
+      },
+      "_npmVersion" : "lerna/3.18.4/node@v12.11.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@3.0.0-alpha.4",
+      "gitHead" : "c69ce0cce10c1fb394b55ef0169e44e70f14ad24",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "lib/html/assets/**", "lib/html-spa/assets/**", "lib/html-spa/rollup.config.js", "test/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_3.0.0-alpha.4_1574088224114_0.39366178542102426"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.11.0"
+    },
+    "1.0.0-alpha.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0-alpha.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:istanbuljs/istanbul-reports"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0-alpha.1.tgz",
+        "shasum" : "98ddfe4e780798c4cd7b6701c854e4d009d1f6bc"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.0.0",
+        "coveralls" : "^2.11.4",
+        "istanbul" : "^0.4.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.3"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fast" : "mocha --recursive test/",
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "istanbul cover -x '**/assets/**/*.js' --include-all-sources --print=both _mocha --  --recursive test/",
+        "xposttest" : "istanbul check-coverage --statements 95 --branches 80"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "_id" : "istanbul-reports@1.0.0-alpha.1",
+      "gitHead" : "398e54c0b55a83376e0cb2bdb05e5993b22ff125",
+      "_shasum" : "98ddfe4e780798c4cd7b6701c854e4d009d1f6bc"
+    },
+    "3.0.0-alpha.5" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "3.0.0-alpha.5",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git",
+        "directory" : "packages/istanbul-reports"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-3.0.0-alpha.5.tgz",
+        "shasum" : "e8eb61c0bfdc46cbac5857482c6fa40481c5068b"
+      },
+      "dependencies" : {
+        "html-escaper" : "^2.0.0",
+        "istanbul-lib-report" : "^3.0.0-alpha.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/preset-env" : "^7.6.2",
+        "@babel/preset-react" : "^7.0.0",
+        "babel-loader" : "^8.0.6",
+        "chai" : "^4.2.0",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^3.0.0-alpha.1",
+        "mocha" : "^6.2.1",
+        "nyc" : "^14.1.1",
+        "react" : "^16.10.2",
+        "react-dom" : "^16.10.2",
+        "webpack" : "^4.41.0",
+        "webpack-cli" : "^3.3.9"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc --nycrc-path=../../monorepo-per-package-nycrc.json mocha --recursive",
+        "prepare" : "webpack --config lib/html-spa/webpack.config.js --mode production",
+        "prepare:watch" : "webpack --config lib/html-spa/webpack.config.js --watch --mode development"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.11.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@3.0.0-alpha.5",
+      "gitHead" : "bf0141b44a174626f4a3769a19b86a6c14d95a7b",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "lib/html/assets/**", "lib/html-spa/assets/**", "lib/html-spa/rollup.config.js", "test/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_3.0.0-alpha.5_1574446854455_0.26272107794332"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.11.0"
+    },
+    "2.2.7" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.2.7",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.2.7.tgz",
+        "shasum" : "5d939f6237d7b48393cc0959eab40cd4fd056931"
+      },
+      "dependencies" : {
+        "html-escaper" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.5",
+        "istanbul-lib-report" : "^2.0.8"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.2.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.2.7_1578773708458_0.027832923740840565"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "13.6.0"
+    },
+    "1.0.0-alpha.2" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0-alpha.2",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0-alpha.2.tgz",
+        "shasum" : "e374c036285feb0e9da1eda69f76f3e5e3a25cfa"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.0.0",
+        "coveralls" : "^2.11.4",
+        "istanbul" : "^0.4.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.3"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fast" : "mocha --recursive test/",
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "istanbul cover -x 'docs/**' -x '**/assets/**' --include-all-sources --print=both _mocha --  --recursive test/",
+        "xposttest" : "istanbul check-coverage --statements 95 --branches 80"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.0",
+      "_npmUser" : {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "_id" : "istanbul-reports@1.0.0-alpha.2",
+      "gitHead" : "2565b24cb6dd4b1f26f68574c8b8e7668bf509b3",
+      "_shasum" : "e374c036285feb0e9da1eda69f76f3e5e3a25cfa",
+      "_nodeVersion" : "0.10.26"
+    },
+    "2.2.4" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.2.4",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.2.4.tgz",
+        "shasum" : "4e0d0ddf0f0ad5b49a314069d31b4f06afe49ad3"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.5",
+        "istanbul-lib-report" : "^2.0.8"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "lerna/3.13.3/node@v12.0.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.2.4",
+      "gitHead" : "90e60cc47833bb780680f916488ca24f0be36ca2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.2.4_1556138682947_0.8561350040829006"
+      },
+      "_nodeVersion" : "12.0.0"
+    },
+    "3.0.0-alpha.2" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "3.0.0-alpha.2",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git",
+        "directory" : "packages/istanbul-reports"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-3.0.0-alpha.2.tgz",
+        "shasum" : "c5868adbac74a164d9a708714285d4381ebe377e"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.4.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/preset-env" : "^7.6.2",
+        "@babel/preset-react" : "^7.0.0",
+        "babel-loader" : "^8.0.6",
+        "chai" : "^4.2.0",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^3.0.0-alpha.1",
+        "istanbul-lib-report" : "^3.0.0-alpha.1",
+        "mocha" : "^6.2.1",
+        "nyc" : "^14.1.1",
+        "react" : "^16.10.2",
+        "react-dom" : "^16.10.2",
+        "webpack" : "^4.41.0",
+        "webpack-cli" : "^3.3.9"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc --nycrc-path=../../monorepo-per-package-nycrc.json mocha --recursive",
+        "prepare" : "webpack --config lib/html-spa/webpack.config.js --mode production",
+        "prepare:watch" : "webpack --config lib/html-spa/webpack.config.js --watch --mode development"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v12.11.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@3.0.0-alpha.2",
+      "gitHead" : "4d5e777a9bc4847d178ad31f379307124cdd1e4f",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "lib/html/assets/**", "lib/html-spa/assets/**", "lib/html-spa/rollup.config.js", "test/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_3.0.0-alpha.2_1570323965745_0.589216955883002"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.11.0"
+    },
+    "1.0.0-alpha.3" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0-alpha.3",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0-alpha.3.tgz",
+        "shasum" : "3cb7049c786f64935ceeda44cc9d8a4eeb491bdf"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.0.0",
+        "coveralls" : "^2.11.4",
+        "istanbul" : "^0.4.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.3"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fast" : "mocha --recursive test/",
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "istanbul cover -x 'docs/**' -x '**/assets/**' --include-all-sources --print=both _mocha --  --recursive test/",
+        "xposttest" : "istanbul check-coverage --statements 95 --branches 80"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.0",
+      "_npmUser" : {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "_id" : "istanbul-reports@1.0.0-alpha.3",
+      "gitHead" : "01e2581dfe3568dd8f88000ea2a462686aaac124",
+      "_shasum" : "3cb7049c786f64935ceeda44cc9d8a4eeb491bdf",
+      "_nodeVersion" : "0.10.26"
+    },
+    "2.2.5" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.2.5",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.2.5.tgz",
+        "shasum" : "7fd354847124b46861365ac41165a4dfe5f67ea5"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.5",
+        "istanbul-lib-report" : "^2.0.8"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "lerna/3.13.3/node@v12.0.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.2.5",
+      "gitHead" : "679fc641b691442c4e9274e07809fef35272161d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.2.5_1556801210206_0.6302757094029274"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.0.0"
+    },
+    "3.0.0-alpha.3" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "3.0.0-alpha.3",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git",
+        "directory" : "packages/istanbul-reports"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-3.0.0-alpha.3.tgz",
+        "shasum" : "4e50001f2aeb390b26dcc3e4841f2ec76274e7bb"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.4.2",
+        "istanbul-lib-report" : "^3.0.0-alpha.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/preset-env" : "^7.6.2",
+        "@babel/preset-react" : "^7.0.0",
+        "babel-loader" : "^8.0.6",
+        "chai" : "^4.2.0",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^3.0.0-alpha.1",
+        "mocha" : "^6.2.1",
+        "nyc" : "^14.1.1",
+        "react" : "^16.10.2",
+        "react-dom" : "^16.10.2",
+        "webpack" : "^4.41.0",
+        "webpack-cli" : "^3.3.9"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc --nycrc-path=../../monorepo-per-package-nycrc.json mocha --recursive",
+        "prepare" : "webpack --config lib/html-spa/webpack.config.js --mode production",
+        "prepare:watch" : "webpack --config lib/html-spa/webpack.config.js --watch --mode development"
+      },
+      "_npmVersion" : "lerna/3.16.5/node@v12.11.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@3.0.0-alpha.3",
+      "gitHead" : "70f48b7e6b60d17b8e2b5a03388a004deb6b8785",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "lib/html/assets/**", "lib/html-spa/assets/**", "lib/html-spa/rollup.config.js", "test/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_3.0.0-alpha.3_1571446027224_0.6602524273671082"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.11.0"
+    },
+    "1.0.0-alpha.4" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0-alpha.4",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0-alpha.4.tgz",
+        "shasum" : "5086d417b4bb97bf6870f3fb5cb55b7e703361b8"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.0.0",
+        "coveralls" : "^2.11.4",
+        "istanbul" : "^0.4.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.3"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fast" : "mocha --recursive test/",
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "istanbul cover -x 'docs/**' -x '**/assets/**' --include-all-sources --print=both _mocha --  --recursive test/",
+        "xposttest" : "istanbul check-coverage --statements 95 --branches 80"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.0",
+      "_npmUser" : {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "_id" : "istanbul-reports@1.0.0-alpha.4",
+      "gitHead" : "39ab1301fe42ed63dca12bf09074be0d27718f2c",
+      "_shasum" : "5086d417b4bb97bf6870f3fb5cb55b7e703361b8",
+      "_nodeVersion" : "0.10.26"
+    },
+    "2.2.2" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.2.2.tgz",
+        "shasum" : "b84303c46fc0541c3c3b69abae687c42a6907d44"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.4",
+        "istanbul-lib-report" : "^2.0.7"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.2.2",
+      "gitHead" : "9f8aebf1f08159df20358d77fe98c809d2027c5f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.2.2_1554852076409_0.5577931037657544"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "3.0.0-alpha.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "3.0.0-alpha.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-3.0.0-alpha.0.tgz",
+        "shasum" : "f551accd599644c215627153402dfbc95d38b56c"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/preset-env" : "^7.4.5",
+        "@babel/preset-react" : "^7.0.0",
+        "chai" : "^4.2.0",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^3.0.0-alpha.0",
+        "istanbul-lib-report" : "^3.0.0-alpha.0",
+        "mocha" : "^6.1.4",
+        "nyc" : "^14.1.1",
+        "react" : "^16.8.6",
+        "react-dom" : "^16.8.6",
+        "rollup" : "^1.15.6",
+        "rollup-plugin-babel" : "^4.3.2",
+        "rollup-plugin-commonjs" : "^10.0.0",
+        "rollup-plugin-node-resolve" : "^5.0.3",
+        "rollup-plugin-replace" : "^2.2.0",
+        "rollup-plugin-terser" : "^5.0.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc --nycrc-path=../../monorepo-per-package-nycrc.json mocha --recursive",
+        "prepare" : "rollup --config lib/html-spa/rollup.config.js"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v12.3.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@3.0.0-alpha.0",
+      "gitHead" : "2e885073a9398806c9b8763dd39418398182ca34",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "lib/html/assets/**", "lib/html-spa/assets/**", "lib/html-spa/src/**", "lib/html-spa/rollup.config.js", "test/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_3.0.0-alpha.0_1560946625253_0.3540744527631927"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.3.1"
+    },
+    "2.2.3" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.2.3",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.2.3.tgz",
+        "shasum" : "14e0d00ecbfa9387757999cf36599b88e9f2176e"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.4",
+        "istanbul-lib-report" : "^2.0.7"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.2.3",
+      "gitHead" : "d98bbced044b2416f488bb1bbd37efefd1202a52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.2.3_1555488258906_0.6767728659475778"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "3.0.0-alpha.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "3.0.0-alpha.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-3.0.0-alpha.1.tgz",
+        "shasum" : "9bb6e35f41a826edb389603da804dd39a1880bca"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/preset-env" : "^7.4.5",
+        "@babel/preset-react" : "^7.0.0",
+        "chai" : "^4.2.0",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^3.0.0-alpha.0",
+        "istanbul-lib-report" : "^3.0.0-alpha.0",
+        "mocha" : "^6.1.4",
+        "nyc" : "^14.1.1",
+        "react" : "^16.8.6",
+        "react-dom" : "^16.8.6",
+        "rollup" : "^1.15.6",
+        "rollup-plugin-babel" : "^4.3.2",
+        "rollup-plugin-commonjs" : "^10.0.0",
+        "rollup-plugin-node-resolve" : "^5.0.3",
+        "rollup-plugin-replace" : "^2.2.0",
+        "rollup-plugin-terser" : "^5.0.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc --nycrc-path=../../monorepo-per-package-nycrc.json mocha --recursive",
+        "prepare" : "rollup --config lib/html-spa/rollup.config.js"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v12.3.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@3.0.0-alpha.1",
+      "gitHead" : "371adb154f0189b793e636b5bbcc63f183d36c2b",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "lib/html/assets/**", "lib/html-spa/assets/**", "lib/html-spa/src/**", "lib/html-spa/rollup.config.js", "test/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_3.0.0-alpha.1_1561040322803_0.8784577162521956"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.3.1"
+    },
+    "1.0.0-alpha.6" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0-alpha.6",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0-alpha.6.tgz",
+        "shasum" : "a52b4c6ff4acb91c7f3ed374a7f778e00c709797"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.0.0",
+        "coveralls" : "^2.11.4",
+        "istanbul" : "^0.4.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.3"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fast" : "mocha --recursive test/",
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "istanbul cover -x 'docs/**' -x '**/assets/**' --include-all-sources --print=both _mocha --  --recursive test/",
+        "xposttest" : "istanbul check-coverage --statements 95 --branches 80"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "_id" : "istanbul-reports@1.0.0-alpha.6",
+      "gitHead" : "daeba6b396c3cc9e3646ad0496fe3c7fad19cd30",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/istanbul-reports-1.0.0-alpha.6.tgz_1466732773431_0.5101215024478734"
+      },
+      "_shasum" : "a52b4c6ff4acb91c7f3ed374a7f778e00c709797",
+      "_nodeVersion" : "6.2.1"
+    },
+    "2.0.2" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.0.2.tgz",
+        "shasum" : "6393e43ebfc3708c75584ae78014de945ea2dff4"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^2.0.1",
+        "istanbul-lib-report" : "^2.0.2",
+        "jshint" : "^2.9.5",
+        "mocha" : "^5.2.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@2.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.0.2_1545192681116_0.6344749345329102"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.11.0"
+    },
+    "2.1.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.1.1.tgz",
+        "shasum" : "72ef16b4ecb9a4a7bd0e2001e00f95d1eec8afa9"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.3",
+        "istanbul-lib-report" : "^2.0.4"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "lerna/3.11.1/node@v10.15.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.1.1",
+      "gitHead" : "c02990692153f87670b3d59ba21a19bcf6fb8e51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.1.1_1550150153102_0.500112759695962"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "2.2.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.2.0.tgz",
+        "shasum" : "e71fac8c848c022b771c272beab56c20c1bf3c75"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.4",
+        "istanbul-lib-report" : "^2.0.5"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "lerna/3.13.0/node@v10.15.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.2.0",
+      "gitHead" : "c81b051d83217947dfd97d8d06532bd5013e98c3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.2.0_1552353258582_0.6654212361960801"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.0.0-alpha.7" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0-alpha.7",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0-alpha.7.tgz",
+        "shasum" : "5ca30bf44a4866681b6282516a08a08b291ea6c3"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.0.0",
+        "coveralls" : "^2.11.4",
+        "istanbul" : "^0.4.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.3"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fast" : "mocha --recursive test/",
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "istanbul cover -x 'docs/**' -x '**/assets/**' --include-all-sources --print=both _mocha --  --recursive test/",
+        "xposttest" : "istanbul check-coverage --statements 95 --branches 80"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "_id" : "istanbul-reports@1.0.0-alpha.7",
+      "gitHead" : "0969e457e8fcfac51879b87ca3b638e6e676d943",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/istanbul-reports-1.0.0-alpha.7.tgz_1467639197469_0.7729339271318167"
+      },
+      "_shasum" : "5ca30bf44a4866681b6282516a08a08b291ea6c3",
+      "_nodeVersion" : "6.2.1"
+    },
+    "2.0.3" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.0.3.tgz",
+        "shasum" : "332eda684c9ee891f199dfba305c3e776f55fc16"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^2.0.2",
+        "istanbul-lib-report" : "^2.0.3",
+        "mocha" : "^5.2.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@2.0.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.0.3_1545698268101_0.2871657264222469"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "11.5.0"
+    },
+    "2.2.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-2.2.1.tgz",
+        "shasum" : "2f4cc22fa8e601d0e589bc3dfadf3b4359ba4a03"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "istanbul-lib-coverage" : "^2.0.4",
+        "istanbul-lib-report" : "^2.0.6"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "lerna/3.13.1/node@v10.15.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@2.2.1",
+      "gitHead" : "e8063c799d0854341cb3daaf91c58acd06bd501c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_2.2.1_1554314689829_0.5799863946785464"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.0.0-alpha.8" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0-alpha.8",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0-alpha.8.tgz",
+        "shasum" : "094830f4c7f3d482e466aac8abda2495f9ae4689"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.0.0",
+        "coveralls" : "^2.11.4",
+        "istanbul" : "^0.4.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.3"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "fast" : "mocha --recursive test/",
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "istanbul cover -x 'docs/**' -x '**/assets/**' --include-all-sources --print=both _mocha --  --recursive test/",
+        "xposttest" : "istanbul check-coverage --statements 95 --branches 80"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "_id" : "istanbul-reports@1.0.0-alpha.8",
+      "gitHead" : "10d00e6566e1d8daab4c5ee124ae273ec9427749",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/istanbul-reports-1.0.0-alpha.8.tgz_1468237762146_0.24699895130470395"
+      },
+      "_shasum" : "094830f4c7f3d482e466aac8abda2495f9ae4689",
+      "_nodeVersion" : "6.2.1"
+    },
+    "1.1.2" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.1.2.tgz",
+        "shasum" : "0fb2e3f6aa9922bd3ce45d05d8ab4d5e8e07bd4f"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.1.1",
+        "istanbul-lib-report" : "^1.1.1",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      }, {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.1",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.1.2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports-1.1.2.tgz_1503706439854_0.6207024639006704"
+      },
+      "_shasum" : "0fb2e3f6aa9922bd3ce45d05d8ab4d5e8e07bd4f",
+      "_nodeVersion" : "8.3.0"
+    },
+    "1.3.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.3.0.tgz",
+        "shasum" : "2f322e81e1d9520767597dca3c20a0cce89a3554"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.2.0",
+        "istanbul-lib-report" : "^1.1.4",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.3.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_1.3.0_1520633656601_0.0046326192783465725"
+      },
+      "_nodeVersion" : "8.8.1"
+    },
+    "1.1.3" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.1.3.tgz",
+        "shasum" : "3b9e1e8defb6d18b1d425da8e8b32c5a163f2d10"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.1.1",
+        "istanbul-lib-report" : "^1.1.2",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      }, {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.1.3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports-1.1.3.tgz_1508612370637_0.6891787350177765"
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "1.4.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.4.0.tgz",
+        "shasum" : "3d7b44b912ecbe7652a603662b962120739646a1"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.2.0",
+        "istanbul-lib-report" : "^1.1.4",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.4.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_1.4.0_1523988245909_0.20140160613273927"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.1.4" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.1.4.tgz",
+        "shasum" : "5ccba5e22b7b5a5d91d5e0a830f89be334bf97bd"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.1.2",
+        "istanbul-lib-report" : "^1.1.3",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.1.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_1.1.4_1518500919082_0.6001326467411845"
+      },
+      "_nodeVersion" : "8.8.1"
+    },
+    "1.4.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.4.1.tgz",
+        "shasum" : "4f2e8e928aa7a05d1da6c427d4098b2655ec7334"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.2.0",
+        "istanbul-lib-report" : "^1.1.4",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.4.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_1.4.1_1527727066171_0.6018411184314041"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.0.0"
+    },
+    "1.5.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.5.0.tgz",
+        "shasum" : "c6c2867fa65f59eb7dcedb7f845dfc76aaee70f9"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "chai" : "^4.1.2",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^2.0.0",
+        "istanbul-lib-report" : "^2.0.0",
+        "jshint" : "^2.9.5",
+        "mocha" : "^5.2.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.5.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_1.5.0_1528246207725_0.9661981737697718"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.2.1"
+    },
+    "1.5.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.5.1.tgz",
+        "shasum" : "97e4dbf3b515e8c484caea15d6524eebd3ff4e1a"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.2.1",
+        "istanbul-lib-report" : "^1.1.5",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@1.5.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_1.5.1_1536186504856_0.13825094513051384"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "3.0.0-alpha.6" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "3.0.0-alpha.6",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://istanbul.js.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git",
+        "directory" : "packages/istanbul-reports"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-3.0.0-alpha.6.tgz",
+        "shasum" : "51b1d89e2f41ba60187001baadb7cb56b8988867"
+      },
+      "dependencies" : {
+        "html-escaper" : "^2.0.0",
+        "istanbul-lib-report" : "^3.0.0-alpha.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.5",
+        "@babel/preset-env" : "^7.7.5",
+        "@babel/preset-react" : "^7.7.4",
+        "babel-loader" : "^8.0.6",
+        "chai" : "^4.2.0",
+        "is-windows" : "^1.0.2",
+        "istanbul-lib-coverage" : "^3.0.0-alpha.2",
+        "mocha" : "^6.2.2",
+        "nyc" : "^15.0.0-beta.2",
+        "react" : "^16.12.0",
+        "react-dom" : "^16.12.0",
+        "webpack" : "^4.41.2",
+        "webpack-cli" : "^3.3.10"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "git@cfware.com",
+        "name" : "coreyfarrell"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc --nycrc-path=../../monorepo-per-package-nycrc.json mocha --recursive",
+        "prepare" : "webpack --config lib/html-spa/webpack.config.js --mode production",
+        "prepare:watch" : "webpack --config lib/html-spa/webpack.config.js --watch --mode development"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.3.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "coreyfarrell",
+        "email" : "git@cfware.com"
+      },
+      "_id" : "istanbul-reports@3.0.0-alpha.6",
+      "gitHead" : "9546946f0e4bc80714a5b318c59e459781f05550",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "exclude" : [ "lib/html/assets/**", "lib/html-spa/assets/**", "lib/html-spa/rollup.config.js", "test/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_3.0.0-alpha.6_1575736920937_0.32797415525543316"
+      },
+      "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "13.3.0"
+    },
+    "1.0.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.0.tgz",
+        "shasum" : "24b4eb2b1d29d50f103b369bd422f6e640aa0777"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "coveralls" : "^2.11.4",
+        "istanbul-lib-coverage" : "^1.0.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2",
+        "nyc" : "^8.3.1",
+        "standard-version" : "^3.0.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "nyc --all mocha --recursive test/",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls",
+        "release" : "standard-version"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.0.0",
+      "gitHead" : "929e16fa6e41068f7e8e9d887bfcb2e3dcdcb6c4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/istanbul-reports-1.0.0.tgz_1476684878444_0.31230472680181265"
+      },
+      "_shasum" : "24b4eb2b1d29d50f103b369bd422f6e640aa0777",
+      "_nodeVersion" : "6.5.0"
+    },
+    "1.0.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.1.tgz",
+        "shasum" : "9a17176bc4a6cbebdae52b2f15961d52fa623fbc"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "coveralls" : "^2.11.4",
+        "istanbul-lib-coverage" : "^1.0.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2",
+        "nyc" : "^8.3.1",
+        "standard-version" : "^3.0.0"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      }, {
+        "name" : "jakxz",
+        "email" : "jgkurian@me.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "nyc --all mocha --recursive test/",
+        "coverage" : "nyc report --reporter=text-lcov | coveralls",
+        "release" : "standard-version"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.5",
+      "_npmUser" : {
+        "name" : "jakxz",
+        "email" : "jgkurian@me.com"
+      },
+      "_id" : "istanbul-reports@1.0.1",
+      "gitHead" : "c8a05d25949c404cc3863213f950afa41b797d55",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/istanbul-reports-1.0.1.tgz_1485672779624_0.02705533360131085"
+      },
+      "_shasum" : "9a17176bc4a6cbebdae52b2f15961d52fa623fbc",
+      "_nodeVersion" : "7.4.0"
+    },
+    "1.1.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.1.0.tgz",
+        "shasum" : "1ef3b795889219cfb5fad16365f6ce108d5f8c66"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.1.0",
+        "istanbul-lib-report" : "^1.1.0",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      }, {
+        "name" : "jakxz",
+        "email" : "jgkurian@me.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.1.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/istanbul-reports-1.1.0.tgz_1493442004757_0.599740678910166"
+      },
+      "_shasum" : "1ef3b795889219cfb5fad16365f6ce108d5f8c66",
+      "_nodeVersion" : "7.1.0"
+    },
+    "1.0.2" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbul-reports",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbul-reports.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbul-reports/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.0.2.tgz",
+        "shasum" : "4e8366abe6fa746cc1cd6633f108de12cc6ac6fa"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "istanbul-lib-coverage" : "^1.0.2",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      }, {
+        "name" : "jakxz",
+        "email" : "jgkurian@me.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.1",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.0.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/istanbul-reports-1.0.2.tgz_1490593881536_0.6476666752714664"
+      },
+      "_shasum" : "4e8366abe6fa746cc1cd6633f108de12cc6ac6fa",
+      "_nodeVersion" : "6.9.5"
+    },
+    "1.1.1" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.1.1.tgz",
+        "shasum" : "042be5c89e175bc3f86523caab29c014e77fee4e"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.1.1",
+        "istanbul-lib-report" : "^1.1.1",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "gotwarlost",
+        "email" : "kananthmail-github@yahoo.com"
+      }, {
+        "name" : "jakxz",
+        "email" : "jgkurian@me.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.1.1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports-1.1.1.tgz_1495919578208_0.8774899295531213"
+      },
+      "_nodeVersion" : "7.1.0"
+    },
+    "1.2.0" : {
+      "name" : "istanbul-reports",
+      "description" : "istanbul reports",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Krishnan Anantheswaran",
+        "email" : "kananthmail-github@yahoo.com"
+      },
+      "homepage" : "https://github.com/istanbuljs/istanbuljs",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/istanbul-reports/-/istanbul-reports-1.2.0.tgz",
+        "shasum" : "59a72413daf809b9c3203241c31abb9a48ab1bf5"
+      },
+      "dependencies" : {
+        "handlebars" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "chai" : "^3.5.0",
+        "is-windows" : "^1.0.1",
+        "istanbul-lib-coverage" : "^1.2.0",
+        "istanbul-lib-report" : "^1.1.4",
+        "jshint" : "^2.8.0",
+        "mocha" : "^3.1.2"
+      },
+      "keywords" : [ "istanbul", "reports" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "kananthmail-github@yahoo.com",
+        "name" : "gotwarlost"
+      }, {
+        "email" : "jgkurian@me.com",
+        "name" : "jakxz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "jshint --exclude=**/prettify.js index.js lib/ test/",
+        "test" : "mocha --recursive"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "istanbul-reports@1.2.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/istanbul-reports_1.2.0_1520188976299_0.7409712028559465"
+      },
+      "readme" : "istanbul-reports\n================\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n* node.getRelativeName\n\n* context.getSource(filePath)\n* context.classForPercent(type, percent)\n* context.console.colorize(str, class)\n* context.writer\n* context.console.write\n* context.console.println\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.8.1"
+    }
+  },
+  "readme" : "# istanbul-reports\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/istanbuljs/istanbul-reports.svg)](https://greenkeeper.io/)\n[![Build Status](https://travis-ci.org/istanbuljs/istanbul-reports.svg?branch=master)](https://travis-ci.org/istanbuljs/istanbul-reports)\n\n-   node.getRelativeName\n\n-   context.getSource(filePath)\n-   context.classForPercent(type, percent)\n-   context.console.colorize(str, class)\n-   context.writer\n-   context.console.write\n-   context.console.println\n",
+  "maintainers" : [ {
+    "email" : "ben@npmjs.com",
+    "name" : "bcoe"
+  }, {
+    "email" : "git@cfware.com",
+    "name" : "coreyfarrell"
+  }, {
+    "email" : "kananthmail-github@yahoo.com",
+    "name" : "gotwarlost"
+  }, {
+    "email" : "jgkurian@me.com",
+    "name" : "jakxz"
+  } ],
+  "author" : {
+    "name" : "Krishnan Anantheswaran",
+    "email" : "kananthmail-github@yahoo.com"
+  },
+  "time" : {
+    "3.0.0" : "2019-12-20T20:54:42.456Z",
+    "modified" : "2020-01-11T20:15:44.096Z",
+    "2.0.0" : "2018-07-07T19:00:09.640Z",
+    "2.0.1" : "2018-09-06T00:53:18.393Z",
+    "2.1.0" : "2019-01-26T02:26:53.898Z",
+    "created" : "2015-11-22T07:10:57.820Z",
+    "1.0.0-alpha.0" : "2015-11-22T07:10:57.820Z",
+    "2.2.6" : "2019-05-15T07:59:49.927Z",
+    "3.0.0-alpha.4" : "2019-11-18T14:43:44.266Z",
+    "1.0.0-alpha.1" : "2015-11-24T18:38:50.184Z",
+    "3.0.0-alpha.5" : "2019-11-22T18:20:54.567Z",
+    "2.2.7" : "2020-01-11T20:15:08.629Z",
+    "1.0.0-alpha.2" : "2015-11-27T00:13:15.721Z",
+    "2.2.4" : "2019-04-24T20:44:43.083Z",
+    "3.0.0-alpha.2" : "2019-10-06T01:06:05.888Z",
+    "1.0.0-alpha.3" : "2015-11-27T00:24:40.949Z",
+    "2.2.5" : "2019-05-02T12:46:50.518Z",
+    "3.0.0-alpha.3" : "2019-10-19T00:47:07.381Z",
+    "1.0.0-alpha.4" : "2015-11-28T08:38:39.757Z",
+    "2.2.2" : "2019-04-09T23:21:16.721Z",
+    "3.0.0-alpha.0" : "2019-06-19T12:17:05.373Z",
+    "2.2.3" : "2019-04-17T08:04:19.057Z",
+    "3.0.0-alpha.1" : "2019-06-20T14:18:43.021Z",
+    "1.0.0-alpha.6" : "2016-06-24T01:46:17.360Z",
+    "2.0.2" : "2018-12-19T04:11:21.328Z",
+    "2.1.1" : "2019-02-14T13:15:53.272Z",
+    "2.2.0" : "2019-03-12T01:14:18.804Z",
+    "1.0.0-alpha.7" : "2016-07-04T13:33:17.979Z",
+    "2.0.3" : "2018-12-25T00:37:48.289Z",
+    "2.2.1" : "2019-04-03T18:04:49.947Z",
+    "1.0.0-alpha.8" : "2016-07-11T11:49:22.620Z",
+    "1.1.2" : "2017-08-26T00:13:59.991Z",
+    "1.3.0" : "2018-03-09T22:14:16.858Z",
+    "1.1.3" : "2017-10-21T18:59:30.754Z",
+    "1.4.0" : "2018-04-17T18:04:05.993Z",
+    "1.1.4" : "2018-02-13T05:48:39.129Z",
+    "1.4.1" : "2018-05-31T00:37:46.454Z",
+    "1.5.0" : "2018-06-06T00:50:07.855Z",
+    "1.5.1" : "2018-09-05T22:28:25.347Z",
+    "3.0.0-alpha.6" : "2019-12-07T16:42:01.115Z",
+    "1.0.0" : "2016-10-17T06:14:40.055Z",
+    "1.0.1" : "2017-01-29T06:52:59.867Z",
+    "1.1.0" : "2017-04-29T05:00:05.322Z",
+    "1.0.2" : "2017-03-27T05:51:23.641Z",
+    "1.1.1" : "2017-05-27T21:12:58.280Z",
+    "1.2.0" : "2018-03-04T18:42:56.353Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+ssh://git@github.com/istanbuljs/istanbuljs.git",
+    "directory" : "packages/istanbul-reports"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://istanbul.js.org/",
+  "keywords" : [ "istanbul", "reports" ],
+  "bugs" : {
+    "url" : "https://github.com/istanbuljs/istanbuljs/issues"
+  },
+  "license" : "BSD-3-Clause"
+}

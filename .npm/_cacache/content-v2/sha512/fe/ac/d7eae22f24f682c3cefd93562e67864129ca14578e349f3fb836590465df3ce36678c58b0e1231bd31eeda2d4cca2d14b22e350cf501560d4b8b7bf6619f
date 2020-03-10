@@ -1,0 +1,1636 @@
+{
+  "_id" : "mkdirp",
+  "_rev" : "452-20dcdbc22149d667d5ddd123a4585b25",
+  "name" : "mkdirp",
+  "description" : "Recursively mkdir, like `mkdir -p`",
+  "dist-tags" : {
+    "latest" : "1.0.3"
+  },
+  "versions" : {
+    "0.0.6" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.0.6",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.0.6.tgz",
+        "shasum" : "0965de71060cf5e237ffa795243cb5d9a78d335b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "0.7.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_npmVersion" : "1.0.10",
+      "_id" : "mkdirp@0.0.6",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    },
+    "0.3.3" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.3.3",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.3.3.tgz",
+        "shasum" : "595e251c1370c3a68bab2136d0e348b8105adf13"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.2.4"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.19",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.3.3",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.11"
+    },
+    "0.4.2" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.4.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-mkdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/substack/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-mkdirp/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.4.2.tgz",
+        "shasum" : "427c8c18ece398b932f6f666f4e1e5b7740e78c8"
+      },
+      "dependencies" : {
+        "minimist" : "0.0.8"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.4.2"
+    },
+    "0.5.1" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.5.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-mkdirp#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/substack/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-mkdirp/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.5.1.tgz",
+        "shasum" : "30057438eac6cf7f8c4767f38648d6697d75c903"
+      },
+      "dependencies" : {
+        "minimist" : "0.0.8"
+      },
+      "devDependencies" : {
+        "tap" : "1",
+        "mock-fs" : "2 >=2.7.0"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "substack@gmail.com"
+      },
+      "_id" : "mkdirp@0.5.1",
+      "gitHead" : "d4eff0f06093aed4f387e88e9fc301cb76beedc7",
+      "_shasum" : "30057438eac6cf7f8c4767f38648d6697d75c903",
+      "_nodeVersion" : "2.0.0"
+    },
+    "0.0.7" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.0.7",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.0.7.tgz",
+        "shasum" : "d89b4f0e4c3e5e5ca54235931675e094fe1a5072"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "0.0.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node node_modules/tap/bin/tap.js test/*.js"
+      },
+      "_npmVersion" : "1.0.10",
+      "_id" : "mkdirp@0.0.7",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    },
+    "0.3.4" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.3.4",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.3.4.tgz",
+        "shasum" : "f8c81d213b7299a031f193a57d752a17d2f6c7d8"
+      },
+      "devDependencies" : {
+        "tap" : "~0.2.4"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_id" : "mkdirp@0.3.4"
+    },
+    "0.0.4" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.0.4.tgz",
+        "shasum" : "fbb491deec0b9b00869f52582e5f431b3681d2f5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "0.7.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_npmVersion" : "1.0.10",
+      "_id" : "mkdirp@0.0.4",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    },
+    "0.2.2" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.2.2.tgz",
+        "shasum" : "7235f2a2062aaf3619189b9f4772114c30944498"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "0.0.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.0.106",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.2.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.12"
+    },
+    "0.3.1" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.3.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.3.1.tgz",
+        "shasum" : "bee3db22a2aa1c81d4b4c0db39c7da9888799593"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.2.4"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.1",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.3.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.11"
+    },
+    "0.4.0" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-mkdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-mkdirp/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.4.0.tgz",
+        "shasum" : "291ac2a2d43a19c478662577b5be846fe83b5923"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.4.0"
+    },
+    "0.0.5" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.0.5",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.0.5.tgz",
+        "shasum" : "375facfa634b17dcdf734c56f59ddae5102811c8"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "0.7.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_npmVersion" : "1.0.10",
+      "_id" : "mkdirp@0.0.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    },
+    "0.3.2" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.3.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.3.2.tgz",
+        "shasum" : "4bfb891e9c48b93d6b567f2c3cf2dd3f56bcdef8"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.2.4"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.1",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.3.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.11"
+    },
+    "0.4.1" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.4.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-mkdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-mkdirp/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.4.1.tgz",
+        "shasum" : "4d467afabfdf8ae460c2da656eae8f7b21af4558"
+      },
+      "dependencies" : {
+        "minimist" : "0.0.8"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.4.1"
+    },
+    "0.5.0" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.5.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-mkdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/substack/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-mkdirp/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.5.0.tgz",
+        "shasum" : "1d73076a6df986cd9344e15e71fcc05a4c9abf12"
+      },
+      "dependencies" : {
+        "minimist" : "0.0.8"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0",
+        "mock-fs" : "~2.2.0"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.5.0"
+    },
+    "0.3.5" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.3.5",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-mkdirp.git"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.3.5.tgz",
+        "shasum" : "de3e5f8961c88c787ee1368df849ac4413eca8d7"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.3.5"
+    },
+    "0.0.2" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.0.2.tgz",
+        "shasum" : "d9438082daac12691c71d64076706c8a5c3511b6"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "files" : [ "" ],
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.18",
+      "_id" : "mkdirp@0.0.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.3.8-pre"
+    },
+    "0.2.0" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.2.0.tgz",
+        "shasum" : "29dd87f198880b568d1efce0980e7231b048f3aa"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "0.0.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.0.101",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.2.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.12"
+    },
+    "0.0.3" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.0.3.tgz",
+        "shasum" : "5a7d88a26857023759ffee7fe4c0b28b0f0066b9"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "0.7.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_npmVersion" : "1.0.10",
+      "_id" : "mkdirp@0.0.3",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    },
+    "0.2.1" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.2.1.tgz",
+        "shasum" : "2ef920435c8511e135137a33f18a9e40cf9dd166"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "0.0.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.0.101",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.2.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.12"
+    },
+    "0.3.0" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.3.0.tgz",
+        "shasum" : "1bbf5ab1ba827af23575143490426455f481fe1e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "0.0.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.0.106",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.3.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.12"
+    },
+    "0.0.1" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.0.1.tgz",
+        "shasum" : "3fbd9f4711a5234233dc6c9d7a052d4b9f83b416"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.12-1",
+      "_id" : "mkdirp@0.0.1",
+      "_nodeSupported" : true,
+      "modules" : {
+        "index" : "./index"
+      },
+      "_nodeVersion" : "v0.2.5"
+    },
+    "0.1.0" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-mkdirp.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-0.1.0.tgz",
+        "shasum" : "53212930f7bd75f187b6c8688eb0a5fd69b7d118"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "0.0.x"
+      },
+      "keywords" : [ "mkdir", "directory" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.0.101",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "mkdirp@0.1.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.12"
+    },
+    "1.0.3" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "1.0.3",
+      "homepage" : "https://github.com/isaacs/node-mkdirp#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/node-mkdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-1.0.3.tgz",
+        "shasum" : "4cf2e30ad45959dddea53ad97d518b6c8205e1ea"
+      },
+      "devDependencies" : {
+        "require-inject" : "^1.4.4",
+        "tap" : "^14.10.6"
+      },
+      "keywords" : [ "mkdir", "directory", "make dir", "make", "dir", "recursive", "native" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "mkdirp@1.0.3",
+      "gitHead" : "9f29fc8c09b806cdb88e1f6699b31d7969b510dc",
+      "tap" : {
+        "check-coverage" : true,
+        "coverage-map" : "map.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mkdirp_1.0.3_1579899654395_0.05416104013537226"
+      },
+      "_nodeVersion" : "13.4.0"
+    },
+    "1.0.0" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "1.0.0",
+      "homepage" : "https://github.com/isaacs/node-mkdirp#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/node-mkdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-1.0.0.tgz",
+        "shasum" : "8487b07699b70c9b06fce47b3ce28d8176c13c75"
+      },
+      "devDependencies" : {
+        "require-inject" : "^1.4.4",
+        "tap" : "^14.10.6"
+      },
+      "keywords" : [ "mkdir", "directory", "make dir", "make", "dir", "recursive", "native" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "mkdirp@1.0.0",
+      "gitHead" : "1b64c7bdb6eb4d28ac4c019e19f9a93a8338c14d",
+      "tap" : {
+        "check-coverage" : true,
+        "coverage-map" : "map.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mkdirp_1.0.0_1579897122471_0.9445186710087152"
+      },
+      "_nodeVersion" : "13.4.0"
+    },
+    "1.0.1" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "1.0.1",
+      "homepage" : "https://github.com/isaacs/node-mkdirp#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/node-mkdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-1.0.1.tgz",
+        "shasum" : "57828231711628a8a303f455bb7d79b32d9c9d4f"
+      },
+      "devDependencies" : {
+        "require-inject" : "^1.4.4",
+        "tap" : "^14.10.6"
+      },
+      "keywords" : [ "mkdir", "directory", "make dir", "make", "dir", "recursive", "native" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "mkdirp@1.0.1",
+      "gitHead" : "ab8b7548c444aab9b883f83f23806a6ff641ed72",
+      "tap" : {
+        "check-coverage" : true,
+        "coverage-map" : "map.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mkdirp_1.0.1_1579897230300_0.6147991442490592"
+      },
+      "_nodeVersion" : "13.4.0"
+    },
+    "1.0.2" : {
+      "name" : "mkdirp",
+      "description" : "Recursively mkdir, like `mkdir -p`",
+      "version" : "1.0.2",
+      "homepage" : "https://github.com/isaacs/node-mkdirp#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/node-mkdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/node-mkdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mkdirp/-/mkdirp-1.0.2.tgz",
+        "shasum" : "5ccd93437619ca7050b538573fc918327eba98fb"
+      },
+      "devDependencies" : {
+        "require-inject" : "^1.4.4",
+        "tap" : "^14.10.6"
+      },
+      "keywords" : [ "mkdir", "directory", "make dir", "make", "dir", "recursive", "native" ],
+      "license" : "MIT",
+      "bin" : {
+        "mkdirp" : "bin/cmd.js"
+      },
+      "maintainers" : [ {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "mkdirp@1.0.2",
+      "gitHead" : "6a061db3ded59fb867557116e6c5070e6916e557",
+      "tap" : {
+        "check-coverage" : true,
+        "coverage-map" : "map.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mkdirp_1.0.2_1579897370197_0.3887508695089861"
+      },
+      "_nodeVersion" : "13.4.0"
+    }
+  },
+  "readme" : "# mkdirp\n\nLike `mkdir -p`, but in Node.js!\n\nNow with a modern API and no\\* bugs!\n\n<small>\\* may contain some bugs</small>\n\n# example\n\n## pow.js\n\n```js\nconst mkdirp = require('mkdirp')\n\n// return value is a Promise resolving to the first directory created\nmkdirp('/tmp/foo/bar/baz').then(made =>\n  console.log(`made directories, starting with ${made}`))\n```\n\nOutput (where `/tmp/foo` already exists)\n\n```\nmade directories, starting with /tmp/foo/bar\n```\n\nOr, if you don't have time to wait around for promises:\n\n```js\nconst mkdirp = require('mkdirp')\n\n// return value is the first directory created\nconst made = mkdirp.sync('/tmp/foo/bar/baz')\nconsole.log(`made directories, starting with ${made}`)\n```\n\nAnd now /tmp/foo/bar/baz exists, huzzah!\n\n# methods\n\n```js\nconst mkdirp = require('mkdirp')\n```\n\n## mkdirp(dir, [opts]) -> Promise<String | undefined>\n\nCreate a new directory and any necessary subdirectories at `dir` with octal\npermission string `opts.mode`. If `opts` is a string or number, it will be\ntreated as the `opts.mode`.\n\nIf `opts.mode` isn't specified, it defaults to `0o777 &\n(~process.umask())`.\n\nPromise resolves to first directory `made` that had to be created, or\n`undefined` if everything already exists.  Promise rejects if any errors\nare encountered.  Note that, in the case of promise rejection, some\ndirectories _may_ have been created, as recursive directory creation is not\nan atomic operation.\n\nYou can optionally pass in an alternate `fs` implementation by passing in\n`opts.fs`. Your implementation should have `opts.fs.mkdir(path, opts, cb)`\nand `opts.fs.stat(path, cb)`.\n\nYou can also override just one or the other of `mkdir` and `stat` by\npassing in `opts.stat` or `opts.mkdir`, or providing an `fs` option that\nonly overrides one of these.\n\n## mkdirp.sync(dir, opts) -> String|null\n\nSynchronously create a new directory and any necessary subdirectories at\n`dir` with octal permission string `opts.mode`. If `opts` is a string or\nnumber, it will be treated as the `opts.mode`.\n\nIf `opts.mode` isn't specified, it defaults to `0o777 &\n(~process.umask())`.\n\nReturns the first directory that had to be created, or undefined if\neverything already exists.\n\nYou can optionally pass in an alternate `fs` implementation by passing in\n`opts.fs`. Your implementation should have `opts.fs.mkdirSync(path, mode)`\nand `opts.fs.statSync(path)`.\n\nYou can also override just one or the other of `mkdirSync` and `statSync`\nby passing in `opts.statSync` or `opts.mkdirSync`, or providing an `fs`\noption that only overrides one of these.\n\n## mkdirp.manual, mkdirp.manualSync\n\nUse the manual implementation (not the native one).  This is the default\nwhen the native implementation is not available or the stat/mkdir\nimplementation is overridden.\n\n## mkdirp.native, mkdirp.nativeSync\n\nUse the native implementation (not the manual one).  This is the default\nwhen the native implementation is available and stat/mkdir are not\noverridden.\n\n# implementation\n\nOn Node.js v10.12.0 and above, use the native `fs.mkdir(p,\n{recursive:true})` option, unless `fs.mkdir`/`fs.mkdirSync` has been\noverridden by an option.\n\n## native implementation\n\n- If the path is a root directory, then pass it to the underlying\n  implementation and return the result/error.  (In this case, it'll either\n  succeed or fail, but we aren't actually creating any dirs.)\n- Walk up the path statting each directory, to find the first path that\n  will be created, `made`.\n- Call `fs.mkdir(path, { recursive: true })` (or `fs.mkdirSync`)\n- If error, raise it to the caller.\n- Return `made`.\n\n## manual implementation\n\n- Call underlying `fs.mkdir` implementation, with `recursive: false`\n- If error:\n  - If path is a root directory, raise to the caller and do not handle it\n  - If ENOENT, mkdirp parent dir, store result as `made`\n  - stat(path)\n    - If error, raise original `mkdir` error\n    - If directory, return `made`\n    - Else, raise original `mkdir` error\n- else\n  - return `undefined` if a root dir, or `made` if set, or `path`\n\n## windows vs unix caveat\n\nOn Windows file systems, attempts to create a root directory (ie, a drive\nletter or root UNC path) will fail.  If the root directory exists, then it\nwill fail with `EPERM`.  If the root directory does not exist, then it will\nfail with `ENOENT`.\n\nOn posix file systems, attempts to create a root directory (in recursive\nmode) will succeed silently, as it is treated like just another directory\nthat already exists.  (In non-recursive mode, of course, it fails with\n`EEXIST`.)\n\nIn order to preserve this system-specific behavior (and because it's not as\nif we can create the parent of a root directory anyway), attempts to create\na root directory are passed directly to the `fs` implementation, and any\nerrors encountered are not handled.\n\n## native error caveat\n\nThe native implementation (as of at least Node.js v13.4.0) does not provide\nappropriate errors in some cases (see\n[nodejs/node#31481](https://github.com/nodejs/node/issues/31481) and\n[nodejs/node#28015](https://github.com/nodejs/node/issues/28015)).\n\nIn order to work around this issue, the native implementation will fall\nback to the manual implementation if an `ENOENT` error is encountered.\n\n# choosing a recursive mkdir implementation\n\nThere are a few to choose from!  Use the one that suits your needs best :D\n\n## use `fs.mkdir(path, {recursive: true}, cb)` if:\n\n- You wish to optimize performance even at the expense of other factors.\n- You don't need to know the first dir created.\n- You are ok with getting `ENOENT` as the error when some other problem is\n  the actual cause.\n- You can limit your platforms to Node.js v10.12 and above.\n- You're ok with using callbacks instead of promises.\n- You don't need/want a CLI.\n- You don't need to override the `fs` methods in use.\n\n## use this module (mkdirp 1.x) if:\n\n- You need to know the first directory that was created.\n- You wish to use the native implementation if available, but fall back\n  when it's not.\n- You prefer promise-returning APIs to callback-taking APIs.\n- You want more useful error messages than the native recursive mkdir\n  provides (at least as of Node.js v13.4), and are ok with re-trying on\n  `ENOENT` to achieve this.\n- You need (or at least, are ok with) a CLI.\n- You need to override the `fs` methods in use.\n\n## use [`make-dir`](http://npm.im/make-dir) if:\n\n- You do not need to know the first dir created (and wish to save a few\n  `stat` calls when using the native implementation for this reason).\n- You wish to use the native implementation if available, but fall back\n  when it's not.\n- You prefer promise-returning APIs to callback-taking APIs.\n- You are ok with occasionally getting `ENOENT` errors for failures that\n  are actually related to something other than a missing file system entry.\n- You don't need/want a CLI.\n- You need to override the `fs` methods in use.\n\n## use mkdirp 0.x if:\n\n- You need to know the first directory that was created.\n- You need (or at least, are ok with) a CLI.\n- You need to override the `fs` methods in use.\n- You're ok with using callbacks instead of promises.\n- You are not running on Windows, where the root-level ENOENT errors can\n  lead to infinite regress.\n- You think vinyl just sounds warmer and richer for some weird reason.\n- You are supporting truly ancient Node.js versions, before even the advent\n  of a `Promise` language primitive.  (Please don't.  You deserve better.)\n\n# cli\n\nThis package also ships with a `mkdirp` command.\n\n```\n$ mkdirp -h\n\nusage: mkdirp [DIR1,DIR2..] {OPTIONS}\n\n  Create each supplied directory including any necessary parent directories\n  that don't yet exist.\n\n  If the directory already exists, do nothing.\n\nOPTIONS are:\n\n  -m<mode>       If a directory needs to be created, set the mode as an octal\n  --mode=<mode>  permission string.\n\n  -v --version   Print the mkdirp version number\n\n  -h --help      Print this helpful banner\n\n  -p --print     Print the first directories created for each path provided\n\n  --manual       Use manual implementation, even if native is available\n```\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install mkdirp\n```\n\nto get the library locally, or\n\n```\nnpm install -g mkdirp\n```\n\nto get the command everywhere, or\n\n```\nnpx mkdirp ...\n```\n\nto run the command without installing it globally.\n\n# platform support\n\nThis module works on node v8, but only v10 and above are officially\nsupported, as Node v8 reached its LTS end of life 2020-01-01, which is in\nthe past, as of this writing.\n\n# license\n\nMIT\n",
+  "maintainers" : [ {
+    "email" : "i@izs.me",
+    "name" : "isaacs"
+  }, {
+    "email" : "substack@gmail.com",
+    "name" : "substack"
+  } ],
+  "time" : {
+    "0.0.6" : "2011-08-20T21:37:10.730Z",
+    "0.3.3" : "2012-06-05T15:54:31.889Z",
+    "0.4.2" : "2014-05-06T01:40:35.608Z",
+    "0.5.1" : "2015-05-14T02:27:01.553Z",
+    "0.0.7" : "2011-09-10T22:50:08.879Z",
+    "0.3.4" : "2012-08-20T12:27:24.983Z",
+    "0.0.4" : "2011-06-29T00:28:32.272Z",
+    "0.2.2" : "2012-01-08T05:02:35.484Z",
+    "0.3.1" : "2012-03-31T19:51:38.912Z",
+    "0.4.0" : "2014-04-22T22:21:21.058Z",
+    "0.0.5" : "2011-06-29T18:22:05.839Z",
+    "0.3.2" : "2012-04-30T08:52:12.424Z",
+    "0.4.1" : "2014-05-04T02:20:59.368Z",
+    "0.5.0" : "2014-05-06T02:28:23.769Z",
+    "0.3.5" : "2013-02-22T11:44:25.486Z",
+    "0.0.2" : "2011-02-14T20:11:44.988Z",
+    "0.2.0" : "2011-11-16T05:32:17.036Z",
+    "0.0.3" : "2011-06-20T04:02:44.361Z",
+    "0.2.1" : "2011-11-16T09:26:51.089Z",
+    "0.3.0" : "2012-01-20T02:20:42.042Z",
+    "0.0.1" : "2011-01-06T02:54:36.496Z",
+    "0.1.0" : "2011-11-06T06:32:23.379Z",
+    "modified" : "2020-01-24T21:00:56.877Z",
+    "created" : "2011-01-06T02:54:36.080Z",
+    "1.0.3" : "2020-01-24T21:00:54.556Z",
+    "1.0.0" : "2020-01-24T20:18:42.630Z",
+    "1.0.1" : "2020-01-24T20:20:30.453Z",
+    "1.0.2" : "2020-01-24T20:22:50.327Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/isaacs/node-mkdirp.git"
+  },
+  "users" : {
+    "jacksontian" : true,
+    "xfloops" : true,
+    "guananddu" : true,
+    "acewinnielee" : true,
+    "jgrl" : true,
+    "tangweikun" : true,
+    "sibawite" : true,
+    "vapeadores" : true,
+    "pingjiang" : true,
+    "nayrangnu" : true,
+    "mjwilliams" : true,
+    "masonwan" : true,
+    "asw20" : true,
+    "zhouanbo" : true,
+    "i-erokhin" : true,
+    "elrolito" : true,
+    "gberto" : true,
+    "prayashm" : true,
+    "azulejosmetrosubway" : true,
+    "pdilyard" : true,
+    "chilts" : true,
+    "parkerproject" : true,
+    "superjoe" : true,
+    "khaihoangdev" : true,
+    "ocd_lionel" : true,
+    "drdoof" : true,
+    "nbuchanan" : true,
+    "rocket0191" : true,
+    "qddegtya" : true,
+    "jeremyscalpello" : true,
+    "thangakumar" : true,
+    "icris" : true,
+    "ugarz" : true,
+    "mattms" : true,
+    "davidnyhuis" : true,
+    "cygik" : true,
+    "pnevares" : true,
+    "colageno" : true,
+    "manxisuo" : true,
+    "araiden10" : true,
+    "buster" : true,
+    "jon_shen" : true,
+    "omegga" : true,
+    "heartnett" : true,
+    "zhouguotao" : true,
+    "abdihaikal" : true,
+    "allenmoore" : true,
+    "tazjel" : true,
+    "ryanj" : true,
+    "jamesmgreene" : true,
+    "daip" : true,
+    "raigorx" : true,
+    "shaneli" : true,
+    "gamersdelight" : true,
+    "sqrtthree" : true,
+    "rylan_yan" : true,
+    "joneszhuchinagd" : true,
+    "xiaobing" : true,
+    "isayme" : true,
+    "kontrax" : true,
+    "ivanempire" : true,
+    "cueedee" : true,
+    "forbeslindesay" : true,
+    "wujianfu" : true,
+    "recursion_excursion" : true,
+    "axelrindle" : true,
+    "morrelinko" : true,
+    "kulakowka" : true,
+    "vutran" : true,
+    "jhal81" : true,
+    "marcghorayeb" : true,
+    "troygizzi" : true,
+    "jpoehls" : true,
+    "bsdllc" : true,
+    "asantiago" : true,
+    "jasoncmcg" : true,
+    "nhz.io" : true,
+    "f124275809" : true,
+    "iceriver2" : true,
+    "itonyyo" : true,
+    "james3299" : true,
+    "schnittstabil" : true,
+    "dodo" : true,
+    "kastor" : true,
+    "pirijan" : true,
+    "tarcio" : true,
+    "mihaiv" : true,
+    "icirellik" : true,
+    "snowdream" : true,
+    "santhoshbabu" : true,
+    "ericwbailey" : true,
+    "abuelwafa" : true,
+    "mojaray2k" : true,
+    "florianwendelborn" : true,
+    "makediff" : true,
+    "jorycn" : true,
+    "xieranmaya" : true,
+    "seanjh" : true,
+    "ddffx" : true,
+    "zollero" : true,
+    "trusktr" : true,
+    "krabello" : true,
+    "amdsouza92" : true,
+    "wuyangwang" : true,
+    "stretchgz" : true,
+    "atd" : true,
+    "leventkaragol" : true,
+    "lukvonstrom" : true,
+    "vorg" : true,
+    "mvolkmann" : true,
+    "tellnes" : true,
+    "bjmin" : true,
+    "behrangsa" : true,
+    "alectic" : true,
+    "evan2x" : true,
+    "programmer.severson" : true,
+    "dockawash" : true,
+    "yangtze" : true,
+    "subchen" : true,
+    "rwhogg" : true,
+    "tmypawa" : true,
+    "anhulife" : true,
+    "jasonmelgoza" : true,
+    "rochejul" : true,
+    "kappuccino" : true,
+    "bwade231" : true,
+    "jifeng" : true,
+    "benoror" : true,
+    "chris-me" : true,
+    "highgravity" : true,
+    "d-band" : true,
+    "faraoman" : true,
+    "jswartwood" : true,
+    "honingwon" : true,
+    "alanbhamilton" : true,
+    "flozz" : true,
+    "maycon_ribeiro" : true,
+    "madsummer" : true,
+    "fouadsemaan" : true,
+    "dolymood" : true,
+    "spanser" : true,
+    "maxzhang" : true,
+    "eijs" : true,
+    "land-melon" : true,
+    "nilz3ro" : true,
+    "netoperatorwibby" : true,
+    "incendiary" : true,
+    "marsking" : true,
+    "nrrb" : true,
+    "thomas.miele" : true,
+    "nice_body" : true,
+    "lupus" : true,
+    "dm7" : true,
+    "hingsir" : true,
+    "michaelnisi" : true,
+    "wkaifang" : true,
+    "theaklair" : true,
+    "joris-van-der-wel" : true,
+    "tchey" : true,
+    "coderaiser" : true,
+    "x372563572" : true,
+    "davidrlee" : true,
+    "shriek" : true,
+    "seldo" : true,
+    "wangfeia" : true,
+    "peckzeg" : true,
+    "jakeginnivan" : true,
+    "teaera" : true,
+    "banzeh" : true,
+    "tonerbarato" : true,
+    "jaeger" : true,
+    "vision_tecnologica" : true,
+    "sixertoy" : true,
+    "shiva127" : true,
+    "kkho595" : true,
+    "yl2014" : true,
+    "jream" : true,
+    "razr9" : true,
+    "pmbenjamin" : true,
+    "tienda_sexstar" : true,
+    "alicebox" : true,
+    "shuoshubao" : true,
+    "chinawolf_wyp" : true,
+    "kelerliao" : true,
+    "m42am" : true,
+    "nketchum" : true,
+    "baoang" : true,
+    "seangenabe" : true,
+    "dbrockman" : true,
+    "potnox" : true,
+    "isaacs" : true,
+    "chazmatazz" : true,
+    "galenandrew" : true,
+    "zhoutk" : true,
+    "h0ward" : true,
+    "aicest" : true,
+    "kempfcreative" : true,
+    "igorpupkinable" : true,
+    "laoshaw" : true,
+    "wisetc" : true,
+    "nickytonline" : true,
+    "unapersona" : true,
+    "tmurngon" : true,
+    "tcrowe" : true,
+    "zeusdeux" : true,
+    "cloudychris" : true,
+    "nickeltobias" : true,
+    "mpcref" : true,
+    "largepuma" : true,
+    "zhenguo.zhao" : true,
+    "farskipper" : true,
+    "papasavva" : true,
+    "langri-sha" : true,
+    "soulchainer" : true,
+    "biggora" : true,
+    "solodu" : true,
+    "princetoad" : true,
+    "whathejoe" : true,
+    "lotuslwb" : true,
+    "miga" : true,
+    "pstoev" : true,
+    "rwnet" : true,
+    "tancy" : true,
+    "colleowino" : true,
+    "ambdxtrch" : true,
+    "stefano_magrassi" : true,
+    "timur.shemsedinov" : true,
+    "anchnk" : true,
+    "didierfranc" : true,
+    "marcovossen" : true,
+    "pana" : true,
+    "polotek" : true,
+    "kikna" : true,
+    "roman-io" : true,
+    "bobxuyang" : true,
+    "robinblomberg" : true,
+    "ahvonenj" : true,
+    "garrickajo" : true,
+    "jermspeaks" : true,
+    "spacerockzero" : true,
+    "jacques" : true,
+    "someok" : true,
+    "werle" : true,
+    "narven" : true,
+    "khaledkaram" : true,
+    "wangnan0610" : true,
+    "pablopap" : true,
+    "emiljohansson" : true,
+    "hzapata" : true,
+    "shaomingquan" : true,
+    "rbartoli" : true,
+    "bojand" : true,
+    "nisimjoseph" : true,
+    "dongxu" : true,
+    "weerd" : true,
+    "neaker15668" : true,
+    "kmck" : true,
+    "fgribreau" : true,
+    "ycloud" : true,
+    "pandao" : true,
+    "spanishtights" : true,
+    "daizch" : true,
+    "nwinant" : true,
+    "lijsh" : true,
+    "hacksalot" : true,
+    "axelav" : true,
+    "raycharles" : true,
+    "larixk" : true,
+    "pid" : true,
+    "sammkj" : true,
+    "cellule" : true,
+    "gemini5" : true,
+    "chirag8642" : true,
+    "jacoborus" : true,
+    "mysticatea" : true,
+    "alexc1212" : true,
+    "jmoser-amr" : true,
+    "chrisdickinson" : true,
+    "xueboren" : true,
+    "liangtongzhuo" : true,
+    "stormcrows" : true,
+    "csbun" : true,
+    "rethinkflash" : true,
+    "aravindnc" : true,
+    "neo1" : true,
+    "junos" : true,
+    "fill" : true,
+    "omrilotan" : true,
+    "manojkhannakm" : true,
+    "kevinhassan" : true,
+    "esundahl" : true,
+    "xingtao" : true,
+    "caudralys" : true,
+    "noccer" : true,
+    "pddivine" : true,
+    "dannydulai" : true,
+    "peterbeno" : true,
+    "marcfiedler" : true,
+    "yong_a" : true,
+    "zhealth" : true,
+    "junjiansyu" : true,
+    "suryasaripalli" : true,
+    "cilindrox" : true,
+    "jimzhuangdev" : true,
+    "waiwaiku" : true,
+    "pftom" : true,
+    "superchenney" : true,
+    "jasonevrtt" : true,
+    "yourhoneysky" : true,
+    "gamr" : true,
+    "leahcimic" : true,
+    "cocopas" : true,
+    "xtygah14three" : true,
+    "fleischer" : true,
+    "bmpvieira" : true,
+    "mikend" : true,
+    "krry" : true,
+    "dankle" : true,
+    "yakumat" : true,
+    "redmed" : true,
+    "greelgorke" : true,
+    "zuojiang" : true,
+    "nachbar90" : true,
+    "coolhanddev" : true,
+    "akiva" : true,
+    "rxmth" : true,
+    "tedyhy" : true,
+    "zoxon" : true,
+    "ognjen.jevremovic" : true,
+    "donvercety" : true,
+    "edwardxyt" : true,
+    "yikuo" : true,
+    "ali1k" : true,
+    "diogocapela" : true,
+    "iainhallam" : true,
+    "xtx1130" : true,
+    "tomgao365" : true,
+    "klombomb" : true,
+    "sdolard" : true,
+    "markh817" : true,
+    "shieldax" : true,
+    "shreyawhiz" : true,
+    "grantcarthew" : true,
+    "npm-packages" : true,
+    "tdmalone" : true
+  },
+  "readmeFilename" : "readme.markdown",
+  "homepage" : "https://github.com/isaacs/node-mkdirp#readme",
+  "keywords" : [ "mkdir", "directory", "make dir", "make", "dir", "recursive", "native" ],
+  "bugs" : {
+    "url" : "https://github.com/isaacs/node-mkdirp/issues"
+  },
+  "license" : "MIT"
+}

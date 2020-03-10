@@ -1,0 +1,306 @@
+{
+  "_id" : "unicode-canonical-property-names-ecmascript",
+  "_rev" : "5-f3dc36d597e083d1801ab796665ada15",
+  "name" : "unicode-canonical-property-names-ecmascript",
+  "description" : "The set of canonical Unicode property names supported in ECMAScript RegExp property escapes.",
+  "dist-tags" : {
+    "latest" : "1.0.4"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "unicode-canonical-property-names-ecmascript",
+      "description" : "The set of canonical Unicode property names supported in ECMAScript RegExp property escapes.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Mathias Bynens",
+        "url" : "https://mathiasbynens.be/"
+      },
+      "homepage" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.3.tgz",
+        "shasum" : "f6119f417467593c0086357c85546b6ad5abc583"
+      },
+      "devDependencies" : {
+        "ava" : "*"
+      },
+      "keywords" : [ "unicode", "unicode properties" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT.txt", "index.js" ],
+      "maintainers" : [ {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava ./tests"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      },
+      "_id" : "unicode-canonical-property-names-ecmascript@1.0.3",
+      "gitHead" : "4395da9cfe6f108170aa7610643f4c56f1c053ef",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/unicode-canonical-property-names-ecmascript-1.0.3.tgz_1508689810176_0.5450696726329625"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "1.0.4" : {
+      "name" : "unicode-canonical-property-names-ecmascript",
+      "description" : "The set of canonical Unicode property names supported in ECMAScript RegExp property escapes.",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Mathias Bynens",
+        "url" : "https://mathiasbynens.be/"
+      },
+      "homepage" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz",
+        "shasum" : "2619800c4c825800efdd8343af7dd9933cbe2818"
+      },
+      "devDependencies" : {
+        "ava" : "*"
+      },
+      "keywords" : [ "unicode", "unicode properties" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT.txt", "index.js" ],
+      "maintainers" : [ {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava ./tests"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      },
+      "_id" : "unicode-canonical-property-names-ecmascript@1.0.4",
+      "gitHead" : "99ba468fc734cb16ce06f06535d0b6e045beec2b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/unicode-canonical-property-names-ecmascript_1.0.4_1528376204643_0.30586353654389176"
+      },
+      "_nodeVersion" : "8.11.1"
+    },
+    "1.0.0" : {
+      "name" : "unicode-canonical-property-names-ecmascript",
+      "description" : "The set of canonical Unicode property names supported in ECMAScript RegExp property escapes.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Mathias Bynens",
+        "url" : "https://mathiasbynens.be/"
+      },
+      "homepage" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.0.tgz",
+        "shasum" : "20068aef4ada99ea2a80bf3ff8299a4db3e5bed0"
+      },
+      "devDependencies" : {
+        "ava" : "*"
+      },
+      "keywords" : [ "unicode", "unicode properties" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT.txt", "index.js" ],
+      "maintainers" : [ {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava ./tests"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      },
+      "_id" : "unicode-canonical-property-names-ecmascript@1.0.0",
+      "gitHead" : "5102ef7dfe9857859fa20ac65d12861f3a36dc1f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/unicode-canonical-property-names-ecmascript-1.0.0.tgz_1492260704824_0.2752008477691561"
+      },
+      "_shasum" : "20068aef4ada99ea2a80bf3ff8299a4db3e5bed0",
+      "_nodeVersion" : "6.9.1"
+    },
+    "1.0.1" : {
+      "name" : "unicode-canonical-property-names-ecmascript",
+      "description" : "The set of canonical Unicode property names supported in ECMAScript RegExp property escapes.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Mathias Bynens",
+        "url" : "https://mathiasbynens.be/"
+      },
+      "homepage" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.1.tgz",
+        "shasum" : "6ebdf12ad8bb94ea935658f3397799564174025f"
+      },
+      "devDependencies" : {
+        "ava" : "*"
+      },
+      "keywords" : [ "unicode", "unicode properties" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT.txt", "index.js" ],
+      "maintainers" : [ {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava ./tests"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      },
+      "_id" : "unicode-canonical-property-names-ecmascript@1.0.1",
+      "gitHead" : "1e80e7b4e6cab38a016f9479c31872565bd06270",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/unicode-canonical-property-names-ecmascript-1.0.1.tgz_1497976631951_0.9614502231124789"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "1.0.2" : {
+      "name" : "unicode-canonical-property-names-ecmascript",
+      "description" : "The set of canonical Unicode property names supported in ECMAScript RegExp property escapes.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Mathias Bynens",
+        "url" : "https://mathiasbynens.be/"
+      },
+      "homepage" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.2.tgz",
+        "shasum" : "08ef9ec454392fc5ed99b08a70524ae3881c0306"
+      },
+      "devDependencies" : {
+        "ava" : "*"
+      },
+      "keywords" : [ "unicode", "unicode properties" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE-MIT.txt", "index.js" ],
+      "maintainers" : [ {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava ./tests"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      },
+      "_id" : "unicode-canonical-property-names-ecmascript@1.0.2",
+      "gitHead" : "598f494488f218342068f7f2b203b37069939e2f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/unicode-canonical-property-names-ecmascript-1.0.2.tgz_1502961446156_0.15737194032408297"
+      },
+      "_nodeVersion" : "8.1.2"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# unicode-canonical-property-names-ecmascript [![Build status](https://travis-ci.org/mathiasbynens/unicode-canonical-property-names-ecmascript.svg?branch=master)](https://travis-ci.org/mathiasbynens/unicode-canonical-property-names-ecmascript)\n\n_unicode-canonical-property-names-ecmascript_ exports the set of canonical Unicode property names that are supported in [ECMAScript RegExp property escapes](https://github.com/tc39/proposal-regexp-unicode-property-escapes).\n\n## Installation\n\nTo use _unicode-canonical-property-names-ecmascript_, install it as a dependency via [npm](https://www.npmjs.com/):\n\n```bash\n$ npm install unicode-canonical-property-names-ecmascript\n```\n\nThen, `require` it:\n\n```js\nconst properties = require('unicode-canonical-property-names-ecmascript');\n```\n\n## Example\n\n```js\nproperties.has('ID_Start');\n// → true\nproperties.has('IDS');\n// → false\n```\n\n## Author\n\n| [![twitter/mathias](https://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](https://twitter.com/mathias \"Follow @mathias on Twitter\") |\n|---|\n| [Mathias Bynens](https://mathiasbynens.be/) |\n\n## License\n\n_unicode-canonical-property-names-ecmascript_ is available under the [MIT](https://mths.be/mit) license.\n",
+  "maintainers" : [ {
+    "name" : "mathias",
+    "email" : "mathias@qiwi.be"
+  } ],
+  "author" : {
+    "name" : "Mathias Bynens",
+    "url" : "https://mathiasbynens.be/"
+  },
+  "time" : {
+    "1.0.3" : "2017-10-22T16:30:10.235Z",
+    "1.0.4" : "2018-06-07T12:56:44.698Z",
+    "created" : "2017-04-15T12:51:45.495Z",
+    "modified" : "2018-06-07T12:56:47.902Z",
+    "1.0.0" : "2017-04-15T12:51:45.495Z",
+    "1.0.1" : "2017-06-20T16:37:13.185Z",
+    "1.0.2" : "2017-08-17T09:17:26.984Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript",
+  "keywords" : [ "unicode", "unicode properties" ],
+  "bugs" : {
+    "url" : "https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript/issues"
+  },
+  "license" : "MIT"
+}

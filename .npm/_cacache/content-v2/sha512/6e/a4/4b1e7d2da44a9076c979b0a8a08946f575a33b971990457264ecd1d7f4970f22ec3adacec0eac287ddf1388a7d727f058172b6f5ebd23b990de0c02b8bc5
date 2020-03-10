@@ -1,0 +1,757 @@
+{
+  "_id" : "wbuf",
+  "_rev" : "17-d7df9291546936e0f18b685f292a49b4",
+  "name" : "wbuf",
+  "description" : "Write buffer",
+  "dist-tags" : {
+    "latest" : "1.7.3"
+  },
+  "versions" : {
+    "0.2.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indunty/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:indunty/wbuf"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indunty/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-0.2.0.tgz",
+        "shasum" : "6cb0ac758610893b12d6f4f686445b12f18133ff"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@0.2.0",
+      "gitHead" : "e647d5c180acf48be67161fc05058708250ac9dd",
+      "_shasum" : "6cb0ac758610893b12d6f4f686445b12f18133ff"
+    },
+    "0.1.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indunty/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:indunty/wbuf"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indunty/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-0.1.0.tgz",
+        "shasum" : "3a51d4ccd08d522246850fcbc483fcba8e56da4e"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@0.1.0",
+      "gitHead" : "dc005eb9226e617254d7f3cdd78d12e3ba5be047",
+      "_shasum" : "3a51d4ccd08d522246850fcbc483fcba8e56da4e"
+    },
+    "1.3.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indunty/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indunty/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indunty/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.3.0.tgz",
+        "shasum" : "239a2dd2681c16876920b59e89fd8f5e5e979679"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.3.0",
+      "gitHead" : "8dcc92923ac4614958e319b8463aa4ce7cdac5b1",
+      "_shasum" : "239a2dd2681c16876920b59e89fd8f5e5e979679",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.4.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indunty/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indunty/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indunty/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.4.0.tgz",
+        "shasum" : "5cacf393a27f9f38b3f4443d6a8051b4ef61aacf"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.4.0",
+      "gitHead" : "fcd39d41e53827b1d6c4b8b67cd0e02ed6c410af",
+      "_shasum" : "5cacf393a27f9f38b3f4443d6a8051b4ef61aacf",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.4.1" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indunty/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indunty/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indunty/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.4.1.tgz",
+        "shasum" : "787cbc1bf3d1e59086e31c3ad2ebfb977c2c8bab"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.4.1",
+      "gitHead" : "552cbd02c9efb366bf07211f6739ecbacfe59be2",
+      "_shasum" : "787cbc1bf3d1e59086e31c3ad2ebfb977c2c8bab",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.5.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.5.0.tgz",
+        "shasum" : "8cf09e51f4bebaebaa7fcba6d5cb14a6ebaa9de6"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.5.0",
+      "gitHead" : "53c98c36304ab6dcb82abbf1d3d97d41a5bd438b",
+      "_shasum" : "8cf09e51f4bebaebaa7fcba6d5cb14a6ebaa9de6",
+      "_nodeVersion" : "2.3.4"
+    },
+    "1.4.2" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.4.2.tgz",
+        "shasum" : "40026342e4f068c9a8b964807fcb212fa98f59b6"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.4.2",
+      "gitHead" : "cd7f8ee11ee8904028d2c23c805de418f8971e10",
+      "_shasum" : "40026342e4f068c9a8b964807fcb212fa98f59b6",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.6.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.6.0.tgz",
+        "shasum" : "d50eb81e8618293825191d4f3ca88c1bded2e5fc"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.6.0",
+      "gitHead" : "23de1bd429726cd04a0e3646bedfdafd6fafe176",
+      "_shasum" : "d50eb81e8618293825191d4f3ca88c1bded2e5fc",
+      "_nodeVersion" : "2.3.4"
+    },
+    "1.7.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.7.0.tgz",
+        "shasum" : "4dd0913120639f54a7c85187f9fd79fff4dfdb3c"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.7.0",
+      "gitHead" : "8b978dd7474ce63e3fb787fc02c953592be2e015",
+      "_shasum" : "4dd0913120639f54a7c85187f9fd79fff4dfdb3c",
+      "_nodeVersion" : "2.3.4"
+    },
+    "1.7.1" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.7.1",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.7.1.tgz",
+        "shasum" : "1a67c4f87953f4b23b033eefea202ae5c206e518"
+      },
+      "dependencies" : {
+        "minimalistic-assert" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.7.1",
+      "gitHead" : "d36003104c90116f83db0b341c8b6da4290d3237",
+      "_shasum" : "1a67c4f87953f4b23b033eefea202ae5c206e518",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.7.2" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.7.2",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.7.2.tgz",
+        "shasum" : "d697b99f1f59512df2751be42769c1580b5801fe"
+      },
+      "dependencies" : {
+        "minimalistic-assert" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.7.2",
+      "gitHead" : "557867724882c61c58e49c1b3bfd5ef793d9dc7f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/wbuf-1.7.2.tgz_1462925133747_0.2520239648874849"
+      },
+      "_shasum" : "d697b99f1f59512df2751be42769c1580b5801fe",
+      "_nodeVersion" : "6.0.0"
+    },
+    "1.7.3" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.7.3",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.7.3.tgz",
+        "shasum" : "c1d8d149316d3ea852848895cb6a0bfe887b87df"
+      },
+      "dependencies" : {
+        "minimalistic-assert" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^5.0.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.7.3",
+      "gitHead" : "75620cb7166688045eb773b2c0a6d49f1c625d5f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wbuf_1.7.3_1520718679064_0.751897486155537"
+      },
+      "_nodeVersion" : "9.6.1"
+    },
+    "1.0.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indunty/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indunty/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indunty/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.0.0.tgz",
+        "shasum" : "5efd44f1db8f59821e25a67f8023b5ec532b5880"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.0.0",
+      "gitHead" : "85ccac18df9e8af051e169d11b1587a9756aff47",
+      "_shasum" : "5efd44f1db8f59821e25a67f8023b5ec532b5880",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.1.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indunty/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indunty/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indunty/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.1.0.tgz",
+        "shasum" : "dd98cb7bc2f0968176075109ddec261c44de3a52"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.1.0",
+      "gitHead" : "69064a9b0fdb4bec15bbc2102413bc9b1a6ce598",
+      "_shasum" : "dd98cb7bc2f0968176075109ddec261c44de3a52",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.2.0" : {
+      "name" : "wbuf",
+      "description" : "Write buffer",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indunty/wbuf",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indunty/wbuf.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indunty/wbuf/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wbuf/-/wbuf-1.2.0.tgz",
+        "shasum" : "0510b053b78e1e23a5c0d0ecdd59472942c367a4"
+      },
+      "devDependencies" : {
+        "mocha" : "^1.21.4"
+      },
+      "keywords" : [ "Write", "Buffer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test/**/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "wbuf@1.2.0",
+      "gitHead" : "d9137e2c6cca9c865e1be08f382b1666525ee587",
+      "_shasum" : "0510b053b78e1e23a5c0d0ecdd59472942c367a4",
+      "_nodeVersion" : "2.2.1"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# wbuf\n\n#### LICENSE\n\nThis software is licensed under the MIT License.\n\nCopyright Fedor Indutny, 2014.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to permit\npersons to whom the Software is furnished to do so, subject to the\nfollowing conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN\nNO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE\nUSE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "maintainers" : [ {
+    "name" : "indutny",
+    "email" : "fedor@indutny.com"
+  } ],
+  "author" : {
+    "name" : "Fedor Indutny",
+    "email" : "fedor@indutny.com"
+  },
+  "time" : {
+    "created" : "2014-08-30T19:55:58.902Z",
+    "0.2.0" : "2014-08-31T18:57:55.107Z",
+    "0.1.0" : "2014-08-30T19:55:58.902Z",
+    "1.3.0" : "2015-06-19T00:38:04.315Z",
+    "1.4.0" : "2015-06-20T23:19:32.960Z",
+    "1.4.1" : "2015-07-14T00:29:13.265Z",
+    "1.5.0" : "2015-07-19T18:47:31.615Z",
+    "1.4.2" : "2015-07-14T00:53:08.450Z",
+    "1.6.0" : "2015-07-19T19:30:33.830Z",
+    "1.7.0" : "2015-07-19T19:34:02.835Z",
+    "1.7.1" : "2015-10-18T18:46:35.552Z",
+    "1.7.2" : "2016-05-11T00:05:35.060Z",
+    "1.7.3" : "2018-03-10T21:51:19.126Z",
+    "modified" : "2018-03-10T21:51:20.132Z",
+    "1.0.0" : "2015-06-12T18:29:58.399Z",
+    "1.1.0" : "2015-06-13T10:17:58.618Z",
+    "1.2.0" : "2015-06-16T23:06:28.073Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+ssh://git@github.com/indutny/wbuf.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/indutny/wbuf",
+  "keywords" : [ "Write", "Buffer" ],
+  "bugs" : {
+    "url" : "https://github.com/indutny/wbuf/issues"
+  },
+  "license" : "MIT"
+}

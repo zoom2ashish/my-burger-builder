@@ -1,0 +1,684 @@
+{
+  "_id" : "postcss-pseudo-class-any-link",
+  "_rev" : "10-a2af6a7df75395d49f51fb986fb83765",
+  "name" : "postcss-pseudo-class-any-link",
+  "description" : "Use the :any-link pseudo-class in CSS",
+  "dist-tags" : {
+    "latest" : "6.0.0"
+  },
+  "versions" : {
+    "3.0.0" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the proposed :any-link pseudo-class in CSS",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.1"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-3.0.0.tgz",
+        "shasum" : "639dec897ec122dd0b81a21cda0a612803d920c0"
+      },
+      "dependencies" : {
+        "postcss" : "^5.2.6",
+        "postcss-selector-parser" : "^2.2.2"
+      },
+      "devDependencies" : {
+        "echint" : "^2.1.0",
+        "echint-config-dev" : "1.0.0",
+        "eslint" : "^3.11.1",
+        "eslint-config-dev" : "1.0.0",
+        "jscs" : "^3.0.7",
+        "jscs-config-dev" : "1.0.1",
+        "postcss-tape" : "1.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "echint && eslint index.js && jscs index.js",
+        "prepublish" : "npm test",
+        "tape" : "postcss-tape",
+        "test" : "npm run lint && postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@3.0.0",
+      "gitHead" : "3b8eaa5783d68b1e8032a1e51c7d59727de34cc8",
+      "jscsConfig" : {
+        "preset" : "dev"
+      },
+      "echint" : {
+        "extends" : "dev"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-pseudo-class-any-link-3.0.0.tgz_1481054288568_0.7965149953961372"
+      },
+      "_shasum" : "639dec897ec122dd0b81a21cda0a612803d920c0",
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parserOptions" : {
+          "sourceType" : "module"
+        }
+      },
+      "_nodeVersion" : "7.2.0"
+    },
+    "6.0.0" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the :any-link pseudo-class in CSS",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-6.0.0.tgz",
+        "shasum" : "2ed3eed393b3702879dec4a87032b210daeb04d1"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2",
+        "postcss-selector-parser" : "^5.0.0-rc.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@6.0.0",
+      "gitHead" : "9ff821af0d9f8af6d60e0e7adb6eaa29488c176f",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-pseudo-class-any-link_6.0.0_1537243931024_0.5596169031671316"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "5.0.0" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the :any-link pseudo-class in CSS",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-5.0.0.tgz",
+        "shasum" : "9979a55a75956c402c5d270a667632cf8ee8eccb"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.22",
+        "postcss-selector-parser" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.3",
+        "babel-preset-env" : "^1.6.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.58.2",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@5.0.0",
+      "gitHead" : "3c97d97d5d173728ba242a4e1495fcf943553aca",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-pseudo-class-any-link_5.0.0_1525752131328_0.8976216554308729"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the proposed :any-link pseudo-class in CSS",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-4.0.0.tgz",
+        "shasum" : "9152a0613d3450720513e8892854bae42d0ee68e"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1",
+        "postcss-selector-parser" : "^2.2.3"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "2.0.0",
+        "postcss-tape" : "2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@4.0.0",
+      "gitHead" : "877bfc48f6b7ab46f76cc8dd92476585f6ee6287",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-pseudo-class-any-link-4.0.0.tgz_1494452353034_0.06308793765492737"
+      },
+      "_shasum" : "9152a0613d3450720513e8892854bae42d0ee68e",
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parserOptions" : {
+          "sourceType" : "module"
+        }
+      },
+      "_nodeVersion" : "4.0.0"
+    },
+    "0.2.0" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the proposed :any-link pseudo-class in CSS",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-0.2.0.tgz",
+        "shasum" : "dd4e5a599f5497694bec607e55f853f1f9dd4b3a"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11",
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "postcss-selector-parser" : "^1.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@0.2.0",
+      "gitHead" : "4031e178f990669a927008584d5bf821ab24d54c",
+      "_shasum" : "dd4e5a599f5497694bec607e55f853f1f9dd4b3a",
+      "_nodeVersion" : "0.10.32"
+    },
+    "3.0.1" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the proposed :any-link pseudo-class in CSS",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "engines" : {
+        "node" : ">=6.9.1"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-3.0.1.tgz",
+        "shasum" : "6109f6e001864a3f1e2e6c32937c960b0b5b35ec"
+      },
+      "dependencies" : {
+        "postcss" : "^5.2.6",
+        "postcss-selector-parser" : "^2.2.2"
+      },
+      "devDependencies" : {
+        "echint" : "^2.1.0",
+        "echint-config-dev" : "1.0.0",
+        "eslint" : "^3.12.1",
+        "eslint-config-dev" : "1.0.0",
+        "jscs" : "^3.0.7",
+        "jscs-config-dev" : "1.0.1",
+        "postcss-tape" : "1.3.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "echint && eslint index.js && jscs index.js",
+        "prepublish" : "npm test",
+        "tape" : "postcss-tape",
+        "test" : "npm run lint && postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@3.0.1",
+      "gitHead" : "c2ac7986239e9f447808b16fd211654b09918a7f",
+      "jscsConfig" : {
+        "preset" : "dev"
+      },
+      "echint" : {
+        "extends" : "dev"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-pseudo-class-any-link-3.0.1.tgz_1481739348646_0.25723769469186664"
+      },
+      "_shasum" : "6109f6e001864a3f1e2e6c32937c960b0b5b35ec",
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parserOptions" : {
+          "sourceType" : "module"
+        }
+      },
+      "_nodeVersion" : "7.2.1"
+    },
+    "0.2.1" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the proposed :any-link pseudo-class in CSS",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-0.2.1.tgz",
+        "shasum" : "ca3bee223bafd624dc628df36129e7b4937c35f7"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9",
+        "postcss-selector-parser" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11",
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@0.2.1",
+      "gitHead" : "3066056db0900fa2b4b61d92bdd9806cdbd90e05",
+      "_shasum" : "ca3bee223bafd624dc628df36129e7b4937c35f7",
+      "_nodeVersion" : "0.10.32"
+    },
+    "0.3.0" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the proposed :any-link pseudo-class in CSS",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-0.3.0.tgz",
+        "shasum" : "747fa3a335cf645703abddef552cd7f6131f48b9"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9",
+        "postcss-selector-parser" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11",
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@0.3.0",
+      "gitHead" : "71472948206e164f679f55bb2e224b29feb948b2",
+      "_shasum" : "747fa3a335cf645703abddef552cd7f6131f48b9",
+      "_nodeVersion" : "0.10.32"
+    },
+    "1.0.0" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the proposed :any-link pseudo-class in CSS",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-1.0.0.tgz",
+        "shasum" : "903239196401d335fe73ac756186fa62e693af26"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.3",
+        "postcss-selector-parser" : "^1.1.4"
+      },
+      "devDependencies" : {
+        "chai" : "^3.2.0",
+        "gulp" : "^3.9.0",
+        "gulp-eslint" : "^1.0.0",
+        "gulp-mocha" : "^2.1.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@1.0.0",
+      "gitHead" : "54e8aa45fce71075a9e5e587ea891c0d57bf740b",
+      "_shasum" : "903239196401d335fe73ac756186fa62e693af26",
+      "_nodeVersion" : "0.12.5"
+    },
+    "0.1.0" : {
+      "name" : "postcss-pseudo-class-any-link",
+      "description" : "Use the proposed :any-link pseudo-class in CSS",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-0.1.0.tgz",
+        "shasum" : "aa8160d9c70a808493967d8bf391da2d234f3745"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11",
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-pseudo-class-any-link@0.1.0",
+      "gitHead" : "c489a1f0fbf0732927671661c67ed84ce81cee31",
+      "_shasum" : "aa8160d9c70a808493967d8bf391da2d234f3745",
+      "_nodeVersion" : "0.10.32"
+    }
+  },
+  "readme" : "# PostCSS Pseudo Class Any Link [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS Logo\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[![NPM Version][npm-img]][npm-url]\n[![CSS Standard Status][css-img]][css-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[PostCSS Pseudo Class Any Link] lets you `:any-link` pseudo-class in CSS,\nfollowing the [Selectors] specification.\n\n```pcss\nnav :any-link > span {\n  background-color: yellow;\n}\n\n/* becomes */\n\nnav :link > span, nav :visited > span {\n  background-color: yellow;\n}\n\nnav :any-link > span {\n  background-color: yellow;\n}\n```\n\nFrom the [proposal][Selectors]:\n\n> The `:any-link` pseudo-class represents an element that acts as the source\n  anchor of a hyperlink. It matches an element if the element would match\n  `:link` or `:visited`.\n\n## Usage\n\nAdd [PostCSS Pseudo Class Any Link] to your project:\n\n```bash\nnpm install postcss-pseudo-class-any-link --save-dev\n```\n\nUse [PostCSS Pseudo Class Any Link] to process your CSS:\n\n```js\nconst postcssPseudoClassAnyLink = require('postcss-pseudo-class-any-link');\n\npostcssPseudoClassAnyLink.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nconst postcss = require('postcss');\nconst postcssPseudoClassAnyLink = require('postcss-pseudo-class-any-link');\n\npostcss([\n  postcssPseudoClassAnyLink(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Pseudo Class Any Link] runs in all Node environments, with special\ninstructions for:\n\n| [Node](INSTALL.md#node) | [PostCSS CLI](INSTALL.md#postcss-cli) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- | --- |\n\n## Options\n\n### preserve\n\nThe `preserve` option determines whether the original `:any-link` rule is\npreserved. By default, it is preserved.\n\n```js\npostcssPseudoClassAnyLink({ preserve: false })\n```\n\n```pcss\nnav :any-link > span {\n  background-color: yellow;\n}\n\n/* becomes */\n\nnav :link > span, nav :visited > span {\n  background-color: yellow;\n}\n```\n\n[cli-img]: https://img.shields.io/travis/jonathantneal/postcss-pseudo-class-any-link.svg\n[cli-url]: https://travis-ci.org/jonathantneal/postcss-pseudo-class-any-link\n[css-img]: https://cssdb.org/badge/any-link-pseudo-class.svg\n[css-url]: https://cssdb.org/#any-link-pseudo-class\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/postcss-pseudo-class-any-link.svg\n[npm-url]: https://www.npmjs.com/package/postcss-pseudo-class-any-link\n\n[Gulp PostCSS]: https://github.com/postcss/gulp-postcss\n[Grunt PostCSS]: https://github.com/nDmitry/grunt-postcss\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Loader]: https://github.com/postcss/postcss-loader\n[PostCSS Pseudo Class Any Link]: https://github.com/jonathantneal/postcss-pseudo-class-any-link\n[Selectors]: https://www.w3.org/TR/selectors-4/#the-any-link-pseudo\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "3.0.0" : "2016-12-06T19:58:10.476Z",
+    "6.0.0" : "2018-09-18T04:12:11.166Z",
+    "created" : "2015-06-15T00:36:08.128Z",
+    "modified" : "2019-01-05T04:44:50.274Z",
+    "5.0.0" : "2018-05-08T04:02:11.599Z",
+    "4.0.0" : "2017-05-10T21:39:15.018Z",
+    "0.2.0" : "2015-06-15T13:15:03.092Z",
+    "3.0.1" : "2016-12-14T18:15:50.577Z",
+    "0.2.1" : "2015-06-16T00:04:22.194Z",
+    "0.3.0" : "2015-06-16T03:41:41.549Z",
+    "1.0.0" : "2015-08-31T22:33:44.664Z",
+    "0.1.0" : "2015-06-15T00:36:08.128Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jonathantneal/postcss-pseudo-class-any-link.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "link", "visited", "any-link", "a", "area", "hyperlink", "href" ],
+  "bugs" : {
+    "url" : "https://github.com/jonathantneal/postcss-pseudo-class-any-link/issues"
+  },
+  "license" : "CC0-1.0"
+}

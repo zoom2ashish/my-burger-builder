@@ -1,0 +1,415 @@
+{
+  "_id" : "postcss-color-functional-notation",
+  "_rev" : "4-a9143db803bd94aa900be1bb1c00c5ed",
+  "name" : "postcss-color-functional-notation",
+  "description" : "Use space and slash separated color notation in CSS",
+  "dist-tags" : {
+    "latest" : "2.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-color-functional-notation",
+      "description" : "Use space and slash separated color notation in CSS",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-color-functional-notation#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-color-functional-notation.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-color-functional-notation/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-functional-notation/-/postcss-color-functional-notation-2.0.0.tgz",
+        "shasum" : "a0908e2b3ebe1a3809c7cd58fc8d8c1a392c0e15"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2",
+        "postcss-values-parser" : "^1.5.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "colors", "rgb", "rgba", "hsl", "hsla", "hwb", "functional", "notation", "design", "syntax", "space", "comma" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-functional-notation@2.0.0",
+      "gitHead" : "2cedf27323a977176d1e62581fe1df24e1d5270f",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-functional-notation_2.0.0_1537237656470_0.9755788802127083"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "2.0.1" : {
+      "name" : "postcss-color-functional-notation",
+      "description" : "Use space and slash separated color notation in CSS",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-color-functional-notation#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-color-functional-notation.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-color-functional-notation/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-functional-notation/-/postcss-color-functional-notation-2.0.1.tgz",
+        "shasum" : "5efd37a88fbabeb00a2966d1e53d98ced93f74e0"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2",
+        "postcss-values-parser" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/preset-env" : "^7.1.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.6.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.0",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "colors", "rgb", "rgba", "hsl", "hsla", "hwb", "functional", "notation", "design", "syntax", "space", "comma" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-functional-notation@2.0.1",
+      "gitHead" : "849b9606b1461c8b07972d2222020913b1872b0e",
+      "module" : "index.es.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-functional-notation_2.0.1_1537283502269_0.1527753679647419"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-color-functional-notation",
+      "description" : "Use space and slash separated color notation in CSS",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-color-functional-notation#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-color-functional-notation.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-color-functional-notation/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-functional-notation/-/postcss-color-functional-notation-1.0.0.tgz",
+        "shasum" : "d5c7dbb866eed65331f5ee5954b6eb9a27499998"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.22",
+        "postcss-values-parser" : "^1.5.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.3",
+        "babel-preset-env" : "^1.6.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.58.2",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "colors", "rgb", "rgba", "hsl", "hsla", "hwb", "functional", "notation", "design", "syntax", "space", "comma" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-functional-notation@1.0.0",
+      "gitHead" : "0da9daa789c2aa99ae3577656d45ec1dddc77020",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-functional-notation_1.0.0_1525746749629_0.7549714248233423"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "1.0.1" : {
+      "name" : "postcss-color-functional-notation",
+      "description" : "Use space and slash separated color notation in CSS",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-color-functional-notation#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-color-functional-notation.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-color-functional-notation/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-functional-notation/-/postcss-color-functional-notation-1.0.1.tgz",
+        "shasum" : "a12fe1302fa63935e440859c9d53730023c0eadd"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.22",
+        "postcss-values-parser" : "^1.5.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.3",
+        "babel-preset-env" : "^1.7.0",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.58.2",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "colors", "rgb", "rgba", "hsl", "hsla", "hwb", "functional", "notation", "design", "syntax", "space", "comma" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.0.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-functional-notation@1.0.1",
+      "gitHead" : "6d2040ac0007e7465450f84519073a3f661abd9c",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-functional-notation_1.0.1_1526074096401_0.6798616110687867"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "1.0.2" : {
+      "name" : "postcss-color-functional-notation",
+      "description" : "Use space and slash separated color notation in CSS",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-color-functional-notation#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-color-functional-notation.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-color-functional-notation/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-functional-notation/-/postcss-color-functional-notation-1.0.2.tgz",
+        "shasum" : "836fbc5e88a4ebd958ba6a3f9e2dad7792166c9f"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.23",
+        "postcss-values-parser" : "^1.5.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.6",
+        "babel-preset-env" : "^1.7.0",
+        "eslint" : "^5.1.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.62.0",
+        "rollup-plugin-babel" : "^3.0.7"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "color", "colors", "rgb", "rgba", "hsl", "hsla", "hwb", "functional", "notation", "design", "syntax", "space", "comma" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-functional-notation@1.0.2",
+      "gitHead" : "58a16404280a41191527f88b235ee4b8af8cbd64",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-functional-notation_1.0.2_1531509195469_0.6257793646930636"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.6.0"
+    }
+  },
+  "readme" : "# PostCSS Color Functional Notation [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS Logo\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[![NPM Version][npm-img]][npm-url]\n[![CSS Standard Status][css-img]][css-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[PostCSS Color Functional Notation] lets you use space and slash separated\ncolor notation in CSS, following the [CSS Color] specification.\n\n```pcss\n:root {\n  --firebrick: rgb(178 34 34);\n  --firebrick-a50: rgb(70% 13.5% 13.5% / 50%);\n  --firebrick-hsl: hsla(0 68% 42%);\n  --firebrick-hsl-a50: hsl(0 68% 42% / 50%);\n}\n\n/* becomes */\n\n:root {\n  --firebrick: rgb(178, 34, 34);\n  --firebrick-a50: rgba(178, 34, 34, .5);\n  --firebrick-hsl: hsl(0, 68%, 42%);\n  --firebrick-hsl-a50: hsla(0, 68%, 42%, .5);\n}\n```\n\n## Usage\n\nAdd [PostCSS Color Functional Notation] to your project:\n\n```bash\nnpm install postcss-color-functional-notation --save-dev\n```\n\nUse [PostCSS Color Functional Notation] to process your CSS:\n\n```js\nconst postcssColorFunctionalNotation = require('postcss-color-functional-notation');\n\npostcssColorFunctionalNotation.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nconst postcss = require('postcss');\nconst postcssColorFunctionalNotation = require('postcss-color-functional-notation');\n\npostcss([\n  postcssColorFunctionalNotation(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Color Functional Notation] runs in all Node environments, with special instructions for:\n\n| [Node](INSTALL.md#node) | [PostCSS CLI](INSTALL.md#postcss-cli) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- | --- |\n\n## Options\n\n### preserve\n\nThe `preserve` option determines whether the original functional color notation\nis preserved. By default, it is not preserved.\n\n```js\npostcssImageSetFunction({ preserve: true })\n```\n\n```pcss\n:root {\n  --firebrick: rgb(178 34 34);\n  --firebrick-a50: rgb(70% 13.5% 13.5% / 50%);\n  --firebrick-hsl: hsla(0 68% 42%);\n  --firebrick-hsl-a50: hsl(0 68% 42% / 50%);\n}\n\n/* becomes */\n\n:root {\n  --firebrick: rgb(178, 34, 34);\n  --firebrick: rgb(178 34 34);\n  --firebrick-a50: rgba(178, 34, 34, .5);\n  --firebrick-a50: rgb(70% 13.5% 13.5% / 50%);\n  --firebrick-hsl: hsl(0, 68%, 42%);\n  --firebrick-hsl: hsla(0 68% 42%);\n  --firebrick-hsl-a50: hsla(0, 68%, 42%, .5);\n  --firebrick-hsl-a50: hsl(0 68% 42% / 50%);\n}\n```\n\n[cli-img]: https://img.shields.io/travis/jonathantneal/postcss-color-functional-notation.svg\n[cli-url]: https://travis-ci.org/jonathantneal/postcss-color-functional-notation\n[css-img]: https://cssdb.org/badge/color-functional-notation.svg\n[css-url]: https://cssdb.org/#color-functional-notation\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/postcss-color-functional-notation.svg\n[npm-url]: https://www.npmjs.com/package/postcss-color-functional-notation\n\n[CSS Color]: https://drafts.csswg.org/css-color/#ref-for-funcdef-rgb%E2%91%A1%E2%91%A0\n[Gulp PostCSS]: https://github.com/postcss/gulp-postcss\n[Grunt PostCSS]: https://github.com/nDmitry/grunt-postcss\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Loader]: https://github.com/postcss/postcss-loader\n[PostCSS Color Functional Notation]: https://github.com/jonathantneal/postcss-color-functional-notation\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-09-18T02:27:36.609Z",
+    "2.0.1" : "2018-09-18T15:11:42.393Z",
+    "created" : "2018-05-08T02:32:29.628Z",
+    "modified" : "2018-09-18T15:11:47.209Z",
+    "1.0.0" : "2018-05-08T02:32:29.702Z",
+    "1.0.1" : "2018-05-11T21:28:16.461Z",
+    "1.0.2" : "2018-07-13T19:13:15.559Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jonathantneal/postcss-color-functional-notation.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jonathantneal/postcss-color-functional-notation#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "color", "colors", "rgb", "rgba", "hsl", "hsla", "hwb", "functional", "notation", "design", "syntax", "space", "comma" ],
+  "bugs" : {
+    "url" : "https://github.com/jonathantneal/postcss-color-functional-notation/issues"
+  },
+  "license" : "CC0-1.0"
+}

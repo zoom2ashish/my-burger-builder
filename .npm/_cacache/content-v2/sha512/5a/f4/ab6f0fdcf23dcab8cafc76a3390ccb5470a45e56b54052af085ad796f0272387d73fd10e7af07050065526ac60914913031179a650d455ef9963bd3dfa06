@@ -1,0 +1,3944 @@
+{
+  "_id" : "har-validator",
+  "_rev" : "69-619942cfbda2c0d33d6cdcb07ff0e671",
+  "name" : "har-validator",
+  "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+  "dist-tags" : {
+    "latest" : "5.1.3"
+  },
+  "versions" : {
+    "4.1.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.1.1.tgz",
+        "shasum" : "8df876e1ecfd925259f5ee5a1d0585c12b7f6629"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.1.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.1.1",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "d9fcff4bc0f6225300cb1535590a89fa49a46e0e",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.1.1.tgz_1480880035555_0.45075810770504177"
+      },
+      "_shasum" : "8df876e1ecfd925259f5ee5a1d0585c12b7f6629",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.1.2" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.1.2",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.1.2.tgz",
+        "shasum" : "3dabdba74f3904482f5774b62de3aba394b92427"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.1.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.1.2",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "aaea445a6ea339e1a125b411beb8c1a585f2142b",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.1.2.tgz_1480881364452_0.5804192230571061"
+      },
+      "_shasum" : "3dabdba74f3904482f5774b62de3aba394b92427",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.1.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.1.0.tgz",
+        "shasum" : "86e4f56f0cae4ccd72c276d772a527f5d606903c"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.4"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.1.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.1.0",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "ccb64add42d7452c60721bfd29eb319eefaf9c1f",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.1.0.tgz_1480839862492_0.274944152450189"
+      },
+      "_shasum" : "86e4f56f0cae4ccd72c276d772a527f5d606903c",
+      "_nodeVersion" : "4.6.2"
+    },
+    "3.1.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-3.1.0.tgz",
+        "shasum" : "12f5011218b719d6d4a17f8f6c91e7d4af64741c"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.3",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.15.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.0.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "schemas", "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test/*.js --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test/*.js --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@3.1.0",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "ddba552bcf226d77546c6586b2e13b6e9a849e8c",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-3.1.0.tgz_1480793085863_0.5526188455987722"
+      },
+      "_shasum" : "12f5011218b719d6d4a17f8f6c91e7d4af64741c",
+      "_nodeVersion" : "4.6.2"
+    },
+    "3.3.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-3.3.0.tgz",
+        "shasum" : "61d77ac71ab25c5740e5ad7ae3147cf17f820849"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.0",
+        "chalk" : "^1.1.3",
+        "commander" : "^2.9.0",
+        "har-schema" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.0.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "schemas", "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/node4/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-cli" : "BABEL_ENV=test babel-node src/bin.js",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@3.3.0",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "89b648644a0c8508434f7096a36b8d1b288d33c7",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-3.3.0.tgz_1480802544484_0.12833484495058656"
+      },
+      "_shasum" : "61d77ac71ab25c5740e5ad7ae3147cf17f820849",
+      "_nodeVersion" : "4.6.2"
+    },
+    "3.3.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-3.3.1.tgz",
+        "shasum" : "514cd19910b65a6cc09bd40f46097fbe2e6be062"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.0",
+        "chalk" : "^1.1.3",
+        "commander" : "^2.9.0",
+        "har-schema" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.0.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/node4/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-cli" : "BABEL_ENV=test babel-node src/bin.js",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@3.3.1",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "ed15905a90046a26faafd24f68d18e1ec6a50c2b",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-3.3.1.tgz_1480805589502_0.05432287883013487"
+      },
+      "_shasum" : "514cd19910b65a6cc09bd40f46097fbe2e6be062",
+      "_nodeVersion" : "4.6.2"
+    },
+    "2.1.0" : {
+      "name" : "har-validator",
+      "description" : "unnamed package",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.1.0.tgz",
+        "shasum" : "ad74bfa091493caeaa4ea686bcfdee05e012b67a"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.13.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.6.5",
+        "babel-plugin-transform-export-extensions" : "^6.5.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.6.5",
+        "babel-polyfill" : "^6.6.1",
+        "babel-preset-es2015" : "^6.6.0",
+        "babel-register" : "^6.6.5",
+        "codeclimate-test-reporter" : "^0.3.1",
+        "cz-conventional-changelog" : "^1.1.5",
+        "echint" : "^1.5.3",
+        "nyc" : "^6.0.0",
+        "semantic-release" : "^6.2.0",
+        "standard" : "^6.0.7",
+        "tap" : "^5.7.0",
+        "tap-mocha-reporter" : "0.0.24"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "schemas", "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src --out-dir lib",
+        "test" : "tap test/*.js --node-arg=--require --node-arg=babel-register --node-arg=--require --node-arg=babel-polyfill | tap-mocha-reporter spec",
+        "pretest" : "standard && echint",
+        "coverage" : "tap test/*.js --coverage --nyc-arg=--require --nyc-arg=babel-register --nyc-arg=--require --nyc-arg=babel-polyfill",
+        "codeclimate" : "nyc report --reporter=text-lcov | codeclimate-test-reporter",
+        "prepublish" : "npm run compile",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.1.0",
+      "standard" : {
+        "ignore" : [ "lib/**", "src/index.js", "test/fixtures/**" ]
+      },
+      "gitHead" : "3643416452884e3cba2e3a91376668c6b0f92dc8",
+      "babel" : {
+        "presets" : [ "es2015" ],
+        "plugins" : [ "transform-export-extensions", "transform-object-rest-spread" ]
+      },
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-2.1.0.tgz_1457397160699_0.41516683134250343"
+      },
+      "_shasum" : "ad74bfa091493caeaa4ea686bcfdee05e012b67a",
+      "_nodeVersion" : "4.3.2"
+    },
+    "2.1.3" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "2.1.3",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.1.3.tgz",
+        "shasum" : "68ff49c85cfbc2b34fb42f6480a9796b6441dcf3"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.3",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.13.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.6.5",
+        "babel-plugin-transform-export-extensions" : "^6.5.0",
+        "babel-polyfill" : "^6.7.4",
+        "babel-preset-es2015" : "^6.6.0",
+        "babel-register" : "^6.7.2",
+        "codeclimate-test-reporter" : "^0.3.1",
+        "cz-conventional-changelog" : "^1.1.5",
+        "echint" : "^1.5.3",
+        "nyc" : "^6.2.1",
+        "semantic-release" : "^6.2.0",
+        "standard" : "^6.0.8",
+        "tap" : "^5.7.0",
+        "tap-mocha-reporter" : "0.0.24"
+      },
+      "keywords" : [ "har", "cli", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "schemas", "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src --out-dir lib",
+        "test" : "tap test/*.js --node-arg=--require --node-arg=babel-register --node-arg=--require --node-arg=babel-polyfill | tap-mocha-reporter spec",
+        "pretest" : "standard && echint",
+        "coverage" : "tap test/*.js --coverage --nyc-arg=--require --nyc-arg=babel-register --nyc-arg=--require --nyc-arg=babel-polyfill",
+        "codeclimate" : "nyc report --reporter=text-lcov | codeclimate-test-reporter",
+        "prepublish" : "npm run compile",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.1.3",
+      "standard" : {
+        "ignore" : [ "lib/**", "test/fixtures/**" ]
+      },
+      "gitHead" : "9cbdb120b94bdfa1a74f3365b3ba21c4834ee68d",
+      "babel" : {
+        "presets" : [ "es2015" ],
+        "plugins" : [ "transform-export-extensions" ]
+      },
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-2.1.3.tgz_1460780120240_0.6595741915516555"
+      },
+      "_shasum" : "68ff49c85cfbc2b34fb42f6480a9796b6441dcf3",
+      "_nodeVersion" : "4.4.3"
+    },
+    "2.1.1" : {
+      "name" : "har-validator",
+      "description" : "unnamed package",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.1.1.tgz",
+        "shasum" : "20b1a6eac74c52ac11f9aa17e1636421572f90b8"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.13.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.6.5",
+        "babel-plugin-transform-export-extensions" : "^6.5.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.6.5",
+        "babel-polyfill" : "^6.6.1",
+        "babel-preset-es2015" : "^6.6.0",
+        "babel-register" : "^6.6.5",
+        "codeclimate-test-reporter" : "^0.3.1",
+        "cz-conventional-changelog" : "^1.1.5",
+        "echint" : "^1.5.3",
+        "nyc" : "^6.0.0",
+        "semantic-release" : "^6.2.0",
+        "standard" : "^6.0.7",
+        "tap" : "^5.7.0",
+        "tap-mocha-reporter" : "0.0.24"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "schemas", "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src --out-dir lib",
+        "test" : "tap test/*.js --node-arg=--require --node-arg=babel-register --node-arg=--require --node-arg=babel-polyfill | tap-mocha-reporter spec",
+        "pretest" : "standard && echint",
+        "coverage" : "tap test/*.js --coverage --nyc-arg=--require --nyc-arg=babel-register --nyc-arg=--require --nyc-arg=babel-polyfill",
+        "codeclimate" : "nyc report --reporter=text-lcov | codeclimate-test-reporter",
+        "prepublish" : "npm run compile",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.1.1",
+      "standard" : {
+        "ignore" : [ "lib/**", "src/index.js", "test/fixtures/**" ]
+      },
+      "gitHead" : "f739d4d11b304c6e824bb745b6919e725f34e2ee",
+      "babel" : {
+        "presets" : [ "es2015" ],
+        "plugins" : [ "transform-export-extensions", "transform-object-rest-spread" ]
+      },
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-2.1.1.tgz_1457397795987_0.7874950913246721"
+      },
+      "_shasum" : "20b1a6eac74c52ac11f9aa17e1636421572f90b8",
+      "_nodeVersion" : "4.3.2"
+    },
+    "2.1.2" : {
+      "name" : "har-validator",
+      "description" : "unnamed package",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.1.2.tgz",
+        "shasum" : "f9475bacaef2f9fff2d17ff40c775aeadc8e3b3f"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.3",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.13.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.6.5",
+        "babel-plugin-transform-export-extensions" : "^6.5.0",
+        "babel-polyfill" : "^6.7.4",
+        "babel-preset-es2015" : "^6.6.0",
+        "babel-register" : "^6.7.2",
+        "codeclimate-test-reporter" : "^0.3.1",
+        "cz-conventional-changelog" : "^1.1.5",
+        "echint" : "^1.5.3",
+        "nyc" : "^6.2.1",
+        "semantic-release" : "^6.2.0",
+        "standard" : "^6.0.8",
+        "tap" : "^5.7.0",
+        "tap-mocha-reporter" : "0.0.24"
+      },
+      "keywords" : [ "har", "cli", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "schemas", "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src --out-dir lib",
+        "test" : "tap test/*.js --node-arg=--require --node-arg=babel-register --node-arg=--require --node-arg=babel-polyfill | tap-mocha-reporter spec",
+        "pretest" : "standard && echint",
+        "coverage" : "tap test/*.js --coverage --nyc-arg=--require --nyc-arg=babel-register --nyc-arg=--require --nyc-arg=babel-polyfill",
+        "codeclimate" : "nyc report --reporter=text-lcov | codeclimate-test-reporter",
+        "prepublish" : "npm run compile",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.1.2",
+      "standard" : {
+        "ignore" : [ "lib/**", "test/fixtures/**" ]
+      },
+      "gitHead" : "4142354a10ddcf77352eb3901bc8978237990858",
+      "babel" : {
+        "presets" : [ "es2015" ],
+        "plugins" : [ "transform-export-extensions" ]
+      },
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-2.1.2.tgz_1460779536990_0.46244929172098637"
+      },
+      "_shasum" : "f9475bacaef2f9fff2d17ff40c775aeadc8e3b3f",
+      "_nodeVersion" : "4.4.3"
+    },
+    "1.1.2" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : "0.10.x",
+        "npm" : "1.4.x"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.1.2.tgz",
+        "shasum" : "13edd735b4566eb0d00a8468d665090e54ae2153"
+      },
+      "dependencies" : {
+        "chalk" : "^1.0.0",
+        "commander" : "^2.6.0",
+        "is-my-json-valid" : "^2.9.4"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.1"
+      },
+      "keywords" : [ "HAR", "HTTP", "Archive" ],
+      "license" : "MIT",
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.1.2",
+      "gitHead" : "e3fb33075a2b04a88396eb737dd687ba8d2362df",
+      "_shasum" : "13edd735b4566eb0d00a8468d665090e54ae2153",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.3.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.3.0.tgz",
+        "shasum" : "fc27a227148b41e554009401e95b687de7325050"
+      },
+      "dependencies" : {
+        "async" : "^0.9.0",
+        "bluebird" : "^2.9.14",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "debug" : "^2.1.3",
+        "is-my-json-valid" : "^2.10.0",
+        "require-directory" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.8",
+        "mocha" : "^2.2.1",
+        "should" : "^5.2.0",
+        "standard" : "^3.2.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.3.0",
+      "gitHead" : "1f8413fac2158edfb4168b7c2a0de68efc8c507d",
+      "_shasum" : "fc27a227148b41e554009401e95b687de7325050",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.1.3" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.1.3.tgz",
+        "shasum" : "9fac87db94b308758f506bcfcbaf104df655e616"
+      },
+      "dependencies" : {
+        "async" : "^0.9.0",
+        "bluebird" : "^2.9.14",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "debug" : "^2.1.3",
+        "is-my-json-valid" : "^2.10.0",
+        "require-directory" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.8",
+        "mocha" : "^2.2.1",
+        "should" : "^5.2.0",
+        "standard" : "^3.2.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.1.3",
+      "gitHead" : "3469de9a77928b1f7bdb424794780fede65ec1e4",
+      "_shasum" : "9fac87db94b308758f506bcfcbaf104df655e616",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.3.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.3.1.tgz",
+        "shasum" : "99d58aa141025a450a314f01508beb9c9043dc5f"
+      },
+      "dependencies" : {
+        "async" : "^0.9.0",
+        "bluebird" : "^2.9.14",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "debug" : "^2.1.3",
+        "is-my-json-valid" : "^2.10.0",
+        "require-directory" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.8",
+        "mocha" : "^2.2.1",
+        "should" : "^5.2.0",
+        "standard" : "^3.2.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.3.1",
+      "gitHead" : "8427086157865b2996c47e510dda2b362bf2bb49",
+      "_shasum" : "99d58aa141025a450a314f01508beb9c9043dc5f",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.5.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.5.0.tgz",
+        "shasum" : "0d79dfe456fb7297497400b69de7b3a99223a6fe"
+      },
+      "dependencies" : {
+        "async" : "^0.9.0",
+        "bluebird" : "^2.9.14",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "debug" : "^2.1.3",
+        "is-my-json-valid" : "^2.10.0",
+        "require-directory" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.8",
+        "mocha" : "^2.2.1",
+        "should" : "^5.2.0",
+        "standard" : "^3.2.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.5.0",
+      "gitHead" : "5f76772c4d254610f980da7016fd706bfbb5e2d2",
+      "_shasum" : "0d79dfe456fb7297497400b69de7b3a99223a6fe",
+      "_nodeVersion" : "0.12.1"
+    },
+    "1.5.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.5.1.tgz",
+        "shasum" : "5c28a7574123c5401b33ba3aa5932ff51880502b"
+      },
+      "dependencies" : {
+        "bluebird" : "^2.9.14",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "is-my-json-valid" : "^2.10.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.8",
+        "mocha" : "^2.2.1",
+        "require-directory" : "^2.1.0",
+        "should" : "^5.2.0",
+        "standard" : "^3.2.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.5.1",
+      "gitHead" : "f26e756a95b405f15fad4b923f48648c53a3968e",
+      "_shasum" : "5c28a7574123c5401b33ba3aa5932ff51880502b",
+      "_nodeVersion" : "0.12.1"
+    },
+    "1.7.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.7.0.tgz",
+        "shasum" : "563f8c58edca6410e2e408b0e540161da580dc46"
+      },
+      "dependencies" : {
+        "bluebird" : "^2.9.25",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.8.1",
+        "is-my-json-valid" : "^2.10.1"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.13",
+        "mocha" : "^2.2.4",
+        "require-directory" : "^2.1.0",
+        "should" : "^6.0.1",
+        "standard" : "^3.7.2"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.7.0",
+      "gitHead" : "74aab6b4994681cdb961db88f5129c5096eaf06a",
+      "_shasum" : "563f8c58edca6410e2e408b0e540161da580dc46",
+      "_nodeVersion" : "0.12.1"
+    },
+    "1.7.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.7.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.7.1.tgz",
+        "shasum" : "8ec8952f8287d21b451ba3e36f27ed8d997d8a95"
+      },
+      "dependencies" : {
+        "bluebird" : "^2.9.26",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.8.1",
+        "is-my-json-valid" : "^2.12.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "echint" : "^1.1.0",
+        "istanbul" : "^0.3.14",
+        "mocha" : "^2.2.5",
+        "require-directory" : "^2.1.0",
+        "should" : "^6.0.3",
+        "standard" : "^3.11.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && echint && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.7.1",
+      "gitHead" : "328d7f2f37affcc4fca1db13da68f2be817ad31c",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "8ec8952f8287d21b451ba3e36f27ed8d997d8a95",
+      "_nodeVersion" : "0.12.2"
+    },
+    "5.0.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-5.0.0.tgz",
+        "shasum" : "ce709dfe2974340e9cf154f13ec6249bda712c55"
+      },
+      "dependencies" : {
+        "@ahmadnassri/error" : "^1.1.0",
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "echint" : "^4.0.1",
+        "standard" : "^9.0.1",
+        "tap" : "^10.3.0"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard && echint",
+        "pretest" : "npm run lint",
+        "test" : "tap test",
+        "coverage" : "tap test --reporter silent --coverage"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@5.0.0",
+      "gitHead" : "ea17fb13250fbe90c21371facafd23c9375cfefb",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-5.0.0.tgz_1489524601965_0.05852990713901818"
+      },
+      "_shasum" : "ce709dfe2974340e9cf154f13ec6249bda712c55",
+      "_nodeVersion" : "7.7.2"
+    },
+    "5.0.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-5.0.1.tgz",
+        "shasum" : "17394849aab560bc9838a325b07eeba328a6ac0b"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "echint" : "^4.0.1",
+        "standard" : "^9.0.1",
+        "tap" : "^10.3.0"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard && echint",
+        "pretest" : "npm run lint",
+        "test" : "tap test",
+        "coverage" : "tap test --reporter silent --coverage"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@5.0.1",
+      "gitHead" : "3ec971e1c47f889958971bf91c4327da124923a9",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-5.0.1.tgz_1489525993907_0.10738185956142843"
+      },
+      "_shasum" : "17394849aab560bc9838a325b07eeba328a6ac0b",
+      "_nodeVersion" : "7.7.2"
+    },
+    "5.0.2" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "5.0.2",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-5.0.2.tgz",
+        "shasum" : "25a23c7a67465531ea9f3d3f8aebeca7d6914b5f"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "echint" : "^4.0.1",
+        "standard" : "^9.0.1",
+        "tap" : "^10.3.0"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard && echint",
+        "pretest" : "npm run lint",
+        "test" : "tap test",
+        "coverage" : "tap test --reporter silent --coverage"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@5.0.2",
+      "gitHead" : "be27f68b78ae2d6ae66c419d15df99b99f0a8eaf",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-5.0.2.tgz_1489527271584_0.08811150095425546"
+      },
+      "_shasum" : "25a23c7a67465531ea9f3d3f8aebeca7d6914b5f",
+      "_nodeVersion" : "7.7.2"
+    },
+    "5.0.3" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "5.0.3",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-5.0.3.tgz",
+        "shasum" : "ba402c266194f15956ef15e0fcf242993f6a7dfd"
+      },
+      "dependencies" : {
+        "ajv" : "^5.1.0",
+        "har-schema" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "echint" : "^4.0.1",
+        "standard" : "^10.0.2",
+        "tap" : "^10.3.2"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard && echint",
+        "pretest" : "npm run lint",
+        "test" : "tap test",
+        "coverage" : "tap test --reporter silent --coverage"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@5.0.3",
+      "gitHead" : "254112b780849ab773dcf0245db547154fe7e248",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-5.0.3.tgz_1494776767065_0.45195462461560965"
+      },
+      "_shasum" : "ba402c266194f15956ef15e0fcf242993f6a7dfd",
+      "_nodeVersion" : "7.10.0"
+    },
+    "1.1.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : "0.10.x",
+        "npm" : "1.4.x"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.1.0.tgz",
+        "shasum" : "6fdf52a744d9cb50075da281f0853cf7e3ad6d12"
+      },
+      "dependencies" : {
+        "chalk" : "^1.0.0",
+        "commander" : "^2.6.0",
+        "is-my-json-valid" : "^2.9.4"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.1"
+      },
+      "keywords" : [ "HAR", "HTTP", "Archive" ],
+      "license" : "MIT",
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.1.0",
+      "gitHead" : "1673e213c2ae6a9c3a92b40240856d76edceb5f4",
+      "_shasum" : "6fdf52a744d9cb50075da281f0853cf7e3ad6d12",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.1.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : "0.10.x",
+        "npm" : "1.4.x"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.1.1.tgz",
+        "shasum" : "dfb2af18db77cafd29a260862f151271b04fd0a9"
+      },
+      "dependencies" : {
+        "chalk" : "^1.0.0",
+        "commander" : "^2.6.0",
+        "is-my-json-valid" : "^2.9.4"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.1"
+      },
+      "keywords" : [ "HAR", "HTTP", "Archive" ],
+      "license" : "MIT",
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.1.1",
+      "gitHead" : "ee84ebca4b77c2383b980eb6fb745b97ce5645eb",
+      "_shasum" : "dfb2af18db77cafd29a260862f151271b04fd0a9",
+      "_nodeVersion" : "0.12.0"
+    },
+    "4.0.2" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.0.2.tgz",
+        "shasum" : "4331710dc99e7109eac69fe130e9c118a3206cfa"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.1.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.0.2",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "062cc57a6d79816d2c06e6b23934140e100c9179",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.0.2.tgz_1480829892578_0.04349543456919491"
+      },
+      "_shasum" : "4331710dc99e7109eac69fe130e9c118a3206cfa",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.2.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.2.0.tgz",
+        "shasum" : "c2efa9f6c50fee92ef033cf30b796a2c5b660cd7"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.1.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.2.0",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "b38c2d7d1286fb17788cac6447bcafa6b2cf72e1",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.2.0.tgz_1480882330276_0.14189945277757943"
+      },
+      "_shasum" : "c2efa9f6c50fee92ef033cf30b796a2c5b660cd7",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.0.3" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.0.3.tgz",
+        "shasum" : "f9ff23eb88543d97dc5f0de7a6c4a26b84c08c92"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.1.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.0.3",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "30f242427b0b1d6369213e3ed425dc74db28fbdc",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.0.3.tgz_1480830990474_0.8110444666817784"
+      },
+      "_shasum" : "f9ff23eb88543d97dc5f0de7a6c4a26b84c08c92",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.2.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.2.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.2.1.tgz",
+        "shasum" : "33481d0f1bbff600dd203d75812a6a5fba002e2a"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.5"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "1.1.10",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^4.0.1",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^6.0.0",
+        "tap" : "^10.0.0"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.2.1",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "06cb69e2da150de1643bfe511f0374f23b7a5b11",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.2.1.tgz_1488636538686_0.5101928301155567"
+      },
+      "_shasum" : "33481d0f1bbff600dd203d75812a6a5fba002e2a",
+      "_nodeVersion" : "4.8.0"
+    },
+    "4.0.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.0.0.tgz",
+        "shasum" : "57c395eb8a8a77faa3898957cc3b99ecb0561239"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.0",
+        "har-schema" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.0.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.0.0",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "1106bc5b47dd442e9cff9d98d48327dd909e8cc0",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.0.0.tgz_1480812398387_0.8863940783776343"
+      },
+      "_shasum" : "57c395eb8a8a77faa3898957cc3b99ecb0561239",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.0.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.0.1.tgz",
+        "shasum" : "4ff0e2e68c86ef111772c9d44475898c52227b0a"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.0",
+        "har-schema" : "^0.2.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.0.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.0.1",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "4112131a22f4e77d287f05b83d4b8a58c1cbbb95",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.0.1.tgz_1480814460754_0.3203337125014514"
+      },
+      "_shasum" : "4ff0e2e68c86ef111772c9d44475898c52227b0a",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.0.4" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "4.0.4",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-4.0.4.tgz",
+        "shasum" : "b41433175d647f28d9089adb56eb4fbd09167d80"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.1",
+        "har-schema" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.1.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@4.0.4",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "28ae32c3efcd35feffbfbbdd587bce49bd395173",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-4.0.4.tgz_1480834464587_0.3108202340081334"
+      },
+      "_shasum" : "b41433175d647f28d9089adb56eb4fbd09167d80",
+      "_nodeVersion" : "4.6.2"
+    },
+    "3.0.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-3.0.0.tgz",
+        "shasum" : "a76fc868c7301e34ebde2585b13d660c14e2f4d7"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.3",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.15.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.0.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "schemas", "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test/*.js --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test/*.js --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@3.0.0",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "e9512ab4f75aae816ef22c14ec2c0063b2df9fb3",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-3.0.0.tgz_1480721428684_0.0023917395155876875"
+      },
+      "_shasum" : "a76fc868c7301e34ebde2585b13d660c14e2f4d7",
+      "_nodeVersion" : "4.6.2"
+    },
+    "3.2.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-3.2.0.tgz",
+        "shasum" : "65b5373f33e361b265e12b252b7c6e1be912c8f5"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.3",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.15.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.0.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "schemas", "lib", "src" ],
+      "bin" : {
+        "har-validator" : "lib/node4/bin.js"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test/*.js --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test/*.js --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@3.2.0",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "585809756100e4a41849cd8b4ee36e7dcab8bec2",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-3.2.0.tgz_1480793470577_0.4003969542682171"
+      },
+      "_shasum" : "65b5373f33e361b265e12b252b7c6e1be912c8f5",
+      "_nodeVersion" : "4.6.2"
+    },
+    "3.4.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "3.4.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/node4/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-3.4.0.tgz",
+        "shasum" : "d3e64d083232c98e46c70cfa5a2d7d9cd72d45d5"
+      },
+      "dependencies" : {
+        "ajv" : "^4.9.0",
+        "har-schema" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.18.0",
+        "babel-plugin-add-module-exports" : "^0.2.1",
+        "babel-preset-env" : "0.0.9",
+        "babel-register" : "^6.18.0",
+        "codeclimate-test-reporter" : "^0.4.0",
+        "cz-conventional-changelog" : "^1.2.0",
+        "echint" : "^2.0.0",
+        "semantic-release" : "^6.3.2",
+        "snazzy" : "^5.0.0",
+        "tap" : "^8.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib", "src" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "compile" : "babel -q src",
+        "test" : "BABEL_ENV=test tap test --reporter spec --node-arg=--require --node-arg=babel-register",
+        "test-one" : "BABEL_ENV=test tap --reporter spec --node-arg=--require --node-arg=babel-register",
+        "pretest" : "snazzy && echint",
+        "coverage" : "BABEL_ENV=test tap test --reporter silent --coverage --nyc-arg=--require --nyc-arg=babel-register",
+        "codeclimate" : "BABEL_ENV=test tap --coverage-report=text-lcov | codeclimate-test-reporter",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@3.4.0",
+      "standard" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "gitHead" : "9b372bdac2d67819cd693bc6dc3f775a3531e3e0",
+      "echint" : {
+        "ignore" : [ "lib/**" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/har-validator-3.4.0.tgz_1480811996569_0.28792823222465813"
+      },
+      "_shasum" : "d3e64d083232c98e46c70cfa5a2d7d9cd72d45d5",
+      "_nodeVersion" : "4.6.2"
+    },
+    "2.0.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.0.0.tgz",
+        "shasum" : "58ce9953f0e4ea4d793a16be3a039776915f296f"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.8.1",
+        "is-my-json-valid" : "^2.12.2",
+        "pinkie-promise" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.1.1",
+        "echint" : "^1.5.0",
+        "istanbul" : "^0.3.21",
+        "mocha" : "^2.3.3",
+        "require-directory" : "^2.1.1",
+        "should" : "^7.1.0",
+        "should-promised" : "^0.3.1",
+        "standard" : "^5.3.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "bin", "lib" ],
+      "bin" : {
+        "har-validator" : "bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "standard && echint",
+        "test" : "mocha",
+        "posttest" : "npm run coverage",
+        "coverage" : "istanbul cover --dir coverage _mocha -- -R dot",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.0.0",
+      "gitHead" : "b4ad33d7e4e34b8e78b465dcd89a2609c14cc64e",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "58ce9953f0e4ea4d793a16be3a039776915f296f",
+      "_nodeVersion" : "4.1.1"
+    },
+    "2.0.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.0.1.tgz",
+        "shasum" : "042659a007bb8b5b6351cc927df0ee87073c8879"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.8.1",
+        "is-my-json-valid" : "^2.12.2",
+        "pinkie-promise" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.1.1",
+        "echint" : "^1.5.0",
+        "istanbul" : "^0.3.21",
+        "mocha" : "^2.3.3",
+        "require-directory" : "^2.1.1",
+        "should" : "^7.1.0",
+        "should-promised" : "^0.3.1",
+        "standard" : "^5.3.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "bin", "lib" ],
+      "bin" : {
+        "har-validator" : "bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "standard && echint",
+        "test" : "mocha",
+        "posttest" : "npm run coverage",
+        "coverage" : "istanbul cover --dir coverage _mocha -- -R dot",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.0.1",
+      "gitHead" : "95861d4f049475220a25352735dfd9937197bc18",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "042659a007bb8b5b6351cc927df0ee87073c8879",
+      "_nodeVersion" : "4.1.1"
+    },
+    "2.0.6" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "2.0.6",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.0.6.tgz",
+        "shasum" : "cdcbc08188265ad119b6a5a7c8ab70eecfb5d27d"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.12.4",
+        "pinkie-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.2.1",
+        "echint" : "^1.5.1",
+        "istanbul" : "^0.4.2",
+        "mocha" : "^2.3.4",
+        "require-directory" : "^2.1.1",
+        "should" : "^8.1.1",
+        "standard" : "^5.4.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "bin", "lib" ],
+      "bin" : {
+        "har-validator" : "bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "standard && echint",
+        "test" : "mocha",
+        "posttest" : "npm run coverage",
+        "coverage" : "istanbul cover --dir coverage _mocha -- -R dot",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.0.6",
+      "gitHead" : "92ccddad2e5d13e6e32c764e06c347d67805b211",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "cdcbc08188265ad119b6a5a7c8ab70eecfb5d27d",
+      "_nodeVersion" : "5.2.0"
+    },
+    "2.0.4" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.0.4.tgz",
+        "shasum" : "aab19d1d21b88e87b6785c49bbb14e09fc5615b3"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.12.3",
+        "pinkie-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.1.1",
+        "echint" : "^1.5.0",
+        "istanbul" : "^0.4.0",
+        "mocha" : "^2.3.4",
+        "require-directory" : "^2.1.1",
+        "should" : "^7.1.1",
+        "should-promised" : "^0.3.1",
+        "standard" : "^5.4.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "bin", "lib" ],
+      "bin" : {
+        "har-validator" : "bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "standard && echint",
+        "test" : "mocha",
+        "posttest" : "npm run coverage",
+        "coverage" : "istanbul cover --dir coverage _mocha -- -R dot",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.0.4",
+      "gitHead" : "e18706ca70b93d3874ebc2f7203ec749b36771e8",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "aab19d1d21b88e87b6785c49bbb14e09fc5615b3",
+      "_nodeVersion" : "5.4.0"
+    },
+    "2.0.5" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "2.0.5",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.0.5.tgz",
+        "shasum" : "a3a51876594b6ede76bb63eb1b311c246b18a9bb"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.12.3",
+        "pinkie-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.1.1",
+        "echint" : "^1.5.0",
+        "istanbul" : "^0.4.2",
+        "mocha" : "^2.3.4",
+        "require-directory" : "^2.1.1",
+        "should" : "^8.1.1",
+        "standard" : "^5.4.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "bin", "lib" ],
+      "bin" : {
+        "har-validator" : "bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "standard && echint",
+        "test" : "mocha",
+        "posttest" : "npm run coverage",
+        "coverage" : "istanbul cover --dir coverage _mocha -- -R dot",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.0.5",
+      "gitHead" : "1382234c6fbdeba8f7821f6a1f700e0911ac6aea",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "a3a51876594b6ede76bb63eb1b311c246b18a9bb",
+      "_nodeVersion" : "5.4.0"
+    },
+    "2.0.2" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.0.2.tgz",
+        "shasum" : "233d0fa887b98a4f345969f811a2eec70d97aed7"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.8.1",
+        "is-my-json-valid" : "^2.12.2",
+        "pinkie-promise" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.1.1",
+        "echint" : "^1.5.0",
+        "istanbul" : "^0.3.21",
+        "mocha" : "^2.3.3",
+        "require-directory" : "^2.1.1",
+        "should" : "^7.1.0",
+        "should-promised" : "^0.3.1",
+        "standard" : "^5.3.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "bin", "lib" ],
+      "bin" : {
+        "har-validator" : "bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "standard && echint",
+        "test" : "mocha",
+        "posttest" : "npm run coverage",
+        "coverage" : "istanbul cover --dir coverage _mocha -- -R dot",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.0.2",
+      "gitHead" : "46efd17253a81fb70614e904d9e766aa4de4f394",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "233d0fa887b98a4f345969f811a2eec70d97aed7",
+      "_nodeVersion" : "4.1.1"
+    },
+    "2.0.3" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-2.0.3.tgz",
+        "shasum" : "5a9e12564a571cf0b81ef93c2157bd1617168883"
+      },
+      "dependencies" : {
+        "chalk" : "^1.1.1",
+        "commander" : "^2.9.0",
+        "is-my-json-valid" : "^2.12.3",
+        "pinkie-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.1.1",
+        "echint" : "^1.5.0",
+        "istanbul" : "^0.4.0",
+        "mocha" : "^2.3.4",
+        "require-directory" : "^2.1.1",
+        "should" : "^7.1.1",
+        "should-promised" : "^0.3.1",
+        "standard" : "^5.4.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "bin", "lib" ],
+      "bin" : {
+        "har-validator" : "bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "standard && echint",
+        "test" : "mocha",
+        "posttest" : "npm run coverage",
+        "coverage" : "istanbul cover --dir coverage _mocha -- -R dot",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@2.0.3",
+      "gitHead" : "a71163c62b8786a41d503248fb60893598f3c26f",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "5a9e12564a571cf0b81ef93c2157bd1617168883",
+      "_nodeVersion" : "4.1.2"
+    },
+    "1.4.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.4.0.tgz",
+        "shasum" : "845924893a05602a9791c319f81d628948b1b2af"
+      },
+      "dependencies" : {
+        "async" : "^0.9.0",
+        "bluebird" : "^2.9.14",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "debug" : "^2.1.3",
+        "is-my-json-valid" : "^2.10.0",
+        "require-directory" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.8",
+        "mocha" : "^2.2.1",
+        "should" : "^5.2.0",
+        "standard" : "^3.2.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.4.0",
+      "gitHead" : "6d7268e7bb929aaa98d1c919dcba231ea5e81084",
+      "_shasum" : "845924893a05602a9791c319f81d628948b1b2af",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.6.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.6.0.tgz",
+        "shasum" : "f327e8d4a1c698e0965300330965f1f4ffb68d0a"
+      },
+      "dependencies" : {
+        "bluebird" : "^2.9.21",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "is-my-json-valid" : "^2.10.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.11",
+        "mocha" : "^2.2.1",
+        "require-directory" : "^2.1.0",
+        "should" : "^5.2.0",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.6.0",
+      "gitHead" : "036e96ea46f511b1a84cc3e0c6022f33ecc0758f",
+      "_shasum" : "f327e8d4a1c698e0965300330965f1f4ffb68d0a",
+      "_nodeVersion" : "0.12.1"
+    },
+    "1.6.1" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.6.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.6.1.tgz",
+        "shasum" : "baef452cde645eff7d26562e8e749d7fd000b7fd"
+      },
+      "dependencies" : {
+        "bluebird" : "^2.9.21",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "is-my-json-valid" : "^2.10.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.11",
+        "mocha" : "^2.2.1",
+        "require-directory" : "^2.1.0",
+        "should" : "^5.2.0",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.6.1",
+      "gitHead" : "aa68c8efacea7437bb545d816a14e20db444fde5",
+      "_shasum" : "baef452cde645eff7d26562e8e749d7fd000b7fd",
+      "_nodeVersion" : "0.12.1"
+    },
+    "1.8.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.8.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "lib/index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.8.0.tgz",
+        "shasum" : "d83842b0eb4c435960aeb108a067a3aa94c0eeb2"
+      },
+      "dependencies" : {
+        "bluebird" : "^2.9.30",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.8.1",
+        "is-my-json-valid" : "^2.12.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "echint" : "^1.3.0",
+        "istanbul" : "^0.3.15",
+        "mocha" : "^2.2.5",
+        "require-directory" : "^2.1.1",
+        "should" : "^7.0.1",
+        "standard" : "^4.3.1"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "bin", "lib" ],
+      "bin" : {
+        "har-validator" : "bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "standard && echint",
+        "test" : "mocha",
+        "posttest" : "npm run coverage",
+        "coverage" : "istanbul cover --dir coverage _mocha -- -R dot",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.8.0",
+      "gitHead" : "8fd21c30edb23a1fed2d50b934d055d1be3dd7c9",
+      "echint" : {
+        "ignore" : [ "coverage/**" ]
+      },
+      "_shasum" : "d83842b0eb4c435960aeb108a067a3aa94c0eeb2",
+      "_nodeVersion" : "0.12.2"
+    },
+    "5.1.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-5.1.0.tgz",
+        "shasum" : "44657f5688a22cfd4b72486e81b3a3fb11742c29"
+      },
+      "dependencies" : {
+        "ajv" : "^5.3.0",
+        "har-schema" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "echint" : "^4.0.1",
+        "standard" : "^10.0.3",
+        "tap" : "^10.7.2"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "ISC",
+      "files" : [ "lib" ],
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard && echint",
+        "pretest" : "npm run lint",
+        "test" : "tap test",
+        "coverage" : "tap test --reporter silent --coverage"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@5.1.0",
+      "gitHead" : "33e6dbdd7d644a1f0b419b0fa277b1bb491e0331",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/har-validator-5.1.0.tgz_1509688503296_0.303169913822785"
+      },
+      "_nodeVersion" : "8.9.0"
+    },
+    "1.0.0" : {
+      "name" : "har-validator",
+      "description" : "HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : "0.10.x",
+        "npm" : "1.4.x"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.0.0.tgz",
+        "shasum" : "120380a05cc6a46f5a7b45ea96dab7348ad62649"
+      },
+      "dependencies" : {
+        "chalk" : "^0.5.1",
+        "commander" : "^2.6.0",
+        "is-my-json-valid" : "^2.4.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^4.6.1"
+      },
+      "keywords" : [ "HAR", "HTTP", "Archive" ],
+      "license" : "MIT",
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.0.0",
+      "gitHead" : "5fbbe36e44eb9596b824bb0d329abe98f7c7a1f6",
+      "_shasum" : "120380a05cc6a46f5a7b45ea96dab7348ad62649"
+    },
+    "5.1.3" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "5.1.3",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/node-har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ahmadnassri/node-har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/node-har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "main" : "lib/promise.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-5.1.3.tgz",
+        "shasum" : "1ef89ebd3e4996557675eed9893110dc350fa080"
+      },
+      "dependencies" : {
+        "ajv" : "^6.5.5",
+        "har-schema" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "^12.0.1"
+      },
+      "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint:deps" : "npx updated",
+        "lint:ec" : "npx editorconfig-checker .",
+        "lint:js" : "npx eslint .",
+        "lint:md" : "npx remark --quiet --frail .",
+        "lint" : "npx run-p lint:*",
+        "open:coverage" : "opener coverage/lcov-report/index.html",
+        "test" : "tap test --coverage-report=lcov --no-browser"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@5.1.3",
+      "gitHead" : "a38c0672cd3b202bd52534ee7da83b74003eb472",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/har-validator_5.1.3_1541895536289_0.3289158818028399"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "1.0.1" : {
+      "name" : "har-validator",
+      "description" : "HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : "0.10.x",
+        "npm" : "1.4.x"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.0.1.tgz",
+        "shasum" : "b74e5aa074998ea95f196cccd608fd98f465b298"
+      },
+      "dependencies" : {
+        "chalk" : "^1.0.0",
+        "commander" : "^2.6.0",
+        "is-my-json-valid" : "^2.9.4"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.1"
+      },
+      "keywords" : [ "HAR", "HTTP", "Archive" ],
+      "license" : "MIT",
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.0.1",
+      "gitHead" : "c0848dbc85a1eb9da643e4fa3d4789c93d0917bb",
+      "_shasum" : "b74e5aa074998ea95f196cccd608fd98f465b298",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.0.2" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : "0.10.x",
+        "npm" : "1.4.x"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.0.2.tgz",
+        "shasum" : "a00f08e53b1031489208cd95d4bb5d6e02721fa7"
+      },
+      "dependencies" : {
+        "chalk" : "^1.0.0",
+        "commander" : "^2.6.0",
+        "is-my-json-valid" : "^2.9.4"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.1.0",
+        "should" : "^5.0.1"
+      },
+      "keywords" : [ "HAR", "HTTP", "Archive" ],
+      "license" : "MIT",
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.0.2",
+      "gitHead" : "3b3245e983d516f0faebc9420b94dbc2331ea95c",
+      "_shasum" : "a00f08e53b1031489208cd95d4bb5d6e02721fa7",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.2.0" : {
+      "name" : "har-validator",
+      "description" : "Extremely fast HTTP Archive (HAR) validator using JSON Schema",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Ahmad Nassri",
+        "email" : "ahmad@ahmadnassri.com",
+        "url" : "https://www.ahmadnassri.com/"
+      },
+      "homepage" : "https://github.com/ahmadnassri/har-validator",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ahmadnassri/har-validator"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ahmadnassri/har-validator/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/har-validator/-/har-validator-1.2.0.tgz",
+        "shasum" : "eb23f88bf3071be117605470f008896c9e01cf70"
+      },
+      "dependencies" : {
+        "async" : "^0.9.0",
+        "bluebird" : "^2.9.14",
+        "chalk" : "^1.0.0",
+        "commander" : "^2.7.1",
+        "debug" : "^2.1.3",
+        "is-my-json-valid" : "^2.10.0",
+        "require-directory" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "codeclimate-test-reporter" : "0.0.4",
+        "istanbul" : "^0.3.8",
+        "mocha" : "^2.2.1",
+        "should" : "^5.2.0",
+        "standard" : "^3.2.0"
+      },
+      "keywords" : [ "har", "http", "archive", "validate", "validator" ],
+      "license" : "MIT",
+      "files" : [ "bin", "src" ],
+      "bin" : {
+        "har-validator" : "./bin/har-validator"
+      },
+      "maintainers" : [ {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && mocha --reporter spec",
+        "coverage" : "istanbul cover ./node_modules/mocha/bin/_mocha",
+        "codeclimate" : "codeclimate < coverage/lcov.info"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "ahmadnassri",
+        "email" : "ahmad@ahmadnassri.com"
+      },
+      "_id" : "har-validator@1.2.0",
+      "gitHead" : "fd078bc2b8bbc172047348b57d96fe22769da233",
+      "_shasum" : "eb23f88bf3071be117605470f008896c9e01cf70",
+      "_nodeVersion" : "0.12.0"
+    }
+  },
+  "readme" : "# HAR Validator\n\n[![License][license-image]][license-url] [![version][npm-image]][npm-url] [![Build Status][circle-image]][circle-url]\n\n> Extremely fast HTTP Archive ([HAR](https://github.com/ahmadnassri/har-spec/blob/master/versions/1.2.md)) validator using JSON Schema.\n\n## Install\n\n```bash\nnpm install har-validator\n```\n\n## CLI Usage\n\nPlease refer to [`har-cli`](https://github.com/ahmadnassri/har-cli) for more info.\n\n## API\n\n**Note**: as of [`v2.0.0`](https://github.com/ahmadnassri/node-har-validator/releases/tag/v2.0.0) this module defaults to Promise based API. _For backward compatibility with `v1.x` an [async/callback API](docs/async.md) is also provided_\n\n- [async API](docs/async.md)\n- [callback API](docs/async.md)\n- [Promise API](docs/promise.md) _(default)_\n\n---\n> Author: [Ahmad Nassri](https://www.ahmadnassri.com/) &bull; \n> Github: [@ahmadnassri](https://github.com/ahmadnassri) &bull; \n> Twitter: [@ahmadnassri](https://twitter.com/ahmadnassri)\n\n[license-url]: LICENSE\n[license-image]: https://img.shields.io/github/license/ahmadnassri/node-har-validator.svg?style=for-the-badge&logo=circleci\n\n[circle-url]: https://circleci.com/gh/ahmadnassri/workflows/node-har-validator\n[circle-image]: https://img.shields.io/circleci/project/github/ahmadnassri/node-har-validator/master.svg?style=for-the-badge&logo=circleci\n\n[npm-url]: https://www.npmjs.com/package/har-validator\n[npm-image]: https://img.shields.io/npm/v/har-validator.svg?style=for-the-badge&logo=npm\n",
+  "maintainers" : [ {
+    "name" : "ahmadnassri",
+    "email" : "ahmad@ahmadnassri.com"
+  } ],
+  "author" : {
+    "name" : "Ahmad Nassri",
+    "email" : "ahmad@ahmadnassri.com",
+    "url" : "https://www.ahmadnassri.com/"
+  },
+  "time" : {
+    "4.1.1" : "2016-12-04T19:33:57.708Z",
+    "4.1.2" : "2016-12-04T19:56:05.064Z",
+    "4.1.0" : "2016-12-04T08:24:24.491Z",
+    "modified" : "2019-01-04T02:36:14.877Z",
+    "3.1.0" : "2016-12-03T19:24:47.829Z",
+    "3.3.0" : "2016-12-03T22:02:25.049Z",
+    "3.3.1" : "2016-12-03T22:53:10.083Z",
+    "2.1.0" : "2016-03-08T00:32:44.494Z",
+    "created" : "2015-02-10T09:34:51.208Z",
+    "2.1.3" : "2016-04-16T04:15:21.260Z",
+    "2.1.1" : "2016-03-08T00:43:19.796Z",
+    "2.1.2" : "2016-04-16T04:05:39.404Z",
+    "1.1.2" : "2015-03-05T17:22:43.677Z",
+    "1.3.0" : "2015-03-22T05:45:54.179Z",
+    "1.1.3" : "2015-03-21T07:05:36.574Z",
+    "1.3.1" : "2015-03-22T05:56:34.528Z",
+    "1.5.0" : "2015-03-30T03:31:22.173Z",
+    "1.5.1" : "2015-03-30T03:48:16.233Z",
+    "1.7.0" : "2015-04-30T04:01:06.241Z",
+    "1.7.1" : "2015-05-27T09:16:55.401Z",
+    "5.0.0" : "2017-03-14T20:50:02.584Z",
+    "5.0.1" : "2017-03-14T21:13:14.475Z",
+    "5.0.2" : "2017-03-14T21:34:33.483Z",
+    "5.0.3" : "2017-05-14T15:46:08.016Z",
+    "1.1.0" : "2015-03-05T17:09:47.634Z",
+    "1.1.1" : "2015-03-05T17:19:39.368Z",
+    "4.0.2" : "2016-12-04T05:38:13.182Z",
+    "4.2.0" : "2016-12-04T20:12:12.333Z",
+    "4.0.3" : "2016-12-04T05:56:32.120Z",
+    "4.2.1" : "2017-03-04T14:09:00.472Z",
+    "4.0.0" : "2016-12-04T00:46:38.983Z",
+    "4.0.1" : "2016-12-04T01:21:02.883Z",
+    "4.0.4" : "2016-12-04T06:54:25.245Z",
+    "3.0.0" : "2016-12-02T23:30:29.307Z",
+    "3.2.0" : "2016-12-03T19:31:11.165Z",
+    "3.4.0" : "2016-12-04T00:39:58.691Z",
+    "2.0.0" : "2015-10-03T20:36:43.750Z",
+    "2.0.1" : "2015-10-03T20:56:34.699Z",
+    "2.0.6" : "2016-01-19T23:18:30.950Z",
+    "2.0.4" : "2016-01-14T06:50:03.933Z",
+    "2.0.5" : "2016-01-14T06:59:23.497Z",
+    "2.0.2" : "2015-10-03T22:58:44.305Z",
+    "2.0.3" : "2015-11-24T13:59:09.905Z",
+    "1.4.0" : "2015-03-22T05:59:49.920Z",
+    "1.6.0" : "2015-04-02T06:31:38.556Z",
+    "1.6.1" : "2015-04-02T07:48:31.380Z",
+    "1.8.0" : "2015-06-22T13:59:06.322Z",
+    "5.1.0" : "2017-11-03T05:55:04.210Z",
+    "5.1.1" : "2018-11-07T02:02:25.938Z",
+    "5.1.2" : "2018-11-07T02:04:55.963Z",
+    "1.0.0" : "2015-02-10T09:34:51.208Z",
+    "5.1.3" : "2018-11-11T00:18:56.399Z",
+    "1.0.1" : "2015-03-04T21:10:19.824Z",
+    "1.0.2" : "2015-03-04T21:41:18.650Z",
+    "1.2.0" : "2015-03-21T08:09:56.553Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/ahmadnassri/node-har-validator.git"
+  },
+  "users" : {
+    "neodon1014" : true,
+    "ahmadnassri" : true,
+    "mojaray2k" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/ahmadnassri/node-har-validator",
+  "keywords" : [ "har", "cli", "ajv", "http", "archive", "validate", "validator" ],
+  "bugs" : {
+    "url" : "https://github.com/ahmadnassri/node-har-validator/issues"
+  },
+  "license" : "MIT"
+}

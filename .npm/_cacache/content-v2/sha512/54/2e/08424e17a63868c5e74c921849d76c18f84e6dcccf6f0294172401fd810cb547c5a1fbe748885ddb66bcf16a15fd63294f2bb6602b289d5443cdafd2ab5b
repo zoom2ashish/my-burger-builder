@@ -1,0 +1,294 @@
+{
+  "_id" : "arity-n",
+  "_rev" : "10-abf8d034e554998d94b65aaae376af0b",
+  "name" : "arity-n",
+  "description" : "Wraps a function with a function of a sertain arity.",
+  "dist-tags" : {
+    "latest" : "1.0.4"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "arity-n",
+      "description" : "Wraps a function with a function of a sertain arity.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "stoeffel"
+      },
+      "homepage" : "http://github.com/stoeffel/arityN",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/stoeffel/arityN"
+      },
+      "bugs" : {
+        "url" : "http://github.com/stoeffel/arityN/issues"
+      },
+      "main" : "N.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/arity-n/-/arity-n-1.0.3.tgz",
+        "shasum" : "36e4552df230e230748e01c118fe6a51c19b9dd6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expect.js" : "^0.3.1",
+        "mocha" : "^2.1.0",
+        "mocha-traceur" : "^2.1.0",
+        "sinon" : "^1.12.2"
+      },
+      "keywords" : [ "function", "arity", "functional" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter nyan --compilers js:mocha-traceur"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.10",
+      "_npmUser" : {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      },
+      "_id" : "arity-n@1.0.3",
+      "gitHead" : "f7c9f966a66b14cea67e60d2711288c5eb5665fc",
+      "_shasum" : "36e4552df230e230748e01c118fe6a51c19b9dd6",
+      "_nodeVersion" : "0.10.25"
+    },
+    "1.0.4" : {
+      "name" : "arity-n",
+      "description" : "Wraps a function with a function of a sertain arity.",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "stoeffel"
+      },
+      "homepage" : "http://github.com/stoeffel/arityN",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/stoeffel/arityN"
+      },
+      "bugs" : {
+        "url" : "http://github.com/stoeffel/arityN/issues"
+      },
+      "main" : "N.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/arity-n/-/arity-n-1.0.4.tgz",
+        "shasum" : "d9e76b11733e08569c0847ae7b39b2860b30b745"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expect.js" : "^0.3.1",
+        "mocha" : "^2.1.0",
+        "mocha-traceur" : "^2.1.0",
+        "sinon" : "^1.12.2"
+      },
+      "keywords" : [ "function", "arity", "functional" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter nyan --compilers js:mocha-traceur"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      },
+      "_id" : "arity-n@1.0.4",
+      "gitHead" : "93af9572802f7df31de464921c5c9f32ab0c70c0",
+      "_shasum" : "d9e76b11733e08569c0847ae7b39b2860b30b745",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.0.0" : {
+      "name" : "arity-n",
+      "description" : "Wraps a function with a function of a sertain arity.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "stoeffel"
+      },
+      "homepage" : "http://github.com/stoeffel/arityN",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/stoeffel/arityN"
+      },
+      "bugs" : {
+        "url" : "http://github.com/stoeffel/arityN/issues"
+      },
+      "main" : "N.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/arity-n/-/arity-n-1.0.0.tgz",
+        "shasum" : "a4126ecb5484995bb24641385cfc82ac936e8b4b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expect.js" : "^0.3.1",
+        "mocha" : "^2.1.0",
+        "mocha-traceur" : "^2.1.0",
+        "sinon" : "^1.12.2"
+      },
+      "keywords" : [ "function", "arity", "functional" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter nyan --compilers js:mocha-traceur"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.10",
+      "_npmUser" : {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      },
+      "_id" : "arity-n@1.0.0",
+      "gitHead" : "b5a9fc0fc9d3b6610570bacc0180bc072483990a",
+      "_shasum" : "a4126ecb5484995bb24641385cfc82ac936e8b4b",
+      "_nodeVersion" : "0.10.25"
+    },
+    "1.0.1" : {
+      "name" : "arity-n",
+      "description" : "Wraps a function with a function of a sertain arity.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "stoeffel"
+      },
+      "homepage" : "http://github.com/stoeffel/arityN",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/stoeffel/arityN"
+      },
+      "bugs" : {
+        "url" : "http://github.com/stoeffel/arityN/issues"
+      },
+      "main" : "N.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/arity-n/-/arity-n-1.0.1.tgz",
+        "shasum" : "86aa0f785f3285d4475ef3bab0cdd0d987e1ff79"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expect.js" : "^0.3.1",
+        "mocha" : "^2.1.0",
+        "mocha-traceur" : "^2.1.0",
+        "sinon" : "^1.12.2"
+      },
+      "keywords" : [ "function", "arity", "functional" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter nyan --compilers js:mocha-traceur"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.10",
+      "_npmUser" : {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      },
+      "_id" : "arity-n@1.0.1",
+      "gitHead" : "f8188f05afdb9825ef30f6b0f3ea6e0bb5cdb285",
+      "_shasum" : "86aa0f785f3285d4475ef3bab0cdd0d987e1ff79",
+      "_nodeVersion" : "0.10.25"
+    },
+    "1.0.2" : {
+      "name" : "arity-n",
+      "description" : "Wraps a function with a function of a sertain arity.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "stoeffel"
+      },
+      "homepage" : "http://github.com/stoeffel/arityN",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/stoeffel/arityN"
+      },
+      "bugs" : {
+        "url" : "http://github.com/stoeffel/arityN/issues"
+      },
+      "main" : "N.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/arity-n/-/arity-n-1.0.2.tgz",
+        "shasum" : "6285b6fe52c5afe43a38405b537f9aa4b9129680"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expect.js" : "^0.3.1",
+        "mocha" : "^2.1.0",
+        "mocha-traceur" : "^2.1.0",
+        "sinon" : "^1.12.2"
+      },
+      "keywords" : [ "function", "arity", "functional" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter nyan --compilers js:mocha-traceur"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.10",
+      "_npmUser" : {
+        "name" : "schtoeffel",
+        "email" : "schtoeffel@gmail.com"
+      },
+      "_id" : "arity-n@1.0.2",
+      "gitHead" : "00b7abf529ffaf314f8c010b19f6309d2f371526",
+      "_shasum" : "6285b6fe52c5afe43a38405b537f9aa4b9129680",
+      "_nodeVersion" : "0.10.25"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "arity-n\n============\n[![Build Status](https://travis-ci.org/stoeffel/arityN.svg)](https://travis-ci.org/stoeffel/arityN) [![npm version](https://badge.fury.io/js/arity-n.svg)](http://badge.fury.io/js/arity-n)\n> Wraps a function with a function of a sertain arity.\n\nInstallation\n------------\n\n`npm install arity-n`\n\nUsage\n-----\n\n```js\nfunction fn(a, b, c, d) {\n}\n\nvar arityN = require('arity-n');\nvar newFn = arityN(fn, 3);\n\nnewFn.length; // => 3\n\nvar arity4 = require('arity-n/4');\nvar newFn = arity4(fn);\n\nnewFn.length; // => 4\n\n// Max arity is 5.\nvar newFn = arityN(fn, 7);\n\nnewFn.length; // => 4\n```\n",
+  "maintainers" : [ {
+    "name" : "schtoeffel",
+    "email" : "schtoeffel@gmail.com"
+  } ],
+  "author" : {
+    "name" : "stoeffel"
+  },
+  "time" : {
+    "1.0.3" : "2015-01-20T14:57:08.143Z",
+    "1.0.4" : "2015-04-07T15:11:29.915Z",
+    "created" : "2015-01-20T11:47:28.788Z",
+    "modified" : "2015-04-07T15:11:29.915Z",
+    "1.0.0" : "2015-01-20T11:47:28.788Z",
+    "1.0.1" : "2015-01-20T14:25:30.699Z",
+    "1.0.2" : "2015-01-20T14:29:48.446Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/stoeffel/arityN"
+  },
+  "users" : {
+    "schtoeffel" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "http://github.com/stoeffel/arityN",
+  "keywords" : [ "function", "arity", "functional" ],
+  "bugs" : {
+    "url" : "http://github.com/stoeffel/arityN/issues"
+  },
+  "license" : "MIT"
+}

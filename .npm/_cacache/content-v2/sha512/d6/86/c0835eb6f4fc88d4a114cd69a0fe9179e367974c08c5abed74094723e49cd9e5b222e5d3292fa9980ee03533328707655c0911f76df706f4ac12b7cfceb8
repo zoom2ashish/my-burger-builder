@@ -1,0 +1,2122 @@
+{
+  "_id" : "@babel/helper-wrap-function",
+  "_rev" : "68-83bcbb040cae0e97c0f2f59662b2d1cb",
+  "name" : "@babel/helper-wrap-function",
+  "description" : "Helper to wrap functions inside a function call.",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.0.0-rc.1" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-rc.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-rc.1.tgz",
+        "shasum" : "168454fe350e9ead8d91cdc581597ea506e951ff"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-rc.1",
+        "@babel/template" : "7.0.0-rc.1",
+        "@babel/traverse" : "7.0.0-rc.1",
+        "@babel/types" : "7.0.0-rc.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-rc.1_1533845390400_0.11489005220348414"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-rc.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-rc.2.tgz",
+        "shasum" : "788cd70072254eefd33fc1f3936ba24cced28f48"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-rc.2",
+        "@babel/template" : "7.0.0-rc.2",
+        "@babel/traverse" : "7.0.0-rc.2",
+        "@babel/types" : "7.0.0-rc.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-rc.2_1534879557256_0.6666323324636778"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-rc.0.tgz",
+        "shasum" : "1ddbc6fbbd42c7be6ada820cf57210a082247020"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-rc.0",
+        "@babel/template" : "7.0.0-rc.0",
+        "@babel/traverse" : "7.0.0-rc.0",
+        "@babel/types" : "7.0.0-rc.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-rc.0_1533830400018_0.8479232427037231"
+      }
+    },
+    "7.0.0-beta.39" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.39",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.39.tgz",
+        "shasum" : "ef4e6ef66791276351b6609545394900552b35c9"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.39",
+        "@babel/template" : "7.0.0-beta.39",
+        "@babel/traverse" : "7.0.0-beta.39",
+        "@babel/types" : "7.0.0-beta.39"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.39",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.39.tgz_1517344124784_0.5434241418261081"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.38" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.38",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.38.tgz",
+        "shasum" : "91605a09a193cf6939489f7fc066a353876ee506"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.38",
+        "@babel/template" : "7.0.0-beta.38",
+        "@babel/traverse" : "7.0.0-beta.38",
+        "@babel/types" : "7.0.0-beta.38"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.38",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.38.tgz_1516206760925_0.1953359383624047"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-rc.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-rc.3.tgz",
+        "shasum" : "3abcc29bc93c46d61125f994d8667e297f7081fa"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-rc.3",
+        "@babel/template" : "7.0.0-rc.3",
+        "@babel/traverse" : "7.0.0-rc.3",
+        "@babel/types" : "7.0.0-rc.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-rc.3_1535134181642_0.09159918794823296"
+      }
+    },
+    "7.0.0-beta.37" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.37",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.37.tgz",
+        "shasum" : "2a20694049099ea6a1762db46ee3817bd1f63256"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.37",
+        "@babel/template" : "7.0.0-beta.37",
+        "@babel/traverse" : "7.0.0-beta.37",
+        "@babel/types" : "7.0.0-beta.37"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.37",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.37.tgz_1515427422041_0.20266656717285514"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-rc.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-rc.4.tgz",
+        "shasum" : "cd2412af3019224af3ff815510a728810946f9ac"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.0.0-rc.4",
+        "@babel/template" : "^7.0.0-rc.4",
+        "@babel/traverse" : "^7.0.0-rc.4",
+        "@babel/types" : "^7.0.0-rc.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-rc.4_1535388383448_0.6070244878980005"
+      }
+    },
+    "7.0.0-beta.5" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.5.tgz",
+        "shasum" : "d112785a59ea172126cd88bbeb24bf8d72876118"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.5",
+        "@babel/template" : "7.0.0-beta.5",
+        "@babel/traverse" : "7.0.0-beta.5",
+        "@babel/types" : "7.0.0-beta.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.5.tgz_1509397075832_0.719653429929167"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.4" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.4.tgz",
+        "shasum" : "b86ac1ea24e79f1703f3ccdbf20be84fb863109a"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.4",
+        "@babel/template" : "7.0.0-beta.4",
+        "@babel/traverse" : "7.0.0-beta.4",
+        "@babel/types" : "7.0.0-beta.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.4.tgz_1509388579180_0.9470404665917158"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.32" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.32",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.32.tgz",
+        "shasum" : "d4e2bec8849d4afd6450a26314f6a03d3b2918fa"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.32",
+        "@babel/template" : "7.0.0-beta.32",
+        "@babel/traverse" : "7.0.0-beta.32",
+        "@babel/types" : "7.0.0-beta.32"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.32",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.32.tgz_1510493641344_0.8954907529987395"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.54",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.54.tgz",
+        "shasum" : "dc1b7a483a3074a3531b36523e03156d910a3a2a"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.54",
+        "@babel/template" : "7.0.0-beta.54",
+        "@babel/traverse" : "7.0.0-beta.54",
+        "@babel/types" : "7.0.0-beta.54"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.54_1531764027851_0.7495144105793474"
+      }
+    },
+    "7.0.0-beta.31" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.31",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.31.tgz",
+        "shasum" : "86b39a952250ce2cf930449e312a0a941a81e7d4"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.31",
+        "@babel/template" : "7.0.0-beta.31",
+        "@babel/traverse" : "7.0.0-beta.31",
+        "@babel/types" : "7.0.0-beta.31"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.31",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.31.tgz_1509739470822_0.9344100244343281"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.53",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.53.tgz",
+        "shasum" : "abfb2bfa9401042bab257c0190f5ad6db8df15d5"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.53",
+        "@babel/template" : "7.0.0-beta.53",
+        "@babel/traverse" : "7.0.0-beta.53",
+        "@babel/types" : "7.0.0-beta.53"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.53_1531316446133_0.6603088121579122"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.52",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.52.tgz",
+        "shasum" : "36148e93176299c28a1d2befdb8fe1cc3b79b4b4"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.52",
+        "@babel/template" : "7.0.0-beta.52",
+        "@babel/traverse" : "7.0.0-beta.52",
+        "@babel/types" : "7.0.0-beta.52"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.52_1530838786784_0.351100390217177"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.51",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.51.tgz",
+        "shasum" : "6c516fb044109964ee031c22500a830313862fb1"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.51",
+        "@babel/template" : "7.0.0-beta.51",
+        "@babel/traverse" : "7.0.0-beta.51",
+        "@babel/types" : "7.0.0-beta.51"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.51_1528838441677_0.6962002328726471"
+      }
+    },
+    "7.0.0-beta.36" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.36",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.36.tgz",
+        "shasum" : "775073e4a60d4c01569a9950cb88b02bf359cbdd"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.36",
+        "@babel/template" : "7.0.0-beta.36",
+        "@babel/traverse" : "7.0.0-beta.36",
+        "@babel/types" : "7.0.0-beta.36"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "james@henry.sc",
+        "name" : "jameshenry"
+      }, {
+        "email" : "kent@doddsfamily.us",
+        "name" : "kentcdodds"
+      }, {
+        "email" : "kaicataldo@gmail.com",
+        "name" : "kaicataldo"
+      }, {
+        "email" : "teddy.katz@gmail.com",
+        "name" : "not-an-aardvark"
+      }, {
+        "email" : "star.ctor@gmail.com",
+        "name" : "mysticatea"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.36",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.36.tgz_1514228737951_0.12865077052265406"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.35" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.35",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.35.tgz",
+        "shasum" : "2fb82e91842e0bbdc67fc60babf156b6fa781239"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.35",
+        "@babel/template" : "7.0.0-beta.35",
+        "@babel/traverse" : "7.0.0-beta.35",
+        "@babel/types" : "7.0.0-beta.35"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.35",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.35.tgz_1513288107011_0.4555666777305305"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.34" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.34",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.34.tgz",
+        "shasum" : "dd17517c73c3ded126d295d848af93aa3ca8f316"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.34",
+        "@babel/template" : "7.0.0-beta.34",
+        "@babel/traverse" : "7.0.0-beta.34",
+        "@babel/types" : "7.0.0-beta.34"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.34",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.34.tgz_1512225616721_0.67206159979105"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.56",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.56.tgz",
+        "shasum" : "e493eff444f161569c2c0091a7bd60670fc03d8d"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.56",
+        "@babel/template" : "7.0.0-beta.56",
+        "@babel/traverse" : "7.0.0-beta.56",
+        "@babel/types" : "7.0.0-beta.56"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.56_1533344919182_0.0644554488150626"
+      }
+    },
+    "7.0.0-beta.33" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.33",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.33.tgz",
+        "shasum" : "a275e8ed7fe4053c01b4e3bfa7c8d776fbbc8a01"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.33",
+        "@babel/template" : "7.0.0-beta.33",
+        "@babel/traverse" : "7.0.0-beta.33",
+        "@babel/types" : "7.0.0-beta.33"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.33",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function-7.0.0-beta.33.tgz_1512138557819_0.19819519063457847"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.55",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.55.tgz",
+        "shasum" : "3053e77647057b29b88d9625503e033b1bd349b4"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.55",
+        "@babel/template" : "7.0.0-beta.55",
+        "@babel/traverse" : "7.0.0-beta.55",
+        "@babel/types" : "7.0.0-beta.55"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.55_1532815672859_0.6045579730347383"
+      }
+    },
+    "7.7.4" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.7.4.tgz",
+        "shasum" : "37ab7fed5150e22d9d7266e830072c0cdd8baace"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.7.4",
+        "@babel/template" : "^7.7.4",
+        "@babel/traverse" : "^7.7.4",
+        "@babel/types" : "^7.7.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.7.4_1574465626754_0.13904806469489572"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.8.3.tgz",
+        "shasum" : "9dbdb2bb55ef14aaa01fe8c99b629bd5352d8610"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.8.3",
+        "@babel/template" : "^7.8.3",
+        "@babel/traverse" : "^7.8.3",
+        "@babel/types" : "^7.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.8.3_1578951741687_0.35122618794854565"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.50",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.50.tgz",
+        "shasum" : "e1674899aba9c76ae89f8a339f4725c413051000"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.50",
+        "@babel/template" : "7.0.0-beta.50",
+        "@babel/traverse" : "7.0.0-beta.50",
+        "@babel/types" : "7.0.0-beta.50"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.50_1528832882917_0.8048305715142401"
+      }
+    },
+    "7.7.0" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.7.0.tgz",
+        "shasum" : "15af3d3e98f8417a60554acbb6c14e75e0b33b74"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.7.0",
+        "@babel/template" : "^7.7.0",
+        "@babel/traverse" : "^7.7.0",
+        "@babel/types" : "^7.7.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v13.0.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.7.0",
+      "gitHead" : "97faa83953cb87e332554fa559a4956d202343ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.7.0_1572951235769_0.07059195410270225"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "7.8.0" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.8.0.tgz",
+        "shasum" : "a26751c7b0be765a0db10162c6de485402cb505c"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.8.0",
+        "@babel/template" : "^7.8.0",
+        "@babel/traverse" : "^7.8.0",
+        "@babel/types" : "^7.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.8.0_1578788251653_0.6441012569482674"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.1.0" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.1.0.tgz",
+        "shasum" : "8cf54e9190706067f016af8f75cb3df829cc8c66"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/template" : "^7.1.0",
+        "@babel/traverse" : "^7.1.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.1.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.1.0_1537212662473_0.1906905865338342"
+      }
+    },
+    "7.2.0" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.2.0.tgz",
+        "shasum" : "c4e0012445769e2815b55296ead43a958549f6fa"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.1.0",
+        "@babel/template" : "^7.1.0",
+        "@babel/traverse" : "^7.1.0",
+        "@babel/types" : "^7.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.2.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.2.0_1543863736565_0.7028420696434907"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0.tgz",
+        "shasum" : "1c8e42a2cfb0808e3140189dfe9490782a6fa740"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "^7.0.0",
+        "@babel/template" : "^7.0.0",
+        "@babel/traverse" : "^7.0.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0_1535406293209_0.3244954913551148"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/helper-wrap-function\n\n> Helper to wrap functions inside a function call.\n\nSee our website [@babel/helper-wrap-function](https://babeljs.io/docs/en/next/babel-helper-wrap-function.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-wrap-function\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-wrap-function --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.49",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.49.tgz",
+        "shasum" : "385591460b4d93ef96ee3819539c0cdc9bbd4758"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.49",
+        "@babel/template" : "7.0.0-beta.49",
+        "@babel/traverse" : "7.0.0-beta.49",
+        "@babel/types" : "7.0.0-beta.49"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.49_1527264271767_0.5559174883169997"
+      },
+      "_shasum" : "385591460b4d93ef96ee3819539c0cdc9bbd4758",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.48",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.48.tgz",
+        "shasum" : "bdb1d7ff2c4f18afec9efec7e33bb255e1668537"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.48",
+        "@babel/template" : "7.0.0-beta.48",
+        "@babel/traverse" : "7.0.0-beta.48",
+        "@babel/types" : "7.0.0-beta.48"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.48_1527189884183_0.13677443565267677"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.43",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.43.tgz",
+        "shasum" : "37aa889550144ea7b7f5dbdc4a74c843bb06069a"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.43",
+        "@babel/template" : "7.0.0-beta.43",
+        "@babel/traverse" : "7.0.0-beta.43",
+        "@babel/types" : "7.0.0-beta.43"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.43",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.43_1522687737132_0.4199225390260477"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.42",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.42.tgz",
+        "shasum" : "5ffc6576902aa2a10fe6666e063bd45029c36db3"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.42",
+        "@babel/template" : "7.0.0-beta.42",
+        "@babel/traverse" : "7.0.0-beta.42",
+        "@babel/types" : "7.0.0-beta.42"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.42",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.42_1521147127369_0.15149309391638366"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.41",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.41.tgz",
+        "shasum" : "3f10b9f23de4fa9619af2ce65f666a037ee0fd43"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.41",
+        "@babel/template" : "7.0.0-beta.41",
+        "@babel/traverse" : "7.0.0-beta.41",
+        "@babel/types" : "7.0.0-beta.41"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.41",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.41_1521044814326_0.7308245340234989"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.40" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.40",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.40.tgz",
+        "shasum" : "4db4630cdaf4fd47fa2c45b5b7a9ecc33ff3f2be"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.40",
+        "@babel/template" : "7.0.0-beta.40",
+        "@babel/traverse" : "7.0.0-beta.40",
+        "@babel/types" : "7.0.0-beta.40"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.40",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.40_1518453765294_0.27723242260980885"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.47",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.47.tgz",
+        "shasum" : "6528b44a3ccb4f3aeeb79add0a88192f7eb81161"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.47",
+        "@babel/template" : "7.0.0-beta.47",
+        "@babel/traverse" : "7.0.0-beta.47",
+        "@babel/types" : "7.0.0-beta.47"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.47",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.47_1526343472278_0.11805058041520766"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.46",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.46.tgz",
+        "shasum" : "d0fb836516d8a38ab80df1b434e4b76015be9035"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.46",
+        "@babel/template" : "7.0.0-beta.46",
+        "@babel/traverse" : "7.0.0-beta.46",
+        "@babel/types" : "7.0.0-beta.46"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.46_1524457970074_0.6763302483355711"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.45",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.45.tgz",
+        "shasum" : "f84d46b29eb0358aae84b715978c938c2f39e478"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.45",
+        "@babel/template" : "7.0.0-beta.45",
+        "@babel/traverse" : "7.0.0-beta.45",
+        "@babel/types" : "7.0.0-beta.45"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.45_1524448709316_0.18964601786645674"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/helper-wrap-function",
+      "description" : "Helper to wrap functions inside a function call.",
+      "version" : "7.0.0-beta.44",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/helper-wrap-function/-/helper-wrap-function-7.0.0-beta.44.tgz",
+        "shasum" : "d128718a543f313264dff7cb386957e3e465c95d"
+      },
+      "dependencies" : {
+        "@babel/helper-function-name" : "7.0.0-beta.44",
+        "@babel/template" : "7.0.0-beta.44",
+        "@babel/traverse" : "7.0.0-beta.44",
+        "@babel/types" : "7.0.0-beta.44"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/helper-wrap-function@7.0.0-beta.44",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-wrap-function_7.0.0-beta.44_1522707637761_0.8115006221873469"
+      },
+      "_nodeVersion" : "8.10.0"
+    }
+  },
+  "readme" : "# @babel/helper-wrap-function\n\n> Helper to wrap functions inside a function call.\n\nSee our website [@babel/helper-wrap-function](https://babeljs.io/docs/en/next/babel-helper-wrap-function.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/helper-wrap-function\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/helper-wrap-function --dev\n```\n",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "time" : {
+    "7.0.0-rc.1" : "2018-08-09T20:09:50.475Z",
+    "7.0.0-rc.2" : "2018-08-21T19:25:57.347Z",
+    "7.0.0-rc.0" : "2018-08-09T16:00:00.200Z",
+    "7.0.0-beta.39" : "2018-01-30T20:28:44.837Z",
+    "7.0.0-beta.38" : "2018-01-17T16:32:40.977Z",
+    "7.0.0-rc.3" : "2018-08-24T18:09:41.753Z",
+    "7.0.0-beta.37" : "2018-01-08T16:03:43.070Z",
+    "7.0.0-rc.4" : "2018-08-27T16:46:23.573Z",
+    "7.0.0-beta.5" : "2017-10-30T20:57:55.895Z",
+    "7.0.0-beta.4" : "2017-10-30T18:36:19.235Z",
+    "7.0.0-beta.32" : "2017-11-12T13:34:02.253Z",
+    "7.0.0-beta.54" : "2018-07-16T18:00:27.911Z",
+    "7.0.0-beta.31" : "2017-11-03T20:04:30.947Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:46.220Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:46.887Z",
+    "7.0.0-beta.51" : "2018-06-12T21:20:41.791Z",
+    "7.0.0-beta.36" : "2017-12-25T19:05:38.851Z",
+    "7.0.0-beta.35" : "2017-12-14T21:48:27.130Z",
+    "7.0.0-beta.34" : "2017-12-02T14:40:17.573Z",
+    "7.0.0-beta.56" : "2018-08-04T01:08:39.265Z",
+    "7.0.0-beta.33" : "2017-12-01T14:29:18.671Z",
+    "7.0.0-beta.55" : "2018-07-28T22:07:52.967Z",
+    "modified" : "2020-01-13T21:42:29.154Z",
+    "7.7.4" : "2019-11-22T23:33:46.858Z",
+    "7.8.3" : "2020-01-13T21:42:21.798Z",
+    "7.0.0-beta.50" : "2018-06-12T19:48:03.015Z",
+    "7.7.0" : "2019-11-05T10:53:55.945Z",
+    "7.8.0" : "2020-01-12T00:17:31.797Z",
+    "7.1.0" : "2018-09-17T19:31:02.623Z",
+    "7.2.0" : "2018-12-03T19:02:16.685Z",
+    "created" : "2017-10-30T18:36:19.235Z",
+    "7.0.0" : "2018-08-27T21:44:53.274Z",
+    "7.0.0-beta.49" : "2018-05-25T16:04:31.843Z",
+    "7.0.0-beta.48" : "2018-05-24T19:24:44.228Z",
+    "7.0.0-beta.43" : "2018-04-02T16:48:57.198Z",
+    "7.0.0-beta.42" : "2018-03-15T20:52:07.423Z",
+    "7.0.0-beta.41" : "2018-03-14T16:26:54.425Z",
+    "7.0.0-beta.40" : "2018-02-12T16:42:45.335Z",
+    "7.0.0-beta.47" : "2018-05-15T00:17:52.356Z",
+    "7.0.0-beta.46" : "2018-04-23T04:32:50.144Z",
+    "7.0.0-beta.45" : "2018-04-23T01:58:29.584Z",
+    "7.0.0-beta.44" : "2018-04-02T22:20:37.861Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-helper-wrap-function"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

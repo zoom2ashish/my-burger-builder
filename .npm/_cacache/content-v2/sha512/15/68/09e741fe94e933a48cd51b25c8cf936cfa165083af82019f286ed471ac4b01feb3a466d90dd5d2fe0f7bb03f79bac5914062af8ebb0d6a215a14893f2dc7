@@ -1,0 +1,1165 @@
+{
+  "_id" : "optimize-css-assets-webpack-plugin",
+  "_rev" : "44-69039c9ce407cbd4c69278e8e9167c11",
+  "name" : "optimize-css-assets-webpack-plugin",
+  "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+  "dist-tags" : {
+    "latest" : "5.0.3"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-2.0.0.tgz",
+        "shasum" : "51cae71230ec91a4c157649715e47498e0cb460b"
+      },
+      "dependencies" : {
+        "underscore" : "^1.8.3",
+        "webpack-sources" : "^0.1.0"
+      },
+      "peerDependencies" : {
+        "cssnano" : ">=3.4.0"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@2.0.0",
+      "gitHead" : "3b217bc3ca1012003d8626cb7c530179fbf72569",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin-2.0.0.tgz_1496501528981_0.033823781879618764"
+      },
+      "_shasum" : "51cae71230ec91a4c157649715e47498e0cb460b",
+      "_nodeVersion" : "7.7.2"
+    },
+    "4.0.2" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-4.0.2.tgz",
+        "shasum" : "813d511d20fe5d9a605458441ed97074d79c1122"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.10.0",
+        "last-call-webpack-plugin" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.0",
+        "babel-jest" : "^22.1.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.26.0",
+        "babel-polyfill" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "css-loader" : "^0.28.9",
+        "extract-text-webpack-plugin" : "next",
+        "jest" : "^22.1.4",
+        "style-loader" : "^0.20.1",
+        "webpack" : "^4.9.1"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "CSS", "duplicate", "extract-text-webpack-plugin", "minimize", "optimize", "remove", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "test:watch" : "jest --watch"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@4.0.2",
+      "gitHead" : "14c9344bb271edd3a1b77de1592d5d128392b4cb",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_4.0.2_1527441303384_0.9292431172507574"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "watchPathIgnorePatterns" : [ "<rootDir>/test/js/*.*" ]
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "4.0.3" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-4.0.3.tgz",
+        "shasum" : "4f714e276b279700892c4a6202b7e22812d6f683"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.10.0",
+        "last-call-webpack-plugin" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.0",
+        "babel-jest" : "^22.1.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.26.0",
+        "babel-polyfill" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "css-loader" : "^0.28.9",
+        "extract-text-webpack-plugin" : "next",
+        "jest" : "^22.1.4",
+        "style-loader" : "^0.20.1",
+        "webpack" : "^4.9.1"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "CSS", "duplicate", "extract-text-webpack-plugin", "minimize", "optimize", "remove", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "test:watch" : "jest --watch"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@4.0.3",
+      "gitHead" : "b32b271d9d36f08ad2edea2a31f600ccaaf43296",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_4.0.3_1530008234273_0.24538032286209166"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "watchPathIgnorePatterns" : [ "<rootDir>/test/js/*.*" ]
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "4.0.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-4.0.0.tgz",
+        "shasum" : "d5f80041fb1391b358a1f35273c3b53de814e8fe"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "last-call-webpack-plugin" : "^3.0.0"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@4.0.0",
+      "gitHead" : "929ddf01aafc935836d3bad4717bd672ba737dce",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_4.0.0_1520197813415_0.6385017856088262"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "4.0.1" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-4.0.1.tgz",
+        "shasum" : "48f016766752c7648b92cc1e795b999732bd87a2"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "last-call-webpack-plugin" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.0",
+        "babel-jest" : "^22.1.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.26.0",
+        "babel-polyfill" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "css-loader" : "^0.28.9",
+        "extract-text-webpack-plugin" : "next",
+        "jest" : "^22.1.4",
+        "style-loader" : "^0.20.1",
+        "webpack" : "^4.0.0"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "CSS", "duplicate", "extract-text-webpack-plugin", "minimize", "optimize", "remove", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "test:watch" : "jest --watch"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@4.0.1",
+      "gitHead" : "cd2bc1167202020722c72a6895cc55b6f2f3cbb7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_4.0.1_1525193861235_0.5735837529417129"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "watchPathIgnorePatterns" : [ "<rootDir>/test/js/*.*" ]
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.3.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.0.tgz",
+        "shasum" : "331b3dc7ac0b2b3597f68d18fd555f5a0c81b15c"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "underscore" : "^1.8.3",
+        "webpack-sources" : "^0.1.0"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@1.3.0",
+      "gitHead" : "7d61e811d2b41523b3cd22a5d839db739fc48930",
+      "_shasum" : "331b3dc7ac0b2b3597f68d18fd555f5a0c81b15c",
+      "_nodeVersion" : "4.1.1"
+    },
+    "1.3.1" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.1.tgz",
+        "shasum" : "e2f198cdf63fe92ac2e3e321f1ade8faf1b59179"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "underscore" : "^1.8.3",
+        "webpack-sources" : "^0.1.0"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@1.3.1",
+      "gitHead" : "b10d67d60d3cf3cf79a7d1b30d2e7b00d1608767",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin-1.3.1.tgz_1492292505073_0.01838320796377957"
+      },
+      "_shasum" : "e2f198cdf63fe92ac2e3e321f1ade8faf1b59179",
+      "_nodeVersion" : "7.7.2"
+    },
+    "1.3.2" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.3.2.tgz",
+        "shasum" : "eb27456e21eefbd8080f31e8368c59684e585a2c"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "underscore" : "^1.8.3",
+        "webpack-sources" : "^0.1.0"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@1.3.2",
+      "gitHead" : "b5afe3b2bc7fd4720219ca2bf7b31d7b6d03dfef",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin-1.3.2.tgz_1495185315691_0.35552119347266853"
+      },
+      "_shasum" : "eb27456e21eefbd8080f31e8368c59684e585a2c",
+      "_nodeVersion" : "7.7.2"
+    },
+    "3.0.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-3.0.0.tgz",
+        "shasum" : "03d4ce02e91ba3f2a7905507dc6be5f90b4158fd"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "last-call-webpack-plugin" : "^2.0.1"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@3.0.0",
+      "gitHead" : "112a839210e877b6690baac1f5b91075441d0053",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin-3.0.0.tgz_1500842692336_0.08624422526918352"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "5.0.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-5.0.0.tgz",
+        "shasum" : "8c9adf00e841871f627f82a8097a4f9fcc314de4"
+      },
+      "dependencies" : {
+        "cssnano" : "^4.0.2",
+        "last-call-webpack-plugin" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.0",
+        "babel-jest" : "^22.1.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.26.0",
+        "babel-polyfill" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "css-loader" : "^0.28.9",
+        "extract-text-webpack-plugin" : "next",
+        "jest" : "^22.1.4",
+        "style-loader" : "^0.20.1",
+        "webpack" : "^4.9.1"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "CSS", "duplicate", "extract-text-webpack-plugin", "minimize", "optimize", "remove", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "test:watch" : "jest --watch"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@5.0.0",
+      "gitHead" : "c8c1356c1aa7146db06949acce9b2cd72f070c5a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_5.0.0_1531669677103_0.21925290727003044"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "watchPathIgnorePatterns" : [ "<rootDir>/test/js/*.*" ]
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "5.0.1" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-5.0.1.tgz",
+        "shasum" : "9eb500711d35165b45e7fd60ba2df40cb3eb9159"
+      },
+      "dependencies" : {
+        "cssnano" : "^4.1.0",
+        "last-call-webpack-plugin" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.0",
+        "babel-jest" : "^22.1.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.26.0",
+        "babel-polyfill" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "css-loader" : "^0.28.9",
+        "extract-text-webpack-plugin" : "next",
+        "jest" : "^22.1.4",
+        "style-loader" : "^0.20.1",
+        "webpack" : "^4.9.1"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "CSS", "duplicate", "extract-text-webpack-plugin", "minimize", "optimize", "remove", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "test:watch" : "jest --watch"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@5.0.1",
+      "gitHead" : "ff3d469e1496eb39f26d9f9b3d264703fa1cfe59",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_5.0.1_1535533255455_0.17158038288407895"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "watchPathIgnorePatterns" : [ "<rootDir>/test/js/*.*" ]
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "5.0.2" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "5.0.2",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-5.0.2.tgz",
+        "shasum" : "483daa7ba5f7ba3d2dd4a1920641f1fc0aaa223d"
+      },
+      "dependencies" : {
+        "cssnano" : "^4.1.10",
+        "last-call-webpack-plugin" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-jest" : "^22.1.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.26.0",
+        "babel-polyfill" : "^6.26.0",
+        "babel-preset-env" : "^1.7.0",
+        "css-loader" : "^3.0.0",
+        "extract-text-webpack-plugin" : "next",
+        "jest" : "^24.8.0",
+        "style-loader" : "^0.20.1",
+        "webpack" : "^4.9.1"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "CSS", "duplicate", "extract-text-webpack-plugin", "minimize", "optimize", "remove", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "test:watch" : "jest --watch"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@5.0.2",
+      "gitHead" : "eb7de19a1ad642509076515e4b29aa8af8b6ae05",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_5.0.2_1561761116279_0.9043993839091891"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "watchPathIgnorePatterns" : [ "<rootDir>/test/js/*.*" ]
+      },
+      "_nodeVersion" : "11.10.1"
+    },
+    "3.1.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-3.1.0.tgz",
+        "shasum" : "6103c59336a0004cf122920b37dfc7d814556ddc"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "last-call-webpack-plugin" : "^2.1.1"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@3.1.0",
+      "gitHead" : "6429eccba4f1b40395536d6c834e6392aac839d7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin-3.1.0.tgz_1503093824421_0.5630270706024021"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "5.0.3" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "5.0.3",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-5.0.3.tgz",
+        "shasum" : "e2f1d4d94ad8c0af8967ebd7cf138dcb1ef14572"
+      },
+      "dependencies" : {
+        "cssnano" : "^4.1.10",
+        "last-call-webpack-plugin" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-jest" : "^22.1.0",
+        "babel-plugin-transform-object-rest-spread" : "^6.26.0",
+        "babel-polyfill" : "^6.26.0",
+        "babel-preset-env" : "^1.7.0",
+        "css-loader" : "^3.0.0",
+        "extract-text-webpack-plugin" : "next",
+        "jest" : "^24.8.0",
+        "style-loader" : "^0.20.1",
+        "webpack" : "^4.9.1"
+      },
+      "peerDependencies" : {
+        "webpack" : "^4.0.0"
+      },
+      "keywords" : [ "CSS", "duplicate", "extract-text-webpack-plugin", "minimize", "optimize", "remove", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "test:watch" : "jest --watch"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@5.0.3",
+      "gitHead" : "0a410a9bf28c7b0e81a3470a13748e68ca2f50aa",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_5.0.3_1561763751472_0.31278653151177194"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "watchPathIgnorePatterns" : [ "<rootDir>/test/js/*.*" ]
+      },
+      "_nodeVersion" : "11.10.1"
+    },
+    "1.0.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.0.0.tgz",
+        "shasum" : "cfa0ba3f26bff687f08adf1948b8b5e1eb4dae5d"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "underscore" : "^1.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@1.0.0",
+      "gitHead" : "61260f34fd4d8f3c39b9195f9e9931f2035663ce",
+      "_shasum" : "cfa0ba3f26bff687f08adf1948b8b5e1eb4dae5d",
+      "_nodeVersion" : "4.1.1"
+    },
+    "3.1.1" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-3.1.1.tgz",
+        "shasum" : "b86f255a762d9143e3db41a64a136a6b76e8c8a7"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "last-call-webpack-plugin" : "^2.1.1"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@3.1.1",
+      "gitHead" : "d57dace026ec5db309f9167d7538144bcfe40c53",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin-3.1.1.tgz_1503094235587_0.8756018318235874"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "3.2.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-3.2.0.tgz",
+        "shasum" : "09a40c4cefde1dd0142444a873c56aa29eb18e6f"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "last-call-webpack-plugin" : "^2.1.2"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@3.2.0",
+      "gitHead" : "52c0699192e81ab72b800c101e31c0085c9df70a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin-3.2.0.tgz_1505380184349_0.5731823737733066"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "1.1.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.1.0.tgz",
+        "shasum" : "4981f0ec0f7db31ae268f28558857e54b4e32d02"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "underscore" : "^1.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@1.1.0",
+      "gitHead" : "46f115edc1ce4343b458a1df5429db530ae6f912",
+      "_shasum" : "4981f0ec0f7db31ae268f28558857e54b4e32d02",
+      "_nodeVersion" : "4.1.1"
+    },
+    "3.2.1" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "3.2.1",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-3.2.1.tgz",
+        "shasum" : "9d18654a0e058c090bdd991b04bcb0f6f2486573"
+      },
+      "dependencies" : {
+        "cssnano" : "^4.1.10",
+        "last-call-webpack-plugin" : "^2.1.2"
+      },
+      "keywords" : [ "CSS", "minimize", "optimize", "webpack", "remove", "duplicate", "extract-text-webpack-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@3.2.1",
+      "gitHead" : "662dfb72e2c3a9c1a1ecdf403e2a6aa00f6c66dd",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/optimize-css-assets-webpack-plugin_3.2.1_1561763543035_0.4176385560846343"
+      },
+      "_nodeVersion" : "11.10.1"
+    },
+    "1.2.0" : {
+      "name" : "optimize-css-assets-webpack-plugin",
+      "description" : "A Webpack plugin to optimize \\ minimize CSS assets.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Nuno Rodrigues"
+      },
+      "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-1.2.0.tgz",
+        "shasum" : "55f0f4e64f23113042fdf8d2cf798576912fd311"
+      },
+      "dependencies" : {
+        "cssnano" : "^3.4.0",
+        "underscore" : "^1.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "nmfr",
+        "email" : "nunomr@gmail.com"
+      },
+      "_id" : "optimize-css-assets-webpack-plugin@1.2.0",
+      "gitHead" : "5900e0c9d151e47769f44e1b3271871155340f96",
+      "_shasum" : "55f0f4e64f23113042fdf8d2cf798576912fd311",
+      "_nodeVersion" : "4.1.1"
+    }
+  },
+  "readme" : "# Optimize CSS Assets Webpack Plugin\n\nA Webpack plugin to optimize \\ minimize CSS assets.\n\n## What does the plugin do?\n\nIt will search for CSS assets during the Webpack build and will optimize \\ minimize the CSS (by default it uses [cssnano](http://github.com/ben-eb/cssnano) but a custom CSS processor can be specified).\n\n### Solves [extract-text-webpack-plugin](http://github.com/webpack/extract-text-webpack-plugin) CSS duplication problem:\n\nSince [extract-text-webpack-plugin](http://github.com/webpack/extract-text-webpack-plugin) only bundles (merges) text chunks, if it's used to bundle CSS, the bundle might have duplicate entries (chunks can be duplicate free but when merged, duplicate CSS can be created).\n\n## Installation:\n\nUsing npm:\n```shell\n$ npm install --save-dev optimize-css-assets-webpack-plugin\n```\n\n> :warning: For webpack v3 or below please use `optimize-css-assets-webpack-plugin@3.2.0`. The `optimize-css-assets-webpack-plugin@4.0.0` version and above supports webpack v4.\n\n## Configuration:\n\nThe plugin can receive the following options (all of them are optional):\n* `assetNameRegExp`: A regular expression that indicates the names of the assets that should be optimized \\ minimized. The regular expression provided is run against the filenames of the files exported by the `ExtractTextPlugin` instances in your configuration, not the filenames of your source CSS files. Defaults to `/\\.css$/g`\n* `cssProcessor`: The CSS processor used to optimize \\ minimize the CSS, defaults to [`cssnano`](http://github.com/ben-eb/cssnano). This should be a function that follows `cssnano.process` interface (receives a CSS and options parameters and returns a Promise).\n* `cssProcessorOptions`: The options passed to the `cssProcessor`, defaults to `{}`\n* `cssProcessorPluginOptions`: The plugin options passed to the `cssProcessor`, defaults to `{}`\n* `canPrint`: A boolean indicating if the plugin can print messages to the console, defaults to `true`\n\n## Example:\n\n``` javascript\nvar OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');\nmodule.exports = {\n  module: {\n    rules: [\n      {\n        test: /\\.css$/,\n        loader: ExtractTextPlugin.extract('style-loader', 'css-loader')\n      }\n    ]\n  },\n  plugins: [\n    new ExtractTextPlugin('styles.css'),\n    new OptimizeCssAssetsPlugin({\n      assetNameRegExp: /\\.optimize\\.css$/g,\n      cssProcessor: require('cssnano'),\n      cssProcessorPluginOptions: {\n        preset: ['default', { discardComments: { removeAll: true } }],\n      },\n      canPrint: true\n    })\n  ]\n};\n```\n\n## License\n\nMIT (http://www.opensource.org/licenses/mit-license.php)\n\n",
+  "maintainers" : [ {
+    "name" : "nmfr",
+    "email" : "nunomr@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Nuno Rodrigues"
+  },
+  "time" : {
+    "2.0.0" : "2017-06-03T14:52:09.913Z",
+    "created" : "2016-01-09T01:09:03.097Z",
+    "4.0.2" : "2018-05-27T17:15:03.444Z",
+    "4.0.3" : "2018-06-26T10:17:14.359Z",
+    "4.0.0" : "2018-03-04T21:10:13.664Z",
+    "4.0.1" : "2018-05-01T16:57:42.509Z",
+    "1.3.0" : "2016-01-24T00:53:01.311Z",
+    "1.3.1" : "2017-04-15T21:41:45.794Z",
+    "1.3.2" : "2017-05-19T09:15:16.950Z",
+    "3.0.0" : "2017-07-23T20:44:53.250Z",
+    "modified" : "2019-06-28T23:15:54.052Z",
+    "5.0.0" : "2018-07-15T15:47:57.162Z",
+    "5.0.1" : "2018-08-29T09:00:55.863Z",
+    "5.0.2" : "2019-06-28T22:31:56.409Z",
+    "3.1.0" : "2017-08-18T22:03:45.519Z",
+    "5.0.3" : "2019-06-28T23:15:51.591Z",
+    "1.0.0" : "2016-01-09T01:09:03.097Z",
+    "3.1.1" : "2017-08-18T22:10:36.545Z",
+    "3.2.0" : "2017-09-14T09:09:45.330Z",
+    "1.1.0" : "2016-01-09T01:54:03.417Z",
+    "3.2.1" : "2019-06-28T23:12:23.122Z",
+    "1.2.0" : "2016-01-09T03:17:13.258Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+ssh://git@github.com/NMFR/optimize-css-assets-webpack-plugin.git"
+  },
+  "users" : {
+    "fengmiaosen" : true,
+    "fakefarm" : true,
+    "akh-rman" : true,
+    "susiyang" : true,
+    "shoonia" : true,
+    "wangjunxin" : true,
+    "davedub" : true,
+    "raycharles" : true,
+    "npmlincq" : true,
+    "shuoshubao" : true,
+    "creage" : true,
+    "lcdss" : true,
+    "jiangxtx" : true,
+    "tomchao" : true,
+    "muzi131313" : true,
+    "danielheene" : true,
+    "jeange1003" : true,
+    "pagoru" : true,
+    "dwqs" : true,
+    "tzq1011" : true,
+    "xiongxu" : true,
+    "flypie2" : true,
+    "yeming" : true,
+    "sunnylost" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "http://github.com/NMFR/optimize-css-assets-webpack-plugin",
+  "keywords" : [ "CSS", "duplicate", "extract-text-webpack-plugin", "minimize", "optimize", "remove", "webpack" ],
+  "bugs" : {
+    "url" : "https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues"
+  },
+  "license" : "MIT"
+}

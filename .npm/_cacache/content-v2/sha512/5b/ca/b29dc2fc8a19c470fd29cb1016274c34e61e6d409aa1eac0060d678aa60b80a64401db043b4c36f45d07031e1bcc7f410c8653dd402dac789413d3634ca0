@@ -1,0 +1,169 @@
+{
+  "_id" : "postcss-page-break",
+  "_rev" : "2-2a580e5330502d8ae414e98c7049bb8e",
+  "name" : "postcss-page-break",
+  "description" : "PostCSS plugin postcss-page-break to fallback `break-` properties with `page-break-` alias",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-page-break",
+      "description" : "PostCSS plugin postcss-page-break to fallback `break-` properties with `page-break-` alias",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "shrpne",
+        "email" : "shrpne@gmail.com"
+      },
+      "homepage" : "https://github.com/shrpne/postcss-page-break",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shrpne/postcss-page-break.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shrpne/postcss-page-break/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-page-break/-/postcss-page-break-2.0.0.tgz",
+        "shasum" : "add52d0e0a528cabe6afee8b46e2abb277df46bf"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.15.0",
+        "eslint-config-postcss" : "^2.0.2",
+        "jest" : "^21.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "break", "break-inside", "page-break-inside", "avoid" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shrpne",
+        "email" : "shrpne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest && eslint *.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "shrpne",
+        "email" : "shrpne@gmail.com"
+      },
+      "_id" : "postcss-page-break@2.0.0",
+      "gitHead" : "0cee341ca649a2c3b5966c3f153bd2b4b682eea6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-page-break_2.0.0_1537265629351_0.49792432246033647"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-postcss/es5",
+        "rules" : {
+          "indent" : [ "error", 4, {
+            "SwitchCase" : 1
+          } ],
+          "max-len" : [ "off" ]
+        },
+        "env" : {
+          "jest" : true
+        }
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.0.0" : {
+      "name" : "postcss-page-break",
+      "description" : "PostCSS plugin postcss-page-break to fallback `break-` properties with `page-break-` alias",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "shrpne",
+        "email" : "shrpne@gmail.com"
+      },
+      "homepage" : "https://github.com/shrpne/postcss-page-break",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shrpne/postcss-page-break.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shrpne/postcss-page-break/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-page-break/-/postcss-page-break-1.0.0.tgz",
+        "shasum" : "09a63b6e03db092d38569b33dcba42a343ace60b"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.16"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.15.0",
+        "eslint-config-postcss" : "^2.0.2",
+        "jest" : "^21.0.0"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "break", "break-inside", "page-break-inside", "avoid" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shrpne",
+        "email" : "shrpne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest && eslint *.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shrpne",
+        "email" : "shrpne@gmail.com"
+      },
+      "_id" : "postcss-page-break@1.0.0",
+      "gitHead" : "387f2dff17b380ab8e48ed550d5cb8a8191f5698",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-page-break_1.0.0_1518955418167_0.9861643020277604"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint-config-postcss/es5",
+        "rules" : {
+          "indent" : [ "error", 4, {
+            "SwitchCase" : 1
+          } ],
+          "max-len" : [ "off" ]
+        },
+        "env" : {
+          "jest" : true
+        }
+      },
+      "_nodeVersion" : "8.4.0"
+    }
+  },
+  "readme" : "# postcss-page-break [![Build Status][ci-img]][ci]\n\n[PostCSS] plugin to fallback `break-` properties with `page-break-` alias.\n\n[PostCSS]: https://github.com/postcss/postcss\n[ci-img]:  https://travis-ci.org/shrpne/postcss-page-break.svg\n[ci]:      https://travis-ci.org/shrpne/postcss-page-break\n\n```css\n/* before */\n.foo {\n  break-inside: avoid;\n  break-after: page;\n}\n\n/* after */\n.foo {\n  page-break-inside: avoid;\n  break-inside: avoid;\n  page-break-after: always;\n  break-after: page;\n}\n```\n\nAvailable fallbacks:\n```\nbreak-inside: auto        =>  page-break-inside: auto\nbreak-inside: avoid       =>  page-break-inside: avoid\nbreak-inside: avoid-page  =>  page-break-inside: avoid\nbreak-inside: inherit     =>  page-break-inside: inherit\nbreak-inside: initial     =>  page-break-inside: initial\nbreak-inside: unset       =>  page-break-inside: unset\n\nbreak-before: auto        =>  page-break-before: auto;\nbreak-before: avoid       =>  page-break-before: avoid;\nbreak-before: avoid-page  =>  page-break-before: avoid;\nbreak-before: page        =>  page-break-before: always;\nbreak-before: always      =>  page-break-before: always;\nbreak-before: left        =>  page-break-before: left;\nbreak-before: right       =>  page-break-before: right;\nbreak-before: recto       =>  page-break-before: recto;\nbreak-before: verso       =>  page-break-before: verso;\nbreak-before: inherit     =>  page-break-before: inherit;\nbreak-before: initial     =>  page-break-before: initial;\nbreak-before: unset       =>  page-break-before: unset;\n\nbreak-after: auto         =>  page-break-after: auto;\nbreak-after: avoid        =>  page-break-after: avoid;\nbreak-after: avoid-page   =>  page-break-after: avoid;\nbreak-after: page         =>  page-break-after: always;\nbreak-after: always       =>  page-break-after: always;\nbreak-after: left         =>  page-break-after: left;\nbreak-after: right        =>  page-break-after: right;\nbreak-after: recto        =>  page-break-after: recto;\nbreak-after: verso        =>  page-break-after: verso;\nbreak-after: inherit      =>  page-break-after: inherit;\nbreak-after: initial      =>  page-break-after: initial;\nbreak-after: unset        =>  page-break-after: unset;\n```\n\n\n## Usage\n\n```js\npostcss([ require('postcss-page-break') ])\n```\n\nSee [PostCSS] docs for examples for your environment (webpack, gulp, grunt).\n",
+  "maintainers" : [ {
+    "name" : "shrpne",
+    "email" : "shrpne@gmail.com"
+  } ],
+  "author" : {
+    "name" : "shrpne",
+    "email" : "shrpne@gmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-09-18T10:13:49.509Z",
+    "created" : "2018-02-18T12:03:38.166Z",
+    "modified" : "2019-01-05T04:44:31.937Z",
+    "1.0.0" : "2018-02-18T12:03:38.219Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/shrpne/postcss-page-break.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/shrpne/postcss-page-break",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "break", "break-inside", "page-break-inside", "avoid" ],
+  "bugs" : {
+    "url" : "https://github.com/shrpne/postcss-page-break/issues"
+  },
+  "license" : "MIT"
+}

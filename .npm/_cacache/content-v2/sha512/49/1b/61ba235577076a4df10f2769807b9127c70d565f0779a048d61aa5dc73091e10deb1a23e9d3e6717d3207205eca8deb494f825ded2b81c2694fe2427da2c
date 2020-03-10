@@ -1,0 +1,303 @@
+{
+  "_id" : "commondir",
+  "_rev" : "17-56fbe9608f6ae3be1a2fd2264e939689",
+  "name" : "commondir",
+  "description" : "compute the closest common parent for file paths",
+  "dist-tags" : {
+    "latest" : "1.0.1"
+  },
+  "versions" : {
+    "0.0.2" : {
+      "name" : "commondir",
+      "description" : "compute the closest common parent for file paths",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-commondir",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-commondir.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-commondir/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/commondir/-/commondir-0.0.2.tgz",
+        "shasum" : "c49c8880c6fe96844bb3525dd2e7314050c389ee"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "common", "path", "directory", "file", "parent", "root" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.3.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "commondir@0.0.2",
+      "gitHead" : "089fac70cf240745ecde80d02e4193080ce4c5a3",
+      "engine" : {
+        "node" : ">=0.4"
+      },
+      "_shasum" : "c49c8880c6fe96844bb3525dd2e7314050c389ee",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.0.0" : {
+      "name" : "commondir",
+      "description" : "compute the closest common parent for file paths",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-commondir",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-commondir.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-commondir/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/commondir/-/commondir-1.0.0.tgz",
+        "shasum" : "3e1ca7fbeb5d582e007c1df27ca3e1070511db52"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "common", "path", "directory", "file", "parent", "root" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.3.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "commondir@1.0.0",
+      "gitHead" : "b0033272cd882d60c05896d290fddfa716931e5d",
+      "engine" : {
+        "node" : ">=0.4"
+      },
+      "_shasum" : "3e1ca7fbeb5d582e007c1df27ca3e1070511db52",
+      "_nodeVersion" : "0.12.0"
+    },
+    "0.0.0" : {
+      "name" : "commondir",
+      "description" : "Compute the closest common parent for file paths",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-commondir.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/commondir/-/commondir-0.0.0.tgz",
+        "shasum" : "25fb9c47fa486f81ddf74d6ef061fec59e6260ed"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "0.7.x"
+      },
+      "keywords" : [ "common", "path", "directory", "file", "parent", "root" ],
+      "license" : "MIT/X11",
+      "directories" : {
+        "lib" : ".",
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_npmVersion" : "1.0.10",
+      "_id" : "commondir@0.0.0",
+      "engine" : {
+        "node" : ">=0.4"
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    },
+    "1.0.1" : {
+      "name" : "commondir",
+      "description" : "compute the closest common parent for file paths",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-commondir",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-commondir.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-commondir/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/commondir/-/commondir-1.0.1.tgz",
+        "shasum" : "ddd800da0c66127393cca5950ea968a3aaf1253b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "keywords" : [ "common", "path", "directory", "file", "parent", "root" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.3.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "commondir@1.0.1",
+      "gitHead" : "57797b60db24c60029f7593995241749b1704902",
+      "engine" : {
+        "node" : ">=0.4"
+      },
+      "_shasum" : "ddd800da0c66127393cca5950ea968a3aaf1253b",
+      "_nodeVersion" : "0.12.0"
+    },
+    "0.0.1" : {
+      "name" : "commondir",
+      "description" : "Compute the closest common parent for file paths",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-commondir.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/commondir/-/commondir-0.0.1.tgz",
+        "shasum" : "89f00fdcd51b519c578733fec563e6a6da7f5be2"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "0.7.x"
+      },
+      "keywords" : [ "common", "path", "directory", "file", "parent", "root" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "lib" : ".",
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_npmVersion" : "1.0.101",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "commondir@0.0.1",
+      "engine" : {
+        "node" : ">=0.4"
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.12"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# commondir\n\ncompute the closest common parent directory among an array of directories\n\n# example\n\n``` js\nvar commondir = require('commondir');\nvar dir = commondir(process.argv.slice(2))\nconsole.log(dir);\n```\n\noutput:\n\n```\n$ node dir.js /x/y/z /x/y /x/y/w/q\n/x/y\n$ node ../baz ../../foo/quux ./bizzy\n/foo\n```\n\n# methods\n\n``` js\nvar commondir = require('commondir');\n```\n\n## commondir(absolutePaths)\n\nCompute the closest common parent directory for an array `absolutePaths`.\n\n## commondir(basedir, relativePaths)\n\nCompute the closest common parent directory for an array `relativePaths` which\nwill be resolved for each `dir` in `relativePaths` according to:\n`path.resolve(basedir, dir)`.\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install commondir\n```\n\n# license\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "substack",
+    "email" : "mail@substack.net"
+  } ],
+  "author" : {
+    "name" : "James Halliday",
+    "email" : "mail@substack.net",
+    "url" : "http://substack.net"
+  },
+  "time" : {
+    "created" : "2011-06-28T09:24:34.299Z",
+    "modified" : "2017-06-02T08:43:35.189Z",
+    "0.0.2" : "2015-03-14T00:13:42.196Z",
+    "1.0.0" : "2015-03-14T00:14:04.458Z",
+    "0.0.0" : "2011-06-28T09:24:34.962Z",
+    "1.0.1" : "2015-03-14T00:15:01.725Z",
+    "0.0.1" : "2011-11-16T01:05:05.980Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/substack/node-commondir.git"
+  },
+  "users" : {
+    "simplyianm" : true,
+    "erikvold" : true,
+    "wenbing" : true,
+    "lassevolkmann" : true
+  },
+  "readmeFilename" : "readme.markdown",
+  "homepage" : "https://github.com/substack/node-commondir",
+  "keywords" : [ "common", "path", "directory", "file", "parent", "root" ],
+  "bugs" : {
+    "url" : "https://github.com/substack/node-commondir/issues"
+  },
+  "license" : "MIT"
+}

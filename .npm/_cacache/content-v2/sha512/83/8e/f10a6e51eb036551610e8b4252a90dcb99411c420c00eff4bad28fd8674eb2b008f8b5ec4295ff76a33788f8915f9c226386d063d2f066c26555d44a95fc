@@ -1,0 +1,742 @@
+{
+  "_id" : "lines-and-columns",
+  "_rev" : "10-40cb500d1a5ae381bd3d80003c45f313",
+  "name" : "lines-and-columns",
+  "description" : "Maps lines and columns to character offsets and back.",
+  "dist-tags" : {
+    "latest" : "1.1.6"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "main" : "dist/lines-and-columns.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.1.2.tgz",
+        "shasum" : "648792a91ae008b973a325974782580c4e017275"
+      },
+      "devDependencies" : {
+        "babel" : "^6.5.2",
+        "babel-plugin-syntax-class-properties" : "^6.8.0",
+        "babel-plugin-transform-class-properties" : "^6.10.2",
+        "babel-plugin-transform-es2015-block-scoping" : "^6.10.1",
+        "babel-plugin-transform-es2015-classes" : "^6.9.0",
+        "babel-plugin-transform-es2015-destructuring" : "^6.9.0",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.10.3",
+        "babel-plugin-transform-es2015-shorthand-properties" : "^6.8.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.8.0",
+        "babel-plugin-transform-strict-mode" : "^6.8.0",
+        "cz-conventional-changelog" : "^1.1.6",
+        "flow-bin" : "^0.27.0",
+        "mocha" : "^2.5.3",
+        "rollup" : "^0.33.0",
+        "rollup-plugin-babel" : "^2.6.1",
+        "semantic-release" : "^4.3.5"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "flow" : "flow check --all",
+        "prebuild" : "rm -rf dist",
+        "build" : "rollup -c",
+        "pretest" : "npm run build",
+        "test" : "mocha",
+        "prepublish" : "npm run flow && npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.8",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.1.2",
+      "gitHead" : "79964233efe24ee9a5ae4eae85ebe7142ebddf41",
+      "jsnext:main" : "dist/lines-and-columns.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lines-and-columns-1.1.2.tgz_1466739388702_0.5629058612976223"
+      },
+      "_shasum" : "648792a91ae008b973a325974782580c4e017275",
+      "_nodeVersion" : "6.2.2"
+    },
+    "1.1.3" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "main" : "dist/lines-and-columns.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.1.3.tgz",
+        "shasum" : "f125832de8738e7be1598bf24d9feb21d0d9eb98"
+      },
+      "devDependencies" : {
+        "babel" : "^6.5.2",
+        "babel-plugin-syntax-class-properties" : "^6.8.0",
+        "babel-plugin-transform-class-properties" : "^6.10.2",
+        "babel-plugin-transform-es2015-block-scoping" : "^6.10.1",
+        "babel-plugin-transform-es2015-classes" : "^6.9.0",
+        "babel-plugin-transform-es2015-destructuring" : "^6.9.0",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.10.3",
+        "babel-plugin-transform-es2015-shorthand-properties" : "^6.8.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.8.0",
+        "babel-plugin-transform-strict-mode" : "^6.8.0",
+        "cz-conventional-changelog" : "^1.1.6",
+        "flow-bin" : "^0.27.0",
+        "mocha" : "^2.5.3",
+        "rollup" : "^0.33.0",
+        "rollup-plugin-babel" : "^2.6.1",
+        "semantic-release" : "^4.3.5"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "flow" : "flow check --all",
+        "prebuild" : "rm -rf dist",
+        "build" : "rollup -c",
+        "pretest" : "npm run build",
+        "test" : "mocha",
+        "prepublish" : "npm run flow && npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.8",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.1.3",
+      "gitHead" : "9617425c265b2513647101a3be3a1ec940066746",
+      "jsnext:main" : "dist/lines-and-columns.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lines-and-columns-1.1.3.tgz_1466740355894_0.8184910498093814"
+      },
+      "_shasum" : "f125832de8738e7be1598bf24d9feb21d0d9eb98",
+      "_nodeVersion" : "6.2.2"
+    },
+    "1.1.4" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "main" : "dist/lines-and-columns.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.1.4.tgz",
+        "shasum" : "1255c21e10861baddd8107fbf53df03e0a805f26"
+      },
+      "devDependencies" : {
+        "babel" : "^6.5.2",
+        "babel-plugin-syntax-class-properties" : "^6.8.0",
+        "babel-plugin-transform-class-properties" : "^6.10.2",
+        "babel-plugin-transform-es2015-block-scoping" : "^6.10.1",
+        "babel-plugin-transform-es2015-classes" : "^6.9.0",
+        "babel-plugin-transform-es2015-destructuring" : "^6.9.0",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.10.3",
+        "babel-plugin-transform-es2015-shorthand-properties" : "^6.8.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.8.0",
+        "babel-plugin-transform-strict-mode" : "^6.8.0",
+        "cz-conventional-changelog" : "^1.1.6",
+        "flow-bin" : "^0.27.0",
+        "mocha" : "^2.5.3",
+        "rollup" : "^0.33.0",
+        "rollup-plugin-babel" : "^2.6.1",
+        "semantic-release" : "^4.3.5"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "flow" : "flow check --all",
+        "prebuild" : "rm -rf dist",
+        "build" : "rollup -c && cp index.js.flow dist/lines-and-columns.js.flow",
+        "pretest" : "npm run build",
+        "test" : "mocha",
+        "prepublish" : "npm run flow && npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.8",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.1.4",
+      "gitHead" : "9f4a9b7dfbde6043a445845cfcb89a75da551d51",
+      "jsnext:main" : "dist/lines-and-columns.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lines-and-columns-1.1.4.tgz_1466960264032_0.44263432384468615"
+      },
+      "_shasum" : "1255c21e10861baddd8107fbf53df03e0a805f26",
+      "_nodeVersion" : "6.2.2"
+    },
+    "1.1.5" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.1.5",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "main" : "dist/lines-and-columns.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.1.5.tgz",
+        "shasum" : "fca3bf4dcbc1ed32e138b719b7eefccf401ffe4b"
+      },
+      "devDependencies" : {
+        "babel" : "^6.5.2",
+        "babel-plugin-syntax-class-properties" : "^6.8.0",
+        "babel-plugin-transform-class-properties" : "^6.10.2",
+        "babel-plugin-transform-es2015-block-scoping" : "^6.10.1",
+        "babel-plugin-transform-es2015-classes" : "^6.9.0",
+        "babel-plugin-transform-es2015-destructuring" : "^6.9.0",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.10.3",
+        "babel-plugin-transform-es2015-shorthand-properties" : "^6.8.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.8.0",
+        "babel-plugin-transform-strict-mode" : "^6.8.0",
+        "cz-conventional-changelog" : "^1.1.6",
+        "flow-bin" : "^0.27.0",
+        "mocha" : "^2.5.3",
+        "rollup" : "^0.33.0",
+        "rollup-plugin-babel" : "^2.6.1",
+        "semantic-release" : "^4.3.5"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "flow" : "flow check",
+        "prebuild" : "rm -rf dist",
+        "build" : "rollup -c && cp index.js.flow dist/lines-and-columns.js.flow",
+        "pretest" : "npm run build",
+        "test" : "mocha",
+        "prepublish" : "npm run flow && npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.8",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.1.5",
+      "gitHead" : "b9726de36f160bf45aa64b24244572cf6bb11c77",
+      "jsnext:main" : "dist/lines-and-columns.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lines-and-columns-1.1.5.tgz_1466978038879_0.6655475040897727"
+      },
+      "_shasum" : "fca3bf4dcbc1ed32e138b719b7eefccf401ffe4b",
+      "_nodeVersion" : "6.2.2"
+    },
+    "1.1.6" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.1.6",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.1.6.tgz",
+        "shasum" : "1c00c743b433cd0a4e80758f7b64a57440d9ff00"
+      },
+      "devDependencies" : {
+        "@types/mocha" : "^2.2.34",
+        "@types/node" : "^6.0.52",
+        "mocha" : "^3.2.0",
+        "semantic-release" : "^6.3.2",
+        "ts-node" : "^1.7.2",
+        "tslint" : "^4.1.1",
+        "typescript" : "^2.1.4"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint --config tslint.json --project tsconfig.json --type-check",
+        "lint-fix" : "tslint --config tslint.json --project tsconfig.json --type-check --fix",
+        "prebuild" : "rm -rf dist",
+        "build" : "./script/build",
+        "pretest" : "npm run build",
+        "test" : "mocha",
+        "prepublish" : "npm run lint && npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.1.6",
+      "gitHead" : "bde3deba75c01fa95d18cd4786593df2318cdeb6",
+      "types" : "dist/index.d.ts",
+      "module" : "dist/index.mjs",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/lines-and-columns-1.1.6.tgz_1482255134226_0.4856822253204882"
+      },
+      "_shasum" : "1c00c743b433cd0a4e80758f7b64a57440d9ff00",
+      "_nodeVersion" : "6.9.2"
+    },
+    "1.0.0" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "dist/lines-and-columns.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.0.0.tgz",
+        "shasum" : "de486cde66262180bce3119585766e9a7d056784"
+      },
+      "devDependencies" : {
+        "babel" : "^6.1.18",
+        "babel-plugin-transform-es2015-destructuring" : "^6.1.18",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.2.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.1.18",
+        "babel-plugin-transform-strict-mode" : "^6.2.0",
+        "mocha" : "^2.3.4",
+        "rollup" : "^0.21.0",
+        "rollup-plugin-babel" : "^2.1.0"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rm -rf dist && rollup -c -f cjs -o dist/lines-and-columns.cjs.js && rollup -c -f es6 -o dist/lines-and-columns.es6.js",
+        "pretest" : "npm run build",
+        "test" : "mocha test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.0.0",
+      "gitHead" : "0e88ddfececd4af4f9eaf6c2987cd321f5e66459",
+      "jsnext:main" : "dist/lines-and-columns.es6.js",
+      "_shasum" : "de486cde66262180bce3119585766e9a7d056784",
+      "_nodeVersion" : "5.0.0"
+    },
+    "1.0.1" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "dist/lines-and-columns.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.0.1.tgz",
+        "shasum" : "30372b66259fb97378bdcd59c6c2fe447a7993c7"
+      },
+      "devDependencies" : {
+        "babel" : "^6.1.18",
+        "babel-plugin-transform-es2015-destructuring" : "^6.1.18",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.2.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.1.18",
+        "babel-plugin-transform-strict-mode" : "^6.2.0",
+        "mocha" : "^2.3.4",
+        "rollup" : "^0.21.0",
+        "rollup-plugin-babel" : "^2.1.0"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rm -rf dist && rollup -c -f cjs -o dist/lines-and-columns.cjs.js && rollup -c -f es6 -o dist/lines-and-columns.es6.js",
+        "pretest" : "npm run build",
+        "test" : "mocha test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.0.1",
+      "gitHead" : "7635f8fb3f9ff02a04f0f3e19cd012e18656e85c",
+      "jsnext:main" : "dist/lines-and-columns.es6.js",
+      "_shasum" : "30372b66259fb97378bdcd59c6c2fe447a7993c7",
+      "_nodeVersion" : "5.0.0"
+    },
+    "1.1.0" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "main" : "dist/lines-and-columns.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.1.0.tgz",
+        "shasum" : "91b83757be950239b1f9ff6f46f1370d69d026d2"
+      },
+      "devDependencies" : {
+        "babel" : "^6.5.2",
+        "babel-plugin-syntax-class-properties" : "^6.5.0",
+        "babel-plugin-transform-class-properties" : "^6.6.0",
+        "babel-plugin-transform-es2015-block-scoping" : "^6.7.0",
+        "babel-plugin-transform-es2015-classes" : "^6.6.5",
+        "babel-plugin-transform-es2015-destructuring" : "^6.6.5",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.7.0",
+        "babel-plugin-transform-es2015-shorthand-properties" : "^6.5.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.7.0",
+        "babel-plugin-transform-strict-mode" : "^6.6.5",
+        "mocha" : "^2.4.5",
+        "rollup" : "^0.25.4",
+        "rollup-plugin-babel" : "^2.4.0"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "flow" : "flow check --all",
+        "build" : "rm -rf dist && rollup -c -f cjs -o dist/lines-and-columns.cjs.js && rollup -c -f es6 -o dist/lines-and-columns.es6.js",
+        "pretest" : "npm run build",
+        "test" : "mocha test.js",
+        "prepublish" : "npm run flow && npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.1.0",
+      "gitHead" : "c1e6ba514d96fcd917383ccfb854cc33ea15cf9e",
+      "jsnext:main" : "dist/lines-and-columns.es6.js",
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/lines-and-columns-1.1.0.tgz_1457488184614_0.5232401010580361"
+      },
+      "_shasum" : "91b83757be950239b1f9ff6f46f1370d69d026d2",
+      "_nodeVersion" : "5.7.1"
+    },
+    "1.0.2" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "dist/lines-and-columns.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.0.2.tgz",
+        "shasum" : "33d9624cfcc5e3eb63923be2d8b7155fbb04c155"
+      },
+      "devDependencies" : {
+        "babel" : "^6.1.18",
+        "babel-plugin-transform-es2015-destructuring" : "^6.1.18",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.2.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.1.18",
+        "babel-plugin-transform-strict-mode" : "^6.2.0",
+        "mocha" : "^2.3.4",
+        "rollup" : "^0.21.0",
+        "rollup-plugin-babel" : "^2.1.0"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rm -rf dist && rollup -c -f cjs -o dist/lines-and-columns.cjs.js && rollup -c -f es6 -o dist/lines-and-columns.es6.js",
+        "pretest" : "npm run build",
+        "test" : "mocha test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.0.2",
+      "gitHead" : "610143f9664251127d20ca6d04aa7383e9e60cbc",
+      "jsnext:main" : "dist/lines-and-columns.es6.js",
+      "_shasum" : "33d9624cfcc5e3eb63923be2d8b7155fbb04c155",
+      "_nodeVersion" : "5.0.0"
+    },
+    "1.1.1" : {
+      "name" : "lines-and-columns",
+      "description" : "Maps lines and columns to character offsets and back.",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Brian Donovan",
+        "email" : "me@brian-donovan.com"
+      },
+      "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+      },
+      "main" : "dist/lines-and-columns.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lines-and-columns/-/lines-and-columns-1.1.1.tgz",
+        "shasum" : "4f46560cc4176f202250bae717cc6121ce7ddb48"
+      },
+      "devDependencies" : {
+        "babel" : "^6.5.2",
+        "babel-plugin-syntax-class-properties" : "^6.5.0",
+        "babel-plugin-transform-class-properties" : "^6.6.0",
+        "babel-plugin-transform-es2015-block-scoping" : "^6.7.0",
+        "babel-plugin-transform-es2015-classes" : "^6.6.5",
+        "babel-plugin-transform-es2015-destructuring" : "^6.6.5",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.7.0",
+        "babel-plugin-transform-es2015-shorthand-properties" : "^6.5.0",
+        "babel-plugin-transform-flow-strip-types" : "^6.7.0",
+        "babel-plugin-transform-strict-mode" : "^6.6.5",
+        "mocha" : "^2.4.5",
+        "rollup" : "^0.25.4",
+        "rollup-plugin-babel" : "^2.4.0"
+      },
+      "keywords" : [ "lines", "columns", "parser" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "flow" : "flow check --all",
+        "build" : "rm -rf dist && rollup -c -f cjs -o dist/lines-and-columns.cjs.js && rollup -c -f es6 -o dist/lines-and-columns.es6.js",
+        "pretest" : "npm run build",
+        "test" : "mocha test.js",
+        "prepublish" : "npm run flow && npm run build"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "eventualbuddha",
+        "email" : "me@brian-donovan.com"
+      },
+      "_id" : "lines-and-columns@1.1.1",
+      "gitHead" : "4650b8f7a8a739a06328a5de84400753c9cbe273",
+      "jsnext:main" : "dist/lines-and-columns.es6.js",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lines-and-columns-1.1.1.tgz_1457488564610_0.6213514695409685"
+      },
+      "_shasum" : "4f46560cc4176f202250bae717cc6121ce7ddb48",
+      "_nodeVersion" : "5.7.1"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# lines-and-columns\n\nMaps lines and columns to character offsets and back. This is useful for parsers\nand other text processors that deal in character ranges but process text with\nmeaningful lines and columns.\n\n## Install\n\n```\n$ npm install [--save] lines-and-columns\n```\n\n## Usage\n\n```js\nimport LinesAndColumns from 'lines-and-columns';\n\nconst lines = new LinesAndColumns(\n`table {\n  border: 0\n}`);\n\nlines.locationForIndex(9);                       // { line: 1, column: 1 }\nlines.indexForLocation({ line: 1, column: 2 });  // 10\n```\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "eventualbuddha",
+    "email" : "me@brian-donovan.com"
+  } ],
+  "author" : {
+    "name" : "Brian Donovan",
+    "email" : "me@brian-donovan.com"
+  },
+  "time" : {
+    "1.1.2" : "2016-06-24T03:36:31.344Z",
+    "1.1.3" : "2016-06-24T03:52:38.515Z",
+    "1.1.4" : "2016-06-26T16:57:46.382Z",
+    "1.1.5" : "2016-06-26T21:54:01.493Z",
+    "1.1.6" : "2016-12-20T17:32:14.921Z",
+    "created" : "2015-12-02T19:57:59.708Z",
+    "modified" : "2016-12-20T17:32:14.921Z",
+    "1.0.0" : "2015-12-02T19:57:59.708Z",
+    "1.0.1" : "2015-12-02T20:00:17.654Z",
+    "1.1.0" : "2016-03-09T01:49:47.038Z",
+    "1.0.2" : "2015-12-05T19:32:05.157Z",
+    "1.1.1" : "2016-03-09T01:56:07.519Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/eventualbuddha/lines-and-columns.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/eventualbuddha/lines-and-columns#readme",
+  "keywords" : [ "lines", "columns", "parser" ],
+  "bugs" : {
+    "url" : "https://github.com/eventualbuddha/lines-and-columns/issues"
+  },
+  "license" : "MIT"
+}

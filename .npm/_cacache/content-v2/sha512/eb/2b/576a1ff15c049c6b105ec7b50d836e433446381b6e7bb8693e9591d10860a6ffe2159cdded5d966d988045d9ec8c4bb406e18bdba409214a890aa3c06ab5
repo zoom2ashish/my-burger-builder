@@ -1,0 +1,721 @@
+{
+  "_id" : "merge-stream",
+  "_rev" : "95-7f8c652998e6c6f3cf0209b6adcd0b04",
+  "name" : "merge-stream",
+  "description" : "Create a stream that emits events from multiple other streams",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.1.5.tgz",
+        "shasum" : "e6820f7addbaee003f48ca4a58c7c5a253d5e05c"
+      },
+      "dependencies" : {
+        "through2" : "^0.5.1"
+      },
+      "devDependencies" : {
+        "from2" : "0.0.0",
+        "istanbul" : "^0.2.12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.13",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.1.5",
+      "gitHead" : "39e073fe11753da1e43b3682bb486e3c2b0dd177",
+      "_shasum" : "e6820f7addbaee003f48ca4a58c7c5a253d5e05c"
+    },
+    "2.0.0" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/grncdr/merge-stream.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-2.0.0.tgz",
+        "shasum" : "52823629a14dd00c9770fb6ad47dc6310f2c1f60"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "from2" : "^2.0.3",
+        "istanbul" : "^0.4.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      }, {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      }, {
+        "name" : "stevemao",
+        "email" : "maochenyan@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "stevemao",
+        "email" : "maochenyan@gmail.com"
+      },
+      "_id" : "merge-stream@2.0.0",
+      "gitHead" : "cf3b957fe7937f09c0c95f714b6076436f8516b3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/merge-stream_2.0.0_1558618605777_0.657983797951093"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "0.1.6" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.1.6",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.1.6.tgz",
+        "shasum" : "5c81b612d8816509c9ae101f429cfc31f3191df7"
+      },
+      "dependencies" : {
+        "through2" : "^0.6.1"
+      },
+      "devDependencies" : {
+        "from2" : "^1.2.0",
+        "istanbul" : "^0.3.2"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.1.6",
+      "gitHead" : "d56167b2d1793eee164abd852992bab10da97be0",
+      "_shasum" : "5c81b612d8816509c9ae101f429cfc31f3191df7"
+    },
+    "0.1.3" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.1.3.tgz",
+        "shasum" : "2953a3747eea4ecb3fc17c4a37a3b346ce8f08c9"
+      },
+      "dependencies" : {
+        "through2" : "^0.5.1"
+      },
+      "devDependencies" : {
+        "from2" : "0.0.0",
+        "istanbul" : "^0.2.12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.13",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.1.3",
+      "gitHead" : "3ece63bd29a7b495567bc846630566edecbd4f58",
+      "_shasum" : "2953a3747eea4ecb3fc17c4a37a3b346ce8f08c9"
+    },
+    "0.1.4" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.1.4.tgz",
+        "shasum" : "cbaee98687502de73c8c66d784646133b0a98cac"
+      },
+      "dependencies" : {
+        "through2" : "^0.5.1"
+      },
+      "devDependencies" : {
+        "from2" : "0.0.0",
+        "istanbul" : "^0.2.12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.13",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.1.4",
+      "gitHead" : "825412652c0b4251d0813ff76628e7527822efd0",
+      "_shasum" : "cbaee98687502de73c8c66d784646133b0a98cac"
+    },
+    "0.1.7" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.1.7",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.1.7.tgz",
+        "shasum" : "31debae13f9737ba17f7b4fbe33c16574c86fc79"
+      },
+      "dependencies" : {
+        "through2" : "^0.6.1"
+      },
+      "devDependencies" : {
+        "from2" : "^1.2.0",
+        "istanbul" : "^0.3.2"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.1.7",
+      "gitHead" : "be442ce5bd68015390e86f4545f4c070c4e9d942",
+      "_shasum" : "31debae13f9737ba17f7b4fbe33c16574c86fc79"
+    },
+    "0.1.8" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.1.8",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.1.8.tgz",
+        "shasum" : "48a07b3b4a121d74a3edbfdcdb4b08adbf0240b1"
+      },
+      "dependencies" : {
+        "through2" : "^0.6.1"
+      },
+      "devDependencies" : {
+        "from2" : "^1.2.0",
+        "istanbul" : "^0.3.2"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.1.8",
+      "gitHead" : "b6892439437a82700d278902f357be95258c2a52",
+      "_shasum" : "48a07b3b4a121d74a3edbfdcdb4b08adbf0240b1"
+    },
+    "0.1.1" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.1.1.tgz",
+        "shasum" : "770ac82d20576fc04675b0cc4a2a54cebe899412"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.1.1"
+    },
+    "0.1.2" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.1.2.tgz",
+        "shasum" : "7052b73a9f7e4b42fe4a3d1fb3f1cb4956b159bc"
+      },
+      "dependencies" : {
+        "through2" : "^0.5.1"
+      },
+      "devDependencies" : {
+        "from2" : "0.0.0",
+        "istanbul" : "^0.2.12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.13",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.1.2",
+      "gitHead" : "cb43f6cd39189d13a8058e0bf3aabfe4de559a4b",
+      "_shasum" : "7052b73a9f7e4b42fe4a3d1fb3f1cb4956b159bc"
+    },
+    "0.0.0" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "repository" : "",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.0.0.tgz",
+        "shasum" : "aad0909f8acafdb260b2f03586ee9ead4710d170"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_id" : "merge-stream@0.0.0"
+    },
+    "0.0.1" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/grncdr/merge-stream"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-0.0.1.tgz",
+        "shasum" : "8e183240e30ce8b1c8fa9103ccbf45e83858e993"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.8",
+      "_npmUser" : {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      },
+      "_id" : "merge-stream@0.0.1",
+      "_shasum" : "8e183240e30ce8b1c8fa9103ccbf45e83858e993"
+    },
+    "1.0.0" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/grncdr/merge-stream.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-1.0.0.tgz",
+        "shasum" : "9cfd156fef35421e2b5403ce11dc6eb1962b026e"
+      },
+      "dependencies" : {
+        "readable-stream" : "^2.0.1"
+      },
+      "devDependencies" : {
+        "from2" : "^2.0.3",
+        "istanbul" : "^0.3.2"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      }, {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.1",
+      "_npmUser" : {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      },
+      "_id" : "merge-stream@1.0.0",
+      "gitHead" : "e973cf43ef0edda5d4e3b08b07040d4039822734",
+      "_shasum" : "9cfd156fef35421e2b5403ce11dc6eb1962b026e",
+      "_nodeVersion" : "2.4.0"
+    },
+    "1.0.1" : {
+      "name" : "merge-stream",
+      "description" : "Create a stream that emits events from multiple other streams",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Stephen Sugden",
+        "email" : "me@stephensugden.com"
+      },
+      "homepage" : "https://github.com/grncdr/merge-stream#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/grncdr/merge-stream.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/grncdr/merge-stream/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/merge-stream/-/merge-stream-1.0.1.tgz",
+        "shasum" : "4041202d508a342ba00174008df0c251b8c135e1"
+      },
+      "dependencies" : {
+        "readable-stream" : "^2.0.1"
+      },
+      "devDependencies" : {
+        "from2" : "^2.0.3",
+        "istanbul" : "^0.3.2"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "grncdr",
+        "email" : "glurgle@gmail.com"
+      }, {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.3",
+      "_npmUser" : {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      },
+      "_id" : "merge-stream@1.0.1",
+      "gitHead" : "1b33da64b219dcc8bf33645953c32a6fd9e3b36d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/merge-stream-1.0.1.tgz_1480049995559_0.005447877338156104"
+      },
+      "_shasum" : "4041202d508a342ba00174008df0c251b8c135e1",
+      "_nodeVersion" : "7.1.0"
+    }
+  },
+  "readme" : "# merge-stream\n\nMerge (interleave) a bunch of streams.\n\n[![build status](https://secure.travis-ci.org/grncdr/merge-stream.svg?branch=master)](http://travis-ci.org/grncdr/merge-stream)\n\n## Synopsis\n\n```javascript\nvar stream1 = new Stream();\nvar stream2 = new Stream();\n\nvar merged = mergeStream(stream1, stream2);\n\nvar stream3 = new Stream();\nmerged.add(stream3);\nmerged.isEmpty();\n//=> false\n```\n\n## Description\n\nThis is adapted from [event-stream](https://github.com/dominictarr/event-stream) separated into a new module, using Streams3.\n\n## API\n\n### `mergeStream`\n\nType: `function`\n\nMerges an arbitrary number of streams. Returns a merged stream.\n\n#### `merged.add`\n\nA method to dynamically add more sources to the stream. The argument supplied to `add` can be either a source or an array of sources.\n\n#### `merged.isEmpty`\n\nA method that tells you if the merged stream is empty.\n\nWhen a stream is \"empty\" (aka. no sources were added), it could not be returned to a gulp task.\n\nSo, we could do something like this:\n\n```js\nstream = require('merge-stream')();\n// Something like a loop to add some streams to the merge stream\n// stream.add(streamA);\n// stream.add(streamB);\nreturn stream.isEmpty() ? null : stream;\n```\n\n## Gulp example\n\nAn example use case for **merge-stream** is to combine parts of a task in a project's **gulpfile.js** like this:\n\n```js\nconst gulp =          require('gulp');\nconst htmlValidator = require('gulp-w3c-html-validator');\nconst jsHint =        require('gulp-jshint');\nconst mergeStream =   require('merge-stream');\n\nfunction lint() {\n  return mergeStream(\n    gulp.src('src/*.html')\n      .pipe(htmlValidator())\n      .pipe(htmlValidator.reporter()),\n    gulp.src('src/*.js')\n      .pipe(jsHint())\n      .pipe(jsHint.reporter())\n  );\n}\ngulp.task('lint', lint);\n```\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "grncdr",
+    "email" : "glurgle@gmail.com"
+  }, {
+    "name" : "shinnn",
+    "email" : "snnskwtnb@gmail.com"
+  }, {
+    "name" : "stevemao",
+    "email" : "maochenyan@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Stephen Sugden",
+    "email" : "me@stephensugden.com"
+  },
+  "time" : {
+    "0.1.5" : "2014-07-06T17:53:30.302Z",
+    "2.0.0" : "2019-05-23T13:36:45.932Z",
+    "0.1.6" : "2014-09-24T23:58:11.643Z",
+    "0.1.3" : "2014-07-06T17:52:09.427Z",
+    "0.1.4" : "2014-07-06T17:53:03.173Z",
+    "created" : "2013-06-10T03:31:48.851Z",
+    "0.1.7" : "2015-01-10T16:40:44.587Z",
+    "0.1.8" : "2015-06-30T21:04:54.555Z",
+    "0.1.1" : "2014-05-20T06:54:55.404Z",
+    "0.1.2" : "2014-06-26T21:22:58.499Z",
+    "0.0.0" : "2013-06-10T03:31:50.008Z",
+    "0.1.0" : "2013-06-11T04:40:42.038Z",
+    "0.0.1" : "2014-05-19T08:56:09.235Z",
+    "modified" : "2019-09-10T11:58:10.225Z",
+    "1.0.0" : "2015-08-10T08:21:53.649Z",
+    "1.0.1" : "2016-11-25T04:59:57.218Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/grncdr/merge-stream.git"
+  },
+  "users" : {
+    "ccd3v" : true,
+    "etsit" : true,
+    "qoozoo" : true,
+    "otravers" : true,
+    "seangenabe" : true,
+    "h4des" : true,
+    "miadzadfallah" : true,
+    "laravelfanatic" : true,
+    "mariusz-eu" : true,
+    "yongfei_iflix" : true,
+    "qafir" : true,
+    "ghostcode521" : true,
+    "akodevs" : true,
+    "ijunlin" : true,
+    "outboundexplorer" : true,
+    "dgarlitt" : true,
+    "ham2yagi" : true,
+    "muroc" : true,
+    "magicboy" : true,
+    "alexvcasillas" : true,
+    "kirov" : true,
+    "hallaji" : true,
+    "ungurys" : true,
+    "omgben" : true,
+    "maxwang" : true,
+    "davidnyhuis" : true,
+    "denji" : true,
+    "nerdybeast" : true,
+    "illuminator" : true,
+    "tobiasalthoff" : true,
+    "slzrt" : true,
+    "bsara" : true,
+    "donggw2030521" : true,
+    "evanj0hnson" : true,
+    "abdihaikal" : true,
+    "ryanj" : true,
+    "wvlvik" : true,
+    "bmpvieira" : true,
+    "monjer" : true,
+    "rbelow" : true,
+    "rokt33r" : true,
+    "larrychen" : true,
+    "brofox" : true,
+    "mattweb" : true,
+    "wangnan0610" : true,
+    "yodairish" : true,
+    "xenohunter" : true,
+    "npmrud5g" : true,
+    "fadihania" : true,
+    "itonyyo" : true,
+    "drewigg" : true,
+    "ericwbailey" : true,
+    "classicoldsong" : true,
+    "pandao" : true,
+    "abuelwafa" : true,
+    "lmhs" : true,
+    "maxogden" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/grncdr/merge-stream#readme",
+  "bugs" : {
+    "url" : "https://github.com/grncdr/merge-stream/issues"
+  },
+  "license" : "MIT"
+}

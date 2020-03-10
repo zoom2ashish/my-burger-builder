@@ -1,0 +1,984 @@
+{
+  "_id" : "param-case",
+  "_rev" : "24-f0c9f7023efb60258940dac2f30f9bfd",
+  "name" : "param-case",
+  "description" : "Transform into a lower cased string with dashes between words",
+  "dist-tags" : {
+    "latest" : "3.0.3"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-2.0.0.tgz",
+        "shasum" : "c56207d5d8458b9c707e07442e60d2752f73f764"
+      },
+      "dependencies" : {
+        "no-case" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.4.3",
+        "mocha" : "^2.1.0",
+        "standard" : "^7.1.2"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "files" : [ "param-case.js", "param-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@2.0.0",
+      "gitHead" : "1452b3fbdf320955ce6895e518cd042680b7e1df",
+      "typings" : "param-case.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/param-case-2.0.0.tgz_1465683616698_0.7162702821660787"
+      },
+      "_shasum" : "c56207d5d8458b9c707e07442e60d2752f73f764",
+      "_nodeVersion" : "6.2.1"
+    },
+    "2.1.0" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-2.1.0.tgz",
+        "shasum" : "2619f90fd6c829ed0b958f1c84ed03a745a6d70a"
+      },
+      "dependencies" : {
+        "no-case" : "^2.2.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.4.3",
+        "mocha" : "^2.1.0",
+        "standard" : "^7.1.2"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "files" : [ "param-case.js", "param-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.3",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@2.1.0",
+      "gitHead" : "ab3e48eeba047ec15f43b3c3e2c25ff83f4147bb",
+      "typings" : "param-case.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/param-case-2.1.0.tgz_1465690191189_0.3026751666329801"
+      },
+      "_shasum" : "2619f90fd6c829ed0b958f1c84ed03a745a6d70a",
+      "_nodeVersion" : "6.2.1"
+    },
+    "0.0.2" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-0.0.2.tgz",
+        "shasum" : "4ca735280deeacb3f5fe408cdb2bb393a60413b0"
+      },
+      "dependencies" : {
+        "sentence-case" : "0.0.2"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@0.0.2"
+    },
+    "2.1.1" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-2.1.1.tgz",
+        "shasum" : "df94fd8cf6531ecf75e6bef9a0858fbc72be2247"
+      },
+      "dependencies" : {
+        "no-case" : "^2.2.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.4.3",
+        "mocha" : "^3.2.0",
+        "standard" : "^9.0.1"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "files" : [ "param-case.js", "param-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@2.1.1",
+      "gitHead" : "dcc56128779b8b98d213b38809ed4ac2ca0eb8b5",
+      "typings" : "param-case.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/param-case-2.1.1.tgz_1489799045202_0.10854671406559646"
+      },
+      "_shasum" : "df94fd8cf6531ecf75e6bef9a0858fbc72be2247",
+      "_nodeVersion" : "7.3.0"
+    },
+    "0.0.1" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-0.0.1.tgz",
+        "shasum" : "2179cb6812d91a538cdb6215fc2c8d6c3dba5a25"
+      },
+      "dependencies" : {
+        "sentence-case" : "0.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@0.0.1"
+    },
+    "0.1.0" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Blake Embrey"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-0.1.0.tgz",
+        "shasum" : "57e26873b25d5e8a5e213c4c152d4f8a516308ec"
+      },
+      "dependencies" : {
+        "sentence-case" : "^0.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.2.6",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@0.1.0"
+    },
+    "1.1.2" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-1.1.2.tgz",
+        "shasum" : "dcb091a43c259b9228f1c341e7b6a44ea0bf9743"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.2"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.1.0",
+        "pre-commit" : "^1.0.1",
+        "standard" : "^3.3.0"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "files" : [ "param-case.js", "param-case.d.ts", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "standard",
+        "test-std" : "mocha -- -R spec --bail",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+        "test" : "npm run lint && npm run test-cov"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@1.1.2",
+      "gitHead" : "9d968306f7bfe45a2da3a8e47f0a9e39b764c3ae",
+      "typings" : "param-case.d.ts",
+      "_shasum" : "dcb091a43c259b9228f1c341e7b6a44ea0bf9743",
+      "_nodeVersion" : "5.2.0"
+    },
+    "3.0.0" : {
+      "name" : "param-case",
+      "description" : "Transform into a lower cased string with dashes between words",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/param-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-3.0.0.tgz",
+        "shasum" : "4d854b786704fb7214729103695e3008365d6979"
+      },
+      "dependencies" : {
+        "dot-case" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "param", "case", "kebab", "hyphen", "dash", "dash-case", "param-case", "convert", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs && npm run size",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@3.0.0",
+      "gitHead" : "55911ca17c2e0c964b9b84143e14e29ffc9ff499",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/param-case_3.0.0_1575181156292_0.47133633405435305"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "400 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "3.0.1" : {
+      "name" : "param-case",
+      "description" : "Transform into a lower cased string with dashes between words",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/param-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-3.0.1.tgz",
+        "shasum" : "cddb765f247e6d32cc12647e40255d67b4559cfb"
+      },
+      "dependencies" : {
+        "dot-case" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "param", "case", "kebab", "hyphen", "dash", "dash-case", "param-case", "convert", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs && npm run size",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@3.0.1",
+      "gitHead" : "a3df3a43bfd3d8e3386d0fb09b69454b91516d18",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/param-case_3.0.1_1575351621543_0.741311722601159"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "400 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "1.0.0" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-1.0.0.tgz",
+        "shasum" : "f4d5cdf7371471ba019c5c163c94906a75869398"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@1.0.0",
+      "gitHead" : "3b6e0f536b2f8ff0376e972e437272dcce87f39f",
+      "_shasum" : "f4d5cdf7371471ba019c5c163c94906a75869398"
+    },
+    "3.0.2" : {
+      "name" : "param-case",
+      "description" : "Transform into a lower cased string with dashes between words",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/param-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-3.0.2.tgz",
+        "shasum" : "2518860c89ef22add388c7293c26e48c4fe90c62"
+      },
+      "dependencies" : {
+        "dot-case" : "^3.0.2",
+        "tslib" : "^1.10.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "param", "case", "kebab", "hyphen", "dash", "dash-case", "param-case", "convert", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@3.0.2",
+      "gitHead" : "07b68e1a696a1a34090d4f1fc136b1bd467aaa3f",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/param-case_3.0.2_1575601552290_0.5125947045748152"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "400 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "1.0.1" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-1.0.1.tgz",
+        "shasum" : "c004bb594d4235f6a122cb6c7cc732e8f878c354"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@1.0.1",
+      "_shasum" : "c004bb594d4235f6a122cb6c7cc732e8f878c354"
+    },
+    "1.1.0" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-1.1.0.tgz",
+        "shasum" : "77bb1e079fb1bf88aa44c7a64b6f519f86429acd"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^1.18.2",
+        "pre-commit" : "0.0.9"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "files" : [ "param-case.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.17",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@1.1.0",
+      "gitHead" : "c906a85082fcb87a9cd3fdcce2c6513277161e28",
+      "_shasum" : "77bb1e079fb1bf88aa44c7a64b6f519f86429acd",
+      "_nodeVersion" : "0.11.14"
+    },
+    "3.0.3" : {
+      "name" : "param-case",
+      "description" : "Transform into a lower cased string with dashes between words",
+      "version" : "3.0.3",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/param-case#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/change-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/change-case/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-3.0.3.tgz",
+        "shasum" : "4be41f8399eff621c56eebb829a5e451d9801238"
+      },
+      "dependencies" : {
+        "dot-case" : "^3.0.3",
+        "tslib" : "^1.10.0"
+      },
+      "devDependencies" : {
+        "@size-limit/preset-small-lib" : "^2.2.1",
+        "@types/jest" : "^24.0.23",
+        "@types/node" : "^12.12.14",
+        "jest" : "^24.9.0",
+        "rimraf" : "^3.0.0",
+        "ts-jest" : "^24.2.0",
+        "tslint" : "^5.20.1",
+        "tslint-config-prettier" : "^1.18.0",
+        "tslint-config-standard" : "^9.0.0",
+        "typescript" : "^3.7.2"
+      },
+      "keywords" : [ "param", "case", "kebab", "hyphen", "dash", "dash-case", "param-case", "convert", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "tslint \"src/**/*\" --project tsconfig.json",
+        "build" : "rimraf dist/ dist.es2015/ && tsc && tsc -P tsconfig.es2015.json",
+        "specs" : "jest --coverage",
+        "test" : "npm run build && npm run lint && npm run specs",
+        "size" : "size-limit",
+        "prepare" : "npm run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@3.0.3",
+      "gitHead" : "1c1377a692d328ae01221b2a1532bade38e1eaa3",
+      "typings" : "dist/index.d.ts",
+      "module" : "dist.es2015/index.js",
+      "jsnext:main" : "dist.es2015/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/param-case_3.0.3_1576721469104_0.7423147648925688"
+      },
+      "sideEffects" : false,
+      "jest" : {
+        "roots" : [ "<rootDir>/src/" ],
+        "transform" : {
+          "\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ]
+      },
+      "size-limit" : [ {
+        "path" : "dist/index.js",
+        "limit" : "400 B"
+      } ],
+      "_nodeVersion" : "13.1.0"
+    },
+    "1.1.1" : {
+      "name" : "param-case",
+      "description" : "Param case a string",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Blake Embrey",
+        "email" : "hello@blakeembrey.com",
+        "url" : "http://blakeembrey.me"
+      },
+      "homepage" : "https://github.com/blakeembrey/param-case",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/blakeembrey/param-case.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/blakeembrey/param-case/issues"
+      },
+      "main" : "param-case.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/param-case/-/param-case-1.1.1.tgz",
+        "shasum" : "ee5be71ddb7f5c932dd7dc09b91a77730eac560d"
+      },
+      "dependencies" : {
+        "sentence-case" : "^1.1.2"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.0",
+        "mocha" : "^2.1.0",
+        "pre-commit" : "^1.0.1"
+      },
+      "keywords" : [ "param", "case", "dash", "hyphen" ],
+      "license" : "MIT",
+      "files" : [ "param-case.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "istanbul cover _mocha -- -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "blakeembrey",
+        "email" : "hello@blakeembrey.com"
+      },
+      "_id" : "param-case@1.1.1",
+      "gitHead" : "4b4381f64363e6d4c160d9fd5545742102bc7bdf",
+      "_shasum" : "ee5be71ddb7f5c932dd7dc09b91a77730eac560d"
+    }
+  },
+  "readme" : "# Param Case\n\n[![NPM version][npm-image]][npm-url]\n[![NPM downloads][downloads-image]][downloads-url]\n[![Bundle size][bundlephobia-image]][bundlephobia-url]\n\n> Transform into a lower cased string with dashes between words.\n\n## Installation\n\n```\nnpm install param-case --save\n```\n\n## Usage\n\n```js\nimport { paramCase } from \"param-case\";\n\nparamCase(\"string\"); //=> \"string\"\nparamCase(\"dot.case\"); //=> \"dot-case\"\nparamCase(\"PascalCase\"); //=> \"pascal-case\"\nparamCase(\"version 1.2.10\"); //=> \"version-1-2-10\"\n```\n\nThe function also accepts [`options`](https://github.com/blakeembrey/change-case#options).\n\n## License\n\nMIT\n\n[npm-image]: https://img.shields.io/npm/v/param-case.svg?style=flat\n[npm-url]: https://npmjs.org/package/param-case\n[downloads-image]: https://img.shields.io/npm/dm/param-case.svg?style=flat\n[downloads-url]: https://npmjs.org/package/param-case\n[bundlephobia-image]: https://img.shields.io/bundlephobia/minzip/param-case.svg\n[bundlephobia-url]: https://bundlephobia.com/result?p=param-case\n",
+  "maintainers" : [ {
+    "name" : "blakeembrey",
+    "email" : "hello@blakeembrey.com"
+  } ],
+  "author" : {
+    "name" : "Blake Embrey",
+    "email" : "hello@blakeembrey.com",
+    "url" : "http://blakeembrey.me"
+  },
+  "time" : {
+    "2.0.0" : "2016-06-11T22:20:19.445Z",
+    "2.1.0" : "2016-06-12T00:09:53.416Z",
+    "created" : "2014-03-24T23:34:56.403Z",
+    "0.0.2" : "2014-03-25T02:14:45.769Z",
+    "2.1.1" : "2017-03-18T01:04:06.983Z",
+    "0.0.1" : "2014-03-24T23:34:56.403Z",
+    "0.1.0" : "2014-04-09T09:57:41.994Z",
+    "1.1.2" : "2015-12-16T00:20:06.749Z",
+    "3.0.0" : "2019-12-01T06:19:16.453Z",
+    "modified" : "2019-12-19T02:11:13.157Z",
+    "3.0.1" : "2019-12-03T05:40:21.655Z",
+    "1.0.0" : "2014-08-17T19:16:17.943Z",
+    "3.0.2" : "2019-12-06T03:05:52.500Z",
+    "1.0.1" : "2014-08-19T13:35:13.470Z",
+    "1.1.0" : "2015-01-12T08:30:27.933Z",
+    "3.0.3" : "2019-12-19T02:11:09.224Z",
+    "1.1.1" : "2015-01-31T10:57:30.837Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/blakeembrey/change-case.git"
+  },
+  "users" : {
+    "njif" : true,
+    "princetoad" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/blakeembrey/change-case/tree/master/packages/param-case#readme",
+  "keywords" : [ "param", "case", "kebab", "hyphen", "dash", "dash-case", "param-case", "convert", "transform" ],
+  "bugs" : {
+    "url" : "https://github.com/blakeembrey/change-case/issues"
+  },
+  "license" : "MIT"
+}

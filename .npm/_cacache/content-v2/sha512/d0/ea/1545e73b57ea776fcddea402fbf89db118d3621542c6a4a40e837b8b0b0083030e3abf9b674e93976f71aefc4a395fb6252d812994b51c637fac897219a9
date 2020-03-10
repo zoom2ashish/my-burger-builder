@@ -1,0 +1,247 @@
+{
+  "_id" : "invert-kv",
+  "_rev" : "7-fb6a852297122cda20441397aa0e925c",
+  "name" : "invert-kv",
+  "description" : "Invert the key/value of an object. Example: `{foo: 'bar'}` → `{bar: 'foo'}`",
+  "dist-tags" : {
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "invert-kv",
+      "description" : "Invert the key/value of an object. Example: `{foo: 'bar'}` → `{bar: 'foo'}`",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/invert-kv#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/invert-kv.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/invert-kv/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invert-kv/-/invert-kv-2.0.0.tgz",
+        "shasum" : "7393f5afa59ec9ff5f67a27620d11c226e3eec02"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "object", "key", "value", "kv", "invert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "invert-kv@2.0.0",
+      "gitHead" : "813edf6e4435aa1744bf219cdf25c1333153558f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/invert-kv-2.0.0.tgz_1515768649048_0.9197583636268973"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.0" : {
+      "name" : "invert-kv",
+      "description" : "Invert the key/value of an object. Example: `{foo: 'bar'}` → `{bar: 'foo'}`",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/invert-kv#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/invert-kv.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/invert-kv/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invert-kv/-/invert-kv-3.0.0.tgz",
+        "shasum" : "9db0c4817a1ec754df8067df6acf6828286f6a84"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "object", "key", "value", "invert", "keys", "values" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "invert-kv@3.0.0",
+      "gitHead" : "6c9c1e2f1de02aa2fb31988160b47ad7c90215d6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/invert-kv_3.0.0_1556598119227_0.9875138901557359"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.0.0" : {
+      "name" : "invert-kv",
+      "description" : "Invert the key/value of an object. Example: {foo: 'bar'} → {bar: 'foo'}",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/invert-kv",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/invert-kv"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/invert-kv/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invert-kv/-/invert-kv-1.0.0.tgz",
+        "shasum" : "104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "object", "obj", "key", "value", "val", "kv", "invert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "invert-kv@1.0.0",
+      "gitHead" : "c28c3a15abcde3f67bd90f90f8ffe54a5f8cb04e",
+      "_shasum" : "104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
+    },
+    "0.1.0" : {
+      "name" : "invert-kv",
+      "description" : "Invert the key/value of an object. Example: {foo: 'bar'} → {bar: 'foo'}",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/invert-kv",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/invert-kv"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/invert-kv/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/invert-kv/-/invert-kv-0.1.0.tgz",
+        "shasum" : "4638ea2a63c8362311d84cc01a5ac6cccb12a541"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "object", "obj", "key", "value", "val", "kv", "invert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "invert-kv@0.1.0",
+      "_shasum" : "4638ea2a63c8362311d84cc01a5ac6cccb12a541"
+    }
+  },
+  "readme" : "# invert-kv [![Build Status](https://travis-ci.org/sindresorhus/invert-kv.svg?branch=master)](https://travis-ci.org/sindresorhus/invert-kv)\n\n> Invert the key/value of an object. Example: `{foo: 'bar'}` → `{bar: 'foo'}`\n\n\n## Install\n\n```\n$ npm install invert-kv\n```\n\n\n## Usage\n\n```js\nconst invertKeyValue = require('invert-kv');\n\ninvertKeyValue({foo: 'bar', '🦄': '🌈'});\n//=> {bar: 'foo', '🌈': '🦄'}\n```\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-01-12T14:50:49.979Z",
+    "3.0.0" : "2019-04-30T04:21:59.345Z",
+    "created" : "2014-06-26T20:09:53.471Z",
+    "modified" : "2019-04-30T04:22:01.858Z",
+    "1.0.0" : "2014-08-13T19:22:00.751Z",
+    "0.1.0" : "2014-06-26T20:09:53.471Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/invert-kv.git"
+  },
+  "users" : {
+    "seangenabe" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/invert-kv#readme",
+  "keywords" : [ "object", "key", "value", "invert", "keys", "values" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/invert-kv/issues"
+  },
+  "license" : "MIT"
+}

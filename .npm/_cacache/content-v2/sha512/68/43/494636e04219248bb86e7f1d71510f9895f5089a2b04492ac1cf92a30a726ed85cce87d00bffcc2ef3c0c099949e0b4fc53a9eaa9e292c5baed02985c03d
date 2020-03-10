@@ -1,0 +1,469 @@
+{
+  "_id" : "walker",
+  "_rev" : "33-367fbab23c5becd5967fdbaf6b3ef91c",
+  "name" : "walker",
+  "description" : "A simple directory tree walker.",
+  "dist-tags" : {
+    "latest" : "1.0.7"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "homepage" : "https://github.com/nshah/nodejs-walker",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nshah/nodejs-walker.git"
+      },
+      "engines" : {
+        "node" : ">= 0.4.1"
+      },
+      "main" : "lib/walker",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-1.0.3.tgz",
+        "shasum" : "5e6802d473533e769db74b54e8d5dbdf94a773a2"
+      },
+      "dependencies" : {
+        "makeerror" : ">= 1.0.0"
+      },
+      "devDependencies" : {
+        "expresso" : ">= 0.8.1"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "maintainers" : [ {
+        "name" : "naitik",
+        "email" : "n@daaku.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/.bin/expresso -c"
+      },
+      "_npmVersion" : "1.0.22",
+      "_id" : "walker@1.0.3",
+      "_npmJsonOpts" : {
+        "file" : "/Users/naitik/.npm/walker/1.0.3/package/package.json",
+        "wscript" : false,
+        "contributors" : false,
+        "serverjs" : false
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.10"
+    },
+    "0.0.4" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nshah/nodejs-walker.git"
+      },
+      "engines" : {
+        "node" : ">= 0.4.1"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-0.0.4.tgz",
+        "shasum" : "05e0e7554d3c2b4780ba7b4dbab005dc04fd956f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/.bin/expresso"
+      },
+      "_npmVersion" : "1.0.1rc9",
+      "_id" : "walker@0.0.4",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.6"
+    },
+    "1.0.5" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "1.0.5",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "homepage" : "https://github.com/daaku/nodejs-walker",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/daaku/nodejs-walker"
+      },
+      "bugs" : {
+        "url" : "https://github.com/daaku/nodejs-walker/issues"
+      },
+      "engines" : {
+        "node" : "0.6.x"
+      },
+      "main" : "lib/walker",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-1.0.5.tgz",
+        "shasum" : "6aac711dcacafddf36fbc0b7098b7394856380bc"
+      },
+      "dependencies" : {
+        "makeerror" : "1.0.x"
+      },
+      "devDependencies" : {
+        "mocha" : "0.12.x"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "maintainers" : [ {
+        "name" : "daaku",
+        "email" : "n@daaku.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_PATH=./lib mocha --ui exports"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "daaku",
+        "email" : "n@daaku.org"
+      },
+      "_id" : "walker@1.0.5"
+    },
+    "1.0.6" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "1.0.6",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "homepage" : "https://github.com/daaku/nodejs-walker",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/daaku/nodejs-walker"
+      },
+      "bugs" : {
+        "url" : "https://github.com/daaku/nodejs-walker/issues"
+      },
+      "main" : "lib/walker",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-1.0.6.tgz",
+        "shasum" : "4fe19098c06f1c16f19429acfc483429344da250"
+      },
+      "dependencies" : {
+        "makeerror" : "1.0.x"
+      },
+      "devDependencies" : {
+        "mocha" : "0.12.x"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "maintainers" : [ {
+        "name" : "daaku",
+        "email" : "n@daaku.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_PATH=./lib mocha --ui exports"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "daaku",
+        "email" : "n@daaku.org"
+      },
+      "_id" : "walker@1.0.6"
+    },
+    "1.0.7" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "1.0.7",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "homepage" : "https://github.com/daaku/nodejs-walker",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/daaku/nodejs-walker"
+      },
+      "bugs" : {
+        "url" : "https://github.com/daaku/nodejs-walker/issues"
+      },
+      "main" : "lib/walker",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-1.0.7.tgz",
+        "shasum" : "2f7f9b8fd10d677262b18a884e28d19618e028fb"
+      },
+      "dependencies" : {
+        "makeerror" : "1.0.x"
+      },
+      "devDependencies" : {
+        "mocha" : "0.12.x"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "daaku",
+        "email" : "n@daaku.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "NODE_PATH=./lib mocha --ui exports"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "daaku",
+        "email" : "n@daaku.org"
+      },
+      "_id" : "walker@1.0.7",
+      "gitHead" : "3f78f80d026fd1efd2adc2f8927a0a4ccae35644",
+      "_shasum" : "2f7f9b8fd10d677262b18a884e28d19618e028fb",
+      "_nodeVersion" : "0.12.2"
+    },
+    "0.0.3" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nshah/nodejs-walker.git"
+      },
+      "engines" : {
+        "node" : ">= 0.4.1"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-0.0.3.tgz",
+        "shasum" : "ea65527ddb4c208a78a0a38af9e546661146b4ad"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "files" : [ "" ],
+      "directories" : {
+      },
+      "_npmVersion" : "0.3.9",
+      "_id" : "walker@0.0.3",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.1"
+    },
+    "1.0.0" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nshah/nodejs-walker.git"
+      },
+      "engines" : {
+        "node" : ">= 0.4.1"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-1.0.0.tgz",
+        "shasum" : "a88298c29997ccca7854bc3503a0fe5a82e4086d"
+      },
+      "dependencies" : {
+        "makeerror" : ">= 1.0.0"
+      },
+      "devDependencies" : {
+        "expresso" : ">= 0.8.1"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/.bin/expresso"
+      },
+      "_npmVersion" : "1.0.18",
+      "_id" : "walker@1.0.0",
+      "_npmJsonOpts" : {
+        "file" : "/Users/naitik/.npm/walker/1.0.0/package/package.json",
+        "wscript" : false,
+        "contributors" : false,
+        "serverjs" : false
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.10"
+    },
+    "1.0.1" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nshah/nodejs-walker.git"
+      },
+      "engines" : {
+        "node" : ">= 0.4.1"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-1.0.1.tgz",
+        "shasum" : "76af7f844ed64f712bd8fbb9c430cea0b095e08b"
+      },
+      "dependencies" : {
+        "makeerror" : ">= 1.0.0"
+      },
+      "devDependencies" : {
+        "expresso" : ">= 0.8.1"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/.bin/expresso"
+      },
+      "_npmVersion" : "1.0.18",
+      "_id" : "walker@1.0.1",
+      "_npmJsonOpts" : {
+        "file" : "/Users/naitik/.npm/walker/1.0.1/package/package.json",
+        "wscript" : false,
+        "contributors" : false,
+        "serverjs" : false
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.10"
+    },
+    "0.0.1" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "engines" : {
+        "node" : ">= 0.2.3"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-0.0.1.tgz",
+        "shasum" : "121a2c96eddb794dc3347c2adae133732dc9a802"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "directories" : {
+        "lib" : "./lib"
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "walker@0.0.1",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "1.0.2" : {
+      "name" : "walker",
+      "description" : "A simple directory tree walker.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Naitik Shah",
+        "email" : "n@daaku.org"
+      },
+      "homepage" : "https://github.com/nshah/nodejs-walker",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nshah/nodejs-walker.git"
+      },
+      "engines" : {
+        "node" : ">= 0.4.1"
+      },
+      "main" : "lib/walker",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/walker/-/walker-1.0.2.tgz",
+        "shasum" : "b623aa49b1fc88303f6e16dbea69e53b1550f19a"
+      },
+      "dependencies" : {
+        "makeerror" : ">= 1.0.0"
+      },
+      "devDependencies" : {
+        "expresso" : ">= 0.8.1"
+      },
+      "keywords" : [ "utils", "fs", "filesystem" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/.bin/expresso -c"
+      },
+      "_npmVersion" : "1.0.18",
+      "_id" : "walker@1.0.2",
+      "_npmJsonOpts" : {
+        "file" : "/Users/naitik/.npm/walker/1.0.2/package/package.json",
+        "wscript" : false,
+        "contributors" : false,
+        "serverjs" : false
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.10"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "walker [![Build Status](https://secure.travis-ci.org/daaku/nodejs-walker.png)](http://travis-ci.org/daaku/nodejs-walker)\n======\n\nA nodejs directory walker. Broadcasts events for various file types as well as\na generic \"entry\" event for all types and provides the ability to prune\ndirectory trees. This shows the entire API; everything is optional:\n\n```javascript\nWalker('/etc/')\n  .filterDir(function(dir, stat) {\n    if (dir === '/etc/pam.d') {\n      console.warn('Skipping /etc/pam.d and children')\n      return false\n    }\n    return true\n  })\n  .on('entry', function(entry, stat) {\n    console.log('Got entry: ' + entry)\n  })\n  .on('dir', function(dir, stat) {\n    console.log('Got directory: ' + dir)\n  })\n  .on('file', function(file, stat) {\n    console.log('Got file: ' + file)\n  })\n  .on('symlink', function(symlink, stat) {\n    console.log('Got symlink: ' + symlink)\n  })\n  .on('blockDevice', function(blockDevice, stat) {\n    console.log('Got blockDevice: ' + blockDevice)\n  })\n  .on('fifo', function(fifo, stat) {\n    console.log('Got fifo: ' + fifo)\n  })\n  .on('socket', function(socket, stat) {\n    console.log('Got socket: ' + socket)\n  })\n  .on('characterDevice', function(characterDevice, stat) {\n    console.log('Got characterDevice: ' + characterDevice)\n  })\n  .on('error', function(er, entry, stat) {\n    console.log('Got error ' + er + ' on entry ' + entry)\n  })\n  .on('end', function() {\n    console.log('All files traversed.')\n  })\n```\n\nYou specify a root directory to walk and optionally specify a function to prune\nsub-directory trees via the `filterDir` function. The Walker exposes a number\nof events, broadcasting various file type events a generic error event and\nfinally the event to signal the end of the process.\n",
+  "maintainers" : [ {
+    "name" : "daaku",
+    "email" : "n@daaku.org"
+  } ],
+  "author" : {
+    "name" : "Naitik Shah",
+    "email" : "n@daaku.org"
+  },
+  "time" : {
+    "1.0.3" : "2011-08-17T21:07:44.294Z",
+    "0.0.4" : "2011-04-18T02:16:54.498Z",
+    "1.0.5" : "2013-10-09T18:39:46.815Z",
+    "1.0.6" : "2014-04-06T00:45:18.489Z",
+    "1.0.7" : "2015-05-21T04:26:20.600Z",
+    "created" : "2011-02-25T03:14:27.035Z",
+    "modified" : "2018-01-23T05:01:02.169Z",
+    "0.0.3" : "2011-02-25T03:14:27.035Z",
+    "1.0.0" : "2011-07-24T19:45:54.486Z",
+    "1.0.1" : "2011-07-24T19:53:40.513Z",
+    "0.0.1" : "2011-02-25T03:14:27.035Z",
+    "1.0.2" : "2011-07-27T17:41:46.799Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/daaku/nodejs-walker"
+  },
+  "users" : {
+    "mightyjongyo" : true,
+    "xtx1130" : true,
+    "shuoshubao" : true,
+    "dunstontc" : true,
+    "monjer" : true,
+    "wisetc" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/daaku/nodejs-walker",
+  "keywords" : [ "utils", "fs", "filesystem" ],
+  "bugs" : {
+    "url" : "https://github.com/daaku/nodejs-walker/issues"
+  },
+  "license" : "Apache-2.0"
+}

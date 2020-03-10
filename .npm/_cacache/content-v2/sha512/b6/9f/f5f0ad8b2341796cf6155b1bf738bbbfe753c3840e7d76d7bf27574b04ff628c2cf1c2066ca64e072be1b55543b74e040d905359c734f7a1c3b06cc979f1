@@ -1,0 +1,1316 @@
+{
+  "_id" : "shell-quote",
+  "_rev" : "47-8b3982cf2fd2fdaa8cd4d32beb30fd79",
+  "name" : "shell-quote",
+  "description" : "quote and parse shell commands",
+  "dist-tags" : {
+    "latest" : "1.7.2"
+  },
+  "versions" : {
+    "0.1.1" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-0.1.1.tgz",
+        "shasum" : "b392bfa55b2ad8b99efc6565e2edc8a3be96d33a"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0",
+        "tape" : "~0.3.3"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@0.1.1",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "0.0.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-shell-quote.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-0.0.0.tgz",
+        "shasum" : "bebda987f1123d9a357a99be33f6f0acae84e2e1"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.2.5"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test"
+      },
+      "_npmVersion" : "1.1.19",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@0.0.0",
+      "engine" : {
+        "node" : ">=0.4"
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.11"
+    },
+    "0.0.1" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-shell-quote.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-0.0.1.tgz",
+        "shasum" : "1a41196f3c0333c482323593d6886ecf153dd986"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.2.5"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test"
+      },
+      "_npmVersion" : "1.1.19",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@0.0.1",
+      "engine" : {
+        "node" : ">=0.4"
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.11"
+    },
+    "0.1.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-0.1.0.tgz",
+        "shasum" : "f751154dd7f2b2c60b66ab7cf8fee1d34d45b9e2"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0",
+        "tape" : "~0.3.3"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@0.1.0",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "1.3.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.3.0.tgz",
+        "shasum" : "12f9cd3255ec2d95c82a69a81d851766a8baa32b"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.2",
+        "tape" : "~1.0.2"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.3.0",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "1.3.1" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.3.1.tgz",
+        "shasum" : "4adb4f6d9e09c18203b3dbf0cf37ef693388eb28"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.2",
+        "tape" : "~1.0.2"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.3.1",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "1.4.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.4.0.tgz",
+        "shasum" : "0715683372d6a87dad8b098812ef72d24620c1b5"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.2",
+        "tape" : "~1.0.2"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.7",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.4.0",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "1.3.2" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.3.2.tgz",
+        "shasum" : "1bd13a2b46cb7982ad0d009405a62674d68d663b"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.2",
+        "tape" : "~1.0.2"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.3.2",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "1.4.1" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.4.1.tgz",
+        "shasum" : "ae18442b536a08c720239b079d2f228acbedee40"
+      },
+      "dependencies" : {
+        "jsonify" : "~0.0.0",
+        "array-filter" : "~0.0.0",
+        "array-reduce" : "~0.0.0",
+        "array-map" : "~0.0.0"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.4.1",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "firefox/3.5", "firefox/15..latest", "firefox/nightly", "chrome/25..latest", "chrome/canary", "opera/10..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2..latest" ]
+      }
+    },
+    "1.5.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.5.0.tgz",
+        "shasum" : "8c0a7e9f4713716c21e962a6ed5faf830dc77a88"
+      },
+      "dependencies" : {
+        "jsonify" : "~0.0.0",
+        "array-filter" : "~0.0.0",
+        "array-reduce" : "~0.0.0",
+        "array-map" : "~0.0.0"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.1",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "substack@gmail.com"
+      },
+      "_id" : "shell-quote@1.5.0",
+      "gitHead" : "609735869389bd3fbc4bac9830f34fcea5cb6e46",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "firefox/3.5", "firefox/15..latest", "firefox/nightly", "chrome/25..latest", "chrome/canary", "opera/10..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2..latest" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/shell-quote-1.5.0.tgz_1458151108159_0.1286316504701972"
+      },
+      "_shasum" : "8c0a7e9f4713716c21e962a6ed5faf830dc77a88",
+      "_nodeVersion" : "5.5.0"
+    },
+    "1.3.3" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.3.3",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.3.3.tgz",
+        "shasum" : "07b8826f427c052511e8b5627639e172596e8e4b"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.2",
+        "tape" : "~1.0.2"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.3.3",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "1.4.2" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.4.2.tgz",
+        "shasum" : "f132a54f2030d69280d370d4974155f85f62f67b"
+      },
+      "dependencies" : {
+        "jsonify" : "~0.0.0",
+        "array-filter" : "~0.0.0",
+        "array-reduce" : "~0.0.0",
+        "array-map" : "~0.0.0"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.15",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.4.2",
+      "gitHead" : "cf747ca3969f4a4a27a7270f1f1cc7665751e8ec",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "firefox/3.5", "firefox/15..latest", "firefox/nightly", "chrome/25..latest", "chrome/canary", "opera/10..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2..latest" ]
+      },
+      "_shasum" : "f132a54f2030d69280d370d4974155f85f62f67b"
+    },
+    "1.6.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.6.0.tgz",
+        "shasum" : "c8906761e1730d1ef771c82df5423d595c1bb31d"
+      },
+      "dependencies" : {
+        "jsonify" : "~0.0.0",
+        "array-filter" : "~0.0.0",
+        "array-reduce" : "~0.0.0",
+        "array-map" : "~0.0.0"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "karissa",
+        "email" : "krmckelv@gmail.com"
+      }, {
+        "name" : "substack",
+        "email" : "substack@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.1",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "substack@gmail.com"
+      },
+      "_id" : "shell-quote@1.6.0",
+      "gitHead" : "88a5280d9c3f5d43fffa538ae9919d1ae579b56e",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "firefox/3.5", "firefox/15..latest", "firefox/nightly", "chrome/25..latest", "chrome/canary", "opera/10..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2..latest" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/shell-quote-1.6.0.tgz_1461477204944_0.5755356843583286"
+      },
+      "_shasum" : "c8906761e1730d1ef771c82df5423d595c1bb31d",
+      "_nodeVersion" : "5.5.0"
+    },
+    "1.4.3" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.4.3",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote",
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.4.3.tgz",
+        "shasum" : "952c44e0b1ed9013ef53958179cc643e8777466b"
+      },
+      "dependencies" : {
+        "jsonify" : "~0.0.0",
+        "array-filter" : "~0.0.0",
+        "array-reduce" : "~0.0.0",
+        "array-map" : "~0.0.0"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.3.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.4.3",
+      "gitHead" : "88c9b82e446c32bf782461059d2cb8b147e037d8",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "firefox/3.5", "firefox/15..latest", "firefox/nightly", "chrome/25..latest", "chrome/canary", "opera/10..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2..latest" ]
+      },
+      "_shasum" : "952c44e0b1ed9013ef53958179cc643e8777466b",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.6.1" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.6.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.6.1.tgz",
+        "shasum" : "f4781949cce402697127430ea3b3c5476f481767"
+      },
+      "dependencies" : {
+        "jsonify" : "~0.0.0",
+        "array-filter" : "~0.0.0",
+        "array-reduce" : "~0.0.0",
+        "array-map" : "~0.0.0"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "karissa",
+        "email" : "krmckelv@gmail.com"
+      }, {
+        "name" : "substack",
+        "email" : "substack@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.1",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "substack@gmail.com"
+      },
+      "_id" : "shell-quote@1.6.1",
+      "gitHead" : "09935581cd2b300d74a65bda3b1cbeb52779dd16",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "firefox/3.5", "firefox/15..latest", "firefox/nightly", "chrome/25..latest", "chrome/canary", "opera/10..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2..latest" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/shell-quote-1.6.1.tgz_1466196190331_0.3792361367959529"
+      },
+      "_shasum" : "f4781949cce402697127430ea3b3c5476f481767",
+      "_nodeVersion" : "5.5.0"
+    },
+    "1.7.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.7.0.tgz",
+        "shasum" : "42d2e1d6d2438ae15b4812a626668f5708213394"
+      },
+      "devDependencies" : {
+        "tape" : "4"
+      },
+      "keywords" : [ "command", "parse", "quote", "shell" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "renee@kooi.me",
+        "name" : "goto-bus-stop"
+      }, {
+        "email" : "jacob.im.waddell@gmail.com",
+        "name" : "jiwaddell"
+      }, {
+        "email" : "krmckelv@gmail.com",
+        "name" : "karissa"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_npmVersion" : "6.10.3",
+      "_npmUser" : {
+        "name" : "goto-bus-stop",
+        "email" : "renee@kooi.me"
+      },
+      "_id" : "shell-quote@1.7.0",
+      "gitHead" : "09ed4dfb9fe315b4a416e36e0c39bda87975494e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/shell-quote_1.7.0_1565682734654_0.9171863951542019"
+      },
+      "_nodeVersion" : "12.7.0"
+    },
+    "1.6.2" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.6.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.6.2.tgz",
+        "shasum" : "9a9d1df129ab82a16cb57c6ee4d191c7c87793c9"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "renee@kooi.me",
+        "name" : "goto-bus-stop"
+      }, {
+        "email" : "jacob.im.waddell@gmail.com",
+        "name" : "jiwaddell"
+      }, {
+        "email" : "krmckelv@gmail.com",
+        "name" : "karissa"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_npmVersion" : "6.10.3",
+      "_npmUser" : {
+        "name" : "goto-bus-stop",
+        "email" : "renee@kooi.me"
+      },
+      "_id" : "shell-quote@1.6.2",
+      "gitHead" : "fd9e3da9fd9b275dca0eefdb8062306e76528a97",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "firefox/3.5", "firefox/15..latest", "firefox/nightly", "chrome/25..latest", "chrome/canary", "opera/10..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2..latest" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/shell-quote_1.6.2_1565680552220_0.6823407565229571"
+      },
+      "_nodeVersion" : "12.7.0"
+    },
+    "1.7.1" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.7.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.7.1.tgz",
+        "shasum" : "3161d969886fb14f9140c65245a5dd19b6f0b06b"
+      },
+      "devDependencies" : {
+        "tape" : "4"
+      },
+      "keywords" : [ "command", "parse", "quote", "shell" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "renee@kooi.me",
+        "name" : "goto-bus-stop"
+      }, {
+        "email" : "jacob.im.waddell@gmail.com",
+        "name" : "jiwaddell"
+      }, {
+        "email" : "krmckelv@gmail.com",
+        "name" : "karissa"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_npmVersion" : "6.10.3",
+      "_npmUser" : {
+        "name" : "goto-bus-stop",
+        "email" : "renee@kooi.me"
+      },
+      "_id" : "shell-quote@1.7.1",
+      "gitHead" : "c2950fba942da2d2e17a8fb5a4eaf8f8c72d1ab3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/shell-quote_1.7.1_1565703305203_0.4317010914374828"
+      },
+      "_nodeVersion" : "12.7.0"
+    },
+    "1.6.3" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.6.3",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.6.3.tgz",
+        "shasum" : "54bd93b5964f6a451fe8dbb8668416d40e3501e4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "4"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "renee@kooi.me",
+        "name" : "goto-bus-stop"
+      }, {
+        "email" : "jacob.im.waddell@gmail.com",
+        "name" : "jiwaddell"
+      }, {
+        "email" : "krmckelv@gmail.com",
+        "name" : "karissa"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_npmVersion" : "6.10.3",
+      "_npmUser" : {
+        "name" : "goto-bus-stop",
+        "email" : "renee@kooi.me"
+      },
+      "_id" : "shell-quote@1.6.3",
+      "gitHead" : "c90d2c69b74865f7018a18e8c847d1fac4efcd28",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "firefox/3.5", "firefox/15..latest", "firefox/nightly", "chrome/25..latest", "chrome/canary", "opera/10..latest", "opera/next", "safari/5.1..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2..latest" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/shell-quote_1.6.3_1565682100274_0.23050883986074888"
+      },
+      "_nodeVersion" : "12.7.0"
+    },
+    "1.7.2" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.7.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-shell-quote",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-shell-quote/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.7.2.tgz",
+        "shasum" : "67a7d02c76c9da24f99d20808fcaded0e0e04be2"
+      },
+      "devDependencies" : {
+        "tape" : "4"
+      },
+      "keywords" : [ "command", "parse", "quote", "shell" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "renee@kooi.me",
+        "name" : "goto-bus-stop"
+      }, {
+        "email" : "jacob.im.waddell@gmail.com",
+        "name" : "jiwaddell"
+      }, {
+        "email" : "krmckelv@gmail.com",
+        "name" : "karissa"
+      }, {
+        "email" : "substack@gmail.com",
+        "name" : "substack"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_npmVersion" : "6.11.2",
+      "_npmUser" : {
+        "name" : "goto-bus-stop",
+        "email" : "renee@kooi.me"
+      },
+      "_id" : "shell-quote@1.7.2",
+      "gitHead" : "89a1993809eb7620ec985c3b6869c9079287c35a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/shell-quote_1.7.2_1567324000519_0.9972134593231239"
+      },
+      "_nodeVersion" : "12.9.1"
+    },
+    "1.0.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.0.0.tgz",
+        "shasum" : "01d1fb07e34de47dab2998da567fbb0e9c1fa427"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0",
+        "tape" : "~0.3.3"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.0.0",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "1.1.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.1.0.tgz",
+        "shasum" : "ec4e2e2f722b1f0bae1daa8d1bbcfe0ebd0083d3"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0",
+        "tape" : "~0.3.3"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.1.0",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    },
+    "1.2.0" : {
+      "name" : "shell-quote",
+      "description" : "quote and parse shell commands",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shell-quote.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/shell-quote/-/shell-quote-1.2.0.tgz",
+        "shasum" : "7d74dd41377b68fe8345dc89420423537dec9240"
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.0",
+        "tape" : "~0.3.3"
+      },
+      "keywords" : [ "shell", "command", "quote", "parse" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.2",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      },
+      "_id" : "shell-quote@1.2.0",
+      "engine" : {
+        "node" : ">=0.4"
+      }
+    }
+  },
+  "readme" : "# shell-quote\n\nParse and quote shell commands.\n\n# example\n\n## quote\n\n``` js\nvar quote = require('shell-quote').quote;\nvar s = quote([ 'a', 'b c d', '$f', '\"g\"' ]);\nconsole.log(s);\n```\n\noutput\n\n```\na 'b c d' \\$f '\"g\"'\n```\n\n## parse\n\n``` js\nvar parse = require('shell-quote').parse;\nvar xs = parse('a \"b c\" \\\\$def \\'it\\\\\\'s great\\'');\nconsole.dir(xs);\n```\n\noutput\n\n```\n[ 'a', 'b c', '\\\\$def', 'it\\'s great' ]\n```\n\n## parse with an environment variable\n\n``` js\nvar parse = require('shell-quote').parse;\nvar xs = parse('beep --boop=\"$PWD\"', { PWD: '/home/robot' });\nconsole.dir(xs);\n```\n\noutput\n\n```\n[ 'beep', '--boop=/home/robot' ]\n```\n\n## parse with custom escape charcter\n\n``` js\nvar parse = require('shell-quote').parse;\nvar xs = parse('beep --boop=\"$PWD\"', { PWD: '/home/robot' }, { escape: '^' });\nconsole.dir(xs);\n```\n\noutput\n\n```\n[ 'beep', '--boop=/home/robot' ]\n```\n\n## parsing shell operators\n\n``` js\nvar parse = require('shell-quote').parse;\nvar xs = parse('beep || boop > /byte');\nconsole.dir(xs);\n```\n\noutput:\n\n```\n[ 'beep', { op: '||' }, 'boop', { op: '>' }, '/byte' ]\n```\n\n## parsing shell comment\n\n``` js\nvar parse = require('shell-quote').parse;\nvar xs = parse('beep > boop # > kaboom');\nconsole.dir(xs);\n```\n\noutput:\n\n```\n[ 'beep', { op: '>' }, 'boop', { comment: '> kaboom' } ]\n```\n\n# methods\n\n``` js\nvar quote = require('shell-quote').quote;\nvar parse = require('shell-quote').parse;\n```\n\n## quote(args)\n\nReturn a quoted string for the array `args` suitable for using in shell\ncommands.\n\n## parse(cmd, env={})\n\nReturn an array of arguments from the quoted string `cmd`.\n\nInterpolate embedded bash-style `$VARNAME` and `${VARNAME}` variables with\nthe `env` object which like bash will replace undefined variables with `\"\"`.\n\n`env` is usually an object but it can also be a function to perform lookups.\nWhen `env(key)` returns a string, its result will be output just like `env[key]`\nwould. When `env(key)` returns an object, it will be inserted into the result\narray like the operator objects.\n\nWhen a bash operator is encountered, the element in the array with be an object\nwith an `\"op\"` key set to the operator string. For example:\n\n```\n'beep || boop > /byte'\n```\n\nparses as:\n\n```\n[ 'beep', { op: '||' }, 'boop', { op: '>' }, '/byte' ]\n```\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install shell-quote\n```\n\n# license\n\nMIT\n",
+  "maintainers" : [ {
+    "email" : "renee@kooi.me",
+    "name" : "goto-bus-stop"
+  }, {
+    "email" : "jacob.im.waddell@gmail.com",
+    "name" : "jiwaddell"
+  }, {
+    "email" : "krmckelv@gmail.com",
+    "name" : "karissa"
+  }, {
+    "email" : "substack@gmail.com",
+    "name" : "substack"
+  } ],
+  "author" : {
+    "name" : "James Halliday",
+    "email" : "mail@substack.net",
+    "url" : "http://substack.net"
+  },
+  "time" : {
+    "0.1.1" : "2013-04-17T08:06:42.055Z",
+    "0.0.0" : "2012-05-18T10:42:06.889Z",
+    "0.0.1" : "2012-05-18T18:25:42.901Z",
+    "0.1.0" : "2013-04-15T04:36:33.462Z",
+    "modified" : "2019-09-01T07:46:43.146Z",
+    "created" : "2012-05-18T10:42:05.440Z",
+    "1.3.0" : "2013-05-13T13:42:12.633Z",
+    "1.3.1" : "2013-05-13T13:48:27.591Z",
+    "1.4.0" : "2013-10-18T01:40:45.325Z",
+    "1.3.2" : "2013-06-24T11:50:12.621Z",
+    "1.4.1" : "2013-12-25T01:00:11.788Z",
+    "1.5.0" : "2016-03-16T17:58:28.755Z",
+    "1.3.3" : "2013-06-24T12:01:40.000Z",
+    "1.4.2" : "2014-07-20T21:27:22.803Z",
+    "1.6.0" : "2016-04-24T05:53:28.112Z",
+    "1.4.3" : "2015-03-08T03:47:14.368Z",
+    "1.6.1" : "2016-06-17T20:43:12.824Z",
+    "1.7.0" : "2019-08-13T07:52:14.822Z",
+    "1.6.2" : "2019-08-13T07:15:52.345Z",
+    "1.7.1" : "2019-08-13T13:35:05.409Z",
+    "1.6.3" : "2019-08-13T07:41:40.441Z",
+    "1.7.2" : "2019-09-01T07:46:40.669Z",
+    "1.0.0" : "2013-05-13T10:27:10.851Z",
+    "1.1.0" : "2013-05-13T10:35:28.131Z",
+    "1.2.0" : "2013-05-13T12:10:00.722Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+ssh://git@github.com/substack/node-shell-quote.git"
+  },
+  "users" : {
+    "chirayuk" : true,
+    "simplyianm" : true,
+    "ralucas" : true,
+    "magomogo" : true,
+    "mikedamage" : true,
+    "dantman" : true
+  },
+  "readmeFilename" : "readme.markdown",
+  "homepage" : "https://github.com/substack/node-shell-quote",
+  "keywords" : [ "command", "parse", "quote", "shell" ],
+  "bugs" : {
+    "url" : "https://github.com/substack/node-shell-quote/issues"
+  },
+  "license" : "MIT"
+}

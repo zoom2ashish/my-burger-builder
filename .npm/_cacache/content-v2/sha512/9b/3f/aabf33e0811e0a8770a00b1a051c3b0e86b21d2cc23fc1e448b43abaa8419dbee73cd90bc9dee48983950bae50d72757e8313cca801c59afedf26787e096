@@ -1,0 +1,2759 @@
+{
+  "_id" : "@webassemblyjs/floating-point-hex-parser",
+  "_rev" : "57-514a6ace4d1dfc3078f9422d7286e46c",
+  "name" : "@webassemblyjs/floating-point-hex-parser",
+  "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+  "dist-tags" : {
+    "latest" : "1.9.0"
+  },
+  "versions" : {
+    "1.8.3" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.8.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.8.3.tgz",
+        "shasum" : "f198a2d203b3c50846a064f5addd6a133ef9bc0e"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.8.3",
+      "gitHead" : "e482c7ec291d61fc46e42c93d3b8ec7517b629e1",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.8.3_1550479017864_0.9342285942073472"
+      }
+    },
+    "1.8.4" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.8.4",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.8.4.tgz",
+        "shasum" : "d319f829344e6b58fd3d05a72bf0b7704680456d"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.8.4",
+      "gitHead" : "0154b989cc9b41c695724a361b3aa6fa19c5b032",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.8.4_1550597218215_0.7988155453938954"
+      }
+    },
+    "1.8.5" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.8.5",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.8.5.tgz",
+        "shasum" : "1ba926a2923613edce496fd5b02e8ce8a5f49721"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.8.5",
+      "gitHead" : "77bc195e9bb463b4fa4cbdb6291eed446d454d49",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.8.5_1551004958767_0.276850251317041"
+      }
+    },
+    "1.7.0-1" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.0-1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.0-1.tgz",
+        "shasum" : "008fc540077731a8932ea83fab6970c5f8aeaf9a"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.0-1",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.0-1_1531925933037_0.11302729608792461"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.0-2" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.0-2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.0-2.tgz",
+        "shasum" : "b2cea8dbe7d97d9be6ab0b00803c49f9464f9bbf"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.0-2",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.0-2_1531926853001_0.6915564998804453"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.2-0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.2-0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.2-0.tgz",
+        "shasum" : "49eb575df9755449886711e6ce638314e53a9699"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.2-0",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.2-0_1532023768138_0.4784375999359325"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.0-3" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.0-3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.0-3.tgz",
+        "shasum" : "9e0dce49f42b28bab5779233faf917e905a56554"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.0-3",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.0-3_1531940612787_0.9612980153973856"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.2-1" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.2-1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.2-1.tgz",
+        "shasum" : "fb90852337dff64cbfdaaf70debab9cb98695901"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.2-1",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.2-1_1532024646666_0.8007261440051481"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.13" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.13",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.13.tgz",
+        "shasum" : "29ce0baa97411f70e8cce68ce9c0f9d819a4e298"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.13",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.13_1530366257151_0.07733607941173215"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.11" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.11",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.11.tgz",
+        "shasum" : "ea0463c91ac9a37fc42e898be4a38a90576dd7c2"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.11_1528275471688_0.44845241710709316"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.12" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.12",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.12.tgz",
+        "shasum" : "0f36044ffe9652468ce7ae5a08716a4eeff9cd9c"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.12",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.12_1528363497213_0.38008311439386744"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.10" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.10",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.10.tgz",
+        "shasum" : "ae48705fd58927df62023f114520b8215330ff86"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.10_1527859231346_0.2425252556707529"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.3.0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.3.0.tgz",
+        "shasum" : "a32574e1327a946c78711179fda8bcc808285913"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.3.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.3.0_1525440631419_0.27003691533492513"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.3.1" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.3.1.tgz",
+        "shasum" : "82646903ba25c3e5d88dec41ecb4e4d770615bfc"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.3.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.3.1_1525716515514_0.8779015954978016"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.3.2" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.3.2.tgz",
+        "shasum" : "a749e630e6b78fab70dbeac5710038fba241548d"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.3.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.3.2_1525805203657_0.5502524054002214"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.5.0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.0.tgz",
+        "shasum" : "37fd9785ef9f7b655522235308a23e3770a695a9"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.0_1526316392712_0.2720249344923167"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.3.3" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.3.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.3.3.tgz",
+        "shasum" : "0c747408fd2288e64b6eed9964b87cfc601add80"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.3.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.3.3_1525852314103_0.5533056413195443"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.5.1" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.1.tgz",
+        "shasum" : "0af82482faea3d86e37a020643475571197e8b3f"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.1_1526469850227_0.6236383383002615"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.0-0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.0-0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.0-0.tgz",
+        "shasum" : "74e16b8fa2a5f073dc8cfef9e6e0c25c05396337"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.0-0",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.0-0_1531918664553_0.9015359959143243"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.2" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.2.tgz",
+        "shasum" : "273d55df5ead050b7739f22f1f624c5bf790a6f7"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.2_1526561380017_0.7711902711159198"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.0.tgz",
+        "shasum" : "fc6323ccb82dcf9d8920b8067fb51948705bfe8e"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.0",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.0_1532016030153_0.8500485697858271"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.3" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.3.tgz",
+        "shasum" : "dc2971e0951e2eb925e2b7a8800ae375868a0b41"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.3_1526900872651_0.7790213091655545"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.1" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.1.tgz",
+        "shasum" : "bff3b564b1b6378dbaf794a878515896f3c64915"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.1",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.1_1532017880998_0.8187533833955254"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.4" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.4",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.4.tgz",
+        "shasum" : "b51b380a86914ae87ec075965eee24ac393c967e"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.4_1526907400428_0.9009299816732912"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.2" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.2.tgz",
+        "shasum" : "1cb63e9c9521a219ddbec8a624e1e33167756830"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.2",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.2_1532025189713_0.6905868653739236"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.9.0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.9.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.9.0.tgz",
+        "shasum" : "3c3d3b271bddfc84deb00f71344438311d52ffb4"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.4/node@v12.3.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "npm@sauleau.com"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.9.0",
+      "gitHead" : "0440b420888c1f7701eb9762ec657775506b87d8",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.9.0_1580599183999_0.05708543180278847"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "1.5.5" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.5",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.5.tgz",
+        "shasum" : "e9f81ffbd48682171bcb2d9f300b24aca210b85b"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.5_1527148892724_0.5540875886147001"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.3" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.3.tgz",
+        "shasum" : "75da2171e1db1cacecc1b43bc3aca96e5fdd7e08"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.3",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.3_1532329327882_0.9929197522447373"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.6" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.6",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.6.tgz",
+        "shasum" : "f93617b8d22236e80e1c829a88aff885a5a57625"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.6_1527171637813_0.9578564184260321"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.4" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.4",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.4.tgz",
+        "shasum" : "94b858426e1ec362f26d89eb7f060fb576744496"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.4",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.4_1532415713835_0.32284924723124453"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.7" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.7",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.7.tgz",
+        "shasum" : "45d88100cdc5c068c961fd606d1deaa2bc55b061"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.7_1527252842899_0.6685061094160143"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.5" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.5",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.5.tgz",
+        "shasum" : "9908b85262e189ec6347512e80ee6c881ba9128c"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.5",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.5_1534431256670_0.642277820714847"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.8" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.8",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.8.tgz",
+        "shasum" : "e0604d34fab0c910e16113720a5a3c01f558fa54"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.8_1527511709813_0.9875822680779704"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.6" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.6",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.6.tgz",
+        "shasum" : "7cb37d51a05c3fe09b464ae7e711d1ab3837801f"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.6",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.6_1536589026770_0.8554106783803177"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.9" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.5.9",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.9.tgz",
+        "shasum" : "ee56243f6ba30781ff6f92fe7f1c377255219a7c"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.5.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.5.9_1527599574865_0.8048233190962484"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.7" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.7",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.7.tgz",
+        "shasum" : "d25c4612410bf7fad5dbaed992f7c6bc2440b2d2"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.7",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.7_1537335540696_0.36701683821897846"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.1-0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.1-0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.1-0.tgz",
+        "shasum" : "0ba5a41d8865d4053f5326da9b797ee86114bf76"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.1-0",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.1-0_1531919334990_0.13884979923437357"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.8" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.8",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.8.tgz",
+        "shasum" : "1b3ed0e27e384032254e9322fc646dd3e70ef1b9"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.8",
+      "gitHead" : "43b83b600939b19c48c3c27a1733592c493c4386",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.8_1537515435740_0.8551719786520422"
+      }
+    },
+    "1.7.9" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.9",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.9.tgz",
+        "shasum" : "046dbeb9d88c0affa0713f64edd12293e295a2a7"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.9",
+      "gitHead" : "6c5bd6e21d734967e12bb7b7aaa38c80697b3b68",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.9_1539880953877_0.19278462853563272"
+      }
+    },
+    "1.7.11" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.11",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.11.tgz",
+        "shasum" : "a69f0af6502eb9a3c045555b1a6129d3d3f2e313"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.11",
+      "gitHead" : "4291990bfc4648bc6676091a955d12dc3c7e5909",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.11_1540922442132_0.07724237536671286"
+      }
+    },
+    "1.7.10" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.7.10",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.7.10.tgz",
+        "shasum" : "ee63d729c6311a85863e369a473f9983f984e4d9"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.7.10",
+      "gitHead" : "f558c6c047187f24a2200ab04104f173de226794",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.7.10_1540279863948_0.4867276216328438"
+      }
+    },
+    "1.2.2" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.2.2.tgz",
+        "shasum" : "a15a0304b249d45d28ea85aada1e2737803dfeea"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.2.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.2.2_1522672830357_0.21387137430395287"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.4.0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.4.0.tgz",
+        "shasum" : "1d573e193fc459b42b60626fb6d3d5a1ad988a66"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.4.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.4.0_1525877880434_0.9844753476444965"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.2.3" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.2.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.2.3.tgz",
+        "shasum" : "ef0677449e944ef0833e0cabfe4e01a281489b83"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.2.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.2.3_1523096802662_0.24769447115146037"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.4.1" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.4.1.tgz",
+        "shasum" : "f6aca087e185097472007961e8b8bd58e042f084"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.4.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.4.1_1525981456117_0.3778997661162722"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.2.4" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.2.4",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.2.4.tgz",
+        "shasum" : "418383c5cb85da62b0d53ae2d4934942dacc3d75"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.2.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.2.4_1523615486466_0.29873543020191495"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.4.2" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.4.2.tgz",
+        "shasum" : "9296fb64caa37bf98c8064aa329680e3e2bfacc7"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.4.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.4.2_1526047957961_0.8741420991745785"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.6.0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.6.0.tgz",
+        "shasum" : "d85a6d41360dfcccb06b67b1167d03ce9384abc2"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.6.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.6.0_1531731887839_0.8226445476459083"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.2.5" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.2.5",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.2.5.tgz",
+        "shasum" : "6d83195309075380163d5f5166b011acb2406507"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.2.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.2.5_1523639214452_0.5135873310206895"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.4.3" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.4.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.4.3.tgz",
+        "shasum" : "f5aee4c376a717c74264d7bacada981e7e44faad"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.4.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.4.3_1526116840010_0.5934980434360111"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.6.1" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.6.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.6.1.tgz",
+        "shasum" : "c9d3c1dc929b3098666c074bd8d2c6a73b7c65f8"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.6.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.6.1_1531921806216_0.8814146184850526"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.2.6" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.2.6",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.2.6.tgz",
+        "shasum" : "b20f8be26b680c1c87cc9cbc7b7104bedd8b2a2d"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.2.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.2.6_1523978323313_0.5487337890157142"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.8.0" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.8.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.8.0.tgz",
+        "shasum" : "c34970634b6531750bc8fd793a6c3eea8a464ea4"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.8.0",
+      "gitHead" : "8b2d1afa793ea81f20ec63416134c201e39694eb",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.8.0_1544513045359_0.5648595617797814"
+      }
+    },
+    "1.2.7" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.2.7",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.2.7.tgz",
+        "shasum" : "a6dd3fbcd016a3af4f358b7ed01eed1901b8aada"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.2.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.2.7_1525099368581_0.03907871422257303"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.8.1" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.8.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.8.1.tgz",
+        "shasum" : "c13dfebcc6522fea2229d44fac348ab630025359"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.8.1",
+      "gitHead" : "a2f42245e9b597e3541e0f697253449d60fc4d79",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.8.1_1547540466366_0.891505583001188"
+      }
+    },
+    "1.2.8" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.2.8",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/xtuc/webassemblyjs/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.2.8.tgz",
+        "shasum" : "018e5fc2d516462e505100a21e852e256e5690ab"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.2.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.2.8_1525281860362_0.7509221741797252"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.8.2" : {
+      "name" : "@webassemblyjs/floating-point-hex-parser",
+      "description" : "A function to parse floating point hexadecimal strings as defined by the WebAssembly specification",
+      "version" : "1.8.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/xtuc/webassemblyjs.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.8.2.tgz",
+        "shasum" : "c304fac0e5c2dd69a6d0f29000f4d6c4bf583203"
+      },
+      "keywords" : [ "webassembly", "floating-point" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build-fuzzer" : "[ -f ./test/fuzzing/parse.out ] || gcc ./test/fuzzing/parse.c -o ./test/fuzzing/parse.out -lm -Wall"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/floating-point-hex-parser@1.8.2",
+      "gitHead" : "02af462b507aa7a24f5d3201178434b181bcdabb",
+      "licenseText" : "MIT License\n\nCopyright (c) 2017 Mauro Bringolf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/floating-point-hex-parser_1.8.2_1550161285673_0.93608018824731"
+      }
+    }
+  },
+  "readme" : "# Parser function for floating point hexadecimals\n\n[![license](https://img.shields.io/github/license/maurobringolf/@webassemblyjs/floating-point-hex-parser.svg)]()\n[![GitHub last commit](https://img.shields.io/github/last-commit/maurobringolf/@webassemblyjs/floating-point-hex-parser.svg)]()\n[![npm](https://img.shields.io/npm/v/@webassemblyjs/floating-point-hex-parser.svg)]()\n\n> A JavaScript function to parse floating point hexadecimals as defined by the [WebAssembly specification](https://webassembly.github.io/spec/core/text/values.html#text-hexfloat).\n\n## Usage\n\n```javascript\nimport parseHexFloat from '@webassemblyjs/floating-point-hex-parser'\n\nparseHexFloat('0x1p-1')               // 0.5\nparseHexFloat('0x1.921fb54442d18p+2') // 6.283185307179586\n```\n\n## Tests\n\nThis module is tested in two ways. The first one is through a small set of test cases that can be found in [test/regular.test.js](https://github.com/maurobringolf/@webassemblyjs/floating-point-hex-parser/blob/master/test/regular.test.js). The second one is non-deterministic (sometimes called *fuzzing*):\n\n1. Generate a random IEEE754 double precision value `x`.\n1. Compute its representation `y` in floating point hexadecimal format using the C standard library function `printf` since C supports this format.\n1. Give both values to JS testcase and see if `parseHexFloat(y) === x`.\n\nBy default one `npm test` run tests 100 random samples. If you want to do more, you can set the environment variable `FUZZ_AMOUNT` to whatever number of runs you'd like. Because it uses one child process for each sample, it is really slow though. For more details about the randomized tests see [the source](https://github.com/maurobringolf/@webassemblyjs/floating-point-hex-parser/tree/master/test/fuzzing).\n\n## Links\n\n* [maurobringolf.ch/2017/12/hexadecimal-floating-point-notation/](https://maurobringolf.ch/2017/12/hexadecimal-floating-point-notation/)\n\n* [github.com/xtuc/js-webassembly-interpreter/issues/32](https://github.com/xtuc/js-webassembly-interpreter/issues/32)\n\n* [github.com/WebAssembly/design/issues/292](https://github.com/WebAssembly/design/issues/292)\n",
+  "maintainers" : [ {
+    "name" : "xtuc",
+    "email" : "contact@xtuc.fr"
+  } ],
+  "author" : {
+    "name" : "Mauro Bringolf"
+  },
+  "time" : {
+    "1.8.3" : "2019-02-18T08:36:57.995Z",
+    "1.8.4" : "2019-02-19T17:26:58.366Z",
+    "1.8.5" : "2019-02-24T10:42:38.932Z",
+    "1.7.0-1" : "2018-07-18T14:58:53.136Z",
+    "1.7.0-2" : "2018-07-18T15:14:13.055Z",
+    "1.7.2-0" : "2018-07-19T18:09:29.489Z",
+    "1.7.0-3" : "2018-07-18T19:03:32.882Z",
+    "1.7.2-1" : "2018-07-19T18:24:06.748Z",
+    "modified" : "2020-02-01T23:19:50.572Z",
+    "created" : "2018-04-02T12:40:30.310Z",
+    "1.5.13" : "2018-06-30T13:44:17.267Z",
+    "1.5.11" : "2018-06-06T08:57:51.753Z",
+    "1.5.12" : "2018-06-07T09:24:57.324Z",
+    "1.5.10" : "2018-06-01T13:20:31.401Z",
+    "1.3.0" : "2018-05-04T13:30:31.729Z",
+    "1.3.1" : "2018-05-07T18:08:35.607Z",
+    "1.3.2" : "2018-05-08T18:46:43.743Z",
+    "1.5.0" : "2018-05-14T16:46:32.904Z",
+    "1.3.3" : "2018-05-09T07:51:54.200Z",
+    "1.5.1" : "2018-05-16T11:24:10.403Z",
+    "1.7.0-0" : "2018-07-18T12:57:44.630Z",
+    "1.5.2" : "2018-05-17T12:49:40.076Z",
+    "1.7.0" : "2018-07-19T16:00:30.234Z",
+    "1.5.3" : "2018-05-21T11:07:52.778Z",
+    "1.7.1" : "2018-07-19T16:31:21.095Z",
+    "1.5.4" : "2018-05-21T12:56:40.547Z",
+    "1.7.2" : "2018-07-19T18:33:09.846Z",
+    "1.9.0" : "2020-02-01T23:19:44.087Z",
+    "1.5.5" : "2018-05-24T08:01:32.777Z",
+    "1.7.3" : "2018-07-23T07:02:08.032Z",
+    "1.5.6" : "2018-05-24T14:20:37.935Z",
+    "1.7.4" : "2018-07-24T07:01:53.914Z",
+    "1.5.7" : "2018-05-25T12:54:02.976Z",
+    "1.7.5" : "2018-08-16T14:54:16.779Z",
+    "1.5.8" : "2018-05-28T12:48:29.892Z",
+    "1.7.6" : "2018-09-10T14:17:06.985Z",
+    "1.5.9" : "2018-05-29T13:12:54.959Z",
+    "1.7.7" : "2018-09-19T05:39:00.815Z",
+    "1.7.1-0" : "2018-07-18T13:08:55.093Z",
+    "1.7.8" : "2018-09-21T07:37:15.896Z",
+    "1.7.9" : "2018-10-18T16:42:34.066Z",
+    "1.7.11" : "2018-10-30T18:00:42.244Z",
+    "1.7.10" : "2018-10-23T07:31:04.082Z",
+    "1.2.2" : "2018-04-02T12:40:30.452Z",
+    "1.4.0" : "2018-05-09T14:58:00.485Z",
+    "1.2.3" : "2018-04-07T10:26:42.722Z",
+    "1.4.1" : "2018-05-10T19:44:16.200Z",
+    "1.2.4" : "2018-04-13T10:31:26.788Z",
+    "1.4.2" : "2018-05-11T14:12:38.024Z",
+    "1.6.0" : "2018-07-16T09:04:48.242Z",
+    "1.2.5" : "2018-04-13T17:06:54.498Z",
+    "1.4.3" : "2018-05-12T09:20:40.150Z",
+    "1.6.1" : "2018-07-18T13:50:06.305Z",
+    "1.2.6" : "2018-04-17T15:18:43.467Z",
+    "1.8.0" : "2018-12-11T07:24:08.060Z",
+    "1.2.7" : "2018-04-30T14:42:48.720Z",
+    "1.8.1" : "2019-01-15T08:21:06.483Z",
+    "1.2.8" : "2018-05-02T17:24:20.453Z",
+    "1.8.2" : "2019-02-14T16:21:25.802Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/xtuc/webassemblyjs.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/xtuc/webassemblyjs#readme",
+  "keywords" : [ "webassembly", "floating-point" ],
+  "bugs" : {
+    "url" : "https://github.com/xtuc/webassemblyjs/issues"
+  },
+  "license" : "MIT"
+}

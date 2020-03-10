@@ -1,0 +1,147 @@
+{
+  "_id" : "des.js",
+  "_rev" : "3-89143f41699fe089a67faf876f9c2190",
+  "name" : "des.js",
+  "description" : "DES implementation",
+  "dist-tags" : {
+    "latest" : "1.0.1"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "des.js",
+      "description" : "DES implementation",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/des.js#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/des.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/des.js/issues"
+      },
+      "main" : "lib/des.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/des.js/-/des.js-1.0.0.tgz",
+        "shasum" : "c074d2e2aa6a8a9a07dbd61f9a15c2cd83ec8ecc"
+      },
+      "dependencies" : {
+        "inherits" : "^2.0.1",
+        "minimalistic-assert" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "jscs" : "^2.1.1",
+        "jshint" : "^2.8.0",
+        "mocha" : "^2.3.0"
+      },
+      "keywords" : [ "DES", "3DES", "EDE", "CBC" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter=spec test/*-test.js && jscs lib/*.js lib/**/*.js test/*.js && jshint lib/*.js lib/**/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "des.js@1.0.0",
+      "gitHead" : "6c47a16b5507a11942c293a0ded430708c206218",
+      "_shasum" : "c074d2e2aa6a8a9a07dbd61f9a15c2cd83ec8ecc",
+      "_nodeVersion" : "3.2.0"
+    },
+    "1.0.1" : {
+      "name" : "des.js",
+      "description" : "DES implementation",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Fedor Indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "homepage" : "https://github.com/indutny/des.js#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/indutny/des.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/indutny/des.js/issues"
+      },
+      "main" : "lib/des.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/des.js/-/des.js-1.0.1.tgz",
+        "shasum" : "5382142e1bdc53f85d86d53e5f4aa7deb91e0843"
+      },
+      "dependencies" : {
+        "inherits" : "^2.0.1",
+        "minimalistic-assert" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "jscs" : "^3.0.7",
+        "jshint" : "^2.8.0",
+        "mocha" : "^6.2.2"
+      },
+      "keywords" : [ "DES", "3DES", "EDE", "CBC" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter=spec test/*-test.js && jscs lib/*.js lib/**/*.js test/*.js && jshint lib/*.js lib/**/*.js"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "indutny",
+        "email" : "fedor@indutny.com"
+      },
+      "_id" : "des.js@1.0.1",
+      "gitHead" : "f2050549153c67518a06e7ee8972cbe51cf7e180",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/des.js_1.0.1_1573582458086_0.04203782146589097"
+      },
+      "_nodeVersion" : "12.11.0"
+    }
+  },
+  "readme" : "# DES.js\n\n## LICENSE\n\nThis software is licensed under the MIT License.\n\nCopyright Fedor Indutny, 2015.\n\nPermission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to permit\npersons to whom the Software is furnished to do so, subject to the\nfollowing conditions:\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN\nNO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\nDAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE\nUSE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "maintainers" : [ {
+    "name" : "indutny",
+    "email" : "fedor@indutny.com"
+  } ],
+  "author" : {
+    "name" : "Fedor Indutny",
+    "email" : "fedor@indutny.com"
+  },
+  "time" : {
+    "created" : "2015-09-07T03:01:39.276Z",
+    "modified" : "2019-11-12T18:14:20.962Z",
+    "1.0.0" : "2015-09-07T03:01:39.276Z",
+    "1.0.1" : "2019-11-12T18:14:18.241Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+ssh://git@github.com/indutny/des.js.git"
+  },
+  "users" : {
+    "shuoshubao" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/indutny/des.js#readme",
+  "keywords" : [ "DES", "3DES", "EDE", "CBC" ],
+  "bugs" : {
+    "url" : "https://github.com/indutny/des.js/issues"
+  },
+  "license" : "MIT"
+}

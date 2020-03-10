@@ -1,0 +1,852 @@
+{
+  "_id" : "load-json-file",
+  "_rev" : "26-17ce7aa6a319584df59e984697aca710",
+  "name" : "load-json-file",
+  "description" : "Read and parse a JSON file",
+  "dist-tags" : {
+    "latest" : "6.2.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-2.0.0.tgz",
+        "shasum" : "7947e42149af80d696cbf797bcaabcfe1fe29ca8"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^2.2.0",
+        "pify" : "^2.0.0",
+        "strip-bom" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@2.0.0",
+      "gitHead" : "49620f12bce627dc2459a08f5ef18cd2ff151eb2",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/load-json-file-2.0.0.tgz_1462036668887_0.931434569414705"
+      },
+      "_shasum" : "7947e42149af80d696cbf797bcaabcfe1fe29ca8",
+      "_nodeVersion" : "4.4.2"
+    },
+    "4.0.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-4.0.0.tgz",
+        "shasum" : "2f5f45ab91e33216234fd53adab668eb4ec0993b"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^4.0.0",
+        "pify" : "^3.0.0",
+        "strip-bom" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@4.0.0",
+      "gitHead" : "633ec57b4d10a4bcc0e5fb63296ff9e6e68924da",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file-4.0.0.tgz_1509782229082_0.7325113639235497"
+      },
+      "_shasum" : "2f5f45ab91e33216234fd53adab668eb4ec0993b",
+      "_nodeVersion" : "4.8.4"
+    },
+    "6.2.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "6.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-6.2.0.tgz",
+        "shasum" : "5c7770b42cafa97074ca2848707c61662f4251a1"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.15",
+        "parse-json" : "^5.0.0",
+        "strip-bom" : "^4.0.0",
+        "type-fest" : "^0.6.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.1.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@6.2.0",
+      "gitHead" : "85fcfc5225fb3ac11d2e93c9e2bd4a9d43c52b69",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file_6.2.0_1562833809799_0.8024028491579944"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "3.0.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-3.0.0.tgz",
+        "shasum" : "7eb3735d983a7ed2262ade4ff769af5369c5c440"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^3.0.0",
+        "pify" : "^2.0.0",
+        "strip-bom" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@3.0.0",
+      "gitHead" : "6181ef44ccdc4dc94fce1859d446d23d5ff53f75",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file-3.0.0.tgz_1503188282582_0.7917490075342357"
+      },
+      "_shasum" : "7eb3735d983a7ed2262ade4ff769af5369c5c440",
+      "_nodeVersion" : "4.8.3"
+    },
+    "6.0.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-6.0.0.tgz",
+        "shasum" : "2f0983647a5b6b1e47e77dfa310a69289151f3be"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.15",
+        "parse-json" : "^4.0.0",
+        "strip-bom" : "^3.0.0",
+        "type-fest" : "^0.4.1"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@6.0.0",
+      "gitHead" : "39dbae7e50f9c4e5e3c9d23333904fb9fa6fde56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file_6.0.0_1556379502940_0.42764027648369907"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "6.1.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "6.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-6.1.0.tgz",
+        "shasum" : "b8e9bc4bc7a8c4dea70aee03ba947b0fdf5866ff"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.15",
+        "parse-json" : "^4.0.0",
+        "strip-bom" : "^4.0.0",
+        "type-fest" : "^0.5.2"
+      },
+      "devDependencies" : {
+        "ava" : "^2.1.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@6.1.0",
+      "gitHead" : "05b63349e36a2b954ba289084cb98c1f4ce602ff",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file_6.1.0_1560272823913_0.13878810296864597"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "5.0.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-5.0.0.tgz",
+        "shasum" : "5b5ef7cb6e1e337408e02fe01fe679ccc0cd18d5"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^4.0.0",
+        "pify" : "^3.0.0",
+        "strip-bom" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@5.0.0",
+      "gitHead" : "8149bcbde096cb8ac9328091c06f11f83a04e569",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file_5.0.0_1525593994579_0.8980414842921527"
+      },
+      "_nodeVersion" : "8.11.1"
+    },
+    "5.1.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-5.1.0.tgz",
+        "shasum" : "c062f048e0ee556bf7f535bb16f6e45bb9d06b18"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^4.0.0",
+        "pify" : "^3.0.0",
+        "strip-bom" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "tsd-check" : "^0.2.1",
+        "xo" : "*"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@5.1.0",
+      "gitHead" : "adea38e6d70c131fb40188b45a748a05b551751e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file_5.1.0_1537248117214_0.07735695895334649"
+      },
+      "_nodeVersion" : "8.11.4"
+    },
+    "5.2.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "5.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-5.2.0.tgz",
+        "shasum" : "1553627a18bf7b08cd7ec232d63981239085a578"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^4.0.0",
+        "pify" : "^3.0.0",
+        "strip-bom" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "tsd-check" : "^0.2.1",
+        "xo" : "*"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@5.2.0",
+      "gitHead" : "ebe5060c5613b20cbfa3188dfa2f938b25529941",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file_5.2.0_1549966166847_0.641299810931989"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "5.3.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "5.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-5.3.0.tgz",
+        "shasum" : "4d3c1e01fa1c03ea78a60ac7af932c9ce53403f3"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.15",
+        "parse-json" : "^4.0.0",
+        "pify" : "^4.0.1",
+        "strip-bom" : "^3.0.0",
+        "type-fest" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@5.3.0",
+      "gitHead" : "62ba870080fa1752ed4f482dc239bf640e3d5ede",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/load-json-file_5.3.0_1554566531791_0.7754365424027732"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "1.0.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-1.0.0.tgz",
+        "shasum" : "2c73a18a5f862dece86e85225815ac512ff97c63"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^2.2.0",
+        "pify" : "^1.1.0",
+        "pinkie-promise" : "^1.0.0",
+        "strip-bom" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "json", "read", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@1.0.0",
+      "gitHead" : "585e33ee885778ef51f1bc23d019a409050e88a3",
+      "_shasum" : "2c73a18a5f862dece86e85225815ac512ff97c63",
+      "_nodeVersion" : "3.0.0"
+    },
+    "1.0.1" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/load-json-file"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-1.0.1.tgz",
+        "shasum" : "d24e14be27f68a6aec0f82365b23e1014603fc19"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^2.2.0",
+        "pify" : "^2.0.0",
+        "pinkie-promise" : "^1.0.0",
+        "strip-bom" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "json", "read", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@1.0.1",
+      "gitHead" : "3735e52cca5cb3fc459786ac35db13b7142ee349",
+      "_shasum" : "d24e14be27f68a6aec0f82365b23e1014603fc19",
+      "_nodeVersion" : "0.12.7"
+    },
+    "1.1.0" : {
+      "name" : "load-json-file",
+      "description" : "Read and parse a JSON file",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/load-json-file",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/load-json-file"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/load-json-file/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/load-json-file/-/load-json-file-1.1.0.tgz",
+        "shasum" : "956905708d58b4bab4c2261b04f59f31c99374c0"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "parse-json" : "^2.2.0",
+        "pify" : "^2.0.0",
+        "pinkie-promise" : "^2.0.0",
+        "strip-bom" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "json", "read", "parse", "file", "fs", "graceful", "load" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "load-json-file@1.1.0",
+      "gitHead" : "115157a417380d3160da418d4ff25bb33b0051eb",
+      "xo" : {
+        "ignores" : [ "test.js" ]
+      },
+      "_shasum" : "956905708d58b4bab4c2261b04f59f31c99374c0",
+      "_nodeVersion" : "4.2.1"
+    }
+  },
+  "readme" : "# load-json-file [![Build Status](https://travis-ci.org/sindresorhus/load-json-file.svg?branch=master)](https://travis-ci.org/sindresorhus/load-json-file)\n\n> Read and parse a JSON file\n\n[Strips UTF-8 BOM](https://github.com/sindresorhus/strip-bom), uses [`graceful-fs`](https://github.com/isaacs/node-graceful-fs), and throws more [helpful JSON errors](https://github.com/sindresorhus/parse-json).\n\n\n## Install\n\n```\n$ npm install load-json-file\n```\n\n\n## Usage\n\n```js\nconst loadJsonFile = require('load-json-file');\n\n(async () => {\n\tconsole.log(await loadJsonFile('foo.json'));\n\t//=> {foo: true}\n})();\n```\n\n\n## API\n\n### loadJsonFile(filePath, options?)\n\nReturns a `Promise<unknown>` with the parsed JSON.\n\n### loadJsonFile.sync(filepath, options?)\n\nReturns the parsed JSON.\n\n#### options\n\nType: `object`\n\n##### beforeParse\n\nType: `Function`\n\nApplies a function to the JSON string before parsing.\n\n##### reviver\n\nType: `Function`\n\nPrescribes how the value originally produced by parsing is transformed, before being returned. See the [`JSON.parse` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Using_the_reviver_parameter) for more.\n\n\n## Related\n\n- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-load-json-file?utm_source=npm-load-json-file&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2016-04-30T17:17:49.311Z",
+    "created" : "2015-09-02T06:41:38.200Z",
+    "4.0.0" : "2017-11-04T07:57:09.197Z",
+    "6.2.0" : "2019-07-11T08:30:09.981Z",
+    "3.0.0" : "2017-08-20T00:18:02.755Z",
+    "6.0.0" : "2019-04-27T15:38:23.058Z",
+    "6.1.0" : "2019-06-11T17:07:04.016Z",
+    "modified" : "2019-07-11T08:30:12.573Z",
+    "5.0.0" : "2018-05-06T08:06:34.678Z",
+    "5.1.0" : "2018-09-18T05:21:57.311Z",
+    "5.2.0" : "2019-02-12T10:09:26.991Z",
+    "5.3.0" : "2019-04-06T16:02:11.920Z",
+    "1.0.0" : "2015-09-02T06:41:38.200Z",
+    "1.0.1" : "2015-09-04T07:53:06.716Z",
+    "1.1.0" : "2015-11-14T19:30:26.909Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/load-json-file.git"
+  },
+  "users" : {
+    "arcticicestudio" : true,
+    "nicknaso" : true,
+    "kiinlam" : true,
+    "usingthesystem" : true,
+    "d3ck" : true,
+    "hualei" : true,
+    "monjer" : true,
+    "level9i" : true,
+    "ziflex" : true,
+    "zuojiang" : true,
+    "rocket0191" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/load-json-file#readme",
+  "keywords" : [ "read", "json", "parse", "file", "fs", "graceful", "load" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/load-json-file/issues"
+  },
+  "license" : "MIT"
+}

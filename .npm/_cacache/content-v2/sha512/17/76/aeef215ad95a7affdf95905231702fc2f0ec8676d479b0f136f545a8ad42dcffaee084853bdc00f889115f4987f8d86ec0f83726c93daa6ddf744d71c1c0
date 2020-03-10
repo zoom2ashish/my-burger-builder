@@ -1,0 +1,748 @@
+{
+  "_id" : "postcss-color-gray",
+  "_rev" : "18-02343fd4a88626251280454d4e8458c6",
+  "name" : "postcss-color-gray",
+  "description" : "Use the gray() color function in CSS",
+  "dist-tags" : {
+    "latest" : "5.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-color-gray"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-2.0.0.tgz",
+        "shasum" : "2bce077ed1abe6a08e6d4b8fffd64b98990559a5"
+      },
+      "dependencies" : {
+        "color" : "^0.7.3",
+        "postcss-message-helpers" : "^2.0.0",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.10.2",
+        "istanbul" : "^0.3.5",
+        "istanbul-coveralls" : "^1.0.1",
+        "jscs" : "^1.8.1",
+        "postcss" : "^4.0.2",
+        "tap-spec" : "^2.1.0",
+        "tape" : "^3.0.3"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugins", "color", "gray", "function" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/postcss/postcss-color-gray/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint *.js && jscs *.js",
+        "test" : "node test.js | tap-spec",
+        "coverage" : "istanbul cover test.js",
+        "coveralls" : "${npm_package_scripts_coverage} && istanbul-coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-color-gray@2.0.0",
+      "gitHead" : "4757f9dda1d7202d904802d1a04efe0856da303d",
+      "_shasum" : "2bce077ed1abe6a08e6d4b8fffd64b98990559a5",
+      "_nodeVersion" : "0.10.35"
+    },
+    "3.0.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-gray.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-3.0.0.tgz",
+        "shasum" : "dd65f7ad7bec4b63b458a5de88d6dd49c86cbf7b"
+      },
+      "dependencies" : {
+        "color" : "^0.7.3",
+        "postcss" : "^5.0.4",
+        "postcss-message-helpers" : "^2.0.0",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.10.2",
+        "istanbul" : "^0.3.5",
+        "istanbul-coveralls" : "^1.0.1",
+        "jscs" : "^1.8.1",
+        "tap-spec" : "^2.1.0",
+        "tape" : "^3.0.3"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugin", "color", "gray", "function" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/postcss/postcss-color-gray/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "npm run eslint && npm run jscs",
+        "eslint" : "eslint index.js test.js",
+        "jscs" : "jscs index.js test.js",
+        "test" : "node test.js | tap-spec",
+        "coverage" : "istanbul cover test.js",
+        "coveralls" : "${npm_package_scripts_coverage} && istanbul-coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-color-gray@3.0.0",
+      "gitHead" : "4d9bf3be4d78fec9eeff25a868c5ed53ab4a7a32",
+      "_shasum" : "dd65f7ad7bec4b63b458a5de88d6dd49c86cbf7b",
+      "_nodeVersion" : "3.3.0"
+    },
+    "5.0.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "Use the gray() color function in CSS",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-gray.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-5.0.0.tgz",
+        "shasum" : "532a31eb909f8da898ceffe296fdc1f864be8547"
+      },
+      "dependencies" : {
+        "@csstools/convert-colors" : "^1.4.0",
+        "postcss" : "^7.0.5",
+        "postcss-values-parser" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^10.0.1",
+        "eslint" : "^5.6.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.66.5",
+        "rollup-plugin-babel" : "^4.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "gray", "color", "lab", "transform", "function", "csswg", "w3c", "specification" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      }, {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:ec" : "echint --ignore index.*.js test",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-color-gray@5.0.0",
+      "gitHead" : "619435166b96bfdfc70c9ce095131556d19c9fe8",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-gray_5.0.0_1539177997215_0.8306377101028706"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-gray.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-4.0.0.tgz",
+        "shasum" : "681bf305097dd66bfef0e1e6282d5d99b5acc95d"
+      },
+      "dependencies" : {
+        "color" : "^1.0.3",
+        "postcss" : "^6.0.1",
+        "postcss-message-helpers" : "^2.0.0",
+        "reduce-function-call" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "istanbul" : "^0.4.5",
+        "istanbul-coveralls" : "^1.0.3",
+        "npmpub" : "^3.1.0",
+        "tap-spec" : "^4.1.1",
+        "tape" : "^4.6.3"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugin", "color", "gray", "function" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/postcss/postcss-color-gray/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      }, {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "npm run eslint",
+        "eslint" : "eslint index.js test.js",
+        "jscs" : "jscs index.js test.js",
+        "test" : "node test.js | tap-spec",
+        "coverage" : "istanbul cover test.js",
+        "coveralls" : "${npm_package_scripts_coverage} && istanbul-coveralls",
+        "release" : "npmpub"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      },
+      "_id" : "postcss-color-gray@4.0.0",
+      "gitHead" : "5d7e37ae89ab312b273bd1312569d6fdb2dbbd70",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-color-gray-4.0.0.tgz_1494844316491_0.8127956374082714"
+      },
+      "_shasum" : "681bf305097dd66bfef0e1e6282d5d99b5acc95d",
+      "_nodeVersion" : "6.5.0"
+    },
+    "4.1.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-gray.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-4.1.0.tgz",
+        "shasum" : "e5581ed57eaa826fb652ca11b1e2b7b136a9f9df"
+      },
+      "dependencies" : {
+        "color" : "^2.0.1",
+        "postcss" : "^6.0.14",
+        "postcss-message-helpers" : "^2.0.0",
+        "reduce-function-call" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "@shinnn/eslint-config-node" : "^5.0.0",
+        "eslint" : "^4.13.1",
+        "npmpub" : "^3.1.0",
+        "nyc" : "^11.4.1",
+        "tape" : "^4.8.0"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugin", "color", "convert", "gray", "function" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      }, {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint --fix --format=codeframe index.js test.js",
+        "test" : "nyc --reporter=text --reporter=html node test.js",
+        "release" : "npmpub"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      },
+      "_id" : "postcss-color-gray@4.1.0",
+      "gitHead" : "f143771be342b252b612a793b543d0063a648aaf",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-color-gray-4.1.0.tgz_1513660828965_0.5373684819787741"
+      },
+      "eslintConfig" : {
+        "extends" : "@shinnn/node"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "3.0.1" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-color-gray.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-3.0.1.tgz",
+        "shasum" : "74432ede66dd83b1d1363565c68b376e18ff6770"
+      },
+      "dependencies" : {
+        "color" : "^0.11.3",
+        "postcss" : "^5.0.4",
+        "postcss-message-helpers" : "^2.0.0",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.10.2",
+        "istanbul" : "^0.3.5",
+        "istanbul-coveralls" : "^1.0.1",
+        "jscs" : "^1.8.1",
+        "npmpub" : "^3.1.0",
+        "tap-spec" : "^2.1.0",
+        "tape" : "^3.0.3"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugin", "color", "gray", "function" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/postcss/postcss-color-gray/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "npm run eslint && npm run jscs",
+        "eslint" : "eslint index.js test.js",
+        "jscs" : "jscs index.js test.js",
+        "test" : "node test.js | tap-spec",
+        "coverage" : "istanbul cover test.js",
+        "coveralls" : "${npm_package_scripts_coverage} && istanbul-coveralls",
+        "release" : "npmpub"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-color-gray@3.0.1",
+      "gitHead" : "f5d57345499861f24f5a54e773b6eb102d58edb7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-color-gray-3.0.1.tgz_1480318401391_0.1804462734144181"
+      },
+      "_shasum" : "74432ede66dd83b1d1363565c68b376e18ff6770",
+      "_nodeVersion" : "6.9.1"
+    },
+    "1.0.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-color-gray"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-1.0.0.tgz",
+        "shasum" : "bef0705586e72de0621d5a5c400ca41b111760f4"
+      },
+      "dependencies" : {
+        "color" : "^0.7.3",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.9.1",
+        "istanbul" : "^0.3.2",
+        "istanbul-coveralls" : "^1.0.1",
+        "jscs" : "^1.7.3",
+        "postcss" : "^2.2.5",
+        "tap-spec" : "^1.0.1",
+        "tape" : "^3.0.1"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugins", "color", "gray", "function" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/postcss/postcss-color-gray/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint *.js & jscs *.js",
+        "test" : "node test.js | tap-spec",
+        "coverage" : "istanbul cover test.js",
+        "coveralls" : "${npm_package_scripts_coverage} && istanbul-coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.5",
+      "_npmUser" : {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      },
+      "_id" : "postcss-color-gray@1.0.0",
+      "gitHead" : "5044fed5db17900e0499e6e10ac0f9c8b3fdec86",
+      "_shasum" : "bef0705586e72de0621d5a5c400ca41b111760f4",
+      "_nodeVersion" : "0.10.33"
+    },
+    "0.0.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/shinnn/postcss-color-gray",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/shinnn/postcss-color-gray"
+      },
+      "bugs" : {
+        "url" : "https://github.com/shinnn/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-0.0.0.tgz",
+        "shasum" : "f70ba31021ab02f49a4943e59ef86dbb58385951"
+      },
+      "dependencies" : {
+        "color" : "^0.7.3",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.9.1",
+        "istanbul" : "^0.3.2",
+        "istanbul-coveralls" : "^1.0.1",
+        "jscs" : "^1.7.3",
+        "postcss" : "^2.2.5",
+        "tap-spec" : "^1.0.1",
+        "tape" : "^3.0.1"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugins", "color", "gray", "function" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/shinnn/postcss-color-gray/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint *.js & jscs *.js",
+        "test" : "node test.js | tap-spec",
+        "coverage" : "istanbul cover test.js",
+        "coveralls" : "${npm_package_scripts_coverage} && istanbul-coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.4",
+      "_npmUser" : {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      },
+      "_id" : "postcss-color-gray@0.0.0",
+      "gitHead" : "1df0a92938b050801dac0e7d5361f6b56f034eb9",
+      "_shasum" : "f70ba31021ab02f49a4943e59ef86dbb58385951",
+      "_nodeVersion" : "0.10.32"
+    },
+    "1.1.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-color-gray"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-1.1.0.tgz",
+        "shasum" : "847bf9aa956592ddbb93a8ac2e49ab6a0c787bb5"
+      },
+      "dependencies" : {
+        "color" : "^0.7.3",
+        "postcss-message-helpers" : "^1.1.1",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.9.2",
+        "istanbul" : "^0.3.2",
+        "istanbul-coveralls" : "^1.0.1",
+        "jscs" : "^1.7.3",
+        "postcss" : "^3.0.4",
+        "tap-spec" : "^2.1.0",
+        "tape" : "^3.0.3"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugins", "color", "gray", "function" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/postcss/postcss-color-gray/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint *.js && jscs *.js",
+        "test" : "node test.js | tap-spec",
+        "coverage" : "istanbul cover test.js",
+        "coveralls" : "${npm_package_scripts_coverage} && istanbul-coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.9",
+      "_npmUser" : {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      },
+      "_id" : "postcss-color-gray@1.1.0",
+      "gitHead" : "fb8fcf27f19ecaab9a88468c128aed074a755be4",
+      "_shasum" : "847bf9aa956592ddbb93a8ac2e49ab6a0c787bb5",
+      "_nodeVersion" : "0.10.33"
+    },
+    "0.1.0" : {
+      "name" : "postcss-color-gray",
+      "description" : "PostCSS plugin to transform gray() function to today's CSS",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Shinnosuke Watanabe",
+        "url" : "https://github.com/shinnn"
+      },
+      "homepage" : "https://github.com/postcss/postcss-color-gray",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-color-gray"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-color-gray/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-color-gray/-/postcss-color-gray-0.1.0.tgz",
+        "shasum" : "730b5399de2610b9825ee2e3a58a056f8cd4da4f"
+      },
+      "dependencies" : {
+        "color" : "^0.7.3",
+        "reduce-function-call" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^0.9.1",
+        "istanbul" : "^0.3.2",
+        "istanbul-coveralls" : "^1.0.1",
+        "jscs" : "^1.7.3",
+        "postcss" : "^2.2.5",
+        "tap-spec" : "^1.0.1",
+        "tape" : "^3.0.1"
+      },
+      "keywords" : [ "css", "css4", "style", "stylesheet", "postcss", "postcss-plugins", "color", "gray", "function" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/shinnn/postcss-color-gray/blob/master/LICENSE"
+      } ],
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint *.js & jscs *.js",
+        "test" : "node test.js | tap-spec",
+        "coverage" : "istanbul cover test.js",
+        "coveralls" : "${npm_package_scripts_coverage} && istanbul-coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.4",
+      "_npmUser" : {
+        "name" : "shinnn",
+        "email" : "snnskwtnb@gmail.com"
+      },
+      "_id" : "postcss-color-gray@0.1.0",
+      "gitHead" : "3ad6b928c32205de3673acc3c0c545c75941ee5a",
+      "_shasum" : "730b5399de2610b9825ee2e3a58a056f8cd4da4f",
+      "_nodeVersion" : "0.10.32"
+    }
+  },
+  "readme" : "# PostCSS Gray [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[![NPM Version][npm-img]][npm-url]\n[![CSS Standard Status][css-img]][css-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[PostCSS Gray] lets you use the `gray()` color function in CSS, following the\n[CSSWG Specification].\n\n```pcss\nbody {\n  background-color: gray(100);\n  color: gray(0 / 90%);\n}\n\n/* becomes */\n\nbody {\n  background-color: rgb(255,255,255);\n  color: rgba(0,0,0,.9);\n}\n```\n\n## Usage\n\nAdd [PostCSS Gray] to your project:\n\n```bash\nnpm install postcss-color-gray --save-dev\n```\n\nUse [PostCSS Gray] to process your CSS:\n\n```js\nimport postcssGray from 'postcss-color-gray';\n\npostcssGray.process(YOUR_CSS /*, processOptions, pluginOptions */);\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nimport postcss from 'postcss';\nimport postcssGray from 'postcss-color-gray';\n\npostcss([\n  postcssGray(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */);\n```\n\n[PostCSS Gray] runs in all Node environments, with special instructions for:\n\n| [Node](INSTALL.md#node) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- |\n\n## Options\n\n### preserve\n\nThe `preserve` option determines whether the original `gray()` function should\nbe preserved or replaced. By default, the `gray()` function is replaced.\n\nBy setting `preserve` to `true`, the original `gray()` function is preserved.\n\n```js\npostcssGray({ preserve: true });\n```\n\n```pcss\nbody {\n  background-color: gray(100);\n  color: gray(0 / 90%);\n}\n\n/* becomes */\n\nbody {\n  background-color: gray(100);\n  background-color: rgb(255,255,255);\n  color: gray(0 / 90%);\n  color: rgba(0,0,0,.9);\n}\n```\n\n[cli-img]: https://img.shields.io/travis/postcss/postcss-color-gray.svg\n[cli-url]: https://travis-ci.org/postcss/postcss-color-gray\n[css-img]: https://cssdb.org/badge/gray-function.svg\n[css-url]: https://cssdb.org/#gray-function\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/postcss-color-gray.svg\n[npm-url]: https://www.npmjs.com/package/postcss-color-gray\n\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Gray]: https://github.com/postcss/postcss-color-gray\n[CSSWG Specification]: https://drafts.csswg.org/css-color/#grays\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  }, {
+    "name" : "moox",
+    "email" : "m@moox.io"
+  }, {
+    "name" : "semigradsky",
+    "email" : "semigradskyd@gmail.com"
+  }, {
+    "name" : "shinnn",
+    "email" : "snnskwtnb@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Shinnosuke Watanabe",
+    "url" : "https://github.com/shinnn"
+  },
+  "time" : {
+    "2.0.0" : "2015-01-27T07:09:13.254Z",
+    "3.0.0" : "2015-09-08T04:22:06.907Z",
+    "created" : "2014-10-29T07:14:13.450Z",
+    "modified" : "2019-01-05T04:42:10.565Z",
+    "5.0.0" : "2018-10-10T13:26:37.299Z",
+    "4.0.0" : "2017-05-15T10:31:57.218Z",
+    "4.1.0" : "2017-12-19T05:20:29.036Z",
+    "3.0.1" : "2016-11-28T07:33:23.394Z",
+    "1.0.0" : "2014-11-01T08:47:10.578Z",
+    "0.0.0" : "2014-10-29T07:14:13.450Z",
+    "1.1.0" : "2014-11-25T14:37:28.430Z",
+    "0.1.0" : "2014-10-29T07:54:16.323Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/postcss/postcss-color-gray.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/postcss/postcss-color-gray#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "gray", "color", "lab", "transform", "function", "csswg", "w3c", "specification" ],
+  "bugs" : {
+    "url" : "https://github.com/postcss/postcss-color-gray/issues"
+  },
+  "license" : "ISC"
+}

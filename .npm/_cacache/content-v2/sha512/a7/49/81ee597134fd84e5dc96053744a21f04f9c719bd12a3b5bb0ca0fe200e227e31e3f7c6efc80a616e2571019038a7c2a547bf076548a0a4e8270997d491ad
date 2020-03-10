@@ -1,0 +1,2012 @@
+{
+  "_id" : "compressible",
+  "_rev" : "55-bc6068b24785960f1e136449c9613e6b",
+  "name" : "compressible",
+  "description" : "Compressible Content-Type / mime checking",
+  "dist-tags" : {
+    "latest" : "2.0.18"
+  },
+  "versions" : {
+    "0.1.1" : {
+      "name" : "compressible",
+      "description" : "Compressible mime types",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      },
+      "homepage" : "https://github.com/expressjs/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/compressible.git"
+      },
+      "contributors" : {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su",
+        "twitter" : "https://twitter.com/fishrock123"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/compressible/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-0.1.1.tgz",
+        "shasum" : "8e0003ef366d1d52a0300ab351f79df79e574b9f"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.18",
+      "_npmUser" : {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      },
+      "_id" : "compressible@0.1.1"
+    },
+    "0.2.0" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/compressible.git"
+      },
+      "contributors" : {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su",
+        "twitter" : "https://twitter.com/fishrock123"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/compressible/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-0.2.0.tgz",
+        "shasum" : "1c03ada271f3f4a6cd6306490b0ce3efe47997b5"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.2",
+      "_npmUser" : {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      },
+      "_id" : "compressible@0.2.0"
+    },
+    "0.1.0" : {
+      "name" : "compressible",
+      "description" : "Compressible mime types",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      },
+      "homepage" : "https://github.com/expressjs/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/compressible.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/compressible/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-0.1.0.tgz",
+        "shasum" : "87c187cb37ef9f028f7486ef9b0fc3ef02f3eb85"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      },
+      "_id" : "compressible@0.1.0"
+    },
+    "2.0.18" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.18",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.18.tgz",
+        "shasum" : "af53cca6b070d4c3c0750fbd77286a6d7cc46fba"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.43.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "6.8.0",
+        "eslint-config-standard" : "14.1.0",
+        "eslint-plugin-import" : "2.19.1",
+        "eslint-plugin-markdown" : "1.0.1",
+        "eslint-plugin-node" : "11.0.0",
+        "eslint-plugin-promise" : "4.2.1",
+        "eslint-plugin-standard" : "4.0.1",
+        "mocha" : "7.0.0",
+        "nyc" : "15.0.0"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "doug@somethingdoug.com",
+        "name" : "dougwilson"
+      }, {
+        "email" : "fishrock123@rocketmail.com",
+        "name" : "fishrock123"
+      }, {
+        "email" : "jonathanrichardong@gmail.com",
+        "name" : "jongleberry"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "nyc --reporter=html --reporter=text npm test",
+        "test-travis" : "nyc --reporter=text npm test",
+        "version" : "node scripts/version-history.js && git add HISTORY.md"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.18",
+      "gitHead" : "f4b72172c155b692c8407730e1bc41d2ca81e000",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compressible_2.0.18_1578286208836_0.5819187129766967"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "2.0.17" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.17",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.17.tgz",
+        "shasum" : "6e8c108a16ad58384a977f3a482ca20bff2f38c1"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.40.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "5.15.2",
+        "eslint-config-standard" : "12.0.0",
+        "eslint-plugin-import" : "2.16.0",
+        "eslint-plugin-markdown" : "1.0.0",
+        "eslint-plugin-node" : "8.0.1",
+        "eslint-plugin-promise" : "4.0.1",
+        "eslint-plugin-standard" : "4.0.0",
+        "mocha" : "6.1.4",
+        "nyc" : "14.0.0"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "doug@somethingdoug.com",
+        "name" : "dougwilson"
+      }, {
+        "email" : "fishrock123@rocketmail.com",
+        "name" : "fishrock123"
+      }, {
+        "email" : "jonathanrichardong@gmail.com",
+        "name" : "jongleberry"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "nyc --reporter=html --reporter=text npm test",
+        "test-travis" : "nyc --reporter=text npm test",
+        "version" : "node scripts/version-history.js && git add HISTORY.md"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.17",
+      "gitHead" : "57985690741c2670fb5c171bdefb07114ce1a63f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compressible_2.0.17_1556144816176_0.3226185429681636"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "2.0.0" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.0",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.0.tgz",
+        "shasum" : "90086ce57102e9e2427ee945a5fb2a98dd51dfb4"
+      },
+      "dependencies" : {
+        "mime-db" : "~1.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "0",
+        "mocha" : "~1.20.1"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot -check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      },
+      "_id" : "compressible@2.0.0",
+      "_shasum" : "90086ce57102e9e2427ee945a5fb2a98dd51dfb4"
+    },
+    "2.0.1" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.1",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.1.tgz",
+        "shasum" : "3550115793eb3435f7eb16775afe05df1a333ebc"
+      },
+      "dependencies" : {
+        "mime-db" : "1.x"
+      },
+      "devDependencies" : {
+        "istanbul" : "0",
+        "mocha" : "~1.20.1"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot -check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      },
+      "_id" : "compressible@2.0.1",
+      "_shasum" : "3550115793eb3435f7eb16775afe05df1a333ebc"
+    },
+    "2.0.8" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.8",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.8.tgz",
+        "shasum" : "7162e6c46d3b9d200ffb45cb4e4a0f7832732503"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.23.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "2.9.0",
+        "eslint-config-standard" : "5.3.1",
+        "eslint-plugin-promise" : "1.1.0",
+        "eslint-plugin-standard" : "1.3.2",
+        "istanbul" : "0.4.3",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint **/*.js",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.8",
+      "gitHead" : "b696fa801bf93ffff41a3854cedd6f2ce86b0124",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/compressible-2.0.8.tgz_1463066991355_0.24597734049893916"
+      },
+      "_shasum" : "7162e6c46d3b9d200ffb45cb4e4a0f7832732503"
+    },
+    "2.0.10" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.10",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.10.tgz",
+        "shasum" : "feda1c7f7617912732b29bf8cf26252a20b9eecd"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.27.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "3.18.0",
+        "eslint-config-standard" : "7.1.0",
+        "eslint-plugin-markdown" : "1.0.0-beta.4",
+        "eslint-plugin-promise" : "3.5.0",
+        "eslint-plugin-standard" : "2.1.1",
+        "istanbul" : "0.4.5",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.10",
+      "gitHead" : "235bc74b36aa7fe854df88ce2c68242c0a4ca938",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/compressible-2.0.10.tgz_1490330888540_0.3248714415822178"
+      },
+      "_shasum" : "feda1c7f7617912732b29bf8cf26252a20b9eecd",
+      "_nodeVersion" : "4.7.3"
+    },
+    "2.0.9" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.9",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.9.tgz",
+        "shasum" : "6daab4e2b599c2770dd9e21e7a891b1c5a755425"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.24.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "3.9.1",
+        "eslint-config-standard" : "6.2.1",
+        "eslint-plugin-promise" : "3.3.0",
+        "eslint-plugin-standard" : "2.0.1",
+        "istanbul" : "0.4.5",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.9",
+      "gitHead" : "9e750e00d459f01b9a16df504f87ad829bf2a518",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/compressible-2.0.9.tgz_1477956262136_0.9366124230436981"
+      },
+      "_shasum" : "6daab4e2b599c2770dd9e21e7a891b1c5a755425"
+    },
+    "2.0.6" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.6",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.6.tgz",
+        "shasum" : "9e4aa9321ffcf9cc4d81954f7aafa9f35767d5ea"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.19.0 < 2"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.21",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.6",
+      "gitHead" : "74899bfd08b273950fa0a942ae1d1d64e2716bd4",
+      "_shasum" : "9e4aa9321ffcf9cc4d81954f7aafa9f35767d5ea"
+    },
+    "2.0.12" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.12",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.12.tgz",
+        "shasum" : "c59a5c99db76767e9876500e271ef63b3493bd66"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.30.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "3.19.0",
+        "eslint-config-standard" : "10.2.1",
+        "eslint-plugin-import" : "2.7.0",
+        "eslint-plugin-markdown" : "1.0.0-beta.6",
+        "eslint-plugin-node" : "5.2.0",
+        "eslint-plugin-promise" : "3.6.0",
+        "eslint-plugin-standard" : "3.0.1",
+        "mocha" : "~1.21.5",
+        "nyc" : "11.2.1"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "email" : "jonathanrichardong@gmail.com",
+        "name" : "jongleberry"
+      }, {
+        "email" : "fishrock123@rocketmail.com",
+        "name" : "fishrock123"
+      }, {
+        "email" : "doug@somethingdoug.com",
+        "name" : "dougwilson"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "nyc --reporter=html --reporter=text npm test",
+        "test-travis" : "nyc --reporter=text npm test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.12",
+      "gitHead" : "07919d9b158879909404d3f942b777dbf47d2788",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compressible-2.0.12.tgz_1508543757843_0.14214342553168535"
+      },
+      "_shasum" : "c59a5c99db76767e9876500e271ef63b3493bd66",
+      "_nodeVersion" : "6.11.1"
+    },
+    "2.0.7" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.7",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.7.tgz",
+        "shasum" : "2058c52722fd3f1538a4f22ab14d0635904d19ae"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.21.0 < 2"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.4.2",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.7",
+      "gitHead" : "c12994fff506aa15af676c59a4117c0e09c0ae65",
+      "_shasum" : "2058c52722fd3f1538a4f22ab14d0635904d19ae"
+    },
+    "2.0.11" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.11",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.11.tgz",
+        "shasum" : "16718a75de283ed8e604041625a2064586797d8a"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.29.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "3.19.0",
+        "eslint-config-standard" : "10.2.1",
+        "eslint-plugin-import" : "2.7.0",
+        "eslint-plugin-markdown" : "1.0.0-beta.6",
+        "eslint-plugin-node" : "5.1.1",
+        "eslint-plugin-promise" : "3.5.0",
+        "eslint-plugin-standard" : "3.0.1",
+        "mocha" : "~1.21.5",
+        "nyc" : "11.0.3"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "email" : "jonathanrichardong@gmail.com",
+        "name" : "jongleberry"
+      }, {
+        "email" : "fishrock123@rocketmail.com",
+        "name" : "fishrock123"
+      }, {
+        "email" : "doug@somethingdoug.com",
+        "name" : "dougwilson"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "nyc --reporter=html --reporter=text npm test",
+        "test-travis" : "nyc --reporter=text npm test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.11",
+      "gitHead" : "9d52686b8de6d5c64db7ac447bd43d8fe26d7d8b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compressible-2.0.11.tgz_1501207319365_0.11534262751229107"
+      },
+      "_shasum" : "16718a75de283ed8e604041625a2064586797d8a",
+      "_nodeVersion" : "6.11.1"
+    },
+    "2.0.4" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.4",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.4.tgz",
+        "shasum" : "4d8099e88afd0ffbf7c78fd16991d9ac060a94f6"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.14.0 < 2"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.17",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.4",
+      "gitHead" : "cc2e4730900c4da07190c9bf6b44391baeeb9ea7",
+      "_shasum" : "4d8099e88afd0ffbf7c78fd16991d9ac060a94f6"
+    },
+    "2.0.14" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.14",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.14.tgz",
+        "shasum" : "326c5f507fbb055f54116782b969a81b67a29da7"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.34.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "4.19.1",
+        "eslint-config-standard" : "11.0.0",
+        "eslint-plugin-import" : "2.12.0",
+        "eslint-plugin-markdown" : "1.0.0-beta.6",
+        "eslint-plugin-node" : "6.0.1",
+        "eslint-plugin-promise" : "3.8.0",
+        "eslint-plugin-standard" : "3.1.0",
+        "mocha" : "~1.21.5",
+        "nyc" : "11.9.0"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "email" : "doug@somethingdoug.com",
+        "name" : "dougwilson"
+      }, {
+        "email" : "fishrock123@rocketmail.com",
+        "name" : "fishrock123"
+      }, {
+        "email" : "jonathanrichardong@gmail.com",
+        "name" : "jongleberry"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "nyc --reporter=html --reporter=text npm test",
+        "test-travis" : "nyc --reporter=text npm test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.14",
+      "gitHead" : "7863941f7a7aed199ed86d2d512e505f27584082",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compressible_2.0.14_1528220827129_0.2663089354097006"
+      },
+      "_shasum" : "326c5f507fbb055f54116782b969a81b67a29da7",
+      "_nodeVersion" : "6.14.2"
+    },
+    "2.0.5" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.5",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.5.tgz",
+        "shasum" : "c7dd0514a7a90c02a3ec9ee0ce14d8650bde9b6f"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.16.0 < 2"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.17",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.5",
+      "gitHead" : "4604137fbf5a038cb4bd21898f9fe342809d84f1",
+      "_shasum" : "c7dd0514a7a90c02a3ec9ee0ce14d8650bde9b6f"
+    },
+    "2.0.13" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.13",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.13.tgz",
+        "shasum" : "0d1020ab924b2fdb4d6279875c7d6daba6baa7a9"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.33.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "3.19.0",
+        "eslint-config-standard" : "10.2.1",
+        "eslint-plugin-import" : "2.8.0",
+        "eslint-plugin-markdown" : "1.0.0-beta.6",
+        "eslint-plugin-node" : "5.2.1",
+        "eslint-plugin-promise" : "3.6.0",
+        "eslint-plugin-standard" : "3.0.1",
+        "mocha" : "~1.21.5",
+        "nyc" : "11.3.0"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "email" : "doug@somethingdoug.com",
+        "name" : "dougwilson"
+      }, {
+        "email" : "fishrock123@rocketmail.com",
+        "name" : "fishrock123"
+      }, {
+        "email" : "jonathanrichardong@gmail.com",
+        "name" : "jongleberry"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "nyc --reporter=html --reporter=text npm test",
+        "test-travis" : "nyc --reporter=text npm test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.13",
+      "gitHead" : "c1818de6f01950c9e74f08e321cb50335a18be03",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compressible_2.0.13_1518929614998_0.372341918795023"
+      },
+      "_shasum" : "0d1020ab924b2fdb4d6279875c7d6daba6baa7a9",
+      "_nodeVersion" : "6.11.1"
+    },
+    "2.0.2" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.2",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.2.tgz",
+        "shasum" : "d0474a6ba6590a43d39c2ce9a6cfbb6479be76a5"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.1.2 < 2"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.5",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot -check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.2",
+      "gitHead" : "06e9d6810e86e70dfc17c9805eeecf8b2fa995b5",
+      "_shasum" : "d0474a6ba6590a43d39c2ce9a6cfbb6479be76a5"
+    },
+    "2.0.16" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.16",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.16.tgz",
+        "shasum" : "a49bf9858f3821b64ce1be0296afc7380466a77f"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.38.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "5.14.1",
+        "eslint-config-standard" : "12.0.0",
+        "eslint-plugin-import" : "2.16.0",
+        "eslint-plugin-markdown" : "1.0.0",
+        "eslint-plugin-node" : "8.0.1",
+        "eslint-plugin-promise" : "4.0.1",
+        "eslint-plugin-standard" : "4.0.0",
+        "mocha" : "5.2.0",
+        "nyc" : "13.3.0"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "doug@somethingdoug.com",
+        "name" : "dougwilson"
+      }, {
+        "email" : "fishrock123@rocketmail.com",
+        "name" : "fishrock123"
+      }, {
+        "email" : "jonathanrichardong@gmail.com",
+        "name" : "jongleberry"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "nyc --reporter=html --reporter=text npm test",
+        "test-travis" : "nyc --reporter=text npm test",
+        "version" : "node scripts/version-history.js && git add HISTORY.md"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.16",
+      "gitHead" : "fcca904d8cefee3f0a84bc9e42264c97fde44708",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compressible_2.0.16_1550516079234_0.7456236838477543"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "2.0.3" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.3",
+      "homepage" : "https://github.com/jshttp/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/compressible"
+      },
+      "contributors" : [ {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.3.tgz",
+        "shasum" : "046fe398c1c32ae5af1f4a601cf9ae4632bf2b78"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.13.0 < 2"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.14",
+        "mocha" : "~1.21.5"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "files" : [ "HISTORY.md", "LICENSE", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --check-leaks"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.3",
+      "gitHead" : "9205c624b9bb54b16a5692fe7002e58d29f40911",
+      "_shasum" : "046fe398c1c32ae5af1f4a601cf9ae4632bf2b78"
+    },
+    "2.0.15" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "2.0.15",
+      "homepage" : "https://github.com/jshttp/compressible#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      }, {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/compressible/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-2.0.15.tgz",
+        "shasum" : "857a9ab0a7e5a07d8d837ed43fe2defff64fe212"
+      },
+      "dependencies" : {
+        "mime-db" : ">= 1.36.0 < 2"
+      },
+      "devDependencies" : {
+        "eslint" : "5.5.0",
+        "eslint-config-standard" : "12.0.0",
+        "eslint-plugin-import" : "2.14.0",
+        "eslint-plugin-markdown" : "1.0.0-beta.6",
+        "eslint-plugin-node" : "7.0.1",
+        "eslint-plugin-promise" : "4.0.1",
+        "eslint-plugin-standard" : "4.0.0",
+        "mocha" : "5.2.0",
+        "nyc" : "13.1.0"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "doug@somethingdoug.com",
+        "name" : "dougwilson"
+      }, {
+        "email" : "fishrock123@rocketmail.com",
+        "name" : "fishrock123"
+      }, {
+        "email" : "jonathanrichardong@gmail.com",
+        "name" : "jongleberry"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "nyc --reporter=html --reporter=text npm test",
+        "test-travis" : "nyc --reporter=text npm test"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@2.0.15",
+      "gitHead" : "ce6e0ab553745d62de42ce5c07e749c85b3cebf1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/compressible_2.0.15_1537195052419_0.38702542610355484"
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.0.0" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      },
+      "homepage" : "https://github.com/expressjs/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/compressible.git"
+      },
+      "contributors" : {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su",
+        "twitter" : "https://twitter.com/fishrock123"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/compressible/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-1.0.0.tgz",
+        "shasum" : "f83e49c1cb61421753545125a8011d68b492427d"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "benchmark" : "*",
+        "beautify-benchmark" : "~0.2.4",
+        "mime" : "*"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec",
+        "posttest" : "mocha --reporter spec bench.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.22",
+      "_npmUser" : {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      },
+      "_id" : "compressible@1.0.0"
+    },
+    "1.0.1" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      },
+      "homepage" : "https://github.com/expressjs/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/compressible/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-1.0.1.tgz",
+        "shasum" : "8ed8224822c60c3c8dabcad34e913ed2952ad170"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "benchmark" : "*",
+        "beautify-benchmark" : "~0.2.4",
+        "mime" : "*"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec test/compressible.js",
+        "posttest" : "mocha --reporter spec test/benchmarks.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      },
+      "_id" : "compressible@1.0.1"
+    },
+    "1.1.0" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      },
+      "homepage" : "https://github.com/expressjs/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/compressible/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-1.1.0.tgz",
+        "shasum" : "124d8a7bba18a05a410a2f25bad413b1b94aff67"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.20.1"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      },
+      "_id" : "compressible@1.1.0",
+      "_shasum" : "124d8a7bba18a05a410a2f25bad413b1b94aff67"
+    },
+    "1.1.1" : {
+      "name" : "compressible",
+      "description" : "Compressible Content-Type / mime checking",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Jonathan Ong",
+        "email" : "me@jongleberry.com",
+        "url" : "http://jongleberry.com"
+      },
+      "homepage" : "https://github.com/expressjs/compressible",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/compressible.git"
+      },
+      "contributors" : [ {
+        "name" : "Jeremiah Senkpiel",
+        "email" : "fishrock123@rocketmail.com",
+        "url" : "https://searchbeam.jit.su"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/compressible/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/compressible/-/compressible-1.1.1.tgz",
+        "shasum" : "23b71ea90ea6c6a66289701a918182c24d0729ef"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.20.1"
+      },
+      "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "fishrock123",
+        "email" : "fishrock123@rocketmail.com"
+      }, {
+        "name" : "federomero",
+        "email" : "federomero@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "mscdex",
+        "email" : "mscdex@mscdex.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "compressible@1.1.1",
+      "gitHead" : "b19369eb9ff35a696a97d14d5fa409521b115a45",
+      "_shasum" : "23b71ea90ea6c6a66289701a918182c24d0729ef"
+    }
+  },
+  "readme" : "# compressible\n\n[![NPM Version][npm-version-image]][npm-url]\n[![NPM Downloads][npm-downloads-image]][npm-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nCompressible `Content-Type` / `mime` checking.\n\n## Installation\n\n```sh\n$ npm install compressible\n```\n\n## API\n\n<!-- eslint-disable no-unused-vars -->\n\n```js\nvar compressible = require('compressible')\n```\n\n### compressible(type)\n\nChecks if the given `Content-Type` is compressible. The `type` argument is expected\nto be a value MIME type or `Content-Type` string, though no validation is performed.\n\nThe MIME is looked up in the [`mime-db`](https://www.npmjs.com/package/mime-db) and\nif there is compressible information in the database entry, that is returned. Otherwise,\nthis module will fallback to `true` for the following types:\n\n  * `text/*`\n  * `*/*+json`\n  * `*/*+text`\n  * `*/*+xml`\n\nIf this module is not sure if a type is specifically compressible or specifically\nuncompressible, `undefined` is returned.\n\n<!-- eslint-disable no-undef -->\n\n```js\ncompressible('text/html') // => true\ncompressible('image/png') // => false\n```\n\n## License\n\n[MIT](LICENSE)\n\n[coveralls-image]: https://badgen.net/coveralls/c/github/jshttp/compressible/master\n[coveralls-url]: https://coveralls.io/r/jshttp/compressible?branch=master\n[node-version-image]: https://badgen.net/npm/node/compressible\n[node-version-url]: https://nodejs.org/en/download\n[npm-downloads-image]: https://badgen.net/npm/dm/compressible\n[npm-url]: https://npmjs.org/package/compressible\n[npm-version-image]: https://badgen.net/npm/v/compressible\n[travis-image]: https://badgen.net/travis/jshttp/compressible/master\n[travis-url]: https://travis-ci.org/jshttp/compressible\n",
+  "maintainers" : [ {
+    "email" : "doug@somethingdoug.com",
+    "name" : "dougwilson"
+  }, {
+    "email" : "fishrock123@rocketmail.com",
+    "name" : "fishrock123"
+  }, {
+    "email" : "jonathanrichardong@gmail.com",
+    "name" : "jongleberry"
+  } ],
+  "time" : {
+    "0.1.1" : "2013-12-19T03:23:42.219Z",
+    "0.2.0" : "2013-12-23T18:06:22.278Z",
+    "0.1.0" : "2013-12-19T00:48:45.488Z",
+    "2.0.18" : "2020-01-06T04:50:09.027Z",
+    "2.0.17" : "2019-04-24T22:26:56.351Z",
+    "modified" : "2020-01-06T04:50:11.898Z",
+    "2.0.0" : "2014-09-02T17:54:09.232Z",
+    "2.0.1" : "2014-10-04T17:33:56.762Z",
+    "created" : "2013-12-19T00:48:45.488Z",
+    "2.0.8" : "2016-05-12T15:29:53.063Z",
+    "2.0.10" : "2017-03-24T04:48:10.529Z",
+    "2.0.9" : "2016-10-31T23:24:22.675Z",
+    "2.0.6" : "2015-09-30T01:58:52.816Z",
+    "2.0.12" : "2017-10-20T23:55:58.696Z",
+    "2.0.7" : "2016-01-19T00:16:42.883Z",
+    "2.0.11" : "2017-07-28T02:02:00.282Z",
+    "2.0.4" : "2015-07-02T00:37:02.596Z",
+    "2.0.14" : "2018-06-05T17:47:07.191Z",
+    "2.0.5" : "2015-07-31T01:42:33.086Z",
+    "2.0.13" : "2018-02-18T04:53:35.100Z",
+    "2.0.2" : "2015-02-01T06:59:18.255Z",
+    "2.0.16" : "2019-02-18T18:54:39.356Z",
+    "2.0.3" : "2015-06-08T20:45:51.957Z",
+    "2.0.15" : "2018-09-17T14:37:32.514Z",
+    "1.0.0" : "2014-01-01T17:33:03.131Z",
+    "1.0.1" : "2014-03-21T21:08:07.838Z",
+    "1.1.0" : "2014-06-04T15:01:31.603Z",
+    "1.1.1" : "2014-08-06T03:48:29.898Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jshttp/compressible.git"
+  },
+  "users" : {
+    "jetthiago" : true,
+    "enhezzz" : true,
+    "crazyjingling" : true,
+    "mikestaub" : true,
+    "snowdream" : true,
+    "fishrock123" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jshttp/compressible#readme",
+  "keywords" : [ "compress", "gzip", "mime", "content-type" ],
+  "contributors" : [ {
+    "name" : "Douglas Christopher Wilson",
+    "email" : "doug@somethingdoug.com"
+  }, {
+    "name" : "Jonathan Ong",
+    "email" : "me@jongleberry.com",
+    "url" : "http://jongleberry.com"
+  }, {
+    "name" : "Jeremiah Senkpiel",
+    "email" : "fishrock123@rocketmail.com",
+    "url" : "https://searchbeam.jit.su"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/jshttp/compressible/issues"
+  },
+  "license" : "MIT"
+}

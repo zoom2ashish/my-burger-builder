@@ -1,0 +1,300 @@
+{
+  "_id" : "querystring",
+  "_rev" : "71-48312d962db0a409c3b7a0e93e31b3ce",
+  "name" : "querystring",
+  "description" : "Node's querystring module for all engines.",
+  "dist-tags" : {
+    "latest" : "0.2.0"
+  },
+  "versions" : {
+    "0.0.4" : {
+      "name" : "querystring",
+      "description" : "Node's querystring module for all engines.",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "Irakli Gozalishvili",
+        "email" : "rfobic@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Gozala/querystring.git",
+        "web" : "https://github.com/Gozala/querystring"
+      },
+      "bugs" : {
+        "url" : "http://github.com/Gozala/querystring/issues/"
+      },
+      "engines" : {
+        "node" : "0.4.x",
+        "teleport" : ">=0.2.0"
+      },
+      "main" : "./lib/querystring.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/querystring/-/querystring-0.0.4.tgz",
+        "shasum" : "fe9f22fb5bce6fae4a78d739455ed388149c2401"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "test" : ">=0.4.0"
+      },
+      "keywords" : [ "commonjs", "query", "querystring" ],
+      "maintainers" : [ {
+        "name" : "gozala",
+        "email" : "rfobic@gmail.com"
+      } ],
+      "directories" : {
+        "doc" : "./docs",
+        "lib" : "./lib",
+        "test" : "./test"
+      },
+      "scripts" : {
+        "test" : "node tests/test-querystring.js"
+      },
+      "_npmVersion" : "1.0.22",
+      "_id" : "querystring@0.0.4",
+      "_npmJsonOpts" : {
+        "file" : "/Users/gozala/.npm/querystring/0.0.4/package/package.json",
+        "wscript" : false,
+        "contributors" : false,
+        "serverjs" : false
+      },
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "id" : "querystring",
+      "_nodeVersion" : "v0.4.9"
+    },
+    "0.2.0" : {
+      "name" : "querystring",
+      "description" : "Node's querystring module for all engines.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Irakli Gozalishvili",
+        "email" : "rfobic@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Gozala/querystring.git",
+        "web" : "https://github.com/Gozala/querystring"
+      },
+      "bugs" : {
+        "url" : "http://github.com/Gozala/querystring/issues/"
+      },
+      "engines" : {
+        "node" : ">=0.4.x"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/querystring/-/querystring-0.2.0.tgz",
+        "shasum" : "b209849203bb25df820da756e747005878521620"
+      },
+      "devDependencies" : {
+        "test" : "~0.x.0",
+        "phantomify" : "~0.x.0",
+        "retape" : "~0.x.0",
+        "tape" : "~0.1.5"
+      },
+      "keywords" : [ "commonjs", "query", "querystring" ],
+      "licenses" : [ {
+        "type" : "MIT",
+        "url" : "https://github.com/Gozala/enchain/License.md"
+      } ],
+      "maintainers" : [ {
+        "name" : "gozala",
+        "email" : "rfobic@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run test-node && npm run test-browser && npm run test-tap",
+        "test-browser" : "node ./node_modules/phantomify/bin/cmd.js ./test/common-index.js",
+        "test-node" : "node ./test/common-index.js",
+        "test-tap" : "node ./test/tap-index.js"
+      },
+      "_npmVersion" : "1.1.65",
+      "_npmUser" : {
+        "name" : "gozala",
+        "email" : "rfobic@gmail.com"
+      },
+      "_id" : "querystring@0.2.0",
+      "testling" : {
+        "files" : "test/tap-index.js",
+        "browsers" : {
+          "iexplore" : [ 9, 10 ],
+          "chrome" : [ 16, 20, 25, "canary" ],
+          "firefox" : [ 10, 15, 16, 17, 18, "nightly" ],
+          "safari" : [ 5, 6 ],
+          "opera" : [ 12 ]
+        }
+      },
+      "id" : "querystring"
+    },
+    "0.0.1" : {
+      "name" : "querystring",
+      "description" : "Node's querystring module for all engines.",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Irakli Gozalishvili",
+        "email" : "rfobic@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Gozala/querystring.git",
+        "web" : "https://github.com/Gozala/querystring"
+      },
+      "bugs" : {
+        "url" : "http://github.com/Gozala/querystring/issues/"
+      },
+      "engines" : {
+        "node" : "0.4.x",
+        "teleport" : ">=0.2.0"
+      },
+      "main" : "./lib/querystring.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/querystring/-/querystring-0.0.1.tgz",
+        "shasum" : "755e68a917a3b9bb9d86dac66b02eb32e786bd2b"
+      },
+      "devDependencies" : {
+        "test" : ">=0.0.10"
+      },
+      "keywords" : [ "query", "querystring" ],
+      "licenses" : [ {
+        "type" : "MPL 1.1/LGPL 2.1/GPL 2.0",
+        "url" : "http://www.mozilla.org/MPL/"
+      } ],
+      "files" : [ "" ],
+      "directories" : {
+        "doc" : "./docs",
+        "lib" : "./lib",
+        "test" : "./test"
+      },
+      "scripts" : {
+        "test" : "node test/test-querystring.js"
+      },
+      "_npmVersion" : "0.3.15",
+      "_id" : "querystring@0.0.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.5"
+    },
+    "0.1.0" : {
+      "name" : "querystring",
+      "description" : "Node's querystring module for all engines.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Irakli Gozalishvili",
+        "email" : "rfobic@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Gozala/querystring.git",
+        "web" : "https://github.com/Gozala/querystring"
+      },
+      "bugs" : {
+        "url" : "http://github.com/Gozala/querystring/issues/"
+      },
+      "engines" : {
+        "node" : ">=0.4.x"
+      },
+      "main" : "./querystring.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/querystring/-/querystring-0.1.0.tgz",
+        "shasum" : "cb76a26cda0a10a94163fcdb3e132827f04b7b10"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "test" : ">=0.4.3"
+      },
+      "keywords" : [ "commonjs", "query", "querystring" ],
+      "maintainers" : [ {
+        "name" : "gozala",
+        "email" : "rfobic@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node tests/test-querystring.js"
+      },
+      "_npmVersion" : "1.0.101",
+      "_npmUser" : {
+        "name" : "gozala",
+        "email" : "rfobic@gmail.com"
+      },
+      "_id" : "querystring@0.1.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "id" : "querystring",
+      "_nodeVersion" : "v0.5.9"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# querystring\n\n[![Build Status](https://secure.travis-ci.org/Gozala/querystring.png)](http://travis-ci.org/Gozala/querystring)\n\n\n[![Browser support](http://ci.testling.com/Gozala/querystring.png)](http://ci.testling.com/Gozala/querystring)\n\n\n\nNode's querystring module for all engines.\n\n## Install ##\n\n    npm install querystring\n\n",
+  "maintainers" : [ {
+    "name" : "gozala",
+    "email" : "rfobic@gmail.com"
+  }, {
+    "name" : "medikoo",
+    "email" : "medikoo+npm@medikoo.com"
+  } ],
+  "author" : {
+    "name" : "Irakli Gozalishvili",
+    "email" : "rfobic@gmail.com"
+  },
+  "time" : {
+    "0.0.4" : "2011-08-01T21:10:27.098Z",
+    "created" : "2011-04-15T13:01:20.436Z",
+    "modified" : "2018-03-07T03:51:35.078Z",
+    "0.2.0" : "2013-03-05T22:13:43.986Z",
+    "0.0.1" : "2011-04-15T13:01:21.027Z",
+    "0.1.0" : "2011-12-13T19:26:29.378Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/Gozala/querystring.git",
+    "web" : "https://github.com/Gozala/querystring"
+  },
+  "users" : {
+    "shen-weizhong" : true,
+    "guananddu" : true,
+    "cbpetersen" : true,
+    "superchenney" : true,
+    "lifecube" : true,
+    "vjudge" : true,
+    "shuoshubao" : true,
+    "vbv" : true,
+    "m42am" : true,
+    "yanhaijing" : true,
+    "goblindegook" : true,
+    "bret" : true,
+    "iori20091101" : true,
+    "lavir" : true,
+    "demopark" : true,
+    "eyson" : true,
+    "sergeymakoveev" : true,
+    "stone_breaker" : true,
+    "kulyk404" : true,
+    "monjer" : true,
+    "wfalkwallace" : true,
+    "ivan.marquez" : true,
+    "kodekracker" : true,
+    "bertof" : true,
+    "vasz" : true,
+    "306766053" : true,
+    "paragi" : true,
+    "bnu" : true,
+    "knoja4" : true,
+    "brunolemos" : true,
+    "rocket0191" : true,
+    "qddegtya" : true,
+    "aidenzou" : true,
+    "pavelusov" : true,
+    "santosharakere" : true,
+    "shan" : true,
+    "snowdream" : true,
+    "fgribreau" : true,
+    "wenbing" : true,
+    "bpatel" : true,
+    "dreamanddead" : true
+  },
+  "readmeFilename" : "Readme.md"
+}

@@ -1,0 +1,1024 @@
+{
+  "_id" : "mem",
+  "_rev" : "34-e44e6f3c055897328c4fda935f14e2af",
+  "name" : "mem",
+  "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+  "dist-tags" : {
+    "latest" : "6.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-2.0.0.tgz",
+        "shasum" : "37b692533f101bec274c81a76c7bf4cd57fda89f"
+      },
+      "dependencies" : {
+        "mimic-fn" : "^1.0.0",
+        "p-is-promise" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "delay" : "^2.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@2.0.0",
+      "gitHead" : "009ce6a634d1f0d0a6cb0c93d1f59a17b8d6b2ed",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem-2.0.0.tgz_1506321128100_0.6689927573315799"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "4.2.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-4.2.0.tgz",
+        "shasum" : "5ee057680ed9cb8dad8a78d820f9a8897a102025"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.1",
+        "mimic-fn" : "^2.0.0",
+        "p-is-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.3.1",
+        "delay" : "^4.1.0",
+        "tsd-check" : "^0.3.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@4.2.0",
+      "gitHead" : "6959d903627d24da2e31a9da686327daf86f2dda",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_4.2.0_1552412506855_0.4573656395957444"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "4.3.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-4.3.0.tgz",
+        "shasum" : "461af497bc4ae09608cdb2e60eefb69bff744178"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.1",
+        "mimic-fn" : "^2.0.0",
+        "p-is-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "delay" : "^4.1.0",
+        "tsd" : "^0.7.1",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@4.3.0",
+      "gitHead" : "0e9275ea32d5e5343eeab31ceb0271f9f42c85b5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_4.3.0_1554059343791_0.002943299052651671"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "4.0.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-4.0.0.tgz",
+        "shasum" : "6437690d9471678f6cc83659c00cbafcd6b0cdaf"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.1",
+        "mimic-fn" : "^1.0.0",
+        "p-is-promise" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "delay" : "^3.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@4.0.0",
+      "gitHead" : "159369f78b3dc80b72c999e11ba1b350376cc3e4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_4.0.0_1535391218283_0.18788295308356084"
+      },
+      "_nodeVersion" : "8.11.4"
+    },
+    "4.1.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-4.1.0.tgz",
+        "shasum" : "aeb9be2d21f47e78af29e4ac5978e8afa2ca5b8a"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.1",
+        "mimic-fn" : "^1.0.0",
+        "p-is-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.0.1",
+        "delay" : "^4.1.0",
+        "xo" : "^0.23.0"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@4.1.0",
+      "gitHead" : "a583160e36a088d565a82d11dfea3e78755cca18",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_4.1.0_1548837927747_0.5551694125271442"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "0.1.1" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-0.1.1.tgz",
+        "shasum" : "24df988c3102b03c074c1b296239c5b2e6647825"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "delay" : "^1.1.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@0.1.1",
+      "gitHead" : "65d4ab7fb3b43b71b3c968eff65329c8ebb3eee8",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/mem-0.1.1.tgz_1454428396859_0.8970216677989811"
+      },
+      "_shasum" : "24df988c3102b03c074c1b296239c5b2e6647825",
+      "_nodeVersion" : "4.2.4"
+    },
+    "0.1.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - an optimization technique used to speed up consecutive function calls by caching the result of calls with identical inputs",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/mem"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-0.1.0.tgz",
+        "shasum" : "8aeb2b7a43e44d74c5cbbf5397e22255c747a5c2"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "delay" : "^1.1.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@0.1.0",
+      "gitHead" : "863a48adf8f83437383cdb3422a7c5d84f01654a",
+      "_shasum" : "8aeb2b7a43e44d74c5cbbf5397e22255c747a5c2",
+      "_nodeVersion" : "4.2.1"
+    },
+    "3.0.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-3.0.0.tgz",
+        "shasum" : "84e58ad4dfbdf5d105b26b6548a398b2b3aa8a21"
+      },
+      "dependencies" : {
+        "mimic-fn" : "^1.0.0",
+        "p-is-promise" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "delay" : "^2.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@3.0.0",
+      "gitHead" : "74439cc052c3bec1ec18b312f8913011dc262ed7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem-3.0.0.tgz_1507737373888_0.41107727540656924"
+      },
+      "_shasum" : "84e58ad4dfbdf5d105b26b6548a398b2b3aa8a21",
+      "_nodeVersion" : "4.8.3"
+    },
+    "6.0.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-6.0.0.tgz",
+        "shasum" : "f79bb110b90b688a2d1468566e66a911794abee5"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.3",
+        "mimic-fn" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.4.0",
+        "delay" : "^4.1.0",
+        "serialize-javascript" : "^2.1.0",
+        "tsd" : "^0.10.0",
+        "xo" : "^0.25.3"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@6.0.0",
+      "gitHead" : "b154f53ad72ac76277c0cc2844febf1cd2df1795",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_6.0.0_1573464208617_0.15677627413666806"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "6.0.1" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "6.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-6.0.1.tgz",
+        "shasum" : "3f8ad1b0f8c4e00daf07f104e95b9d78131d7908"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.3",
+        "mimic-fn" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.4.0",
+        "delay" : "^4.1.0",
+        "serialize-javascript" : "^2.1.0",
+        "tsd" : "^0.11.0",
+        "xo" : "^0.25.3"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "npm@bfred.it",
+        "name" : "bfred-it"
+      }, {
+        "email" : "opensource@bfred.it",
+        "name" : "fregante"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "bfred-it",
+        "email" : "npm@bfred.it"
+      },
+      "_id" : "mem@6.0.1",
+      "gitHead" : "9d5661e63642c250818306f37af8497eb61e2c11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_6.0.1_1575034176954_0.8670781925593525"
+      },
+      "_nodeVersion" : "13.2.0"
+    },
+    "5.0.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-5.0.0.tgz",
+        "shasum" : "c50f16afce423279080b174f0864d014c46a54e6"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.3",
+        "mimic-fn" : "^2.1.0",
+        "p-is-promise" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "delay" : "^4.1.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@5.0.0",
+      "gitHead" : "05c983b2d96cd24747a310d80de7ae7ba92dc2db",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_5.0.0_1558113933912_0.8522334849958171"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "5.1.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-5.1.0.tgz",
+        "shasum" : "b94ee9b888d26928dd9d91cab107fa04b925730b"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.3",
+        "mimic-fn" : "^2.1.0",
+        "p-is-promise" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "delay" : "^4.1.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@5.1.0",
+      "gitHead" : "ce7f3b7135e32d80877dedf0f0b7bd3e14d0ad91",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_5.1.0_1560604477397_0.4599413287436944"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "5.1.1" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "5.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-5.1.1.tgz",
+        "shasum" : "7059b67bf9ac2c924c9f1cff7155a064394adfb3"
+      },
+      "dependencies" : {
+        "map-age-cleaner" : "^0.1.3",
+        "mimic-fn" : "^2.1.0",
+        "p-is-promise" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "delay" : "^4.1.0",
+        "tsd" : "^0.7.3",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@5.1.1",
+      "gitHead" : "0ca0b20e1c9a6280028414fac43d2901a5ae105e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_5.1.1_1561838751067_0.6864618207106226"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "3.0.1" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-3.0.1.tgz",
+        "shasum" : "152410d0d7e835e4a4363e626238d9e5be3d6f5a"
+      },
+      "dependencies" : {
+        "mimic-fn" : "^1.0.0",
+        "p-is-promise" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "delay" : "^2.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@3.0.1",
+      "gitHead" : "16ff264ad0b1b7a2bfb8b8003dab2dc27c4d89d1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mem_3.0.1_1529476682375_0.6427172635818768"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "1.0.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-1.0.0.tgz",
+        "shasum" : "cb8ca87e412dd14b68c8439069c6ee0f51ee99db"
+      },
+      "dependencies" : {
+        "mimic-fn" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "delay" : "^1.1.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@1.0.0",
+      "gitHead" : "2d45828833f4ab36d60d87a4b5b8032c822b2f22",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/mem-1.0.0.tgz_1476898471266_0.8245243555866182"
+      },
+      "_shasum" : "cb8ca87e412dd14b68c8439069c6ee0f51ee99db",
+      "_nodeVersion" : "4.6.0"
+    },
+    "1.1.0" : {
+      "name" : "mem",
+      "description" : "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/mem#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/mem.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/mem/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/mem/-/mem-1.1.0.tgz",
+        "shasum" : "5edd52b485ca1d900fe64895505399a0dfa45f76"
+      },
+      "dependencies" : {
+        "mimic-fn" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "delay" : "^1.1.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "mem@1.1.0",
+      "gitHead" : "c12270441fab7f42fe53cf97edd53c60c4a8268f",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/mem-1.1.0.tgz_1476900325889_0.8028518599458039"
+      },
+      "_shasum" : "5edd52b485ca1d900fe64895505399a0dfa45f76",
+      "_nodeVersion" : "4.6.0"
+    }
+  },
+  "readme" : "# mem [![Build Status](https://travis-ci.org/sindresorhus/mem.svg?branch=master)](https://travis-ci.org/sindresorhus/mem)\n\n> [Memoize](https://en.wikipedia.org/wiki/Memoization) functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input\n\nMemory is automatically released when an item expires or the cache is cleared.\n\nBy default, **only the first argument is considered** and it only works with [primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive). If you need to cache multiple arguments or cache `object`s *by value*, use the `cacheKey` option.\n\n\n## Install\n\n```\n$ npm install mem\n```\n\n\n## Usage\n\n```js\nconst mem = require('mem');\n\nlet i = 0;\nconst counter = () => ++i;\nconst memoized = mem(counter);\n\nmemoized('foo');\n//=> 1\n\n// Cached as it's the same argument\nmemoized('foo');\n//=> 1\n\n// Not cached anymore as the argument changed\nmemoized('bar');\n//=> 2\n\nmemoized('bar');\n//=> 2\n\n// Only the first argument is considered by default\nmemoized('bar', 'foo');\n//=> 2\n```\n\n##### Works fine with promise returning functions\n\n```js\nconst mem = require('mem');\n\nlet i = 0;\nconst counter = async () => ++i;\nconst memoized = mem(counter);\n\n(async () => {\n\tconsole.log(await memoized());\n\t//=> 1\n\n\t// The return value didn't increase as it's cached\n\tconsole.log(await memoized());\n\t//=> 1\n})();\n```\n\n```js\nconst mem = require('mem');\nconst got = require('got');\nconst delay = require('delay');\n\nconst memGot = mem(got, {maxAge: 1000});\n\n(async () => {\n\tawait memGot('sindresorhus.com');\n\n\t// This call is cached\n\tawait memGot('sindresorhus.com');\n\n\tawait delay(2000);\n\n\t// This call is not cached as the cache has expired\n\tawait memGot('sindresorhus.com');\n})();\n```\n\n\n## API\n\n### mem(fn, options?)\n\n#### fn\n\nType: `Function`\n\nFunction to be memoized.\n\n#### options\n\nType: `object`\n\n##### maxAge\n\nType: `number`\\\nDefault: `Infinity`\n\nMilliseconds until the cache expires.\n\n##### cacheKey\n\nType: `Function`\\\nDefault: `arguments_ => arguments_[0]`\\\nExample: `arguments_ => JSON.stringify(arguments_)`\n\nDetermines the cache key for storing the result based on the function arguments. By default, **only the first argument is considered**.\n\nA `cacheKey` function can return any type supported by `Map` (or whatever structure you use in the `cache` option).\n\nYou can have it cache **all** the arguments by value with `JSON.stringify`, if they are compatible:\n\n```js\nconst mem = require('mem');\n\nmem(function_, {cacheKey: JSON.stringify});\n```\n\nOr you can use a more full-featured serializer like [serialize-javascript](https://github.com/yahoo/serialize-javascript) to add support for `RegExp`, `Date` and so on.\n\n```js\nconst mem = require('mem');\nconst serializeJavascript = require('serialize-javascript');\n\nmem(function_, {cacheKey: serializeJavascript});\n```\n\n##### cache\n\nType: `object`\\\nDefault: `new Map()`\n\nUse a different cache storage. Must implement the following methods: `.has(key)`, `.get(key)`, `.set(key, value)`, `.delete(key)`, and optionally `.clear()`. You could for example use a `WeakMap` instead or [`quick-lru`](https://github.com/sindresorhus/quick-lru) for a LRU cache.\n\n### mem.clear(fn)\n\nClear all cached data of a memoized function.\n\n#### fn\n\nType: `Function`\n\nMemoized function.\n\n\n## Tips\n\n### Cache statistics\n\nIf you want to know how many times your cache had a hit or a miss, you can make use of [stats-map](https://github.com/SamVerschueren/stats-map) as a replacement for the default cache.\n\n#### Example\n\n```js\nconst mem = require('mem');\nconst StatsMap = require('stats-map');\nconst got = require('got');\n\nconst cache = new StatsMap();\nconst memGot = mem(got, {cache});\n\n(async () => {\n\tawait memGot('sindresorhus.com');\n\tawait memGot('sindresorhus.com');\n\tawait memGot('sindresorhus.com');\n\n\tconsole.log(cache.stats);\n\t//=> {hits: 2, misses: 1}\n})();\n```\n\n\n## Related\n\n- [p-memoize](https://github.com/sindresorhus/p-memoize) - Memoize promise-returning & async functions\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-mem?utm_source=npm-mem&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "email" : "npm@bfred.it",
+    "name" : "bfred-it"
+  }, {
+    "email" : "opensource@bfred.it",
+    "name" : "fregante"
+  }, {
+    "email" : "sindresorhus@gmail.com",
+    "name" : "sindresorhus"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2017-09-25T06:32:08.213Z",
+    "created" : "2013-01-22T23:16:13.120Z",
+    "4.2.0" : "2019-03-12T17:41:47.237Z",
+    "4.3.0" : "2019-03-31T19:09:03.906Z",
+    "4.0.0" : "2018-08-27T17:33:38.386Z",
+    "4.1.0" : "2019-01-30T08:45:27.864Z",
+    "0.1.1" : "2016-02-02T15:53:17.433Z",
+    "0.0.1" : "2013-01-22T23:16:15.354Z",
+    "0.1.0" : "2015-12-21T18:44:14.279Z",
+    "3.0.0" : "2017-10-11T15:56:14.080Z",
+    "6.0.0" : "2019-11-11T09:23:28.762Z",
+    "6.0.1" : "2019-11-29T13:29:37.074Z",
+    "modified" : "2019-11-29T13:29:40.371Z",
+    "5.0.0" : "2019-05-17T17:25:34.041Z",
+    "5.1.0" : "2019-06-15T13:14:37.532Z",
+    "5.1.1" : "2019-06-29T20:05:51.216Z",
+    "3.0.1" : "2018-06-20T06:38:02.452Z",
+    "1.0.0" : "2016-10-19T17:34:31.486Z",
+    "1.1.0" : "2016-10-19T18:05:26.119Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/mem.git"
+  },
+  "users" : {
+    "daniel-zahariev" : true,
+    "antixrist" : true,
+    "joelwallis" : true,
+    "pldin601" : true,
+    "cr8tiv" : true,
+    "quocnguyen" : true,
+    "xch" : true,
+    "psychollama" : true,
+    "sasquatch" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/mem#readme",
+  "keywords" : [ "memoize", "function", "mem", "memoization", "cache", "caching", "optimize", "performance", "ttl", "expire", "promise" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/mem/issues"
+  },
+  "license" : "MIT"
+}

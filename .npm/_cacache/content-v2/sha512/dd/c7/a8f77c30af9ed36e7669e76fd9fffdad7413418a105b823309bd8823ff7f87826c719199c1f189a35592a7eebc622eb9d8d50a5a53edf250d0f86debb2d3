@@ -1,0 +1,554 @@
+{
+  "_id" : "async-each",
+  "_rev" : "28-c284bc3d9c196ea2133e51a88a8709b6",
+  "name" : "async-each",
+  "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach / map function for JavaScript.",
+  "dist-tags" : {
+    "latest" : "1.0.3"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach / map function for JavaScript.",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-0.1.5.tgz",
+        "shasum" : "2427b2d43e1b5eadf6a28b58b2f0e00baa8801a5"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each", "map", "asynchronous", "iteration", "iterate", "loop", "parallel", "concurrent", "array", "flow", "control flow" ],
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "_id" : "async-each@0.1.5",
+      "gitHead" : "4ee6ce410c92bb873914576bf59d51d3ac0762c4",
+      "_shasum" : "2427b2d43e1b5eadf6a28b58b2f0e00baa8801a5"
+    },
+    "1.0.3" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach / map function for JavaScript.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "https://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-1.0.3.tgz",
+        "shasum" : "b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each", "map", "asynchronous", "iteration", "iterate", "loop", "parallel", "concurrent", "array", "flow", "control flow" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "async-each@1.0.3",
+      "gitHead" : "9c0980f671fd649e4523e15f5b281aaa5294409e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-each_1.0.3_1555441141683_0.24135928845425325"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "0.1.6" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach / map function for JavaScript.",
+      "version" : "0.1.6",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-0.1.6.tgz",
+        "shasum" : "b67e99edcddf96541e44af56290cd7d5c6e70439"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each", "map", "asynchronous", "iteration", "iterate", "loop", "parallel", "concurrent", "array", "flow", "control flow" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "_id" : "async-each@0.1.6",
+      "gitHead" : "3da122b3e6fe84207bdca246e484a6a50462f190",
+      "_shasum" : "b67e99edcddf96541e44af56290cd7d5c6e70439"
+    },
+    "0.1.3" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach function for JavaScript.",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-0.1.3.tgz",
+        "shasum" : "01b72b9ae8803abd8d1875cf2f6d23bc84b7fa4d"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each" ],
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require test/test_helpers.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.32",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "async-each@0.1.3",
+      "repo" : "paulmillr/async-each"
+    },
+    "0.1.4" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach function for JavaScript.",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-0.1.4.tgz",
+        "shasum" : "3aa643ccb433e7b4b7c68621cbd6a5d8f0d124cd"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each" ],
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require test/test_helpers.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "async-each@0.1.4",
+      "repo" : "paulmillr/async-each"
+    },
+    "0.1.1" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach function for JavaScript.",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-0.1.1.tgz",
+        "shasum" : "57ac387f448aa01700f1be8cd2e408253744096a"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each" ],
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require test/test_helpers.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.25",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "async-each@0.1.1",
+      "repo" : "paulmillr/async-each"
+    },
+    "0.1.2" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach function for JavaScript.",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-0.1.2.tgz",
+        "shasum" : "0c9a20a4e4a1b7af16c5e551aad50951f5b02208"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each" ],
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require test/test_helpers.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.32",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "async-each@0.1.2",
+      "repo" : "paulmillr/async-each"
+    },
+    "1.0.0" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach / map function for JavaScript.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-1.0.0.tgz",
+        "shasum" : "b5319226c29d99277df63c8aee04093aa5f1d39f"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each", "map", "asynchronous", "iteration", "iterate", "loop", "parallel", "concurrent", "array", "flow", "control flow" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "_id" : "async-each@1.0.0",
+      "gitHead" : "89c02adfcff2946a5062e40167ebbb6f1ccfcfe0",
+      "_shasum" : "b5319226c29d99277df63c8aee04093aa5f1d39f",
+      "_nodeVersion" : "5.0.0"
+    },
+    "1.0.1" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach / map function for JavaScript.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-1.0.1.tgz",
+        "shasum" : "19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each", "map", "asynchronous", "iteration", "iterate", "loop", "parallel", "concurrent", "array", "flow", "control flow" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "async-each@1.0.1",
+      "gitHead" : "f2342d85633d0dc1034a49387ca01c08c1189823",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/async-each-1.0.1.tgz_1472080935649_0.032988218357786536"
+      },
+      "_shasum" : "19d386a1d9edc6e7c1c85d388aedbcc56d33602d",
+      "_nodeVersion" : "6.3.0"
+    },
+    "0.1.0" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach function for JavaScript.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-0.1.0.tgz",
+        "shasum" : "e9a61a5a3e73c4a23d0b41a275aaa8626c547964"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each" ],
+      "maintainers" : [ {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require test/test_helpers.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.25",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "async-each@0.1.0",
+      "repo" : "paulmillr/async-each"
+    },
+    "1.0.2" : {
+      "name" : "async-each",
+      "description" : "No-bullshit, ultra-simple, 35-lines-of-code async parallel forEach / map function for JavaScript.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Paul Miller",
+        "url" : "http://paulmillr.com/"
+      },
+      "homepage" : "https://github.com/paulmillr/async-each/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/async-each.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/async-each/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/async-each/-/async-each-1.0.2.tgz",
+        "shasum" : "8b8a7ca2a658f927e9f307d6d1a42f4199f0f735"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "async", "forEach", "each", "map", "asynchronous", "iteration", "iterate", "loop", "parallel", "concurrent", "array", "flow", "control flow" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "async-each@1.0.2",
+      "gitHead" : "cc1a25b8e0792b330e819a66844c5d7e1c9e5d5c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-each_1.0.2_1552531890118_0.2552403988306451"
+      },
+      "_nodeVersion" : "11.10.0"
+    }
+  },
+  "readme" : "# async-each\n\nNo-bullshit, ultra-simple, 35-lines-of-code async parallel forEach function for JavaScript.\n\nWe don't need junky 30K async libs. Really.\n\nFor browsers and node.js.\n\n## Installation\n* Just include async-each before your scripts.\n* `npm install async-each` if you’re using node.js.\n\n## Usage\n\n* `each(array, iterator, callback);` — `Array`, `Function`, `(optional) Function`\n* `iterator(item, next)` receives current item and a callback that will mark the item as done. `next` callback receives optional `error, transformedItem` arguments.\n* `callback(error, transformedArray)` optionally receives first error and transformed result `Array`.\n\n```javascript\nvar each = require('async-each');\neach(['a.js', 'b.js', 'c.js'], fs.readFile, function(error, contents) {\n  if (error) console.error(error);\n  console.log('Contents for a, b and c:', contents);\n});\n\n// Alternatively in browser:\nasyncEach(list, fn, callback);\n```\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2016 Paul Miller [(paulmillr.com)](http://paulmillr.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the “Software”), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+  "maintainers" : [ {
+    "name" : "es128",
+    "email" : "elan.shanker+npm@gmail.com"
+  }, {
+    "name" : "paulmillr",
+    "email" : "paul@paulmillr.com"
+  } ],
+  "author" : {
+    "name" : "Paul Miller",
+    "url" : "https://paulmillr.com/"
+  },
+  "time" : {
+    "0.1.5" : "2014-10-23T12:55:44.577Z",
+    "0.1.6" : "2014-11-05T22:16:18.395Z",
+    "0.1.3" : "2013-07-24T21:11:53.435Z",
+    "0.1.4" : "2013-11-12T21:57:46.049Z",
+    "created" : "2013-06-14T07:31:34.692Z",
+    "0.1.1" : "2013-06-14T07:57:30.957Z",
+    "0.1.2" : "2013-07-07T04:50:48.081Z",
+    "0.1.0" : "2013-06-14T07:31:37.982Z",
+    "1.0.3" : "2019-04-16T18:59:01.830Z",
+    "modified" : "2019-04-16T18:59:04.757Z",
+    "1.0.0" : "2015-11-26T17:53:29.606Z",
+    "1.0.1" : "2016-08-24T23:22:17.631Z",
+    "1.0.2" : "2019-03-14T02:51:30.259Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/paulmillr/async-each.git"
+  },
+  "users" : {
+    "tunnckocore" : true,
+    "artskydj" : true,
+    "j.su" : true,
+    "vonthar" : true,
+    "pandao" : true,
+    "nichoth" : true,
+    "jpepe" : true,
+    "youstrive" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/paulmillr/async-each/",
+  "keywords" : [ "async", "forEach", "each", "map", "asynchronous", "iteration", "iterate", "loop", "parallel", "concurrent", "array", "flow", "control flow" ],
+  "bugs" : {
+    "url" : "https://github.com/paulmillr/async-each/issues"
+  },
+  "license" : "MIT"
+}

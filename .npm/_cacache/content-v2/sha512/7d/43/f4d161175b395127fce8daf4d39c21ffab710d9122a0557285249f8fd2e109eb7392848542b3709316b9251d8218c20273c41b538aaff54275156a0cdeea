@@ -1,0 +1,825 @@
+{
+  "_id" : "regex-parser",
+  "_rev" : "18-7cfbe0363ce206dde9b2810f5ef00cb8",
+  "name" : "regex-parser",
+  "description" : "A module that parses a string as regular expression and returns the parsed value.",
+  "dist-tags" : {
+    "latest" : "2.2.10"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com"
+      },
+      "homepage" : "https://github.com/IonicaBizau/node-regex-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:IonicaBizau/node-regex-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/node-regex-parser/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.0.0.tgz",
+        "shasum" : "6cb03e92f50d5c0a356845bbbe59e2f78865a962"
+      },
+      "dependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "KINDLY",
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.6",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.0.0",
+      "gitHead" : "b039fccbcdcdadef2e7ed8ac635e4c5c47d8d710",
+      "_shasum" : "6cb03e92f50d5c0a356845bbbe59e2f78865a962",
+      "_nodeVersion" : "0.12.1"
+    },
+    "2.1.0" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "http://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.1.0.tgz",
+        "shasum" : "233019baf213207cb531712792e215942e8e723b"
+      },
+      "dependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "KINDLY",
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.1.0",
+      "gitHead" : "34f28210777402ea717f6015fe1f93f7d27a2331",
+      "_shasum" : "233019baf213207cb531712792e215942e8e723b",
+      "_nodeVersion" : "4.0.0"
+    },
+    "2.2.10" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.10",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "https://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.10.tgz",
+        "shasum" : "9e66a8f73d89a107616e63b39d4deddfee912b37"
+      },
+      "devDependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.10",
+      "gitHead" : "181b90229a90cfb30784d9d2f6af309462542874",
+      "typings" : "lib/typings/regex-parser.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/regex-parser_2.2.10_1546546162528_0.1013146092029702"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "2.2.6" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.6",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "https://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.6.tgz",
+        "shasum" : "be814e1f704d30c33a71ba36480d9436d6fc6304"
+      },
+      "devDependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "files" : [ "bin/", "app/", "lib/", "dist/", "src/", "scripts/", "resources/", "menu/", "cli.js", "index.js" ],
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.6",
+      "gitHead" : "399c610612e6ae4dc4107dc0681597582c942f12",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/regex-parser-2.2.6.tgz_1490039119149_0.5978772148955613"
+      },
+      "_shasum" : "be814e1f704d30c33a71ba36480d9436d6fc6304",
+      "_nodeVersion" : "7.0.0"
+    },
+    "2.2.7" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.7",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "https://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.7.tgz",
+        "shasum" : "bd090e09181849acc45457e765f7be2a63f50ef1"
+      },
+      "devDependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "files" : [ "bin/", "app/", "lib/", "dist/", "src/", "scripts/", "resources/", "menu/", "cli.js", "index.js" ],
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.7",
+      "gitHead" : "62c65716b918906a3f40b8e17aef347c31ef60ce",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/regex-parser-2.2.7.tgz_1490291609719_0.4253082412760705"
+      },
+      "_shasum" : "bd090e09181849acc45457e765f7be2a63f50ef1",
+      "_nodeVersion" : "7.0.0"
+    },
+    "2.2.4" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.4",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "http://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.4.tgz",
+        "shasum" : "790c6d80a6e288059e9cbc45231a593367178869"
+      },
+      "dependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "files" : [ "bin/", "app/", "lib/", "build/", "dist/", "src/", "resources/", "menu/", "scripts/", "cli.js", "index.js" ],
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.4",
+      "gitHead" : "be2c1d2b6d67968bdd5eff8ec50899176ba1525c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/regex-parser-2.2.4.tgz_1476200240172_0.1048740386031568"
+      },
+      "_shasum" : "790c6d80a6e288059e9cbc45231a593367178869",
+      "_nodeVersion" : "4.0.0"
+    },
+    "2.2.5" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.5",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "http://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.5.tgz",
+        "shasum" : "425e76fd1f331ffe2d73d3d1ebb71e697f39705c"
+      },
+      "devDependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "files" : [ "bin/", "app/", "lib/", "build/", "dist/", "src/", "resources/", "menu/", "scripts/", "cli.js", "index.js" ],
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.5",
+      "gitHead" : "4300684cedb472b46bc677dcd19fc14ce5f8517b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/regex-parser-2.2.5.tgz_1481857986011_0.6713819669093937"
+      },
+      "_shasum" : "425e76fd1f331ffe2d73d3d1ebb71e697f39705c",
+      "_nodeVersion" : "6.7.0"
+    },
+    "0.2.0" : {
+      "name" : "regex-parser",
+      "description" : "A small module that parses a string as regular expression and returns the parsed RegExp",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com"
+      },
+      "homepage" : "https://github.com/IonicaBizau/node-regex-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:IonicaBizau/node-regex-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/node-regex-parser/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-0.2.0.tgz",
+        "shasum" : "f8bcf0b2c4a49d0ef35f6cf54b16e82b1abe3c96"
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "node test/index"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      },
+      "_id" : "regex-parser@0.2.0",
+      "gitHead" : "4c3aef54ce6d9d75f12f77c000334898157c7bfd",
+      "_shasum" : "f8bcf0b2c4a49d0ef35f6cf54b16e82b1abe3c96"
+    },
+    "2.2.2" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "http://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.2.tgz",
+        "shasum" : "19dd7f7b69a5c329c59738c993441fda0aa7a0ef"
+      },
+      "dependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "files" : [ "bin/", "app/", "lib/", "dist/", "src/", "resources/", "menu/", "scripts/", "cli.js", "index.js" ],
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.2",
+      "gitHead" : "a32631680114a463d98d3018e08f03a1c2dfb247",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/regex-parser-2.2.2.tgz_1464175136436_0.321859959512949"
+      },
+      "_shasum" : "19dd7f7b69a5c329c59738c993441fda0aa7a0ef",
+      "_nodeVersion" : "6.2.0"
+    },
+    "2.2.3" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.3",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "http://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.3.tgz",
+        "shasum" : "8b8e5d42ed9addc7963e1a924bcafb4cf036a976"
+      },
+      "dependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "files" : [ "bin/", "app/", "lib/", "dist/", "src/", "resources/", "menu/", "scripts/", "cli.js", "index.js" ],
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.3",
+      "gitHead" : "102ffa364e1b574a3c2c5f4fdc7aadf7f1076efa",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/regex-parser-2.2.3.tgz_1476159534361_0.8302341760136187"
+      },
+      "_shasum" : "8b8e5d42ed9addc7963e1a924bcafb4cf036a976",
+      "_nodeVersion" : "4.0.0"
+    },
+    "2.2.0" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "http://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.0.tgz",
+        "shasum" : "037d77b6f9a1e19427214c18ba2535840a3b351f"
+      },
+      "dependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.0",
+      "gitHead" : "9cd4af577c2c65ad466c50bc0c790ecf624d2aeb",
+      "_shasum" : "037d77b6f9a1e19427214c18ba2535840a3b351f",
+      "_nodeVersion" : "4.0.0"
+    },
+    "2.2.1" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "http://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.1.tgz",
+        "shasum" : "9ccbabb7956df0ef5de8dc4248178c23ee6bbfe3"
+      },
+      "dependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.1",
+      "gitHead" : "ec1c91634440a02f83e7142e9cb78f2dc8f015f7",
+      "_shasum" : "9ccbabb7956df0ef5de8dc4248178c23ee6bbfe3",
+      "_nodeVersion" : "4.0.0"
+    },
+    "2.2.8" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.8",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "https://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.8.tgz",
+        "shasum" : "da4c0cda5a828559094168930f455f532b6ffbac"
+      },
+      "devDependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "files" : [ "bin/", "app/", "lib/", "dist/", "src/", "scripts/", "resources/", "menu/", "cli.js", "index.js", "bloggify.js", "bloggify.json", "bloggify/" ],
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.1",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.8",
+      "gitHead" : "a9577757b37c2eac3822582413c147ee47e343eb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/regex-parser-2.2.8.tgz_1504877073896_0.13994275243021548"
+      },
+      "_shasum" : "da4c0cda5a828559094168930f455f532b6ffbac",
+      "_nodeVersion" : "7.0.0"
+    },
+    "2.2.9" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value.",
+      "version" : "2.2.9",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com",
+        "url" : "https://ionicabizau.net"
+      },
+      "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-2.2.9.tgz",
+        "shasum" : "a372f45a248b62976a568037c1b6e60a60599192"
+      },
+      "devDependencies" : {
+        "vows" : "^0.8.1"
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "files" : [ "bin/", "app/", "lib/", "dist/", "src/", "scripts/", "resources/", "menu/", "cli.js", "index.js", "bloggify.js", "bloggify.json", "bloggify/" ],
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@gmail.com"
+      },
+      "_id" : "regex-parser@2.2.9",
+      "gitHead" : "269f7ea0aa0f13e594af09d3deed81d666ea0873",
+      "typings" : "lib/typings/regex-parser.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/regex-parser_2.2.9_1518434283127_0.7481035566091685"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "1.0.0" : {
+      "name" : "regex-parser",
+      "description" : "A module that parses a string as regular expression and returns the parsed value",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Ionică Bizău",
+        "email" : "bizauionica@gmail.com"
+      },
+      "homepage" : "https://github.com/IonicaBizau/node-regex-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:IonicaBizau/node-regex-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/IonicaBizau/node-regex-parser/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/regex-parser/-/regex-parser-1.0.0.tgz",
+        "shasum" : "0cf9265a877eda138e266444efd750429de78e07"
+      },
+      "devDependencies" : {
+        "request" : "latest",
+        "vows" : "latest"
+      },
+      "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "vows --spec --isolate"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "ionicabizau",
+        "email" : "bizauionica@yahoo.com"
+      },
+      "_id" : "regex-parser@1.0.0",
+      "gitHead" : "32de807f1349150396317a17ee6fd437fbf127d7",
+      "_shasum" : "0cf9265a877eda138e266444efd750429de78e07"
+    }
+  },
+  "readme" : "<!-- Please do not edit this file. Edit the `blah` field in the `package.json` instead. If in doubt, open an issue. -->\n\n\n# regex-parser\n\n [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Downloads](https://img.shields.io/npm/dt/regex-parser.svg)](https://www.npmjs.com/package/regex-parser) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)\n\n<a href=\"https://www.buymeacoffee.com/H96WwChMy\" target=\"_blank\"><img src=\"https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png\" alt=\"Buy Me A Coffee\"></a>\n\n> A module that parses a string as regular expression and returns the parsed value.\n\n## :cloud: Installation\n\n```sh\n# Using npm\nnpm install --save regex-parser\n\n# Using yarn\nyarn add regex-parser\n```\n\n\n## :clipboard: Example\n\n\n\n```js\n// Dependencies\nvar RegexParser = require(\"regex-parser\");\n\nconsole.log(RegexParser(\"/^hi$/g\"));\n// => /^hi$/g\n```\n\n\n\n## :question: Get Help\n\nThere are few ways to get help:\n\n 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.\n 2. For bug reports and feature requests, open issues. :bug:\n\n 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:\n\n\n\n## :memo: Documentation\n\n\n### `RegexParser(input)`\nParses a string input.\n\n#### Params\n\n- **String** `input`: The string input that should be parsed as regular expression.\n\n#### Return\n- **RegExp** The parsed regular expression.\n\n\n\n## :yum: How to contribute\nHave an idea? Found a bug? See [how to contribute][contributing].\n\n\n## :sparkling_heart: Support my projects\n\nI open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,\nthis takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).\n\nHowever, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:\n\n\n - Starring and sharing the projects you like :rocket:\n - [![Buy me a book][badge_amazon]][amazon]—I love books! I will remember you after years if you buy me one. :grin: :book:\n - [![PayPal][badge_paypal]][paypal-donations]—You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:\n - [![Support me on Patreon][badge_patreon]][patreon]—Set up a recurring monthly donation and you will get interesting news about what I'm doing (things that I don't share with everyone).\n - **Bitcoin**—You can send me bitcoins at this address (or scanning the code below): `1P9BRsmazNQcuyTxEqveUsnf5CERdq35V6`\n\n    ![](https://i.imgur.com/z6OQI95.png)\n\n\nThanks! :heart:\n\n\n## :dizzy: Where is this library used?\nIf you are using this library in one of your projects, add it in this list. :sparkles:\n\n\n - [`adjust-sourcemap-loader`](https://github.com/bholloway/adjust-sourcemap-loader) (by bholloway)—Webpack loader that adjusts source maps\n - [`bible`](https://github.com/BibleJS/BibleApp)—Read the Holy Bible via the command line.\n - [`bible.js`](https://github.com/BibleJS/bible.js)—The Bible as a NPM module.\n - [`draper`](https://github.com/gajus/surgeon#readme) (by Gajus Kuizinas)—DOM extraction expression evaluator.\n - [`gene-js`](https://github.com/nicosommi/gene-js) (by nicosommi)—an add utility\n - [`leadconduit-custom`](https://github.com/activeprospect/leadconduit-integration-custom#readme) (by Alex Wolfe)—LeadConduit custom integration\n - [`palantir`](https://github.com/gajus/palantir#readme) (by Gajus Kuizinas)—Active monitoring and alerting system using user-defined Node.js scripts.\n - [`panko`](https://npmjs.com/package/panko)—A collection of functions that make panko work. This package is for plugin creators, not users.\n - [`panko-cli`](https://npmjs.com/package/panko-cli)—A CLI-based project manager that reads from a list of separate profiles and allows various tasks to be completed.\n - [`rendition`](https://github.com/resin-io-modules/rendition#readme)—React components library\n - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)—Check if a string starts with an emoji.\n - [`statique`](https://github.com/IonicaBizau/statique)—A Node.JS static server module with built-in cache options and route features.\n - [`surgeon`](https://github.com/gajus/surgeon#readme) (by Gajus Kuizinas)—Declarative DOM extraction expression evaluator.\n - [`twing`](https://github.com/ericmorand/twing) (by Eric MORAND)—First-class Twig engine for Node.js\n\n## :scroll: License\n\n[MIT][license] © [Ionică Bizău][website]\n\n\n[badge_patreon]: https://ionicabizau.github.io/badges/patreon.svg\n[badge_amazon]: https://ionicabizau.github.io/badges/amazon.svg\n[badge_paypal]: https://ionicabizau.github.io/badges/paypal.svg\n[badge_paypal_donate]: https://ionicabizau.github.io/badges/paypal_donate.svg\n\n[patreon]: https://www.patreon.com/ionicabizau\n[amazon]: http://amzn.eu/hRo9sIZ\n[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW\n\n[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(https%3A%2F%2Fionicabizau.net)&year=2014#license-mit\n[website]: https://ionicabizau.net\n[contributing]: /CONTRIBUTING.md\n[docs]: /DOCUMENTATION.md\n",
+  "maintainers" : [ {
+    "name" : "ionicabizau",
+    "email" : "bizauionica@yahoo.com"
+  } ],
+  "author" : {
+    "name" : "Ionică Bizău",
+    "email" : "bizauionica@gmail.com",
+    "url" : "https://ionicabizau.net"
+  },
+  "time" : {
+    "2.0.0" : "2015-07-09T16:35:25.734Z",
+    "2.1.0" : "2015-11-12T14:16:39.945Z",
+    "created" : "2014-07-13T06:31:05.657Z",
+    "2.2.10" : "2019-01-03T20:09:22.722Z",
+    "2.2.6" : "2017-03-20T19:45:20.932Z",
+    "2.2.7" : "2017-03-23T17:53:31.692Z",
+    "2.2.4" : "2016-10-11T15:37:20.733Z",
+    "2.2.5" : "2016-12-16T03:13:08.015Z",
+    "0.2.0" : "2014-07-13T06:31:05.657Z",
+    "2.2.2" : "2016-05-25T11:18:59.005Z",
+    "2.2.3" : "2016-10-11T04:18:55.015Z",
+    "2.2.0" : "2015-12-03T14:39:45.819Z",
+    "2.2.1" : "2016-01-14T12:27:30.435Z",
+    "2.2.8" : "2017-09-08T13:24:35.177Z",
+    "2.2.9" : "2018-02-12T11:18:03.866Z",
+    "modified" : "2019-01-05T09:10:43.524Z",
+    "1.0.0" : "2014-09-29T08:10:58.319Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+ssh://git@github.com/IonicaBizau/regex-parser.js.git"
+  },
+  "users" : {
+    "rocket0191" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/IonicaBizau/regex-parser.js",
+  "keywords" : [ "regular", "expressions", "node", "parser", "string" ],
+  "bugs" : {
+    "url" : "https://github.com/IonicaBizau/regex-parser.js/issues"
+  },
+  "license" : "MIT"
+}

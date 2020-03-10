@@ -1,0 +1,1274 @@
+{
+  "_id" : "postcss-normalize",
+  "_rev" : "23-42c2efcf598ba773dfc222cd4395e0fc",
+  "name" : "postcss-normalize",
+  "description" : "Use the parts of normalize.css or sanitize.css you need from your browserslist",
+  "dist-tags" : {
+    "latest" : "8.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserlist",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-2.0.0.tgz",
+        "shasum" : "e8030b9875acfc1aac0a2ad8080c7da7c9efb654"
+      },
+      "dependencies" : {
+        "browserslist" : "^2.1.2",
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "2.0.0",
+        "fse" : "^3.0.0",
+        "postcss-tape" : "2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize.css", "normalize", "browsers", "bugs", "fixes", "usability", "browserslist", "browserlist" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib/json-to-ast.js", "lib/normalize.json" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:setup && npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:setup" : "node lib/normalize-css-to-json",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@2.0.0",
+      "gitHead" : "52c41acc3d87238a0de7f9e2ad380ac819db754c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-normalize-2.0.0.tgz_1495073403472_0.6417402233928442"
+      },
+      "_shasum" : "e8030b9875acfc1aac0a2ad8080c7da7c9efb654",
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "7.0.1" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserslist",
+      "version" : "7.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-7.0.1.tgz",
+        "shasum" : "eb51568d962b8aa61a8318383c8bb7e54332282e"
+      },
+      "dependencies" : {
+        "@csstools/normalize.css" : "^9.0.1",
+        "browserslist" : "^4.1.1",
+        "postcss" : "^7.0.2",
+        "postcss-browser-comments" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.5.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.65.2",
+        "rollup-plugin-babel" : "^4.0.3"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalizes", "browsers", "fixes" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@7.0.1",
+      "gitHead" : "e5e3797e1ad02065e2e6544f6c4288569d7167be",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize_7.0.1_1536236908351_0.7376446431449506"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "2.0.1" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserlist",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-2.0.1.tgz",
+        "shasum" : "8f77235e775f99c8f1d58fff1accb74e352c28a1"
+      },
+      "dependencies" : {
+        "browserslist" : "^2.1.2",
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "2.0.0",
+        "fse" : "^3.0.0",
+        "postcss-tape" : "2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize.css", "normalize", "browsers", "bugs", "fixes", "usability", "browserslist", "browserlist" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib/json-to-ast.js", "lib/normalize.json" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:setup && npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:setup" : "node lib/normalize-css-to-json",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@2.0.1",
+      "gitHead" : "19e24de8b65a25e1e05e5a9a2a406ef0eddc1582",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-2.0.1.tgz_1495415852310_0.7265982502140105"
+      },
+      "_shasum" : "8f77235e775f99c8f1d58fff1accb74e352c28a1",
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "2.1.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserlist",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-2.1.0.tgz",
+        "shasum" : "bd336bf85c14a5e924cef49951f17fb0ef070174"
+      },
+      "dependencies" : {
+        "browserslist" : "^2.1.2",
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "2.0.0",
+        "fse" : "^3.0.0",
+        "postcss-tape" : "2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize.css", "normalize", "browsers", "bugs", "fixes", "usability", "browserslist", "browserlist" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.css", "index.js", "lib/normalize.js", "lib/normalize.json" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "npm run test:init && npm run test:js && npm run test:tape",
+        "test:init" : "node lib/normalize-init",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@2.1.0",
+      "gitHead" : "12991d82b5098b0f8b3e3c103181d6161e72b1e2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-2.1.0.tgz_1495839426471_0.3650333983823657"
+      },
+      "_shasum" : "bd336bf85c14a5e924cef49951f17fb0ef070174",
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "7.0.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserslist",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-7.0.0.tgz",
+        "shasum" : "3535e273e53a80b60b54af374cba90875591380e"
+      },
+      "dependencies" : {
+        "@csstools/normalize.css" : "^9.0.1",
+        "browserslist" : "^4.1.0",
+        "postcss" : "^7.0.2",
+        "postcss-browser-comments" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/preset-env" : "^7.0.0",
+        "babel-eslint" : "^9.0.0",
+        "eslint" : "^5.5.0",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.65.0",
+        "rollup-plugin-babel" : "^4.0.1"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalizes", "browsers", "fixes" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@7.0.0",
+      "gitHead" : "3fdc61bdde08dbe11853cc3307748a15c1d9d2e2",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize_7.0.0_1536067461531_0.9587412451933526"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserlist",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-4.0.0.tgz",
+        "shasum" : "12d05a6005661a7282034347b5d12ccf083bd119"
+      },
+      "dependencies" : {
+        "browserslist" : "^2.1.5",
+        "postcss" : "^6.0.2"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.0.0",
+        "eslint-config-dev" : "2.0.0",
+        "fse" : "^3.0.0",
+        "postcss-tape" : "2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize.css", "normalize", "browsers", "bugs", "fixes", "usability", "browserslist", "browserlist" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib/normalize.js", "lib/normalize.json" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "npm run test:init && npm run test:js && npm run test:tape",
+        "test:init" : "node lib/normalize-init",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@4.0.0",
+      "gitHead" : "c56d952a2504cc25aae82e2c218f613738bfd967",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-4.0.0.tgz_1498050057598_0.952442726586014"
+      },
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "8.1.0"
+    },
+    "0.1.1" : {
+      "name" : "postcss-normalize",
+      "description" : "PostCSS plugin that automatically applies normalize.css",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Sean King",
+        "email" : "sean@simpla.io"
+      },
+      "homepage" : "https://github.com/seaneking/postcss-normalize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/seaneking/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/seaneking/postcss-normalize/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-0.1.1.tgz",
+        "shasum" : "1c1affe8a23737c1da01aa5b58a85e78c278a3bf"
+      },
+      "dependencies" : {
+        "clean-css" : "^3.3.9",
+        "normalize.css" : "^3.0.3",
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp check"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.0",
+      "_npmUser" : {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      },
+      "_id" : "postcss-normalize@0.1.1",
+      "gitHead" : "aebc9ff479afcdd9e8eadd11a666b4394e63c5a7",
+      "deprecated" : "this plugin is deprecated! Use postcss-import instead",
+      "_shasum" : "1c1affe8a23737c1da01aa5b58a85e78c278a3bf",
+      "_nodeVersion" : "0.12.7"
+    },
+    "0.2.0" : {
+      "name" : "postcss-normalize",
+      "description" : "PostCSS plugin that automatically applies normalize.css",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Sean King",
+        "email" : "sean@simpla.io"
+      },
+      "homepage" : "https://github.com/seaneking/postcss-normalize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/seaneking/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/seaneking/postcss-normalize/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-0.2.0.tgz",
+        "shasum" : "4594847042cf806336e08a5c0ad6e1794ee4920b"
+      },
+      "dependencies" : {
+        "clean-css" : "^3.3.9",
+        "normalize.css" : "^4.0.0",
+        "postcss" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp check"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      },
+      "_id" : "postcss-normalize@0.2.0",
+      "gitHead" : "65548e03be8b6a8853f2b99afddfadbbbbf6bd29",
+      "deprecated" : "this plugin is deprecated! Use postcss-import instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-normalize-0.2.0.tgz_1459133526687_0.27469851030036807"
+      },
+      "_shasum" : "4594847042cf806336e08a5c0ad6e1794ee4920b",
+      "_nodeVersion" : "5.5.0"
+    },
+    "0.1.2" : {
+      "name" : "postcss-normalize",
+      "description" : "PostCSS plugin that automatically applies normalize.css",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Sean King",
+        "email" : "sean@simpla.io"
+      },
+      "homepage" : "https://github.com/seaneking/postcss-normalize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/seaneking/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/seaneking/postcss-normalize/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-0.1.2.tgz",
+        "shasum" : "66b53367a1409db3dbc8f4b2c8faf2dd90176073"
+      },
+      "dependencies" : {
+        "clean-css" : "^3.3.9",
+        "normalize.css" : "^3.0.3",
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp check"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      },
+      "_id" : "postcss-normalize@0.1.2",
+      "gitHead" : "2c1af7f387d554aae5f991d4a583cb53afd8a501",
+      "deprecated" : "this plugin is deprecated! Use postcss-import instead",
+      "_shasum" : "66b53367a1409db3dbc8f4b2c8faf2dd90176073",
+      "_nodeVersion" : "4.2.1"
+    },
+    "0.3.0" : {
+      "name" : "postcss-normalize",
+      "description" : "PostCSS plugin that automatically applies normalize.css",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Sean King",
+        "email" : "sean@simpla.io"
+      },
+      "homepage" : "https://github.com/seaneking/postcss-normalize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/seaneking/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/seaneking/postcss-normalize/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-0.3.0.tgz",
+        "shasum" : "1866d574af10191e5f0a4cf961fcc73ade3d3588"
+      },
+      "dependencies" : {
+        "normalize.css" : "^4.0.0",
+        "postcss" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp check"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      },
+      "_id" : "postcss-normalize@0.3.0",
+      "gitHead" : "ea204f34a664573c5571ffea08d91dd457222f0e",
+      "deprecated" : "this plugin is deprecated! Use postcss-import instead",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-normalize-0.3.0.tgz_1464236560353_0.05987240467220545"
+      },
+      "_shasum" : "1866d574af10191e5f0a4cf961fcc73ade3d3588",
+      "_nodeVersion" : "5.5.0"
+    },
+    "0.1.0" : {
+      "name" : "postcss-normalize",
+      "description" : "PostCSS plugin that automatically applies normalize.css",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sean King",
+        "email" : "sean@simpla.io"
+      },
+      "homepage" : "https://github.com/seaneking/postcss-normalize",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/seaneking/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/seaneking/postcss-normalize/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-0.1.0.tgz",
+        "shasum" : "1a9b0e50cc782b85666357616a0bdc8a199d6802"
+      },
+      "dependencies" : {
+        "normalize.css" : "^3.0.3",
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "Sean King",
+        "email" : "sean@simpla.io",
+        "url" : "http://simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp check"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      },
+      "_id" : "postcss-normalize@0.1.0",
+      "gitHead" : "30ae405ed7a865630c11de0a695fed1b126f63b4",
+      "deprecated" : "this plugin is deprecated! Use postcss-import instead",
+      "_shasum" : "1a9b0e50cc782b85666357616a0bdc8a199d6802",
+      "_nodeVersion" : "0.12.0"
+    },
+    "3.0.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserlist",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-3.0.0.tgz",
+        "shasum" : "f217eb2d0867db9f393458a8ee7aa07adbedaa55"
+      },
+      "dependencies" : {
+        "browserslist" : "^2.1.2",
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "2.0.0",
+        "fse" : "^3.0.0",
+        "postcss-tape" : "2.0.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize.css", "normalize", "browsers", "bugs", "fixes", "usability", "browserslist", "browserlist" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib/normalize.js", "lib/normalize.json" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "npm run test:init && npm run test:js && npm run test:tape",
+        "test:init" : "node lib/normalize-init",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@3.0.0",
+      "gitHead" : "4a636aa7bbd34d8ae6049a06acd990c13c41e299",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize-3.0.0.tgz_1496020281835_0.7719474362675101"
+      },
+      "_shasum" : "f217eb2d0867db9f393458a8ee7aa07adbedaa55",
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "7.10.0"
+    },
+    "6.0.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserslist",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-6.0.0.tgz",
+        "shasum" : "6441b3ced4578f7b7c3b1529a43d1d0ef466996f"
+      },
+      "dependencies" : {
+        "@csstools/normalize.css" : "^8.0.0",
+        "browserslist" : "^3.2.8",
+        "postcss" : "^6.0.22",
+        "postcss-browser-comments" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.3",
+        "babel-preset-env" : "^1.7.0",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.60.7",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalizes", "browsers", "fixes" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "echo 'Running tests...'; npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@6.0.0",
+      "gitHead" : "5c5b70ad62fd016ec543ac1bec93e8b8f1026b7c",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize_6.0.0_1529151386646_0.7521386678858948"
+      },
+      "_shasum" : "6441b3ced4578f7b7c3b1529a43d1d0ef466996f",
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "6.14.3"
+    },
+    "8.0.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css or sanitize.css you need from your browserslist",
+      "version" : "8.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-8.0.0.tgz",
+        "shasum" : "7b540c4c70e05defdc85a2e4a4ea25df734cd35f"
+      },
+      "dependencies" : {
+        "@csstools/normalize.css" : "^10.1.0",
+        "browserslist" : "^4.6.1",
+        "postcss" : "^7.0.16",
+        "postcss-browser-comments" : "^3.0.0",
+        "sanitize.css" : "^10.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-syntax-import-meta" : "^7.2.0",
+        "@babel/preset-env" : "^7.4.5",
+        "babel-eslint" : "^10.0.1",
+        "eslint" : "^5.16.0",
+        "postcss-import" : "^12.0.1",
+        "postcss-tape" : "^5.0.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^1.13.1",
+        "rollup-plugin-babel" : "^4.3.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalizes", "browsers", "fixes" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup --config .rollup.js --silent",
+        "prepublishOnly" : "npm test",
+        "pretest:tape" : "npm run build",
+        "test" : "npm run test:js && npm run test:tape",
+        "test:js" : "eslint src/{*,**/*}.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@8.0.0",
+      "gitHead" : "2f04d18757ca45826a0d4c2ea14cc5ec0a083f3f",
+      "module" : "index.esm.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize_8.0.0_1559655096482_0.278956309173259"
+      },
+      "eslintConfig" : {
+        "env" : {
+          "browser" : true,
+          "es6" : true,
+          "node" : true
+        },
+        "extends" : "eslint:recommended",
+        "parser" : "babel-eslint",
+        "parserOptions" : {
+          "ecmaVersion" : 2018,
+          "impliedStrict" : true,
+          "sourceType" : "module"
+        },
+        "root" : true
+      },
+      "_nodeVersion" : "12.1.0"
+    },
+    "8.0.1" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css or sanitize.css you need from your browserslist",
+      "version" : "8.0.1",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/csstools/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/csstools/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/csstools/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-8.0.1.tgz",
+        "shasum" : "90e80a7763d7fdf2da6f2f0f82be832ce4f66776"
+      },
+      "dependencies" : {
+        "@csstools/normalize.css" : "^10.1.0",
+        "browserslist" : "^4.6.2",
+        "postcss" : "^7.0.17",
+        "postcss-browser-comments" : "^3.0.0",
+        "sanitize.css" : "^10.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-syntax-import-meta" : "^7.2.0",
+        "@babel/preset-env" : "^7.4.5",
+        "babel-eslint" : "^10.0.1",
+        "eslint" : "^5.16.0",
+        "postcss-import" : "^12.0.1",
+        "postcss-tape" : "^5.0.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^1.14.6",
+        "rollup-plugin-babel" : "^4.3.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalizes", "browsers", "fixes" ],
+      "license" : "CC0-1.0",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "rollup --config .rollup.js --silent",
+        "prepublishOnly" : "npm test",
+        "pretest:tape" : "npm run build",
+        "test" : "npm run test:js && npm run test:tape",
+        "test:js" : "eslint src/{*,**/*}.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@8.0.1",
+      "gitHead" : "7c11ae71a5c827d697fffb9f442e1f4cb9d55a54",
+      "module" : "index.esm.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize_8.0.1_1560185378069_0.6092840056929769"
+      },
+      "eslintConfig" : {
+        "env" : {
+          "browser" : true,
+          "es6" : true,
+          "node" : true
+        },
+        "extends" : "eslint:recommended",
+        "parser" : "babel-eslint",
+        "parserOptions" : {
+          "ecmaVersion" : 2018,
+          "impliedStrict" : true,
+          "sourceType" : "module"
+        },
+        "root" : true
+      },
+      "_nodeVersion" : "12.1.0"
+    },
+    "5.0.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserslist",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.cjs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-5.0.0.tgz",
+        "shasum" : "db6012dea9d8415522b154c358dead04349471d3"
+      },
+      "dependencies" : {
+        "browserslist" : "^3.2.8",
+        "postcss" : "^6.0.22"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.3",
+        "babel-eslint" : "^8.2.3",
+        "babel-preset-env" : "^1.7.0",
+        "eslint" : "^4.19.1",
+        "eslint-config-dev" : "^2.0.0",
+        "fse" : "^4.0.1",
+        "postcss-tape" : "^2.2.0",
+        "pre-commit" : "^1.2.2",
+        "rollup" : "^0.60.0",
+        "rollup-plugin-babel" : "^3.0.4"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.cjs.js", "index.es.js", "lib/normalize.js", "lib/normalize.json" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "npm test",
+        "pretest" : "rollup -c .rollup.js --silent",
+        "test" : "npm run test:init && npm run test:js && npm run test:tape",
+        "test:init" : "node lib/normalize-init",
+        "test:js" : "eslint *.js --cache --ignore-path .gitignore --quiet",
+        "test:tape" : "postcss-tape"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@5.0.0",
+      "gitHead" : "a68c2d5fd94ed34b895ba866821ceb0718f93a96",
+      "module" : "index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-normalize_5.0.0_1528347115039_0.5101697416204376"
+      },
+      "eslintConfig" : {
+        "extends" : "dev",
+        "parser" : "babel-eslint"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-normalize",
+      "description" : "Use the parts of normalize.css you need from your browserlist",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jonathan Neal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "homepage" : "https://github.com/jonathantneal/postcss-normalize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonathantneal/postcss-normalize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonathantneal/postcss-normalize/issues"
+      },
+      "engines" : {
+        "node" : ">=6.5.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-normalize/-/postcss-normalize-1.0.0.tgz",
+        "shasum" : "e79f54813cf60fa35a8c5a34647d43464cca3638"
+      },
+      "dependencies" : {
+        "browserslist" : "^2.1.1",
+        "postcss" : "^5.2.17"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.19.0",
+        "eslint-config-dev" : "2.0.0",
+        "fse" : "^2.0.0",
+        "postcss-tape" : "1.3.1",
+        "pre-commit" : "^1.2.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "normalize.css", "normalize", "browsers", "bugs", "fixes", "usability", "browserslist", "browserlist" ],
+      "license" : "CC0-1.0",
+      "files" : [ "index.js", "lib/json-to-ast.js", "lib/normalize.json" ],
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "seaneking",
+        "email" : "sean@simpla.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "git clean -X -d -f",
+        "prepublish" : "npm test",
+        "test" : "echo 'Running tests...'; npm run test:setup && npm run test:js && npm run test:tape",
+        "test:js" : "eslint *.js --cache --ignore-pattern .gitignore",
+        "test:setup" : "node lib/normalize-css-to-json",
+        "test:tape" : "postcss-tape"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-normalize@1.0.0",
+      "gitHead" : "7b1760be1d611da2f96558a4ca3ff036f14e6d33",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-normalize-1.0.0.tgz_1493912143425_0.16350163449533284"
+      },
+      "_shasum" : "e79f54813cf60fa35a8c5a34647d43464cca3638",
+      "eslintConfig" : {
+        "extends" : "dev"
+      },
+      "_nodeVersion" : "7.9.0"
+    }
+  },
+  "readme" : "# PostCSS Normalize [<img src=\"https://postcss.github.io/postcss/logo.svg\" alt=\"PostCSS\" width=\"90\" height=\"90\" align=\"right\">][postcss]\n\n[![NPM Version][npm-img]][npm-url]\n[![Build Status][cli-img]][cli-url]\n[![Support Chat][git-img]][git-url]\n\n[PostCSS Normalize] lets you use the parts of [normalize.css] or [sanitize.css]\nthat you need from your [browserslist].\n\n```css\n@import \"normalize.css\";\n```\n\n```css\n@import \"sanitize.css\";\n```\n\n**PostCSS Normalize** uses a non-opinionated version of [normalize.css], but\nan opinionated version may also be used.\n\n```css\n@import \"normalize.css/opinionated.css\";\n```\n\n### Examples\n\nHere is a sample of what **normalize.css** looks like when the **browserslist**\nis `ie >= 9`:\n\n```css\n/**\n * Add the correct display in IE 9-.\n */\n\naudio,\nvideo {\n  display: inline-block;\n}\n\n/**\n * Remove the border on images inside links in IE 10-.\n */\n\nimg {\n  border-style: none;\n}\n```\n\nAnd here is the same sample when the **browserslist** is `ie >= 10`:\n\n```css\n/**\n * Remove the border on images inside links in IE 10-.\n */\n\nimg {\n  border-style: none;\n}\n```\n\n## Usage\n\nAdd [PostCSS Normalize] to your project:\n\n```bash\nnpm install postcss-normalize --save-dev\n```\n\nAdd a [browserslist] entry in `package.json`:\n\n```json\n{\n  \"browserslist\": \"last 2 versions\"\n}\n```\n\nUse **PostCSS Normalize** to process your CSS:\n\n```js\nconst postcssNormalize = require('postcss-normalize')\n\npostcssNormalize.process(YOUR_CSS /*, processOptions, pluginOptions */)\n```\n\nOr use it as a [PostCSS] plugin:\n\n```js\nconst postcss = require('postcss')\nconst postcssNormalize = require('postcss-normalize')\n\npostcss([\n  postcssNormalize(/* pluginOptions */)\n]).process(YOUR_CSS /*, processOptions */)\n```\n\n**PostCSS Normalize** runs in all Node environments, with special instructions\nfor:\n\n| [Node](INSTALL.md#node) | [PostCSS CLI](INSTALL.md#postcss-cli) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |\n| --- | --- | --- | --- | --- | --- |\n\n## PostCSS Import Usage\n\n**PostCSS Normalize** includes a `postcssImport` function to configure\n[PostCSS Import] and allow you to continue using the `@import` syntax.\n\n```js\nconst postcss = require('postcss')\nconst postcssImport = require('postcss-import')\nconst postcssNormalize = require('postcss-normalize')\n\npostcss([\n  postcssImport(\n    postcssNormalize(\n      /* pluginOptions (for PostCSS Normalize) */\n    ).postcssImport(\n      /* pluginOptions (for PostCSS Import) */\n    )\n  )\n]) // now you can use @import \"normalize.css\", etc. again\n```\n\nAlternatively, use `@import-normalize` or `@import-sanitize` to avoid conflicts\nwith `@import` transforms.\n\n```pcss\n@import-normalize;\n```\n\n```pcss\n@import-normalize \"opinionated.css\";\n```\n\n```pcss\n@import-sanitize;\n```\n\n## Options\n\n### allowDuplicates\n\nThe `allowDuplicates` option determines whether multiple, duplicate insertions\nof CSS libraries are allowed. By default, duplicate libraries are omitted.\n\n```js\npostcssNormalize({ allowDuplicates: true })\n```\n\n### forceImport\n\nThe `forceImport` option defines CSS libraries that will be inserted at the\nbeginning of the CSS file. Unless overriden by `allowDuplicates`, duplicate\nCSS libraries would still be omitted.\n\n```js\npostcssNormalize({ forceImport: true })\n```\n\nSpecific CSS libraries may be defined.\n\n```js\npostcssNormalize({\n  forceImport: 'sanitize.css'\n})\n```\n\n### browsers\n\nThe `browsers` option defines an override of the project’s **browserslist** for\n**PostCSS Normalize**. This option should be avoided in leui of a browserslist\nfile.\n\n```js\npostcssNormalize({ browsers: 'last 2 versions' })\n```\n\n## CSS Libraries\n\n**PostCSS Normalize** can include [normalize.css] or [sanitize.css] and\nconfigure either with the following combinations:\n\n```css\n@import \"normalize\"; /* also, @import \"normalize.css\" */\n@import \"normalize/opinionated\"; /* also, @import \"normalize.css/opinionated.css\", @import \"normalize.css/*\" */\n@import \"sanitize\"; /* also, @import \"sanitize.css\" */\n@import \"sanitize/forms\"; /* also, @import \"sanitize.css/forms.css\" */\n@import \"sanitize/typography\"; /* also, @import \"sanitize.css/typography.css\" */\n@import \"sanitize/page\"; /* also, @import \"sanitize.css/page.css\" */\n@import \"sanitize/*\"; /* also, @import \"sanitize.css/*\" (sanitize + all additions) */\n```\n\n[cli-img]: https://img.shields.io/travis/csstools/postcss-normalize/master.svg\n[cli-url]: https://travis-ci.org/csstools/postcss-normalize\n[git-img]: https://img.shields.io/badge/support-chat-blue.svg\n[git-url]: https://gitter.im/postcss/postcss\n[npm-img]: https://img.shields.io/npm/v/postcss-normalize.svg\n[npm-url]: https://www.npmjs.com/package/postcss-normalize\n\n[browserslist]: http://browserl.ist/\n[CSS Libraries]: #css-libraries\n[normalize.css]: https://github.com/csstools/normalize.css\n[Options]: #options\n[PostCSS]: https://github.com/postcss/postcss\n[PostCSS Import]: https://github.com/postcss/postcss-import\n[PostCSS Import Usage]: #postcss-import-usage\n[PostCSS Normalize]: https://github.com/csstools/postcss-normalize\n[sanitize.css]: https://github.com/csstools/sanitize.css\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  }, {
+    "name" : "seaneking",
+    "email" : "sean@simpla.io"
+  } ],
+  "author" : {
+    "name" : "Jonathan Neal",
+    "email" : "jonathantneal@hotmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2017-05-18T02:10:05.567Z",
+    "7.0.1" : "2018-09-06T12:28:28.530Z",
+    "2.0.1" : "2017-05-22T01:17:33.300Z",
+    "2.1.0" : "2017-05-26T22:57:07.366Z",
+    "created" : "2015-07-04T15:23:46.471Z",
+    "7.0.0" : "2018-09-04T13:24:21.731Z",
+    "4.0.0" : "2017-06-21T13:00:58.521Z",
+    "0.1.1" : "2015-08-17T03:35:04.406Z",
+    "0.2.0" : "2016-03-28T02:52:07.118Z",
+    "0.1.2" : "2015-11-19T02:35:00.481Z",
+    "0.3.0" : "2016-05-26T04:22:43.027Z",
+    "0.1.0" : "2015-07-04T15:23:46.471Z",
+    "3.0.0" : "2017-05-29T01:11:22.865Z",
+    "6.0.0" : "2018-06-16T12:16:26.712Z",
+    "8.0.0" : "2019-06-04T13:31:36.614Z",
+    "8.0.1" : "2019-06-10T16:49:38.230Z",
+    "modified" : "2019-06-10T16:49:40.802Z",
+    "5.0.0" : "2018-06-07T04:51:55.101Z",
+    "1.0.0" : "2017-05-04T15:35:45.233Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/csstools/postcss-normalize.git"
+  },
+  "users" : {
+    "gpuente" : true,
+    "xiechao06" : true,
+    "denji" : true,
+    "qoozoo" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/csstools/postcss-normalize#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "normalizes", "browsers", "fixes" ],
+  "bugs" : {
+    "url" : "https://github.com/csstools/postcss-normalize/issues"
+  },
+  "license" : "CC0-1.0"
+}

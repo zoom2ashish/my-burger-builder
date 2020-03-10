@@ -1,0 +1,2327 @@
+{
+  "_id" : "lodash.sortby",
+  "_rev" : "55-926370da409820a2779d027b61aa1f59",
+  "name" : "lodash.sortby",
+  "description" : "The lodash method `_.sortBy` exported as a module.",
+  "dist-tags" : {
+    "latest" : "4.7.0"
+  },
+  "versions" : {
+    "4.0.2" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.0.2.tgz",
+        "shasum" : "9842df5b371765deb72c18fedf787d76fcaa896b"
+      },
+      "dependencies" : {
+        "lodash._arraymap" : "^3.0.0",
+        "lodash._baseeach" : "^4.0.0",
+        "lodash._baseflatten" : "^4.0.0",
+        "lodash._baseisequal" : "^4.0.0",
+        "lodash._baseismatch" : "^4.0.0",
+        "lodash.get" : "^4.0.0",
+        "lodash.hasin" : "^4.0.0",
+        "lodash.rest" : "^4.0.0",
+        "lodash.topairs" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.15",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.0.2",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-6-west.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.0.2.tgz_1454484698953_0.45098071335814893"
+      },
+      "_shasum" : "9842df5b371765deb72c18fedf787d76fcaa896b",
+      "_nodeVersion" : "5.4.0"
+    },
+    "4.1.1" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.1.1.tgz",
+        "shasum" : "a7cb55bfb58d5c155067aa265320316093655c63"
+      },
+      "dependencies" : {
+        "lodash._arraymap" : "^3.0.0",
+        "lodash._baseeach" : "^4.0.0",
+        "lodash._baseflatten" : "^4.0.0",
+        "lodash._baseisequal" : "^4.0.0",
+        "lodash._baseismatch" : "^4.0.0",
+        "lodash.get" : "^4.0.0",
+        "lodash.hasin" : "^4.0.0",
+        "lodash.rest" : "^4.0.0",
+        "lodash.topairs" : "^4.0.0",
+        "lodash.tostring" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.18",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.1.1",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-5-east.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.1.1.tgz_1455602677391_0.10622198460623622"
+      },
+      "_shasum" : "a7cb55bfb58d5c155067aa265320316093655c63",
+      "_nodeVersion" : "5.5.0"
+    },
+    "4.2.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.2.0.tgz",
+        "shasum" : "cd06c2343564ca16b31e6b52fa3f048f4801b0ba"
+      },
+      "dependencies" : {
+        "lodash._baseeach" : "^4.0.0",
+        "lodash._baseflatten" : "^4.0.0",
+        "lodash._baseiteratee" : "^4.0.0",
+        "lodash.rest" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.18",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.2.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-6-west.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.2.0.tgz_1455615621933_0.29079230036586523"
+      },
+      "_shasum" : "cd06c2343564ca16b31e6b52fa3f048f4801b0ba",
+      "_nodeVersion" : "5.5.0"
+    },
+    "4.2.1" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.2.1",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.2.1.tgz",
+        "shasum" : "868189682e93623f278578020ed20eb6ec6e130d"
+      },
+      "dependencies" : {
+        "lodash._baseeach" : "^4.0.0",
+        "lodash._baseflatten" : "^4.0.0",
+        "lodash._baseiteratee" : "^4.0.0",
+        "lodash.rest" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.17",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.2.1",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.2.1.tgz_1456896755118_0.26596828596666455"
+      },
+      "_shasum" : "868189682e93623f278578020ed20eb6ec6e130d",
+      "_nodeVersion" : "5.5.0"
+    },
+    "4.3.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.3.0.tgz",
+        "shasum" : "9efcd0e64f4618db0b5ce68c0db53045d6e01dbd"
+      },
+      "dependencies" : {
+        "lodash._baseeach" : "~4.1.0",
+        "lodash._baseflatten" : "~4.1.0",
+        "lodash._baseiteratee" : "~4.6.0",
+        "lodash.rest" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.2",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.3.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.3.0.tgz_1459655548156_0.3790936057921499"
+      },
+      "_shasum" : "9efcd0e64f4618db0b5ce68c0db53045d6e01dbd",
+      "_nodeVersion" : "5.9.1"
+    },
+    "4.0.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.0.0.tgz",
+        "shasum" : "582ee85ce265c17e91695adad9d73da4ba1cb9fe"
+      },
+      "dependencies" : {
+        "lodash._arraymap" : "^3.0.0",
+        "lodash._baseeach" : "^4.0.0",
+        "lodash._baseflatten" : "^4.0.0",
+        "lodash._baseisequal" : "^4.0.0",
+        "lodash._baseismatch" : "^4.0.0",
+        "lodash.get" : "^4.0.0",
+        "lodash.hasin" : "^4.0.0",
+        "lodash.rest" : "^4.0.0",
+        "lodash.topairs" : "^4.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.15",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.0.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "582ee85ce265c17e91695adad9d73da4ba1cb9fe",
+      "_nodeVersion" : "5.4.0"
+    },
+    "4.0.1" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.0.1.tgz",
+        "shasum" : "1c7fba1c1f82379e5555d189568795f8dc996808"
+      },
+      "dependencies" : {
+        "lodash._arraymap" : "^3.0.0",
+        "lodash._baseeach" : "^4.0.0",
+        "lodash._baseflatten" : "^4.0.0",
+        "lodash._baseisequal" : "^4.0.0",
+        "lodash._baseismatch" : "^4.0.0",
+        "lodash.get" : "^4.0.0",
+        "lodash.hasin" : "^4.0.0",
+        "lodash.rest" : "^4.0.0",
+        "lodash.topairs" : "^4.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.15",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.0.1",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "1c7fba1c1f82379e5555d189568795f8dc996808",
+      "_nodeVersion" : "5.4.0"
+    },
+    "4.1.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.1.0.tgz",
+        "shasum" : "9322f0d273a31ae43dccc1e847b79ef181c988d2"
+      },
+      "dependencies" : {
+        "lodash._arraymap" : "^3.0.0",
+        "lodash._baseeach" : "^4.0.0",
+        "lodash._baseflatten" : "^4.0.0",
+        "lodash._baseisequal" : "^4.0.0",
+        "lodash._baseismatch" : "^4.0.0",
+        "lodash._root" : "^3.0.0",
+        "lodash.get" : "^4.0.0",
+        "lodash.hasin" : "^4.0.0",
+        "lodash.rest" : "^4.0.0",
+        "lodash.topairs" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.18",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.1.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-5-east.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.1.0.tgz_1454898670280_0.27077552187256515"
+      },
+      "_shasum" : "9322f0d273a31ae43dccc1e847b79ef181c988d2",
+      "_nodeVersion" : "5.5.0"
+    },
+    "4.4.2" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.4.2",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.4.2.tgz",
+        "shasum" : "b54b3f454098ff9e6bdc01782e7ee875db050edc"
+      },
+      "dependencies" : {
+        "lodash._baseeach" : "~4.1.0",
+        "lodash._baseflatten" : "~4.2.0",
+        "lodash._baseiteratee" : "~4.6.0",
+        "lodash.rest" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.3",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.4.2",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.4.2.tgz_1460562098577_0.428053971612826"
+      },
+      "_shasum" : "b54b3f454098ff9e6bdc01782e7ee875db050edc",
+      "_nodeVersion" : "5.5.0"
+    },
+    "4.6.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.6.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.6.0.tgz",
+        "shasum" : "d6f48ce8c50ca88fe51db3ad510bac633a640e83"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.6.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.6.0.tgz_1469458242895_0.3900598189793527"
+      },
+      "_shasum" : "d6f48ce8c50ca88fe51db3ad510bac633a640e83",
+      "_nodeVersion" : "4.2.4"
+    },
+    "4.6.1" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.6.1",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.6.1.tgz",
+        "shasum" : "d957dc76b3994b2288ff2086d58e6e3e115dbf6f"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.8",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.6.1",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.6.1.tgz_1469924846740_0.47132282238453627"
+      },
+      "_shasum" : "d957dc76b3994b2288ff2086d58e6e3e115dbf6f",
+      "_nodeVersion" : "6.0.0"
+    },
+    "4.7.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.7.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.7.0.tgz",
+        "shasum" : "edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.10",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.7.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.7.0.tgz_1471110275744_0.9395535155199468"
+      },
+      "_shasum" : "edd14c824e2cc9c1e0b0a1b42bb5210516a42438",
+      "_nodeVersion" : "4.4.7"
+    },
+    "4.2.2" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.2.2",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.2.2.tgz",
+        "shasum" : "3ae877c62d36fdd9436e7015088023bc72336088"
+      },
+      "dependencies" : {
+        "lodash._baseeach" : "~4.1.0",
+        "lodash._baseflatten" : "~4.1.0",
+        "lodash._baseiteratee" : "~4.5.0",
+        "lodash.rest" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.1",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.2.2",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.2.2.tgz_1459310926889_0.39235340617597103"
+      },
+      "_shasum" : "3ae877c62d36fdd9436e7015088023bc72336088",
+      "_nodeVersion" : "5.5.0"
+    },
+    "4.4.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.4.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.4.0.tgz",
+        "shasum" : "e474c88eaafc4874c1413b19259f7fcd69e11331"
+      },
+      "dependencies" : {
+        "lodash._baseeach" : "~4.1.0",
+        "lodash._baseflatten" : "~4.2.0",
+        "lodash._baseiteratee" : "~4.6.0",
+        "lodash.rest" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.3",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.4.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.4.0.tgz_1460126940966_0.7170054013840854"
+      },
+      "_shasum" : "e474c88eaafc4874c1413b19259f7fcd69e11331",
+      "_nodeVersion" : "5.5.0"
+    },
+    "4.4.1" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.4.1",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.4.1.tgz",
+        "shasum" : "1d6a87aa4bf1149e148f363d9e8c000987d893ea"
+      },
+      "dependencies" : {
+        "lodash._baseeach" : "~4.1.0",
+        "lodash._baseflatten" : "~4.2.0",
+        "lodash._baseiteratee" : "~4.6.0",
+        "lodash.rest" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.3",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.4.1",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.4.1.tgz_1460393873495_0.5091304949019104"
+      },
+      "_shasum" : "1d6a87aa4bf1149e148f363d9e8c000987d893ea",
+      "_nodeVersion" : "5.5.0"
+    },
+    "4.5.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The lodash method `_.sortBy` exported as a module.",
+      "version" : "4.5.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com",
+        "url" : "https://github.com/phated"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-4.5.0.tgz",
+        "shasum" : "c6f5acd5697538e1a1a6107f1a43ad7cc2eaf952"
+      },
+      "dependencies" : {
+        "lodash._baseeach" : "~4.1.0",
+        "lodash._baseflatten" : "~4.2.0",
+        "lodash._baseiteratee" : "~4.7.0",
+        "lodash.rest" : "^4.0.0"
+      },
+      "keywords" : [ "lodash-modularized", "sortby" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.5",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@4.5.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/lodash.sortby-4.5.0.tgz_1463062541581_0.030982702737674117"
+      },
+      "_shasum" : "c6f5acd5697538e1a1a6107f1a43ad7cc2eaf952",
+      "_nodeVersion" : "5.5.0"
+    },
+    "3.0.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The modern build of lodash’s `_.sortBy` as a module.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Benjamin Tan",
+        "email" : "demoneaux@gmail.com",
+        "url" : "https://d10.github.io/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-3.0.0.tgz",
+        "shasum" : "64244f869a47e13a7e698b68683ad6bef2d30b7c"
+      },
+      "dependencies" : {
+        "lodash._basecallback" : "^3.0.0",
+        "lodash._basecompareascending" : "^3.0.0",
+        "lodash._baseeach" : "^3.0.0",
+        "lodash._basesortby" : "^3.0.0",
+        "lodash._isiterateecall" : "^3.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.3.0",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@3.0.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "64244f869a47e13a7e698b68683ad6bef2d30b7c",
+      "_nodeVersion" : "0.10.35"
+    },
+    "3.1.4" : {
+      "name" : "lodash.sortby",
+      "description" : "The modern build of lodash’s `_.sortBy` as a module.",
+      "version" : "3.1.4",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Benjamin Tan",
+        "email" : "demoneaux@gmail.com",
+        "url" : "https://d10.github.io/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-3.1.4.tgz",
+        "shasum" : "c7aac2602ef688c289900109b7df0df5e60ef121"
+      },
+      "dependencies" : {
+        "lodash._basecallback" : "^3.0.0",
+        "lodash._basecompareascending" : "^3.0.0",
+        "lodash._baseeach" : "^3.0.0",
+        "lodash._basesortby" : "^3.0.0",
+        "lodash._isiterateecall" : "^3.0.0",
+        "lodash.isarray" : "^3.0.0",
+        "lodash.keys" : "^3.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      }, {
+        "name" : "d10",
+        "email" : "demoneaux@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@3.1.4",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "c7aac2602ef688c289900109b7df0df5e60ef121",
+      "_nodeVersion" : "2.0.2"
+    },
+    "3.1.5" : {
+      "name" : "lodash.sortby",
+      "description" : "The modern build of lodash’s `_.sortBy` as a module.",
+      "version" : "3.1.5",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Benjamin Tan",
+        "email" : "demoneaux@gmail.com",
+        "url" : "https://d10.github.io/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-3.1.5.tgz",
+        "shasum" : "98403acf75fefb240693831f4bc0d951f94701b8"
+      },
+      "dependencies" : {
+        "lodash._basecallback" : "^3.0.0",
+        "lodash._basecompareascending" : "^3.0.0",
+        "lodash._baseeach" : "^3.0.0",
+        "lodash._basesortby" : "^3.0.0",
+        "lodash._isiterateecall" : "^3.0.0",
+        "lodash.isarray" : "^3.0.0",
+        "lodash.keys" : "^3.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      }, {
+        "name" : "d10",
+        "email" : "demoneaux@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.12.0",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@3.1.5",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "98403acf75fefb240693831f4bc0d951f94701b8",
+      "_nodeVersion" : "0.12.5"
+    },
+    "3.1.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The modern build of lodash’s `_.sortBy` as a module.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Benjamin Tan",
+        "email" : "demoneaux@gmail.com",
+        "url" : "https://d10.github.io/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-3.1.0.tgz",
+        "shasum" : "f1ef3432284152a1ba5c75d375b1d0978df94eb0"
+      },
+      "dependencies" : {
+        "lodash._basecallback" : "^3.0.0",
+        "lodash._basecompareascending" : "^3.0.0",
+        "lodash._baseeach" : "^3.0.0",
+        "lodash._basesortby" : "^3.0.0",
+        "lodash._isiterateecall" : "^3.0.0",
+        "lodash.isarray" : "^3.0.0",
+        "lodash.keys" : "^3.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      }, {
+        "name" : "d10",
+        "email" : "demoneaux@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.6.1",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@3.1.0",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "f1ef3432284152a1ba5c75d375b1d0978df94eb0",
+      "_nodeVersion" : "0.12.0"
+    },
+    "3.1.1" : {
+      "name" : "lodash.sortby",
+      "description" : "The modern build of lodash’s `_.sortBy` as a module.",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Benjamin Tan",
+        "email" : "demoneaux@gmail.com",
+        "url" : "https://d10.github.io/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-3.1.1.tgz",
+        "shasum" : "a1c8a975c5413c932b4fb8dc79a7e15dbd39ff31"
+      },
+      "dependencies" : {
+        "lodash._basecallback" : "^3.0.0",
+        "lodash._basecompareascending" : "^3.0.0",
+        "lodash._baseeach" : "^3.0.0",
+        "lodash._basesortby" : "^3.0.0",
+        "lodash._isiterateecall" : "^3.0.0",
+        "lodash.isarray" : "^3.0.0",
+        "lodash.keys" : "^3.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      }, {
+        "name" : "d10",
+        "email" : "demoneaux@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.6",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@3.1.1",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "a1c8a975c5413c932b4fb8dc79a7e15dbd39ff31",
+      "_nodeVersion" : "0.12.2"
+    },
+    "3.1.2" : {
+      "name" : "lodash.sortby",
+      "description" : "The modern build of lodash’s `_.sortBy` as a module.",
+      "version" : "3.1.2",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Benjamin Tan",
+        "email" : "demoneaux@gmail.com",
+        "url" : "https://d10.github.io/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-3.1.2.tgz",
+        "shasum" : "6d9741d86db56d510ee99eb9d4592974e653639c"
+      },
+      "dependencies" : {
+        "lodash._basecallback" : "^3.0.0",
+        "lodash._basecompareascending" : "^3.0.0",
+        "lodash._baseeach" : "^3.0.0",
+        "lodash._basesortby" : "^3.0.0",
+        "lodash._isiterateecall" : "^3.0.0",
+        "lodash.isarray" : "^3.0.0",
+        "lodash.keys" : "^3.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      }, {
+        "name" : "d10",
+        "email" : "demoneaux@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@3.1.2",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "6d9741d86db56d510ee99eb9d4592974e653639c",
+      "_nodeVersion" : "0.12.2"
+    },
+    "3.1.3" : {
+      "name" : "lodash.sortby",
+      "description" : "The modern build of lodash’s `_.sortBy` as a module.",
+      "version" : "3.1.3",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "https://lodash.com/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/lodash/lodash.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Benjamin Tan",
+        "email" : "demoneaux@gmail.com",
+        "url" : "https://d10.github.io/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "https://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-3.1.3.tgz",
+        "shasum" : "18e04a29b0d346e37bb422796a8e4fe142ddbdd8"
+      },
+      "dependencies" : {
+        "lodash._basecallback" : "^3.0.0",
+        "lodash._basecompareascending" : "^3.0.0",
+        "lodash._baseeach" : "^3.0.0",
+        "lodash._basesortby" : "^3.0.0",
+        "lodash._isiterateecall" : "^3.0.0",
+        "lodash.isarray" : "^3.0.0",
+        "lodash.keys" : "^3.0.0"
+      },
+      "keywords" : [ "lodash", "lodash-modularized", "stdlib", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      }, {
+        "name" : "d10",
+        "email" : "demoneaux@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.0",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@3.1.3",
+      "icon" : "https://lodash.com/icon.svg",
+      "_shasum" : "18e04a29b0d346e37bb422796a8e4fe142ddbdd8",
+      "_nodeVersion" : "0.12.3"
+    },
+    "2.0.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The Lo-Dash function `_.sortBy` as a Node.js module generated by lodash-cli.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "http://lodash.com/custom-builds",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash-cli.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "http://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash-cli/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-2.0.0.tgz",
+        "shasum" : "22d400ae24e58453359b5112a8dc047f341fed2a"
+      },
+      "dependencies" : {
+        "lodash._compareascending" : "~2.0.0",
+        "lodash.createcallback" : "~2.0.0",
+        "lodash.foreach" : "~2.0.0",
+        "lodash._getobject" : "~2.0.0",
+        "lodash._releaseobject" : "~2.0.0"
+      },
+      "keywords" : [ "customize", "functional", "lodash", "performance", "speed", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@2.0.0"
+    },
+    "2.1.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The Lo-Dash function `_.sortBy` as a Node.js module generated by lodash-cli.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "http://lodash.com/custom-builds",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash-cli.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "http://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash-cli/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-2.1.0.tgz",
+        "shasum" : "32a5b2bdba55cbe09b6635368d251671ced45984"
+      },
+      "dependencies" : {
+        "lodash._compareascending" : "~2.1.0",
+        "lodash.createcallback" : "~2.1.0",
+        "lodash.foreach" : "~2.1.0",
+        "lodash._getobject" : "~2.1.0",
+        "lodash._releaseobject" : "~2.1.0"
+      },
+      "keywords" : [ "functional", "lodash", "lodash-modularized", "performance", "speed", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@2.1.0"
+    },
+    "2.4.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The Lo-Dash function `_.sortBy` as a Node.js module generated by lodash-cli.",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "http://lodash.com/custom-builds",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash-cli.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "http://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash-cli/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-2.4.0.tgz",
+        "shasum" : "e900029837d7d8b6a773c86a6ae37c3d97715448"
+      },
+      "dependencies" : {
+        "lodash._compareascending" : "~2.4.0",
+        "lodash.createcallback" : "~2.4.0",
+        "lodash.foreach" : "~2.4.0",
+        "lodash._getarray" : "~2.4.0",
+        "lodash._getobject" : "~2.4.0",
+        "lodash.isarray" : "~2.4.0",
+        "lodash.map" : "~2.4.0",
+        "lodash._releasearray" : "~2.4.0",
+        "lodash._releaseobject" : "~2.4.0"
+      },
+      "keywords" : [ "functional", "lodash", "lodash-modularized", "server", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@2.4.0"
+    },
+    "2.4.1" : {
+      "name" : "lodash.sortby",
+      "description" : "The Lo-Dash function `_.sortBy` as a Node.js module generated by lodash-cli.",
+      "version" : "2.4.1",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "http://lodash.com/custom-builds",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash-cli.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "http://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash-cli/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-2.4.1.tgz",
+        "shasum" : "202daa041cef01b7897b92d1f7b59da62a673407"
+      },
+      "dependencies" : {
+        "lodash._compareascending" : "~2.4.1",
+        "lodash.createcallback" : "~2.4.1",
+        "lodash.foreach" : "~2.4.1",
+        "lodash._getarray" : "~2.4.1",
+        "lodash._getobject" : "~2.4.1",
+        "lodash.isarray" : "~2.4.1",
+        "lodash.map" : "~2.4.1",
+        "lodash._releasearray" : "~2.4.1",
+        "lodash._releaseobject" : "~2.4.1"
+      },
+      "keywords" : [ "functional", "lodash", "lodash-modularized", "server", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@2.4.1"
+    },
+    "2.2.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The Lo-Dash function `_.sortBy` as a Node.js module generated by lodash-cli.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "http://lodash.com/custom-builds",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash-cli.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "http://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash-cli/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-2.2.0.tgz",
+        "shasum" : "cc28fbce00651a83b47b5d896fdb0a683c7b75e0"
+      },
+      "dependencies" : {
+        "lodash._compareascending" : "~2.2.0",
+        "lodash.createcallback" : "~2.2.0",
+        "lodash.foreach" : "~2.2.0",
+        "lodash._getobject" : "~2.2.0",
+        "lodash._releaseobject" : "~2.2.0"
+      },
+      "keywords" : [ "functional", "lodash", "lodash-modularized", "performance", "server", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@2.2.0"
+    },
+    "2.2.1" : {
+      "name" : "lodash.sortby",
+      "description" : "The Lo-Dash function `_.sortBy` as a Node.js module generated by lodash-cli.",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "http://lodash.com/custom-builds",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash-cli.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "http://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash-cli/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-2.2.1.tgz",
+        "shasum" : "e2afa1c79d34897996f2780a6cca1be410509d13"
+      },
+      "dependencies" : {
+        "lodash._compareascending" : "~2.2.1",
+        "lodash.createcallback" : "~2.2.1",
+        "lodash.foreach" : "~2.2.1",
+        "lodash._getobject" : "~2.2.1",
+        "lodash._releaseobject" : "~2.2.1"
+      },
+      "keywords" : [ "functional", "lodash", "lodash-modularized", "server", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@2.2.1"
+    },
+    "2.3.0" : {
+      "name" : "lodash.sortby",
+      "description" : "The Lo-Dash function `_.sortBy` as a Node.js module generated by lodash-cli.",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      },
+      "homepage" : "http://lodash.com/custom-builds",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/lodash/lodash-cli.git"
+      },
+      "contributors" : [ {
+        "name" : "John-David Dalton",
+        "email" : "john.david.dalton@gmail.com",
+        "url" : "http://allyoucanleet.com/"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine@iceddev.com",
+        "url" : "http://www.iceddev.com/"
+      }, {
+        "name" : "Kit Cambridge",
+        "email" : "github@kitcambridge.be",
+        "url" : "http://kitcambridge.be/"
+      }, {
+        "name" : "Mathias Bynens",
+        "email" : "mathias@qiwi.be",
+        "url" : "http://mathiasbynens.be/"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/lodash/lodash-cli/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/lodash.sortby/-/lodash.sortby-2.3.0.tgz",
+        "shasum" : "72820af8c3df03f246ff9753870661fd4eb2daa6"
+      },
+      "dependencies" : {
+        "lodash._compareascending" : "~2.3.0",
+        "lodash.createcallback" : "~2.3.0",
+        "lodash.foreach" : "~2.3.0",
+        "lodash._getobject" : "~2.3.0",
+        "lodash._releaseobject" : "~2.3.0"
+      },
+      "keywords" : [ "functional", "lodash", "lodash-modularized", "server", "util" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      }, {
+        "name" : "kitcambridge",
+        "email" : "github@kitcambridge.be"
+      }, {
+        "name" : "mathias",
+        "email" : "mathias@qiwi.be"
+      }, {
+        "name" : "phated",
+        "email" : "blaine@iceddev.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "jdalton",
+        "email" : "john.david.dalton@gmail.com"
+      },
+      "_id" : "lodash.sortby@2.3.0"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# lodash.sortby v4.7.0\n\nThe [lodash](https://lodash.com/) method `_.sortBy` exported as a [Node.js](https://nodejs.org/) module.\n\n## Installation\n\nUsing npm:\n```bash\n$ {sudo -H} npm i -g npm\n$ npm i --save lodash.sortby\n```\n\nIn Node.js:\n```js\nvar sortBy = require('lodash.sortby');\n```\n\nSee the [documentation](https://lodash.com/docs#sortBy) or [package source](https://github.com/lodash/lodash/blob/4.7.0-npm-packages/lodash.sortby) for more details.\n",
+  "maintainers" : [ {
+    "name" : "jdalton",
+    "email" : "john.david.dalton@gmail.com"
+  }, {
+    "name" : "mathias",
+    "email" : "mathias@qiwi.be"
+  } ],
+  "author" : {
+    "name" : "John-David Dalton",
+    "email" : "john.david.dalton@gmail.com",
+    "url" : "http://allyoucanleet.com/"
+  },
+  "time" : {
+    "4.0.2" : "2016-02-03T07:31:39.707Z",
+    "4.1.1" : "2016-02-16T06:04:40.980Z",
+    "4.2.0" : "2016-02-16T09:40:23.835Z",
+    "4.2.1" : "2016-03-02T05:32:35.637Z",
+    "4.3.0" : "2016-04-03T03:52:28.708Z",
+    "4.0.0" : "2016-01-13T11:13:47.615Z",
+    "4.0.1" : "2016-01-26T08:56:37.271Z",
+    "4.1.0" : "2016-02-08T02:31:12.463Z",
+    "4.4.2" : "2016-04-13T15:41:41.780Z",
+    "4.6.0" : "2016-07-25T14:50:43.130Z",
+    "4.6.1" : "2016-07-31T00:27:30.823Z",
+    "4.7.0" : "2016-08-13T17:44:38.694Z",
+    "4.2.2" : "2016-03-30T04:08:47.343Z",
+    "4.4.0" : "2016-04-08T14:49:01.549Z",
+    "4.4.1" : "2016-04-11T16:57:54.856Z",
+    "4.5.0" : "2016-05-12T14:15:44.897Z",
+    "3.0.0" : "2015-01-26T15:30:09.636Z",
+    "3.1.4" : "2015-05-24T21:11:19.316Z",
+    "modified" : "2016-10-06T16:51:18.480Z",
+    "3.1.5" : "2015-06-30T15:26:57.210Z",
+    "3.1.0" : "2015-03-06T16:58:05.013Z",
+    "3.1.1" : "2015-04-16T16:34:31.229Z",
+    "3.1.2" : "2015-05-01T15:58:51.480Z",
+    "3.1.3" : "2015-05-19T19:55:42.362Z",
+    "2.0.0" : "2013-09-23T07:42:05.477Z",
+    "2.1.0" : "2013-09-23T08:00:18.417Z",
+    "created" : "2013-09-23T06:37:59.465Z",
+    "2.4.0" : "2013-11-26T19:56:55.637Z",
+    "2.4.1" : "2013-12-03T17:17:33.865Z",
+    "2.2.0" : "2013-09-29T22:11:15.671Z",
+    "2.2.1" : "2013-10-03T18:51:59.446Z",
+    "2.3.0" : "2013-11-11T16:49:13.668Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/lodash/lodash.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://lodash.com/",
+  "keywords" : [ "lodash-modularized", "sortby" ],
+  "contributors" : [ {
+    "name" : "John-David Dalton",
+    "email" : "john.david.dalton@gmail.com",
+    "url" : "http://allyoucanleet.com/"
+  }, {
+    "name" : "Blaine Bublitz",
+    "email" : "blaine.bublitz@gmail.com",
+    "url" : "https://github.com/phated"
+  }, {
+    "name" : "Mathias Bynens",
+    "email" : "mathias@qiwi.be",
+    "url" : "https://mathiasbynens.be/"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/lodash/lodash/issues"
+  },
+  "license" : "MIT"
+}

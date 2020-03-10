@@ -1,0 +1,150 @@
+{
+  "_id" : "loader-fs-cache",
+  "_rev" : "2-e3755fc5fd1b8d65acbe949786191f3c",
+  "name" : "loader-fs-cache",
+  "description" : "A published package of https://github.com/babel/babel-loader/blob/master/src/fs-cache.js",
+  "dist-tags" : {
+    "latest" : "1.0.2"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "loader-fs-cache",
+      "description" : "A published package of https://github.com/babel/babel-loader/blob/master/src/fs-cache.js",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Ade Viankakrisna Fadlil"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/loader-fs-cache/-/loader-fs-cache-1.0.0.tgz",
+        "shasum" : "bbfc18ff4d986dcd39b41d0570fd752f08366340"
+      },
+      "dependencies" : {
+        "find-cache-dir" : "^0.1.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "viankakrisna",
+        "email" : "viankakrisna@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.5",
+      "_npmUser" : {
+        "name" : "viankakrisna",
+        "email" : "viankakrisna@gmail.com"
+      },
+      "_id" : "loader-fs-cache@1.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/loader-fs-cache-1.0.0.tgz_1488230471128_0.20648591499775648"
+      },
+      "_shasum" : "bbfc18ff4d986dcd39b41d0570fd752f08366340",
+      "_nodeVersion" : "7.4.0"
+    },
+    "1.0.1" : {
+      "name" : "loader-fs-cache",
+      "description" : "A published package of https://github.com/babel/babel-loader/blob/master/src/fs-cache.js",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Ade Viankakrisna Fadlil"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/loader-fs-cache/-/loader-fs-cache-1.0.1.tgz",
+        "shasum" : "56e0bf08bd9708b26a765b68509840c8dec9fdbc"
+      },
+      "dependencies" : {
+        "find-cache-dir" : "^0.1.1",
+        "mkdirp" : "0.5.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "viankakrisna",
+        "email" : "viankakrisna@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "viankakrisna",
+        "email" : "viankakrisna@gmail.com"
+      },
+      "_id" : "loader-fs-cache@1.0.1",
+      "gitHead" : "f0cf502dd4618075b11d064d61d72188a4ca6724",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/loader-fs-cache-1.0.1.tgz_1490291523753_0.3486142177134752"
+      },
+      "_shasum" : "56e0bf08bd9708b26a765b68509840c8dec9fdbc",
+      "_nodeVersion" : "6.9.5"
+    },
+    "1.0.2" : {
+      "name" : "loader-fs-cache",
+      "description" : "A published package of https://github.com/babel/babel-loader/blob/master/src/fs-cache.js",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Ade Viankakrisna Fadlil"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/loader-fs-cache/-/loader-fs-cache-1.0.2.tgz",
+        "shasum" : "54cedf6b727e1779fd8f01205f05f6e88706f086"
+      },
+      "dependencies" : {
+        "find-cache-dir" : "^0.1.1",
+        "mkdirp" : "0.5.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "viankakrisna",
+        "email" : "viankakrisna@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "viankakrisna",
+        "email" : "viankakrisna@gmail.com"
+      },
+      "_id" : "loader-fs-cache@1.0.2",
+      "gitHead" : "fc0f143e2ceb719e81646e09b58105740796b4e6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/loader-fs-cache_1.0.2_1553761375950_0.679966178737291"
+      },
+      "_nodeVersion" : "8.12.0"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "maintainers" : [ {
+    "name" : "viankakrisna",
+    "email" : "viankakrisna@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Ade Viankakrisna Fadlil"
+  },
+  "time" : {
+    "created" : "2017-02-27T21:21:11.349Z",
+    "modified" : "2019-03-28T08:22:58.485Z",
+    "1.0.0" : "2017-02-27T21:21:11.349Z",
+    "1.0.1" : "2017-03-23T17:52:04.010Z",
+    "1.0.2" : "2019-03-28T08:22:56.124Z"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

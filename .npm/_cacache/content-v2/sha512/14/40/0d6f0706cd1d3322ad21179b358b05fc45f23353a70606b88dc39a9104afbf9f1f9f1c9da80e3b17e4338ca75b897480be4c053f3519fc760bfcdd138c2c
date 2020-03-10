@@ -1,0 +1,5908 @@
+{
+  "_id" : "nan",
+  "_rev" : "1-0",
+  "name" : "nan",
+  "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 11 compatibility",
+  "dist-tags" : {
+    "latest" : "2.14.0"
+  },
+  "versions" : {
+    "0.4.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.4.2",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.4.2.tgz",
+        "shasum" : "e23acfd4811f60ca5cf98c06c1fea8682539d351"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.13",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.4.2"
+    },
+    "0.6.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.6.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.6.0.tgz",
+        "shasum" : "a54ebe59717b467c77425302bd7c17574c887aaa"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.15",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.6.0"
+    },
+    "0.4.3" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.4.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.4.3.tgz",
+        "shasum" : "6f4274c4fa753be8c562822501a7e925ad2af035"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.4.3"
+    },
+    "0.4.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.4.0.tgz",
+        "shasum" : "c099837dd37983b0fbe8cbc800bf56e07e36acd9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.4.0"
+    },
+    "0.4.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.4.1.tgz",
+        "shasum" : "6bca2af7af5ae7f76e9aa96c80897605bcd0407f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.4.1"
+    },
+    "0.4.4" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.4.4",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.4.4.tgz",
+        "shasum" : "9db58eae63cee119807a0d01afd0655d956bea75"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.13",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.4.4"
+    },
+    "0.8.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.8.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.8.0.tgz",
+        "shasum" : "022a8fa5e9fe8420964ac1fb3dc94e17f449f5fd"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.8.0"
+    },
+    "1.8.3" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.8.3",
+      "homepage" : "https://github.com/iojs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/iojs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/iojs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.8.3.tgz",
+        "shasum" : "2f4ec4932c7a2250b5ef4b4597fc5e76af021229"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "pangyp" : "~2.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.8.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.8.3",
+      "gitHead" : "93784ad3aa9355b515bdd7efaceb67b42140b8f2",
+      "_shasum" : "2f4ec4932c7a2250b5ef4b4597fc5e76af021229",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.8.4" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.8.4",
+      "homepage" : "https://github.com/iojs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/iojs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/iojs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.8.4.tgz",
+        "shasum" : "3c76b5382eab33e44b758d2813ca9d92e9342f34"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "pangyp" : "~2.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.8.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.8.4",
+      "gitHead" : "ed3bbf4ced0cf7937b4e4164766797f71aa97f3d",
+      "_shasum" : "3c76b5382eab33e44b758d2813ca9d92e9342f34",
+      "_nodeVersion" : "0.12.2"
+    },
+    "2.14.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 11 compatibility",
+      "version" : "2.14.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.14.0.tgz",
+        "shasum" : "7818f722027b2459a86f0295d434d1fc2336c52c"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "test:worker" : "node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.14.0",
+      "gitHead" : "1dcc61bd06d84e389bfd5311b2b1492a14c74201",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.14.0_1558033896058_0.6879275796293267"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.12.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 11 compatibility",
+      "version" : "2.12.1",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.12.1.tgz",
+        "shasum" : "7b1aa193e9aa86057e3c7bbd0ac448e770925552"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "test:worker" : "node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.12.1",
+      "gitHead" : "1b77c1186c7f36b17f73256c5b04c496a12adf4b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.12.1_1545166898928_0.20846162122668432"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.1.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility",
+      "version" : "2.1.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.1.0.tgz",
+        "shasum" : "020a7ccedc63fdee85f85967d5607849e74abbe8"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.1.0.tgz",
+      "_npmVersion" : "3.3.5",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.1.0",
+      "_shasum" : "020a7ccedc63fdee85f85967d5607849e74abbe8",
+      "_resolved" : "file:nan-2.1.0.tgz",
+      "_nodeVersion" : "4.1.2"
+    },
+    "2.3.5" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility",
+      "version" : "2.3.5",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.3.5.tgz",
+        "shasum" : "822a0dc266290ce4cd3a12282ca3e7e364668a08"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.3.5.tgz",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.3.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.3.5.tgz_1464707164994_0.4295874561648816"
+      },
+      "_shasum" : "822a0dc266290ce4cd3a12282ca3e7e364668a08",
+      "_resolved" : "file:nan-2.3.5.tgz",
+      "_nodeVersion" : "5.0.0"
+    },
+    "2.3.3" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility",
+      "version" : "2.3.3",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.3.3.tgz",
+        "shasum" : "64dd83c9704a83648b6c72b401f6384bd94ef16f"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.3.3.tgz",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.3.3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.3.3.tgz_1462313618725_0.044748055282980204"
+      },
+      "_shasum" : "64dd83c9704a83648b6c72b401f6384bd94ef16f",
+      "_resolved" : "file:nan-2.3.3.tgz",
+      "_nodeVersion" : "5.0.0"
+    },
+    "2.5.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility",
+      "version" : "2.5.1",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.5.1.tgz",
+        "shasum" : "d5b01691253326a97a2bbee9e61c55d8d60351e2"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.5.1.tgz",
+      "_npmVersion" : "4.0.5",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.5.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.5.1.tgz_1485124061146_0.7941144248470664"
+      },
+      "_shasum" : "d5b01691253326a97a2bbee9e61c55d8d60351e2",
+      "_resolved" : "file:nan-2.5.1.tgz",
+      "_nodeVersion" : "7.4.0"
+    },
+    "2.3.4" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility",
+      "version" : "2.3.4",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.3.4.tgz",
+        "shasum" : "a7d5eb1cb727f8123a2dda6a883c006b30896718"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.3.4.tgz",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.3.4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.3.4.tgz_1464646356651_0.48181944130919874"
+      },
+      "_shasum" : "a7d5eb1cb727f8123a2dda6a883c006b30896718",
+      "_resolved" : "file:nan-2.3.4.tgz",
+      "_nodeVersion" : "5.0.0"
+    },
+    "2.7.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 8 compatibility",
+      "version" : "2.7.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.7.0.tgz",
+        "shasum" : "d95bf721ec877e08db276ed3fc6eb78f9083ad46"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.7.0.tgz",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.7.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan-2.7.0.tgz_1504053769999_0.18853025324642658"
+      },
+      "_shasum" : "d95bf721ec877e08db276ed3fc6eb78f9083ad46",
+      "_resolved" : "file:nan-2.7.0.tgz",
+      "_nodeVersion" : "6.11.0"
+    },
+    "2.3.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility",
+      "version" : "2.3.1",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.3.1.tgz",
+        "shasum" : "a4d3e9bfeee09d782d37db161b517221138c2a85"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.3.1.tgz",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.3.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.3.1.tgz_1461774167709_0.5660416295286268"
+      },
+      "_shasum" : "a4d3e9bfeee09d782d37db161b517221138c2a85",
+      "_resolved" : "file:nan-2.3.1.tgz",
+      "_nodeVersion" : "6.0.0"
+    },
+    "2.10.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 9 compatibility",
+      "version" : "2.10.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.10.0.tgz",
+        "shasum" : "96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.10.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.10.0_1521216708687_0.31611161513830033"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.3.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility",
+      "version" : "2.3.2",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.3.2.tgz",
+        "shasum" : "4d4ecf17e1da4e989efb4f273d8d00201cad087e"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.3.2.tgz",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.3.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.3.2.tgz_1461778534440_0.04312888509593904"
+      },
+      "_shasum" : "4d4ecf17e1da4e989efb4f273d8d00201cad087e",
+      "_resolved" : "file:nan-2.3.2.tgz",
+      "_nodeVersion" : "6.0.0"
+    },
+    "2.5.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility",
+      "version" : "2.5.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.5.0.tgz",
+        "shasum" : "aa8f1e34531d807e9e27755b234b4a6ec0c152a8"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.5.0.tgz",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.5.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.5.0.tgz_1482346189010_0.8120697599370033"
+      },
+      "_shasum" : "aa8f1e34531d807e9e27755b234b4a6ec0c152a8",
+      "_resolved" : "file:nan-2.5.0.tgz",
+      "_nodeVersion" : "6.3.1"
+    },
+    "2.12.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 11 compatibility",
+      "version" : "2.12.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.12.0.tgz",
+        "shasum" : "9d443fdb5e13a20770cc5e602eee59760a685885"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "test:worker" : "node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.12.0",
+      "gitHead" : "e8f8519db5f784b6b581b94d14bfe8df7cba91d2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.12.0_1544966058111_0.3054513371345562"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.3.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility",
+      "version" : "2.3.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.3.0.tgz",
+        "shasum" : "e3e5ce03d1811ca92641d0a77934336473ee66be"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.3.0.tgz",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.3.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.3.0.tgz_1461751797395_0.23794877855107188"
+      },
+      "_shasum" : "e3e5ce03d1811ca92641d0a77934336473ee66be",
+      "_resolved" : "file:nan-2.3.0.tgz",
+      "_nodeVersion" : "6.0.0"
+    },
+    "1.1.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.1.2",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.1.2.tgz",
+        "shasum" : "bbd48552fc0758673ebe8fada360b60278a6636b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.1.2"
+    },
+    "1.3.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.3.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.3.0.tgz",
+        "shasum" : "9a5b8d5ef97a10df3050e59b2c362d3baf779742"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.1",
+        "tap" : "~0.4.12",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.3.0",
+      "gitHead" : "e482fbe142e58373d5a24f4e5a60c61e22a13f83",
+      "_shasum" : "9a5b8d5ef97a10df3050e59b2c362d3baf779742"
+    },
+    "1.5.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.5.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.5.0.tgz",
+        "shasum" : "2b3c05bc361f52e50aea2c49077783aa67c5b7fb"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.4.13",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.5.0",
+      "gitHead" : "6fea75acc8f78124756ff4d8e536b6196aca3d37",
+      "_shasum" : "2b3c05bc361f52e50aea2c49077783aa67c5b7fb",
+      "_nodeVersion" : "0.11.14"
+    },
+    "1.5.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.5.1",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.5.1.tgz",
+        "shasum" : "a565e4d4143cb49afdd3fe07e4c8aeaa1e7e0603"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.4.13",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.5.1",
+      "gitHead" : "d05708b0aa6afebe9363b9f34cc5958d2af771f3",
+      "_shasum" : "a565e4d4143cb49afdd3fe07e4c8aeaa1e7e0603",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.5.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.5.2",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.5.2.tgz",
+        "shasum" : "17da56116d035c6a25f18e9d6b356d4199744aa8"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.5.0",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.5.2",
+      "gitHead" : "f93a47f06efedd72b37c1a3250040aed496b6e8d",
+      "_shasum" : "17da56116d035c6a25f18e9d6b356d4199744aa8"
+    },
+    "1.7.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.7.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.7.0.tgz",
+        "shasum" : "755b997404e83cbe7bc08bc3c5c56291bce87438"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "pangyp" : "~2.0.1",
+        "tap" : "~0.5.0",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.7.0",
+      "gitHead" : "550efb5dde5cb6bf79db87ab48dce850e56e971a",
+      "_shasum" : "755b997404e83cbe7bc08bc3c5c56291bce87438",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.5.3" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.5.3",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.5.3.tgz",
+        "shasum" : "4cd0ecc133b7b0700a492a646add427ae8a318eb"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.5.0",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.5.3",
+      "gitHead" : "28ea7e1b769f790c69deaf141b47e4d41e176e8b",
+      "_shasum" : "4cd0ecc133b7b0700a492a646add427ae8a318eb",
+      "_nodeVersion" : "1.0.3"
+    },
+    "1.9.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.9.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.9.0.tgz",
+        "shasum" : "1a9cd2755609766f5c291e4194fce39fde286515"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.9.0",
+      "gitHead" : "399b3a54ada39a7cf7a11978ea727eae3686666e",
+      "_shasum" : "1a9cd2755609766f5c291e4194fce39fde286515",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.1.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.1.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.1.0.tgz",
+        "shasum" : "6ca1ab85dc2cd75d6e7d5cbf3d9491bbb97d4aa5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.1.0"
+    },
+    "1.1.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.1.1",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.1.1.tgz",
+        "shasum" : "1057b5526920e77f268d8e5e1d274a6c19251d18"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.1.1"
+    },
+    "0.5.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.5.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.5.1.tgz",
+        "shasum" : "3dbf3b1a8ab63beb34e39210266c269a0c5d2df2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.5.1"
+    },
+    "0.5.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.5.2",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.5.2.tgz",
+        "shasum" : "217df903f50b0647d97c5f28f1c5d12cb0803e09"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.5.2"
+    },
+    "0.7.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.7.0.tgz",
+        "shasum" : "3c9cc0a4e021c9cc2b699df1d94944e51c5352b9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.30",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.7.0"
+    },
+    "0.3.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.3.1.tgz",
+        "shasum" : "672523b3fbdbc8e73213dc1951b636e98b3b176f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.3.1"
+    },
+    "0.3.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.3.2.tgz",
+        "shasum" : "0df1935cab15369075ef160ad2894107aa14dc2d"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.3.2"
+    },
+    "0.5.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.5.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.5.0.tgz",
+        "shasum" : "fff2b55c761245ef11965d03214d8b4836ef8d79"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.5.0"
+    },
+    "0.7.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.7.1",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.7.1.tgz",
+        "shasum" : "fc576184a1037b3e5675f2ba3740dee2044ff8f4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.7.1"
+    },
+    "0.3.0-wip2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.3.0-wip2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.3.0-wip2.tgz",
+        "shasum" : "0455cc096df55927852e524f195b42631317d21c"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.3.0-wip2"
+    },
+    "0.3.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.3.0.tgz",
+        "shasum" : "8c053549c789b3a1c6169f9bf7949750c6117054"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.3.0"
+    },
+    "2.13.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 11 compatibility",
+      "version" : "2.13.1",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.13.1.tgz",
+        "shasum" : "a15bee3790bde247e8f38f1d446edcdaeb05f2dd"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "test:worker" : "node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.13.1",
+      "gitHead" : "19f08c2394b19a5dbe854020fed0446606d68955",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.13.1_1552600548761_0.5425426860056854"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.13.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 11 compatibility",
+      "version" : "2.13.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.13.0.tgz",
+        "shasum" : "7bdfc27dd3c060c46e60b62c72b74012d1a4cd68"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "test:worker" : "node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.13.0",
+      "gitHead" : "24c6357e53f02c5344847e8f64bb02db45ba5627",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.13.0_1552516810400_0.9078450704100733"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.13.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 11 compatibility",
+      "version" : "2.13.2",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.13.2.tgz",
+        "shasum" : "f51dc7ae66ba7d5d55e1e6d4d8092e802c9aefe7"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "test:worker" : "node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.13.2",
+      "gitHead" : "c428b85786c41e4d55c11c02fe04ef1adba80934",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.13.2_1553437939841_0.6110006893669775"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.9.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 9 compatibility",
+      "version" : "2.9.1",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.9.1.tgz",
+        "shasum" : "af88fcaee5292992c5b755121ceeaa74536fc228"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.9.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.9.1_1519319649692_0.4583243317207173"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.9.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 9 compatibility",
+      "version" : "2.9.2",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.9.2.tgz",
+        "shasum" : "f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.9.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.9.2_1519342457594_0.2577351460235977"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "2.0.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.0.tgz",
+        "shasum" : "bcdd32340befef23a588ea66b2f38902a2b82e42"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.0",
+      "gitHead" : "4ed41d760313b648b4d212d6ff5374668757be4f",
+      "_shasum" : "bcdd32340befef23a588ea66b2f38902a2b82e42",
+      "_nodeVersion" : "0.12.2"
+    },
+    "2.0.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.1",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.1.tgz",
+        "shasum" : "acbeda51fbff253fe1438f71c6df758a58a6c30b"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.1",
+      "gitHead" : "b8bfceff634d009fbc399bbae4321afecf5f2254",
+      "_shasum" : "acbeda51fbff253fe1438f71c6df758a58a6c30b",
+      "_nodeVersion" : "0.12.7"
+    },
+    "2.0.8" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.8",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.8.tgz",
+        "shasum" : "c15fd99dd4cc323d1c2f94ac426313680e606392"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.8",
+      "gitHead" : "505803bbd83dbd43c06e179b78b690e52e17d317",
+      "_shasum" : "c15fd99dd4cc323d1c2f94ac426313680e606392",
+      "_nodeVersion" : "3.2.0"
+    },
+    "2.6.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility",
+      "version" : "2.6.2",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.6.2.tgz",
+        "shasum" : "e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.6.2",
+      "gitHead" : "f0b2f64c1e5317888f2e12fdefb2f105e7018552",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.6.2.tgz_1492029516320_0.2352329883724451"
+      },
+      "_shasum" : "e4ff34e6c95fdfb5aecc08de6596f43605a7db45",
+      "_nodeVersion" : "7.5.0"
+    },
+    "2.8.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 9 compatibility",
+      "version" : "2.8.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.8.0.tgz",
+        "shasum" : "ed715f3fe9de02b57a5e6252d90a96675e1f085a"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.8.0.tgz",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.8.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan-2.8.0.tgz_1510745663002_0.45465062628500164"
+      },
+      "_shasum" : "ed715f3fe9de02b57a5e6252d90a96675e1f085a",
+      "_resolved" : "file:nan-2.8.0.tgz",
+      "_nodeVersion" : "6.12.0"
+    },
+    "2.0.9" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility",
+      "version" : "2.0.9",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.9.tgz",
+        "shasum" : "d02a770f46778842cceb94e17cab31ffc7234a05"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.0.9.tgz",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.9",
+      "_shasum" : "d02a770f46778842cceb94e17cab31ffc7234a05",
+      "_resolved" : "file:nan-2.0.9.tgz",
+      "_nodeVersion" : "4.0.0"
+    },
+    "0.3.0-wip" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "0.3.0-wip",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : ".index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-0.3.0-wip.tgz",
+        "shasum" : "fd51b1e427db1e5952abbc5eaa053a50bddb795f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@0.3.0-wip"
+    },
+    "2.0.6" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.6",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.6.tgz",
+        "shasum" : "1bf60f2a4f91da0d426516f136f51725a092c316"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.6",
+      "gitHead" : "b6bc21134b818708db918b62d7764ea713f46d52",
+      "_shasum" : "1bf60f2a4f91da0d426516f136f51725a092c316",
+      "_nodeVersion" : "3.0.0"
+    },
+    "2.6.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility",
+      "version" : "2.6.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.6.0.tgz",
+        "shasum" : "b9b0a907d796d0d336fd73afce24f5e1aa929934"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.6.0.tgz",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.6.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.6.0.tgz_1491431846889_0.2909555535297841"
+      },
+      "_shasum" : "b9b0a907d796d0d336fd73afce24f5e1aa929934",
+      "_resolved" : "file:nan-2.6.0.tgz",
+      "_nodeVersion" : "7.5.0"
+    },
+    "2.0.7" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.7",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.7.tgz",
+        "shasum" : "c726ce45dbd863b46234e4dfe5bf02d0cb309cd8"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.7",
+      "gitHead" : "c68f4bee08ceca279f264903f2b91b54e6e5e168",
+      "_shasum" : "c726ce45dbd863b46234e4dfe5bf02d0cb309cd8",
+      "_nodeVersion" : "3.0.0"
+    },
+    "2.6.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility",
+      "version" : "2.6.1",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.6.1.tgz",
+        "shasum" : "8c84f7b14c96b89f57fbc838012180ec8ca39a01"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.6.1",
+      "gitHead" : "a80a0e652da1c010bf8aba3c725b667fadb53261",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.6.1.tgz_1491457816058_0.0568844648078084"
+      },
+      "_shasum" : "8c84f7b14c96b89f57fbc838012180ec8ca39a01",
+      "_nodeVersion" : "6.10.2"
+    },
+    "2.0.4" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.4",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.4.tgz",
+        "shasum" : "f81d4c18aa3c8300dec2f336c52fb827cadfa719"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.4",
+      "gitHead" : "736a7d4f1692591d9256b88ed5484736134bd107",
+      "_shasum" : "f81d4c18aa3c8300dec2f336c52fb827cadfa719",
+      "_nodeVersion" : "3.0.0"
+    },
+    "2.4.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility",
+      "version" : "2.4.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.4.0.tgz",
+        "shasum" : "fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.4.0.tgz",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.4.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.4.0.tgz_1468158679820_0.6951719264034182"
+      },
+      "_shasum" : "fb3c59d45fe4effe215f0b890f8adf6eb32d2232",
+      "_resolved" : "file:nan-2.4.0.tgz",
+      "_nodeVersion" : "5.0.0"
+    },
+    "2.0.5" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.5",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.5.tgz",
+        "shasum" : "365888014be1fd178db0cbfa258edf7b0cb1c408"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.5",
+      "gitHead" : "d13a2e9ce762fd130877b53c71d35963fa2cf689",
+      "_shasum" : "365888014be1fd178db0cbfa258edf7b0cb1c408",
+      "_nodeVersion" : "3.0.0"
+    },
+    "2.11.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 10 compatibility",
+      "version" : "2.11.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ "Rod Vagg <r@va.gg> (https://github.com/rvagg)", "Benjamin Byholm <bbyholm@abo.fi> (https://github.com/kkoopa/)", "Trevor Norris <trev.norris@gmail.com> (https://github.com/trevnorris)", "Nathan Rajlich <nathan@tootallnate.net> (https://github.com/TooTallNate)", "Brett Lawson <brett19@gmail.com> (https://github.com/brett19)", "Ben Noordhuis <info@bnoordhuis.nl> (https://github.com/bnoordhuis)", "David Siegel <david@artcom.de> (https://github.com/agnat)", "Michael Ira Krufky <mkrufky@gmail.com> (https://github.com/mkrufky)" ],
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/node_modules/nan/nan-2.11.1r.tgz",
+        "shasum" : "00842bcb0e9ba654b41732ff3df67328eaa49d45"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "test:worker" : "node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_id" : "nan@2.11.1"
+    },
+    "2.0.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.2",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.2.tgz",
+        "shasum" : "326b3076add027caa3878aa68aef18516694d9ec"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.2",
+      "gitHead" : "e6fe13be317181468258cf6e1724efcf4482d44a",
+      "_shasum" : "326b3076add027caa3878aa68aef18516694d9ec",
+      "_nodeVersion" : "3.0.0"
+    },
+    "2.2.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility",
+      "version" : "2.2.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.2.0.tgz",
+        "shasum" : "779c07135629503cf6a7b7e6aab33049b3c3853c"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.2.0.tgz",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.2.0",
+      "_shasum" : "779c07135629503cf6a7b7e6aab33049b3c3853c",
+      "_resolved" : "file:nan-2.2.0.tgz",
+      "_nodeVersion" : "5.0.0"
+    },
+    "2.0.3" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "2.0.3",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.0.3.tgz",
+        "shasum" : "39252b7a399715750b76abc3c4625076a5420a51"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~2.0.2",
+        "pangyp" : "~2.2.0",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.0.3",
+      "gitHead" : "719ba85039fc9fe3ca169c2eade76d250f0f208a",
+      "_shasum" : "39252b7a399715750b76abc3c4625076a5420a51",
+      "_nodeVersion" : "3.0.0"
+    },
+    "2.2.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility",
+      "version" : "2.2.1",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.2.1.tgz",
+        "shasum" : "d68693f6b34bb41d66bc68b3a4f9defc79d7149b"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "node-gyp" : "~3.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2013 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_from" : "nan-2.2.1.tgz",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.2.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/nan-2.2.1.tgz_1459265439909_0.12396649201400578"
+      },
+      "_shasum" : "d68693f6b34bb41d66bc68b3a4f9defc79d7149b",
+      "_resolved" : "file:nan-2.2.1.tgz",
+      "_nodeVersion" : "5.0.0"
+    },
+    "2.11.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8 -> 9 compatibility",
+      "version" : "2.11.0",
+      "homepage" : "https://github.com/nodejs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodejs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      }, {
+        "name" : "Michael Ira Krufky",
+        "email" : "mkrufky@gmail.com",
+        "url" : "https://github.com/mkrufky"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/nodejs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-2.11.0.tgz",
+        "shasum" : "574e360e4d954ab16966ec102c0c049fd961a099"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "commander" : "^2.8.1",
+        "glob" : "^5.0.14",
+        "request" : "=2.81.0",
+        "node-gyp" : "~3.6.2",
+        "readable-stream" : "^2.1.4",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc --stderr test/js/*-test.js",
+        "test:worker" : "node --experimental-worker test/tap-as-worker.js --gc --stderr test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --msvs_version=2015 --directory test",
+        "docs" : "doc/.build.sh"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@2.11.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/nan_2.11.0_1535201025004_0.7520281082678468"
+      },
+      "_nodeVersion" : "9.6.0"
+    },
+    "1.4.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.4.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.4.0.tgz",
+        "shasum" : "d49a8e21da02b88f8b175a5300bdfd5e9a5d5362"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.4.13",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.4.0",
+      "gitHead" : "7eb51725bc0aae4de3cebe3554df304f36fb074c",
+      "_shasum" : "d49a8e21da02b88f8b175a5300bdfd5e9a5d5362"
+    },
+    "1.4.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.4.1",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.4.1.tgz",
+        "shasum" : "0a2bb562c558b440005b1f7eb8b31ccbdb565d5f"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.4.13",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.4.1",
+      "_shasum" : "0a2bb562c558b440005b1f7eb8b31ccbdb565d5f"
+    },
+    "1.4.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.4.2",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.4.2.tgz",
+        "shasum" : "394c45ae2e3493a35f9adf96d33ee01098ff38d9"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.4.13",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.4.2",
+      "gitHead" : "769993a03894c421384564c1ea00a109667aede8",
+      "_shasum" : "394c45ae2e3493a35f9adf96d33ee01098ff38d9",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.6.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.6.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.6.0.tgz",
+        "shasum" : "a3b14a6608a31d9c2c062ca5f2c5ae77e9399f95"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.5.0",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.6.0",
+      "gitHead" : "e4a76669d7ca47081bbf666434784e9bfbbb633b",
+      "_shasum" : "a3b14a6608a31d9c2c062ca5f2c5ae77e9399f95"
+    },
+    "1.4.3" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.4.3",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.4.3.tgz",
+        "shasum" : "c56b5404698063696f597435f9163c312aea5009"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.4.13",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.6",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.4.3",
+      "gitHead" : "75121a4413c4729170ec97c73c4826600f4a763e",
+      "_shasum" : "c56b5404698063696f597435f9163c312aea5009",
+      "_nodeVersion" : "0.10.33"
+    },
+    "1.6.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.6.1",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.6.1.tgz",
+        "shasum" : "69bc50b2d727f3df01145a963f7d2e4da5ff9184"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "tap" : "~0.5.0",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "node-gyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.6.1",
+      "gitHead" : "87c127bba328c8229f2e8e3875b19422888abe5f",
+      "_shasum" : "69bc50b2d727f3df01145a963f7d2e4da5ff9184",
+      "_nodeVersion" : "1.0.3"
+    },
+    "1.6.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.6.2",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.6.2.tgz",
+        "shasum" : "2657d1c43b00f1e847e083832285b7d8f5ba8ec8"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "pangyp" : "~2.0.1",
+        "tap" : "~0.5.0",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.6.2",
+      "gitHead" : "ab0e5eed8d4aa36111bf8f44cf75644ece327e98",
+      "_shasum" : "2657d1c43b00f1e847e083832285b7d8f5ba8ec8"
+    },
+    "1.8.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.8.0",
+      "homepage" : "https://github.com/iojs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/iojs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/iojs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.8.0.tgz",
+        "shasum" : "0b46b0463a4b6439f72f5a2143775e69827e02e6"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "pangyp" : "~2.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.8.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.8.0",
+      "gitHead" : "2aef83e5b6b5f7a59bb0b5a820e55ce934eabbba",
+      "_shasum" : "0b46b0463a4b6439f72f5a2143775e69827e02e6",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.8.1" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.8.1",
+      "homepage" : "https://github.com/iojs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/iojs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/iojs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.8.1.tgz",
+        "shasum" : "6b2f119c88942f7e24f97b0cfde135ff96d4a66d"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "pangyp" : "~2.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.8.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.8.1",
+      "gitHead" : "2a07f672c08f8dd65aeb35d94df40f6e96126666",
+      "_shasum" : "6b2f119c88942f7e24f97b0cfde135ff96d4a66d",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.8.2" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.8.2",
+      "homepage" : "https://github.com/iojs/nan#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/iojs/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      }, {
+        "name" : "David Siegel",
+        "email" : "david@artcom.de",
+        "url" : "https://github.com/agnat"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/iojs/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.8.2.tgz",
+        "shasum" : "131518535fa0c49e91f2d1a776f65bb04577dea0"
+      },
+      "devDependencies" : {
+        "bindings" : "~1.2.1",
+        "node-gyp" : "~1.0.2",
+        "pangyp" : "~2.0.1",
+        "tap" : "~0.7.1",
+        "xtend" : "~4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap --gc test/js/*-test.js",
+        "rebuild-tests" : "pangyp rebuild --directory test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.8.3",
+      "_npmUser" : {
+        "name" : "kkoopa",
+        "email" : "bbyholm@abo.fi"
+      },
+      "_id" : "nan@1.8.2",
+      "gitHead" : "76495edfd7b642532e6f9f412403e6e2392df94b",
+      "_shasum" : "131518535fa0c49e91f2d1a776f65bb04577dea0",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.0.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.0.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.0.0.tgz",
+        "shasum" : "ae24f8850818d662fcab5acf7f3b95bfaa2ccf38"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.0.0"
+    },
+    "1.2.0" : {
+      "name" : "nan",
+      "description" : "Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility",
+      "version" : "1.2.0",
+      "homepage" : "https://github.com/rvagg/nan",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/rvagg/nan.git"
+      },
+      "contributors" : [ {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      }, {
+        "name" : "Benjamin Byholm",
+        "email" : "bbyholm@abo.fi",
+        "url" : "https://github.com/kkoopa/"
+      }, {
+        "name" : "Trevor Norris",
+        "email" : "trev.norris@gmail.com",
+        "url" : "https://github.com/trevnorris"
+      }, {
+        "name" : "Nathan Rajlich",
+        "email" : "nathan@tootallnate.net",
+        "url" : "https://github.com/TooTallNate"
+      }, {
+        "name" : "Brett Lawson",
+        "email" : "brett19@gmail.com",
+        "url" : "https://github.com/brett19"
+      }, {
+        "name" : "Ben Noordhuis",
+        "email" : "info@bnoordhuis.nl",
+        "url" : "https://github.com/bnoordhuis"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/rvagg/nan/issues"
+      },
+      "main" : "include_dirs.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/nan/-/nan-1.2.0.tgz",
+        "shasum" : "9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "nan@1.2.0"
+    }
+  },
+  "maintainers" : [ {
+    "name" : "kkoopa",
+    "email" : "bbyholm@abo.fi"
+  }, {
+    "name" : "rvagg",
+    "email" : "rod@vagg.org"
+  } ],
+  "time" : {
+    "0.4.2" : "2013-11-02T02:40:01.651Z",
+    "0.6.0" : "2013-11-21T01:22:46.218Z",
+    "0.4.3" : "2013-11-02T02:56:46.951Z",
+    "0.4.0" : "2013-09-02T11:49:34.846Z",
+    "0.4.1" : "2013-09-16T13:35:24.529Z",
+    "0.4.4" : "2013-11-02T03:39:07.560Z",
+    "0.8.0" : "2014-01-09T12:30:42.175Z",
+    "1.8.3" : "2015-04-26T14:29:27.155Z",
+    "1.8.4" : "2015-04-26T14:32:39.821Z",
+    "2.14.0" : "2019-05-16T19:11:36.198Z",
+    "2.12.1" : "2018-12-18T21:01:39.060Z",
+    "modified" : "2019-05-16T19:11:39.029Z",
+    "2.1.0" : "2015-10-08T14:39:47.658Z",
+    "created" : "2018-10-26T13:16:40.128Z",
+    "2.3.5" : "2016-05-31T15:06:07.585Z",
+    "2.3.3" : "2016-05-03T22:13:40.112Z",
+    "2.5.1" : "2017-01-22T22:27:41.920Z",
+    "2.3.4" : "2016-05-30T22:12:38.756Z",
+    "2.7.0" : "2017-08-30T00:42:51.289Z",
+    "2.3.1" : "2016-04-27T16:22:50.179Z",
+    "2.10.0" : "2018-03-16T16:11:48.820Z",
+    "2.3.2" : "2016-04-27T17:35:35.526Z",
+    "2.5.0" : "2016-12-21T18:49:51.532Z",
+    "2.12.0" : "2018-12-16T13:14:18.284Z",
+    "2.3.0" : "2016-04-27T10:10:00.078Z",
+    "1.1.2" : "2014-05-28T13:07:41.871Z",
+    "1.3.0" : "2014-08-02T12:07:40.701Z",
+    "1.5.0" : "2015-01-14T19:39:39.575Z",
+    "1.5.1" : "2015-01-15T03:54:54.300Z",
+    "1.5.2" : "2015-01-22T23:54:56.053Z",
+    "1.7.0" : "2015-02-28T12:18:10.217Z",
+    "1.5.3" : "2015-01-23T00:40:19.788Z",
+    "1.9.0" : "2015-07-31T11:18:16.059Z",
+    "1.1.0" : "2014-05-25T01:13:41.611Z",
+    "1.1.1" : "2014-05-28T10:20:37.994Z",
+    "0.5.1" : "2013-11-11T21:43:27.912Z",
+    "0.5.2" : "2013-11-16T10:25:47.488Z",
+    "0.7.0" : "2013-12-16T14:55:11.928Z",
+    "0.3.1" : "2013-08-20T09:17:59.275Z",
+    "0.3.2" : "2013-08-30T12:53:23.650Z",
+    "0.5.0" : "2013-11-11T02:36:36.947Z",
+    "0.7.1" : "2014-01-09T12:23:38.047Z",
+    "0.3.0-wip2" : "2013-08-16T11:38:17.241Z",
+    "0.3.0" : "2013-08-19T11:56:01.536Z",
+    "2.13.1" : "2019-03-14T21:55:48.868Z",
+    "2.13.0" : "2019-03-13T22:40:10.625Z",
+    "2.13.2" : "2019-03-24T14:32:19.987Z",
+    "2.9.1" : "2018-02-22T17:14:09.800Z",
+    "2.9.2" : "2018-02-22T23:34:17.650Z",
+    "2.0.0" : "2015-07-31T11:56:05.961Z",
+    "2.0.1" : "2015-08-06T11:17:23.696Z",
+    "2.0.8" : "2015-08-28T08:02:26.997Z",
+    "2.6.2" : "2017-04-12T20:38:38.470Z",
+    "2.8.0" : "2017-11-15T11:34:24.395Z",
+    "2.0.9" : "2015-09-08T22:57:25.991Z",
+    "0.3.0-wip" : "2013-08-16T10:54:45.384Z",
+    "2.0.6" : "2015-08-26T07:48:29.905Z",
+    "2.6.0" : "2017-04-05T22:37:27.792Z",
+    "2.0.7" : "2015-08-26T07:52:04.898Z",
+    "2.6.1" : "2017-04-06T05:50:18.273Z",
+    "2.0.4" : "2015-08-07T00:05:12.716Z",
+    "2.4.0" : "2016-07-10T13:51:21.410Z",
+    "2.0.5" : "2015-08-10T14:53:43.186Z",
+    "2.11.1" : "2018-09-29T08:09:53.621Z",
+    "2.0.2" : "2015-08-06T11:41:46.078Z",
+    "2.2.0" : "2016-01-09T15:12:57.471Z",
+    "2.0.3" : "2015-08-06T23:20:47.997Z",
+    "2.2.1" : "2016-03-29T15:30:42.770Z",
+    "2.11.0" : "2018-08-25T12:43:45.113Z",
+    "1.4.0" : "2014-11-01T22:48:41.300Z",
+    "1.4.1" : "2014-11-08T16:19:39.727Z",
+    "1.4.2" : "2015-01-15T03:53:24.469Z",
+    "1.6.0" : "2015-01-23T00:29:18.252Z",
+    "1.4.3" : "2015-01-15T03:54:10.813Z",
+    "1.6.1" : "2015-01-23T00:48:11.043Z",
+    "1.6.2" : "2015-02-06T18:39:26.282Z",
+    "1.8.0" : "2015-04-23T14:29:59.549Z",
+    "1.8.1" : "2015-04-23T17:59:00.393Z",
+    "1.8.2" : "2015-04-23T19:54:07.123Z",
+    "1.0.0" : "2014-05-04T12:20:09.986Z",
+    "1.2.0" : "2014-06-04T21:24:39.703Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/nodejs/nan.git"
+  },
+  "users" : {
+    "xrush" : true,
+    "estliberitas" : true,
+    "blitzprog" : true,
+    "y-a-v-a" : true,
+    "guananddu" : true,
+    "nicknaso" : true,
+    "horpto" : true,
+    "shuoshubao" : true,
+    "emarcs" : true,
+    "braviel" : true,
+    "fivdi" : true,
+    "rexpan" : true,
+    "detj" : true,
+    "nohomey" : true,
+    "shanewholloway" : true,
+    "djk" : true,
+    "semenovem" : true,
+    "matteo.collina" : true,
+    "yunnysunny" : true,
+    "nbuchanan" : true,
+    "javascript" : true,
+    "panlw" : true,
+    "ga1989" : true,
+    "faraoman" : true,
+    "hal9zillion" : true,
+    "ecomfe" : true,
+    "theheros" : true,
+    "crycode" : true,
+    "ceejbot" : true,
+    "mortiy" : true,
+    "slickmonk" : true,
+    "taoyuan" : true,
+    "dozoisch" : true,
+    "jalcine" : true,
+    "lukicdarkoo" : true,
+    "mkrufky" : true,
+    "debashish" : true,
+    "js3692" : true,
+    "liushoukai" : true,
+    "magicxiao85" : true,
+    "chesstrian" : true,
+    "andr" : true,
+    "highlanderkev" : true,
+    "yashprit" : true,
+    "atesgoral" : true,
+    "coderaiser" : true,
+    "markthethomas" : true,
+    "foliveira" : true,
+    "daviddias" : true,
+    "magemagic" : true,
+    "wangnan0610" : true,
+    "usex" : true,
+    "chaoliu" : true,
+    "wouldgo" : true,
+    "sopov" : true,
+    "steel1990" : true,
+    "xtx1130" : true,
+    "fatelei" : true,
+    "monolithed" : true,
+    "pandao" : true,
+    "abetomo" : true,
+    "kriswill" : true,
+    "koslun" : true,
+    "mojaray2k" : true
+  },
+  "homepage" : "https://github.com/nodejs/nan#readme",
+  "contributors" : [ {
+    "name" : "Rod Vagg",
+    "email" : "r@va.gg",
+    "url" : "https://github.com/rvagg"
+  }, {
+    "name" : "Benjamin Byholm",
+    "email" : "bbyholm@abo.fi",
+    "url" : "https://github.com/kkoopa/"
+  }, {
+    "name" : "Trevor Norris",
+    "email" : "trev.norris@gmail.com",
+    "url" : "https://github.com/trevnorris"
+  }, {
+    "name" : "Nathan Rajlich",
+    "email" : "nathan@tootallnate.net",
+    "url" : "https://github.com/TooTallNate"
+  }, {
+    "name" : "Brett Lawson",
+    "email" : "brett19@gmail.com",
+    "url" : "https://github.com/brett19"
+  }, {
+    "name" : "Ben Noordhuis",
+    "email" : "info@bnoordhuis.nl",
+    "url" : "https://github.com/bnoordhuis"
+  }, {
+    "name" : "David Siegel",
+    "email" : "david@artcom.de",
+    "url" : "https://github.com/agnat"
+  }, {
+    "name" : "Michael Ira Krufky",
+    "email" : "mkrufky@gmail.com",
+    "url" : "https://github.com/mkrufky"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/nodejs/nan/issues"
+  },
+  "license" : "MIT"
+}

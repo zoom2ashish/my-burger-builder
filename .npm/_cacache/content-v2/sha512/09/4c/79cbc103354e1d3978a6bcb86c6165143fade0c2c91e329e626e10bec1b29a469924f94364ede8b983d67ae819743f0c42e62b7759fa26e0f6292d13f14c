@@ -1,0 +1,1025 @@
+{
+  "_id" : "postcss-flexbugs-fixes",
+  "_rev" : "25-af255a376cbc55971baf7b1eaeb17050",
+  "name" : "postcss-flexbugs-fixes",
+  "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+  "dist-tags" : {
+    "latest" : "4.2.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-2.0.0.tgz",
+        "shasum" : "16ed39485794ecf2f45c8f65a2671bdad4aa9670"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@2.0.0",
+      "gitHead" : "b918ff45392c4c7a2529e210c9bac92b67ad9a56",
+      "_shasum" : "16ed39485794ecf2f45c8f65a2671bdad4aa9670",
+      "_nodeVersion" : "4.1.2"
+    },
+    "2.1.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-2.1.0.tgz",
+        "shasum" : "e1048faa9e3b500159208a8efbd8ed147625a268"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.2",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@2.1.0",
+      "gitHead" : "dfaf65381376c63579bd17682706b32a3a9a8192",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-flexbugs-fixes-2.1.0.tgz_1481054398432_0.08418436837382615"
+      },
+      "_shasum" : "e1048faa9e3b500159208a8efbd8ed147625a268",
+      "_nodeVersion" : "6.9.1"
+    },
+    "0.0.4" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-0.0.4.tgz",
+        "shasum" : "9dd97714bd9ea428ecaa6e72c8b6bece422e16ab"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@0.0.4",
+      "gitHead" : "b5d42a3f9e30235418d1af56eb4f54db8b041e7a",
+      "_shasum" : "9dd97714bd9ea428ecaa6e72c8b6bece422e16ab",
+      "_nodeVersion" : "0.12.4"
+    },
+    "0.0.5" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "0.0.5",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-0.0.5.tgz",
+        "shasum" : "0a6ae75bfc564cb663b6bf79d12f14762e8604b5"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@0.0.5",
+      "gitHead" : "4c1dd87eaa88f5de3c0999e34c7e4ffde7492175",
+      "_shasum" : "0a6ae75bfc564cb663b6bf79d12f14762e8604b5",
+      "_nodeVersion" : "0.12.4"
+    },
+    "4.2.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-4.2.0.tgz",
+        "shasum" : "662b3dcb6354638b9213a55eed8913bcdc8d004a"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.26"
+      },
+      "devDependencies" : {
+        "chai" : "^4.2.0",
+        "gulp" : "^4.0.2",
+        "gulp-eslint" : "^6.0.0",
+        "gulp-mocha" : "^7.0.2"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@4.2.0",
+      "gitHead" : "8a0cc8436ef825f0fccdd949c9010bad8b1353f4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-flexbugs-fixes_4.2.0_1580821317082_0.30657349127645683"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "4.0.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-4.0.0.tgz",
+        "shasum" : "e6f4c21222404b97a762eabf9ff64bf2e3e333e8"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "files" : [ "bugs", "index.js" ],
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@4.0.0",
+      "gitHead" : "60c8e5ff161aa97e122d92cd4053400f4aa66e00",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-flexbugs-fixes_4.0.0_1531943323772_0.7492851242632688"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "4.1.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-4.1.0.tgz",
+        "shasum" : "e094a9df1783e2200b7b19f875dcad3b3aff8b20"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "files" : [ "bugs", "index.js" ],
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@4.1.0",
+      "gitHead" : "95327e035faa6546150ae6f99bbbba98b8319433",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-flexbugs-fixes_4.1.0_1532989354131_0.8842908869973223"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "0.0.2" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-0.0.2.tgz",
+        "shasum" : "89cd884e4ce16982875649f325de94eaf59aadf9"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@0.0.2",
+      "gitHead" : "28bf2098fae0ea0d3ec667baf00278352cfcc90d",
+      "_shasum" : "89cd884e4ce16982875649f325de94eaf59aadf9",
+      "_nodeVersion" : "0.12.4"
+    },
+    "0.0.3" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-0.0.3.tgz",
+        "shasum" : "7e3e64df1c724ad1a7a58a9ff6407698340ec870"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@0.0.3",
+      "gitHead" : "7d1078121e98f0f6cfe91afb02730da9cb9de0e1",
+      "_shasum" : "7e3e64df1c724ad1a7a58a9ff6407698340ec870",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.1.1" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-2.1.1.tgz",
+        "shasum" : "5fa40080ba216d398e41228be2765282f2060d8d"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "files" : [ "bugs", "index.js" ],
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@2.1.1",
+      "gitHead" : "d4615427b1d8114ac4e6352557dc4e5da6c6781d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-flexbugs-fixes-2.1.1.tgz_1492008800666_0.902037673862651"
+      },
+      "_shasum" : "5fa40080ba216d398e41228be2765282f2060d8d",
+      "_nodeVersion" : "7.8.0"
+    },
+    "0.0.1" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-0.0.1.tgz",
+        "shasum" : "5653f289a64a529200846ae061b4e4d90822d8ef"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@0.0.1",
+      "gitHead" : "5d6feadcb563597ced169704dcc125ed9d9d5c6f",
+      "_shasum" : "5653f289a64a529200846ae061b4e4d90822d8ef",
+      "_nodeVersion" : "0.12.4"
+    },
+    "3.0.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-3.0.0.tgz",
+        "shasum" : "7b31cb6c27d0417a35a67914c295f83c403c7ed4"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "files" : [ "bugs", "index.js" ],
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@3.0.0",
+      "gitHead" : "c6a2b10cd4ac88a72ed346ad9049687b0de77900",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-flexbugs-fixes-3.0.0.tgz_1494456723816_0.5649426844902337"
+      },
+      "_shasum" : "7b31cb6c27d0417a35a67914c295f83c403c7ed4",
+      "_nodeVersion" : "7.9.0"
+    },
+    "3.1.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-3.1.0.tgz",
+        "shasum" : "16c40b99dac24fc7a33e4bd3808e36fedfa666d8"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "files" : [ "bugs", "index.js" ],
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@3.1.0",
+      "gitHead" : "c825631b4d2e53b9f5131bde576b7accdf4c3124",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-flexbugs-fixes-3.1.0.tgz_1501469695893_0.09963696426711977"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "1.0.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-1.0.0.tgz",
+        "shasum" : "f1b02740091eb00e4ebb6844fccf7f4c22407fad"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.2.2",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@1.0.0",
+      "gitHead" : "befee6742c034352451c7ad5de14de0e3d88392b",
+      "_shasum" : "f1b02740091eb00e4ebb6844fccf7f4c22407fad",
+      "_nodeVersion" : "0.12.7"
+    },
+    "3.2.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-3.2.0.tgz",
+        "shasum" : "9b8b932c53f9cf13ba0f61875303e447c33dcc51"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "files" : [ "bugs", "index.js" ],
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@3.2.0",
+      "gitHead" : "f04c45f96272ec94e7f7627cbf93b1de9eb4fd65",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-flexbugs-fixes-3.2.0.tgz_1501514448088_0.16325975116342306"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "1.1.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-1.1.0.tgz",
+        "shasum" : "be7c028b896f98a198649dc7bf4c73eaecf05649"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.9"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.2.2",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@1.1.0",
+      "gitHead" : "d174c8ee80efd2b48e961532af3b988e89584140",
+      "_shasum" : "be7c028b896f98a198649dc7bf4c73eaecf05649",
+      "_nodeVersion" : "0.12.7"
+    },
+    "3.3.0" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-3.3.0.tgz",
+        "shasum" : "e00849b536063749da50a0d410ba5d9ee65e27b8"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "files" : [ "bugs", "index.js" ],
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@3.3.0",
+      "gitHead" : "fe6215e89f8eae410b87f5f16facb6da9815c2e4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-flexbugs-fixes-3.3.0.tgz_1516312053863_0.836878061061725"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.3.1" : {
+      "name" : "postcss-flexbugs-fixes",
+      "description" : "PostCSS plugin This project tries to fix all of flexbug's issues",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Luis Rudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-3.3.1.tgz",
+        "shasum" : "0783cc7212850ef707f97f8bc8b6fb624e00c75d"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "gulp-eslint" : "^0.12.0",
+        "gulp-mocha" : "^2.0.1",
+        "chai" : "^2.3.0",
+        "gulp" : "^3.8.11"
+      },
+      "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+      "license" : "MIT",
+      "files" : [ "bugs", "index.js" ],
+      "maintainers" : [ {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "gulp"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "luisrudge",
+        "email" : "luis@luisrudge.net"
+      },
+      "_id" : "postcss-flexbugs-fixes@3.3.1",
+      "gitHead" : "d9d395557a2c1edf36d5356490b1199593ef4eff",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-flexbugs-fixes_3.3.1_1524936522465_0.7094944846405062"
+      },
+      "_nodeVersion" : "8.1.4"
+    }
+  },
+  "readme" : "# PostCSS Flexbugs Fixes [![Build Status][ci-img]][ci]\n[PostCSS] plugin This project tries to fix all of [flexbug's](https://github.com/philipwalton/flexbugs) issues.\n\n## bug [4](https://github.com/philipwalton/flexbugs/blob/master/README.md#4-flex-shorthand-declarations-with-unitless-flex-basis-values-are-ignored)\n### Input\n\n```css\n.foo { flex: 1; }\n.bar { flex: 1 1; }\n.foz { flex: 1 1 0; }\n.baz { flex: 1 1 0px; }\n```\n\n### Output\n\n```css\n.foo { flex: 1 1; }\n.bar { flex: 1 1; }\n.foz { flex: 1 1; }\n.baz { flex: 1 1; }\n```\n\n## bug [6](https://github.com/philipwalton/flexbugs/blob/master/README.md#6-the-default-flex-value-has-changed)\n### Input\n\n```css\n.foo { flex: 1; }\n```\n\n### Output\n\n```css\n.foo { flex: 1 1 0%; }\n```\n\n> This only fixes css classes that have the `flex` property set. To fix elements that are contained inside a flexbox container, use this global rule:\n```css\n* {\n    flex-shrink: 1;\n}\n```\n\n## bug [8.1.a](https://github.com/philipwalton/flexbugs/blob/master/README.md#8-flex-basis-doesnt-support-calc)\n### Input\n\n```css\n.foo { flex: 1 0 calc(1vw - 1px); }\n```\n\n### Output\n\n```css\n.foo {\n  flex-grow: 1;\n  flex-shrink: 0;\n  flex-basis: calc(1vw - 1px);\n}\n```\n\n## Usage\n\n```js\npostcss([require('postcss-flexbugs-fixes')]);\n```\n\nYou can also disable bugs individually, possible keys `bug4`, `bug6` and `bug8a`.\n```js\nvar plugin = require('postcss-flexbugs-fixes');\npostcss([plugin({ bug6: false })]);\n```\n\nSee [PostCSS] docs for examples for your environment.\n\n[postcss]: https://github.com/postcss/postcss\n[ci-img]: https://travis-ci.org/luisrudge/postcss-flexbugs-fixes.svg\n[ci]: https://travis-ci.org/luisrudge/postcss-flexbugs-fixes\n",
+  "maintainers" : [ {
+    "name" : "luisrudge",
+    "email" : "luis@luisrudge.net"
+  } ],
+  "author" : {
+    "name" : "Luis Rudge",
+    "email" : "luis@luisrudge.net"
+  },
+  "time" : {
+    "2.0.0" : "2015-10-16T16:54:39.834Z",
+    "2.1.0" : "2016-12-06T19:59:59.130Z",
+    "0.0.4" : "2015-07-16T02:05:51.395Z",
+    "0.0.5" : "2015-07-16T02:07:35.179Z",
+    "created" : "2015-06-20T01:44:30.174Z",
+    "4.2.0" : "2020-02-04T13:01:57.214Z",
+    "4.0.0" : "2018-07-18T19:48:43.840Z",
+    "4.1.0" : "2018-07-30T22:22:34.206Z",
+    "0.0.2" : "2015-06-20T01:52:07.147Z",
+    "0.0.3" : "2015-06-20T02:49:21.529Z",
+    "2.1.1" : "2017-04-12T14:53:22.618Z",
+    "0.0.1" : "2015-06-20T01:44:30.174Z",
+    "3.0.0" : "2017-05-10T22:52:04.072Z",
+    "modified" : "2020-02-04T13:02:00.645Z",
+    "3.1.0" : "2017-07-31T02:54:55.966Z",
+    "1.0.0" : "2015-09-02T23:30:30.354Z",
+    "3.2.0" : "2017-07-31T15:20:48.499Z",
+    "1.1.0" : "2015-09-12T14:30:07.723Z",
+    "3.3.0" : "2018-01-18T21:47:33.928Z",
+    "3.3.1" : "2018-04-28T17:28:42.580Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/luisrudge/postcss-flexbugs-fixes.git"
+  },
+  "users" : {
+    "sagarsys" : true,
+    "brofox" : true,
+    "davidhellmann" : true,
+    "ruggerocastagnola" : true,
+    "qoozoo" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/luisrudge/postcss-flexbugs-fixes#readme",
+  "keywords" : [ "postcss", "css", "postcss-plugin", "flexbugs", "flexbox", "flex" ],
+  "bugs" : {
+    "url" : "https://github.com/luisrudge/postcss-flexbugs-fixes/issues"
+  },
+  "license" : "MIT"
+}

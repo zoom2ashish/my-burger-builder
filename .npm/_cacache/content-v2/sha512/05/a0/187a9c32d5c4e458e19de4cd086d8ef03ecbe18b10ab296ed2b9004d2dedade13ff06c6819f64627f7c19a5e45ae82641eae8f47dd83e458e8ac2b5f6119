@@ -1,0 +1,2124 @@
+{
+  "_id" : "through2",
+  "_rev" : "304-d33a49dcc7351c14c177bd38f462aaf1",
+  "name" : "through2",
+  "description" : "A tiny wrapper around Node.js streams.Transform (Streams2/3) to avoid explicit subclassing noise",
+  "dist-tags" : {
+    "1.0" : "1.1.1",
+    "latest" : "3.0.1"
+  },
+  "versions" : {
+    "0.4.2" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.4.2",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.4.2.tgz",
+        "shasum" : "dbf5866031151ec8352bb6c4db64a2292a840b9b"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.17",
+        "xtend" : "~2.1.1"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0",
+        "bl" : "~0.6.0",
+        "stream-spigot" : "~3.0.1",
+        "brtapsauce" : "~0.2.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.4.2"
+    },
+    "0.5.1" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.5.1",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.5.1.tgz",
+        "shasum" : "dfdd012eb9c700e2323fd334f38ac622ab372da7"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.17",
+        "xtend" : "~3.0.0"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0",
+        "bl" : "~0.6.0",
+        "stream-spigot" : "~3.0.1",
+        "brtapsauce" : "~0.2.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.5.1"
+    },
+    "0.6.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.6.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.6.0.tgz",
+        "shasum" : "423484bebaaad0cc65bb205fea8248c9e1de4e57"
+      },
+      "dependencies" : {
+        "readable-stream" : ">=1.0.27-1 <1.1.0-0",
+        "xtend" : ">=4.0.0 <4.1.0-0"
+      },
+      "devDependencies" : {
+        "bl" : ">=0.9.0 <0.10.0-0",
+        "stream-spigot" : ">=3.0.4 <3.1.0-0",
+        "tape" : ">=2.14.0 <2.15.0-0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-alpha.6.0",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.6.0",
+      "gitHead" : "bebb0a7854a864d8dedaa87ee0dcec0f2af68360",
+      "_shasum" : "423484bebaaad0cc65bb205fea8248c9e1de4e57"
+    },
+    "0.6.1" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.6.1",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.6.1.tgz",
+        "shasum" : "f742b32893e8bd26146e789e4fd2ccb2c07a717e"
+      },
+      "dependencies" : {
+        "readable-stream" : ">=1.0.27-1 <1.1.0-0",
+        "xtend" : ">=4.0.0 <4.1.0-0"
+      },
+      "devDependencies" : {
+        "bl" : ">=0.9.0 <0.10.0-0",
+        "stream-spigot" : ">=3.0.4 <3.1.0-0",
+        "tape" : ">=2.14.0 <2.15.0-0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.6.1",
+      "gitHead" : "f66daaa2cb5d37b56c401f3b5a4962f709893267",
+      "_shasum" : "f742b32893e8bd26146e789e4fd2ccb2c07a717e"
+    },
+    "0.0.4" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.0.4.tgz",
+        "shasum" : "b134b520bbe5078bbd143424fb91481c25a54e80"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.4",
+        "bl" : "~0.2.0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.0.4"
+    },
+    "0.2.2" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.2.2.tgz",
+        "shasum" : "d5e70d6a42cb5ba003bbdbc975f5772434dbe513"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2",
+        "xtend" : "~2.1.1"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.4",
+        "bl" : "~0.2.0",
+        "stream-spigot" : "~2.0.0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.2.2"
+    },
+    "0.4.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.4.0.tgz",
+        "shasum" : "4c9a96e385ef082a86cce5b915ef512119bc5225"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.17",
+        "xtend" : "~2.1.1"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0",
+        "bl" : "~0.6.0",
+        "stream-spigot" : "~3.0.1",
+        "brtapsauce" : "~0.2.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.4.0"
+    },
+    "0.0.5" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.0.5",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.0.5.tgz",
+        "shasum" : "6a4210686015e82a1ecbf891e3e35c0d96905a99"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.4",
+        "bl" : "~0.2.0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.0.5"
+    },
+    "0.2.3" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.2.3.tgz",
+        "shasum" : "eb3284da4ea311b6cc8ace3653748a52abf25a3f"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.1.9",
+        "xtend" : "~2.1.1"
+      },
+      "devDependencies" : {
+        "tape" : "~1.1.1",
+        "bl" : "~0.4.1",
+        "stream-spigot" : "~2.1.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      },
+      "_id" : "through2@0.2.3"
+    },
+    "0.4.1" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.4.1",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.4.1.tgz",
+        "shasum" : "afd849c65af513c2541a98a7cfbcfec3a15a9686"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.17",
+        "xtend" : "~2.1.1"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0",
+        "bl" : "~0.6.0",
+        "stream-spigot" : "~3.0.1",
+        "brtapsauce" : "~0.2.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.25",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.4.1"
+    },
+    "0.5.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.5.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.5.0.tgz",
+        "shasum" : "28957b997cb86034b3520c943c2140d9436b30ac"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.17",
+        "xtend" : "~2.1.1"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0",
+        "bl" : "~0.6.0",
+        "stream-spigot" : "~3.0.1",
+        "brtapsauce" : "~0.2.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.5.0"
+    },
+    "0.6.4" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.6.4",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.6.4.tgz",
+        "shasum" : "cfb59dfb313217ea35bd0749c410455d90099d3a"
+      },
+      "dependencies" : {
+        "readable-stream" : ">=1.0.33-1 <1.1.0-0",
+        "xtend" : ">=4.0.0 <4.1.0-0"
+      },
+      "devDependencies" : {
+        "bl" : ">=0.9.0 <0.10.0-0",
+        "stream-spigot" : ">=3.0.4 <3.1.0-0",
+        "tape" : ">=2.14.0 <2.15.0-0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      },
+      "_id" : "through2@0.6.4",
+      "gitHead" : "d2817900c47df613d2c90f317500f97e7a0b68bf",
+      "_shasum" : "cfb59dfb313217ea35bd0749c410455d90099d3a"
+    },
+    "0.6.5" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.6.5",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.6.5.tgz",
+        "shasum" : "41ab9c67b29d57209071410e1d7a7a968cd3ad48"
+      },
+      "dependencies" : {
+        "readable-stream" : ">=1.0.33-1 <1.1.0-0",
+        "xtend" : ">=4.0.0 <4.1.0-0"
+      },
+      "devDependencies" : {
+        "bl" : ">=0.9.0 <0.10.0-0",
+        "stream-spigot" : ">=3.0.4 <3.1.0-0",
+        "tape" : ">=2.14.0 <2.15.0-0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      },
+      "_id" : "through2@0.6.5",
+      "gitHead" : "ba4a87875f2c82323c10023e36f4ae4b386c1bf8",
+      "_shasum" : "41ab9c67b29d57209071410e1d7a7a968cd3ad48"
+    },
+    "0.6.2" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.6.2",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.6.2.tgz",
+        "shasum" : "53265824c555e7fcdc4111dcdc52c7de64636c75"
+      },
+      "dependencies" : {
+        "readable-stream" : ">=1.0.28 <1.1.0-0",
+        "xtend" : ">=4.0.0 <4.1.0-0"
+      },
+      "devDependencies" : {
+        "bl" : ">=0.9.0 <0.10.0-0",
+        "stream-spigot" : ">=3.0.4 <3.1.0-0",
+        "tape" : ">=2.14.0 <2.15.0-0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.1",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.6.2",
+      "gitHead" : "0aa8da988475cd6265bd2942c4097d92260e1785",
+      "_shasum" : "53265824c555e7fcdc4111dcdc52c7de64636c75",
+      "_nodeVersion" : "0.10.31"
+    },
+    "0.6.3" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.6.3",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.6.3.tgz",
+        "shasum" : "795292fde9f254c2a368b38f9cc5d1bd4663afb6"
+      },
+      "dependencies" : {
+        "readable-stream" : ">=1.0.33-1 <1.1.0-0",
+        "xtend" : ">=4.0.0 <4.1.0-0"
+      },
+      "devDependencies" : {
+        "bl" : ">=0.9.0 <0.10.0-0",
+        "stream-spigot" : ">=3.0.4 <3.1.0-0",
+        "tape" : ">=2.14.0 <2.15.0-0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.6.3",
+      "gitHead" : "af9b735f360a4edef6e0ba601644457a82374fe7",
+      "_shasum" : "795292fde9f254c2a368b38f9cc5d1bd4663afb6"
+    },
+    "0.0.2" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/through2.git"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.0.2.tgz",
+        "shasum" : "bbdf39882f3bca1e0a04a64ad3eb1de010e98534"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.0.2"
+    },
+    "0.2.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.2.0.tgz",
+        "shasum" : "6702afc24836e35e42950aad98010be632987777"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2",
+        "xtend" : "~2.0.6"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.4",
+        "bl" : "~0.2.0",
+        "stream-spigot" : "~2.0.0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.2.0"
+    },
+    "0.0.3" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise: #polyhack -- OK I FIXED THE REPO! HAPPY?",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.0.3.tgz",
+        "shasum" : "24749c99581289e6ae2a0d69121e8cb17088a108"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.0.3"
+    },
+    "0.2.1" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.2.1.tgz",
+        "shasum" : "fa2def7230dd218add7b216a06594b15a4104395"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2",
+        "xtend" : "~2.0.6"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.4",
+        "bl" : "~0.2.0",
+        "stream-spigot" : "~2.0.0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.2.1"
+    },
+    "0.3.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.3.0.tgz",
+        "shasum" : "2d1d28c8d1daf8d9c5cb78f0a69343c6b8642d97"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.17",
+        "xtend" : "~2.1.1"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0",
+        "bl" : "~0.6.0",
+        "stream-spigot" : "~3.0.1",
+        "brtapsauce" : "~0.2.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.3.0"
+    },
+    "0.0.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/through2.git"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.0.0.tgz",
+        "shasum" : "418434b88c4b59d1b8583f8e26b31a398e332b25"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.0.0"
+    },
+    "0.0.1" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/through2.git"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.0.1.tgz",
+        "shasum" : "ecfdbb4005ee1c3843d14db1e959f9738374af81"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@0.0.1"
+    },
+    "0.1.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-0.1.0.tgz",
+        "shasum" : "54e756cc6a543c72bb5adf55e8a248686b84c9cc"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.0.2",
+        "xtend" : "~2.0.6"
+      },
+      "devDependencies" : {
+        "tape" : "~1.0.4",
+        "bl" : "~0.2.0",
+        "stream-spigot" : "~2.0.0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.5",
+      "_npmUser" : {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      },
+      "_id" : "through2@0.1.0"
+    },
+    "3.0.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node.js streams.Transform (Streams2/3) to avoid explicit subclassing noise",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-3.0.0.tgz",
+        "shasum" : "468b461df9cd9fcc170f22ebf6852e467e578ff2"
+      },
+      "dependencies" : {
+        "readable-stream" : "2 || 3",
+        "xtend" : "~4.0.1"
+      },
+      "devDependencies" : {
+        "bl" : "~2.0.1",
+        "faucet" : "0.0.1",
+        "nyc" : "~13.1.0",
+        "stream-spigot" : "~3.0.6",
+        "tape" : "~4.9.1"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc node test/test.js | faucet && nyc report"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "r@va.gg"
+      },
+      "_id" : "through2@3.0.0",
+      "gitHead" : "f8346bbef3ac9f730ff71d03aaf342d6d2e812bb",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/through2_3.0.0_1541542177835_0.20023645405245172"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.1" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node.js streams.Transform (Streams2/3) to avoid explicit subclassing noise",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-3.0.1.tgz",
+        "shasum" : "39276e713c3302edf9e388dd9c812dd3b825bd5a"
+      },
+      "dependencies" : {
+        "readable-stream" : "2 || 3"
+      },
+      "devDependencies" : {
+        "bl" : "~2.0.1",
+        "faucet" : "0.0.1",
+        "nyc" : "~13.1.0",
+        "stream-spigot" : "~3.0.6",
+        "tape" : "~4.9.1"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc node test/test.js | faucet && nyc report"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "r@va.gg"
+      },
+      "_id" : "through2@3.0.1",
+      "gitHead" : "d0696e4be57337c5742ac6fe9d20892a2ab78b2e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/through2_3.0.1_1551401592406_0.31603558673929033"
+      },
+      "_nodeVersion" : "11.10.1"
+    },
+    "2.0.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-2.0.0.tgz",
+        "shasum" : "f41a1c31df5e129e4314446f66eca05cd6a30480"
+      },
+      "dependencies" : {
+        "readable-stream" : "~2.0.0",
+        "xtend" : "~4.0.0"
+      },
+      "devDependencies" : {
+        "bl" : "~0.9.4",
+        "faucet" : "0.0.1",
+        "stream-spigot" : "~3.0.5",
+        "tape" : "~4.0.0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js | faucet",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@2.0.0",
+      "gitHead" : "6424ae6178834bb978ce3c3c033fa2d0398b0e14",
+      "_shasum" : "f41a1c31df5e129e4314446f66eca05cd6a30480",
+      "_nodeVersion" : "2.2.2-next-nightly201506103ea7e90fce"
+    },
+    "2.0.1" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-2.0.1.tgz",
+        "shasum" : "384e75314d49f32de12eebb8136b8eb6b5d59da9"
+      },
+      "dependencies" : {
+        "readable-stream" : "~2.0.0",
+        "xtend" : "~4.0.0"
+      },
+      "devDependencies" : {
+        "bl" : "~0.9.4",
+        "faucet" : "0.0.1",
+        "stream-spigot" : "~3.0.5",
+        "tape" : "~4.0.0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js | faucet",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@2.0.1",
+      "gitHead" : "6d52a1b77db13a741f2708cd5854a198e4ae3072",
+      "_npmOperationalInternal" : {
+        "host" : "packages-6-west.internal.npmjs.com",
+        "tmp" : "tmp/through2-2.0.1.tgz_1454928418348_0.7339043114334345"
+      },
+      "_shasum" : "384e75314d49f32de12eebb8136b8eb6b5d59da9",
+      "_nodeVersion" : "5.5.0"
+    },
+    "2.0.4" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-2.0.4.tgz",
+        "shasum" : "e8362dec238b7590f5743b060342f27b452f4450"
+      },
+      "dependencies" : {
+        "readable-stream" : "2 || 3",
+        "xtend" : "~4.0.1"
+      },
+      "devDependencies" : {
+        "bl" : "~2.0.1",
+        "faucet" : "0.0.1",
+        "nyc" : "~13.1.0",
+        "stream-spigot" : "~3.0.6",
+        "tape" : "~4.9.1"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc node test/test.js | faucet && nyc report"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "r@va.gg"
+      },
+      "_id" : "through2@2.0.4",
+      "gitHead" : "e839de7cc95401797cf7af0533f1d5144dc3d9df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/through2_2.0.4_1541497593289_0.44144648728813407"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "2.0.5" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "2.0.5",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-2.0.5.tgz",
+        "shasum" : "01c1e39eb31d07cb7d03a96a70823260b23132cd"
+      },
+      "dependencies" : {
+        "readable-stream" : "~2.3.6",
+        "xtend" : "~4.0.1"
+      },
+      "devDependencies" : {
+        "bl" : "~2.0.1",
+        "faucet" : "0.0.1",
+        "nyc" : "~13.1.0",
+        "safe-buffer" : "~5.1.2",
+        "stream-spigot" : "~3.0.6",
+        "tape" : "~4.9.1"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      }, {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js | faucet"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "r@va.gg"
+      },
+      "_id" : "through2@2.0.5",
+      "gitHead" : "72a3cefc0ff1ad5cc178be04eb927f40166226f1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/through2_2.0.5_1541541791587_0.6666046444978868"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "2.0.2" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-2.0.2.tgz",
+        "shasum" : "316d3a4f444af641496aa7f45a713be72576baf4"
+      },
+      "dependencies" : {
+        "readable-stream" : "^2.1.5",
+        "xtend" : "~4.0.1"
+      },
+      "devDependencies" : {
+        "bl" : "~1.1.2",
+        "faucet" : "0.0.1",
+        "stream-spigot" : "~3.0.5",
+        "tape" : "~4.6.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js | faucet",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@2.0.2",
+      "gitHead" : "29af30ddf5223793a1c10cf6f42334bfac1336ec",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/through2-2.0.2.tgz_1480308388398_0.9965543132275343"
+      },
+      "_shasum" : "316d3a4f444af641496aa7f45a713be72576baf4",
+      "_nodeVersion" : "7.2.0"
+    },
+    "2.0.3" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-2.0.3.tgz",
+        "shasum" : "0004569b37c7c74ba39c43f3ced78d1ad94140be"
+      },
+      "dependencies" : {
+        "readable-stream" : "^2.1.5",
+        "xtend" : "~4.0.1"
+      },
+      "devDependencies" : {
+        "bl" : "~1.1.2",
+        "faucet" : "0.0.1",
+        "stream-spigot" : "~3.0.5",
+        "tape" : "~4.6.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js | faucet",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@2.0.3",
+      "gitHead" : "4383b10b2cb6a32ae215760715b317513abe609f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/through2-2.0.3.tgz_1480373529377_0.264686161885038"
+      },
+      "_shasum" : "0004569b37c7c74ba39c43f3ced78d1ad94140be",
+      "_nodeVersion" : "7.2.0"
+    },
+    "1.0.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-1.0.0.tgz",
+        "shasum" : "2445cd8dfe74285dee5dada055e0571d01ff17ac"
+      },
+      "dependencies" : {
+        "readable-stream" : "~1.1.10",
+        "xtend" : "~2.1.1"
+      },
+      "devDependencies" : {
+        "tape" : "~2.3.0",
+        "bl" : "~0.6.0",
+        "stream-spigot" : "~3.0.1",
+        "brtapsauce" : "~0.2.2"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "publishConfig" : {
+        "tag" : "1.0"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@1.0.0"
+    },
+    "1.1.0" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-1.1.0.tgz",
+        "shasum" : "373c6c0b0158891eeb3d2d524c9c0a140c5b911a"
+      },
+      "dependencies" : {
+        "readable-stream" : ">=1.1.13-1 <1.2.0-0",
+        "xtend" : ">=4.0.0 <4.1.0-0"
+      },
+      "devDependencies" : {
+        "bl" : ">=0.9.0 <0.10.0-0",
+        "stream-spigot" : ">=3.0.4 <3.1.0-0",
+        "tape" : ">=2.14.0 <2.15.0-0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "publishConfig" : {
+        "tag" : "1.0"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0-alpha.6.0",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@1.1.0",
+      "gitHead" : "f50fdd02857e19d0f04b15625adf94569eff5a1d",
+      "_shasum" : "373c6c0b0158891eeb3d2d524c9c0a140c5b911a"
+    },
+    "1.1.1" : {
+      "name" : "through2",
+      "description" : "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Rod Vagg",
+        "email" : "r@va.gg",
+        "url" : "https://github.com/rvagg"
+      },
+      "homepage" : "https://github.com/rvagg/through2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rvagg/through2.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rvagg/through2/issues"
+      },
+      "main" : "through2.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/through2/-/through2-1.1.1.tgz",
+        "shasum" : "0847cbc4449f3405574dbdccd9bb841b83ac3545"
+      },
+      "dependencies" : {
+        "readable-stream" : ">=1.1.13-1 <1.2.0-0",
+        "xtend" : ">=4.0.0 <4.1.0-0"
+      },
+      "devDependencies" : {
+        "bl" : ">=0.9.0 <0.10.0-0",
+        "stream-spigot" : ">=3.0.4 <3.1.0-0",
+        "tape" : ">=2.14.0 <2.15.0-0"
+      },
+      "keywords" : [ "stream", "streams2", "through", "transform" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      }, {
+        "name" : "bryce",
+        "email" : "bryce@ravenwall.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js",
+        "test-local" : "brtapsauce-local test/basic-test.js"
+      },
+      "publishConfig" : {
+        "tag" : "1.0"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "rvagg",
+        "email" : "rod@vagg.org"
+      },
+      "_id" : "through2@1.1.1",
+      "gitHead" : "05618510052dcb4ec970c47c1234e0fcad8566de",
+      "_shasum" : "0847cbc4449f3405574dbdccd9bb841b83ac3545"
+    }
+  },
+  "readme" : "# through2\n\n[![NPM](https://nodei.co/npm/through2.png?downloads&downloadRank)](https://nodei.co/npm/through2/)\n\n**A tiny wrapper around Node.js streams.Transform (Streams2/3) to avoid explicit subclassing noise**\n\nInspired by [Dominic Tarr](https://github.com/dominictarr)'s [through](https://github.com/dominictarr/through) in that it's so much easier to make a stream out of a function than it is to set up the prototype chain properly: `through(function (chunk) { ... })`.\n\n***Note: Users of Node.js 0.10 and 0.12 should install `through2@2.x`. As of through2@3.x, readable-stream@3 is being used and is not compatible with older versions of Node.js.*** _v2.x support is being maintained on the [v2.x](https://github.com/rvagg/through2/tree/v2.x) branch._\n\n```js\nfs.createReadStream('ex.txt')\n  .pipe(through2(function (chunk, enc, callback) {\n    for (var i = 0; i < chunk.length; i++)\n      if (chunk[i] == 97)\n        chunk[i] = 122 // swap 'a' for 'z'\n\n    this.push(chunk)\n\n    callback()\n   }))\n  .pipe(fs.createWriteStream('out.txt'))\n  .on('finish', () => doSomethingSpecial())\n```\n\nOr object streams:\n\n```js\nvar all = []\n\nfs.createReadStream('data.csv')\n  .pipe(csv2())\n  .pipe(through2.obj(function (chunk, enc, callback) {\n    var data = {\n        name    : chunk[0]\n      , address : chunk[3]\n      , phone   : chunk[10]\n    }\n    this.push(data)\n\n    callback()\n  }))\n  .on('data', (data) => {\n    all.push(data)\n  })\n  .on('end', () => {\n    doSomethingSpecial(all)\n  })\n```\n\nNote that `through2.obj(fn)` is a convenience wrapper around `through2({ objectMode: true }, fn)`.\n\n## API\n\n<b><code>through2([ options, ] [ transformFunction ] [, flushFunction ])</code></b>\n\nConsult the **[stream.Transform](http://nodejs.org/docs/latest/api/stream.html#stream_class_stream_transform)** documentation for the exact rules of the `transformFunction` (i.e. `this._transform`) and the optional `flushFunction` (i.e. `this._flush`).\n\n### options\n\nThe options argument is optional and is passed straight through to `stream.Transform`. So you can use `objectMode:true` if you are processing non-binary streams (or just use `through2.obj()`).\n\nThe `options` argument is first, unlike standard convention, because if I'm passing in an anonymous function then I'd prefer for the options argument to not get lost at the end of the call:\n\n```js\nfs.createReadStream('/tmp/important.dat')\n  .pipe(through2({ objectMode: true, allowHalfOpen: false },\n    (chunk, enc, cb) => {\n      cb(null, 'wut?') // note we can use the second argument on the callback\n                       // to provide data as an alternative to this.push('wut?')\n    }\n  )\n  .pipe(fs.createWriteStream('/tmp/wut.txt'))\n```\n\n### transformFunction\n\nThe `transformFunction` must have the following signature: `function (chunk, encoding, callback) {}`. A minimal implementation should call the `callback` function to indicate that the transformation is done, even if that transformation means discarding the chunk.\n\nTo queue a new chunk, call `this.push(chunk)`&mdash;this can be called as many times as required before the `callback()` if you have multiple pieces to send on.\n\nAlternatively, you may use `callback(err, chunk)` as shorthand for emitting a single chunk or an error.\n\nIf you **do not provide a `transformFunction`** then you will get a simple pass-through stream.\n\n### flushFunction\n\nThe optional `flushFunction` is provided as the last argument (2nd or 3rd, depending on whether you've supplied options) is called just prior to the stream ending. Can be used to finish up any processing that may be in progress.\n\n```js\nfs.createReadStream('/tmp/important.dat')\n  .pipe(through2(\n    (chunk, enc, cb) => cb(null, chunk), // transform is a noop\n    function (cb) { // flush function\n      this.push('tacking on an extra buffer to the end');\n      cb();\n    }\n  ))\n  .pipe(fs.createWriteStream('/tmp/wut.txt'));\n```\n\n<b><code>through2.ctor([ options, ] transformFunction[, flushFunction ])</code></b>\n\nInstead of returning a `stream.Transform` instance, `through2.ctor()` returns a **constructor** for a custom Transform. This is useful when you want to use the same transform logic in multiple instances.\n\n```js\nvar FToC = through2.ctor({objectMode: true}, function (record, encoding, callback) {\n  if (record.temp != null && record.unit == \"F\") {\n    record.temp = ( ( record.temp - 32 ) * 5 ) / 9\n    record.unit = \"C\"\n  }\n  this.push(record)\n  callback()\n})\n\n// Create instances of FToC like so:\nvar converter = new FToC()\n// Or:\nvar converter = FToC()\n// Or specify/override options when you instantiate, if you prefer:\nvar converter = FToC({objectMode: true})\n```\n\n## See Also\n\n  - [through2-map](https://github.com/brycebaril/through2-map) - Array.prototype.map analog for streams.\n  - [through2-filter](https://github.com/brycebaril/through2-filter) - Array.prototype.filter analog for streams.\n  - [through2-reduce](https://github.com/brycebaril/through2-reduce) - Array.prototype.reduce analog for streams.\n  - [through2-spy](https://github.com/brycebaril/through2-spy) - Wrapper for simple stream.PassThrough spies.\n  - the [mississippi stream utility collection](https://github.com/maxogden/mississippi) includes `through2` as well as many more useful stream modules similar to this one\n\n## License\n\n**through2** is Copyright (c) Rod Vagg and additional contributors and licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.\n",
+  "maintainers" : [ {
+    "name" : "bryce",
+    "email" : "bryce@ravenwall.com"
+  }, {
+    "name" : "rvagg",
+    "email" : "rod@vagg.org"
+  } ],
+  "author" : {
+    "name" : "Rod Vagg",
+    "email" : "r@va.gg",
+    "url" : "https://github.com/rvagg"
+  },
+  "time" : {
+    "0.4.2" : "2014-05-22T09:49:03.138Z",
+    "0.5.1" : "2014-06-04T06:17:06.736Z",
+    "0.6.0" : "2014-08-08T09:47:32.115Z",
+    "0.6.1" : "2014-08-11T22:48:05.884Z",
+    "0.0.4" : "2013-08-01T07:07:13.452Z",
+    "0.2.2" : "2013-09-19T06:04:57.568Z",
+    "0.4.0" : "2014-01-13T11:57:44.964Z",
+    "0.0.5" : "2013-08-02T04:13:35.437Z",
+    "0.2.3" : "2013-09-26T17:04:36.262Z",
+    "0.4.1" : "2014-01-24T01:17:36.976Z",
+    "0.5.0" : "2014-06-04T06:14:46.165Z",
+    "0.6.4" : "2015-04-09T17:21:43.539Z",
+    "0.6.5" : "2015-04-09T17:42:07.435Z",
+    "0.6.2" : "2014-09-21T08:48:24.147Z",
+    "0.6.3" : "2014-10-10T01:03:21.598Z",
+    "0.0.2" : "2013-08-01T04:24:34.840Z",
+    "0.2.0" : "2013-08-24T06:06:28.730Z",
+    "0.0.3" : "2013-08-01T04:45:33.254Z",
+    "0.2.1" : "2013-08-25T10:04:50.167Z",
+    "0.3.0" : "2014-01-03T00:20:50.627Z",
+    "0.0.0" : "2013-08-01T03:52:19.254Z",
+    "0.0.1" : "2013-08-01T04:23:18.725Z",
+    "0.1.0" : "2013-08-05T02:02:17.284Z",
+    "3.0.0" : "2018-11-06T22:09:37.970Z",
+    "modified" : "2019-03-01T00:53:15.158Z",
+    "3.0.1" : "2019-03-01T00:53:12.565Z",
+    "2.0.0" : "2015-06-11T10:04:48.524Z",
+    "2.0.1" : "2016-02-08T10:46:59.251Z",
+    "created" : "2013-08-01T03:52:14.750Z",
+    "2.0.4" : "2018-11-06T09:46:33.393Z",
+    "2.0.5" : "2018-11-06T22:03:11.711Z",
+    "2.0.2" : "2016-11-28T04:46:28.925Z",
+    "2.0.3" : "2016-11-28T22:52:09.981Z",
+    "1.0.0" : "2014-02-18T04:07:39.794Z",
+    "1.0.1" : "2014-08-08T09:42:29.558Z",
+    "1.1.0" : "2014-08-08T09:49:57.473Z",
+    "1.1.1" : "2014-08-11T22:48:47.974Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/rvagg/through2.git"
+  },
+  "users" : {
+    "dudley" : true,
+    "pingjiang" : true,
+    "jian263994241" : true,
+    "adiachenko" : true,
+    "kahboom" : true,
+    "volebo" : true,
+    "allanwxm" : true,
+    "dvl" : true,
+    "chilts" : true,
+    "parkerproject" : true,
+    "davidchubbs" : true,
+    "maxkoryukov" : true,
+    "zhangyaochun" : true,
+    "ghostbar" : true,
+    "qddegtya" : true,
+    "ggorczynski" : true,
+    "mattms" : true,
+    "fahadjadoon" : true,
+    "wenbing" : true,
+    "vladan" : true,
+    "illuminator" : true,
+    "fanyegong" : true,
+    "volebonet" : true,
+    "afc163" : true,
+    "jota" : true,
+    "tclay" : true,
+    "abdihaikal" : true,
+    "ryanj" : true,
+    "wvlvik" : true,
+    "fassetar" : true,
+    "zwxajh" : true,
+    "rylan_yan" : true,
+    "iori20091101" : true,
+    "dpjayasekara" : true,
+    "simplyianm" : true,
+    "stone-jin" : true,
+    "akarem" : true,
+    "chaowei.luo" : true,
+    "caikan" : true,
+    "kontrax" : true,
+    "nahuelhds" : true,
+    "monjer" : true,
+    "jondotsoy" : true,
+    "simonja" : true,
+    "johniexu" : true,
+    "dinggewennuan" : true,
+    "slang" : true,
+    "x4devs" : true,
+    "joaquin.briceno" : true,
+    "morewry" : true,
+    "eklem" : true,
+    "xiaobao" : true,
+    "nhz.io" : true,
+    "tongjieme" : true,
+    "edosrecki" : true,
+    "unixzii" : true,
+    "barenko" : true,
+    "mojaray2k" : true,
+    "arttse" : true,
+    "makediff" : true,
+    "xieranmaya" : true,
+    "seanjh" : true,
+    "nuer" : true,
+    "ddffx" : true,
+    "ifeature" : true,
+    "nalindak" : true,
+    "evan2x" : true,
+    "jun-oka" : true,
+    "rochejul" : true,
+    "highgravity" : true,
+    "spywhere" : true,
+    "majkel" : true,
+    "buya" : true,
+    "craigpatten" : true,
+    "smokinhuzi" : true,
+    "joakin" : true,
+    "ziink" : true,
+    "incendiary" : true,
+    "zckrs" : true,
+    "bret" : true,
+    "ex.zach.ly" : true,
+    "roccomuso" : true,
+    "awen1983" : true,
+    "pasturn" : true,
+    "kiinlam" : true,
+    "joris-van-der-wel" : true,
+    "kamirdjanian" : true,
+    "magicxiao" : true,
+    "delapouite" : true,
+    "froguard" : true,
+    "soenkekluth" : true,
+    "stanlous" : true,
+    "samhou1988" : true,
+    "rubiadias" : true,
+    "bezoerb" : true,
+    "lensi" : true,
+    "travm" : true,
+    "chinawolf_wyp" : true,
+    "nketchum" : true,
+    "brend" : true,
+    "jueb" : true,
+    "sebastian1118" : true,
+    "raojs" : true,
+    "tmurngon" : true,
+    "tcrowe" : true,
+    "kodekracker" : true,
+    "dzhou777" : true,
+    "ywc6688" : true,
+    "zhenguo.zhao" : true,
+    "farskipper" : true,
+    "lgh06" : true,
+    "rossdavis" : true,
+    "jonkemp" : true,
+    "jessaustin" : true,
+    "cassln" : true,
+    "panger" : true,
+    "tunnckocore" : true,
+    "epezhman" : true,
+    "mrzmmr" : true,
+    "0x4c3p" : true,
+    "hearsid" : true,
+    "aliem" : true,
+    "jmorris" : true,
+    "nixon.q" : true,
+    "yashprit" : true,
+    "markthethomas" : true,
+    "chriscalo" : true,
+    "davidbraun" : true,
+    "kkk123321" : true,
+    "kaapex" : true,
+    "wangnan0610" : true,
+    "ikobe" : true,
+    "alexkval" : true,
+    "robmcguinness" : true,
+    "seerdomin" : true,
+    "easimonenko" : true,
+    "h4lll" : true,
+    "drewigg" : true,
+    "kmck" : true,
+    "joeybaker" : true,
+    "tzq1011" : true,
+    "shipengyan" : true,
+    "ezodude" : true,
+    "lewisbrown" : true,
+    "axelav" : true,
+    "marcobiedermann" : true,
+    "fotooo" : true,
+    "smerik" : true,
+    "sirrah" : true,
+    "lqweb" : true,
+    "1two3code" : true,
+    "ziflex" : true,
+    "thecodeparadox" : true,
+    "chirag8642" : true,
+    "frankl83" : true,
+    "santihbc" : true,
+    "jyounce" : true,
+    "stdarg" : true,
+    "vitorluizc" : true,
+    "octetstream" : true,
+    "xueboren" : true,
+    "hughsk" : true,
+    "nex" : true,
+    "rbecheras" : true,
+    "306766053" : true,
+    "doruk" : true,
+    "klimnikita" : true,
+    "lijinghust" : true,
+    "simoyw" : true,
+    "jns" : true,
+    "timhudson" : true,
+    "tomekf" : true,
+    "a3.ivanenko" : true,
+    "smedegaard" : true,
+    "artskydj" : true,
+    "sheikhsajid" : true,
+    "awhmandan" : true,
+    "pftom" : true,
+    "jkrusinski" : true,
+    "leidottw" : true,
+    "leahcimic" : true,
+    "sasquatch" : true,
+    "bmpvieira" : true,
+    "shipfi" : true,
+    "plitat" : true,
+    "zixinliango" : true,
+    "alanshaw" : true,
+    "greelgorke" : true,
+    "ahmedfarooki" : true,
+    "yuxin" : true,
+    "coolhanddev" : true,
+    "levisl176" : true,
+    "akiva" : true,
+    "samlaudev" : true,
+    "jmsherry" : true,
+    "caijf" : true,
+    "usex" : true,
+    "leodutra" : true,
+    "preflight" : true,
+    "yikuo" : true,
+    "nickleefly" : true,
+    "dannycoates" : true,
+    "dralc" : true,
+    "rplittle" : true,
+    "tdmalone" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/rvagg/through2#readme",
+  "keywords" : [ "stream", "streams2", "through", "transform" ],
+  "bugs" : {
+    "url" : "https://github.com/rvagg/through2/issues"
+  },
+  "license" : "MIT"
+}

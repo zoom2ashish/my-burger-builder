@@ -1,0 +1,332 @@
+{
+  "_id" : "p-is-promise",
+  "_rev" : "6-72e564653195452d88c617b72218eb12",
+  "name" : "p-is-promise",
+  "description" : "Check if something is a promise",
+  "dist-tags" : {
+    "latest" : "3.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "p-is-promise",
+      "description" : "Check if something is a promise",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-is-promise#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/p-is-promise.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-is-promise/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/p-is-promise/-/p-is-promise-2.0.0.tgz",
+        "shasum" : "7554e3d572109a87e1f3f53f6a7d85d1b194f4c5"
+      },
+      "devDependencies" : {
+        "ava" : "^0.25.0",
+        "bluebird" : "^3.4.6",
+        "tsd-check" : "^0.2.1",
+        "xo" : "^0.23.0"
+      },
+      "keywords" : [ "promise", "is", "detect", "check", "kind", "type", "thenable", "es2015", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-is-promise@2.0.0",
+      "gitHead" : "959b6f32892c494b57656bdba24e895057c9fbae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/p-is-promise_2.0.0_1537780656764_0.16366292883755174"
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "2.1.0" : {
+      "name" : "p-is-promise",
+      "description" : "Check if something is a promise",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-is-promise#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/p-is-promise.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-is-promise/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/p-is-promise/-/p-is-promise-2.1.0.tgz",
+        "shasum" : "918cebaea248a62cf7ffab8e3bca8c5f882fc42e"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "bluebird" : "^3.5.4",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "promise", "is", "detect", "check", "kind", "type", "thenable", "es2015", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-is-promise@2.1.0",
+      "gitHead" : "a265a233b3bbcad7ced3a11605c7ad16c59fe6ae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/p-is-promise_2.1.0_1554551867873_0.050121990378975134"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "3.0.0" : {
+      "name" : "p-is-promise",
+      "description" : "Check if something is a promise",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-is-promise#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/p-is-promise.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-is-promise/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/p-is-promise/-/p-is-promise-3.0.0.tgz",
+        "shasum" : "58e78c7dfe2e163cf2a04ff869e7c1dba64a5971"
+      },
+      "devDependencies" : {
+        "ava" : "^2.1.0",
+        "bluebird" : "^3.5.4",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "promise", "is", "detect", "check", "kind", "type", "thenable", "es2015", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-is-promise@3.0.0",
+      "gitHead" : "bb27245a9650c2ad91b6e23b9c683a8b4cb2509b",
+      "xo" : {
+        "rules" : {
+          "promise/prefer-await-to-then" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/p-is-promise_3.0.0_1561997543520_0.9288862605672519"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "1.0.0" : {
+      "name" : "p-is-promise",
+      "description" : "Check if something is a promise",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-is-promise#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/p-is-promise.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-is-promise/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/p-is-promise/-/p-is-promise-1.0.0.tgz",
+        "shasum" : "355cfd5351ff45dad17f4fabfef2df22883af220"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "bluebird" : "^3.4.6",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "is", "detect", "check", "kind", "type", "thenable", "es2015", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-is-promise@1.0.0",
+      "gitHead" : "fdd034ca24d46a0c12eb6d758ce3159642992aaf",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/p-is-promise-1.0.0.tgz_1480148834291_0.45526339928619564"
+      },
+      "_shasum" : "355cfd5351ff45dad17f4fabfef2df22883af220",
+      "_nodeVersion" : "4.6.2"
+    },
+    "1.1.0" : {
+      "name" : "p-is-promise",
+      "description" : "Check if something is a promise",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/p-is-promise#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/p-is-promise.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/p-is-promise/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/p-is-promise/-/p-is-promise-1.1.0.tgz",
+        "shasum" : "9c9456989e9f6588017b0434d56097675c3da05e"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "bluebird" : "^3.4.6",
+        "xo" : "*"
+      },
+      "keywords" : [ "promise", "is", "detect", "check", "kind", "type", "thenable", "es2015", "async", "await", "promises", "bluebird" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "p-is-promise@1.1.0",
+      "gitHead" : "4333abad2f82fb0b33fbdd962ec25d7e3f0e0672",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/p-is-promise-1.1.0.tgz_1480311619830_0.49488614220172167"
+      },
+      "_shasum" : "9c9456989e9f6588017b0434d56097675c3da05e",
+      "_nodeVersion" : "7.2.0"
+    }
+  },
+  "readme" : "# p-is-promise [![Build Status](https://travis-ci.org/sindresorhus/p-is-promise.svg?branch=master)](https://travis-ci.org/sindresorhus/p-is-promise)\n\n> Check if something is a promise\n\nWhy not [`is-promise`](https://github.com/then/is-promise)? That module [checks for a thenable](https://github.com/then/is-promise/issues/6), not an ES2015 promise. This one is stricter.\n\nYou most likely don't need this. Just pass your value to `Promise.resolve()` and let it handle it.\n\nCan be useful if you need to create a fast path for a synchronous operation.\n\n\n## Install\n\n```\n$ npm install p-is-promise\n```\n\n\n## Usage\n\n```js\nconst pIsPromise = require('p-is-promise');\nconst Bluebird = require('bluebird');\n\npIsPromise(Promise.resolve('🦄'));\n//=> true\n\npIsPromise(Bluebird.resolve('🦄'));\n//=> true\n\npIsPromise('🦄');\n//=> false\n```\n\n\n## Related\n\n- [More…](https://github.com/sindresorhus/promise-fun)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-09-24T09:17:36.896Z",
+    "2.1.0" : "2019-04-06T11:57:48.017Z",
+    "3.0.0" : "2019-07-01T16:12:23.648Z",
+    "created" : "2016-11-26T08:27:15.923Z",
+    "modified" : "2019-07-01T16:12:26.431Z",
+    "1.0.0" : "2016-11-26T08:27:15.923Z",
+    "1.1.0" : "2016-11-28T05:40:20.274Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/p-is-promise.git"
+  },
+  "users" : {
+    "heartnett" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/p-is-promise#readme",
+  "keywords" : [ "promise", "is", "detect", "check", "kind", "type", "thenable", "es2015", "async", "await", "promises", "bluebird" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/p-is-promise/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,2350 @@
+{
+  "_id" : "readdirp",
+  "_rev" : "106-4c9e0f5e11f219bc2f368febca669bb7",
+  "name" : "readdirp",
+  "description" : "Recursive version of fs.readdir with streaming API.",
+  "dist-tags" : {
+    "latest" : "3.3.0"
+  },
+  "versions" : {
+    "0.2.4" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.2.4",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.2.4.tgz",
+        "shasum" : "469a896cce3fa70b856fbbd10e3475760060008e"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.3.1",
+        "through" : "~1.1.0",
+        "minimatch" : "~0.2.7"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.2.4"
+    },
+    "0.3.3" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.3.3",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.3.3.tgz",
+        "shasum" : "552105525a105739a6198bfa98bcbce64b3d3818"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "through" : "~2.3.4",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "tap test/*.js",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.3.3"
+    },
+    "0.2.5" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.2.5",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.2.5.tgz",
+        "shasum" : "c4c276e52977ae25db5191fe51d008550f15d9bb"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.3.1",
+        "through" : "~1.1.0",
+        "minimatch" : "~0.2.7"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.2.5"
+    },
+    "0.1.3" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir.",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thorstenlorenz.wordpress.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.1.3.tgz",
+        "shasum" : "c852a0a090f72a1c026ec092e993165f11d2a613"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : ">=1.1.0",
+        "should" : ">=0.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.1.3"
+    },
+    "0.2.2" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.2.2.tgz",
+        "shasum" : "2578a30daada8c4aae9042a3911eb0a301b8bf07"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.3.1",
+        "through" : "~1.1.0",
+        "minimatch" : "~0.2.7"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.66",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.2.2"
+    },
+    "0.3.1" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.3.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.3.1.tgz",
+        "shasum" : "6a77e1dc33f20ca8e010ab981ca2319f882964ad"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "through" : "~2.3.4",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "tap test/*.js",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.2",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.3.1"
+    },
+    "0.4.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.4.0.tgz",
+        "shasum" : "ec0036fa0eb33c71cad70d9ca6082e52e2168725"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.3",
+        "through" : "~2.3.4"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "tap test/*.js",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.4.0"
+    },
+    "0.1.4" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir.",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thorstenlorenz.wordpress.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.1.4.tgz",
+        "shasum" : "0f7f6095bb2bce3968f7f9ed03da168ecd359933"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : ">=1.1.0",
+        "should" : ">=0.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.1.4"
+    },
+    "0.2.3" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.2.3.tgz",
+        "shasum" : "51c51b33bdd05a5968d508aaae984136ae2c4cad"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.3.1",
+        "through" : "~1.1.0",
+        "minimatch" : "~0.2.7"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.69",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.2.3"
+    },
+    "0.3.2" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.3.2",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.8"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.3.2.tgz",
+        "shasum" : "f6b4d142f2089d67aba0106f19e7b2d0da748be9"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "through" : "~2.3.4",
+        "tap" : "~0.4.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "tap test/*.js",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.17",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.3.2"
+    },
+    "0.1.1" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir.",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thorstenlorenz.wordpress.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.1.1.tgz",
+        "shasum" : "9d2f892b8605b5aac44cd01da0606ac52745f1b5"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : ">=1.1.0",
+        "should" : ">=0.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_id" : "readdirp@0.1.1"
+    },
+    "0.2.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.2.0.tgz",
+        "shasum" : "ba20bb1517e7c9268989e2692fde1d8d2712614d"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.3.1",
+        "through" : "~1.1.0",
+        "minimatch" : "~0.2.7"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.2.0"
+    },
+    "0.1.2" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir.",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thorstenlorenz.wordpress.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.1.2.tgz",
+        "shasum" : "f7245556bbae9a8c6d0ac31c51d6fa81cfc09d36"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : ">=1.1.0",
+        "should" : ">=0.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.1.2"
+    },
+    "0.2.1" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.2.1.tgz",
+        "shasum" : "679497bbd6b1f8cdf94ae5bf29c803c3c1b582a9"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.3.1",
+        "through" : "~1.1.0",
+        "minimatch" : "~0.2.7"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.2.1"
+    },
+    "0.3.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.4"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.3.0.tgz",
+        "shasum" : "daee0f17dadef1904f41884288045ee01b889e23"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4",
+        "graceful-fs" : "~1.2.2"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.3.1",
+        "through" : "~1.1.0",
+        "minimatch" : "~0.2.7"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@0.3.0"
+    },
+    "0.1.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive versions of fs module functions.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thorstenlorenz.wordpress.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-0.1.0.tgz",
+        "shasum" : "62446d51e27ab2066d5a1831c7f9907846727b6a"
+      },
+      "dependencies" : {
+        "minimatch" : ">=0.2.4"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : ">=1.1.0",
+        "should" : ">=0.6.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_id" : "readdirp@0.1.0"
+    },
+    "3.0.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.0.0.tgz",
+        "shasum" : "d528ababce0382e06e2ab2db6405dc131d2efed2"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1.7",
+        "@types/mocha" : "^5.2.6",
+        "@types/node" : "^11.13.4",
+        "chai" : "^4.2.0",
+        "mocha" : "^6.1.3",
+        "nyc" : "^14.0.0",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.0.0",
+      "gitHead" : "bbfca381c4d153f8ca0e704f82e4f53af147512d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.0.0_1555523373222_0.8265975406967714"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "3.0.1" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.0.1.tgz",
+        "shasum" : "14a8875883c5575c235579624a1e177cb0b1ec58"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1.7",
+        "@types/mocha" : "^5.2.6",
+        "@types/node" : "^11.13.4",
+        "chai" : "^4.2.0",
+        "chai-subset" : "^1.6.0",
+        "mocha" : "^6.1.3",
+        "nyc" : "^14.0.0",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.0.1",
+      "gitHead" : "095b56e99a829757109473c183197ec6b6def3df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.0.1_1556143008864_0.34749273061483343"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "3.1.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "contributors" : [ {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      }, {
+        "name" : "Paul Miller",
+        "url" : "https://paulmillr.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.1.0.tgz",
+        "shasum" : "c033ba515a2c77c0e81ffadecda6eb36ac19df7a"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1",
+        "@types/mocha" : "^5.2",
+        "@types/node" : "^12",
+        "chai" : "^4.2",
+        "chai-subset" : "^1.6",
+        "mocha" : "^6.1.3",
+        "nyc" : "^14.1.1",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.1.0",
+      "gitHead" : "a09d34bfc04c98efccc2e560c2537e667a679982",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.1.0_1562456970909_0.16153477731141663"
+      },
+      "_nodeVersion" : "12.5.0"
+    },
+    "3.0.2" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.0.2.tgz",
+        "shasum" : "cba63348e9e42fc1bd334b1d2ef895b6a043cbd6"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1.7",
+        "@types/mocha" : "^5.2.6",
+        "@types/node" : "^11.13.4",
+        "chai" : "^4.2.0",
+        "chai-subset" : "^1.6.0",
+        "mocha" : "^6.1.3",
+        "nyc" : "^14.0.0",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.0.2",
+      "gitHead" : "fc867f038f07656b4f277ec37bab8c67216a81b2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.0.2_1559512236047_0.5975619123617291"
+      },
+      "_nodeVersion" : "12.1.0"
+    },
+    "3.1.1" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "contributors" : [ {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      }, {
+        "name" : "Paul Miller",
+        "url" : "https://paulmillr.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.1.1.tgz",
+        "shasum" : "b158123ac343c8b0f31d65680269cc0fc1025db1"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1",
+        "@types/mocha" : "^5.2",
+        "@types/node" : "^12",
+        "chai" : "^4.2",
+        "chai-subset" : "^1.6",
+        "mocha" : "^6.1.3",
+        "nyc" : "^14.1.1",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.1.1",
+      "gitHead" : "afabb47cedb77281b00210abd6b963a49b213481",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.1.1_1562457194295_0.6611801131738466"
+      },
+      "_nodeVersion" : "12.5.0"
+    },
+    "3.2.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "contributors" : [ {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      }, {
+        "name" : "Paul Miller",
+        "url" : "https://paulmillr.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.2.0.tgz",
+        "shasum" : "c30c33352b12c96dfb4b895421a49fd5a9593839"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1",
+        "@types/mocha" : "^5.2",
+        "@types/node" : "^12",
+        "chai" : "^4.2",
+        "chai-subset" : "^1.6",
+        "dtslint" : "^0.9.8",
+        "mocha" : "~6.1.3",
+        "nyc" : "^14.1.1",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha && dtslint"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.2.0",
+      "gitHead" : "cdfb3df2192e0721be258b28c19b9be1d43fcdd0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.2.0_1571011492751_0.39603288486516264"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "3.0.3" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.0.3",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "contributors" : [ {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      }, {
+        "name" : "Paul Miller",
+        "url" : "https://paulmillr.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.0.3.tgz",
+        "shasum" : "6300e1ca8e3ec6fcf064b7cd09e6e4b948d42e27"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1",
+        "@types/mocha" : "^5.2",
+        "@types/node" : "^12",
+        "chai" : "^4.2",
+        "chai-subset" : "^1.6",
+        "mocha" : "^6.1.3",
+        "nyc" : "^14.1.1",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.0.3",
+      "gitHead" : "a09d34bfc04c98efccc2e560c2537e667a679982",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.0.3_1562370426080_0.40728261735390325"
+      },
+      "_nodeVersion" : "12.5.0"
+    },
+    "3.1.2" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.1.2",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "contributors" : [ {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      }, {
+        "name" : "Paul Miller",
+        "url" : "https://paulmillr.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.1.2.tgz",
+        "shasum" : "fa85d2d14d4289920e4671dead96431add2ee78a"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1",
+        "@types/mocha" : "^5.2",
+        "@types/node" : "^12",
+        "chai" : "^4.2",
+        "chai-subset" : "^1.6",
+        "mocha" : "^6.1.3",
+        "nyc" : "^14.1.1",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha"
+      },
+      "_npmVersion" : "6.10.3",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.1.2",
+      "gitHead" : "f3c0eaf1986f20a69d16524c64929bf7334f5acf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.1.2_1565791423022_0.90671887452009"
+      },
+      "_nodeVersion" : "12.8.0"
+    },
+    "3.3.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming API.",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "contributors" : [ {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      }, {
+        "name" : "Paul Miller",
+        "url" : "https://paulmillr.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=8.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.3.0.tgz",
+        "shasum" : "984458d13a1e42e2e9f5841b129e162f369aff17"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.7"
+      },
+      "devDependencies" : {
+        "@types/node" : "^12",
+        "chai" : "^4.2",
+        "chai-subset" : "^1.6",
+        "dtslint" : "^2.0.0",
+        "eslint" : "^6.6.0",
+        "mocha" : "^6.2.2",
+        "nyc" : "^14.1.1",
+        "rimraf" : "^3.0.0"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "dtslint" : "dtslint",
+        "nyc" : "nyc",
+        "mocha" : "mocha --exit",
+        "lint" : "eslint --report-unused-disable-directives --ignore-path .gitignore .",
+        "test" : "npm run lint && nyc npm run mocha"
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.3.0",
+      "gitHead" : "b9376eb2aad7e7f4dc3352ff8d139ba5e4877519",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "reporter" : [ "html", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.3.0_1575629798808_0.6718017800899874"
+      },
+      "eslintConfig" : {
+        "root" : true,
+        "extends" : "eslint:recommended",
+        "parserOptions" : {
+          "ecmaVersion" : 9,
+          "sourceType" : "script"
+        },
+        "env" : {
+          "node" : true,
+          "es6" : true
+        },
+        "rules" : {
+          "array-callback-return" : "error",
+          "no-empty" : [ "error", {
+            "allowEmptyCatch" : true
+          } ],
+          "no-else-return" : [ "error", {
+            "allowElseIf" : false
+          } ],
+          "no-lonely-if" : "error",
+          "no-var" : "error",
+          "object-shorthand" : "error",
+          "prefer-arrow-callback" : [ "error", {
+            "allowNamedFunctions" : true
+          } ],
+          "prefer-const" : [ "error", {
+            "ignoreReadBeforeAssign" : true
+          } ],
+          "prefer-destructuring" : [ "error", {
+            "object" : true,
+            "array" : false
+          } ],
+          "prefer-spread" : "error",
+          "prefer-template" : "error",
+          "radix" : "error",
+          "semi" : "error",
+          "strict" : "error",
+          "quotes" : [ "error", "single" ]
+        }
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "3.1.3" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "3.1.3",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "contributors" : [ {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      }, {
+        "name" : "Paul Miller",
+        "url" : "https://paulmillr.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-3.1.3.tgz",
+        "shasum" : "d6e011ed5b9240a92f08651eeb40f7942ceb6cc1"
+      },
+      "dependencies" : {
+        "picomatch" : "^2.0.4"
+      },
+      "devDependencies" : {
+        "@types/chai" : "^4.1",
+        "@types/mocha" : "^5.2",
+        "@types/node" : "^12",
+        "chai" : "^4.2",
+        "chai-subset" : "^1.6",
+        "dtslint" : "^0.9.8",
+        "mocha" : "~6.1.3",
+        "nyc" : "^14.1.1",
+        "rimraf" : "^2.6.3"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nyc mocha && dtslint"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@3.1.3",
+      "gitHead" : "7a597f1fdfc764ccc61776b27302b5d897a362ae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_3.1.3_1569896970822_0.677183777137714"
+      },
+      "_nodeVersion" : "12.10.0"
+    },
+    "2.0.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-2.0.0.tgz",
+        "shasum" : "cc09ba5d12d8feb864bc75f6e2ebc137060cbd82"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "minimatch" : "^2.0.10",
+        "readable-stream" : "^2.0.2"
+      },
+      "devDependencies" : {
+        "nave" : "^0.5.1",
+        "tap" : "^1.3.2",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-0.12" : "nave use 0.12 npm run test-main",
+        "test-2.4" : "nave use 2.4 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10 && npm run test-0.12 && npm run test-2.4",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@2.0.0",
+      "gitHead" : "480af1e35d413ebb36e427808dcaa65d47cdc490",
+      "_shasum" : "cc09ba5d12d8feb864bc75f6e2ebc137060cbd82"
+    },
+    "2.0.1" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-2.0.1.tgz",
+        "shasum" : "672aa0c5013e7942996bbf3a392bf69aef89d5a5"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "minimatch" : "^3.0.2",
+        "readable-stream" : "^2.0.2"
+      },
+      "devDependencies" : {
+        "nave" : "^0.5.1",
+        "tap" : "^1.3.2",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-0.12" : "nave use 0.12 npm run test-main",
+        "test-2.4" : "nave use 2.4 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10 && npm run test-0.12 && npm run test-2.4",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.6",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@2.0.1",
+      "gitHead" : "e741f5e5fe4b0df1e9017733dd8ada9b329a9b58",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/readdirp-2.0.1.tgz_1466617803466_0.7497695861384273"
+      },
+      "_shasum" : "672aa0c5013e7942996bbf3a392bf69aef89d5a5",
+      "_nodeVersion" : "4.4.5"
+    },
+    "2.1.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-2.1.0.tgz",
+        "shasum" : "4ed0ad060df3073300c48440373f72d1cc642d78"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "minimatch" : "^3.0.2",
+        "readable-stream" : "^2.0.2",
+        "set-immediate-shim" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "nave" : "^0.5.1",
+        "proxyquire" : "^1.7.9",
+        "tap" : "1.3.2",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-0.12" : "nave use 0.12 npm run test-main",
+        "test-4" : "nave use 4.4 npm run test-main",
+        "test-6" : "nave use 6.2 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.10 && npm run test-0.12 && npm run test-4 && npm run test-6",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.6",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@2.1.0",
+      "gitHead" : "5a3751f86a1c2bbbb8e3a42685d4191992631e6c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/readdirp-2.1.0.tgz_1467053820730_0.8782131769694388"
+      },
+      "_shasum" : "4ed0ad060df3073300c48440373f72d1cc642d78",
+      "_nodeVersion" : "4.4.6"
+    },
+    "2.2.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-2.2.0.tgz",
+        "shasum" : "cf040e9cb125fc921e6e9771647496edde3666fd"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.2",
+        "micromatch" : "^3.1.10",
+        "readable-stream" : "^2.0.2",
+        "set-immediate-shim" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "nave" : "^0.5.1",
+        "proxyquire" : "^1.7.9",
+        "tap" : "1.3.2",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-0.12" : "nave use 0.12 npm run test-main",
+        "test-4" : "nave use 4.4 npm run test-main",
+        "test-6" : "nave use 6.2 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.10 && npm run test-0.12 && npm run test-4 && npm run test-6",
+        "test" : "npm run test-main"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@2.2.0",
+      "gitHead" : "a00f3058c6eda4396c051eed754a234995635c45",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_2.2.0_1536854500346_0.4274468514378924"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "2.2.1" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/paulmillr/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/paulmillr/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/paulmillr/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-2.2.1.tgz",
+        "shasum" : "0e87622a3325aa33e892285caf8b4e846529a525"
+      },
+      "dependencies" : {
+        "graceful-fs" : "^4.1.11",
+        "micromatch" : "^3.1.10",
+        "readable-stream" : "^2.0.2"
+      },
+      "devDependencies" : {
+        "nave" : "^0.5.1",
+        "proxyquire" : "^1.7.9",
+        "tap" : "1.3.2",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-0.12" : "nave use 0.12 npm run test-main",
+        "test-4" : "nave use 4.4 npm run test-main",
+        "test-6" : "nave use 6.2 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.10 && npm run test-0.12 && npm run test-4 && npm run test-6",
+        "test" : "npm run test-main"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "paulmillr",
+        "email" : "paul@paulmillr.com"
+      },
+      "_id" : "readdirp@2.2.1",
+      "gitHead" : "d0f58fd435d7918706128df1742b69bf5f81dac8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/readdirp_2.2.1_1536858645522_0.5020330379451936"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "1.3.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-1.3.0.tgz",
+        "shasum" : "eaf1a9b463be9a8190fc9ae163aa1ac934aa340b"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12",
+        "readable-stream" : "~1.0.26-2"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.8",
+        "through2" : "~0.4.1"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@1.3.0",
+      "gitHead" : "82caf226eeafec8669c604f71e46e5e83c48cc86",
+      "_shasum" : "eaf1a9b463be9a8190fc9ae163aa1ac934aa340b"
+    },
+    "1.4.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-1.4.0.tgz",
+        "shasum" : "c5de6fcb3dec80523c1c70113f1a190d8af82c89"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~4.1.2",
+        "minimatch" : "~0.2.12",
+        "readable-stream" : "~1.0.26-2"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "nave" : "~0.5.1",
+        "tap" : "~0.4.8",
+        "through2" : "~0.4.1"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-0.12" : "nave use 0.12 npm run test-main",
+        "test-2.4" : "nave use 2.4 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10 && npm run test-0.12 && npm run test-2.4",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@1.4.0",
+      "gitHead" : "409a3d9f52c746d8c737d449387d6fadbdd00604",
+      "_shasum" : "c5de6fcb3dec80523c1c70113f1a190d8af82c89",
+      "_nodeVersion" : "0.12.7"
+    },
+    "1.0.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-1.0.0.tgz",
+        "shasum" : "b8ce62a269bc4dc68134f86cc964f027e47e1771"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12",
+        "readable-stream" : "~1.0.26-2"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.8",
+        "through2" : "~0.4.1"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "tap test/*.js",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@1.0.0"
+    },
+    "1.0.1" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-1.0.1.tgz",
+        "shasum" : "16967d390300346a67ffb30a3867bb4b6173934a"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12",
+        "readable-stream" : "~1.0.26-2"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.8",
+        "through2" : "~0.4.1"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@1.0.1"
+    },
+    "1.1.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-1.1.0.tgz",
+        "shasum" : "6506f9d5d8bb2edc19c855a60bb92feca5fae39c"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12",
+        "readable-stream" : "~1.0.26-2"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.8",
+        "through2" : "~0.4.1"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@1.1.0"
+    },
+    "1.2.0" : {
+      "name" : "readdirp",
+      "description" : "Recursive version of fs.readdir with streaming api.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Thorsten Lorenz",
+        "email" : "thlorenz@gmx.de",
+        "url" : "thlorenz.com"
+      },
+      "homepage" : "https://github.com/thlorenz/readdirp",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/thlorenz/readdirp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/thlorenz/readdirp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "readdirp.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/readdirp/-/readdirp-1.2.0.tgz",
+        "shasum" : "7ece25c8fc0ccae4461fe28e8a8b30b4d518cdfa"
+      },
+      "dependencies" : {
+        "graceful-fs" : "~2.0.0",
+        "minimatch" : "~0.2.12",
+        "readable-stream" : "~1.0.26-2"
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "~0.4.8",
+        "through2" : "~0.4.1"
+      },
+      "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test-main" : "(cd test && set -e; for t in ./*.js; do node $t; done)",
+        "test-0.8" : "nave use 0.8 npm run test-main",
+        "test-0.10" : "nave use 0.10 npm run test-main",
+        "test-all" : "npm run test-main && npm run test-0.8 && npm run test-0.10",
+        "test" : "if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "thlorenz",
+        "email" : "thlorenz@gmx.de"
+      },
+      "_id" : "readdirp@1.2.0",
+      "gitHead" : "d35a7381bf56db9e3f7b1fb69067ad907f71176e",
+      "_shasum" : "7ece25c8fc0ccae4461fe28e8a8b30b4d518cdfa"
+    }
+  },
+  "readme" : "# readdirp [![Weekly downloads](https://img.shields.io/npm/dw/readdirp.svg)](https://github.com/paulmillr/readdirp)\n\n> Recursive version of [fs.readdir](https://nodejs.org/api/fs.html#fs_fs_readdir_path_options_callback). Exposes a **stream API** and a **promise API**.\n\n[![NPM](https://nodei.co/npm/readdirp.png)](https://www.npmjs.com/package/readdirp)\n\n```sh\nnpm install readdirp\n```\n\n```javascript\nconst readdirp = require('readdirp');\n\n// Use streams to achieve small RAM & CPU footprint.\n// 1) Streams example with for-await.\nfor await (const entry of readdirp('.')) {\n  const {path} = entry;\n  console.log(`${JSON.stringify({path})}`);\n}\n\n// 2) Streams example, non for-await.\n// Print out all JS files along with their size within the current folder & subfolders.\nreaddirp('.', {fileFilter: '*.js', alwaysStat: true})\n  .on('data', (entry) => {\n    const {path, stats: {size}} = entry;\n    console.log(`${JSON.stringify({path, size})}`);\n  })\n  // Optionally call stream.destroy() in `warn()` in order to abort and cause 'close' to be emitted\n  .on('warn', error => console.error('non-fatal error', error))\n  .on('error', error => console.error('fatal error', error))\n  .on('end', () => console.log('done'));\n\n// 3) Promise example. More RAM and CPU than streams / for-await.\nconst files = await readdirp.promise('.');\nconsole.log(files.map(file => file.path));\n\n// Other options.\nreaddirp('test', {\n  fileFilter: '*.js',\n  directoryFilter: ['!.git', '!*modules']\n  // directoryFilter: (di) => di.basename.length === 9\n  type: 'files_directories',\n  depth: 1\n});\n```\n\nFor more examples, check out `examples` directory.\n\n## API\n\n`const stream = readdirp(root[, options])` — **Stream API**\n\n- Reads given root recursively and returns a `stream` of [entry infos](#entryinfo)\n- Optionally can be used like `for await (const entry of stream)` with node.js 10+ (`asyncIterator`).\n- `on('data', (entry) => {})` [entry info](#entryinfo) for every file / dir.\n- `on('warn', (error) => {})` non-fatal `Error` that prevents a file / dir from being processed. Example: inaccessible to the user.\n- `on('error', (error) => {})` fatal `Error` which also ends the stream. Example: illegal options where passed.\n- `on('end')` — we are done. Called when all entries were found and no more will be emitted.\n- `on('close')` — stream is destroyed via `stream.destroy()`.\n  Could be useful if you want to manually abort even on a non fatal error.\n  At that point the stream is no longer `readable` and no more entries, warning or errors are emitted\n- To learn more about streams, consult the very detailed [nodejs streams documentation](https://nodejs.org/api/stream.html)\n  or the [stream-handbook](https://github.com/substack/stream-handbook)\n\n`const entries = await readdirp.promise(root[, options])` — **Promise API**. Returns a list of [entry infos](#entryinfo).\n\nFirst argument is awalys `root`, path in which to start reading and recursing into subdirectories.\n\n### options\n\n- `fileFilter: [\"*.js\"]`: filter to include or exclude files. A `Function`, Glob string or Array of glob strings.\n    - **Function**: a function that takes an entry info as a parameter and returns true to include or false to exclude the entry\n    - **Glob string**: a string (e.g., `*.js`) which is matched using [picomatch](https://github.com/micromatch/picomatch), so go there for more\n        information. Globstars (`**`) are not supported since specifying a recursive pattern for an already recursive function doesn't make sense. Negated globs (as explained in the minimatch documentation) are allowed, e.g., `!*.txt` matches everything but text files.\n    - **Array of glob strings**: either need to be all inclusive or all exclusive (negated) patterns otherwise an error is thrown.\n        `['*.json', '*.js']` includes all JavaScript and Json files.\n        `['!.git', '!node_modules']` includes all directories except the '.git' and 'node_modules'.\n    - Directories that do not pass a filter will not be recursed into.\n- `directoryFilter: ['!.git']`: filter to include/exclude directories found and to recurse into. Directories that do not pass a filter will not be recursed into.\n- `depth: 5`: depth at which to stop recursing even if more subdirectories are found\n- `type: 'files'`: determines if data events on the stream should be emitted for `'files'` (default), `'directories'`, `'files_directories'`, or `'all'`. Setting to `'all'` will also include entries for other types of file descriptors like character devices, unix sockets and named pipes.\n- `alwaysStat: false`: always return `stats` property for every file. Setting it to `true` can double readdir execution time - use it only when you need file `size`, `mtime` etc. Cannot be enabled on node <10.10.0.\n- `lstat: false`: include symlink entries in the stream along with files. When `true`, `fs.lstat` would be used instead of `fs.stat`\n\n### `EntryInfo`\n\nHas the following properties:\n\n- `path: 'assets/javascripts/react.js'`: path to the file/directory (relative to given root)\n- `fullPath: '/Users/dev/projects/app/assets/javascripts/react.js'`: full path to the file/directory found\n- `basename: 'react.js'`: name of the file/directory\n- `dirent: fs.Dirent`: built-in [dir entry object](https://nodejs.org/api/fs.html#fs_class_fs_dirent) - only with `alwaysStat: false`\n- `stats: fs.Stats`: built in [stat object](https://nodejs.org/api/fs.html#fs_class_fs_stats) - only with `alwaysStat: true`\n\n## Changelog\n\n- 3.3 (Dec 6, 2019) stabilizes RAM consumption and enables perf management with `highWaterMark` option. Fixes race conditions related to `for-await` looping.\n- 3.2 (Oct 14, 2019) improves performance by 250% and makes streams implementation more idiomatic.\n- 3.1 (Jul 7, 2019) brings `bigint` support to `stat` output on Windows. This is backwards-incompatible for some cases. Be careful. It you use it incorrectly, you'll see \"TypeError: Cannot mix BigInt and other types, use explicit conversions\".\n- 3.0 brings huge performance improvements and stream backpressure support.\n- Upgrading 2.x to 3.x:\n    - Signature changed from `readdirp(options)` to `readdirp(root, options)`\n    - Replaced callback API with promise API.\n    - Renamed `entryType` option to `type`\n    - Renamed `entryType: 'both'` to `'files_directories'`\n    - `EntryInfo`\n        - Renamed `stat` to `stats`\n            - Emitted only when `alwaysStat: true`\n            - `dirent` is emitted instead of `stats` by default with `alwaysStat: false`\n        - Renamed `name` to `basename`\n        - Removed `parentDir` and `fullParentDir` properties\n- Supported node.js versions:\n    - 3.x: node 8+\n    - 2.x: node 0.6+\n\n## License\n\nCopyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (<https://paulmillr.com>)\n\nMIT License, see [LICENSE](LICENSE) file.\n",
+  "maintainers" : [ {
+    "name" : "thlorenz",
+    "email" : "thlorenz@gmx.de"
+  } ],
+  "author" : {
+    "name" : "Thorsten Lorenz",
+    "email" : "thlorenz@gmx.de",
+    "url" : "thlorenz.com"
+  },
+  "time" : {
+    "0.2.4" : "2013-03-19T02:27:47.074Z",
+    "0.3.3" : "2014-01-13T15:35:44.575Z",
+    "0.2.5" : "2013-06-22T01:42:42.820Z",
+    "0.1.3" : "2012-09-13T03:01:41.172Z",
+    "0.2.2" : "2012-12-31T20:16:55.863Z",
+    "0.3.1" : "2013-07-17T12:33:55.195Z",
+    "0.4.0" : "2014-03-29T22:51:01.775Z",
+    "0.1.4" : "2012-09-16T00:10:43.993Z",
+    "0.2.3" : "2013-01-19T05:25:00.867Z",
+    "0.3.2" : "2013-12-15T22:54:33.167Z",
+    "0.1.1" : "2012-07-18T12:08:10.372Z",
+    "0.2.0" : "2012-10-07T22:23:32.951Z",
+    "0.1.2" : "2012-09-13T02:55:04.808Z",
+    "0.2.1" : "2012-10-09T01:28:45.122Z",
+    "0.3.0" : "2013-06-22T14:36:39.116Z",
+    "0.1.0" : "2012-07-18T11:44:11.200Z",
+    "3.0.0" : "2019-04-17T17:49:33.406Z",
+    "modified" : "2019-12-06T10:56:42.926Z",
+    "3.0.1" : "2019-04-24T21:56:48.947Z",
+    "3.1.0" : "2019-07-06T23:49:31.019Z",
+    "3.0.2" : "2019-06-02T21:50:36.246Z",
+    "3.1.1" : "2019-07-06T23:53:14.423Z",
+    "3.2.0" : "2019-10-14T00:04:52.884Z",
+    "3.0.3" : "2019-07-05T23:47:06.235Z",
+    "3.1.2" : "2019-08-14T14:03:43.139Z",
+    "3.3.0" : "2019-12-06T10:56:38.944Z",
+    "3.1.3" : "2019-10-01T02:29:30.949Z",
+    "2.0.0" : "2015-08-25T20:09:10.272Z",
+    "2.0.1" : "2016-06-22T17:50:05.562Z",
+    "2.1.0" : "2016-06-27T18:57:01.706Z",
+    "created" : "2012-07-18T11:44:10.802Z",
+    "2.2.0" : "2018-09-13T16:01:40.496Z",
+    "2.2.1" : "2018-09-13T17:10:45.627Z",
+    "1.3.0" : "2014-12-12T21:22:09.908Z",
+    "1.4.0" : "2015-07-21T18:40:39.811Z",
+    "1.0.0" : "2014-03-30T03:01:35.038Z",
+    "1.0.1" : "2014-03-30T03:37:40.737Z",
+    "1.1.0" : "2014-06-11T15:16:06.903Z",
+    "1.2.0" : "2014-12-01T21:09:56.324Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/paulmillr/readdirp.git"
+  },
+  "users" : {
+    "tunnckocore" : true,
+    "sbruchmann" : true,
+    "fozzy" : true,
+    "jruif" : true,
+    "mrzmmr" : true,
+    "wkronmiller" : true,
+    "pid" : true,
+    "three" : true,
+    "johnnyscript" : true,
+    "silverwind" : true,
+    "thelmos" : true,
+    "madvas" : true,
+    "zuojiang" : true,
+    "hughsk" : true,
+    "alectic" : true,
+    "asaupup" : true,
+    "akiva" : true,
+    "hr." : true,
+    "balazserdos" : true,
+    "nuwaio" : true,
+    "esundahl" : true,
+    "youstrive" : true,
+    "jahnestacado" : true,
+    "eshinn" : true,
+    "lgh06" : true,
+    "marsup" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/paulmillr/readdirp",
+  "keywords" : [ "recursive", "fs", "stream", "streams", "readdir", "filesystem", "find", "filter" ],
+  "contributors" : [ {
+    "name" : "Thorsten Lorenz",
+    "email" : "thlorenz@gmx.de",
+    "url" : "thlorenz.com"
+  }, {
+    "name" : "Paul Miller",
+    "url" : "https://paulmillr.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/paulmillr/readdirp/issues"
+  },
+  "license" : "MIT"
+}

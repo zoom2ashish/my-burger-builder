@@ -1,0 +1,2275 @@
+{
+  "_id" : "workbox-streams",
+  "_rev" : "37-9828d8f1da8724b6603e6ff526903965",
+  "name" : "workbox-streams",
+  "description" : "A library that makes it easier to work with Streams in the browser.",
+  "dist-tags" : {
+    "next" : "5.0.0-rc.2",
+    "latest" : "5.0.0"
+  },
+  "versions" : {
+    "4.1.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.1.1.tgz",
+        "shasum" : "f49418d7a2388c89838c4022229ba6ee23af60fd"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.1.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.1.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.1.1",
+      "gitHead" : "fb837ca0bd15bdc8f4e5563ee28957dc266c31f6",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.1.1_1552686646903_0.8274292176317821"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.2.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.2.0.tgz",
+        "shasum" : "bdac82db15bdd02740cc5b0480833af7a2131a4e"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.2.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.2.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@4.2.0",
+      "gitHead" : "60f99c8c017b62ffe90b591b7f4be37dc44d92f6",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.2.0_1554312252148_0.8224491124857594"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.3.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.3.0.tgz",
+        "shasum" : "836e27e302b90167da2ca47cd261eeb3369fb9ff"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.3.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.3.0.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@4.3.0",
+      "gitHead" : "7c873eb2b7e4530fb554c41d9c425c5167e45de7",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.3.0_1555357763179_0.2197241325901469"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "11.14.0"
+    },
+    "4.0.0-rc.4" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-rc.4",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-rc.4.tgz",
+        "shasum" : "d0cd365ecfb1598b069eb4bec8fd2693e48388d9"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.4"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-rc.4.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.0.0-rc.4",
+      "gitHead" : "cddab54b7b1b7fee18765dcf8350f7e118285efb",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-rc.4_1551149712859_0.7642496503342775"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0.tgz",
+        "shasum" : "64c92874a2a27fc37230a15c220f7c61ea04775a"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.0.0",
+      "gitHead" : "51ec243c7afc67d5cec835b685bd9ad1e70fb78b",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0_1551288788136_0.12806182590038007"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.1.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.1.0.tgz",
+        "shasum" : "c4d2a4be576c5bbc35bb114ac43fa2ba541fecce"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.1.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.1.0.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.1.0",
+      "gitHead" : "6fd1909f69406b7dd5edf3ac6bad3da0ba1e638d",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.1.0_1551984801575_0.13259914697281383"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.2" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-rc.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-rc.2.tgz",
+        "shasum" : "337124e230652253808e96ed76a1dfab6fc474ea"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-rc.2.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.0.0-rc.2",
+      "gitHead" : "36439d00d488159fd552b6e805bd4cb1be827ece",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-rc.2_1550094598641_0.029223951634519185"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.3" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-rc.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-rc.3.tgz",
+        "shasum" : "8609876462cc70adea64db316cb82c3fbdb51c39"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-rc.3.tgz",
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.0.0-rc.3",
+      "gitHead" : "6cf9c94ff17beea2b211e91d4a96c22c8611d3b4",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-rc.3_1550607150832_0.5045956102081102"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-rc.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-rc.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-rc.0.tgz",
+        "shasum" : "94b4120f47792469a666008cc0768e58f546b408"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-rc.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.0.0-rc.0",
+      "gitHead" : "895940b985bea024e086713c319af216f7c5ee95",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-rc.0_1549483122074_0.8898977513824362"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.3.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.3.1.tgz",
+        "shasum" : "0b57da70e982572de09c8742dd0cb40a6b7c2cc3"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.3.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.3.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.3.1",
+      "gitHead" : "194cdeb63d5abb21490f88f01f02f4bcf7e6d54b",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.3.1_1556733232270_0.5330540023038213"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.0-rc.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-rc.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-rc.1.tgz",
+        "shasum" : "513343fb041d6022533b5818b36e5f53dd0df002"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-rc.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-rc.1.tgz",
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.0.0-rc.1",
+      "gitHead" : "5e19e1c192d867f0db97e23f1262c3cab19bf6c6",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-rc.1_1550086323610_0.8096774421624913"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0-beta.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-beta.0.tgz",
+        "shasum" : "00e84f205a489492bb6e0d049d2b73113f6a08d3"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-beta.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-beta.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@4.0.0-beta.0",
+      "gitHead" : "bc90cc4bdb1f8ad435564aa84b0c90acfac611e2",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-beta.0_1541529646498_0.5808306370136238"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.4.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.4.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.4.1.tgz",
+        "shasum" : "b639843431ea38825909a557e54108fdc469f0eb"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.4.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@3.4.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.4.1_1531409964141_0.9677984344407298"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "3.5.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.5.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.5.0.tgz",
+        "shasum" : "a2295c5e28f05eecb3c275296e1f67e2f07d2eac"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.5.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@3.5.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.5.0_1536677738880_0.31144957293785036"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0-beta.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-beta.1.tgz",
+        "shasum" : "91399aca7d05100f772eb0d809292228aeb83453"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-beta.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-beta.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@4.0.0-beta.1",
+      "gitHead" : "dda07c48e184f57ce5dfe3b3e93af316989a0877",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-beta.1_1547582136273_0.7821174378122437"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.0"
+    },
+    "3.6.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.6.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.6.0.tgz",
+        "shasum" : "fea165ae13b3b147a001b89111c7c27025102ca5"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.6.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@3.6.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.6.0_1537384225205_0.09916893926303838"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "4.0.0-beta.2" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-beta.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-beta.2.tgz",
+        "shasum" : "9f31c9acbe677f3d36ecd1cab2301ef23a3554b1"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-beta.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-beta.2.tgz",
+      "_npmVersion" : "6.6.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@4.0.0-beta.2",
+      "gitHead" : "a0baa6ac838e1bff9a140ccbe2e78551d9605466",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-beta.2_1548798969209_0.41399747092810646"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "8.15.0"
+    },
+    "3.6.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.6.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.6.1.tgz",
+        "shasum" : "ca3362c67e94408e72fcbf7bc5f7144a7463eb50"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.6.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@3.6.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.6.1_1537385262626_0.21081813270990057"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "3.6.2" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.6.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.6.2.tgz",
+        "shasum" : "2e1ed4eb88446fdcd11c48d4399c2fb91a9ee731"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.6.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@3.6.2",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.6.2_1538145710569_0.00861725399211588"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "3.2.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.2.0.tgz",
+        "shasum" : "cac0e4f5693b5e13029cbd7e5fec4eb7fcb30d97"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.2.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@3.2.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.2.0_1525285059521_0.2862642431203204"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "3.3.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.3.0.tgz",
+        "shasum" : "7591e37a08bf65b32d1db076b86900a8a4b7d02c"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.3.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@3.3.0",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.3.0_1529344596277_0.33624276218933824"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "3.3.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.3.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.3.1.tgz",
+        "shasum" : "fdde3f0f2b9f52832999a4b4a223ff06c28d125f"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.3.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@3.3.1",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.3.1_1530121562441_0.23389267678542502"
+      },
+      "_nodeVersion" : "10.5.0"
+    },
+    "5.0.0-alpha.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0-alpha.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0-alpha.0.tgz",
+        "shasum" : "09f59a42294e511e2cbdd0f6dd5c80b8f76c1076"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-alpha.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-5.0.0-alpha.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@5.0.0-alpha.0",
+      "gitHead" : "7f231c04023669bc42d5a939d1359b0867e2efda",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0-alpha.0_1562771120863_0.801347212969753"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-alpha.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0-alpha.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0-alpha.1.tgz",
+        "shasum" : "eb295ed7ad7bcd08a5bf9867172cc79a888c159e"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-alpha.1",
+        "workbox-routing" : "^5.0.0-alpha.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-5.0.0-alpha.1.tgz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@5.0.0-alpha.1",
+      "gitHead" : "20d2110ddace710a46af06addd4977cae08f5942",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0-alpha.1_1563225690718_0.9333398048343813"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.0-alpha.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "4.0.0-alpha.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-4.0.0-alpha.0.tgz",
+        "shasum" : "477a340a841a7902cd9ded2a2f46b5de79019aa8"
+      },
+      "dependencies" : {
+        "workbox-core" : "^4.0.0-alpha.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-4.0.0-alpha.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@4.0.0-alpha.0",
+      "gitHead" : "db1fb73fd32fbd5cbf42e246e6144011a5c6edc2",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_4.0.0-alpha.0_1539194837456_0.8416108101046806"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "5.0.0-alpha.2" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0-alpha.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0-alpha.2.tgz",
+        "shasum" : "46d8a92519ff77ec83b36b0506f0fefacfe756cd"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-alpha.2",
+        "workbox-routing" : "^5.0.0-alpha.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_from" : "file:workbox-streams-5.0.0-alpha.2.tgz",
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@5.0.0-alpha.2",
+      "gitHead" : "0cb0029b692c3802545238fe59b6d6179ca32f6c",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0-alpha.2_1564684732280_0.40521859190966025"
+      },
+      "_resolved" : "",
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_integrity" : "",
+      "_nodeVersion" : "10.15.3"
+    },
+    "3.6.3" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "3.6.3",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "build/workbox-streams.prod.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-3.6.3.tgz",
+        "shasum" : "beaea5d5b230239836cc327b07d471aa6101955a"
+      },
+      "dependencies" : {
+        "workbox-core" : "^3.6.3"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@3.6.3",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_3.6.3_1540216481208_0.4292634227022838"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "5.0.0-beta.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0-beta.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0-beta.1.tgz",
+        "shasum" : "9436986b8ad2eba23b053004edc679ad2a3cbf97"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-beta.1",
+        "workbox-routing" : "^5.0.0-beta.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@5.0.0-beta.1",
+      "gitHead" : "01a9e9be8291f0a592891c8e2eb8d2dd09b93caf",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0-beta.1_1569959080162_0.7854204772166591"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-rc.2" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0-rc.2",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0-rc.2.tgz",
+        "shasum" : "62d640765f4a1e51dd63627c36a5c58172fd3206"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-rc.2",
+        "workbox-routing" : "^5.0.0-rc.2"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jeffposnick",
+        "email" : "jeffy@google.com"
+      },
+      "_id" : "workbox-streams@5.0.0-rc.2",
+      "gitHead" : "89904768b2210e59c830dd380cf88a06e1c26a2b",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0-rc.2_1579641366929_0.8102177723324042"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-streams\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "5.0.0-beta.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0-beta.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0-beta.0.tgz",
+        "shasum" : "549c5097180c0b46916339929355655781d51c2c"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-beta.0",
+        "workbox-routing" : "^5.0.0-beta.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@5.0.0-beta.0",
+      "gitHead" : "136b38f2c701bd7c04e808d19961310a9ede524b",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0-beta.0_1566406745257_0.6584872083337701"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0-rc.1" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0-rc.1",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0-rc.1.tgz",
+        "shasum" : "5144e91d2f55f2dd9e4db50624e2f2aa902df972"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-rc.1",
+        "workbox-routing" : "^5.0.0-rc.1"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.17.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@5.0.0-rc.1",
+      "gitHead" : "f03f71e50507e13d82d4e0a875cc49ba4501aff3",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0-rc.1_1574705091301_0.14722530556061098"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.17.0"
+    },
+    "5.0.0-rc.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0-rc.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0-rc.0.tgz",
+        "shasum" : "db37249a323501ea23022d9c09556d95de211375"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0-rc.0",
+        "workbox-routing" : "^5.0.0-rc.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@5.0.0-rc.0",
+      "gitHead" : "94542f92ceaec96ef59a09bda3aee1677ea5512b",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0-rc.0_1571258500155_0.8297160413439453"
+      },
+      "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.streams\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "5.0.0" : {
+      "name" : "workbox-streams",
+      "description" : "A library that makes it easier to work with Streams in the browser.",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Google's Web DevRel Team"
+      },
+      "homepage" : "https://github.com/GoogleChrome/workbox",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/googlechrome/workbox.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/googlechrome/workbox/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/workbox-streams/-/workbox-streams-5.0.0.tgz",
+        "shasum" : "d4011b1538e7349926f56b5848a4aed2e53915e4"
+      },
+      "dependencies" : {
+        "workbox-core" : "^5.0.0",
+        "workbox-routing" : "^5.0.0"
+      },
+      "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "addyosmani@gmail.com",
+        "name" : "addyosmani"
+      }, {
+        "email" : "matt@gauntface.co.uk",
+        "name" : "gauntface"
+      }, {
+        "email" : "jeffy@google.com",
+        "name" : "jeffposnick"
+      }, {
+        "email" : "philip@philipwalton.com",
+        "name" : "philipwalton"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp build-packages --package workbox-streams",
+        "version" : "npm run build",
+        "prepare" : "npm run build"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v10.17.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "philipwalton",
+        "email" : "philip@philipwalton.com"
+      },
+      "_id" : "workbox-streams@5.0.0",
+      "gitHead" : "571ffded1872309a305f108a99a5a36982fde342",
+      "workbox" : {
+        "browserNamespace" : "workbox.streams",
+        "packageType" : "browser"
+      },
+      "types" : "index.d.ts",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/workbox-streams_5.0.0_1580266138915_0.7752509460365729"
+      },
+      "_nodeVersion" : "10.17.0"
+    }
+  },
+  "readme" : "This module's documentation can be found at https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-streams\n",
+  "maintainers" : [ {
+    "email" : "addyosmani@gmail.com",
+    "name" : "addyosmani"
+  }, {
+    "email" : "matt@gauntface.co.uk",
+    "name" : "gauntface"
+  }, {
+    "email" : "jeffy@google.com",
+    "name" : "jeffposnick"
+  }, {
+    "email" : "philip@philipwalton.com",
+    "name" : "philipwalton"
+  } ],
+  "author" : {
+    "name" : "Google's Web DevRel Team"
+  },
+  "time" : {
+    "4.1.1" : "2019-03-15T21:50:47.080Z",
+    "4.2.0" : "2019-04-03T17:24:12.331Z",
+    "4.3.0" : "2019-04-15T19:49:23.311Z",
+    "4.0.0-rc.4" : "2019-02-26T02:55:13.024Z",
+    "4.0.0" : "2019-02-27T17:33:08.231Z",
+    "4.1.0" : "2019-03-07T18:53:21.746Z",
+    "4.0.0-rc.2" : "2019-02-13T21:49:58.772Z",
+    "4.0.0-rc.3" : "2019-02-19T20:12:31.052Z",
+    "4.0.0-rc.0" : "2019-02-06T19:58:42.182Z",
+    "4.3.1" : "2019-05-01T17:53:52.432Z",
+    "4.0.0-rc.1" : "2019-02-13T19:32:03.725Z",
+    "4.0.0-beta.0" : "2018-11-06T18:40:46.642Z",
+    "3.4.1" : "2018-07-12T15:39:24.203Z",
+    "3.5.0" : "2018-09-11T14:55:39.032Z",
+    "4.0.0-beta.1" : "2019-01-15T19:55:36.427Z",
+    "modified" : "2020-01-29T02:49:02.115Z",
+    "3.6.0" : "2018-09-19T19:10:25.361Z",
+    "4.0.0-beta.2" : "2019-01-29T21:56:09.321Z",
+    "3.6.1" : "2018-09-19T19:27:48.598Z",
+    "3.6.2" : "2018-09-28T14:41:50.750Z",
+    "3.2.0" : "2018-05-02T18:17:39.592Z",
+    "3.3.0" : "2018-06-18T17:56:36.388Z",
+    "3.3.1" : "2018-06-27T17:46:02.554Z",
+    "5.0.0-alpha.0" : "2019-07-10T15:05:20.971Z",
+    "5.0.0-alpha.1" : "2019-07-15T21:21:31.529Z",
+    "4.0.0-alpha.0" : "2018-10-10T18:07:17.627Z",
+    "5.0.0-alpha.2" : "2019-08-01T18:38:52.447Z",
+    "3.6.3" : "2018-10-22T13:54:41.350Z",
+    "created" : "2018-05-02T18:17:39.521Z",
+    "5.0.0-beta.1" : "2019-10-01T19:44:40.270Z",
+    "5.0.0-rc.2" : "2020-01-21T21:16:07.104Z",
+    "5.0.0-beta.0" : "2019-08-21T16:59:05.385Z",
+    "5.0.0-rc.1" : "2019-11-25T18:04:51.491Z",
+    "5.0.0-rc.0" : "2019-10-16T20:41:40.285Z",
+    "5.0.0" : "2020-01-29T02:48:59.076Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/googlechrome/workbox.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/GoogleChrome/workbox",
+  "keywords" : [ "workbox", "workboxjs", "service worker", "sw", "streams", "readablestream" ],
+  "bugs" : {
+    "url" : "https://github.com/googlechrome/workbox/issues"
+  },
+  "license" : "MIT"
+}

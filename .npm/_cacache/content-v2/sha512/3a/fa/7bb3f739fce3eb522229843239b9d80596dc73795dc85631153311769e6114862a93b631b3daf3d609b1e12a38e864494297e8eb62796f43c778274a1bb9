@@ -1,0 +1,177 @@
+{
+  "_id" : "infer-owner",
+  "_rev" : "9-fd1ba075d9196ce897cfdfc5cd80a50b",
+  "name" : "infer-owner",
+  "description" : "Infer the owner of a path based on the owner of its nearest existing parent",
+  "dist-tags" : {
+    "latest" : "1.0.4"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "infer-owner",
+      "description" : "Infer the owner of a path based on the owner of its nearest existing parent",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "homepage" : "https://github.com/npm/infer-owner#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/infer-owner.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/infer-owner/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/infer-owner/-/infer-owner-1.0.3.tgz",
+        "shasum" : "38d030afce90f1759c16b783e841522cb8995656"
+      },
+      "devDependencies" : {
+        "mutate-fs" : "^2.1.1",
+        "tap" : "^12.4.2"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap -J test/*.js --100",
+        "snap" : "TAP_SNAPSHOT=1 tap -J test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "infer-owner@1.0.3",
+      "gitHead" : "0d0729db142c6401963e97a136c7d29ecc55746a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/infer-owner_1.0.3_1563577731234_0.6947691890893826"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "1.0.4" : {
+      "name" : "infer-owner",
+      "description" : "Infer the owner of a path based on the owner of its nearest existing parent",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "homepage" : "https://github.com/npm/infer-owner#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/infer-owner.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/infer-owner/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/infer-owner/-/infer-owner-1.0.4.tgz",
+        "shasum" : "c4cefcaa8e51051c2a40ba2ce8a3d27295af9467"
+      },
+      "devDependencies" : {
+        "mutate-fs" : "^2.1.1",
+        "tap" : "^12.4.2"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "evilpacket@gmail.com",
+        "name" : "adam_baldwin"
+      }, {
+        "email" : "ahmad@ahmadnassri.com",
+        "name" : "ahmadnassri"
+      }, {
+        "email" : "i@izs.me",
+        "name" : "isaacs"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap -J test/*.js --100",
+        "snap" : "TAP_SNAPSHOT=1 tap -J test/*.js --100",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "infer-owner@1.0.4",
+      "gitHead" : "264706f28c1bd50c83ecee87e3ff794bf75478f2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/infer-owner_1.0.4_1563577987148_0.9732602885812718"
+      },
+      "_nodeVersion" : "10.16.0"
+    }
+  },
+  "readme" : "# infer-owner\n\nInfer the owner of a path based on the owner of its nearest existing parent\n\n## USAGE\n\n```js\nconst inferOwner = require('infer-owner')\n\ninferOwner('/some/cache/folder/file').then(owner => {\n  // owner is {uid, gid} that should be attached to\n  // the /some/cache/folder/file, based on ownership\n  // of /some/cache/folder, /some/cache, /some, or /,\n  // whichever is the first to exist\n})\n\n// same, but not async\nconst owner = inferOwner.sync('/some/cache/folder/file')\n\n// results are cached!  to reset the cache (eg, to change\n// permissions for whatever reason), do this:\ninferOwner.clearCache()\n```\n\nThis module endeavors to be as performant as possible.  Parallel requests\nfor ownership of the same path will only stat the directories one time.\n\n## API\n\n* `inferOwner(path) -> Promise<{ uid, gid }>`\n\n    If the path exists, return its uid and gid.  If it does not, look to\n    its parent, then its grandparent, and so on.\n\n* `inferOwner(path) -> { uid, gid }`\n\n    Sync form of `inferOwner(path)`.\n\n* `inferOwner.clearCache()`\n\n    Delete all cached ownership information and in-flight tracking.\n",
+  "maintainers" : [ {
+    "email" : "ruyadorno@hotmail.com",
+    "name" : "ruyadorno"
+  }, {
+    "email" : "mike@mikecorp.ca",
+    "name" : "mikemimik"
+  }, {
+    "email" : "cghr1990@gmail.com",
+    "name" : "claudiahdz"
+  }, {
+    "email" : "darcy@darcyclarke.me",
+    "name" : "darcyclarke"
+  }, {
+    "email" : "evilpacket@gmail.com",
+    "name" : "adam_baldwin"
+  }, {
+    "email" : "ahmad@ahmadnassri.com",
+    "name" : "ahmadnassri"
+  }, {
+    "email" : "i@izs.me",
+    "name" : "isaacs"
+  } ],
+  "author" : {
+    "name" : "Isaac Z. Schlueter",
+    "email" : "i@izs.me",
+    "url" : "https://izs.me"
+  },
+  "time" : {
+    "1.0.3" : "2019-07-19T23:08:51.367Z",
+    "1.0.4" : "2019-07-19T23:13:07.339Z",
+    "created" : "2019-07-19T23:08:51.021Z",
+    "modified" : "2020-01-02T04:05:34.442Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/npm/infer-owner.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/npm/infer-owner#readme",
+  "bugs" : {
+    "url" : "https://github.com/npm/infer-owner/issues"
+  },
+  "license" : "ISC"
+}

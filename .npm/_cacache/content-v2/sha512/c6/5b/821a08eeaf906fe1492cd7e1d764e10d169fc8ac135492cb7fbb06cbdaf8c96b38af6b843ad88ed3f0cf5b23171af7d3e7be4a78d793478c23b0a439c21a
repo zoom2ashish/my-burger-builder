@@ -1,0 +1,322 @@
+{
+  "_id" : "levenary",
+  "_rev" : "4-cd67e5750528b8fbdba170f7caebf112",
+  "name" : "levenary",
+  "description" : "[![npm-version](https://img.shields.io/npm/v/levenary.svg)](https://www.npmjs.com/package/levenary) [![github-actions](https://github.com/tanhauhau/levenary/workflows/CI/badge.svg)](https://github.com/tanhauhau/levenary/actions)",
+  "dist-tags" : {
+    "latest" : "1.1.1"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "levenary",
+      "description" : "> Given a string, A and an array of strings XS, return the string X from XS whose Levenshtein distance from A is minimal.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Tan Li Hau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/levenary/-/levenary-1.0.0.tgz",
+        "shasum" : "64ae411d2af32f2a665d2a3c05a101eac033face"
+      },
+      "dependencies" : {
+        "leven" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.5",
+        "@babel/core" : "^7.7.5",
+        "@babel/preset-env" : "^7.7.6",
+        "babel-jest" : "^24.9.0",
+        "jest" : "^24.9.0"
+      },
+      "keywords" : [ "leven", "levenshtein", "distance", "array", "string", "algorithm", "algo", "string", "difference", "diff", "fast", "fuzzy", "similar", "similarity", "compare", "comparison", "edit", "text", "match", "matching" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "build" : "babel index.mjs --out-file index.js"
+      },
+      "_npmUser" : {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "_id" : "levenary@1.0.0",
+      "licenseText" : "\nThe MIT License (MIT)\n\nCopyright (c) 2019 Tan Li Hau\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "browserslist" : "> 0.25%, not dead",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/levenary_1.0.0_1576715529104_0.3052275503694304"
+      }
+    },
+    "1.0.1" : {
+      "name" : "levenary",
+      "description" : "> Given a string, A and an array of strings XS, return the string X from XS whose Levenshtein distance from A is minimal.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Tan Li Hau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/tanhauhau/levenary.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/levenary/-/levenary-1.0.1.tgz",
+        "shasum" : "f0d82ed4bfb3a1183da044fff8d38d8d98380dc1"
+      },
+      "dependencies" : {
+        "leven" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.5",
+        "@babel/core" : "^7.7.5",
+        "@babel/preset-env" : "^7.7.6",
+        "babel-jest" : "^24.9.0",
+        "jest" : "^24.9.0"
+      },
+      "keywords" : [ "leven", "levenshtein", "distance", "array", "string", "algorithm", "algo", "string", "difference", "diff", "fast", "fuzzy", "similar", "similarity", "compare", "comparison", "edit", "text", "match", "matching" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "build" : "babel index.mjs --out-file index.js"
+      },
+      "_npmUser" : {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "_id" : "levenary@1.0.1",
+      "licenseText" : "\nThe MIT License (MIT)\n\nCopyright (c) 2019 Tan Li Hau\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "browserslist" : "> 0.25%, not dead",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/levenary_1.0.1_1576715822904_0.20563925298969754"
+      }
+    },
+    "1.1.0" : {
+      "name" : "levenary",
+      "description" : "[![npm-version](https://img.shields.io/npm/v/levenary.svg)](https://www.npmjs.com/package/levenary) [![github-actions](https://github.com/tanhauhau/levenary/workflows/CI/badge.svg)](https://github.com/tanhauhau/levenary/actions)",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Tan Li Hau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/tanhauhau/levenary.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/levenary/-/levenary-1.1.0.tgz",
+        "shasum" : "fc146fe75f32dc483a0a2c64aef720f602cd6210"
+      },
+      "dependencies" : {
+        "leven" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.5",
+        "@babel/core" : "^7.7.5",
+        "@babel/plugin-transform-for-of" : "^7.7.4",
+        "@babel/preset-env" : "^7.7.6",
+        "babel-jest" : "^24.9.0",
+        "bench" : "^0.3.6",
+        "didyoumean" : "^1.2.1",
+        "didyoumean2" : "^3.1.2",
+        "jest" : "^24.9.0",
+        "matcha" : "^0.7.0"
+      },
+      "keywords" : [ "leven", "levenshtein", "distance", "array", "string", "algorithm", "algo", "string", "difference", "diff", "fast", "fuzzy", "similar", "similarity", "compare", "comparison", "edit", "text", "match", "matching" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "build" : "babel index.mjs --out-file index.js",
+        "bench" : "matcha bench.js"
+      },
+      "_npmUser" : {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "_id" : "levenary@1.1.0",
+      "licenseText" : "\nThe MIT License (MIT)\n\nCopyright (c) 2019 Tan Li Hau\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "browserslist" : "> 0.25%, not dead",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/levenary_1.1.0_1577247221089_0.23066561249264717"
+      }
+    },
+    "1.0.2" : {
+      "name" : "levenary",
+      "description" : "> Given a string, A and an array of strings XS, return the string X from XS whose Levenshtein distance from A is minimal.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Tan Li Hau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/tanhauhau/levenary.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/levenary/-/levenary-1.0.2.tgz",
+        "shasum" : "08bf89f8b25b77c0047bcb669bb1ffab09946861"
+      },
+      "dependencies" : {
+        "leven" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.5",
+        "@babel/core" : "^7.7.5",
+        "@babel/preset-env" : "^7.7.6",
+        "babel-jest" : "^24.9.0",
+        "bench" : "^0.3.6",
+        "didyoumean" : "^1.2.1",
+        "didyoumean2" : "^3.1.2",
+        "jest" : "^24.9.0",
+        "matcha" : "^0.7.0"
+      },
+      "keywords" : [ "leven", "levenshtein", "distance", "array", "string", "algorithm", "algo", "string", "difference", "diff", "fast", "fuzzy", "similar", "similarity", "compare", "comparison", "edit", "text", "match", "matching" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "build" : "babel index.mjs --out-file index.js",
+        "bench" : "matcha bench.js"
+      },
+      "_npmUser" : {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "_id" : "levenary@1.0.2",
+      "licenseText" : "\nThe MIT License (MIT)\n\nCopyright (c) 2019 Tan Li Hau\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "browserslist" : "> 0.25%, not dead",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/levenary_1.0.2_1576717124152_0.39898521618512617"
+      }
+    },
+    "1.1.1" : {
+      "name" : "levenary",
+      "description" : "[![npm-version](https://img.shields.io/npm/v/levenary.svg)](https://www.npmjs.com/package/levenary) [![github-actions](https://github.com/tanhauhau/levenary/workflows/CI/badge.svg)](https://github.com/tanhauhau/levenary/actions)",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Tan Li Hau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/tanhauhau/levenary.git"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/levenary/-/levenary-1.1.1.tgz",
+        "shasum" : "842a9ee98d2075aa7faeedbe32679e9205f46f77"
+      },
+      "dependencies" : {
+        "leven" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "@babel/cli" : "^7.7.5",
+        "@babel/core" : "^7.7.5",
+        "@babel/plugin-transform-for-of" : "^7.7.4",
+        "@babel/preset-env" : "^7.7.6",
+        "babel-jest" : "^24.9.0",
+        "bench" : "^0.3.6",
+        "didyoumean" : "^1.2.1",
+        "didyoumean2" : "^3.1.2",
+        "jest" : "^24.9.0",
+        "matcha" : "^0.7.0"
+      },
+      "keywords" : [ "leven", "levenshtein", "distance", "array", "string", "algorithm", "algo", "string", "difference", "diff", "fast", "fuzzy", "similar", "similarity", "compare", "comparison", "edit", "text", "match", "matching" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest",
+        "build" : "babel index.mjs --out-file index.js",
+        "bench" : "matcha bench.js"
+      },
+      "_npmUser" : {
+        "name" : "tanhauhau",
+        "email" : "lhtan93@gmail.com"
+      },
+      "_id" : "levenary@1.1.1",
+      "licenseText" : "\nThe MIT License (MIT)\n\nCopyright (c) 2019 Tan Li Hau\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "browserslist" : "> 0.25%, not dead",
+      "module" : "index.mjs",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/levenary_1.1.1_1580182386638_0.8061185465345464"
+      }
+    }
+  },
+  "readme" : "# levenary\n\n[![npm-version](https://img.shields.io/npm/v/levenary.svg)](https://www.npmjs.com/package/levenary)\n[![github-actions](https://github.com/tanhauhau/levenary/workflows/CI/badge.svg)](https://github.com/tanhauhau/levenary/actions)\n\n> Given a string, A and an array of strings XS, return the string X from XS whose Levenshtein distance from A is minimal.\n\n\n## Install\n\n```\n$ npm install levenary\n```\n\n\n## Usage\n\n```js\nimport levenary from 'levenary';\n\nlevenary('cat', ['cow', 'dog', 'pig']);\n//=> 'cow'\n```\n\n## Why `levenary`?\n1. Based on [leven](https://github.com/sindresorhus/leven), the fastest JS implementation of the [Levenshtein distance algorithm](https://en.wikipedia.org/wiki/Levenshtein_distance)\n1. Only 1 API. Simple and clean. If you want more, please use [didyoumean2](https://www.npmjs.com/package/didyoumean2).\n1. [Flow](http://flow.org/) and [TypeScript](http://typescriptlang.org/) support.\n\n## Benchmark\n\n```\n$ npm run bench\n```\n\n```\n  311,915 op/s » levenary\n   74,030 op/s » didyoumean\n  141,423 op/s » didyoumean2\n```\n\n",
+  "maintainers" : [ {
+    "name" : "tanhauhau",
+    "email" : "lhtan93@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Tan Li Hau",
+    "email" : "lhtan93@gmail.com"
+  },
+  "time" : {
+    "created" : "2019-12-19T00:32:09.103Z",
+    "modified" : "2020-01-28T03:33:09.148Z",
+    "1.0.0" : "2019-12-19T00:32:09.253Z",
+    "1.0.1" : "2019-12-19T00:37:03.053Z",
+    "1.1.0" : "2019-12-25T04:13:41.295Z",
+    "1.0.2" : "2019-12-19T00:58:44.272Z",
+    "1.1.1" : "2020-01-28T03:33:06.774Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/tanhauhau/levenary.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "leven", "levenshtein", "distance", "array", "string", "algorithm", "algo", "string", "difference", "diff", "fast", "fuzzy", "similar", "similarity", "compare", "comparison", "edit", "text", "match", "matching" ],
+  "license" : "MIT"
+}

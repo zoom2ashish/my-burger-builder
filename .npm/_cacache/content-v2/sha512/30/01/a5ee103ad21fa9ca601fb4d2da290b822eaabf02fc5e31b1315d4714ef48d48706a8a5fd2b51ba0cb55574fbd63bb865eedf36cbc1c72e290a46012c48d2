@@ -1,0 +1,97 @@
+{
+  "_id" : "node-modules-regexp",
+  "_rev" : "1-7a38466c2cb6ceb8b0aa42f6b13b3423",
+  "name" : "node-modules-regexp",
+  "description" : "A regular expression for file paths that contain a `node_modules` folder.",
+  "dist-tags" : {
+    "latest" : "1.0.0"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "node-modules-regexp",
+      "description" : "A regular expression for file paths that contain a `node_modules` folder.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "James Talmage",
+        "email" : "james@talmage.io",
+        "url" : "github.com/jamestalmage"
+      },
+      "homepage" : "https://github.com/jamestalmage/node-modules-regexp#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jamestalmage/node-modules-regexp.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jamestalmage/node-modules-regexp/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz",
+        "shasum" : "8d9dbe28964a4ac5712e9131642107c71e90ec40"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "ava" : "^0.7.0",
+        "xo" : "^0.11.2"
+      },
+      "keywords" : [ "node_modules", "regular expression", "regular expressions", "regular", "expression", "expressions", "exclude", "include", "ignore", "node", "module" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jamestalmage",
+        "email" : "james@talmage.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "jamestalmage",
+        "email" : "james@talmage.io"
+      },
+      "_id" : "node-modules-regexp@1.0.0",
+      "gitHead" : "e41c3de8cbb3b1c20434ccaf4e99fc04a3268d6b",
+      "xo" : {
+        "ignores" : [ "test.js" ]
+      },
+      "_shasum" : "8d9dbe28964a4ac5712e9131642107c71e90ec40",
+      "_nodeVersion" : "5.1.0"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# node-modules-regexp [![Build Status](https://travis-ci.org/jamestalmage/node-modules-regexp.svg?branch=master)](https://travis-ci.org/jamestalmage/node-modules-regexp)\n\n> A regular expression for file paths that contain a `node_modules` folder.\n\n\n## Install\n\n```\n$ npm install --save node-modules-regexp\n```\n\n\n## Usage\n\n```js\nconst nodeModules = require('node-modules-regexp');\n\nnodeModules.test('/foo/node_modules/bar.js');\n//=> true\n\nnodeModules.test('/foo/bar.js');\n//=> false\n```\n\n\n## API\n\nThe returned value is a regular expression, [soooo....](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp).\n\n## License\n\nMIT © [James Talmage](http://github.com/jamestalmage)\n",
+  "maintainers" : [ {
+    "name" : "jamestalmage",
+    "email" : "james@talmage.io"
+  } ],
+  "author" : {
+    "name" : "James Talmage",
+    "email" : "james@talmage.io",
+    "url" : "github.com/jamestalmage"
+  },
+  "time" : {
+    "created" : "2015-12-07T23:01:06.826Z",
+    "modified" : "2015-12-07T23:01:06.826Z",
+    "1.0.0" : "2015-12-07T23:01:06.826Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jamestalmage/node-modules-regexp.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/jamestalmage/node-modules-regexp#readme",
+  "keywords" : [ "node_modules", "regular expression", "regular expressions", "regular", "expression", "expressions", "exclude", "include", "ignore", "node", "module" ],
+  "bugs" : {
+    "url" : "https://github.com/jamestalmage/node-modules-regexp/issues"
+  },
+  "license" : "MIT"
+}

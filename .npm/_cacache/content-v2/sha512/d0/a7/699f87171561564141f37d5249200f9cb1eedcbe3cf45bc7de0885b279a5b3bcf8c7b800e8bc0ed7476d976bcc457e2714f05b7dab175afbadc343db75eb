@@ -1,0 +1,390 @@
+{
+  "_id" : "object.fromentries",
+  "_rev" : "7-7f78938aa2558e23f80d168c0db5fe9e",
+  "name" : "object.fromentries",
+  "description" : "ES proposal-spec-compliant Object.fromEntries shim.",
+  "dist-tags" : {
+    "latest" : "2.0.2"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "object.fromentries",
+      "description" : "ES proposal-spec-compliant Object.fromEntries shim.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/es-shims/Object.fromEntries#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/Object.fromEntries.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Object.fromEntries/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object.fromentries/-/object.fromentries-2.0.0.tgz",
+        "shasum" : "49a543d92151f8277b3ac9600f1e930b189d30ab"
+      },
+      "dependencies" : {
+        "define-properties" : "^1.1.2",
+        "es-abstract" : "^1.11.0",
+        "function-bind" : "^1.1.1",
+        "has" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^12.2.1",
+        "array-map" : "^0.0.0",
+        "covert" : "^1.1.0",
+        "eslint" : "^4.19.0",
+        "nsp" : "^3.2.1",
+        "tape" : "^4.9.0"
+      },
+      "keywords" : [ "Object.fromEntries", "Object.entries", "Object.values", "Object.keys", "entries", "values", "ES7", "ES8", "ES2017", "shim", "object", "keys", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "npm run --silent lint",
+        "test" : "npm run --silent tests-only",
+        "posttest" : "npm run --silent security",
+        "tests-only" : "es-shim-api && npm run --silent test:shimmed && npm run --silent test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/*.js",
+        "coverage-quiet" : "covert test/*.js --quiet",
+        "lint" : "eslint test/*.js *.js",
+        "security" : "nsp check"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "object.fromentries@2.0.0",
+      "gitHead" : "511f215e413d877ad17faaed69985c85deb06792",
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object.fromentries_2.0.0_1533843843768_0.9042997685800662"
+      },
+      "_nodeVersion" : "10.8.0"
+    },
+    "2.0.1" : {
+      "name" : "object.fromentries",
+      "description" : "ES proposal-spec-compliant Object.fromEntries shim.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/es-shims/Object.fromEntries#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/Object.fromEntries.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Object.fromEntries/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object.fromentries/-/object.fromentries-2.0.1.tgz",
+        "shasum" : "050f077855c7af8ae6649f45c80b16ee2d31e704"
+      },
+      "dependencies" : {
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.15.0",
+        "function-bind" : "^1.1.1",
+        "has" : "^1.0.3"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^14.1.0",
+        "array-map" : "^0.0.0",
+        "covert" : "^1.1.1",
+        "eslint" : "^6.5.1",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "Object.fromEntries", "Object.entries", "Object.values", "Object.keys", "entries", "values", "ES7", "ES8", "ES2017", "shim", "object", "keys", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ljharb+esshims@gmail.com",
+        "name" : "es-shims-owner"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "npm run --silent lint",
+        "test" : "npm run --silent tests-only",
+        "posttest" : "npx aud",
+        "tests-only" : "es-shim-api --bound && npm run --silent test:shimmed && npm run --silent test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/*.js",
+        "coverage-quiet" : "covert test/*.js --quiet",
+        "lint" : "eslint test/*.js *.js"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "object.fromentries@2.0.1",
+      "gitHead" : "e357b7db4ef4cf88ecc5d09b89085048c1eb39fd",
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object.fromentries_2.0.1_1570135881398_0.7149326117185091"
+      },
+      "_nodeVersion" : "12.11.0"
+    },
+    "0.0.1-security" : {
+      "name" : "object.fromentries",
+      "description" : "security holding package",
+      "version" : "0.0.1-security",
+      "homepage" : "https://github.com/npm/security-holder#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/security-holder.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/security-holder/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object.fromentries/-/object.fromentries-0.0.1-security.tgz",
+        "shasum" : "246617173c2b22a111da872ff927aa2243f88ffe"
+      },
+      "maintainers" : [ {
+        "name" : "elizposadas",
+        "email" : "elizabeth@npmjs.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "elizposadas",
+        "email" : "elizabeth@npmjs.com"
+      },
+      "_id" : "object.fromentries@0.0.1-security",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object.fromentries_0.0.1-security_1522802575390_0.22838945808603128"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "1.0.0" : {
+      "name" : "object.fromentries",
+      "description" : "ES proposal-spec-compliant Object.fromEntries shim.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/es-shims/Object.fromEntries#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/Object.fromEntries.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Object.fromEntries/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object.fromentries/-/object.fromentries-1.0.0.tgz",
+        "shasum" : "e90ec27445ec6e37f48be9af9077d9aa8bef0d40"
+      },
+      "dependencies" : {
+        "define-properties" : "^1.1.2",
+        "es-abstract" : "^1.11.0",
+        "function-bind" : "^1.1.1",
+        "has" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^12.2.1",
+        "array-map" : "^0.0.0",
+        "covert" : "^1.1.0",
+        "eslint" : "^4.19.0",
+        "nsp" : "^3.2.1",
+        "tape" : "^4.9.0"
+      },
+      "keywords" : [ "Object.fromEntries", "Object.entries", "Object.values", "Object.keys", "entries", "values", "ES7", "ES8", "ES2017", "shim", "object", "keys", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "npm run --silent lint",
+        "test" : "npm run --silent tests-only",
+        "posttest" : "npm run --silent security",
+        "tests-only" : "es-shim-api && npm run --silent test:shimmed && npm run --silent test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/*.js",
+        "coverage-quiet" : "covert test/*.js --quiet",
+        "lint" : "eslint test/*.js *.js",
+        "security" : "nsp check"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "object.fromentries@1.0.0",
+      "gitHead" : "439e01679fe5919575d7a3dccacd00e188e2498a",
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object.fromentries_1.0.0_1522822077519_0.860040413984984"
+      },
+      "_nodeVersion" : "9.10.1"
+    },
+    "2.0.2" : {
+      "name" : "object.fromentries",
+      "description" : "ES proposal-spec-compliant Object.fromEntries shim.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/es-shims/Object.fromEntries#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/Object.fromEntries.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Object.fromEntries/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/object.fromentries/-/object.fromentries-2.0.2.tgz",
+        "shasum" : "4a09c9b9bb3843dd0f89acdb517a794d4f355ac9"
+      },
+      "dependencies" : {
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.17.0-next.1",
+        "function-bind" : "^1.1.1",
+        "has" : "^1.0.3"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^15.0.2",
+        "array-map" : "^0.0.0",
+        "covert" : "^1.1.1",
+        "eslint" : "^6.7.2",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "Object.fromEntries", "Object.entries", "Object.values", "Object.keys", "entries", "values", "ES7", "ES8", "ES2017", "shim", "object", "keys", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ljharb+esshims@gmail.com",
+        "name" : "es-shims-owner"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "npm run --silent lint",
+        "test" : "npm run --silent tests-only",
+        "posttest" : "npx aud",
+        "tests-only" : "es-shim-api --bound && npm run --silent test:shimmed && npm run --silent test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/*.js",
+        "coverage-quiet" : "covert test/*.js --quiet",
+        "lint" : "eslint test/*.js *.js"
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "object.fromentries@2.0.2",
+      "gitHead" : "fb98748d40ce91e8b989eb8039d33849cd92945f",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/object.fromentries_2.0.2_1576176776798_0.28729332248376926"
+      },
+      "_nodeVersion" : "13.3.0"
+    }
+  },
+  "readme" : "# object.fromentries <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![Build Status][travis-svg]][travis-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nAn ES spec-proposal-compliant `Object.fromEntries` shim. Invoke its \"shim\" method to shim `Object.fromEntries` if it is unavailable or noncompliant.\n\nThis package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [proposed spec](https://tc39.github.io/proposal-object-from-entries/).\n\nMost common usage:\n```js\nvar assert = require('assert');\nvar fromEntries = require('object.fromentries');\n\nvar obj = { a: 1, b: 2, c: 3 };\nvar actual = fromEntries(Object.entries(obj));\n\nassert.deepEqual(obj, actual);\n\nif (!Object.fromEntries) {\n\tfromEntries.shim();\n}\n\nassert.deepEqual(Object.fromEntries(Object.entries(obj)), obj);\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.com/package/object.fromentries\n[npm-version-svg]: http://versionbadg.es/es-shims/Object.fromEntries.svg\n[travis-svg]: https://travis-ci.org/es-shims/Object.fromEntries.svg\n[travis-url]: https://travis-ci.org/es-shims/Object.fromEntries\n[deps-svg]: https://david-dm.org/es-shims/Object.fromEntries.svg\n[deps-url]: https://david-dm.org/es-shims/Object.fromEntries\n[dev-deps-svg]: https://david-dm.org/es-shims/Object.fromEntries/dev-status.svg\n[dev-deps-url]: https://david-dm.org/es-shims/Object.fromEntries#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/object.fromentries.png?downloads=true&stars=true\n[license-image]: http://img.shields.io/npm/l/object.fromentries.svg\n[license-url]: LICENSE\n[downloads-image]: http://img.shields.io/npm/dm/object.fromentries.svg\n[downloads-url]: http://npm-stat.com/charts.html?package=object.fromentries\n",
+  "maintainers" : [ {
+    "email" : "ljharb+esshims@gmail.com",
+    "name" : "es-shims-owner"
+  }, {
+    "email" : "ljharb@gmail.com",
+    "name" : "ljharb"
+  } ],
+  "author" : {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-08-09T19:44:03.848Z",
+    "2.0.1" : "2019-10-03T20:51:21.603Z",
+    "created" : "2018-04-04T00:42:55.390Z",
+    "0.0.1-security" : "2018-04-04T00:42:55.477Z",
+    "modified" : "2019-12-12T18:52:59.240Z",
+    "1.0.0" : "2018-04-04T06:07:57.586Z",
+    "2.0.2" : "2019-12-12T18:52:56.958Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/es-shims/Object.fromEntries.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/es-shims/Object.fromEntries#readme",
+  "keywords" : [ "Object.fromEntries", "Object.entries", "Object.values", "Object.keys", "entries", "values", "ES7", "ES8", "ES2017", "shim", "object", "keys", "polyfill", "es-shim API" ],
+  "bugs" : {
+    "url" : "https://github.com/es-shims/Object.fromEntries/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,1383 @@
+{
+  "_id" : "opn",
+  "_rev" : "169-22a1b1d901e09e4e42971c73beab1a5b",
+  "name" : "opn",
+  "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+  "dist-tags" : {
+    "latest" : "6.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-2.0.0.tgz",
+        "shasum" : "63bf4560d0de234d113f70f8b4ea58125c536da8"
+      },
+      "dependencies" : {
+        "meow" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli-app", "cli", "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "cli.js", "index.js", "xdg-open" ],
+      "bin" : {
+        "opn" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@2.0.0",
+      "gitHead" : "be159c8622eee3d91274d7fee5c8e75caefae45e",
+      "_shasum" : "63bf4560d0de234d113f70f8b4ea58125c536da8",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.0.1" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-2.0.1.tgz",
+        "shasum" : "1b739608f4b92220e7021ab35fa85be73036c2e6"
+      },
+      "dependencies" : {
+        "meow" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli-app", "cli", "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "cli.js", "index.js", "xdg-open" ],
+      "bin" : {
+        "opn" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@2.0.1",
+      "gitHead" : "d5bff06315cf9e5d0619d763966ba7d647fc9e9d",
+      "_shasum" : "1b739608f4b92220e7021ab35fa85be73036c2e6",
+      "_nodeVersion" : "0.12.4"
+    },
+    "4.0.2" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/opn.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-4.0.2.tgz",
+        "shasum" : "7abc22e644dff63b0a96d5ab7f2790c0f01abc95"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.0.1",
+        "pinkie-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@4.0.2",
+      "gitHead" : "b56b0e981ee377d3b04c57a4e6748ad2793ada17",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/opn-4.0.2.tgz_1463477356148_0.1645404922310263"
+      },
+      "_shasum" : "7abc22e644dff63b0a96d5ab7f2790c0f01abc95",
+      "_nodeVersion" : "4.4.2"
+    },
+    "4.0.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/opn.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-4.0.0.tgz",
+        "shasum" : "cf8ce4e104c14f87d20156c17922876cda09bf79"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.0.1",
+        "pinkie-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@4.0.0",
+      "gitHead" : "c9b6ee66c86757162d787a710282fa998aa384e6",
+      "_shasum" : "cf8ce4e104c14f87d20156c17922876cda09bf79",
+      "_nodeVersion" : "5.3.0"
+    },
+    "4.0.1" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-4.0.1.tgz",
+        "shasum" : "9bd30ee3eba4fd533be2c83d56329a4e58913bf8"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.0.1",
+        "pinkie-promise" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@4.0.1",
+      "gitHead" : "34626da5fbb93e324b51ad281c60091d3bda9205",
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/opn-4.0.1.tgz_1456989823472_0.5448145705740899"
+      },
+      "_shasum" : "9bd30ee3eba4fd533be2c83d56329a4e58913bf8",
+      "_nodeVersion" : "4.3.0"
+    },
+    "0.1.1" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-0.1.1.tgz",
+        "shasum" : "d785acb79f0dbe8c6a6849d6f46112b7f1d78c9d"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "open", "opn", "launch", "start", "xdg-open", "default", "cmd", "browser", "editor", "executable" ],
+      "license" : "MIT",
+      "files" : [ "cli.js", "index.js", "xdg-open" ],
+      "bin" : {
+        "opn" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@0.1.1"
+    },
+    "0.1.2" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-0.1.2.tgz",
+        "shasum" : "c527832cfd964d52096b524d0035ecaece51db4f"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "open", "opn", "launch", "start", "xdg-open", "default", "cmd", "browser", "editor", "executable" ],
+      "license" : "MIT",
+      "files" : [ "cli.js", "index.js", "xdg-open" ],
+      "bin" : {
+        "opn" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@0.1.2",
+      "_shasum" : "c527832cfd964d52096b524d0035ecaece51db4f"
+    },
+    "0.1.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-0.1.0.tgz",
+        "shasum" : "5a71077eedb87458794cb214a88b80952ea08906"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "open", "opn", "launch", "start", "xdg-open", "default", "cmd", "browser", "editor", "executable" ],
+      "license" : "MIT",
+      "files" : [ "cli.js", "index.js", "xdg-open" ],
+      "bin" : {
+        "opn" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@0.1.0"
+    },
+    "3.0.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-3.0.0.tgz",
+        "shasum" : "0b3b75c7b12d3326ee452960c4e4c6c07ece423f"
+      },
+      "dependencies" : {
+        "object-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@3.0.0",
+      "gitHead" : "30b8e450e7b6daae239d55b51aaa032795c13131",
+      "_shasum" : "0b3b75c7b12d3326ee452960c4e4c6c07ece423f",
+      "_nodeVersion" : "0.12.5"
+    },
+    "6.0.0" : {
+      "name" : "opn",
+      "description" : "Open stuff like URLs, files, executables. Cross-platform.",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/open#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/open.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/open/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-6.0.0.tgz",
+        "shasum" : "3c5b0db676d5f97da1233d1ed42d182bc5a27d2d"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@6.0.0",
+      "gitHead" : "eca88d863dde48695a5f931390d57d3b805a072a",
+      "deprecated" : "The package has been renamed to `open`",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/opn_6.0.0_1553622694250_0.035009452703874455"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "5.0.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/opn.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-5.0.0.tgz",
+        "shasum" : "f8870d7cd969b218030cb6ce5a1285e795931df3"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@5.0.0",
+      "gitHead" : "a1a4fa93ba01b04a144ad58fd4fe0e75b19f29a4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/opn-5.0.0.tgz_1493542232271_0.7398870571050793"
+      },
+      "_shasum" : "f8870d7cd969b218030cb6ce5a1285e795931df3",
+      "_nodeVersion" : "7.8.0"
+    },
+    "5.1.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/opn.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-5.1.0.tgz",
+        "shasum" : "72ce2306a17dbea58ff1041853352b4a8fc77519"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@5.1.0",
+      "gitHead" : "ebae31e9117ae3ca5c9ee642bafa9449f1e237c2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/opn-5.1.0.tgz_1497093567063_0.9740056861191988"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.2.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "5.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/opn.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-5.2.0.tgz",
+        "shasum" : "71fdf934d6827d676cecbea1531f95d354641225"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@5.2.0",
+      "gitHead" : "5bb575fdefb6e26bceea1727e162a90c79440dfb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/opn-5.2.0.tgz_1515897630486_0.6569689619354904"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "3.0.1" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-3.0.1.tgz",
+        "shasum" : "39b10af99e5df95c16f652085d59c51d41561dde"
+      },
+      "dependencies" : {
+        "object-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@3.0.1",
+      "gitHead" : "ef575151ab7cbd8508963755831ffc8e38b6dee1",
+      "_shasum" : "39b10af99e5df95c16f652085d59c51d41561dde",
+      "_nodeVersion" : "0.12.5"
+    },
+    "5.3.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "5.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/opn.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-5.3.0.tgz",
+        "shasum" : "64871565c863875f052cfdf53d3e3cb5adb53b1c"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@5.3.0",
+      "gitHead" : "cfab3f9ba2096b00fef655f454be65b070f49d8a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/opn_5.3.0_1521043017699_0.273982435971718"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.0.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-1.0.0.tgz",
+        "shasum" : "1baa822af649a45fca744179a29a8b4c19346574"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "open", "opn", "launch", "start", "xdg-open", "default", "cmd", "browser", "editor", "executable" ],
+      "license" : "MIT",
+      "files" : [ "cli.js", "index.js", "xdg-open" ],
+      "bin" : {
+        "opn" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@1.0.0",
+      "gitHead" : "e29d05bebe51c41be5193de85c7e1d78236d386c",
+      "_shasum" : "1baa822af649a45fca744179a29a8b4c19346574"
+    },
+    "3.0.2" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-3.0.2.tgz",
+        "shasum" : "d3380607008b2e5cc41e7bd524f54c6adbdeea78"
+      },
+      "dependencies" : {
+        "object-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@3.0.2",
+      "gitHead" : "57ac2666dace81593b78a2e59f2ab397f88a90d9",
+      "_shasum" : "d3380607008b2e5cc41e7bd524f54c6adbdeea78",
+      "_nodeVersion" : "0.12.5"
+    },
+    "5.4.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "5.4.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/opn.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-5.4.0.tgz",
+        "shasum" : "cb545e7aab78562beb11aa3bfabc7042e1761035"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.25.0",
+        "xo" : "^0.20.0"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@5.4.0",
+      "gitHead" : "56798ff3a2ddc4019e6dd6fe5219230ddd32bb78",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/opn_5.4.0_1537448692606_0.03009166513985173"
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.0.1" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-1.0.1.tgz",
+        "shasum" : "c2dce2a5c41ab9589a7486aaff4d8de002d041ca"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "open", "opn", "launch", "start", "xdg-open", "default", "cmd", "browser", "editor", "executable" ],
+      "license" : "MIT",
+      "files" : [ "cli.js", "index.js", "xdg-open" ],
+      "bin" : {
+        "opn" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.16",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@1.0.1",
+      "gitHead" : "728990221e9cf807725173aa4ce4ee6cb3849bd2",
+      "_shasum" : "c2dce2a5c41ab9589a7486aaff4d8de002d041ca",
+      "_nodeVersion" : "0.10.32"
+    },
+    "3.0.3" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "3.0.3",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-3.0.3.tgz",
+        "shasum" : "b6d99e7399f78d65c3baaffef1fb288e9b85243a"
+      },
+      "dependencies" : {
+        "object-assign" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "xdg-open" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@3.0.3",
+      "gitHead" : "80d06d7f4a7daa7a215bf9b0a2e530dc277497d8",
+      "_shasum" : "b6d99e7399f78d65c3baaffef1fb288e9b85243a",
+      "_nodeVersion" : "4.2.1"
+    },
+    "5.5.0" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "5.5.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/opn.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-5.5.0.tgz",
+        "shasum" : "fc7164fab56d235904c51c3b27da6758ca3b9bfc"
+      },
+      "dependencies" : {
+        "is-wsl" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.25.0",
+        "xo" : "^0.20.0"
+      },
+      "keywords" : [ "app", "open", "opn", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@5.5.0",
+      "gitHead" : "15caf1c276f1251c9cf8c9cebd40c5ec0681a8c9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/opn_5.5.0_1552716614835_0.41186892941716247"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "1.0.2" : {
+      "name" : "opn",
+      "description" : "A better node-open. Opens stuff like websites, files, executables. Cross-platform.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/opn",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/opn"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/opn/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/opn/-/opn-1.0.2.tgz",
+        "shasum" : "b909643346d00a1abc977a8b96f3ce3c53d5cf5f"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "app", "open", "opn", "launch", "start", "xdg-open", "default", "cmd", "browser", "editor", "executable" ],
+      "license" : "MIT",
+      "files" : [ "cli.js", "index.js", "xdg-open" ],
+      "bin" : {
+        "opn" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "opn@1.0.2",
+      "gitHead" : "9e4d37d526da034defa1d6856b2efad382945bc1",
+      "_shasum" : "b909643346d00a1abc977a8b96f3ce3c53d5cf5f",
+      "_nodeVersion" : "0.12.2"
+    }
+  },
+  "readme" : "# open\n\n> Open stuff like URLs, files, executables. Cross-platform.\n\nIf need this for Electron, use [`shell.openItem()`](https://electronjs.org/docs/api/shell#shellopenitemfullpath) instead.\n\nNote: The original [`open` package](https://github.com/pwnall/node-open) was recently deprecated in favor of this package, and we got the name, so this package is now named `open` instead of `opn`. If you're upgrading from the original `open` package (`open@0.0.5` or lower), keep in mind that the API is different.\n\n#### Why?\n\n- Actively maintained.\n- Supports app arguments.\n- Safer as it uses `spawn` instead of `exec`.\n- Fixes most of the open original `node-open` issues.\n- Includes the latest [`xdg-open` script](http://cgit.freedesktop.org/xdg/xdg-utils/commit/?id=c55122295c2a480fa721a9614f0e2d42b2949c18) for Linux.\n- Supports WSL paths to Windows apps under `/mnt/*`.\n\n\n## Install\n\n```\n$ npm install open\n```\n\n\n## Usage\n\n```js\nconst open = require('open');\n\n// Opens the image in the default image viewer\n(async () => {\n\tawait open('unicorn.png', {wait: true});\n\tconsole.log('The image viewer app closed');\n\n\t// Opens the url in the default browser\n\tawait open('https://sindresorhus.com');\n\n\t// Specify the app to open in\n\tawait open('https://sindresorhus.com', {app: 'firefox'});\n\n\t// Specify app arguments\n\tawait open('https://sindresorhus.com', {app: ['google chrome', '--incognito']});\n})();\n```\n\n\n## API\n\nIt uses the command `open` on macOS, `start` on Windows and `xdg-open` on other platforms.\n\n### open(target, [options])\n\nReturns a promise for the [spawned child process](https://nodejs.org/api/child_process.html#child_process_class_childprocess). You would normally not need to use this for anything, but it can be useful if you'd like to attach custom event listeners or perform other operations directly on the spawned process.\n\n#### target\n\nType: `string`\n\nThe thing you want to open. Can be a URL, file, or executable.\n\nOpens in the default app for the file type. For example, URLs opens in your default browser.\n\n#### options\n\nType: `Object`\n\n##### wait\n\nType: `boolean`<br>\nDefault: `false`\n\nWait for the opened app to exit before fulfilling the promise. If `false` it's fulfilled immediately when opening the app.\n\nNote that it waits for the app to exit, not just for the window to close.\n\nOn Windows, you have to explicitly specify an app for it to be able to wait.\n\n##### app\n\nType: `string | string[]`\n\nSpecify the app to open the `target` with, or an array with the app and app arguments.\n\nThe app name is platform dependent. Don't hard code it in reusable modules. For example, Chrome is `google chrome` on macOS, `google-chrome` on Linux and `chrome` on Windows.\n\nYou may also pass in the app's full path. For example on WSL, this can be `/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe` for the Windows installation of Chrome.\n\n\n## Related\n\n- [opn-cli](https://github.com/sindresorhus/opn-cli) - CLI for this module\n- [open-editor](https://github.com/sindresorhus/open-editor) - Open files in your editor at a specific line and column\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-06-13T00:22:56.191Z",
+    "2.0.1" : "2015-06-20T17:29:01.118Z",
+    "created" : "2014-04-05T15:16:05.166Z",
+    "4.0.2" : "2016-05-17T09:29:16.736Z",
+    "4.0.0" : "2016-01-16T20:45:19.892Z",
+    "4.0.1" : "2016-03-03T07:23:44.337Z",
+    "0.1.1" : "2014-04-05T16:28:00.560Z",
+    "0.1.2" : "2014-05-21T09:43:21.106Z",
+    "0.1.0" : "2014-04-05T15:16:05.166Z",
+    "3.0.0" : "2015-06-29T18:10:25.478Z",
+    "6.0.0" : "2019-03-26T17:51:34.422Z",
+    "modified" : "2019-03-26T17:52:47.018Z",
+    "5.0.0" : "2017-04-30T08:50:32.560Z",
+    "5.1.0" : "2017-06-10T11:19:28.026Z",
+    "5.2.0" : "2018-01-14T02:40:30.659Z",
+    "3.0.1" : "2015-06-29T18:24:19.804Z",
+    "5.3.0" : "2018-03-14T15:56:57.782Z",
+    "1.0.0" : "2014-08-02T21:17:09.421Z",
+    "3.0.2" : "2015-06-29T19:08:18.488Z",
+    "5.4.0" : "2018-09-20T13:04:52.756Z",
+    "1.0.1" : "2014-12-25T14:00:17.922Z",
+    "3.0.3" : "2015-11-04T13:37:23.714Z",
+    "5.5.0" : "2019-03-16T06:10:14.988Z",
+    "1.0.2" : "2015-04-22T08:47:10.539Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/open.git"
+  },
+  "users" : {
+    "sbruchmann" : true,
+    "xfloops" : true,
+    "guananddu" : true,
+    "mrmartineau" : true,
+    "nefzaoui" : true,
+    "pmbenjamin" : true,
+    "goliatone" : true,
+    "jasonwang1888" : true,
+    "szmtcjm" : true,
+    "shuoshubao" : true,
+    "chinawolf_wyp" : true,
+    "ignatovmsu" : true,
+    "jarvis-npm" : true,
+    "seangenabe" : true,
+    "ahmed-dinar" : true,
+    "mhaidarh" : true,
+    "xuu" : true,
+    "eralpkaraduman" : true,
+    "windyh" : true,
+    "parkerproject" : true,
+    "shanewholloway" : true,
+    "mimmo1" : true,
+    "alexxnica" : true,
+    "dzhou777" : true,
+    "phantomk" : true,
+    "npmlincq" : true,
+    "fm-96" : true,
+    "lestad" : true,
+    "rocket0191" : true,
+    "jonkemp" : true,
+    "maxwang" : true,
+    "shangsinian" : true,
+    "mecode" : true,
+    "tunnckocore" : true,
+    "jon_shen" : true,
+    "fengmiaosen" : true,
+    "fakefarm" : true,
+    "leonardorb" : true,
+    "heartnett" : true,
+    "lvivier" : true,
+    "maxime1992" : true,
+    "constantinc" : true,
+    "sqrtthree" : true,
+    "iori20091101" : true,
+    "stone-jin" : true,
+    "manikantag" : true,
+    "bobxuyang" : true,
+    "j.su" : true,
+    "qqcome110" : true,
+    "gregmatys" : true,
+    "monjer" : true,
+    "yeming" : true,
+    "buzz-dee" : true,
+    "fattypanda" : true,
+    "brainmurder" : true,
+    "johniexu" : true,
+    "wangnan0610" : true,
+    "uojo" : true,
+    "scottfreecode" : true,
+    "allen_lyu" : true,
+    "tongjieme" : true,
+    "gxglwy" : true,
+    "ijy" : true,
+    "ericwbailey" : true,
+    "abuelwafa" : true,
+    "daizch" : true,
+    "fibo" : true,
+    "koulmomo" : true,
+    "fotooo" : true,
+    "sternelee" : true,
+    "vzg03566" : true,
+    "yisen" : true,
+    "rexpan" : true,
+    "tsxuehu" : true,
+    "detj" : true,
+    "shakakira" : true,
+    "hedleysmith" : true,
+    "kimhoe" : true,
+    "flftfqwxf" : true,
+    "gdbtek" : true,
+    "dogancelik" : true,
+    "anhulife" : true,
+    "benhuang" : true,
+    "a3.ivanenko" : true,
+    "panlw" : true,
+    "ninozhang" : true,
+    "d-band" : true,
+    "pddivine" : true,
+    "bryan.ygf" : true,
+    "jiesiren" : true,
+    "yinfxs" : true,
+    "akinjide" : true,
+    "scotttesler" : true,
+    "lorenazohar" : true,
+    "yong_a" : true,
+    "fabioper" : true,
+    "nanxing" : true,
+    "aus" : true,
+    "robermac" : true,
+    "hq229075284" : true,
+    "jalcine" : true,
+    "dantman" : true,
+    "ldq-first" : true,
+    "icodeforcookies" : true,
+    "duzun" : true,
+    "dwqs" : true,
+    "liuyidi" : true,
+    "uxabdullah" : true,
+    "zuojiang" : true,
+    "tedyhy" : true,
+    "alexchao" : true,
+    "zoxon" : true,
+    "stona" : true,
+    "netweb" : true,
+    "shiva127" : true,
+    "sammy_winchester" : true,
+    "abhisekp" : true,
+    "aidenzou" : true,
+    "xtx1130" : true,
+    "yl2014" : true,
+    "willwolffmyren" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/open#readme",
+  "keywords" : [ "app", "open", "opener", "opens", "launch", "start", "xdg-open", "xdg", "default", "cmd", "browser", "editor", "executable", "exe", "url", "urls", "arguments", "args", "spawn", "exec", "child", "process", "website", "file" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/open/issues"
+  },
+  "license" : "MIT"
+}

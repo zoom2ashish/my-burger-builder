@@ -1,0 +1,198 @@
+{
+  "_id" : "wrappy",
+  "_rev" : "11-c9685a548d3be3f07ba70baaf86cf306",
+  "name" : "wrappy",
+  "description" : "Callback wrapping utility",
+  "dist-tags" : {
+    "latest" : "1.0.2"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "wrappy",
+      "description" : "Callback wrapping utility",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/wrappy",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/npm/wrappy"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/wrappy/issues"
+      },
+      "main" : "wrappy.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrappy/-/wrappy-1.0.0.tgz",
+        "shasum" : "8aae4fc6b4cd6be32a4553985bcf32b3ee131e4e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "^0.4.12"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "wrappy@1.0.0",
+      "gitHead" : "2a0cf2a39be2ebb4a53f2f87db739d98f2a5ebc5",
+      "_shasum" : "8aae4fc6b4cd6be32a4553985bcf32b3ee131e4e",
+      "_nodeVersion" : "0.10.31"
+    },
+    "1.0.1" : {
+      "name" : "wrappy",
+      "description" : "Callback wrapping utility",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/wrappy",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/npm/wrappy"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/wrappy/issues"
+      },
+      "main" : "wrappy.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrappy/-/wrappy-1.0.1.tgz",
+        "shasum" : "1e65969965ccbc2db4548c6b84a6f2c5aedd4739"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "^0.4.12"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "wrappy@1.0.1",
+      "gitHead" : "006a8cbac6b99988315834c207896eed71fd069a",
+      "_shasum" : "1e65969965ccbc2db4548c6b84a6f2c5aedd4739",
+      "_nodeVersion" : "0.10.31"
+    },
+    "1.0.2" : {
+      "name" : "wrappy",
+      "description" : "Callback wrapping utility",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/npm/wrappy",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/npm/wrappy.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/npm/wrappy/issues"
+      },
+      "main" : "wrappy.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrappy/-/wrappy-1.0.2.tgz",
+        "shasum" : "b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "^2.3.1"
+      },
+      "license" : "ISC",
+      "files" : [ "wrappy.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      }, {
+        "name" : "zkat",
+        "email" : "kat@sykosomatic.org"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "tap --coverage test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.1",
+      "_npmUser" : {
+        "name" : "zkat",
+        "email" : "kat@sykosomatic.org"
+      },
+      "_id" : "wrappy@1.0.2",
+      "gitHead" : "71d91b6dc5bdeac37e218c2cf03f9ab55b60d214",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/wrappy-1.0.2.tgz_1463527848281_0.037129373755306005"
+      },
+      "_shasum" : "b5243d8f3ec1aa35f1364605bc0d1036e30ab69f",
+      "_nodeVersion" : "5.10.1"
+    }
+  },
+  "readme" : "# wrappy\n\nCallback wrapping utility\n\n## USAGE\n\n```javascript\nvar wrappy = require(\"wrappy\")\n\n// var wrapper = wrappy(wrapperFunction)\n\n// make sure a cb is called only once\n// See also: http://npm.im/once for this specific use case\nvar once = wrappy(function (cb) {\n  var called = false\n  return function () {\n    if (called) return\n    called = true\n    return cb.apply(this, arguments)\n  }\n})\n\nfunction printBoo () {\n  console.log('boo')\n}\n// has some rando property\nprintBoo.iAmBooPrinter = true\n\nvar onlyPrintOnce = once(printBoo)\n\nonlyPrintOnce() // prints 'boo'\nonlyPrintOnce() // does nothing\n\n// random property is retained!\nassert.equal(onlyPrintOnce.iAmBooPrinter, true)\n```\n",
+  "maintainers" : [ {
+    "email" : "i@izs.me",
+    "name" : "isaacs"
+  } ],
+  "author" : {
+    "name" : "Isaac Z. Schlueter",
+    "email" : "i@izs.me",
+    "url" : "http://blog.izs.me/"
+  },
+  "time" : {
+    "created" : "2014-09-18T22:59:23.410Z",
+    "modified" : "2019-08-09T05:47:48.380Z",
+    "1.0.0" : "2014-09-18T22:59:23.410Z",
+    "1.0.1" : "2014-09-18T23:13:15.838Z",
+    "1.0.2" : "2016-05-17T23:30:52.415Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/npm/wrappy.git"
+  },
+  "users" : {
+    "program247365" : true,
+    "klap-webdevelopment" : true,
+    "mojaray2k" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/npm/wrappy",
+  "bugs" : {
+    "url" : "https://github.com/npm/wrappy/issues"
+  },
+  "license" : "ISC"
+}

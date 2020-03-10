@@ -1,0 +1,1153 @@
+{
+  "_id" : "@babel/plugin-proposal-json-strings",
+  "_rev" : "27-6b07358fe890c68b6ae4ddf827dfc3ae",
+  "name" : "@babel/plugin-proposal-json-strings",
+  "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+  "dist-tags" : {
+    "latest" : "7.8.3"
+  },
+  "versions" : {
+    "7.2.0" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.2.0.tgz",
+        "shasum" : "568ecc446c6148ae6b267f02551130891e29f317"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/plugin-syntax-json-strings" : "^7.2.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.2.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.2.0_1543863749351_0.43120486392645674"
+      }
+    },
+    "7.0.0-rc.1" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-rc.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-rc.1.tgz",
+        "shasum" : "c76eae74a4ae6ccc51f74600e92b0e5158fb16eb"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.1",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-rc.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.1",
+        "@babel/helper-plugin-test-runner" : "7.0.0-rc.1"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-rc.1_1533845315400_0.785295074264327"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-rc.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-rc.2.tgz",
+        "shasum" : "ea4fd95eb00877e138e3e9f19969e66d9d47b3eb"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.2",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-rc.2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.2",
+        "@babel/helper-plugin-test-runner" : "7.0.0-rc.2"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-rc.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-rc.2_1534879482621_0.1732468248240282"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-rc.0.tgz",
+        "shasum" : "391a938c5cdc122aad5beb95982f27bcc6175ec6"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.0",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-rc.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.0",
+        "@babel/helper-plugin-test-runner" : "7.0.0-rc.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-rc.0_1533830335708_0.9170922824959746"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0.tgz",
+        "shasum" : "3b4d7b5cf51e1f2e70f52351d28d44fc2970d01e"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/plugin-syntax-json-strings" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "@babel/helper-plugin-test-runner" : "^7.0.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0_1535406224683_0.9598050958378208"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/plugin-proposal-json-strings\n\n> Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings\n\nSee our website [@babel/plugin-proposal-json-strings](https://babeljs.io/docs/en/next/babel-plugin-proposal-json-strings.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-proposal-json-strings\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-proposal-json-strings --dev\n```\n"
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.49",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.49.tgz",
+        "shasum" : "e454b3d414d39719cea7a6ed6c261d870fab50b0"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.49",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.49"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.49",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.49"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.49"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.49",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.49_1527264176600_0.6880849284847423"
+      },
+      "_shasum" : "e454b3d414d39719cea7a6ed6c261d870fab50b0",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-rc.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-rc.3.tgz",
+        "shasum" : "0b1d313981d6f4dca6b1419ee0b61d57dc368308"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-rc.3",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-rc.3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-rc.3",
+        "@babel/helper-plugin-test-runner" : "7.0.0-rc.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-rc.3",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-rc.3_1535134111891_0.6543353424763307"
+      }
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.48",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.48.tgz",
+        "shasum" : "04b25656595666a7b4be57b1b4eb8cc3825e1a08"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.48",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.48"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.48",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.48"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.48"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.48",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.48_1527189810590_0.24378863301646758"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-rc.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-rc.4.tgz",
+        "shasum" : "af7add6618cb950e60b2fb9afb0a4e9688887e17"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0-rc.4",
+        "@babel/plugin-syntax-json-strings" : "^7.0.0-rc.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0-rc.4",
+        "@babel/helper-plugin-test-runner" : "^7.0.0-rc.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-rc.4",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-rc.4_1535388289547_0.8926196838701015"
+      }
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.54",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.54.tgz",
+        "shasum" : "35292e0716b35ac8c279d6430836ce741c32fe5d"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.54",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.54"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.54",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.54"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.54",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.54_1531764013649_0.7877303303784247"
+      }
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.53",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.53.tgz",
+        "shasum" : "e8370d3b29e941d90b7d4e138b32101078f84710"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.53",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.53"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.53",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.53"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.53_1531316431175_0.07364014815521513"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.52",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.52.tgz",
+        "shasum" : "64e6a2d45925f3447747028b7e103420964245d5"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.52",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.52"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.52",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.52"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.52",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.52_1530838772359_0.9686697134618565"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.51",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.51.tgz",
+        "shasum" : "c4c52aaf90bd555870d56708f526b6c2610694b2"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.51",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.51"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.51",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.51"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.51",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.51_1528838408980_0.1030339797336024"
+      }
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.56",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.56.tgz",
+        "shasum" : "fd095c19550ca0325bf61fabcd1dbc23c132e124"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.56",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.56"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.56",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.56"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.56",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.56_1533344798090_0.4072549852012284"
+      }
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.55",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.55.tgz",
+        "shasum" : "138372614ad0c75bc8cb62bd01e819d725156dfe"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.55",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.55"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.55",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.55"
+      },
+      "peerDependencies" : {
+        "@babel/core" : ">=7.0.0-beta.50 <7.0.0-rc.0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.55",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.55_1532815657332_0.2961269852794093"
+      }
+    },
+    "7.7.4" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.7.4.tgz",
+        "shasum" : "7700a6bfda771d8dc81973249eac416c6b4c697d"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.0.0",
+        "@babel/plugin-syntax-json-strings" : "^7.7.4"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.7.4",
+        "@babel/helper-plugin-test-runner" : "^7.7.4"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.7.4",
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.7.4_1574465587406_0.18271428458432837"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.8.3" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.8.3.tgz",
+        "shasum" : "da5216b238a98b58a1e05d6852104b10f9a70d6b"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.8.3",
+        "@babel/plugin-syntax-json-strings" : "^7.8.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.3",
+        "@babel/helper-plugin-test-runner" : "^7.8.3"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.8.3",
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.8.3_1578951672468_0.8224377318303946"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.0.0-beta.50",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.0.0-beta.50.tgz",
+        "shasum" : "cd0644b516c60bfe2c455489eb36e95cbbc0a2bc"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "7.0.0-beta.50",
+        "@babel/plugin-syntax-json-strings" : "7.0.0-beta.50"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0-beta.50",
+        "@babel/helper-plugin-test-runner" : "7.0.0-beta.50"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "7.0.0-beta.49"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.0.0-beta.50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.0.0-beta.50_1528832852680_0.6732132953239842"
+      }
+    },
+    "7.8.0" : {
+      "name" : "@babel/plugin-proposal-json-strings",
+      "description" : "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+      "version" : "7.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.8.0.tgz",
+        "shasum" : "99fd838398c32f4d96117770f7f3591062e72607"
+      },
+      "dependencies" : {
+        "@babel/helper-plugin-utils" : "^7.8.0",
+        "@babel/plugin-syntax-json-strings" : "^7.8.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.8.0",
+        "@babel/helper-plugin-test-runner" : "^7.8.0"
+      },
+      "peerDependencies" : {
+        "@babel/core" : "^7.0.0-0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/plugin-proposal-json-strings@7.8.0",
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plugin-proposal-json-strings_7.8.0_1578788219507_0.8927060088478991"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    }
+  },
+  "readme" : "# @babel/plugin-proposal-json-strings\n\n> Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings\n\nSee our website [@babel/plugin-proposal-json-strings](https://babeljs.io/docs/en/next/babel-plugin-proposal-json-strings.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/plugin-proposal-json-strings\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/plugin-proposal-json-strings --dev\n```\n",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "bng412@gmail.com",
+    "name" : "existentialism"
+  }, {
+    "email" : "hi@henryzoo.com",
+    "name" : "hzoo"
+  }, {
+    "email" : "loganfsmyth@gmail.com",
+    "name" : "loganfsmyth"
+  }, {
+    "email" : "nicolo.ribaudo@gmail.com",
+    "name" : "nicolo-ribaudo"
+  } ],
+  "time" : {
+    "7.2.0" : "2018-12-03T19:02:29.513Z",
+    "7.0.0-rc.1" : "2018-08-09T20:08:35.493Z",
+    "7.0.0-rc.2" : "2018-08-21T19:24:42.720Z",
+    "created" : "2018-05-24T19:23:30.374Z",
+    "7.0.0-rc.0" : "2018-08-09T15:58:55.788Z",
+    "7.0.0" : "2018-08-27T21:43:44.765Z",
+    "7.0.0-beta.49" : "2018-05-25T16:02:56.835Z",
+    "7.0.0-rc.3" : "2018-08-24T18:08:31.951Z",
+    "7.0.0-beta.48" : "2018-05-24T19:23:30.658Z",
+    "7.0.0-rc.4" : "2018-08-27T16:44:49.668Z",
+    "7.0.0-beta.54" : "2018-07-16T18:00:13.688Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:31.259Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:32.413Z",
+    "7.0.0-beta.51" : "2018-06-12T21:20:09.055Z",
+    "7.0.0-beta.56" : "2018-08-04T01:06:38.167Z",
+    "7.0.0-beta.55" : "2018-07-28T22:07:37.406Z",
+    "modified" : "2020-01-13T21:41:18.664Z",
+    "7.7.4" : "2019-11-22T23:33:07.522Z",
+    "7.8.3" : "2020-01-13T21:41:12.832Z",
+    "7.0.0-beta.50" : "2018-06-12T19:47:32.732Z",
+    "7.8.0" : "2020-01-12T00:16:59.667Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-json-strings"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "babel-plugin" ],
+  "license" : "MIT"
+}

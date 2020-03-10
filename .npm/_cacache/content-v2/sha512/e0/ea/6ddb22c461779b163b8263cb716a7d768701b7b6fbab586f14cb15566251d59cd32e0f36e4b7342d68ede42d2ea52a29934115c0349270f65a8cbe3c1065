@@ -1,0 +1,241 @@
+{
+  "_id" : "@svgr/babel-plugin-replace-jsx-attribute-value",
+  "_rev" : "3-d8052e126c67ee77d7fadb356826b265",
+  "name" : "@svgr/babel-plugin-replace-jsx-attribute-value",
+  "description" : "Replace JSX attribute value",
+  "dist-tags" : {
+    "latest" : "5.0.1"
+  },
+  "versions" : {
+    "4.2.0" : {
+      "name" : "@svgr/babel-plugin-replace-jsx-attribute-value",
+      "description" : "Replace JSX attribute value",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-replace-jsx-attribute-value"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-replace-jsx-attribute-value/-/babel-plugin-replace-jsx-attribute-value-4.2.0.tgz",
+        "shasum" : "310ec0775de808a6a2e4fd4268c245fd734c1165"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-replace-jsx-attribute-value@4.2.0",
+      "gitHead" : "35d3f4d446e5402902ee922a3f9984000bb74920",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-replace-jsx-attribute-value_4.2.0_1554966098243_0.2600509877665065"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "5.0.0" : {
+      "name" : "@svgr/babel-plugin-replace-jsx-attribute-value",
+      "description" : "Replace JSX attribute value",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-replace-jsx-attribute-value"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-replace-jsx-attribute-value/-/babel-plugin-replace-jsx-attribute-value-5.0.0.tgz",
+        "shasum" : "55ee939d62bbf9c40873e4023291d47d1c7d2af0"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-replace-jsx-attribute-value@5.0.0",
+      "gitHead" : "cfc0fc2786024820ea476739eda6cca342cf4230",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-replace-jsx-attribute-value_5.0.0_1577110009328_0.9542804291544122"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "4.0.0" : {
+      "name" : "@svgr/babel-plugin-replace-jsx-attribute-value",
+      "description" : "Replace JSX attribute value",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-replace-jsx-attribute-value/-/babel-plugin-replace-jsx-attribute-value-4.0.0.tgz",
+        "shasum" : "91785643540c2300f3d89e515b37af9b5ce4e695"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-replace-jsx-attribute-value@4.0.0",
+      "gitHead" : "d6beadaa9943157b59c085f03a45813897cc337c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-replace-jsx-attribute-value_4.0.0_1541344650012_0.5785490403748657"
+      }
+    },
+    "5.0.1" : {
+      "name" : "@svgr/babel-plugin-replace-jsx-attribute-value",
+      "description" : "Replace JSX attribute value",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "homepage" : "https://react-svgr.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-replace-jsx-attribute-value"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-replace-jsx-attribute-value/-/babel-plugin-replace-jsx-attribute-value-5.0.1.tgz",
+        "shasum" : "0b221fc57f9fcd10e91fe219e2cd0dd03145a897"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-replace-jsx-attribute-value@5.0.1",
+      "gitHead" : "2c0863b6821ef6b86bd7ad1a0267ba7e07b163ff",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/gregberge"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-replace-jsx-attribute-value_5.0.1_1577611799423_0.26185698593688067"
+      },
+      "_nodeVersion" : "12.14.0"
+    }
+  },
+  "readme" : "# @svgr/babel-plugin-replace-jsx-attribute-value\n\n## Install\n\n```\b\nnpm install --save-dev @svgr/babel-plugin-replace-jsx-attribute-value\n```\n\n## Usage\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\n    [\n      \"@svgr/babel-plugin-replace-jsx-attribute-value\",\n      {\n        \"values\": [\n          { \"value\": \"#000\", \"newValue\": \"#fff\" },\n          { \"value\": \"blue\", \"newValue\": \"props.color\", \"literal\": true }\n        ]\n      }\n    ]\n  ]\n}\n```\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "neoziro",
+    "email" : "berge.greg@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Greg Bergé",
+    "email" : "berge.greg@gmail.com"
+  },
+  "time" : {
+    "created" : "2018-11-04T15:17:29.917Z",
+    "4.2.0" : "2019-04-11T07:01:38.452Z",
+    "modified" : "2019-12-29T09:30:06.615Z",
+    "5.0.0" : "2019-12-23T14:06:49.440Z",
+    "4.0.0" : "2018-11-04T15:17:30.157Z",
+    "5.0.1" : "2019-12-29T09:29:59.556Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-replace-jsx-attribute-value"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://react-svgr.com",
+  "keywords" : [ "babel-plugin" ],
+  "license" : "MIT"
+}

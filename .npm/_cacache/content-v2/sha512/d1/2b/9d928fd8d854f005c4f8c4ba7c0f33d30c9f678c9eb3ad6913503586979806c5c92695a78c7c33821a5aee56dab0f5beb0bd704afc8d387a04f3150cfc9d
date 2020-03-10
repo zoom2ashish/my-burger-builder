@@ -1,0 +1,241 @@
+{
+  "_id" : "@svgr/babel-plugin-svg-em-dimensions",
+  "_rev" : "3-c4deaf95456bc351768dc8eba2fd2a34",
+  "name" : "@svgr/babel-plugin-svg-em-dimensions",
+  "description" : "Transform SVG to use em-based dimensions",
+  "dist-tags" : {
+    "latest" : "5.0.1"
+  },
+  "versions" : {
+    "4.2.0" : {
+      "name" : "@svgr/babel-plugin-svg-em-dimensions",
+      "description" : "Transform SVG to use em-based dimensions",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-svg-em-dimensions"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-em-dimensions/-/babel-plugin-svg-em-dimensions-4.2.0.tgz",
+        "shasum" : "9a94791c9a288108d20a9d2cc64cac820f141391"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-em-dimensions@4.2.0",
+      "gitHead" : "35d3f4d446e5402902ee922a3f9984000bb74920",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-em-dimensions_4.2.0_1554966098669_0.5780556752609791"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "5.0.0" : {
+      "name" : "@svgr/babel-plugin-svg-em-dimensions",
+      "description" : "Transform SVG to use em-based dimensions",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-svg-em-dimensions"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-em-dimensions/-/babel-plugin-svg-em-dimensions-5.0.0.tgz",
+        "shasum" : "9af261133d0d0003d47ac856d08b4188f452d1fd"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-em-dimensions@5.0.0",
+      "gitHead" : "cfc0fc2786024820ea476739eda6cca342cf4230",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-em-dimensions_5.0.0_1577110005328_0.783763454742775"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "4.0.0" : {
+      "name" : "@svgr/babel-plugin-svg-em-dimensions",
+      "description" : "Transform SVG to use em-based dimensions",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-em-dimensions/-/babel-plugin-svg-em-dimensions-4.0.0.tgz",
+        "shasum" : "0de3972c46ff1960bed765646037a3a7f9e1da3d"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-em-dimensions@4.0.0",
+      "gitHead" : "d6beadaa9943157b59c085f03a45813897cc337c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-em-dimensions_4.0.0_1541344658989_0.5402509972963323"
+      }
+    },
+    "5.0.1" : {
+      "name" : "@svgr/babel-plugin-svg-em-dimensions",
+      "description" : "Transform SVG to use em-based dimensions",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "homepage" : "https://react-svgr.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-svg-em-dimensions"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-svg-em-dimensions/-/babel-plugin-svg-em-dimensions-5.0.1.tgz",
+        "shasum" : "bd77607634deb1d970dbd8c0b1397b41e28c59dd"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-svg-em-dimensions@5.0.1",
+      "gitHead" : "2c0863b6821ef6b86bd7ad1a0267ba7e07b163ff",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/gregberge"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-svg-em-dimensions_5.0.1_1577611798792_0.08538969531483853"
+      },
+      "_nodeVersion" : "12.14.0"
+    }
+  },
+  "readme" : "# @svgr/babel-plugin-svg-em-dimensions\n\n## Install\n\n```\b\nnpm install --save-dev @svgr/babel-plugin-svg-em-dimensions\n```\n\n## Usage\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"@svgr/babel-plugin-svg-em-dimensions\"]\n}\n```\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "neoziro",
+    "email" : "berge.greg@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Greg Bergé",
+    "email" : "berge.greg@gmail.com"
+  },
+  "time" : {
+    "created" : "2018-11-04T15:17:38.925Z",
+    "4.2.0" : "2019-04-11T07:01:38.805Z",
+    "modified" : "2019-12-29T09:30:05.383Z",
+    "5.0.0" : "2019-12-23T14:06:45.501Z",
+    "4.0.0" : "2018-11-04T15:17:39.074Z",
+    "5.0.1" : "2019-12-29T09:29:58.936Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-svg-em-dimensions"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://react-svgr.com",
+  "keywords" : [ "babel-plugin" ],
+  "license" : "MIT"
+}

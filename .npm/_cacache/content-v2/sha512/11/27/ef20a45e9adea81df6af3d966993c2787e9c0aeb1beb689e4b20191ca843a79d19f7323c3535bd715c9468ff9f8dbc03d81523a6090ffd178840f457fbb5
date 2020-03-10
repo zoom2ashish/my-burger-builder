@@ -1,0 +1,541 @@
+{
+  "_id" : "v8-compile-cache",
+  "_rev" : "11-cb76010b36d1fa94b64f7154691d025e",
+  "name" : "v8-compile-cache",
+  "description" : "Require hook for automatic V8 compile cache persistence",
+  "dist-tags" : {
+    "latest" : "2.1.0"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-1.1.2.tgz",
+        "shasum" : "8d32e4f16974654657e676e0e467a348e89b0dc4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "files" : [ "v8-compile-cache.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@1.1.2",
+      "gitHead" : "318824ec7efcc369a64afde136feeb7aab24f5fe",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/v8-compile-cache-1.1.2.tgz_1516737877342_0.42626163735985756"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.0.0" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-2.0.0.tgz",
+        "shasum" : "526492e35fc616864284700b7043e01baee09f0a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "files" : [ "v8-compile-cache.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@2.0.0",
+      "gitHead" : "3700d11a6b311b77f8904ec55465eb002311bb04",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/v8-compile-cache_2.0.0_1525112171790_0.6884192165743792"
+      },
+      "_nodeVersion" : "10.0.0"
+    },
+    "2.0.1" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-2.0.1.tgz",
+        "shasum" : "7a83e34b43ec7bf89b04b0826d6c63d9ba725d3e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "files" : [ "v8-compile-cache.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@2.0.1",
+      "gitHead" : "17cffe1405d3d3b0bc6db0459c04b26c3f6a22d9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/v8-compile-cache_2.0.1_1533612186532_0.7455252853515832"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "2.1.0" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/v8-compile-cache#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/v8-compile-cache.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/v8-compile-cache/issues"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-2.1.0.tgz",
+        "shasum" : "e14de37b31a6d194f5690d67efc4e7f6fc6ab30e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js",
+        "posttest" : "npm run lint"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@2.1.0",
+      "gitHead" : "0b9eae0a5f61955f0001d8ebcf3f8410df42f4b6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/v8-compile-cache_2.1.0_1564959452223_0.5985395903177666"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.0.0" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-1.0.0.tgz",
+        "shasum" : "56c809189daa8289a7d049354f61ab9c347f1fc2"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "files" : [ "v8-compile-cache.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@1.0.0",
+      "gitHead" : "fd1806b1ab080be818509a4449e56f6610a391ba",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/v8-compile-cache-1.0.0.tgz_1487726028684_0.6439736553002149"
+      },
+      "_shasum" : "56c809189daa8289a7d049354f61ab9c347f1fc2",
+      "_nodeVersion" : "7.5.0"
+    },
+    "1.1.0" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-1.1.0.tgz",
+        "shasum" : "1dc2a340fb8e5f800a32bcdbfb8c23cd747021b9"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "files" : [ "v8-compile-cache.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@1.1.0",
+      "gitHead" : "f8cfde535f527e0437304779ec45423fb27eca06",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/v8-compile-cache-1.1.0.tgz_1490644883319_0.9767482061870396"
+      },
+      "_shasum" : "1dc2a340fb8e5f800a32bcdbfb8c23cd747021b9",
+      "_nodeVersion" : "7.7.4"
+    },
+    "2.0.2" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-2.0.2.tgz",
+        "shasum" : "a428b28bb26790734c4fc8bc9fa106fccebf6a6c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "files" : [ "v8-compile-cache.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@2.0.2",
+      "gitHead" : "7182bd0e30ab6f6421365cee0a0c4a8679e9eb7c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/v8-compile-cache_2.0.2_1533613780274_0.7179858801288692"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "1.1.1" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-1.1.1.tgz",
+        "shasum" : "3b15c1d72b813119d47ed6d2f6fb047124cd9c05"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "files" : [ "v8-compile-cache.js" ],
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@1.1.1",
+      "gitHead" : "6fc49eb50c03531b0c25c2588830a25f82c14dc0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/v8-compile-cache-1.1.1.tgz_1516732711871_0.4752006712369621"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.0.3" : {
+      "name" : "v8-compile-cache",
+      "description" : "Require hook for automatic V8 compile cache persistence",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Andres Suarez",
+        "email" : "zertosh@gmail.com"
+      },
+      "homepage" : "https://github.com/zertosh/v8-compile-cache#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zertosh/v8-compile-cache.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zertosh/v8-compile-cache/issues"
+      },
+      "main" : "v8-compile-cache.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/v8-compile-cache/-/v8-compile-cache-2.0.3.tgz",
+        "shasum" : "00f7494d2ae2b688cfe2899df6ed2c54bef91dbe"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "babel-core" : "6.23.1",
+        "eslint" : "^3.15.0",
+        "flow-parser" : "0.38.0",
+        "rimraf" : "^2.5.4",
+        "rxjs" : "5.2.0",
+        "semver" : "^5.3.0",
+        "tap" : "^10.1.1",
+        "temp" : "^0.8.3",
+        "yarn" : "0.20.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "bench/run.sh",
+        "lint" : "eslint --max-warnings=0 .",
+        "test" : "tap test/*-test.js",
+        "posttest" : "npm run lint"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "zertosh",
+        "email" : "zertosh@gmail.com"
+      },
+      "_id" : "v8-compile-cache@2.0.3",
+      "gitHead" : "f97747d900133abe50dcad69715a5245ff38dc66",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/v8-compile-cache_2.0.3_1557517237561_0.4721923407049067"
+      },
+      "_nodeVersion" : "10.12.0"
+    }
+  },
+  "readme" : "# v8-compile-cache\n\n[![Build Status](https://travis-ci.org/zertosh/v8-compile-cache.svg?branch=master)](https://travis-ci.org/zertosh/v8-compile-cache)\n\n`v8-compile-cache` attaches a `require` hook to use [V8's code cache](https://v8project.blogspot.com/2015/07/code-caching.html) to speed up instantiation time. The \"code cache\" is the work of parsing and compiling done by V8.\n\nThe ability to tap into V8 to produce/consume this cache was introduced in [Node v5.7.0](https://nodejs.org/en/blog/release/v5.7.0/).\n\n## Usage\n\n1. Add the dependency:\n\n  ```sh\n  $ npm install --save v8-compile-cache\n  ```\n\n2. Then, in your entry module add:\n\n  ```js\n  require('v8-compile-cache');\n  ```\n\n**Requiring `v8-compile-cache` in Node <5.7.0 is a noop – but you need at least Node 4.0.0 to support the ES2015 syntax used by `v8-compile-cache`.**\n\n## Options\n\nSet the environment variable `DISABLE_V8_COMPILE_CACHE=1` to disable the cache.\n\n## Internals\n\nThe caches are stored in `$TMP/v8-compile-cache/V8_VERSION`, where there are `.BLOB` and `.MAP` files corresponding to the entry module that required `v8-compile-cache`. The cache is _entry module specific_ because it is faster to load the entire code cache into memory at once, than it is to read it from disk on a file-by-file basis.\n\n## Benchmarks\n\nSee https://github.com/zertosh/v8-compile-cache/tree/master/bench.\n\n**Load Times:**\n\n| Module           | Without Cache | With Cache |\n| ---------------- | -------------:| ----------:|\n| `babel-core`     | `218ms`       | `185ms`    |\n| `yarn`           | `153ms`       | `113ms`    |\n| `yarn` (bundled) | `228ms`       | `105ms`    |\n\n_^ Includes the overhead of loading the cache itself._\n\n## Acknowledgements\n\n* `FileSystemBlobStore` and `NativeCompileCache` are based on Atom's implementation of their v8 compile cache: \n  - https://github.com/atom/atom/blob/b0d7a8a/src/file-system-blob-store.js\n  - https://github.com/atom/atom/blob/b0d7a8a/src/native-compile-cache.js\n* `mkdirpSync` is based on:\n  - https://github.com/substack/node-mkdirp/blob/f2003bb/index.js#L55-L98\n",
+  "maintainers" : [ {
+    "name" : "zertosh",
+    "email" : "zertosh@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Andres Suarez",
+    "email" : "zertosh@gmail.com"
+  },
+  "time" : {
+    "1.1.2" : "2018-01-23T20:04:38.262Z",
+    "2.0.0" : "2018-04-30T18:16:11.874Z",
+    "2.0.1" : "2018-08-07T03:23:06.648Z",
+    "2.1.0" : "2019-08-04T22:57:32.308Z",
+    "created" : "2017-02-22T01:13:50.544Z",
+    "modified" : "2019-08-04T22:57:36.718Z",
+    "1.0.0" : "2017-02-22T01:13:50.544Z",
+    "1.1.0" : "2017-03-27T20:01:24.028Z",
+    "2.0.2" : "2018-08-07T03:49:40.380Z",
+    "1.1.1" : "2018-01-23T18:38:32.903Z",
+    "2.0.3" : "2019-05-10T19:40:37.711Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/zertosh/v8-compile-cache.git"
+  },
+  "users" : {
+    "pratyushj" : true,
+    "jahhein" : true,
+    "heineiuo" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/zertosh/v8-compile-cache#readme",
+  "bugs" : {
+    "url" : "https://github.com/zertosh/v8-compile-cache/issues"
+  },
+  "license" : "MIT"
+}

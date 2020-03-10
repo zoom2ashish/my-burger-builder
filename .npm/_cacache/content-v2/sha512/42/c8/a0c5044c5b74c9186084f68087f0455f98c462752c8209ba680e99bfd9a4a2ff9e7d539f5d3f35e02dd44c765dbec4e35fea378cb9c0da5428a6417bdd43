@@ -1,0 +1,660 @@
+{
+  "_id" : "detect-newline",
+  "_rev" : "17-ea4de5a3accc8bb59b4e7ff8f00bd6d6",
+  "name" : "detect-newline",
+  "description" : "Detect the dominant newline character of a string",
+  "dist-tags" : {
+    "latest" : "3.1.0"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/detect-newline"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-1.0.3.tgz",
+        "shasum" : "e97b1003877d70c09af1af35bfadff168de4920d"
+      },
+      "dependencies" : {
+        "get-stdin" : "^4.0.1",
+        "minimist" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "detect-newline" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@1.0.3",
+      "gitHead" : "4a94cd938a233e304e11a3a6a0a8f855742fdc07",
+      "_shasum" : "e97b1003877d70c09af1af35bfadff168de4920d",
+      "_nodeVersion" : "0.12.0"
+    },
+    "2.0.0" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/detect-newline.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-2.0.0.tgz",
+        "shasum" : "a72fd0e6b707e8433ead7ff0ae1e3aeabe58fd9e"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "bin" : {
+        "detect-newline" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@2.0.0",
+      "gitHead" : "9b1adb4c58c87d9bf2c18d83c186094cf5e45ab5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/detect-newline-2.0.0.tgz_1455021727687_0.6424719274509698"
+      },
+      "_shasum" : "a72fd0e6b707e8433ead7ff0ae1e3aeabe58fd9e",
+      "_nodeVersion" : "4.2.4"
+    },
+    "2.0.1" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/detect-newline.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-2.0.1.tgz",
+        "shasum" : "3f82607365b3495c48126f8f2f2ae07bb47d5da5"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.7.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@2.0.1",
+      "gitHead" : "54a9b9948dba1e7e6d32534be4f12b3aa64baee5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/detect-newline-2.0.1.tgz_1455022360606_0.058979029301553965"
+      },
+      "_shasum" : "3f82607365b3495c48126f8f2f2ae07bb47d5da5",
+      "_nodeVersion" : "4.2.4"
+    },
+    "2.1.0" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/detect-newline.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-2.1.0.tgz",
+        "shasum" : "f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@2.1.0",
+      "gitHead" : "6d96229078f55b65e6252dd2c0a42006e6a81833",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/detect-newline-2.1.0.tgz_1455648165578_0.057551848934963346"
+      },
+      "_shasum" : "f41f1c10be4b00e87b5f13da680759f2c5bfd3e2",
+      "_nodeVersion" : "4.3.0"
+    },
+    "3.0.0" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/detect-newline.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-3.0.0.tgz",
+        "shasum" : "8ae477c089e51872c264531cd6547719c0b86b2f"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@3.0.0",
+      "gitHead" : "c4f3aba414b8bf8b57125f1954f1f8ea9ce11d24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/detect-newline_3.0.0_1554971133408_0.5989248008934898"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "0.1.1" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/detect-newline"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-0.1.1.tgz",
+        "shasum" : "6c4b26a2ff67293c2e6d368263fdd18eccf2d81e"
+      },
+      "dependencies" : {
+        "get-stdin" : "^0.1.0",
+        "minimist" : "^0.2.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "detect-newline" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@0.1.1",
+      "_shasum" : "6c4b26a2ff67293c2e6d368263fdd18eccf2d81e"
+    },
+    "3.1.0" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/detect-newline.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-3.1.0.tgz",
+        "shasum" : "576f5dfc63ae1a192ff192d8ad3af6308991b651"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@3.1.0",
+      "gitHead" : "991b31d4ef88471d476f173bdb4e9ab63ea7b85e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/detect-newline_3.1.0_1573634592999_0.9999847296708473"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "1.0.0" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/detect-newline"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-1.0.0.tgz",
+        "shasum" : "c0e44a7af1d11bd2d7b7af82675735a6a685dd62"
+      },
+      "dependencies" : {
+        "get-stdin" : "^2.0.0",
+        "minimist" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "detect-newline" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@1.0.0",
+      "gitHead" : "76e7e19f7ce404817de91ce304bc453e27e6c9e1",
+      "_shasum" : "c0e44a7af1d11bd2d7b7af82675735a6a685dd62"
+    },
+    "1.0.1" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/detect-newline"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-1.0.1.tgz",
+        "shasum" : "436f962ea4814b29e8f4d023568d1ffd3c756ca9"
+      },
+      "dependencies" : {
+        "get-stdin" : "^3.0.0",
+        "minimist" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "detect-newline" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@1.0.1",
+      "gitHead" : "63586bdc682814db858c4af1c685f21e63b03e4e",
+      "_shasum" : "436f962ea4814b29e8f4d023568d1ffd3c756ca9"
+    },
+    "0.1.0" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/sindresorhus/detect-newline"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-0.1.0.tgz",
+        "shasum" : "b86c3a6ff51c9a21619414dd336e0ff93bc34102"
+      },
+      "dependencies" : {
+        "get-stdin" : "^0.1.0",
+        "minimist" : "^0.2.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "detect-newline" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@0.1.0",
+      "_shasum" : "b86c3a6ff51c9a21619414dd336e0ff93bc34102"
+    },
+    "1.0.2" : {
+      "name" : "detect-newline",
+      "description" : "Detect the dominant newline character of a string",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/detect-newline",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/detect-newline"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/detect-newline/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/detect-newline/-/detect-newline-1.0.2.tgz",
+        "shasum" : "db250ee12645b60b5229482b8d42b31cd166cb29"
+      },
+      "dependencies" : {
+        "get-stdin" : "^3.0.0",
+        "minimist" : "^1.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "cli", "bin", "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "cli.js" ],
+      "bin" : {
+        "detect-newline" : "cli.js"
+      },
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "detect-newline@1.0.2",
+      "gitHead" : "018a1ca8f0070187c0b4f8aa7748e18d65ecec12",
+      "_shasum" : "db250ee12645b60b5229482b8d42b31cd166cb29"
+    }
+  },
+  "readme" : "# detect-newline [![Build Status](https://travis-ci.org/sindresorhus/detect-newline.svg?branch=master)](https://travis-ci.org/sindresorhus/detect-newline)\n\n> Detect the dominant newline character of a string\n\n\n## Install\n\n```\n$ npm install detect-newline\n```\n\n\n## Usage\n\n```js\nconst detectNewline = require('detect-newline');\n\ndetectNewline('foo\\nbar\\nbaz\\r\\n');\n//=> '\\n'\n```\n\n\n## API\n\n### detectNewline(string)\n\nReturns the detected newline or `undefined` when no newline character is found.\n\n### detectNewline.graceful(unknown)\n\nReturns the detected newline or `\\n` when no newline character is found or the input is not a string.\n\n\n## Related\n\n- [detect-newline-cli](https://github.com/sindresorhus/detect-newline-cli) - CLI for this module\n- [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2016-02-09T12:42:09.014Z",
+    "2.0.1" : "2016-02-09T12:52:41.850Z",
+    "2.1.0" : "2016-02-16T18:42:47.534Z",
+    "created" : "2014-06-28T14:34:10.819Z",
+    "0.1.1" : "2014-06-28T14:59:05.168Z",
+    "0.1.0" : "2014-06-28T14:34:10.819Z",
+    "1.0.3" : "2015-02-16T17:31:25.668Z",
+    "3.0.0" : "2019-04-11T08:25:33.544Z",
+    "modified" : "2019-11-13T08:43:15.464Z",
+    "3.1.0" : "2019-11-13T08:43:13.122Z",
+    "1.0.0" : "2014-08-14T18:23:36.536Z",
+    "1.0.1" : "2014-08-17T23:43:06.255Z",
+    "1.0.2" : "2015-01-24T11:57:35.404Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/detect-newline.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/detect-newline#readme",
+  "keywords" : [ "newline", "linebreak", "line-break", "line", "lf", "crlf", "eol", "linefeed", "character", "char" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/detect-newline/issues"
+  },
+  "license" : "MIT"
+}

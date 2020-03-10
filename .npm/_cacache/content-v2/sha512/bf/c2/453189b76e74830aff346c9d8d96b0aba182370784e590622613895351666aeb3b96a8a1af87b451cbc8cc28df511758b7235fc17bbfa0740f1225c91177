@@ -1,0 +1,2599 @@
+{
+  "_id" : "default-gateway",
+  "_rev" : "45-daf572726139890c693dc7f367810382",
+  "name" : "default-gateway",
+  "description" : "Get the default network gateway, cross-platform.",
+  "dist-tags" : {
+    "latest" : "5.0.5"
+  },
+  "versions" : {
+    "0.8.2" : {
+      "name" : "default-gateway",
+      "description" : "A Node.js module to get default gateway and default interface.",
+      "version" : "0.8.2",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-0.8.2.tgz",
+        "shasum" : "f05e7c191683482cea3efb9e8aa1ad4d74d85a5b"
+      },
+      "dependencies" : {
+        "async" : "2.4.1",
+        "xml2js" : "^0.4.17"
+      },
+      "devDependencies" : {
+        "chai" : "4.0.2",
+        "mocha" : "3.4.2",
+        "mocha-clean" : "1.0.0"
+      },
+      "keywords" : [ "win32", "darwin", "linux", "net", "network", "gateway", "child_process", "wmi", "route" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@0.8.2",
+      "gitHead" : "5fcdb30d478250af480295d79c111d0983dab9d7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-0.8.2.tgz_1496924380946_0.64958740118891"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "0.8.3" : {
+      "name" : "default-gateway",
+      "description" : "A Node.js module to get default gateway and default interface.",
+      "version" : "0.8.3",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-0.8.3.tgz",
+        "shasum" : "8c6d13e487086c5931507c12cd8cdf70058753c0"
+      },
+      "dependencies" : {
+        "async" : "2.4.1",
+        "xml2js" : "^0.4.17"
+      },
+      "devDependencies" : {
+        "chai" : "4.0.2",
+        "mocha" : "3.4.2",
+        "mocha-clean" : "1.0.0"
+      },
+      "keywords" : [ "win32", "darwin", "linux", "net", "network", "gateway", "child_process", "wmi", "route" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@0.8.3",
+      "gitHead" : "bc300e1c83e7920ecc3ae639878f8632160154bd",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-0.8.3.tgz_1496924672269_0.9910516447853297"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "0.8.0" : {
+      "name" : "default-gateway",
+      "description" : "A Node.js module to get default gateway and default interface.",
+      "version" : "0.8.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-0.8.0.tgz",
+        "shasum" : "45d0f1821d704f732786822e64cde2732436a121"
+      },
+      "dependencies" : {
+        "async" : "2.4.1",
+        "xml2js" : "^0.4.17"
+      },
+      "devDependencies" : {
+        "chai" : "4.0.2",
+        "mocha" : "3.4.2",
+        "mocha-clean" : "1.0.0"
+      },
+      "keywords" : [ "win32", "darwin", "linux", "net", "network", "gateway", "child_process", "wmi", "route" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@0.8.0",
+      "gitHead" : "4e2fee22ccb368ad5da213d4465e6d94b3ccdb75",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-0.8.0.tgz_1496923780454_0.31991476542316377"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "0.8.1" : {
+      "name" : "default-gateway",
+      "description" : "A Node.js module to get default gateway and default interface.",
+      "version" : "0.8.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-0.8.1.tgz",
+        "shasum" : "66b3b0155c6d6e9d4d2c384f356fd1b84c43e9c5"
+      },
+      "dependencies" : {
+        "async" : "2.4.1",
+        "xml2js" : "^0.4.17"
+      },
+      "devDependencies" : {
+        "chai" : "4.0.2",
+        "mocha" : "3.4.2",
+        "mocha-clean" : "1.0.0"
+      },
+      "keywords" : [ "win32", "darwin", "linux", "net", "network", "gateway", "child_process", "wmi", "route" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@0.8.1",
+      "gitHead" : "61cefd319c02d93d11435cd3f422d9335b4d09ec",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-0.8.1.tgz_1496923890789_0.4744621030986309"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "4.2.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-4.2.0.tgz",
+        "shasum" : "167104c7500c2115f6dd69b0a536bb8ed720552b"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.15.1",
+        "eslint-config-silverwind" : "^2.1.0",
+        "updates" : "^7.2.0",
+        "ver" : "4.0.1"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@4.2.0",
+      "gitHead" : "b8b8fcebe3f568b1bf56bb416aeb258b78150dae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_4.2.0_1551901200580_0.29396799751046276"
+      },
+      "_nodeVersion" : "11.10.1"
+    },
+    "4.1.2" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "4.1.2",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-4.1.2.tgz",
+        "shasum" : "b49196b51b26609e5d1af636287517a11a9aaf42"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.5.0",
+        "eslint-config-silverwind" : "^2.0.9",
+        "updates" : "^4.3.0",
+        "ver" : "2.0.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@4.1.2",
+      "gitHead" : "2a7d01a720ea95a33b3ce23b50d86c764293155d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_4.1.2_1551118301217_0.2430150558278068"
+      },
+      "_nodeVersion" : "11.10.0"
+    },
+    "4.0.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-4.0.0.tgz",
+        "shasum" : "4a79c102d1c98ee29d90343aa3c406cca40fb40e"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.5.0",
+        "eslint-config-silverwind" : "^2.0.9",
+        "updates" : "^4.3.0",
+        "ver" : "2.0.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@4.0.0",
+      "gitHead" : "b7b8b476db468ff5bd2e450ab2c178e1b1b2db67",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_4.0.0_1550848615561_0.41555741010345226"
+      },
+      "_nodeVersion" : "11.10.0"
+    },
+    "4.0.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-4.0.1.tgz",
+        "shasum" : "3a7d071ca610a2831190341bd0666382b9dbc340"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.5.0",
+        "eslint-config-silverwind" : "^2.0.9",
+        "updates" : "^4.3.0",
+        "ver" : "2.0.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@4.0.1",
+      "gitHead" : "50c51376d98584c0dc41bd42948581ad471e88b7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_4.0.1_1550913209682_0.49324061757062343"
+      },
+      "_nodeVersion" : "11.10.0"
+    },
+    "4.1.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-4.1.0.tgz",
+        "shasum" : "64fce3dcabf23874ebb266326c8444a55fb960ba"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.5.0",
+        "eslint-config-silverwind" : "^2.0.9",
+        "updates" : "^4.3.0",
+        "ver" : "2.0.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@4.1.0",
+      "gitHead" : "5f4d546b04531b413f0afb365c35d1322b9101e5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_4.1.0_1551116871903_0.22502390983628562"
+      },
+      "_nodeVersion" : "11.10.0"
+    },
+    "3.0.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-3.0.0.tgz",
+        "shasum" : "fb180fdd08384a7a871176762458a953b859eb64"
+      },
+      "dependencies" : {
+        "execa" : "^0.11.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.4.0",
+        "eslint-config-silverwind" : "^2.0.7",
+        "updates" : "^4.1.3"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@3.0.0",
+      "gitHead" : "1884837a6c51dff10d823a3c8c674d7e8f0be40e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_3.0.0_1535041432094_0.9574511515949071"
+      },
+      "_nodeVersion" : "10.7.0"
+    },
+    "3.0.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-3.0.1.tgz",
+        "shasum" : "a5bb7d4e6b86e1a18aa59865b9c364219361f3b5"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.5.0",
+        "eslint-config-silverwind" : "^2.0.9",
+        "updates" : "^4.3.0",
+        "ver" : "2.0.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@3.0.1",
+      "gitHead" : "9d3c3a5dd46bbc09f93bce68f35cace7a7f06593",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_3.0.1_1536174591110_0.2730814011118521"
+      },
+      "_nodeVersion" : "10.7.0"
+    },
+    "3.1.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-3.1.0.tgz",
+        "shasum" : "85248c9b2b28336ab852be2f08c19a52e187ec4f"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0",
+        "idb-connector" : "^1.1.8"
+      },
+      "optionalDependencies" : {
+        "idb-connector" : "^1.1.8"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.5.0",
+        "eslint-config-silverwind" : "^2.0.9",
+        "updates" : "^4.3.0",
+        "ver" : "2.0.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32", "aix" ],
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@3.1.0",
+      "gitHead" : "c45118413937b790215c9c19477e64850a741c69",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_3.1.0_1550261634592_0.8059259303255291"
+      },
+      "_nodeVersion" : "11.7.0"
+    },
+    "2.0.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.0.0.tgz",
+        "shasum" : "337be7babb07b704d04d5a423dec8ff41995935a"
+      },
+      "dependencies" : {
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.0.0",
+      "gitHead" : "25c7eee97d5ac53cf0d35e06c5648c8f2cc00c21",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.0.0.tgz_1498404910004_0.23805554118007421"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.0.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.0.1.tgz",
+        "shasum" : "875a07f5aa3f0237824c5dc32bec16ae5adbe064"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.0.1",
+      "gitHead" : "a9ffd55d75630cdc8f055957f01caa3ce527097b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.0.1.tgz_1499101713531_0.672102287877351"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.1.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.1.0.tgz",
+        "shasum" : "b7d094d09827cc7029dc66466787b65483656302"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "darwin.js", "index.js", "linux.js", "win32.js", "android.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "darwin", "linux", "win32", "android" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.1.0",
+      "gitHead" : "5a724e2283fff9ed47f50c6b8122f2927e76928d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.1.0.tgz_1505561029910_0.17285275226458907"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.6.2" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.6.2",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.6.2.tgz",
+        "shasum" : "c53bce5f464a0fd770abdec095d0aca87406170a"
+      },
+      "dependencies" : {
+        "execa" : "^0.8.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.12.1",
+        "updates" : "^1.2.6"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.6.2",
+      "gitHead" : "5982eb3cdd67877bc28b68bc4575ab96fd2b3562",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.6.2.tgz_1512841889464_0.4984933875966817"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.7.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.7.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.7.1.tgz",
+        "shasum" : "1fb2b25fdb938394b8cbca89029894f8fa068399"
+      },
+      "dependencies" : {
+        "execa" : "^0.10.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.19.1",
+        "updates" : "^2.4.1"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.7.1",
+      "gitHead" : "beaf4a2a216c695f4154e339cff9d4ed93299bec",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_2.7.1_1522164960386_0.7998576648775979"
+      },
+      "_nodeVersion" : "9.9.0"
+    },
+    "2.6.3" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.6.3",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.6.3.tgz",
+        "shasum" : "fd8d2aeddb3d2a5d93526f2a75e88c13056f7968"
+      },
+      "dependencies" : {
+        "execa" : "^0.9.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.16.0",
+        "updates" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.6.3",
+      "gitHead" : "9e4c1f88504b58a874edefa105045bb2517a1510",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.6.3.tgz_1516745891326_0.7305471743457019"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "2.7.2" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.7.2",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.7.2.tgz",
+        "shasum" : "b7ef339e5e024b045467af403d50348db4642d0f"
+      },
+      "dependencies" : {
+        "execa" : "^0.10.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.19.1",
+        "eslint-config-silverwind" : "^1.0.42",
+        "updates" : "^3.0.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.7.2",
+      "gitHead" : "88aff60b776268698f7ee7fc3aeb7a8dcd4af84d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_2.7.2_1527788936027_0.586713733378692"
+      },
+      "_nodeVersion" : "10.3.0"
+    },
+    "2.6.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.6.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.6.0.tgz",
+        "shasum" : "acf02d181caef4c464b6c37fe25daacd6189b903"
+      },
+      "dependencies" : {
+        "execa" : "^0.8.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.7.2"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.6.0",
+      "gitHead" : "9cd877dad9aa7a28bfb7703347b09a3dd82fa337",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.6.0.tgz_1506627031300_0.7929089618846774"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.6.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.6.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.6.1.tgz",
+        "shasum" : "d337764dbd40c327532606c858f9a3c05cc456df"
+      },
+      "dependencies" : {
+        "execa" : "^0.8.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.8.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.6.1",
+      "gitHead" : "ad224db2b81b1a6a64e07fd480db175059139b02",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.6.1.tgz_1507137090309_0.6480592666193843"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "2.7.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.7.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.7.0.tgz",
+        "shasum" : "eac4456f4074b57ae2db4275cea881dcb37dd5b8"
+      },
+      "dependencies" : {
+        "execa" : "^0.9.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^4.17.0",
+        "updates" : "^2.2.1"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.7.0",
+      "gitHead" : "b9005d70b3322afc09be143be36ad8d8a91d915b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.7.0.tgz_1517938195244_0.8840121619869024"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "2.2.2" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.2.2.tgz",
+        "shasum" : "797de0e09a476ca1c756efc576e5d6103f7ca7db"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.2.2",
+      "gitHead" : "c4bd7a2c85bc471f5a06e9b3ae2d1e4f793f428c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.2.2.tgz_1505581876199_0.3456222431268543"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.3.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.3.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.3.1.tgz",
+        "shasum" : "52de54201428c22e60306f14069656d5f6622f58"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.3.1",
+      "gitHead" : "8be027ddaca5a6af825bd85e848aecc0d6a484b6",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.3.1.tgz_1505584029491_0.5973357588518411"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.4.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.4.0.tgz",
+        "shasum" : "65dc9a39bc78ac5cba8d4ef9e8de008ffb00e116"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.4.0",
+      "gitHead" : "4171e9dcfb8e18b4c7a84773f72851f0af3ad7ca",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.4.0.tgz_1505639950894_0.02266146265901625"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.5.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.5.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.5.0.tgz",
+        "shasum" : "78e24dbd2e1df7490c2b8050515b8e816bfa7da5"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "openbsd.js", "sunos.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "openbsd", "sunos", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.5.0",
+      "gitHead" : "f2fc002d09ca6c75d55831185adb9172b9c02e2f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.5.0.tgz_1505665765226_0.0630882503464818"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.0.2" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.0.2.tgz",
+        "shasum" : "e365db05c50a4643cc1990c6178228c540a0b910"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "darwin.js", "index.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "darwin", "linux", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.0.2",
+      "gitHead" : "24ed6891a635b0adb723523f5bc961c1be4c55e3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.0.2.tgz_1501271637938_0.6506575881503522"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.2.0.tgz",
+        "shasum" : "6830474b33e9a8d5d394e57fc9c5fed03ca104e2"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.2.0",
+      "gitHead" : "b14a68d083b849c3cb8d02708ee9555feb0fa46e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.2.0.tgz_1505580718545_0.5057501748669893"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.0.3" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.0.3.tgz",
+        "shasum" : "afc4b30b8be731987bf1f74e9092149dc303a64a"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "darwin.js", "index.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "darwin", "linux", "win32", "android" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.0.3",
+      "gitHead" : "6748b72326f12a228a353bb7e5e59779a3d1286a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.0.3.tgz_1505560925488_0.5008111130446196"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.2.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.2.1.tgz",
+        "shasum" : "405866846f2537b34511ccce3c5c76ceab9e43e9"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.2.1",
+      "gitHead" : "7649dd4c9d2b67022256d8e192061c4b480c4554",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.2.1.tgz_1505581089537_0.4823363956529647"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "2.3.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-2.3.0.tgz",
+        "shasum" : "07e7d018e8ba0abfa1e109cf59963ac5f0cdfb5e"
+      },
+      "dependencies" : {
+        "execa" : "^0.7.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "android.js", "darwin.js", "freebsd.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "android", "darwin", "freebsd", "linux", "win32" ],
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@2.3.0",
+      "gitHead" : "d3c532920c189c4ed1c9b3e2eadf0d6e52312d08",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-2.3.0.tgz_1505583827745_0.39865965279750526"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.0.3" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-1.0.3.tgz",
+        "shasum" : "8d9f18085b2b59c64ae342629a0bdaf97d889b5e"
+      },
+      "dependencies" : {
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@1.0.3",
+      "gitHead" : "edb3b0ac6b30286afdadaf51567087d8a64a3143",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-1.0.3.tgz_1498403191535_0.8774592285044491"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "1.0.4" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-1.0.4.tgz",
+        "shasum" : "3d18c33a96aecb7f164d8d199023332bea57e3cc"
+      },
+      "dependencies" : {
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@1.0.4",
+      "gitHead" : "0e7eecec53e88bae93482d388575fcb4ca57c840",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-1.0.4.tgz_1498403596963_0.3993046246469021"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "0.8.6" : {
+      "name" : "default-gateway",
+      "description" : "A Node.js module to get default gateway and default interface.",
+      "version" : "0.8.6",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-0.8.6.tgz",
+        "shasum" : "136e647efb3a7e2899ac542dab2ea7a7e19a0e13"
+      },
+      "dependencies" : {
+        "async" : "2.4.1",
+        "xml2js" : "^0.4.17"
+      },
+      "devDependencies" : {
+        "chai" : "4.0.2",
+        "mocha" : "3.4.2",
+        "mocha-clean" : "1.0.0"
+      },
+      "keywords" : [ "win32", "darwin", "linux", "net", "network", "gateway", "child_process", "wmi", "route" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@0.8.6",
+      "gitHead" : "174518afe27c3ded514459f5c6c2b1c0bff5db27",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-0.8.6.tgz_1496927501138_0.1886161311995238"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.0.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-5.0.0.tgz",
+        "shasum" : "a30f61762adf00ef0e2e34f210142d173bd9233c"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.16.0",
+        "eslint-config-silverwind" : "^3.0.3",
+        "updates" : "^8.1.0",
+        "ver" : "5.0.1"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@5.0.0",
+      "gitHead" : "b0734b7ea2979a2bc87a7b69ef689e3248838dc6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_5.0.0_1560477869960_0.33972598099628093"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "0.8.4" : {
+      "name" : "default-gateway",
+      "description" : "A Node.js module to get default gateway and default interface.",
+      "version" : "0.8.4",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-0.8.4.tgz",
+        "shasum" : "fadd45f58d8860e99f5b51b0214d337174e97d09"
+      },
+      "dependencies" : {
+        "async" : "2.4.1",
+        "xml2js" : "^0.4.17"
+      },
+      "devDependencies" : {
+        "chai" : "4.0.2",
+        "mocha" : "3.4.2",
+        "mocha-clean" : "1.0.0"
+      },
+      "keywords" : [ "win32", "darwin", "linux", "net", "network", "gateway", "child_process", "wmi", "route" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@0.8.4",
+      "gitHead" : "d2ff304cf53f70e5ad9b4e713eb42348eeaa0c0d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-0.8.4.tgz_1496927018925_0.5459006540477276"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.0.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-5.0.1.tgz",
+        "shasum" : "5e3a8d689be4d822783803bef65f35917d096b75"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.16.0",
+        "eslint-config-silverwind" : "^3.0.3",
+        "updates" : "^8.1.0",
+        "ver" : "5.0.1"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@5.0.1",
+      "gitHead" : "14a7480c4b423d443de57a61fe6b9156f680ebc2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_5.0.1_1560540492447_0.1905423609291177"
+      },
+      "_nodeVersion" : "11.15.0"
+    },
+    "0.8.5" : {
+      "name" : "default-gateway",
+      "description" : "A Node.js module to get default gateway and default interface.",
+      "version" : "0.8.5",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-0.8.5.tgz",
+        "shasum" : "f94b1d364e41a7949ac13214f98dcfe98cacdd99"
+      },
+      "dependencies" : {
+        "async" : "2.4.1",
+        "xml2js" : "^0.4.17"
+      },
+      "devDependencies" : {
+        "chai" : "4.0.2",
+        "mocha" : "3.4.2",
+        "mocha-clean" : "1.0.0"
+      },
+      "keywords" : [ "win32", "darwin", "linux", "net", "network", "gateway", "child_process", "wmi", "route" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@0.8.5",
+      "gitHead" : "6ca3c066e832e20353dcd3b26fd8b6695e360ba5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-0.8.5.tgz_1496927364096_0.730536978924647"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.0.2" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "5.0.2",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-5.0.2.tgz",
+        "shasum" : "d2d8a13d6fee406d9365d19ec9adccb8a60b82b3"
+      },
+      "dependencies" : {
+        "execa" : "^1.0.0",
+        "ip-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.16.0",
+        "eslint-config-silverwind" : "^3.0.3",
+        "updates" : "^8.1.0",
+        "ver" : "5.0.1"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@5.0.2",
+      "gitHead" : "b96d32aa77b14591db8d60ca294e6854b8a69ff6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_5.0.2_1560540718705_0.10918250789257655"
+      },
+      "_nodeVersion" : "11.15.0"
+    },
+    "5.0.3" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "5.0.3",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-5.0.3.tgz",
+        "shasum" : "18434c9430a18035a2861f7839bf7669b3436e6f"
+      },
+      "dependencies" : {
+        "execa" : "^2.0.3"
+      },
+      "devDependencies" : {
+        "eslint" : "^6.1.0",
+        "eslint-config-silverwind" : "^4.0.3",
+        "updates" : "^8.5.1",
+        "ver" : "5.1.2"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.10.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@5.0.3",
+      "gitHead" : "54e864c6b13d688d62504ce72850d6c03b06658c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_5.0.3_1565763913125_0.5888241633600602"
+      },
+      "_nodeVersion" : "12.8.0"
+    },
+    "1.0.0" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-1.0.0.tgz",
+        "shasum" : "28aa456bfbb14a369f17f45cb05046ffe5fb2095"
+      },
+      "dependencies" : {
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "unix.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@1.0.0",
+      "gitHead" : "3e5a6b9c0eb44f379671507c169273a84121073a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-1.0.0.tgz_1498337405564_0.2740026218816638"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.0.4" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "5.0.4",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-5.0.4.tgz",
+        "shasum" : "d10bf9ec1446b96acb977f88e62d59c7eefe5d01"
+      },
+      "dependencies" : {
+        "execa" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "6.5.1",
+        "eslint-config-silverwind" : "4.2.3",
+        "updates" : "9.0.0",
+        "ver" : "5.4.2"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@5.0.4",
+      "gitHead" : "795c32e89f4e89fd839ede067b8adab7c9a13384",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_5.0.4_1571113051716_0.10124997171791494"
+      },
+      "_nodeVersion" : "12.11.1"
+    },
+    "1.0.1" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-1.0.1.tgz",
+        "shasum" : "90986880233702eda02776105c1aba701c65d190"
+      },
+      "dependencies" : {
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "unix.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@1.0.1",
+      "gitHead" : "24bfd95e14bb9fd4064cfec955ac4ed5032f09db",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-1.0.1.tgz_1498393015606_0.6717980781104416"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.0.5" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "5.0.5",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : "^8.12.0 || >=9.7.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-5.0.5.tgz",
+        "shasum" : "4fd6bd5d2855d39b34cc5a59505486e9aafc9b10"
+      },
+      "dependencies" : {
+        "execa" : "^3.3.0"
+      },
+      "devDependencies" : {
+        "eslint" : "6.6.0",
+        "eslint-config-silverwind" : "5.0.0",
+        "updates" : "9.0.1",
+        "ver" : "6.0.2"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
+      },
+      "_npmVersion" : "6.13.0",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@5.0.5",
+      "gitHead" : "02350d097ce01aaa38431c27e0c23a4c751d10b0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway_5.0.5_1573763980425_0.28389837327631917"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "1.0.2" : {
+      "name" : "default-gateway",
+      "description" : "Get the default network gateway, cross-platform.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "silverwind",
+        "email" : "me@silverwind.io"
+      },
+      "homepage" : "https://github.com/silverwind/default-gateway#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/silverwind/default-gateway.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/silverwind/default-gateway/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/default-gateway/-/default-gateway-1.0.2.tgz",
+        "shasum" : "9f59056ce6ece51df8c3af591b417576fff4ce61"
+      },
+      "dependencies" : {
+        "ip-regex" : "^2.1.0"
+      },
+      "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "index.js", "darwin.js", "linux.js", "win32.js" ],
+      "maintainers" : [ {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "os" : [ "win32", "darwin", "linux" ],
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "silverwind",
+        "email" : "npm@silverwind.io"
+      },
+      "_id" : "default-gateway@1.0.2",
+      "gitHead" : "784661491900a1fdeddb60c9e08ee9122019d386",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/default-gateway-1.0.2.tgz_1498399252603_0.3600925493519753"
+      },
+      "_nodeVersion" : "8.0.0"
+    }
+  },
+  "readme" : "# default-gateway\n[![](https://img.shields.io/npm/v/default-gateway.svg?style=flat)](https://www.npmjs.org/package/default-gateway) [![](https://img.shields.io/npm/dm/default-gateway.svg)](https://www.npmjs.org/package/default-gateway) [![](https://api.travis-ci.org/silverwind/default-gateway.svg?style=flat)](https://travis-ci.org/silverwind/default-gateway)\n\n> Get the default network gateway, cross-platform.\n\nObtains the machine's default gateway through `exec` calls to OS routing interfaces.\n\n- On Linux and Android, the `ip` command must be available (usually provided by the `iproute2` package).\n- On Windows, `wmic` must be available.\n- On IBM i, the `db2util` command must be available (provided by the `db2util` package).\n- On Unix (and macOS), the `netstat` command must be available.\n\n## Installation\n\n```\n$ npm install default-gateway\n```\n\n## Example\n\n```js\nconst defaultGateway = require('default-gateway');\n\nconst {gateway, interface} = await defaultGateway.v4();\n// gateway = '1.2.3.4', interface = 'en1'\n\nconst {gateway, interface} = await defaultGateway.v6();\n// gateway = '2001:db8::1', interface = 'en2'\n\nconst {gateway, interface} = defaultGateway.v4.sync();\n// gateway = '1.2.3.4', interface = 'en1'\n\nconst {gateway, interface} = defaultGateway.v6.sync();\n// gateway = '2001:db8::1', interface = 'en2'\n```\n\n## API\n### defaultGateway.v4()\n### defaultGateway.v6()\n### defaultGateway.v4.sync()\n### defaultGateway.v6.sync()\n\nReturns: `result` *Object*\n  - `gateway`: The IP address of the default gateway.\n  - `interface`: The name of the interface. On Windows, this is the network adapter name.\n\nThe `.v{4,6}()` methods return a Promise while the `.v{4,6}.sync()` variants will return the result synchronously.\n\nThe `gateway` property will always be defined on success, while `interface` can be `null` if it cannot be determined. All methods reject/throw on unexpected conditions.\n\n## License\n\n© [silverwind](https://github.com/silverwind), distributed under BSD licence\n",
+  "maintainers" : [ {
+    "name" : "silverwind",
+    "email" : "npm@silverwind.io"
+  } ],
+  "author" : {
+    "name" : "silverwind",
+    "email" : "me@silverwind.io"
+  },
+  "time" : {
+    "0.8.2" : "2017-06-08T12:19:41.865Z",
+    "0.8.3" : "2017-06-08T12:24:33.174Z",
+    "0.8.0" : "2017-06-08T12:09:41.437Z",
+    "0.8.1" : "2017-06-08T12:11:31.743Z",
+    "4.2.0" : "2019-03-06T19:40:00.709Z",
+    "4.1.2" : "2019-02-25T18:11:41.337Z",
+    "4.0.0" : "2019-02-22T15:16:55.685Z",
+    "4.0.1" : "2019-02-23T09:13:29.854Z",
+    "4.1.0" : "2019-02-25T17:47:52.044Z",
+    "3.0.0" : "2018-08-23T16:23:52.181Z",
+    "modified" : "2019-11-14T20:39:43.109Z",
+    "3.0.1" : "2018-09-05T19:09:51.293Z",
+    "3.1.0" : "2019-02-15T20:13:54.737Z",
+    "2.0.0" : "2017-06-25T15:35:10.984Z",
+    "2.0.1" : "2017-07-03T17:08:34.431Z",
+    "2.1.0" : "2017-09-16T11:23:50.866Z",
+    "created" : "2017-06-08T12:09:41.437Z",
+    "2.6.2" : "2017-12-09T17:51:30.638Z",
+    "2.7.1" : "2018-03-27T15:36:00.440Z",
+    "2.6.3" : "2018-01-23T22:18:11.422Z",
+    "2.7.2" : "2018-05-31T17:48:56.227Z",
+    "2.6.0" : "2017-09-28T19:30:32.303Z",
+    "2.6.1" : "2017-10-04T17:11:31.271Z",
+    "2.7.0" : "2018-02-06T17:29:56.085Z",
+    "2.2.2" : "2017-09-16T17:11:17.189Z",
+    "2.3.1" : "2017-09-16T17:47:10.377Z",
+    "2.4.0" : "2017-09-17T09:19:12.182Z",
+    "2.5.0" : "2017-09-17T16:29:26.280Z",
+    "2.0.2" : "2017-07-28T19:53:58.876Z",
+    "2.2.0" : "2017-09-16T16:51:59.539Z",
+    "2.0.3" : "2017-09-16T11:22:06.452Z",
+    "2.2.1" : "2017-09-16T16:58:10.439Z",
+    "2.3.0" : "2017-09-16T17:43:48.653Z",
+    "1.0.3" : "2017-06-25T15:06:32.425Z",
+    "1.0.4" : "2017-06-25T15:13:17.985Z",
+    "0.8.6" : "2017-06-08T13:11:42.080Z",
+    "5.0.0" : "2019-06-14T02:04:30.112Z",
+    "0.8.4" : "2017-06-08T13:03:39.951Z",
+    "5.0.1" : "2019-06-14T19:28:12.636Z",
+    "0.8.5" : "2017-06-08T13:09:24.983Z",
+    "5.0.2" : "2019-06-14T19:31:59.055Z",
+    "5.0.3" : "2019-08-14T06:25:13.270Z",
+    "1.0.0" : "2017-06-24T20:50:06.458Z",
+    "5.0.4" : "2019-10-15T04:17:31.881Z",
+    "1.0.1" : "2017-06-25T12:16:56.582Z",
+    "5.0.5" : "2019-11-14T20:39:40.611Z",
+    "1.0.2" : "2017-06-25T14:00:53.645Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/silverwind/default-gateway.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/silverwind/default-gateway#readme",
+  "keywords" : [ "default gateway", "network", "default", "gateway", "routing", "route" ],
+  "bugs" : {
+    "url" : "https://github.com/silverwind/default-gateway/issues"
+  },
+  "license" : "BSD-2-Clause"
+}

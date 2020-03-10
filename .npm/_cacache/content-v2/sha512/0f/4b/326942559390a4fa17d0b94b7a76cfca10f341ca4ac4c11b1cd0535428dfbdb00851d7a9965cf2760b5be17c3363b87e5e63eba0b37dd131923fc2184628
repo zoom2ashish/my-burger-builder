@@ -1,0 +1,891 @@
+{
+  "_id" : "pnp-webpack-plugin",
+  "_rev" : "17-2cb1a7c484d4a34de4c117a57ad70266",
+  "name" : "pnp-webpack-plugin",
+  "description" : "plug'n'play resolver for Webpack",
+  "dist-tags" : {
+    "latest" : "1.6.4"
+  },
+  "versions" : {
+    "0.0.0" : {
+      "name" : "pnp-webpack-plugin",
+      "version" : "0.0.0",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-0.0.0.tgz",
+        "shasum" : "57a7897ea5ea4a3c81e52146fb401c51c242b234"
+      },
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@0.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_0.0.0_1536849236460_0.11890731285038303"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.2.1" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.2.1",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.2.1.tgz",
+        "shasum" : "cd9d698df2a6fcf7255093c1c9511adf65b9421b"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.2.1",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.2.1_1542733551742_0.21346988424341418"
+      }
+    },
+    "1.3.0" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.3.0",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.3.0.tgz",
+        "shasum" : "a323a2b0b2cf442d355014ef93807065e484b95d"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.3.0",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.3.0_1550859335151_0.5189970770830488"
+      }
+    },
+    "1.3.1" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.3.1",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.3.1.tgz",
+        "shasum" : "851492f9f0744610b1a491cb66ba5e1dd6975733"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.3.1",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.3.1_1550860405516_0.18767117633685282"
+      }
+    },
+    "1.4.0" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.4.0",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.4.0.tgz",
+        "shasum" : "ee907dbb0fe7207c35e37c8e9c8bc490bdff575f"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.4.0",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.4.0_1551790830470_0.24762110534541537"
+      }
+    },
+    "1.4.1" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.4.1",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.4.1.tgz",
+        "shasum" : "e8f8c683b496a71c0d200e664c4bb399a9c9585e"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.4.1",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.4.1_1551791702690_0.6964319275215156"
+      }
+    },
+    "1.5.0" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.5.0",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.5.0.tgz",
+        "shasum" : "62a1cd3068f46d564bb33c56eb250e4d586676eb"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.1.2"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.5.0",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.5.0_1559802389954_0.5576024427421327"
+      }
+    },
+    "1.6.0" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.6.0",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.0.tgz",
+        "shasum" : "d5c068013a2fdc82224ca50ed179c8fba9036a8e"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.1.2"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.6.0",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.6.0_1580166442967_0.8467535631703822"
+      }
+    },
+    "1.4.3" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.4.3",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.4.3.tgz",
+        "shasum" : "0a100b63f4a1d09cee6ee55a87393b69f03ab5c7"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.1.2"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.4.3",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.4.3_1555868048865_0.2343366860640408"
+      }
+    },
+    "1.6.1" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.6.1",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.1.tgz",
+        "shasum" : "27449b38f6a2cfa1e05fbef8e0d467b595e7ea27"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.1.2"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.6.1",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.6.1_1582046250902_0.5911773219536265"
+      }
+    },
+    "1.6.2" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.6.2",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.2.tgz",
+        "shasum" : "9ef326e36e3986e3e8f51e193f12d5b2d7fb5b0a"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.1.2"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.6.2",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.6.2_1582047234651_0.6709675594512161"
+      }
+    },
+    "1.6.3" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.6.3",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.3.tgz",
+        "shasum" : "db0bb451a7cc384d11ba215b0953d8c02840bef7"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.1.6"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.6.3",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.6.3_1582048084587_0.33030528507070156"
+      }
+    },
+    "1.6.4" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.6.4",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.4.tgz",
+        "shasum" : "c9711ac4dc48a685dabafc86f8b6dd9f8df84149"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.1.6"
+      },
+      "devDependencies" : {
+        "enhanced-resolve" : "^4.1.0",
+        "jest" : "^23.6.0",
+        "jest-environment-node" : "^23.4.0",
+        "jest-pnp-resolver" : "^1.0.1",
+        "source-map" : "^0.7.3"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.6.4",
+      "installConfig" : {
+        "pnp" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.6.4_1582068095902_0.5283841570146717"
+      }
+    },
+    "1.0.0" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.0.0",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.0.0.tgz",
+        "shasum" : "75232470c835c057bff2e267b4c3b78db730fb19"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.0.0",
+      "gitHead" : "13dbdc01e3d6c2e5185ac23804be30602413132e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.0.0_1537807041674_0.611046272357427"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.0.1" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.0.1",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.0.1.tgz",
+        "shasum" : "e22cbe767073c5820225e1eb967bd6a00407606f"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.0.1",
+      "gitHead" : "7dd6fcfbd160619ae12918e08cd97c47320e65f2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.0.1_1537809633880_0.5596833381853037"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.1.0" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.1.0",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.1.0.tgz",
+        "shasum" : "947a96d1db94bb5a1fc014d83b581e428699ac8c"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.1.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.1.0_1538329922925_0.5916959824170598"
+      }
+    },
+    "1.0.2" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.0.2",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.0.2.tgz",
+        "shasum" : "80eb9895958c89b4132fcca03c94384536557798"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.0.2_1538144416559_0.22102209949975093"
+      }
+    },
+    "1.2.0" : {
+      "name" : "pnp-webpack-plugin",
+      "description" : "plug'n'play resolver for Webpack",
+      "version" : "1.2.0",
+      "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/arcanis/pnp-webpack-plugin.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/pnp-webpack-plugin/-/pnp-webpack-plugin-1.2.0.tgz",
+        "shasum" : "a85338bc313b8a0469c1d8c5c5d016873be47cb2"
+      },
+      "dependencies" : {
+        "ts-pnp" : "^1.0.0"
+      },
+      "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "arcanis",
+        "email" : "nison.mael@gmail.com"
+      },
+      "_id" : "pnp-webpack-plugin@1.2.0",
+      "gitHead" : "29056297114002c3dedc9ea7c187cd184c767de2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pnp-webpack-plugin_1.2.0_1540595890410_0.08960091701850725"
+      },
+      "_nodeVersion" : "10.8.0"
+    }
+  },
+  "readme" : "# <img src=\"https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-small.png\" height=\"40\" align=\"right\" /> [Plug'n'Play](https://github.com/yarnpkg/rfcs/pull/101) resolver for Webpack\n\n[![npm version](https://img.shields.io/npm/v/pnp-webpack-plugin.svg)](https://www.npmjs.com/package/pnp-webpack-plugin)\n[![node version](https://img.shields.io/node/v/pnp-webpack-plugin.svg)](https://www.npmjs.com/package/pnp-webpack-plugin)\n\n*This plugin is also available for Jest ([jest-pnp-resolver](https://github.com/arcanis/jest-pnp-resolver)), Rollup ([rollup-plugin-pnp-resolve](https://github.com/arcanis/rollup-plugin-pnp-resolve)), and TypeScript ([ts-pnp](https://github.com/arcanis/ts-pnp))*\n\n## Installation\n\n```\nyarn add -D pnp-webpack-plugin\n```\n\n## Usage\n\nSimply add the plugin to both the `resolver` and `resolveLoader`:\n\n```js\nconst PnpWebpackPlugin = require(`pnp-webpack-plugin`);\n\nmodule.exports = {\n  resolve: {\n    plugins: [\n      PnpWebpackPlugin,\n    ],\n  },\n  resolveLoader: {\n    plugins: [\n      PnpWebpackPlugin.moduleLoader(module),\n    ],\n  },\n};\n```\n\nThe `resolve` entry will take care of correctly resolving the dependencies required by your program, and the `resolveLoader` entry will help Webpack find the location of the loaders on the disk. Note that in this case, all loaders will be resolved relative to the package containing your configuration.\n\nIn case part of your configuration comes from third-party packages that use their own loaders, make sure they use `require.resolve` - this will ensure that the resolution process is portable accross environments (including when Plug'n'Play isn't enabled), and prevent it from relying on undefined behaviors:\n\n```js\nmodule.exports = {\n  module: {\n    rules: [{\n      test: /\\.js$/,\n      loader: require.resolve('babel-loader'),\n    }]\n  },\n};\n```\n\n## License (MIT)\n\n> **Copyright © 2016 Maël Nison**\n>\n> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n>\n> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n>\n> THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "maintainers" : [ {
+    "name" : "arcanis",
+    "email" : "nison.mael@gmail.com"
+  } ],
+  "time" : {
+    "created" : "2018-09-13T14:33:56.459Z",
+    "0.0.0" : "2018-09-13T14:33:56.561Z",
+    "1.2.1" : "2018-11-20T17:05:51.881Z",
+    "1.3.0" : "2019-02-22T18:15:35.271Z",
+    "1.3.1" : "2019-02-22T18:33:25.623Z",
+    "1.4.0" : "2019-03-05T13:00:30.592Z",
+    "1.4.1" : "2019-03-05T13:15:02.809Z",
+    "1.5.0" : "2019-06-06T06:26:30.101Z",
+    "1.6.0" : "2020-01-27T23:07:23.081Z",
+    "1.4.3" : "2019-04-21T17:34:09.005Z",
+    "1.6.1" : "2020-02-18T17:17:30.995Z",
+    "1.6.2" : "2020-02-18T17:33:54.822Z",
+    "1.6.3" : "2020-02-18T17:48:04.692Z",
+    "1.6.4" : "2020-02-18T23:21:35.988Z",
+    "modified" : "2020-02-18T23:21:40.015Z",
+    "1.0.0" : "2018-09-24T16:37:21.882Z",
+    "1.0.1" : "2018-09-24T17:20:34.101Z",
+    "1.1.0" : "2018-09-30T17:52:03.076Z",
+    "1.0.2" : "2018-09-28T14:20:16.725Z",
+    "1.2.0" : "2018-10-26T23:18:10.556Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/arcanis/pnp-webpack-plugin.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/arcanis/pnp-webpack-plugin",
+  "keywords" : [ "webpack", "yarn", "plugnplay", "pnp" ],
+  "bugs" : {
+    "url" : "https://github.com/arcanis/pnp-webpack-plugin/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,2096 @@
+{
+  "_id" : "@webassemblyjs/helper-fsm",
+  "_rev" : "57-3f6c903602de91ed7af6b87f0c7bd223",
+  "name" : "@webassemblyjs/helper-fsm",
+  "description" : "FSM implementation",
+  "dist-tags" : {
+    "latest" : "1.9.0"
+  },
+  "versions" : {
+    "1.8.3" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.8.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.8.3.tgz",
+        "shasum" : "46aaa03f41082a916850ebcb97e9fc198ef36a9c"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.8.3",
+      "gitHead" : "e482c7ec291d61fc46e42c93d3b8ec7517b629e1",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.8.3_1550479017865_0.6317407683003837"
+      }
+    },
+    "1.8.4" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.8.4",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.8.4.tgz",
+        "shasum" : "ac764dfe6b8ffb2191a2a54e58277b1defaaf6f5"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.8.4",
+      "gitHead" : "0154b989cc9b41c695724a361b3aa6fa19c5b032",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.8.4_1550597218498_0.10611669999692874"
+      }
+    },
+    "1.8.5" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.8.5",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.8.5.tgz",
+        "shasum" : "ba0b7d3b3f7e4733da6059c9332275d860702452"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.8.5",
+      "gitHead" : "77bc195e9bb463b4fa4cbdb6291eed446d454d49",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.8.5_1551004958740_0.4738969991278228"
+      }
+    },
+    "1.7.0-1" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.0-1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.0-1.tgz",
+        "shasum" : "2b3894603d1cb5d30fe91e15d81d64fb7e22cf06"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.0-1",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.0-1_1531925935433_0.7331644165974738"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.0-2" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.0-2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.0-2.tgz",
+        "shasum" : "7058fcc9c62c8b102589ab1858c55d551468fbd1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.0-2",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.0-2_1531926853001_0.31264675127011343"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.2-0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.2-0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.2-0.tgz",
+        "shasum" : "b7e5cf1ed4a891aa70fcc4bd0d72b116ad6b328e"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.2-0",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.2-0_1532023768127_0.9278878878983703"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.0-3" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.0-3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.0-3.tgz",
+        "shasum" : "22c9e75baf97870adc7aaa384a042a40173c0020"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.0-3",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.0-3_1531940607936_0.9496414708746357"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.2-1" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.2-1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.2-1.tgz",
+        "shasum" : "5a81abca4d48d6abb944b6cb611a11be1abd2030"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.2-1",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.2-1_1532024646664_0.06807064654119666"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.13" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.13",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.13.tgz",
+        "shasum" : "cdf3d9d33005d543a5c5e5adaabf679ffa8db924"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.13",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.13_1530366257156_0.9079650996737745"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.11" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.11",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.11.tgz",
+        "shasum" : "42d469408f2662fac815bea42ca2ef22e04dde92"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.11_1528275471520_0.002618654809603882"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.12" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.12",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.12.tgz",
+        "shasum" : "6bc1442b037f8e30f2e57b987cee5c806dd15027"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.12",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.12_1528363497122_0.5184923301484856"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.10" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.10",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.10.tgz",
+        "shasum" : "490bab613ea255a9272b764826d3cc9d15170676"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.10_1527859228963_0.1420914458241611"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.3.0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.3.0.tgz",
+        "shasum" : "515141ec51c47b892def606dfc706e7708d4398a"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.3.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.3.0_1525440631574_0.9090882207179496"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.3.1" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.3.1.tgz",
+        "shasum" : "297113d09a9541613eaeb265d7f948c5e03eb0a2"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.3.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.3.1_1525716515596_0.41939578766631036"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.3.2" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.3.2.tgz",
+        "shasum" : "05e31f4ca23634a8232b4295889b38df9360bb5b"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.3.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.3.2_1525805203628_0.2523011735044651"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.5.0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.0.tgz",
+        "shasum" : "eb7fd42a8aa3a52bbe4775edd4fbb3acfe5f6b8c"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.0_1526316392790_0.8051112706125934"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.3.3" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.3.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.3.3.tgz",
+        "shasum" : "db6574b49f63c786cfe5ee25d70a9d51ab771335"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.3.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.3.3_1525852252838_0.6709718314959656"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.5.1" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.1.tgz",
+        "shasum" : "68f9e4a432b9e825f334db790dc037209c393a07"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.1_1526469849591_0.47775168725026784"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.0-0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.0-0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.0-0.tgz",
+        "shasum" : "c8b92b61dcada2103863647f614f30b4eae25111"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.0-0",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.0-0_1531918664629_0.37139210881751406"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.2" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.2.tgz",
+        "shasum" : "d5f00d743f71a6c4ef38377c0858120bff67d8cc"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.2_1526561380438_0.9190046727290695"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.0.tgz",
+        "shasum" : "506726112b7c2d8ab9dde4e7ad3fd00aa3e899b6"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.0",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.0_1532016029837_0.5872602843876673"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.3" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.3.tgz",
+        "shasum" : "ec47da8fdad47fa3275989c76edbb7e3d8442edc"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.3_1526900872657_0.9064513184703213"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.1" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.1.tgz",
+        "shasum" : "76efa0c830e8a78d73905b9908cad3f06520d8df"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.1",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.1_1532017880999_0.426826314809446"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.4" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.4",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.4.tgz",
+        "shasum" : "94c2ebf7f08d19e5083e9f33278c516c4bde98fe"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.4_1526907400475_0.8927942516239706"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.2" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.2.tgz",
+        "shasum" : "2e0a73a6ffa6c3c814ad2d807b4c4c0deb9d19c2"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.2",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.2_1532025189738_0.7822507691351921"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.9.0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.9.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.9.0.tgz",
+        "shasum" : "c05256b71244214671f4b08ec108ad63b70eddb8"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.4/node@v12.3.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "npm@sauleau.com"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.9.0",
+      "gitHead" : "0440b420888c1f7701eb9762ec657775506b87d8",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.9.0_1580599184437_0.07152456110580019"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "1.5.5" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.5",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.5.tgz",
+        "shasum" : "3aa9859514625ed09dd5e60bc54695e5f7a3c617"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.5_1527148893397_0.1873537046265108"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.3" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.3.tgz",
+        "shasum" : "4c758b409185733c6299dc025e244f9033faccc2"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.3",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.3_1532329334903_0.8301836538470604"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.6" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.6",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.6.tgz",
+        "shasum" : "6481ab9b3bcb3fc68cbf1e5f618cd8ac3d795c40"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.6_1527171638543_0.3787823995237545"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.4" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.4",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.4.tgz",
+        "shasum" : "cd6ee366897954f9d5adbc86b0a015fa6731e654"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.4",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.4_1532415716633_0.996621172951305"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.7" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.7",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.7.tgz",
+        "shasum" : "92efc1e1cd307087087f843e5919fb71e0b49a9d"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.7_1527252843158_0.37408751968403675"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.5" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.5",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.5.tgz",
+        "shasum" : "1544319fb6121c850bcd612af0593bc12f028dd8"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.5",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.5_1534431200853_0.1689670395045606"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.8" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.8",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.8.tgz",
+        "shasum" : "6169af3c9530cf9e89a8f3cf2970ed70e650ae4f"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.8_1527511709834_0.4078614562846723"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.6" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.6",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.6.tgz",
+        "shasum" : "ae1741c6f6121213c7a0b587fb964fac492d3e49"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.6",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.6_1536589026749_0.6518739924520318"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.9" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.5.9",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.9.tgz",
+        "shasum" : "8f996268eb07ee6728130a9e97fa3aac32772454"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.5.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.5.9_1527599574889_0.30751963734281174"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.7" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.7",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.7.tgz",
+        "shasum" : "4ebecc02fc190d57928cda1755c4c9a820be2304"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.7",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.7_1537335540650_0.023796161419656237"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.1-0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.1-0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.1-0.tgz",
+        "shasum" : "6bed552bb5453c68670b0239796445da3ce3e1ed"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.1-0",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.1-0_1531919334992_0.3967194013183639"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.7.8" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.8",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.8.tgz",
+        "shasum" : "fe4607430af466912797c21acafd3046080182ea"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.8",
+      "gitHead" : "43b83b600939b19c48c3c27a1733592c493c4386",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.8_1537515435774_0.49883886422223656"
+      }
+    },
+    "1.7.9" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.9",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.9.tgz",
+        "shasum" : "0fb1b377a19524417feef3f92180ee6f07e19135"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.9",
+      "gitHead" : "6c5bd6e21d734967e12bb7b7aaa38c80697b3b68",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.9_1539880953827_0.3846593622196559"
+      }
+    },
+    "1.7.11" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.11",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.11.tgz",
+        "shasum" : "df38882a624080d03f7503f93e3f17ac5ac01181"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.11",
+      "gitHead" : "4291990bfc4648bc6676091a955d12dc3c7e5909",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.11_1540922441956_0.19097985888947644"
+      }
+    },
+    "1.7.10" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.7.10",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.7.10.tgz",
+        "shasum" : "0915e7713fbbb735620a9d3e4fa3d7951f97ac64"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.7.10",
+      "gitHead" : "f558c6c047187f24a2200ab04104f173de226794",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.7.10_1540279863957_0.4635267558315097"
+      }
+    },
+    "1.2.2" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.2.2.tgz",
+        "shasum" : "1989979cdbb0ceafdef0e93b82d69868373022f1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.2.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.2.2_1522601067196_0.8900609941945434"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.4.0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.4.0.tgz",
+        "shasum" : "a9a31678fd04c8bfc6124e4e68cefd07971d2421"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.4.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.4.0_1525877881001_0.8743834574553719"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.2.3" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.2.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.2.3.tgz",
+        "shasum" : "79b0eecc7cb6385920d60b02e2bf60d1766a75e8"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.2.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.2.3_1523096802565_0.9598591544591333"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.4.1" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.4.1.tgz",
+        "shasum" : "b365a3afda50f472163b59c1f61bb83f60ff60b8"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.4.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.4.1_1525981455967_0.05401458515557156"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.2.4" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.2.4",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.2.4.tgz",
+        "shasum" : "b005591bf5000bbd5c397f8e91b6243eff0c4fb1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.2.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.2.4_1523615485973_0.5889998206745146"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.4.2" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.4.2.tgz",
+        "shasum" : "e41050282994b5be077b95b65b66ecd5a92c5e88"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.4.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.4.2_1526047957421_0.2806217151649366"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.6.0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.6.0.tgz",
+        "shasum" : "1bea1a6a40e44ee4c4ea725e89c42ffe129793fc"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.6.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.6.0_1531731886180_0.05181051150863514"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.2.5" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.2.5",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.2.5.tgz",
+        "shasum" : "84d48e6385400bd20343ead68b03ed0052835a27"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.2.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.2.5_1523639214499_0.27610560233591164"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.4.3" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.4.3",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.4.3.tgz",
+        "shasum" : "65a921db48fb43e868f17b27497870bdcae22b79"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.4.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.4.3_1526116840038_0.8219768323821284"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.6.1" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.6.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.6.1.tgz",
+        "shasum" : "5da2d503cd3ec1dc7d91a9c846758fc50e2b62aa"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.6.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.6.1_1531921806241_0.5171631646573536"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.2.6" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.2.6",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.2.6.tgz",
+        "shasum" : "81bed2548c5aa77ce6787f330a40716b0119ff53"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.2.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.2.6_1523978323314_0.48876328810424896"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.8.0" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.8.0",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.8.0.tgz",
+        "shasum" : "1c08cb1e43541f33efe5d05f8c30576bd77aac4f"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.8.0",
+      "gitHead" : "8b2d1afa793ea81f20ec63416134c201e39694eb",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.8.0_1544513045306_0.25711863985470385"
+      }
+    },
+    "1.2.7" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.2.7",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.2.7.tgz",
+        "shasum" : "c5c346a19195f854fcf698bba3d4608c9505985b"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.2.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.2.7_1525099368022_0.11346955174600293"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.8.1" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.8.1",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.8.1.tgz",
+        "shasum" : "e5dd0550c669af4899a68758a359709333855252"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.8.1",
+      "gitHead" : "a2f42245e9b597e3541e0f697253449d60fc4d79",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.8.1_1547540466244_0.8190003079446675"
+      }
+    },
+    "1.2.8" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.2.8",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.2.8.tgz",
+        "shasum" : "b6cc23dc62eefe06a50c55466825f068689ed950"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.2.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.2.8_1525281859088_0.4995293195530439"
+      },
+      "_nodeVersion" : "6.11.4"
+    },
+    "1.8.2" : {
+      "name" : "@webassemblyjs/helper-fsm",
+      "description" : "FSM implementation",
+      "version" : "1.8.2",
+      "author" : {
+        "name" : "Mauro Bringolf"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@webassemblyjs/helper-fsm/-/helper-fsm-1.8.2.tgz",
+        "shasum" : "7d1a8186c51df38d39e8a742aafdd002965d397c"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      },
+      "_id" : "@webassemblyjs/helper-fsm@1.8.2",
+      "gitHead" : "02af462b507aa7a24f5d3201178434b181bcdabb",
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-fsm_1.8.2_1550161285712_0.8555769289431343"
+      }
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "maintainers" : [ {
+    "name" : "xtuc",
+    "email" : "contact@xtuc.fr"
+  } ],
+  "author" : {
+    "name" : "Mauro Bringolf"
+  },
+  "time" : {
+    "1.8.3" : "2019-02-18T08:36:58.008Z",
+    "1.8.4" : "2019-02-19T17:26:58.631Z",
+    "1.8.5" : "2019-02-24T10:42:38.910Z",
+    "1.7.0-1" : "2018-07-18T14:58:55.515Z",
+    "1.7.0-2" : "2018-07-18T15:14:13.078Z",
+    "1.7.2-0" : "2018-07-19T18:09:28.202Z",
+    "1.7.0-3" : "2018-07-18T19:03:27.996Z",
+    "1.7.2-1" : "2018-07-19T18:24:06.760Z",
+    "modified" : "2020-02-01T23:19:46.925Z",
+    "created" : "2018-04-01T16:44:27.143Z",
+    "1.5.13" : "2018-06-30T13:44:17.243Z",
+    "1.5.11" : "2018-06-06T08:57:51.788Z",
+    "1.5.12" : "2018-06-07T09:24:57.257Z",
+    "1.5.10" : "2018-06-01T13:20:29.013Z",
+    "1.3.0" : "2018-05-04T13:30:31.669Z",
+    "1.3.1" : "2018-05-07T18:08:35.684Z",
+    "1.3.2" : "2018-05-08T18:46:43.718Z",
+    "1.5.0" : "2018-05-14T16:46:32.881Z",
+    "1.3.3" : "2018-05-09T07:50:53.001Z",
+    "1.5.1" : "2018-05-16T11:24:09.667Z",
+    "1.7.0-0" : "2018-07-18T12:57:50.655Z",
+    "1.5.2" : "2018-05-17T12:49:40.519Z",
+    "1.7.0" : "2018-07-19T16:00:30.092Z",
+    "1.5.3" : "2018-05-21T11:07:52.746Z",
+    "1.7.1" : "2018-07-19T16:31:21.074Z",
+    "1.5.4" : "2018-05-21T12:56:40.705Z",
+    "1.7.2" : "2018-07-19T18:33:09.812Z",
+    "1.9.0" : "2020-02-01T23:19:44.628Z",
+    "1.5.5" : "2018-05-24T08:01:33.511Z",
+    "1.7.3" : "2018-07-23T07:02:14.991Z",
+    "1.5.6" : "2018-05-24T14:20:38.586Z",
+    "1.7.4" : "2018-07-24T07:01:56.737Z",
+    "1.5.7" : "2018-05-25T12:54:03.230Z",
+    "1.7.5" : "2018-08-16T14:53:20.922Z",
+    "1.5.8" : "2018-05-28T12:48:29.887Z",
+    "1.7.6" : "2018-09-10T14:17:06.909Z",
+    "1.5.9" : "2018-05-29T13:12:54.942Z",
+    "1.7.7" : "2018-09-19T05:39:00.948Z",
+    "1.7.1-0" : "2018-07-18T13:08:55.068Z",
+    "1.7.8" : "2018-09-21T07:37:15.847Z",
+    "1.7.9" : "2018-10-18T16:42:34.007Z",
+    "1.7.11" : "2018-10-30T18:00:42.129Z",
+    "1.7.10" : "2018-10-23T07:31:04.071Z",
+    "1.2.2" : "2018-04-01T16:44:27.295Z",
+    "1.4.0" : "2018-05-09T14:58:01.050Z",
+    "1.2.3" : "2018-04-07T10:26:42.694Z",
+    "1.4.1" : "2018-05-10T19:44:16.016Z",
+    "1.2.4" : "2018-04-13T10:31:26.044Z",
+    "1.4.2" : "2018-05-11T14:12:37.477Z",
+    "1.6.0" : "2018-07-16T09:04:46.276Z",
+    "1.2.5" : "2018-04-13T17:06:54.567Z",
+    "1.4.3" : "2018-05-12T09:20:40.137Z",
+    "1.6.1" : "2018-07-18T13:50:06.324Z",
+    "1.2.6" : "2018-04-17T15:18:43.369Z",
+    "1.8.0" : "2018-12-11T07:24:05.459Z",
+    "1.2.7" : "2018-04-30T14:42:48.206Z",
+    "1.8.1" : "2019-01-15T08:21:06.327Z",
+    "1.2.8" : "2018-05-02T17:24:19.145Z",
+    "1.8.2" : "2019-02-14T16:21:25.901Z"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "ISC"
+}

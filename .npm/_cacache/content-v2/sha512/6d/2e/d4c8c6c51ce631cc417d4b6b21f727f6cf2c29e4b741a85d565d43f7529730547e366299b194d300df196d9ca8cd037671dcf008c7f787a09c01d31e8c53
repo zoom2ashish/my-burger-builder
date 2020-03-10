@@ -1,0 +1,1356 @@
+{
+  "_id" : "harmony-reflect",
+  "_rev" : "61-b7a3a14a7e1c62bfd1384b38801eb0b4",
+  "name" : "harmony-reflect",
+  "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+  "dist-tags" : {
+    "latest" : "1.6.1"
+  },
+  "versions" : {
+    "0.0.6" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.6",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.6.tgz",
+        "shasum" : "e07e2fe48c623e8ca874cbf5de75417644c970c6"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.6",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.7" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.7",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.7.tgz",
+        "shasum" : "53d3ecc0500a8d474be8d65459350b8c1b830496"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.7",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.4" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.4",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.4.tgz",
+        "shasum" : "c003093767398f7945fe562673ae3b44d4fe1b5f"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.4",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.5" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.5",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.5.tgz",
+        "shasum" : "9e4e30faae52a0b08681c36f5a94e949675b0c06"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.8" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.8",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.8.tgz",
+        "shasum" : "48470150c04bdb2255e92d787b3be83a2361d39b"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.8",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.9" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.9",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.9.tgz",
+        "shasum" : "a6740de9bf5f831922ad6da25069aa16e8490b16"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.9",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.2" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.2",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.2.tgz",
+        "shasum" : "d22249bce892a60de57e18de35934345ecb44d8a"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.3" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.3",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.3.tgz",
+        "shasum" : "44b8afba047ec3268160bad4f9bed5a7ccbfa53b"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.3",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.1" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.1",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.1.tgz",
+        "shasum" : "eff776c2c47350a351a7baac67bfa9712bb129b0"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.13" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.13",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.13.tgz",
+        "shasum" : "6f4bc9dd4da495d08cc223886b0a3dc4af33e2ac"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.13"
+    },
+    "0.0.12" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.12",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.12.tgz",
+        "shasum" : "55280b1a34cfeadb0f14b59275225e068740e338"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.12"
+    },
+    "0.0.11" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.11",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.11.tgz",
+        "shasum" : "b00d263074dc4315714de3be96d3f624f35852bc"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.11",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "0.0.10" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "0.0.10",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/tvcutsem/harmony-reflect.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-0.0.10.tgz",
+        "shasum" : "8fc34ec178213bc976b17e74da4fb80c5151dd4e"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@0.0.10",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.8"
+    },
+    "1.1.2" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.1.2",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.1.2.tgz",
+        "shasum" : "6678fe2df1443558b0f0fd016fb2844f118b6e4e"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.1.2",
+      "_shasum" : "6678fe2df1443558b0f0fd016fb2844f118b6e4e"
+    },
+    "1.2.1" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.2.1",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.2.1.tgz",
+        "shasum" : "3ff9f6dfd171ead74c66ba743a921536ea71d163"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.2.1",
+      "_shasum" : "3ff9f6dfd171ead74c66ba743a921536ea71d163"
+    },
+    "1.3.0" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.3.0",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.3.0.tgz",
+        "shasum" : "56e04d5a92c94d679af400b1e5d440c4241687ae"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.3.0",
+      "_shasum" : "56e04d5a92c94d679af400b1e5d440c4241687ae"
+    },
+    "1.1.3" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.1.3",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.1.3.tgz",
+        "shasum" : "f0e6d345c5f28f5e3e13b9450ee8a4aa5e959053"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.1.3",
+      "_shasum" : "f0e6d345c5f28f5e3e13b9450ee8a4aa5e959053"
+    },
+    "1.3.1" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.3.1",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.3.1.tgz",
+        "shasum" : "5f3f7b2ba9fdb10aa1107f99a34c01cb6b68c13c"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.3.1",
+      "_shasum" : "5f3f7b2ba9fdb10aa1107f99a34c01cb6b68c13c",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "0.12.4"
+    },
+    "1.4.0" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.4.0",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.4.0.tgz",
+        "shasum" : "c1bf930e2556200986ed7e3c5f11e5b6d8ded3fa"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.4.0",
+      "_shasum" : "c1bf930e2556200986ed7e3c5f11e5b6d8ded3fa",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "0.12.4"
+    },
+    "1.4.1" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.4.1",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.4.1.tgz",
+        "shasum" : "5c31df3665ea1b20b11214787f932b367cc6fdaf"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.4.1",
+      "_shasum" : "5c31df3665ea1b20b11214787f932b367cc6fdaf",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "0.12.4"
+    },
+    "1.5.0" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.5.0",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.5.0.tgz",
+        "shasum" : "fbcc7c6ba2ddb5ea94da23934d677bb020a4187c"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.5.0",
+      "typings" : "index",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/harmony-reflect-1.5.0.tgz_1471468930528_0.3350860464852303"
+      },
+      "_shasum" : "fbcc7c6ba2ddb5ea94da23934d677bb020a4187c",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "4.5.0"
+    },
+    "1.4.2" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.4.2",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.4.2.tgz",
+        "shasum" : "5cb75a416887444e72994b1b40efd8ecf913566b"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.4.2",
+      "_shasum" : "5cb75a416887444e72994b1b40efd8ecf913566b",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "0.12.4"
+    },
+    "1.5.1" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.5.1",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.5.1.tgz",
+        "shasum" : "b54ca617b00cc8aef559bbb17b3d85431dc7e329"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "license" : "(Apache-2.0 OR MPL-1.1)",
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.5.1",
+      "typings" : "index",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/harmony-reflect-1.5.1.tgz_1482515884355_0.5361467180773616"
+      },
+      "_shasum" : "b54ca617b00cc8aef559bbb17b3d85431dc7e329",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "4.5.0"
+    },
+    "1.6.0" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.6.0",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.6.0.tgz",
+        "shasum" : "9c28a77386ec225f7b5d370f9861ba09c4eea58f"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "license" : "(Apache-2.0 OR MPL-1.1)",
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.6.0",
+      "typings" : "index",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/harmony-reflect_1.6.0_1519336807719_0.895324247649389"
+      },
+      "_nodeVersion" : "8.9.0"
+    },
+    "1.4.3" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.4.3",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.4.3.tgz",
+        "shasum" : "db503d027d993d2ab91f13be16dfb100a6fa85c8"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "3.7.3",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.4.3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/harmony-reflect-1.4.3.tgz_1458255126463_0.3439516592770815"
+      },
+      "_shasum" : "db503d027d993d2ab91f13be16dfb100a6fa85c8",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "5.9.0"
+    },
+    "1.6.1" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.6.1",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.6.1.tgz",
+        "shasum" : "c108d4f2bb451efef7a37861fdbdae72c9bdefa9"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "license" : "(Apache-2.0 OR MPL-1.1)",
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "6.0.1",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.6.1",
+      "typings" : "index",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/harmony-reflect_1.6.1_1537302156563_0.7981342000922833"
+      },
+      "_nodeVersion" : "8.9.0"
+    },
+    "1.4.4" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.4.4",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.4.4.tgz",
+        "shasum" : "7abb109183ba577f4b14f8574e98c8b38f97f9ad"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "3.7.3",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.4.4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-13-west.internal.npmjs.com",
+        "tmp" : "tmp/harmony-reflect-1.4.4.tgz_1458342592047_0.6345522254705429"
+      },
+      "_shasum" : "7abb109183ba577f4b14f8574e98c8b38f97f9ad",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "5.9.0"
+    },
+    "1.4.5" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.4.5",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.4.5.tgz",
+        "shasum" : "a762be580997f2958e8dc61169a056b269e53bdc"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "3.7.3",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.4.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/harmony-reflect-1.4.5.tgz_1459891193474_0.1087239752523601"
+      },
+      "_shasum" : "a762be580997f2958e8dc61169a056b269e53bdc",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "5.9.0"
+    },
+    "1.4.6" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.4.6",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.4.6.tgz",
+        "shasum" : "f67afe588486b138aef4184e5885af962a9b2531"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "3.7.3",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.4.6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/harmony-reflect-1.4.6.tgz_1461095083182_0.029683930333703756"
+      },
+      "_shasum" : "f67afe588486b138aef4184e5885af962a9b2531",
+      "_resolved" : "file:reflect",
+      "_nodeVersion" : "5.9.0"
+    },
+    "1.0.0" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 Shim for proposed ECMAScript 6 reflection API",
+      "version" : "1.0.0",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.0.0.tgz",
+        "shasum" : "a35d259e93a7725adee551794e26078984928334"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.0.0"
+    },
+    "1.0.1" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.0.1",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.0.1.tgz",
+        "shasum" : "44b27e3fa7bc8ec0743c2e4121c6f87a0429186d"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.0.1"
+    },
+    "1.1.0" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.1.0",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.1.0.tgz",
+        "shasum" : "ea22ffeae2b73085a4e73c36370729969f266529"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.1.0"
+    },
+    "1.1.1" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.1.1",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.1.1.tgz",
+        "shasum" : "a929ccbfaaeb4ee2a3997b9acc06fc95790195ae"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.1.1",
+      "_shasum" : "a929ccbfaaeb4ee2a3997b9acc06fc95790195ae"
+    },
+    "1.2.0" : {
+      "name" : "harmony-reflect",
+      "description" : "ES5 shim for ES6 (ECMAScript 6) Reflect and Proxy objects",
+      "version" : "1.2.0",
+      "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+      },
+      "main" : "reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/harmony-reflect/-/harmony-reflect-1.2.0.tgz",
+        "shasum" : "92506d2f3b168ea903ba90ea208800b4d0521c97"
+      },
+      "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+      "maintainers" : [ {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "reflect",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "tvcutsem",
+        "email" : "tvcutsem@gmail.com"
+      },
+      "_id" : "harmony-reflect@1.2.0",
+      "_shasum" : "92506d2f3b168ea903ba90ea208800b4d0521c97"
+    }
+  },
+  "readme" : "[![NPM version](https://badge.fury.io/js/harmony-reflect.svg)](http://badge.fury.io/js/harmony-reflect) [![Dependencies](https://david-dm.org/tvcutsem/harmony-reflect.png)](https://david-dm.org/tvcutsem/harmony-reflect)\n\nThis is a shim for the ECMAScript 6 [Reflect](http://www.ecma-international.org/ecma-262/6.0/#sec-reflect-object) and [Proxy](http://www.ecma-international.org/ecma-262/6.0/#sec-proxy-objects) objects.\n\nThis library does two things:\n\n  - It defines an ES6-compliant `Reflect` global object that exports the ECMAScript 6 reflection API.\n  - If harmony-era (pre-ES6) `Proxy` support is available, it patches `Proxy` to be up-to-date with the [ES6 spec](http://www.ecma-international.org/ecma-262/6.0/).\n\n**July 2016 update**: the most recent version of all major browsers and node.js now [support fully\nES6-compliant](http://kangax.github.io/compat-table/es6/#test-Proxy) `Reflect` and `Proxy` objects. This shim is primarily useful if you want ES6 `Reflect`\nsupport on older browsers or versions of node.js < v6.0.0, or if you want\nES6 `Proxy` support on versions of node.js < v6.0.0.\n\n**May 2016 update**: the recently released [V8 v4.9](http://v8project.blogspot.com.au/2016/01/v8-release-49.html) includes native support for ES2015 Proxies and Reflect, making this library obsolete for environments that embed V8 4.9 or newer (like Chrome 49 and Node v6.0). Node v5.10.x or lower still requires this polyfill for proper ES6 Proxy support.\n\nRead [Why should I use this library?](https://github.com/tvcutsem/harmony-reflect/wiki)\n\nInstallation\n============\n\nFor node.js, install via [npm](http://npmjs.org):\n\n    npm install harmony-reflect\n\nThen:\n\n    node --harmony-proxies\n    > var Reflect = require('harmony-reflect');\n\nSee [release notes](https://github.com/tvcutsem/harmony-reflect/blob/master/RELNOTES.md) for changes to the npm releases.\n\nTo use in a browser, just download the single reflect.js file. After loading\n\n    <script src=\"reflect.js\"></script>\n\na global object `Reflect` is defined that contains reflection methods as defined in the [ES6 spec](http://www.ecma-international.org/ecma-262/6.0/#sec-reflect-object).\n\nThis library also updates the \"harmony-era\" `Proxy` object in the V8 engine\n(also used in node.js) to follow the latest [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/) spec.\nTo create such a proxy, call:\n\n    var proxy = new Proxy(target, handler);\n\nSee below for a list of spec incompatibilities and other gotcha's.\n\nAPI Docs\n========\n\nThis module exports an object named `Reflect` and updates the global `Proxy` object (if it exists) to be compatible with the latest ECMAScript 6 spec.\n\nThe ECMAScript 6 Proxy API allows one to intercept various operations on Javascript objects.\n\n  * Overview of all [supported traps](https://github.com/tvcutsem/harmony-reflect/tree/master/doc/traps.md) on proxies\n  * The [Reflect API](https://github.com/tvcutsem/harmony-reflect/tree/master/doc/api.md) \n  * The Proxy [Handler API](https://github.com/tvcutsem/harmony-reflect/tree/master/doc/handler_api.md)\n  \nCompatibility\n=============\n\nThe `Reflect` API, with support for proxies, was tested on:\n\n  * Firefox (>= v4.0)\n  * `node --harmony_proxies` (>= v0.7.8)\n  * `iojs --harmony_proxies` (>= 2.3.0)\n  * `v8 --harmony_proxies` (>= v3.6)\n  * Any recent `js` spidermonkey shell\n\nIf you need only `Reflect` and not an up-to-date `Proxy` object, this\nlibrary should work on any modern ES5 engine (including all browsers).\n\nCompatibility notes:\n\n  * Chrome (>= v19 && <= v37) used to support proxies behind a flag\n    (`chrome://flags/#enable-javascript-harmony`) but Chrome v38  [removed](https://code.google.com/p/v8/issues/detail?id=1543#c44) the `Proxy` constructor. As a result, this library cannot patch the harmony-era `Proxy` object on Chrome v38 or above. If you're working with Chromium directly, it's still possible to enable proxies using `chromium-browser --js-flags=\"--harmony_proxies\"`.\n  * In older versions of V8, the `Proxy` constructor was enabled by\n    default when starting V8 with `--harmony`. For recent versions of V8,\n    `Proxy` must be explicitly enabled with `--harmony_proxies`.\n\nDependencies\n============\n\n  *  ECMAScript 5/strict\n  *  To emulate direct proxies:\n    *  old Harmony [Proxies](http://wiki.ecmascript.org/doku.php?id=harmony:proxies)\n    *  Harmony [WeakMaps](http://wiki.ecmascript.org/doku.php?id=harmony:weak_maps)\n\nAfter loading `reflect.js` into your page or other JS environment, be aware that the following globals are patched to be able to recognize emulated direct proxies:\n\n    Object.getOwnPropertyDescriptor\n    Object.defineProperty\n    Object.defineProperties\n    Object.getOwnPropertyNames\n    Object.getOwnPropertySymbols\n    Object.keys\n    Object.{get,set}PrototypeOf\n    Object.assign\n    Object.{freeze,seal,preventExtensions}\n    Object.{isFrozen,isSealed,isExtensible}\n    Object.prototype.valueOf\n    Object.prototype.isPrototypeOf\n    Object.prototype.toString\n    Object.prototype.hasOwnProperty\n    Function.prototype.toString\n    Date.prototype.toString\n    Array.isArray\n    Array.prototype.concat\n    Proxy\n    Reflect\n\n:warning: In node.js, when you `require('harmony-reflect')`, only the current\nmodule's globals are patched. If you pass an emulated direct proxy to an external module, and that module uses the unpatched globals, the module may not interact with the proxy according to the latest ES6 Proxy API, instead falling\nback on the old pre-ES6 Proxy API. This can cause bugs, e.g. the built-in `Array.isArray` will return `false` when passed a proxy-for-array, while the\npatched `Array.isArray` will return true. I know of no good fix to reliably patch the globals for all node modules. If you do, let me know.\n\nExamples\n========\n\nThe [examples](https://github.com/tvcutsem/harmony-reflect/tree/master/examples) directory contains a number of examples demonstrating the use of proxies:\n\n  * membranes: wrappers that transitively isolate two object-graphs.\n  * observer: a self-hosted implementation of the ES7 `Object.observe` notification mechanism.\n  * profiler: a simple profiler to collect usage statistics of an object.\n\nOther example uses of proxies (not done by me, but using this library):\n\n  * supporting [negative array indices](https://github.com/sindresorhus/negative-array) a la Python\n  * [tpyo](https://github.com/mathiasbynens/tpyo): using proxies to correct typo's in JS property names\n  * [persistent objects](http://tagtree.tv/es6-proxies): shows how one might go about using proxies to save updates to objects in a database incrementally\n  * [defaultdict](https://github.com/greenify/defaultdict2): default values for new keys in objects (as known from Python)\n\nFor more examples of proxies, and a good overview of their design rationale, I recommend reading [Axel Rauschmayer's blog post on proxies](http://www.2ality.com/2014/12/es6-proxies.html).\n\nProxy Handler API\n=================\n\nThe sister project [proxy-handlers](https://github.com/tvcutsem/proxy-handlers)\ndefines a number of predefined Proxy handlers as \"abstract classes\" that your \ncode can \"subclass\" The goal is to minimize the number of traps that your proxy\nhandlers must implement.\n\nSpec Incompatibilities and other gotcha's\n=========================================\n\nThis library differs from the [ECMAScript 2016 spec](http://www.ecma-international.org/ecma-262/7.0/index.html) as follows:\n\n  * In ES7, the `enumerate()` trap, and the corresponding `Reflect.enumerate()` method, have been [removed](https://github.com/tc39/ecma262/issues/161).\n    This shim still supports the trap.\n  * The ES7 (and ES6) spec contains a \n    [bug](https://github.com/tc39/ecma262/pull/666) that leads to missing\n    invariant checks in the getOwnPropertyDescriptor, defineProperty and deleteProperty traps. This library already contains the patch referred\n    to in [this issue](https://github.com/tc39/ecma262/pull/666).\n\nThis library differs from the [ECMAScript 2015 spec](http://www.ecma-international.org/ecma-262/6.0/) as follows:\n\n  * In ES6, `Proxy` is a constructor function that _requires_ the use\n    of `new`. That is, you must write `new Proxy(target, handler)`. This library\n    exports `Proxy` as an ordinary function which may be called with or without using the `new` operator.\n    \n  * In ES6, `Function.prototype.toString` and `Date.prototype.toString` do not\n    operate transparently on Proxies. This shim patches those functions so that\n    stringifying a Proxy-for-a-function or a Proxy-for-a-date \"unwraps\" the\n    proxy and instead stringifies the target of the Proxy. This behavior may\n    change in the future to be more spec-compatible.\n    \n  * This library does not shim [Symbol objects](http://www.ecma-international.org/ecma-262/6.0/#sec-symbol-objects).\n    On modern V8 or io.js which supports Symbol objects natively, due to a bug in V8, Symbols and Proxies\n    don't play well together. [Read more](https://github.com/tvcutsem/harmony-reflect/issues/57).\n  \n  * Proxies-for-arrays are serialized as JSON objects rather than as JSON arrays. That is, `JSON.stringify(new Proxy([], {}))` returns \"{}\" rather than \"[]\". [Read more]( https://github.com/tvcutsem/harmony-reflect/issues/13#issuecomment-17249465).\n",
+  "maintainers" : [ {
+    "name" : "tvcutsem",
+    "email" : "tvcutsem@gmail.com"
+  } ],
+  "time" : {
+    "0.0.6" : "2013-06-26T07:06:48.495Z",
+    "0.0.7" : "2013-07-24T18:01:35.486Z",
+    "0.0.4" : "2013-01-01T12:05:00.060Z",
+    "0.0.5" : "2013-06-21T16:46:24.139Z",
+    "0.0.8" : "2013-07-29T14:09:17.502Z",
+    "0.0.9" : "2013-07-29T14:28:55.993Z",
+    "0.0.2" : "2012-07-25T15:22:02.691Z",
+    "0.0.3" : "2012-10-05T17:00:07.949Z",
+    "0.0.1" : "2012-05-28T14:45:54.680Z",
+    "modified" : "2019-01-04T02:38:45.114Z",
+    "0.0.13" : "2014-04-06T11:09:46.342Z",
+    "0.0.12" : "2014-03-11T20:11:18.824Z",
+    "0.0.11" : "2013-11-15T13:27:12.255Z",
+    "0.0.10" : "2013-11-09T19:14:04.027Z",
+    "created" : "2012-05-28T14:45:52.102Z",
+    "1.1.2" : "2015-03-13T19:58:27.155Z",
+    "1.2.1" : "2015-05-20T19:12:57.811Z",
+    "1.3.0" : "2015-05-28T18:28:23.327Z",
+    "1.1.3" : "2015-04-24T18:39:08.252Z",
+    "1.3.1" : "2015-06-21T18:21:28.597Z",
+    "1.4.0" : "2015-07-02T19:31:46.437Z",
+    "1.4.1" : "2015-08-30T15:38:03.523Z",
+    "1.5.0" : "2016-08-17T21:22:11.364Z",
+    "1.4.2" : "2015-08-30T15:40:37.446Z",
+    "1.5.1" : "2016-12-23T17:58:04.954Z",
+    "1.6.0" : "2018-02-22T22:00:07.785Z",
+    "1.4.3" : "2016-03-17T22:52:08.963Z",
+    "1.6.1" : "2018-09-18T20:22:36.701Z",
+    "1.4.4" : "2016-03-18T23:09:54.274Z",
+    "1.4.5" : "2016-04-05T21:19:56.035Z",
+    "1.4.6" : "2016-04-19T19:44:44.545Z",
+    "1.0.0" : "2014-06-03T23:36:51.947Z",
+    "1.0.1" : "2014-07-07T19:24:57.603Z",
+    "1.1.0" : "2014-08-29T21:40:11.135Z",
+    "1.1.1" : "2014-11-14T19:44:45.716Z",
+    "1.2.0" : "2015-05-11T20:30:00.295Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://tvcutsem@github.com/tvcutsem/harmony-reflect.git"
+  },
+  "users" : {
+    "fgribreau" : true,
+    "mojaray2k" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/tvcutsem/harmony-reflect",
+  "keywords" : [ "reflection", "proxies", "proxy", "reflect", "harmony", "es6" ],
+  "bugs" : {
+    "url" : "https://github.com/tvcutsem/harmony-reflect/issues"
+  },
+  "license" : "(Apache-2.0 OR MPL-1.1)"
+}

@@ -1,0 +1,491 @@
+{
+  "_id" : "minipass-pipeline",
+  "_rev" : "8-2356f8534b21b211b5a0435fd92889d1",
+  "name" : "minipass-pipeline",
+  "description" : "create a pipeline of streams using Minipass",
+  "dist-tags" : {
+    "latest" : "1.2.2"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.1.2.tgz",
+        "shasum" : "a512314bb6d0dfda9ada7a7fa8d0c4350e92c777"
+      },
+      "dependencies" : {
+        "minipass" : "^2.6.4"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.1.2",
+      "gitHead" : "2da24aa62b269fb1222c37264e838b277d2636fd",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.1.2_1568743124474_0.961835933433367"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.2.1" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.2.1.tgz",
+        "shasum" : "6e195376fc77fc2eeb7b8476abf7fbad03d76c0a"
+      },
+      "dependencies" : {
+        "minipass" : "^2.8.1"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.2.1",
+      "gitHead" : "77e5f5aa5838276304704e94968be8feb2f508e0",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.2.1_1569535714410_0.1572588842185374"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.2.2" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.2.2.tgz",
+        "shasum" : "3dcb6bb4a546e32969c7ad710f2c79a86abba93a"
+      },
+      "dependencies" : {
+        "minipass" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.12.0-next.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.2.2",
+      "gitHead" : "c1b660ea62856d8bbd909618f5a3c3d51e29e69b",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.2.2_1569875472039_0.7006548968085411"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.0.0" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.0.0.tgz",
+        "shasum" : "ece3e2e5d7f5ad491dec574a129142cc36f1e412"
+      },
+      "dependencies" : {
+        "minipass" : "^2.5.1"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.0.0",
+      "gitHead" : "10b99438561e951c77c1de5c8db21c98f7a65fb9",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.0.0_1568574065849_0.30209719667411505"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.0.1" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.0.1.tgz",
+        "shasum" : "fc0c6541344240b934fef208bb1b77cd1cc6e38e"
+      },
+      "dependencies" : {
+        "minipass" : "^2.5.1"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.0.1",
+      "gitHead" : "a09e496ae067b2e6dda70856781d45e3061decbc",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.0.1_1568574157403_0.714825340197901"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.1.0" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.1.0.tgz",
+        "shasum" : "e083f770eeb72c91f1a01cdb4583600fa0e13a5a"
+      },
+      "dependencies" : {
+        "minipass" : "^2.5.1"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.1.0",
+      "gitHead" : "655ccde17a437b5c81fcb88da2719486bd72a647",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.1.0_1568655008365_0.6314883608636239"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.0.2" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.0.2.tgz",
+        "shasum" : "b2a048ca8e1c83c7a589fff717ce7fd93df4d196"
+      },
+      "dependencies" : {
+        "minipass" : "^2.5.1"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.0.2",
+      "gitHead" : "02bff4b5c71eea685332b3a6862a076f0af81ead",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.0.2_1568587851090_0.44701914889353933"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.1.1" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.1.1.tgz",
+        "shasum" : "4a6bf94fb413db2f8bdd4148f26be01c70b565b4"
+      },
+      "dependencies" : {
+        "minipass" : "^2.6.2"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.1.1",
+      "gitHead" : "8f44f9c3bb61a0ece24625af45af41dfce7c4046",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.1.1_1568671865335_0.16809702383379"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.2.0" : {
+      "name" : "minipass-pipeline",
+      "description" : "create a pipeline of streams using Minipass",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "https://izs.me"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/minipass-pipeline/-/minipass-pipeline-1.2.0.tgz",
+        "shasum" : "deb473f0e72c8ef72cc712433cc921e52d8e6ee2"
+      },
+      "dependencies" : {
+        "minipass" : "^2.8.1"
+      },
+      "devDependencies" : {
+        "tap" : "^14.6.4"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "snap" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "minipass-pipeline@1.2.0",
+      "gitHead" : "2d8946e37a118bdd6d3245e6479d1126d62dee3b",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/minipass-pipeline_1.2.0_1569197152632_0.2116339232394817"
+      },
+      "_nodeVersion" : "12.8.1"
+    }
+  },
+  "readme" : "# minipass-pipeline\n\nCreate a pipeline of streams using Minipass.\n\nCalls `.pipe()` on all the streams in the list.  Returns a stream where\nwrites got to the first pipe in the chain, and reads are from the last.\n\nErrors are proxied along the chain and emitted on the Pipeline stream.\n\n## USAGE\n\n```js\nconst Pipeline = require('minipass-pipeline')\n\n// the list of streams to pipeline together,\n// a bit like `input | transform | output` in bash\nconst p = new Pipeline(input, transform, output)\n\np.write('foo') // writes to input\np.on('data', chunk => doSomething()) // reads from output stream\n\n// less contrived example (but still pretty contrived)...\nconst decode = new bunzipDecoder()\nconst unpack = tar.extract({ cwd: 'target-dir' })\nconst tbz = new Pipeline(decode, unpack)\n\nfs.createReadStream('archive.tbz').pipe(tbz)\n\n// specify any minipass options if you like, as the first argument\n// it'll only try to pipeline event emitters with a .pipe() method\nconst p = new Pipeline({ objectMode: true }, input, transform, output)\n\n// If you don't know the things to pipe in right away, that's fine.\n// use p.push(stream) to add to the end, or p.unshift(stream) to the front\nconst databaseDecoderStreamDoohickey = (connectionInfo) => {\n  const p = new Pipeline()\n  logIntoDatabase(connectionInfo).then(connection => {\n    initializeDecoderRing(connectionInfo).then(decoderRing => {\n      p.push(connection, decoderRing)\n      getUpstreamSource(upstream => {\n        p.unshift(upstream)\n      })\n    })\n  })\n  // return to caller right away\n  // emitted data will be upstream -> connection -> decoderRing pipeline\n  return p\n}\n```\n\nPipeline is a [minipass](http://npm.im/minipass) stream, so it's as\nsynchronous as the streams it wraps.  It will buffer data until there is a\nreader, but no longer, so make sure to attach your listeners before you\npipe it somewhere else.\n\n## `new Pipeline(opts = {}, ...streams)`\n\nCreate a new Pipeline with the specified Minipass options and any streams\nprovided.\n\n## `pipeline.push(stream, ...)`\n\nAttach one or more streams to the pipeline at the end (read) side of the\npipe chain.\n\n## `pipeline.unshift(stream, ...)`\n\nAttach one or more streams to the pipeline at the start (write) side of the\npipe chain.\n",
+  "maintainers" : [ {
+    "name" : "isaacs",
+    "email" : "i@izs.me"
+  } ],
+  "author" : {
+    "name" : "Isaac Z. Schlueter",
+    "email" : "i@izs.me",
+    "url" : "https://izs.me"
+  },
+  "time" : {
+    "1.1.2" : "2019-09-17T17:58:44.607Z",
+    "1.2.1" : "2019-09-26T22:08:34.556Z",
+    "1.2.2" : "2019-09-30T20:31:12.189Z",
+    "created" : "2019-09-15T19:01:05.848Z",
+    "modified" : "2019-09-30T20:31:14.703Z",
+    "1.0.0" : "2019-09-15T19:01:05.991Z",
+    "1.0.1" : "2019-09-15T19:02:37.529Z",
+    "1.1.0" : "2019-09-16T17:30:08.487Z",
+    "1.0.2" : "2019-09-15T22:50:51.222Z",
+    "1.1.1" : "2019-09-16T22:11:05.456Z",
+    "1.2.0" : "2019-09-23T00:05:52.807Z"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "ISC"
+}

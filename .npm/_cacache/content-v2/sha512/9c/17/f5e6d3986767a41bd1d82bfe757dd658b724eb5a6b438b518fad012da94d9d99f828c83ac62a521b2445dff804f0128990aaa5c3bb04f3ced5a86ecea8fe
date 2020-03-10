@@ -1,0 +1,577 @@
+{
+  "_id" : "chownr",
+  "_rev" : "16-9250fdf304ab489329b0b10a8ff780b7",
+  "name" : "chownr",
+  "description" : "like `chown -R`",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-1.1.2.tgz",
+        "shasum" : "a18f1e0b269c8a6a5d3c86eb298beb14c3dd7bf6"
+      },
+      "devDependencies" : {
+        "mkdirp" : "0.3",
+        "rimraf" : "",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --cov",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.10.1-next.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "chownr@1.1.2",
+      "gitHead" : "cf3b27b5723045b01f7bbe68a874423d978683f7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/chownr_1.1.2_1562189571355_0.8148922644594261"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "2.0.0" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-2.0.0.tgz",
+        "shasum" : "15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
+      },
+      "devDependencies" : {
+        "mkdirp" : "0.3",
+        "rimraf" : "^2.7.1",
+        "tap" : "^14.10.6"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "prepublishOnly" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "chownr@2.0.0",
+      "gitHead" : "f9f9d866bebb2f9ff8efc93b78305f9d999c6f17",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/chownr_2.0.0_1581474787748_0.7116861792550564"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "1.1.3" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-1.1.3.tgz",
+        "shasum" : "42d837d5239688d55f303003a508230fa6727142"
+      },
+      "devDependencies" : {
+        "mkdirp" : "0.3",
+        "rimraf" : "",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --cov",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "chownr@1.1.3",
+      "gitHead" : "deaa058afe2a04c6528965a218ece1226a9ee2ae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/chownr_1.1.3_1569390549998_0.778423331031457"
+      },
+      "_nodeVersion" : "12.8.1"
+    },
+    "1.1.4" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-1.1.4.tgz",
+        "shasum" : "6fc9d7b42d32a583596337666e7d08084da2cc6b"
+      },
+      "devDependencies" : {
+        "mkdirp" : "0.3",
+        "rimraf" : "^2.7.1",
+        "tap" : "^14.10.6"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "prepublishOnly" : "git push origin --follow-tags"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "chownr@1.1.4",
+      "gitHead" : "814f6422241dcc1bbb324fa29cd6d9f6dc2141ae",
+      "tap" : {
+        "check-coverage" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/chownr_1.1.4_1581474654243_0.7221239722665642"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "0.0.2" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-0.0.2.tgz",
+        "shasum" : "2f9aebf746f90808ce00607b72ba73b41604c485"
+      },
+      "devDependencies" : {
+        "tap" : "0.2",
+        "mkdirp" : "0.3",
+        "rimraf" : ""
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "isaacs@npmjs.com"
+      },
+      "_id" : "chownr@0.0.2",
+      "gitHead" : "3cafeb70b2c343e893f710750406b3909ec537cb",
+      "_shasum" : "2f9aebf746f90808ce00607b72ba73b41604c485",
+      "_nodeVersion" : "2.0.1"
+    },
+    "1.0.0" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-1.0.0.tgz",
+        "shasum" : "02855833d20515cf2681c717d686bb8c1f3ea91a"
+      },
+      "devDependencies" : {
+        "mkdirp" : "0.3",
+        "rimraf" : "",
+        "tap" : "^1.2.0"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.2.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "isaacs@npmjs.com"
+      },
+      "_id" : "chownr@1.0.0",
+      "gitHead" : "4f72743895927db8108dbf3d5462c667db22ebce",
+      "_shasum" : "02855833d20515cf2681c717d686bb8c1f3ea91a",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.0.1" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-1.0.1.tgz",
+        "shasum" : "e2a75042a9551908bebd25b8523d5f9769d79181"
+      },
+      "devDependencies" : {
+        "mkdirp" : "0.3",
+        "rimraf" : "",
+        "tap" : "^1.2.0"
+      },
+      "license" : "ISC",
+      "files" : [ "chownr.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.2.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "isaacs@npmjs.com"
+      },
+      "_id" : "chownr@1.0.1",
+      "gitHead" : "c6c43844e80d7c7045e737a72b9fbb1ba0579a26",
+      "_shasum" : "e2a75042a9551908bebd25b8523d5f9769d79181",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.1.0" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-1.1.0.tgz",
+        "shasum" : "17405cadd8706bc41f017b564bb2de460381e7d1"
+      },
+      "devDependencies" : {
+        "mkdirp" : "0.3",
+        "rimraf" : "",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --cov",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "chownr@1.1.0",
+      "gitHead" : "76c21fad5b9e518b3dba16a1bd53bd6f5f2c2e5c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/chownr_1.1.0_1537057399049_0.3682169782824076"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "0.0.1" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-0.0.1.tgz",
+        "shasum" : "51d18189d9092d5f8afd623f3288bfd1c6bf1a62"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "tap" : "0.2",
+        "mkdirp" : "0.3",
+        "rimraf" : ""
+      },
+      "license" : "BSD",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js"
+      },
+      "_npmVersion" : "1.1.23",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "chownr@0.0.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.7.10-pre"
+    },
+    "1.1.1" : {
+      "name" : "chownr",
+      "description" : "like `chown -R`",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/chownr#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/chownr.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/chownr/issues"
+      },
+      "main" : "chownr.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/chownr/-/chownr-1.1.1.tgz",
+        "shasum" : "54726b8b8fff4df053c42187e801fb4412df1494"
+      },
+      "devDependencies" : {
+        "mkdirp" : "0.3",
+        "rimraf" : "",
+        "tap" : "^12.0.1"
+      },
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap test/*.js --cov",
+        "preversion" : "npm test",
+        "postversion" : "npm publish",
+        "postpublish" : "git push origin --all; git push origin --tags"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "chownr@1.1.1",
+      "gitHead" : "7a5c3d57c3691eebb9c66fa00fa6003d02ef9440",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/chownr_1.1.1_1537067648822_0.8733677031057796"
+      },
+      "_nodeVersion" : "10.10.0"
+    }
+  },
+  "readme" : "Like `chown -R`.\n\nTakes the same arguments as `fs.chown()`\n",
+  "maintainers" : [ {
+    "name" : "isaacs",
+    "email" : "i@izs.me"
+  } ],
+  "author" : {
+    "name" : "Isaac Z. Schlueter",
+    "email" : "i@izs.me",
+    "url" : "http://blog.izs.me/"
+  },
+  "time" : {
+    "1.1.2" : "2019-07-03T21:32:51.511Z",
+    "2.0.0" : "2020-02-12T02:33:07.865Z",
+    "1.1.3" : "2019-09-25T05:49:10.172Z",
+    "1.1.4" : "2020-02-12T02:30:54.444Z",
+    "created" : "2012-06-04T04:01:25.807Z",
+    "modified" : "2020-02-12T02:33:10.215Z",
+    "0.0.2" : "2015-05-20T07:04:02.130Z",
+    "1.0.0" : "2015-08-09T22:22:45.361Z",
+    "1.0.1" : "2015-08-09T22:24:36.640Z",
+    "1.1.0" : "2018-09-16T00:23:19.205Z",
+    "0.0.1" : "2012-06-04T04:01:28.039Z",
+    "1.1.1" : "2018-09-16T03:14:08.990Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/isaacs/chownr.git"
+  },
+  "users" : {
+    "jswartwood" : true,
+    "brandonpapworth" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/isaacs/chownr#readme",
+  "bugs" : {
+    "url" : "https://github.com/isaacs/chownr/issues"
+  },
+  "license" : "ISC"
+}

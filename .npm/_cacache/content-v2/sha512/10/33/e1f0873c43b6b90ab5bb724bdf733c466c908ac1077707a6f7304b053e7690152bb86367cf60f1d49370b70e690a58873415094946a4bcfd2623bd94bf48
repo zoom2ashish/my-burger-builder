@@ -1,0 +1,1614 @@
+{
+  "_id" : "confusing-browser-globals",
+  "_rev" : "33-33e466cf2b8ab81e44f3dc4e64572ce0",
+  "name" : "confusing-browser-globals",
+  "description" : "A list of browser globals that are often used by mistake instead of local variables",
+  "dist-tags" : {
+    "next" : "1.1.0-next.103",
+    "canary" : "1.1.0-next.61",
+    "latest" : "1.0.9"
+  },
+  "versions" : {
+    "1.1.0-next.61" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.1.0-next.61",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git",
+        "directory" : "packages/confusing-browser-globals"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.1.0-next.61.tgz",
+        "shasum" : "0c47487d55e13ddef45dae72abb9a8d0085d5064"
+      },
+      "devDependencies" : {
+        "jest" : "24.9.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "ian@iansutherland.ca",
+        "name" : "iansu"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@1.1.0-next.61",
+      "gitHead" : "facd8f9e44bb228009252fc4a1447b41f9c0e81f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.1.0-next.61_1571956452489_0.22335587946359436"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```sh\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.1.0-next.103" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.1.0-next.103",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git",
+        "directory" : "packages/confusing-browser-globals"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.1.0-next.103.tgz",
+        "shasum" : "2bd3daa2602cbee0b82a28c2fcae659c4a7cd1d2"
+      },
+      "devDependencies" : {
+        "jest" : "24.9.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "ian@iansutherland.ca",
+        "name" : "iansu"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "lerna/3.18.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@1.1.0-next.103",
+      "gitHead" : "0b4560094950dae2d1a34877475d62377ce78fb7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.1.0-next.103_1575503676424_0.04207441249112254"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```sh\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.0.0" : {
+      "name" : "confusing-browser-globals",
+      "version" : "0.0.0",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-0.0.0.tgz",
+        "shasum" : "cacf8de5bc35d419f708ea850df7315caa503049"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "gaearon",
+        "email" : "dan.abramov@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "gaearon",
+        "email" : "dan.abramov@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@0.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals-0.0.0.tgz_1515891887829_0.5121285524219275"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.6-next.6a95aae9" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.6-next.6a95aae9",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.6-next.6a95aae9.tgz",
+        "shasum" : "39fc6c92bb6b146b749b8d41ab944b1d0c2c1faa"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.5.0-next.0",
+      "_npmUser" : {
+        "name" : "ianschmitz",
+        "email" : "ianschmitz@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@1.0.6-next.6a95aae9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.6-next.6a95aae9_1546626824850_0.4118924786555238"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "11.6.0"
+    },
+    "2.0.0-next.a671462c" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.a671462c",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.a671462c.tgz",
+        "shasum" : "20ba918b28c136be2900e84f77aeae644a12e59e"
+      },
+      "devDependencies" : {
+        "jest" : "22.4.3"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.0",
+      "_npmUser" : {
+        "name" : "gaearon",
+        "email" : "dan.abramov@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.a671462c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.a671462c_1535123281326_0.735657040090202"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.0.5-next.9b4009d7" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.5-next.9b4009d7",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.5-next.9b4009d7.tgz",
+        "shasum" : "b4f13149a489afa9879ec8e6b9c50b8356e535a5"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@1.0.5-next.9b4009d7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.5-next.9b4009d7_1540344017261_0.27609278356376943"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.11.0"
+    },
+    "2.0.0-next.2150693d" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.2150693d",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.2150693d.tgz",
+        "shasum" : "255bc54421fd7b08d6c2f31c9a67e9d7c34a3f86"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.2150693d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.2150693d_1537562927086_0.1530798357465153"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.12.0"
+    },
+    "2.0.0-next.03604a46" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.03604a46",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.03604a46.tgz",
+        "shasum" : "494395592ebc8d22a8f7d196c6a88ae2b4418e57"
+      },
+      "devDependencies" : {
+        "jest" : "22.1.2"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.03604a46",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.03604a46_1517968285352_0.8561919826225379"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.0-next.66cc7a90" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.66cc7a90",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.66cc7a90.tgz",
+        "shasum" : "438e83bb16602abf1cd5c5aa9d6e4d61d924743e"
+      },
+      "devDependencies" : {
+        "jest" : "22.1.2"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.66cc7a90",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.66cc7a90_1524331335604_0.22404781841544752"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.0-next.b0cbf2ca" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.b0cbf2ca",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.b0cbf2ca.tgz",
+        "shasum" : "04833188aff5c063ed9236245bbd33d80a586421"
+      },
+      "devDependencies" : {
+        "jest" : "24.5.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.b0cbf2ca",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.b0cbf2ca_1552674045454_0.4969828835895074"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```sh\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.12.0"
+    },
+    "2.0.0-next.096703ab" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.096703ab",
+      "homepage" : "https://github.com/facebookincubator/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebookincubator/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebookincubator/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.096703ab.tgz",
+        "shasum" : "1cf098fdf5b25ca0c61fc999a23059affe2ebf7e"
+      },
+      "devDependencies" : {
+        "jest" : "22.1.1"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.096703ab",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals-2.0.0-next.096703ab.tgz_1516247213438_0.33264160179533064"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.0-next.3e165448" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.3e165448",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.3e165448.tgz",
+        "shasum" : "4291b5f964b58600b1e1fb940cc3072b91f3605a"
+      },
+      "devDependencies" : {
+        "jest" : "22.4.3"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.3e165448",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.3e165448_1529286106375_0.39072869552214295"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.11.2"
+    },
+    "1.0.3" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.3",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.3.tgz",
+        "shasum" : "fefd5f993b4833fd814dc85633528d03df6e758c"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@1.0.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.3_1538441688504_0.22929606009065417"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "1.0.4" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.4",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.4.tgz",
+        "shasum" : "7d3ae232117abdf158f968c1ebeeab42ea980991"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "gaearon",
+        "email" : "dan.abramov@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@1.0.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.4_1539543877648_0.12052585560368367"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "1.0.5" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.5",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.5.tgz",
+        "shasum" : "0171050cfdd4261e278978078bc00c4d88e135f4"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@1.0.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.5_1540870858425_0.5315132726078549"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "1.0.6" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.6",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.6.tgz",
+        "shasum" : "5918188e8244492cdd46d6be1cab60edef3063ce"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@1.0.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.6_1551914243957_0.5432433000795474"
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "1.0.7" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.7",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git",
+        "directory" : "packages/confusing-browser-globals"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.7.tgz",
+        "shasum" : "5ae852bd541a910e7ffb2dbb864a2d21a36ad29b"
+      },
+      "devDependencies" : {
+        "jest" : "24.7.1"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@1.0.7",
+      "gitHead" : "265c1592dcf3853122dcdd50e1bfc1e43f697fbe",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.7_1555959035004_0.008628756046852093"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.0.8" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.8",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git",
+        "directory" : "packages/confusing-browser-globals"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.8.tgz",
+        "shasum" : "93ffec1f82a6e2bf2bc36769cc3a92fa20e502f3"
+      },
+      "devDependencies" : {
+        "jest" : "24.8.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "ian@iansutherland.ca",
+        "name" : "iansu"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@1.0.8",
+      "gitHead" : "a78ff74309430e15cd8b71b5bffe3d383679fee0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.8_1565390257456_0.6060196113784209"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "2.0.0-next.74" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.74",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git",
+        "directory" : "packages/confusing-browser-globals"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.74.tgz",
+        "shasum" : "aa55bac31344d660389431f3f992e445556aa3d2"
+      },
+      "devDependencies" : {
+        "jest" : "24.7.1"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.74",
+      "gitHead" : "4b5b76b79ffabcafc5fde02f583baceae6bd0446",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.74_1555517043003_0.3619206092484426"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```sh\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.0.9" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.9",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git",
+        "directory" : "packages/confusing-browser-globals"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.9.tgz",
+        "shasum" : "72bc13b483c0276801681871d4898516f8f54fdd"
+      },
+      "devDependencies" : {
+        "jest" : "24.9.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "ian@iansutherland.ca",
+        "name" : "iansu"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@1.0.9",
+      "gitHead" : "a825e8f5e3b7ecd84a0bcef61bbc26eb4e8fd9c3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.9_1568915281514_0.013211184014360056"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.0.5-next.c662dfb0" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.5-next.c662dfb0",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.5-next.c662dfb0.tgz",
+        "shasum" : "199c59dfc07beb468b876168ca5189f0b8afe160"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@1.0.5-next.c662dfb0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.5-next.c662dfb0_1540476161456_0.1804195974761591"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.11.0"
+    },
+    "2.0.0-next.b2fd8db8" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.b2fd8db8",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.b2fd8db8.tgz",
+        "shasum" : "76206be12de4e1ac8b07e8b71b6daea697ba8d73"
+      },
+      "devDependencies" : {
+        "jest" : "22.1.2"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.b2fd8db8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.b2fd8db8_1521658725473_0.9564744476648632"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.1.0-next.85" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.1.0-next.85",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git",
+        "directory" : "packages/confusing-browser-globals"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.1.0-next.85.tgz",
+        "shasum" : "c77539eab023d29fd670d591a7a9e41acd883a6d"
+      },
+      "devDependencies" : {
+        "jest" : "24.9.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "ian@iansutherland.ca",
+        "name" : "iansu"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "lerna/3.18.4/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@1.1.0-next.85",
+      "gitHead" : "3d6d0a1f9cedebad05864b6ea81c711f8e4b3868",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.1.0-next.85_1573770468432_0.502831700536349"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```sh\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "2.0.0-next.47d2d941" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.47d2d941",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.47d2d941.tgz",
+        "shasum" : "8a15b616614f1c35958976c729ab68540fb18760"
+      },
+      "devDependencies" : {
+        "jest" : "22.1.2"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.47d2d941",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.47d2d941_1517970499441_0.39621886137296625"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.9.1"
+    },
+    "2.0.0-next.fb6e6f70" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.fb6e6f70",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.fb6e6f70.tgz",
+        "shasum" : "61b5e14045b6079d610a46492c11d3ede83aa1aa"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.fb6e6f70",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_2.0.0-next.fb6e6f70_1537890679378_0.19206633317652755"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.1.0-next.62" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.1.0-next.62",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git",
+        "directory" : "packages/confusing-browser-globals"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.1.0-next.62.tgz",
+        "shasum" : "ec30b8db406aeca359ef4bd2adbd8e4d8af4a9b8"
+      },
+      "devDependencies" : {
+        "jest" : "24.9.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "ianschmitz@gmail.com",
+        "name" : "ianschmitz"
+      }, {
+        "email" : "ian@iansutherland.ca",
+        "name" : "iansu"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "iansu",
+        "email" : "ian@iansutherland.ca"
+      },
+      "_id" : "confusing-browser-globals@1.1.0-next.62",
+      "gitHead" : "3e7391ddaf905e737a3b1c6969a6da3f16513854",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.1.0-next.62_1571960420542_0.23535826538677118"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n## Installation\n\n```sh\nnpm install --save confusing-browser-globals\n```\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  },\n};\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.15.3"
+    },
+    "2.0.0-next.9754a231" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "2.0.0-next.9754a231",
+      "homepage" : "https://github.com/facebookincubator/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebookincubator/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebookincubator/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-2.0.0-next.9754a231.tgz",
+        "shasum" : "4bb9f75af30b08ab81ed1c915da6ad34fe678e97"
+      },
+      "devDependencies" : {
+        "jest" : "22.1.2"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      }, {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@2.0.0-next.9754a231",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals-2.0.0-next.9754a231.tgz_1516252855903_0.5716910194605589"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.1" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.1",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.1.tgz",
+        "shasum" : "1e29b0ea381370457012be10025287d335a5e41e"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@1.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.1_1537985006433_0.9520611383163584"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "8.12.0"
+    },
+    "1.0.2" : {
+      "name" : "confusing-browser-globals",
+      "description" : "A list of browser globals that are often used by mistake instead of local variables",
+      "version" : "1.0.2",
+      "homepage" : "https://github.com/facebook/create-react-app#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/facebook/create-react-app.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/facebook/create-react-app/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/confusing-browser-globals/-/confusing-browser-globals-1.0.2.tgz",
+        "shasum" : "5251684a10877150b6ab59a80fdcfca8ed07e445"
+      },
+      "devDependencies" : {
+        "jest" : "23.6.0"
+      },
+      "keywords" : [ "eslint", "globals" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "opensource+npm@fb.com",
+        "name" : "fb"
+      }, {
+        "email" : "dan.abramov@gmail.com",
+        "name" : "gaearon"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "timer",
+        "email" : "timer150@gmail.com"
+      },
+      "_id" : "confusing-browser-globals@1.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/confusing-browser-globals_1.0.2_1538410908954_0.6858852484801738"
+      },
+      "readme" : "# confusing-browser-globals\n\nA curated list of browser globals that commonly cause confusion and are not recommended to use without an explicit `window.` qualifier.\n\n## Motivation\n\nSome global variables in browser are likely to be used by people without the intent of using them as globals, such as `status`, `name`, `event`, etc.\n\nFor example:\n\n```js\nhandleClick() { // missing `event` argument\n  this.setState({\n  \ttext: event.target.value // uses the `event` global: oops!\n  });\n}\n```\n\nThis package exports a list of globals that are often used by mistake. You can feed this list to a static analysis tool like ESLint to prevent their usage without an explicit `window.` qualifier.\n\n\n## Installation\n\n```\nnpm install --save confusing-browser-globals\n```\n\n\n## Usage\n\nIf you use Create React App, you don't need to configure anything, as this rule is already included in the default `eslint-config-react-app` preset.\n\nIf you maintain your own ESLint configuration, you can do this:\n\n```js\nvar restrictedGlobals = require('confusing-browser-globals');\n\nmodule.exports = {\n  rules: {\n    'no-restricted-globals': ['error'].concat(restrictedGlobals),\n  }\n};\n```\n\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.11.0"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "email" : "opensource+npm@fb.com",
+    "name" : "fb"
+  }, {
+    "email" : "dan.abramov@gmail.com",
+    "name" : "gaearon"
+  }, {
+    "email" : "ianschmitz@gmail.com",
+    "name" : "ianschmitz"
+  }, {
+    "email" : "ian@iansutherland.ca",
+    "name" : "iansu"
+  }, {
+    "email" : "timer150@gmail.com",
+    "name" : "timer"
+  } ],
+  "time" : {
+    "1.1.0-next.61" : "2019-10-24T22:34:12.655Z",
+    "1.1.0-next.103" : "2019-12-04T23:54:36.532Z",
+    "0.0.0" : "2018-01-14T01:04:48.751Z",
+    "1.0.6-next.6a95aae9" : "2019-01-04T18:33:45.009Z",
+    "modified" : "2019-12-04T23:54:42.352Z",
+    "2.0.0-next.a671462c" : "2018-08-24T15:08:01.422Z",
+    "1.0.5-next.9b4009d7" : "2018-10-24T01:20:17.394Z",
+    "2.0.0-next.2150693d" : "2018-09-21T20:48:47.221Z",
+    "2.0.0-next.03604a46" : "2018-02-07T01:51:26.065Z",
+    "2.0.0-next.66cc7a90" : "2018-04-21T17:22:15.694Z",
+    "2.0.0-next.b0cbf2ca" : "2019-03-15T18:20:45.611Z",
+    "2.0.0-next.096703ab" : "2018-01-18T03:46:54.356Z",
+    "created" : "2018-01-14T01:04:48.751Z",
+    "2.0.0-next.3e165448" : "2018-06-18T01:41:46.441Z",
+    "1.0.3" : "2018-10-02T00:54:49.534Z",
+    "1.0.4" : "2018-10-14T19:04:37.776Z",
+    "1.0.5" : "2018-10-30T03:40:58.597Z",
+    "1.0.6" : "2019-03-06T23:17:24.072Z",
+    "1.0.7" : "2019-04-22T18:50:35.153Z",
+    "1.0.8" : "2019-08-09T22:37:37.583Z",
+    "2.0.0-next.74" : "2019-04-17T16:04:03.271Z",
+    "1.0.9" : "2019-09-19T17:48:01.636Z",
+    "1.0.5-next.c662dfb0" : "2018-10-25T14:02:41.534Z",
+    "2.0.0-next.b2fd8db8" : "2018-03-21T18:58:45.543Z",
+    "1.1.0-next.85" : "2019-11-14T22:27:48.575Z",
+    "2.0.0-next.47d2d941" : "2018-02-07T02:28:20.169Z",
+    "2.0.0-next.fb6e6f70" : "2018-09-25T15:51:20.197Z",
+    "1.1.0-next.62" : "2019-10-24T23:40:20.695Z",
+    "2.0.0-next.9754a231" : "2018-01-18T05:20:56.105Z",
+    "1.0.1" : "2018-09-26T18:03:26.608Z",
+    "1.0.2" : "2018-10-01T16:21:49.098Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/facebook/create-react-app.git",
+    "directory" : "packages/confusing-browser-globals"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/facebook/create-react-app#readme",
+  "keywords" : [ "eslint", "globals" ],
+  "bugs" : {
+    "url" : "https://github.com/facebook/create-react-app/issues"
+  },
+  "license" : "MIT"
+}

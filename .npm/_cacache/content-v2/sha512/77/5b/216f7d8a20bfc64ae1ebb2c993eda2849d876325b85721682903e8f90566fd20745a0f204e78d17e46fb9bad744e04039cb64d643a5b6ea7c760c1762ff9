@@ -1,0 +1,384 @@
+{
+  "_id" : "run-queue",
+  "_rev" : "6-152e9fa845e18d5defdb06fe10849a0b",
+  "name" : "run-queue",
+  "description" : "A promise based, dynamic priority queue runner, with concurrency limiting.",
+  "dist-tags" : {
+    "latest" : "2.0.1"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "run-queue",
+      "description" : "A promise based, dynamic priority queue runner, with concurrency limiting.",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Rebecca Turner",
+        "email" : "me@re-becca.org",
+        "url" : "http://re-becca.org/"
+      },
+      "homepage" : "https://npmjs.com/package/run-queue",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/iarna/run-queue.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/iarna/run-queue/issues"
+      },
+      "main" : "queue.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/run-queue/-/run-queue-1.0.3.tgz",
+        "shasum" : "e848396f057d223f24386924618e25694161ec47"
+      },
+      "dependencies" : {
+        "aproba" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "standard" : "^8.6.0",
+        "tap" : "^10.2.0"
+      },
+      "keywords" : [ ],
+      "license" : "ISC",
+      "files" : [ "queue.js" ],
+      "maintainers" : [ {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "standard && tap -J test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.0",
+      "_npmUser" : {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      },
+      "_id" : "run-queue@1.0.3",
+      "gitHead" : "3c315b738d0578c2c54be2beb0469d00ccf1dc25",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/run-queue-1.0.3.tgz_1488161288446_0.14580746600404382"
+      },
+      "_shasum" : "e848396f057d223f24386924618e25694161ec47",
+      "_nodeVersion" : "0.12.13"
+    },
+    "2.0.0" : {
+      "name" : "run-queue",
+      "description" : "A promise based, dynamic priority queue runner, with concurrency limiting.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Rebecca Turner",
+        "email" : "me@re-becca.org",
+        "url" : "http://re-becca.org/"
+      },
+      "homepage" : "https://npmjs.com/package/run-queue",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/iarna/run-queue.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/iarna/run-queue/issues"
+      },
+      "main" : "queue.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/run-queue/-/run-queue-2.0.0.tgz",
+        "shasum" : "6d6a48c5291fa50b0ccb0b60ae5fdf77c9979643"
+      },
+      "dependencies" : {
+        "aproba" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "standard" : "^8.6.0",
+        "tap" : "^10.2.0"
+      },
+      "keywords" : [ ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "standard && tap -J --100 test"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      },
+      "_id" : "run-queue@2.0.0",
+      "gitHead" : "a302a574191ae2c7a184d1479216f47725efbd0e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/run-queue_2.0.0_1536096967105_0.7691035061880602"
+      },
+      "_nodeVersion" : "10.6.0"
+    },
+    "2.0.1" : {
+      "name" : "run-queue",
+      "description" : "A promise based, dynamic priority queue runner, with concurrency limiting.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Rebecca Turner",
+        "email" : "me@re-becca.org",
+        "url" : "http://re-becca.org/"
+      },
+      "homepage" : "https://npmjs.com/package/run-queue",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/iarna/run-queue.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/iarna/run-queue/issues"
+      },
+      "main" : "queue.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/run-queue/-/run-queue-2.0.1.tgz",
+        "shasum" : "2fa9302a32897f3d7bd8b2267842272804d7db11"
+      },
+      "dependencies" : {
+        "aproba" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "@iarna/standard" : "^2.0.0",
+        "tap" : "^12.4.0"
+      },
+      "keywords" : [ ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "iarna-standard && tap --100 test",
+        "test-v4" : "tap --100 test"
+      },
+      "_npmVersion" : "6.6.0",
+      "_npmUser" : {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      },
+      "_id" : "run-queue@2.0.1",
+      "gitHead" : "cbbe521279426e1786fc494ee1b9b695e1b9bd9e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/run-queue_2.0.1_1548464690940_0.443462412986239"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "1.0.0" : {
+      "name" : "run-queue",
+      "description" : "Process a dynamic queue of data, possibly concurrently",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Rebecca Turner",
+        "email" : "me@re-becca.org",
+        "url" : "http://re-becca.org/"
+      },
+      "homepage" : "https://npmjs.com/package/run-queue",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/iarna/run-queue.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/iarna/run-queue/issues"
+      },
+      "main" : "queue.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/run-queue/-/run-queue-1.0.0.tgz",
+        "shasum" : "5d4da75ba1589e9aec294d3fce987dd60f1def3d"
+      },
+      "dependencies" : {
+        "standard" : "^8.6.0"
+      },
+      "devDependencies" : {
+        "standard" : "^8.6.0",
+        "tap" : "^10.2.0"
+      },
+      "keywords" : [ ],
+      "license" : "ISC",
+      "files" : [ "queue.js" ],
+      "maintainers" : [ {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "standard && tap -J test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.0",
+      "_npmUser" : {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      },
+      "_id" : "run-queue@1.0.0",
+      "gitHead" : "f0e7a12f9720352ee386e2c2ce5be9c0bd4c3b7f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/run-queue-1.0.0.tgz_1488149007258_0.8681126337032765"
+      },
+      "_shasum" : "5d4da75ba1589e9aec294d3fce987dd60f1def3d",
+      "_nodeVersion" : "4.6.1"
+    },
+    "1.0.1" : {
+      "name" : "run-queue",
+      "description" : "Process a dynamic queue of data, possibly concurrently",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Rebecca Turner",
+        "email" : "me@re-becca.org",
+        "url" : "http://re-becca.org/"
+      },
+      "homepage" : "https://npmjs.com/package/run-queue",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/iarna/run-queue.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/iarna/run-queue/issues"
+      },
+      "main" : "queue.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/run-queue/-/run-queue-1.0.1.tgz",
+        "shasum" : "f4b0ab80b75f416aea140b13f059af1224844710"
+      },
+      "dependencies" : {
+        "standard" : "^8.6.0"
+      },
+      "devDependencies" : {
+        "standard" : "^8.6.0",
+        "tap" : "^10.2.0"
+      },
+      "keywords" : [ ],
+      "license" : "ISC",
+      "files" : [ "queue.js" ],
+      "maintainers" : [ {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "standard && tap -J test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.0",
+      "_npmUser" : {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      },
+      "_id" : "run-queue@1.0.1",
+      "gitHead" : "2fc7ffce3f7ed31ecd17ae16a792beab43b948ad",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/run-queue-1.0.1.tgz_1488154288448_0.6650912221521139"
+      },
+      "_shasum" : "f4b0ab80b75f416aea140b13f059af1224844710",
+      "_nodeVersion" : "4.6.1"
+    },
+    "1.0.2" : {
+      "name" : "run-queue",
+      "description" : "A promise based, dynamic priority queue runner, with concurrency limiting.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Rebecca Turner",
+        "email" : "me@re-becca.org",
+        "url" : "http://re-becca.org/"
+      },
+      "homepage" : "https://npmjs.com/package/run-queue",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/iarna/run-queue.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/iarna/run-queue/issues"
+      },
+      "main" : "queue.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/run-queue/-/run-queue-1.0.2.tgz",
+        "shasum" : "a9396e5962a5b0b022a81c125017e95302a6f76a"
+      },
+      "dependencies" : {
+        "standard" : "^8.6.0"
+      },
+      "devDependencies" : {
+        "standard" : "^8.6.0",
+        "tap" : "^10.2.0"
+      },
+      "keywords" : [ ],
+      "license" : "ISC",
+      "files" : [ "queue.js" ],
+      "maintainers" : [ {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      } ],
+      "directories" : {
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "standard && tap -J test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.4.0",
+      "_npmUser" : {
+        "name" : "iarna",
+        "email" : "me@re-becca.org"
+      },
+      "_id" : "run-queue@1.0.2",
+      "gitHead" : "1fb0c4025eb91fb65b0492d626f9f876432b4a50",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/run-queue-1.0.2.tgz_1488154367416_0.6272554455790669"
+      },
+      "_shasum" : "a9396e5962a5b0b022a81c125017e95302a6f76a",
+      "_nodeVersion" : "4.6.1"
+    }
+  },
+  "readme" : "# run-queue\n\nA promise based, dynamic priority queue runner, with concurrency limiting.\n\n```js\nconst RunQueue = require('run-queue')\n\nconst queue = new RunQueue({\n  maxConcurrency: 1\n})\n\nqueue.add(1, example, [-1])\nfor (let ii = 0; ii < 5; ++ii) {\n  queue.add(0, example, [ii])\n}\nconst finished = []\nqueue.run().then(\n  console.log(finished)\n})\n\nfunction example (num, next) {\n  setTimeout(() => {\n    finished.push(num)\n    next()\n  }, 5 - Math.abs(num))\n}\n```\n\nwould output\n\n```\n[ 0, 1, 2, 3, 4, -1 ]\n```\n\nIf you bump concurrency to `2`, then you get:\n\n```\n[ 1, 0, 3, 2, 4, -1 ]\n```\n\nThe concurrency means that they don't finish in order, because some take\nlonger than others.  Each priority level must finish entirely before the\nnext priority level is run.  See\n[PRIORITIES](https://github.com/iarna/run-queue#priorities) below.  This is\neven true if concurrency is set high enough that all of the regular queue\ncan execute at once, for instance, with `maxConcurrency: 10`:\n\n```\n[ 4, 3, 2, 1, 0, -1 ]\n```\n\n## API\n\n### const queue = new RunQueue(options)\n\nCreate a new queue. Options may contain:\n\n* maxConcurrency - (Default: `1`) The maximum number of jobs to execute at once.\n* Promise - (Default: global.Promise) The promise implementation to use.\n\n### queue.add (prio, fn, args)\n\nAdd a new job to the end of the queue at priority `prio` that will run `fn`\nwith `args`. If `fn` is async then it should return a Promise.\n\n### queue.run ()\n\nStart running the job queue.  Returns a Promise that resolves when either\nall the jobs are complete or a job ends in error (throws or returns a\nrejected promise). If a job ended in error then this Promise will be rejected\nwith that error and no further queue running will be done.\n\n## PRIORITIES\n\nPriorities are any integer value >= 0.\n\nLowest is executed first.\n\nPriorities essentially represent distinct job queues.  All jobs in a queue\nmust complete before the next highest priority job queue is executed.\n\nThis means that if you have two queues, `0` and `1` then ALL jobs in `0`\nmust complete before ANY execute in `1`.  If you add new `0` level jobs\nwhile `1` level jobs are running then it will switch back processing the `0`\nqueue and won't execute any more `1` jobs till all of the new `0` jobs\ncomplete.\n",
+  "maintainers" : [ {
+    "name" : "iarna",
+    "email" : "me@re-becca.org"
+  } ],
+  "author" : {
+    "name" : "Rebecca Turner",
+    "email" : "me@re-becca.org",
+    "url" : "http://re-becca.org/"
+  },
+  "time" : {
+    "1.0.3" : "2017-02-27T02:08:10.231Z",
+    "2.0.0" : "2018-09-04T21:36:07.290Z",
+    "2.0.1" : "2019-01-26T01:04:51.121Z",
+    "created" : "2017-02-26T22:43:27.507Z",
+    "modified" : "2019-01-26T01:04:53.736Z",
+    "1.0.0" : "2017-02-26T22:43:27.507Z",
+    "1.0.1" : "2017-02-27T00:11:28.664Z",
+    "1.0.2" : "2017-02-27T00:12:47.664Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/iarna/run-queue.git"
+  },
+  "users" : {
+    "iarna" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://npmjs.com/package/run-queue",
+  "keywords" : [ ],
+  "bugs" : {
+    "url" : "https://github.com/iarna/run-queue/issues"
+  },
+  "license" : "ISC"
+}

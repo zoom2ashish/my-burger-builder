@@ -1,0 +1,290 @@
+{
+  "_id" : "@svgr/babel-plugin-remove-jsx-attribute",
+  "_rev" : "4-7757e18850cca44d2bd5c02ce844917b",
+  "name" : "@svgr/babel-plugin-remove-jsx-attribute",
+  "description" : "Remove JSX attribute",
+  "dist-tags" : {
+    "latest" : "5.0.1"
+  },
+  "versions" : {
+    "4.2.0" : {
+      "name" : "@svgr/babel-plugin-remove-jsx-attribute",
+      "description" : "Remove JSX attribute",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-remove-jsx-attribute"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-remove-jsx-attribute/-/babel-plugin-remove-jsx-attribute-4.2.0.tgz",
+        "shasum" : "297550b9a8c0c7337bea12bdfc8a80bb66f85abc"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.14.2+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-remove-jsx-attribute@4.2.0",
+      "gitHead" : "35d3f4d446e5402902ee922a3f9984000bb74920",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-remove-jsx-attribute_4.2.0_1554966099208_0.232327374126851"
+      },
+      "_nodeVersion" : "10.14.2"
+    },
+    "4.0.3" : {
+      "name" : "@svgr/babel-plugin-remove-jsx-attribute",
+      "description" : "Remove JSX attribute",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-remove-jsx-attribute/-/babel-plugin-remove-jsx-attribute-4.0.3.tgz",
+        "shasum" : "32564b5c4d761b51e34492b6a4894196c0f75803"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-remove-jsx-attribute@4.0.3",
+      "gitHead" : "3c7d6caafb687bf8532f040bdfe8eb0a12a1da94",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-remove-jsx-attribute_4.0.3_1542101701699_0.5871893521846481"
+      }
+    },
+    "5.0.0" : {
+      "name" : "@svgr/babel-plugin-remove-jsx-attribute",
+      "description" : "Remove JSX attribute",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/smooth-code/svgr/tree/master/packages/babel-plugin-remove-jsx-attribute"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-remove-jsx-attribute/-/babel-plugin-remove-jsx-attribute-5.0.0.tgz",
+        "shasum" : "00351b6724bb8604246e65b76931d5b85d006e42"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-remove-jsx-attribute@5.0.0",
+      "gitHead" : "cfc0fc2786024820ea476739eda6cca342cf4230",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-remove-jsx-attribute_5.0.0_1577110008871_0.2679394992599742"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "4.0.0" : {
+      "name" : "@svgr/babel-plugin-remove-jsx-attribute",
+      "description" : "Remove JSX attribute",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:smooth-code/svgr.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-remove-jsx-attribute/-/babel-plugin-remove-jsx-attribute-4.0.0.tgz",
+        "shasum" : "f4fbb88d5d56ce700414c6eb8c2d65548f11894e"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-remove-jsx-attribute@4.0.0",
+      "gitHead" : "d6beadaa9943157b59c085f03a45813897cc337c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-remove-jsx-attribute_4.0.0_1541344650018_0.7547386048849156"
+      }
+    },
+    "5.0.1" : {
+      "name" : "@svgr/babel-plugin-remove-jsx-attribute",
+      "description" : "Remove JSX attribute",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Greg Bergé",
+        "email" : "berge.greg@gmail.com"
+      },
+      "homepage" : "https://react-svgr.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-remove-jsx-attribute"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/@svgr/babel-plugin-remove-jsx-attribute/-/babel-plugin-remove-jsx-attribute-5.0.1.tgz",
+        "shasum" : "5df0ccf99e4745e105f76059025986d4da8443cd"
+      },
+      "keywords" : [ "babel-plugin" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prebuild" : "rm -rf lib/",
+        "build" : "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+        "prepublishOnly" : "yarn run build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.14.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "neoziro",
+        "email" : "berge.greg@gmail.com"
+      },
+      "_id" : "@svgr/babel-plugin-remove-jsx-attribute@5.0.1",
+      "gitHead" : "2c0863b6821ef6b86bd7ad1a0267ba7e07b163ff",
+      "funding" : {
+        "type" : "github",
+        "url" : "https://github.com/sponsors/gregberge"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-plugin-remove-jsx-attribute_5.0.1_1577611799410_0.6300488268863507"
+      },
+      "_nodeVersion" : "12.14.0"
+    }
+  },
+  "readme" : "# @svgr/babel-plugin-remove-jsx-attribute\n\n## Install\n\n```\b\nnpm install --save-dev @svgr/babel-plugin-remove-jsx-attribute\n```\n\n## Usage\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\n    [\n      \"@svgr/babel-plugin-remove-jsx-attribute\",\n      {\n        \"elements\": [\"svg\"],\n        \"attributes\": [\"width\", \"height\"]\n      }\n    ]\n  ]\n}\n```\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "neoziro",
+    "email" : "berge.greg@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Greg Bergé",
+    "email" : "berge.greg@gmail.com"
+  },
+  "time" : {
+    "created" : "2018-11-04T15:17:29.896Z",
+    "4.2.0" : "2019-04-11T07:01:39.366Z",
+    "modified" : "2019-12-29T09:30:06.697Z",
+    "4.0.3" : "2018-11-13T09:35:01.822Z",
+    "5.0.0" : "2019-12-23T14:06:55.287Z",
+    "4.0.0" : "2018-11-04T15:17:30.129Z",
+    "5.0.1" : "2019-12-29T09:29:59.569Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/gregberge/svgr/tree/master/packages/babel-plugin-remove-jsx-attribute"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://react-svgr.com",
+  "keywords" : [ "babel-plugin" ],
+  "license" : "MIT"
+}

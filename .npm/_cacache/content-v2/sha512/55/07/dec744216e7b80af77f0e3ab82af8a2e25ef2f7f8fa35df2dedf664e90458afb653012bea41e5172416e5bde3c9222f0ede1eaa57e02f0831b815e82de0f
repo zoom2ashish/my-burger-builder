@@ -1,0 +1,90 @@
+{
+  "_id" : "gud",
+  "_rev" : "1-4d1f88ee2ab2a51cc8d8fb6ace3ca579",
+  "name" : "gud",
+  "description" : "Create a 'gud nuff' (not cryptographically secure) globally unique id",
+  "dist-tags" : {
+    "latest" : "1.0.0"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "gud",
+      "description" : "Create a 'gud nuff' (not cryptographically secure) globally unique id",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jamie Kyle",
+        "email" : "me@thejameskyle.com"
+      },
+      "homepage" : "https://github.com/jamiebuilds/global-unique-id#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jamiebuilds/global-unique-id.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jamiebuilds/global-unique-id/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/gud/-/gud-1.0.0.tgz",
+        "shasum" : "a489581b17e6a70beca9abe3ae57de7a499852c0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.25.0",
+        "flow-bin" : "^0.66.0"
+      },
+      "keywords" : [ "global", "unique", "id", "identifier", "number", "uuid", "uid" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "thejameskyle",
+        "email" : "me@thejameskyle.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "thejameskyle",
+        "email" : "me@thejameskyle.com"
+      },
+      "_id" : "gud@1.0.0",
+      "gitHead" : "51f5b138b22c1af5db764289805d38847691dc79",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/gud_1.0.0_1519255547983_0.009560519492427755"
+      },
+      "_nodeVersion" : "8.9.4"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# gud\n\n> Create a 'gud nuff' (not cryptographically secure) globally unique id\n\n## Install\n\n```\nyarn add gud\n```\n\n## Usage\n\n```js\nconst gud = require('gud');\n\nconsole.log(gud()); // 1\nconsole.log(gud()); // 2\n```\n\nThis is ever so slightly better than using something like `_.uniqueId` because\nit will work across multiple copies of the same module.\n\nDo not use this in place of actual UUIDs, security folks will hate me.\n\nThis will not be unique across processes/workers.\n",
+  "maintainers" : [ {
+    "name" : "thejameskyle",
+    "email" : "me@thejameskyle.com"
+  } ],
+  "author" : {
+    "name" : "Jamie Kyle",
+    "email" : "me@thejameskyle.com"
+  },
+  "time" : {
+    "created" : "2018-02-21T23:25:47.983Z",
+    "modified" : "2018-02-21T23:25:48.857Z",
+    "1.0.0" : "2018-02-21T23:25:48.062Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jamiebuilds/global-unique-id.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jamiebuilds/global-unique-id#readme",
+  "keywords" : [ "global", "unique", "id", "identifier", "number", "uuid", "uid" ],
+  "bugs" : {
+    "url" : "https://github.com/jamiebuilds/global-unique-id/issues"
+  },
+  "license" : "MIT"
+}

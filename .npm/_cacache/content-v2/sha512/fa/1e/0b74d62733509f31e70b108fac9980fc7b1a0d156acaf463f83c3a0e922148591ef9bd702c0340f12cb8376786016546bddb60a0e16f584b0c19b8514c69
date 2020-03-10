@@ -1,0 +1,1487 @@
+{
+  "_id" : "expand-brackets",
+  "_rev" : "23-1d923b87f44113e5ced07d4efc02b100",
+  "name" : "expand-brackets",
+  "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+  "dist-tags" : {
+    "latest" : "4.0.0"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-0.1.5.tgz",
+        "shasum" : "df07284e342a807cd733ac5af72411e581d1177b"
+      },
+      "dependencies" : {
+        "is-posix-bracket" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.7",
+        "mocha" : "^2.2.5",
+        "should" : "^7.0.2"
+      },
+      "keywords" : [ "bracket", "character class", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@0.1.5",
+      "gitHead" : "1b07fda8ee8b6426d95e6539785b74c57e9ee542",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "related" : {
+          "list" : [ "extglob", "is-extglob", "is-glob", "is-posix-bracket", "micromatch" ]
+        },
+        "reflinks" : [ "verb" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-0.1.5.tgz_1459554506001_0.9547659594099969"
+      },
+      "_shasum" : "df07284e342a807cd733ac5af72411e581d1177b",
+      "_nodeVersion" : "5.5.0"
+    },
+    "2.0.0" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-2.0.0.tgz",
+        "shasum" : "0b8f3ec3005a3e2faa360e7ba8f339df71069677"
+      },
+      "dependencies" : {
+        "debug" : "^2.2.0",
+        "define-property" : "^0.2.5",
+        "extend-shallow" : "^2.0.1",
+        "posix-character-classes" : "^0.1.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.7.0",
+        "to-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@2.0.0",
+      "gitHead" : "91e230a91fce7be3de6a9789ecbcf574a6f49e7a",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-2.0.0.tgz_1475918430856_0.22673831600695848"
+      },
+      "_shasum" : "0b8f3ec3005a3e2faa360e7ba8f339df71069677",
+      "_nodeVersion" : "6.7.0"
+    },
+    "2.0.1" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-2.0.1.tgz",
+        "shasum" : "c033bde7d1398100cddcc3e982b295bf4a6cd869"
+      },
+      "dependencies" : {
+        "debug" : "^2.2.0",
+        "define-property" : "^0.2.5",
+        "extend-shallow" : "^2.0.1",
+        "posix-character-classes" : "^0.1.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.7.0",
+        "to-regex" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "cross-spawn" : "^4.0.2",
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@2.0.1",
+      "gitHead" : "e2ec93c9396a80607d1bef4882bf48c7f38e8454",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-2.0.1.tgz_1476337805844_0.32526970468461514"
+      },
+      "_shasum" : "c033bde7d1398100cddcc3e982b295bf4a6cd869",
+      "_nodeVersion" : "6.7.0"
+    },
+    "2.1.0" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-2.1.0.tgz",
+        "shasum" : "f82c855dd5d729d733088bb06b593008d6647929"
+      },
+      "dependencies" : {
+        "debug" : "^2.2.0",
+        "define-property" : "^0.2.5",
+        "extend-shallow" : "^2.0.1",
+        "posix-character-classes" : "^0.1.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.8.1",
+        "to-regex" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "cross-spawn" : "^4.0.2",
+        "fs-exists-sync" : "^0.1.0",
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "multimatch" : "^2.1.0",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@2.1.0",
+      "gitHead" : "9f34aeb6e5c6e586539d031dffaef41e4a5be278",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-2.1.0.tgz_1476672417774_0.972076951758936"
+      },
+      "_shasum" : "f82c855dd5d729d733088bb06b593008d6647929",
+      "_nodeVersion" : "6.7.0"
+    },
+    "0.1.3" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-0.1.3.tgz",
+        "shasum" : "22207536eaac5ddb4885de20e2747f0a0eedf316"
+      },
+      "dependencies" : {
+        "is-posix-bracket" : "^0.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "should" : "^7.0.2"
+      },
+      "keywords" : [ "bracket", "character class", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.0",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "_id" : "expand-brackets@0.1.3",
+      "gitHead" : "202723bcf78db69d7d62e49eba82f1cd362ca306",
+      "verb" : {
+        "related" : {
+          "list" : [ "extglob", "micromatch", "is-glob", "is-extglob", "is-posix-bracket" ]
+        }
+      },
+      "_shasum" : "22207536eaac5ddb4885de20e2747f0a0eedf316",
+      "_nodeVersion" : "2.4.0"
+    },
+    "0.1.4" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-0.1.4.tgz",
+        "shasum" : "797b9e484101205f418cecaec6312c132f51e2ae"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "should" : "^7.0.2"
+      },
+      "keywords" : [ "bracket", "character class", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@0.1.4",
+      "gitHead" : "38475d3e4973b8496812e39983d2945a78d0ade3",
+      "verb" : {
+        "related" : {
+          "list" : [ "extglob", "micromatch", "is-glob", "is-extglob", "is-posix-bracket" ]
+        }
+      },
+      "_shasum" : "797b9e484101205f418cecaec6312c132f51e2ae",
+      "_nodeVersion" : "0.12.4"
+    },
+    "4.0.0" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/micromatch/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/micromatch/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-4.0.0.tgz",
+        "shasum" : "b61a0fea7fc4e33c94110c2965837d56bfa4568d"
+      },
+      "dependencies" : {
+        "posix-character-classes" : "^1.0.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.12.0",
+        "to-regex" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "bash-match" : "^1.0.2",
+        "gulp-format-md" : "^1.0.0",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^5.1.1",
+        "multimatch" : "^2.1.0",
+        "yargs-parser" : "^10.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "brian.woodward@gmail.com",
+        "name" : "doowb"
+      }, {
+        "email" : "elan.shanker+npm@gmail.com",
+        "name" : "es128"
+      }, {
+        "email" : "github@sellside.com",
+        "name" : "jonschlinkert"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      },
+      "_id" : "expand-brackets@4.0.0",
+      "gitHead" : "1a70cc275197ea0297c915fbac03ea86e3a392ae",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expand-brackets_4.0.0_1525084122461_0.009269911110658668"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "0.1.1" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-0.1.1.tgz",
+        "shasum" : "e9a1a1a1bbbac19fbf065646fe63fe51f498821f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "^5.0.0"
+      },
+      "keywords" : [ "bracket", "character class", "expression", "posix" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/expand-brackets/blob/master/LICENSE"
+      },
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@0.1.1",
+      "gitHead" : "cd9291c08aac6461652df29cba54a69440fcc05a",
+      "_shasum" : "e9a1a1a1bbbac19fbf065646fe63fe51f498821f"
+    },
+    "2.1.3" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "2.1.3",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-2.1.3.tgz",
+        "shasum" : "9994b461fd15d86eb8bfb42bcfafc2cca6391ae6"
+      },
+      "dependencies" : {
+        "debug" : "^2.2.0",
+        "define-property" : "^0.2.5",
+        "extend-shallow" : "^2.0.1",
+        "posix-character-classes" : "^0.1.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.8.1",
+        "to-regex" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "bash-match" : "^0.1.1",
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "multimatch" : "^2.1.0",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@2.1.3",
+      "gitHead" : "c49531250aa2114c7d245d72fcb4bf5ca08c25e5",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-2.1.3.tgz_1477026319510_0.07042419677600265"
+      },
+      "_shasum" : "9994b461fd15d86eb8bfb42bcfafc2cca6391ae6",
+      "_nodeVersion" : "6.7.0"
+    },
+    "0.1.2" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-0.1.2.tgz",
+        "shasum" : "fb1543996461ddbe4d9f6e00e855d3552938d6a7"
+      },
+      "devDependencies" : {
+        "mocha" : "^2.2.5",
+        "should" : "^7.0.2"
+      },
+      "keywords" : [ "bracket", "character class", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@0.1.2",
+      "gitHead" : "8c70004d1170711b5951a26fe83af0e193d8d1cb",
+      "_shasum" : "fb1543996461ddbe4d9f6e00e855d3552938d6a7",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.1.4" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "2.1.4",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-2.1.4.tgz",
+        "shasum" : "b77735e315ce30f6b6eff0f83b04151a22449622"
+      },
+      "dependencies" : {
+        "debug" : "^2.3.3",
+        "define-property" : "^0.2.5",
+        "extend-shallow" : "^2.0.1",
+        "posix-character-classes" : "^0.1.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.8.1",
+        "to-regex" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "bash-match" : "^0.1.1",
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "multimatch" : "^2.1.0",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.9",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@2.1.4",
+      "gitHead" : "9a0ec493825eb0aa9368c158927ca4ace945fefa",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-2.1.4.tgz_1481570588748_0.128354384098202"
+      },
+      "_shasum" : "b77735e315ce30f6b6eff0f83b04151a22449622",
+      "_nodeVersion" : "6.9.2"
+    },
+    "2.1.1" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-2.1.1.tgz",
+        "shasum" : "5f1026a2e984a98680862388b3dc5fda1f8ddd7b"
+      },
+      "dependencies" : {
+        "debug" : "^2.2.0",
+        "define-property" : "^0.2.5",
+        "extend-shallow" : "^2.0.1",
+        "posix-character-classes" : "^0.1.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.8.1",
+        "to-regex" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "bash-match" : "^0.1.1",
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "multimatch" : "^2.1.0",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@2.1.1",
+      "gitHead" : "5a9b292e582b51b10e58e62e204404c2ebd1cb2a",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-2.1.1.tgz_1476678496119_0.046809958992525935"
+      },
+      "_shasum" : "5f1026a2e984a98680862388b3dc5fda1f8ddd7b",
+      "_nodeVersion" : "6.7.0"
+    },
+    "0.1.0" : {
+      "name" : "expand-brackets",
+      "description" : "Expand character classes (POSIX bracket expressions) in glob patterns.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-0.1.0.tgz",
+        "shasum" : "01cc980daf4f17f47b0e61cc94e34aed5e629070"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "^5.0.0"
+      },
+      "keywords" : [ "bracket", "character class", "expression", "posix" ],
+      "license" : {
+        "type" : "MIT",
+        "url" : "https://github.com/jonschlinkert/expand-brackets/blob/master/LICENSE"
+      },
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@0.1.0",
+      "gitHead" : "bfc2adefea0c407fe8eec496b260aa9388af3408",
+      "_shasum" : "01cc980daf4f17f47b0e61cc94e34aed5e629070"
+    },
+    "2.1.2" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-2.1.2.tgz",
+        "shasum" : "2aa3f57dbb8dfba9b98f4e6fb27def1dc9c3249c"
+      },
+      "dependencies" : {
+        "debug" : "^2.2.0",
+        "define-property" : "^0.2.5",
+        "extend-shallow" : "^2.0.1",
+        "posix-character-classes" : "^0.1.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.8.1",
+        "to-regex" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "bash-match" : "^0.1.1",
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "multimatch" : "^2.1.0",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@2.1.2",
+      "gitHead" : "c8da57ee920d50d3d2c4d443a03c2b343b713e79",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-2.1.2.tgz_1476999095180_0.8088445148896426"
+      },
+      "_shasum" : "2aa3f57dbb8dfba9b98f4e6fb27def1dc9c3249c",
+      "_nodeVersion" : "6.7.0"
+    },
+    "3.0.0" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/micromatch/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/micromatch/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/micromatch/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-3.0.0.tgz",
+        "shasum" : "880e818dad8edec68e53fdec304605e3057351d9"
+      },
+      "dependencies" : {
+        "extend-shallow" : "^3.0.2",
+        "posix-character-classes" : "^1.0.0",
+        "regex-not" : "^1.0.0",
+        "snapdragon" : "^0.11.3",
+        "to-regex" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "bash-match" : "^0.1.1",
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "multimatch" : "^2.1.0",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "brian.woodward@gmail.com",
+        "name" : "doowb"
+      }, {
+        "email" : "elan.shanker+npm@gmail.com",
+        "name" : "es128"
+      }, {
+        "email" : "github@sellside.com",
+        "name" : "jonschlinkert"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      },
+      "_id" : "expand-brackets@3.0.0",
+      "gitHead" : "58f2f1f0baec3c7cc2161a03d3d4e265894175c4",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expand-brackets_3.0.0_1522092355545_0.9670131488083911"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.0.0" : {
+      "name" : "expand-brackets",
+      "description" : "Expand POSIX bracket expressions (character classes) in glob patterns.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jon Schlinkert",
+        "url" : "https://github.com/jonschlinkert"
+      },
+      "homepage" : "https://github.com/jonschlinkert/expand-brackets",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jonschlinkert/expand-brackets.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Eugene Sharygin",
+        "url" : "https://github.com/eush77"
+      }, {
+        "name" : "Jon Schlinkert",
+        "email" : "jon.schlinkert@sellside.com",
+        "url" : "http://twitter.com/jonschlinkert"
+      }, {
+        "name" : "Martin Kolárik",
+        "email" : "martin@kolarik.sk",
+        "url" : "http://kolarik.sk"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jonschlinkert/expand-brackets/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/expand-brackets/-/expand-brackets-1.0.0.tgz",
+        "shasum" : "12e458614d3d9d1b15cc3406a7cce72cab021987"
+      },
+      "dependencies" : {
+        "debug" : "^2.2.0",
+        "define-property" : "^0.2.5",
+        "extend-shallow" : "^2.0.1",
+        "posix-character-classes" : "^0.1.0",
+        "regex-not" : "^0.1.2",
+        "snapdragon" : "^0.7.0",
+        "to-regex" : "^0.1.1"
+      },
+      "devDependencies" : {
+        "gulp-format-md" : "^0.1.10",
+        "helper-changelog" : "^0.3.0",
+        "minimatch" : "^3.0.3",
+        "mocha" : "^3.0.2",
+        "yargs-parser" : "^4.0.0"
+      },
+      "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "lib" ],
+      "maintainers" : [ {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      },
+      "_id" : "expand-brackets@1.0.0",
+      "gitHead" : "fc03b91da7516e63348eda80d61d109a6f8d7256",
+      "verb" : {
+        "run" : true,
+        "toc" : false,
+        "layout" : "default",
+        "tasks" : [ "readme" ],
+        "plugins" : [ "gulp-format-md" ],
+        "helpers" : [ "helper-changelog" ],
+        "related" : {
+          "list" : [ "braces", "extglob", "micromatch", "nanomatch" ]
+        },
+        "reflinks" : [ "micromatch", "verb", "verb-generate-readme" ],
+        "lint" : {
+          "reflinks" : true
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/expand-brackets-1.0.0.tgz_1474958777127_0.7496067055035383"
+      },
+      "_shasum" : "12e458614d3d9d1b15cc3406a7cce72cab021987",
+      "_nodeVersion" : "6.3.0"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# expand-brackets [![NPM version](https://img.shields.io/npm/v/expand-brackets.svg?style=flat)](https://www.npmjs.com/package/expand-brackets) [![NPM monthly downloads](https://img.shields.io/npm/dm/expand-brackets.svg?style=flat)](https://npmjs.org/package/expand-brackets)  [![NPM total downloads](https://img.shields.io/npm/dt/expand-brackets.svg?style=flat)](https://npmjs.org/package/expand-brackets) [![Linux Build Status](https://img.shields.io/travis/micromatch/expand-brackets.svg?style=flat&label=Travis)](https://travis-ci.org/micromatch/expand-brackets) [![Windows Build Status](https://img.shields.io/appveyor/ci/micromatch/expand-brackets.svg?style=flat&label=AppVeyor)](https://ci.appveyor.com/project/micromatch/expand-brackets)\n\n> Expand POSIX bracket expressions (character classes) in glob patterns.\n\n## Install\n\nInstall with [npm](https://www.npmjs.com/):\n\n```sh\n$ npm install --save expand-brackets\n```\n\nInstall with [yarn](https://yarnpkg.com):\n\n```sh\n$ yarn add expand-brackets\n```\n\n## Usage\n\n```js\nvar brackets = require('expand-brackets');\nbrackets(string[, options]);\n```\n\n**Params**\n\nThe main export is a function that takes the following parameters:\n\n* `pattern` **{String}**: the pattern to convert\n* `options` **{Object}**: optionally supply an options object\n* `returns` **{String}**: returns a string that can be used to create a regex\n\n**Example**\n\n```js\nconsole.log(brackets('[![:lower:]]'));\n//=> '[^a-z]'\n```\n\n## API\n\n### [brackets](index.js#L27)\n\nParses the given POSIX character class `pattern` and returns a\nstring that can be used for creating regular expressions for matching.\n\n**Params**\n\n* `pattern` **{String}**\n* `options` **{Object}**\n* `returns` **{Object}**\n\n### [.match](index.js#L51)\n\nTakes an array of strings and a POSIX character class pattern, and returns a new array with only the strings that matched the pattern.\n\n**Params**\n\n* `arr` **{Array}**: Array of strings to match\n* `pattern` **{String}**: POSIX character class pattern(s)\n* `options` **{Object}**\n* `returns` **{Array}**\n\n**Example**\n\n```js\nconst brackets = require('expand-brackets');\nconsole.log(brackets.match(['1', 'a', 'ab'], '[[:alpha:]]'));\n//=> ['a']\n\nconsole.log(brackets.match(['1', 'a', 'ab'], '[[:alpha:]]+'));\n//=> ['a', 'ab']\n```\n\n### [.isMatch](index.js#L97)\n\nReturns true if the specified `string` matches the given brackets `pattern`.\n\n**Params**\n\n* `string` **{String}**: String to match\n* `pattern` **{String}**: Poxis pattern\n* `options` **{String}**\n* `returns` **{Boolean}**\n\n**Example**\n\n```js\nconst brackets = require('expand-brackets');\n\nconsole.log(brackets.isMatch('a.a', '[[:alpha:]].[[:alpha:]]'));\n//=> true\nconsole.log(brackets.isMatch('1.2', '[[:alpha:]].[[:alpha:]]'));\n//=> false\n```\n\n### [.matcher](index.js#L120)\n\nTakes a POSIX character class pattern and returns a matcher function. The returned function takes the string to match as its only argument.\n\n**Params**\n\n* `pattern` **{String}**: Poxis pattern\n* `options` **{String}**\n* `returns` **{Boolean}**\n\n**Example**\n\n```js\nconst brackets = require('expand-brackets');\nconst isMatch = brackets.matcher('[[:lower:]].[[:upper:]]');\n\nconsole.log(isMatch('a.a'));\n//=> false\nconsole.log(isMatch('a.A'));\n//=> true\n```\n\n### [.makeRe](index.js#L140)\n\nCreate a regular expression from the given `pattern`.\n\n**Params**\n\n* `pattern` **{String}**: The pattern to convert to regex.\n* `options` **{Object}**\n* `returns` **{RegExp}**\n\n**Example**\n\n```js\nconst brackets = require('expand-brackets');\nconst re = brackets.makeRe('[[:alpha:]]');\nconsole.log(re);\n//=> /^(?:[a-zA-Z])$/\n```\n\n### [.create](index.js#L182)\n\nParses the given POSIX character class `pattern` and returns an object with the compiled `output` and optional source `map`.\n\n**Params**\n\n* `pattern` **{String}**\n* `options` **{Object}**\n* `returns` **{Object}**\n\n**Example**\n\n```js\nconst brackets = require('expand-brackets');\nconsole.log(brackets('[[:alpha:]]'));\n// { options: { source: 'string' },\n//   input: '[[:alpha:]]',\n//   state: {},\n//   compilers:\n//    { eos: [Function],\n//      noop: [Function],\n//      bos: [Function],\n//      not: [Function],\n//      escape: [Function],\n//      text: [Function],\n//      posix: [Function],\n//      bracket: [Function],\n//      'bracket.open': [Function],\n//      'bracket.inner': [Function],\n//      'bracket.literal': [Function],\n//      'bracket.close': [Function] },\n//   output: '[a-zA-Z]',\n//   ast:\n//    { type: 'root',\n//      errors: [],\n//      nodes: [ [Object], [Object], [Object] ] },\n//   parsingErrors: [] }\n```\n\n## Options\n\n### options.sourcemap\n\nGenerate a source map for the given pattern.\n\n**Example**\n\n```js\nvar res = brackets('[:alpha:]', {sourcemap: true});\n\nconsole.log(res.map);\n// { version: 3,\n//   sources: [ 'brackets' ],\n//   names: [],\n//   mappings: 'AAAA,MAAS',\n//   sourcesContent: [ '[:alpha:]' ] }\n```\n\n### POSIX Character classes\n\nThe following named POSIX bracket expressions are supported:\n\n* `[:alnum:]`: Alphanumeric characters (`a-zA-Z0-9]`)\n* `[:alpha:]`: Alphabetic characters (`a-zA-Z]`)\n* `[:blank:]`: Space and tab (`[ t]`)\n* `[:digit:]`: Digits (`[0-9]`)\n* `[:lower:]`: Lowercase letters (`[a-z]`)\n* `[:punct:]`: Punctuation and symbols. (`[!\"#$%&'()*+, -./:;<=>?@ [\\]^_``{|}~]`)\n* `[:upper:]`: Uppercase letters (`[A-Z]`)\n* `[:word:]`: Word characters (letters, numbers and underscores) (`[A-Za-z0-9_]`)\n* `[:xdigit:]`: Hexadecimal digits (`[A-Fa-f0-9]`)\n\nSee [posix-character-classes](https://github.com/jonschlinkert/posix-character-classes) for more details.\n\n**Not supported**\n\n* [equivalence classes](https://www.gnu.org/software/gawk/manual/html_node/Bracket-Expressions.html) are not supported\n* [POSIX.2 collating symbols](https://www.gnu.org/software/gawk/manual/html_node/Bracket-Expressions.html) are not supported\n\n## Changelog\n\n### v4.0.0\n\n**Breaking changes**\n\n* Snapdragon was updated to 0.12. Other packages that integrate `expand-brackets` need to also use snapdragon 0.12.\n* Minimum Node.JS version is now version 4.\n\n### v3.0.0\n\n**Breaking changes**\n\n* Snapdragon was updated to 0.11. Other packages that integrate `expand-brackets` need to also use snapdragon 0.11.\n\n### v2.0.0\n\n**Breaking changes**\n\n* The main export now returns the compiled string, instead of the object returned from the compiler\n\n**Added features**\n\n* Adds a `.create` method to do what the main function did before v2.0.0\n\n### v0.2.0\n\nIn addition to performance and matching improvements, the v0.2.0 refactor adds complete POSIX character class support, with the exception of equivalence classes and POSIX.2 collating symbols which are not relevant to node.js usage.\n\n**Added features**\n\n* parser is exposed, so that expand-brackets parsers can be used by upstream parsers (like [micromatch](https://github.com/micromatch/micromatch))\n* compiler is exposed, so that expand-brackets compilers can be used by upstream compilers\n* source maps\n\n**source map example**\n\n```js\nvar brackets = require('expand-brackets');\nvar res = brackets('[:alpha:]');\nconsole.log(res.map);\n\n{ version: 3,\n     sources: [ 'brackets' ],\n     names: [],\n     mappings: 'AAAA,MAAS',\n     sourcesContent: [ '[:alpha:]' ] }\n```\n\n## About\n\n### Related projects\n\n* [braces](https://www.npmjs.com/package/braces): Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support… [more](https://github.com/micromatch/braces) | [homepage](https://github.com/micromatch/braces \"Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.\")\n* [extglob](https://www.npmjs.com/package/extglob): Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob… [more](https://github.com/micromatch/extglob) | [homepage](https://github.com/micromatch/extglob \"Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob patterns.\")\n* [micromatch](https://www.npmjs.com/package/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch. | [homepage](https://github.com/micromatch/micromatch \"Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch.\")\n* [nanomatch](https://www.npmjs.com/package/nanomatch): Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash… [more](https://github.com/micromatch/nanomatch) | [homepage](https://github.com/micromatch/nanomatch \"Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)\")\n\n### Contributing\n\nPull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).\n\n### Contributors\n\n| **Commits** | **Contributor** |  \n| --- | --- |  \n| 69 | [jonschlinkert](https://github.com/jonschlinkert) |  \n| 13 | [danez](https://github.com/danez) |  \n| 2  | [MartinKolarik](https://github.com/MartinKolarik) |  \n| 2  | [es128](https://github.com/es128) |  \n| 1  | [doowb](https://github.com/doowb) |  \n| 1  | [eush77](https://github.com/eush77) |  \n| 1  | [mjbvz](https://github.com/mjbvz) |  \n\n### Building docs\n\n_(This project's readme.md is generated by [verb](https://github.com/verbose/verb-generate-readme), please don't edit the readme directly. Any changes to the readme must be made in the [.verb.md](.verb.md) readme template.)_\n\nTo generate the readme, run the following command:\n\n```sh\n$ npm install -g verbose/verb#dev verb-generate-readme && verb\n```\n\n### Running tests\n\nRunning and reviewing unit tests is a great way to get familiarized with a library and its API. You can install dependencies and run tests with the following command:\n\n```sh\n$ npm install && npm test\n```\n\n### Author\n\n**Jon Schlinkert**\n\n* [github/jonschlinkert](https://github.com/jonschlinkert)\n* [twitter/jonschlinkert](https://twitter.com/jonschlinkert)\n\n### License\n\nCopyright © 2018, [Jon Schlinkert](https://github.com/jonschlinkert).\nReleased under the [MIT License](LICENSE).\n\n***\n\n_This file was generated by [verb-generate-readme](https://github.com/verbose/verb-generate-readme), v0.6.0, on April 30, 2018._",
+  "maintainers" : [ {
+    "email" : "daniel@tschinder.de",
+    "name" : "danez"
+  }, {
+    "email" : "brian.woodward@gmail.com",
+    "name" : "doowb"
+  }, {
+    "email" : "elan.shanker+npm@gmail.com",
+    "name" : "es128"
+  }, {
+    "email" : "github@sellside.com",
+    "name" : "jonschlinkert"
+  } ],
+  "author" : {
+    "name" : "Jon Schlinkert",
+    "url" : "https://github.com/jonschlinkert"
+  },
+  "time" : {
+    "0.1.5" : "2016-04-01T23:48:28.244Z",
+    "2.0.0" : "2016-10-08T09:20:31.532Z",
+    "2.0.1" : "2016-10-13T05:50:07.800Z",
+    "2.1.0" : "2016-10-17T02:46:59.518Z",
+    "0.1.3" : "2015-08-03T20:28:34.845Z",
+    "0.1.4" : "2015-08-21T09:17:51.822Z",
+    "created" : "2015-02-11T10:24:03.917Z",
+    "4.0.0" : "2018-04-30T10:28:42.598Z",
+    "0.1.1" : "2015-02-11T10:44:26.271Z",
+    "2.1.3" : "2016-10-21T05:05:21.682Z",
+    "0.1.2" : "2015-07-22T01:27:33.186Z",
+    "2.1.4" : "2016-12-12T19:23:10.778Z",
+    "2.1.1" : "2016-10-17T04:28:17.990Z",
+    "0.1.0" : "2015-02-11T10:24:03.917Z",
+    "2.1.2" : "2016-10-20T21:31:37.191Z",
+    "3.0.0" : "2018-03-26T19:25:55.604Z",
+    "modified" : "2018-04-30T10:28:45.868Z",
+    "1.0.0" : "2016-09-27T06:46:19.130Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/micromatch/expand-brackets.git"
+  },
+  "users" : {
+    "jonschlinkert" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/micromatch/expand-brackets",
+  "keywords" : [ "bracket", "brackets", "character class", "expand", "expression", "posix" ],
+  "contributors" : [ {
+    "name" : "Elan Shanker",
+    "url" : "https://github.com/es128"
+  }, {
+    "name" : "Eugene Sharygin",
+    "url" : "https://github.com/eush77"
+  }, {
+    "name" : "Jon Schlinkert",
+    "email" : "jon.schlinkert@sellside.com",
+    "url" : "http://twitter.com/jonschlinkert"
+  }, {
+    "name" : "Martin Kolárik",
+    "email" : "martin@kolarik.sk",
+    "url" : "http://kolarik.sk"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/micromatch/expand-brackets/issues"
+  },
+  "license" : "MIT"
+}

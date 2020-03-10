@@ -1,0 +1,2056 @@
+{
+  "_id" : "duplexify",
+  "_rev" : "66-71d9cb4a3f6f727e73fe15383fedfa1a",
+  "name" : "duplexify",
+  "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+  "dist-tags" : {
+    "latest" : "4.1.1"
+  },
+  "versions" : {
+    "4.1.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-4.1.1.tgz",
+        "shasum" : "7027dc374f157b122a8ae08c2d3ea4d2d953aa61"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.4.1",
+        "inherits" : "^2.0.3",
+        "readable-stream" : "^3.1.1",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@4.1.1",
+      "gitHead" : "8f8032881187e3db8ba8f64106daa999f63dc785",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify_4.1.1_1560370354584_0.1075957544084507"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "4.0.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-4.0.0.tgz",
+        "shasum" : "9eddda497bf43dddd2d143d31f7a4e68ad1e53a9"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.4.1",
+        "inherits" : "^2.0.3",
+        "readable-stream" : "^3.1.1",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@4.0.0",
+      "gitHead" : "9dc80c1387d92270f2878c467e84a897973a71f7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify_4.0.0_1549298293718_0.7767198343160726"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "4.1.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-4.1.0.tgz",
+        "shasum" : "b26c51659c83cb03d78c3e70acef202dede7c031"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.4.1",
+        "inherits" : "^2.0.3",
+        "readable-stream" : "^3.1.1",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@4.1.0",
+      "gitHead" : "197f4b78ef90a78bcf7ec9799bb3f517811a952e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify_4.1.0_1560252244402_0.8046017340355003"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "3.0.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.0.0.tgz",
+        "shasum" : "67c60f3b1d909f47955e0be0f20c4d454ad4e25c"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.0.0",
+      "_shasum" : "67c60f3b1d909f47955e0be0f20c4d454ad4e25c"
+    },
+    "3.4.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.4.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.4.1.tgz",
+        "shasum" : "eb0e8a2040e27e2db9ff8d8d36d3a1b4427fc502"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "readable-stream" : "^1.1.13"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.4.1",
+      "gitHead" : "2be4a0dab319d4185e2cc92614b9453dfddc5889",
+      "_shasum" : "eb0e8a2040e27e2db9ff8d8d36d3a1b4427fc502",
+      "_nodeVersion" : "2.1.0"
+    },
+    "3.5.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.5.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.5.0.tgz",
+        "shasum" : "1aa773002e1578457e9d9d4a50b0ccaaebcbd604"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.5.0",
+      "gitHead" : "97f525d36ce275e52435611d70b3a77a7234eaa1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/duplexify-3.5.0.tgz_1477317448157_0.2257942291907966"
+      },
+      "_shasum" : "1aa773002e1578457e9d9d4a50b0ccaaebcbd604",
+      "_nodeVersion" : "4.6.1"
+    },
+    "3.4.2" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.4.2",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.4.2.tgz",
+        "shasum" : "71a578af03e0d063eb8f1326affd5e5600145e1b"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "readable-stream" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.4.2",
+      "gitHead" : "ba1aed77e6f36adcac0ca01d750f2cc5baa9ff1c",
+      "_shasum" : "71a578af03e0d063eb8f1326affd5e5600145e1b",
+      "_nodeVersion" : "2.2.1"
+    },
+    "3.5.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.5.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.5.1.tgz",
+        "shasum" : "4e1516be68838bc90a49994f0b39a6e5960befcd"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.5.1",
+      "gitHead" : "4996109a6a371d07990601378142b8f25780bd3d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify-3.5.1.tgz_1501620245530_0.8725061865989119"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.6.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.6.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.6.0.tgz",
+        "shasum" : "592903f5d80b38d037220541264d69a198fb3410"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.6.0",
+      "gitHead" : "f81db336f8b576f9b39afa2ea2a7bc12da3bb6b1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify_3.6.0_1525429943186_0.29469811383753375"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "3.4.3" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.4.3",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.4.3.tgz",
+        "shasum" : "af6a7b10d928b095f8ad854d072bb90998db850d"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.4.3",
+      "gitHead" : "0ecf524c3903ad55d3a2d4ce17939240105ce470",
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/duplexify-3.4.3.tgz_1456243581005_0.08543725567869842"
+      },
+      "_shasum" : "af6a7b10d928b095f8ad854d072bb90998db850d",
+      "_nodeVersion" : "4.2.3"
+    },
+    "3.5.2" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.5.2",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.5.2.tgz",
+        "shasum" : "7681871c9ae8b3714a486b3970a3fc729bae3520"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.5.2",
+      "gitHead" : "46930b4df4d36bf4329df15c25a26c121fae6ff0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify-3.5.2.tgz_1515600162290_0.6900210857857019"
+      },
+      "_nodeVersion" : "8.9.3"
+    },
+    "3.6.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.6.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.6.1.tgz",
+        "shasum" : "b1a7a29c4abfd639585efaecce80d666b1e34125"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.6.1",
+      "gitHead" : "683ee893bb34202d1f00228e184ca38dfb849d50",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify_3.6.1_1539468058997_0.5627181059372255"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "3.7.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.7.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.7.0.tgz",
+        "shasum" : "f4cae6c26675bc37a89ae8eba712de8c48ca23ad"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.4.1",
+        "inherits" : "^2.0.3",
+        "readable-stream" : "^3.1.1",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.7.0",
+      "gitHead" : "db96c6b2e5edadc50534fc09be75030baca1175f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify_3.7.0_1549271779797_0.30578102504805904"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "3.4.4" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.4.4",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.4.4.tgz",
+        "shasum" : "96153bcc07e1284d44beea5036834544084e77a9"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.4.4",
+      "gitHead" : "69420891905a33c01ee15af60e241c04f4148219",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/duplexify-3.4.4.tgz_1468010820573_0.21394471800886095"
+      },
+      "_shasum" : "96153bcc07e1284d44beea5036834544084e77a9",
+      "_nodeVersion" : "4.4.3"
+    },
+    "3.5.3" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.5.3",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.5.3.tgz",
+        "shasum" : "8b5818800df92fd0125b27ab896491912858243e"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.5.3",
+      "gitHead" : "0fd3535da85bc7c4cc196f63bad84bed184446ac",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify-3.5.3.tgz_1515600869021_0.9974729833193123"
+      },
+      "_nodeVersion" : "8.9.3"
+    },
+    "3.7.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.7.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.7.1.tgz",
+        "shasum" : "2a4df5317f6ccfd91f86d6fd25d8d8a103b88309"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.7.1",
+      "gitHead" : "f6af4f971bf4c99750f44751b99942675f0ab5df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify_3.7.1_1549298243866_0.6164307625554561"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "3.0.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.0.1.tgz",
+        "shasum" : "a120cb51b4ff08ce6daf9c92cdd28ed169c2a44f"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.0.1",
+      "gitHead" : "90440f630b8cf8ad033cc4a7787ab2766c57b0f0",
+      "_shasum" : "a120cb51b4ff08ce6daf9c92cdd28ed169c2a44f"
+    },
+    "3.1.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.1.0.tgz",
+        "shasum" : "ad27ec00154c2c4d9c767e4c6c8baa4e6bdf5135"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.1.0",
+      "gitHead" : "e891eeb58b590ddfc9e33b74df922b9bcbb168af",
+      "_shasum" : "ad27ec00154c2c4d9c767e4c6c8baa4e6bdf5135"
+    },
+    "3.1.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.1.1.tgz",
+        "shasum" : "4e8a47327bb9e432a70a171001e8071031c24349"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.1.1",
+      "gitHead" : "1f7a163d86f452914e619e443d0c891c5cd2879f",
+      "_shasum" : "4e8a47327bb9e432a70a171001e8071031c24349"
+    },
+    "3.2.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.2.0.tgz",
+        "shasum" : "293974e3cef2e78fbb234e4fd84e20e0ad9d2d60"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "readable-stream" : "^1.0.27-1"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.2.0",
+      "gitHead" : "874c8733d25fee359e98146f3d3307e53535e1c0",
+      "_shasum" : "293974e3cef2e78fbb234e4fd84e20e0ad9d2d60"
+    },
+    "3.1.2" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.1.2",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.1.2.tgz",
+        "shasum" : "baa404d7be78a5b851a1234519f198b3e1bcd831"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.1.2",
+      "gitHead" : "75305d61a063501bf0084cd47a10baa9c974b6be",
+      "_shasum" : "baa404d7be78a5b851a1234519f198b3e1bcd831"
+    },
+    "3.3.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.3.0.tgz",
+        "shasum" : "f5025c4b1f49f998b7399cd2d008e2895d18d247"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "readable-stream" : "^1.0.27-1"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.3.0",
+      "gitHead" : "7e55731e36518b4cdc466b9a11b1201d51a7608f",
+      "_shasum" : "f5025c4b1f49f998b7399cd2d008e2895d18d247",
+      "_nodeVersion" : "1.6.4"
+    },
+    "3.1.3" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.1.3",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.1.3.tgz",
+        "shasum" : "062c65018a56332560eeaf13cdaaede408d1a3da"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "readable-stream" : "^1.0.27-1"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.1.3",
+      "gitHead" : "27f24f4ec8e10d6da00fa50295f1afaf5754fe4b",
+      "_shasum" : "062c65018a56332560eeaf13cdaaede408d1a3da"
+    },
+    "3.4.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.4.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.4.0.tgz",
+        "shasum" : "830f7878a4c45818076104953930382cc7097833"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "readable-stream" : "^1.1.13"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.4.0",
+      "gitHead" : "8b3b34995b1a79793c709ba5cae4011b6e13dea2",
+      "_shasum" : "830f7878a4c45818076104953930382cc7097833",
+      "_nodeVersion" : "2.0.1"
+    },
+    "2.0.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-2.0.0.tgz",
+        "shasum" : "2ec9a8687627d3a19411ed17521599d7e4f58e7a"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@2.0.0",
+      "_shasum" : "2ec9a8687627d3a19411ed17521599d7e4f58e7a"
+    },
+    "3.4.5" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.4.5",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.4.5.tgz",
+        "shasum" : "0e7e287a775af753bf57e6e7b7f21f183f6c3a53"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.4.5",
+      "gitHead" : "338de6776ce9b25d7ab6e91d766166245a8f070a",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/duplexify-3.4.5.tgz_1468011872327_0.44416941492818296"
+      },
+      "_shasum" : "0e7e287a775af753bf57e6e7b7f21f183f6c3a53",
+      "_nodeVersion" : "4.4.3"
+    },
+    "3.5.4" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.5.4",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.5.4.tgz",
+        "shasum" : "4bb46c1796eabebeec4ca9a2e66b808cb7a3d8b4"
+      },
+      "dependencies" : {
+        "end-of-stream" : "^1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.5.2",
+        "tape" : "^4.0.0",
+        "through2" : "^2.0.0"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.5.4",
+      "gitHead" : "2d220034d4b1966aa179cb5b3191f0270253abd5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/duplexify_3.5.4_1519997687265_0.32809036777750067"
+      },
+      "_nodeVersion" : "9.6.1"
+    },
+    "3.4.6" : {
+      "name" : "duplexify",
+      "description" : "Turn a writable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "3.4.6",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-3.4.6.tgz",
+        "shasum" : "1e586a13028caf31d5144a059813f9b071fec557"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0",
+        "inherits" : "^2.0.1",
+        "readable-stream" : "^2.0.0",
+        "stream-shift" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@3.4.6",
+      "gitHead" : "bf26523a410ce6215e5a5e29092b35cebe514859",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/duplexify-3.4.6.tgz_1476804899240_0.6424867499154061"
+      },
+      "_shasum" : "1e586a13028caf31d5144a059813f9b071fec557",
+      "_nodeVersion" : "4.2.6"
+    },
+    "1.2.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.2.1.tgz",
+        "shasum" : "2fefe208b27ca5d3ff4b66ec49c42ee6de083024"
+      },
+      "dependencies" : {
+        "end-of-stream" : "0.1.5"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.2.1",
+      "_shasum" : "2fefe208b27ca5d3ff4b66ec49c42ee6de083024"
+    },
+    "1.3.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.3.0.tgz",
+        "shasum" : "2c4f1606b9204b4ded00c9446fd5e2a57dda999e"
+      },
+      "dependencies" : {
+        "end-of-stream" : "0.1.5"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.3.0",
+      "_shasum" : "2c4f1606b9204b4ded00c9446fd5e2a57dda999e"
+    },
+    "1.4.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.4.0.tgz",
+        "shasum" : "0ab17f9e2932076d5793942e7bd63b2d17313b74"
+      },
+      "dependencies" : {
+        "end-of-stream" : "0.1.5"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.4.0",
+      "_shasum" : "0ab17f9e2932076d5793942e7bd63b2d17313b74"
+    },
+    "1.5.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.5.0.tgz",
+        "shasum" : "6a383b036d35b0dec831a102cf30f748de7d6f37"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.5.0",
+      "_shasum" : "6a383b036d35b0dec831a102cf30f748de7d6f37"
+    },
+    "1.5.1" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.5.1.tgz",
+        "shasum" : "d0cd104b208c0be0ed1ed76865941386c4968f6e"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.5.1",
+      "_shasum" : "d0cd104b208c0be0ed1ed76865941386c4968f6e"
+    },
+    "1.5.2" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.5.2",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.5.2.tgz",
+        "shasum" : "337c932dd9546f2729fabd263cb40e9b7d0b1c99"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.5.2",
+      "_shasum" : "337c932dd9546f2729fabd263cb40e9b7d0b1c99"
+    },
+    "1.5.3" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.5.3",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.5.3.tgz",
+        "shasum" : "6ad610d9b5368f10521a89f83e6fcd47e6339a08"
+      },
+      "dependencies" : {
+        "end-of-stream" : "1.0.0"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.5.3",
+      "_shasum" : "6ad610d9b5368f10521a89f83e6fcd47e6339a08"
+    },
+    "1.0.0" : {
+      "name" : "duplexify",
+      "description" : "Similar to duplexer2 except it supports both streams2 and streams1 as input and it allows you to set the readable and writable part asynchroniously",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.0.0.tgz",
+        "shasum" : "611dae618208b35234aab006ca879c15a2f389b2"
+      },
+      "dependencies" : {
+        "end-of-stream" : "0.1.5"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.0.0",
+      "_shasum" : "611dae618208b35234aab006ca879c15a2f389b2"
+    },
+    "1.1.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.1.0.tgz",
+        "shasum" : "b31b373ed480811517021dbd80e580e1c58e5022"
+      },
+      "dependencies" : {
+        "end-of-stream" : "0.1.5"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.1.0",
+      "_shasum" : "b31b373ed480811517021dbd80e580e1c58e5022"
+    },
+    "1.2.0" : {
+      "name" : "duplexify",
+      "description" : "Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Mathias Buus"
+      },
+      "homepage" : "https://github.com/mafintosh/duplexify",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mafintosh/duplexify"
+      },
+      "bugs" : {
+        "url" : "https://github.com/mafintosh/duplexify/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/duplexify/-/duplexify-1.2.0.tgz",
+        "shasum" : "9d687ab816dfb5f00dd4c3c7a088b91a702a26e7"
+      },
+      "dependencies" : {
+        "end-of-stream" : "0.1.5"
+      },
+      "devDependencies" : {
+        "concat-stream" : "^1.4.6",
+        "tape" : "^2.13.3",
+        "through2" : "^0.5.1"
+      },
+      "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "mafintosh",
+        "email" : "mathiasbuus@gmail.com"
+      },
+      "_id" : "duplexify@1.2.0",
+      "_shasum" : "9d687ab816dfb5f00dd4c3c7a088b91a702a26e7"
+    }
+  },
+  "readme" : "# duplexify\n\nTurn a writeable and readable stream into a single streams2 duplex stream.\n\nSimilar to [duplexer2](https://github.com/deoxxa/duplexer2) except it supports both streams2 and streams1 as input\nand it allows you to set the readable and writable part asynchronously using `setReadable(stream)` and `setWritable(stream)`\n\n```\nnpm install duplexify\n```\n\n[![build status](http://img.shields.io/travis/mafintosh/duplexify.svg?style=flat)](http://travis-ci.org/mafintosh/duplexify)\n\n## Usage\n\nUse `duplexify(writable, readable, streamOptions)` (or `duplexify.obj(writable, readable)` to create an object stream)\n\n``` js\nvar duplexify = require('duplexify')\n\n// turn writableStream and readableStream into a single duplex stream\nvar dup = duplexify(writableStream, readableStream)\n\ndup.write('hello world') // will write to writableStream\ndup.on('data', function(data) {\n  // will read from readableStream\n})\n```\n\nYou can also set the readable and writable parts asynchronously\n\n``` js\nvar dup = duplexify()\n\ndup.write('hello world') // write will buffer until the writable\n                         // part has been set\n\n// wait a bit ...\ndup.setReadable(readableStream)\n\n// maybe wait some more?\ndup.setWritable(writableStream)\n```\n\nIf you call `setReadable` or `setWritable` multiple times it will unregister the previous readable/writable stream.\nTo disable the readable or writable part call `setReadable` or `setWritable` with `null`.\n\nIf the readable or writable streams emits an error or close it will destroy both streams and bubble up the event.\nYou can also explicitly destroy the streams by calling `dup.destroy()`. The `destroy` method optionally takes an\nerror object as argument, in which case the error is emitted as part of the `error` event.\n\n``` js\ndup.on('error', function(err) {\n  console.log('readable or writable emitted an error - close will follow')\n})\n\ndup.on('close', function() {\n  console.log('the duplex stream is destroyed')\n})\n\ndup.destroy() // calls destroy on the readable and writable part (if present)\n```\n\n## HTTP request example\n\nTurn a node core http request into a duplex stream is as easy as\n\n``` js\nvar duplexify = require('duplexify')\nvar http = require('http')\n\nvar request = function(opts) {\n  var req = http.request(opts)\n  var dup = duplexify(req)\n  req.on('response', function(res) {\n    dup.setReadable(res)\n  })\n  return dup\n}\n\nvar req = request({\n  method: 'GET',\n  host: 'www.google.com',\n  port: 80\n})\n\nreq.end()\nreq.pipe(process.stdout)\n```\n\n## License\n\nMIT\n\n## Related\n\n`duplexify` is part of the [mississippi stream utility collection](https://github.com/maxogden/mississippi) which includes more useful stream modules similar to this one.\n",
+  "maintainers" : [ {
+    "name" : "mafintosh",
+    "email" : "mathiasbuus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Mathias Buus"
+  },
+  "time" : {
+    "4.1.1" : "2019-06-12T20:12:34.752Z",
+    "4.0.0" : "2019-02-04T16:38:13.795Z",
+    "4.1.0" : "2019-06-11T11:24:04.564Z",
+    "3.0.0" : "2014-07-23T13:09:09.259Z",
+    "3.4.1" : "2015-05-27T14:47:16.097Z",
+    "3.5.0" : "2016-10-24T13:57:29.954Z",
+    "modified" : "2019-06-12T20:12:37.758Z",
+    "3.4.2" : "2015-06-15T04:47:04.104Z",
+    "3.5.1" : "2017-08-01T20:44:06.446Z",
+    "3.6.0" : "2018-05-04T10:32:23.233Z",
+    "3.4.3" : "2016-02-23T16:06:25.764Z",
+    "3.5.2" : "2018-01-10T16:02:43.335Z",
+    "3.6.1" : "2018-10-13T22:00:59.151Z",
+    "3.7.0" : "2019-02-04T09:16:19.916Z",
+    "3.4.4" : "2016-07-08T20:47:01.044Z",
+    "3.5.3" : "2018-01-10T16:14:29.938Z",
+    "3.7.1" : "2019-02-04T16:37:23.968Z",
+    "3.0.1" : "2014-07-25T19:09:30.423Z",
+    "3.1.0" : "2014-08-07T20:20:01.206Z",
+    "3.1.1" : "2014-08-15T23:09:36.697Z",
+    "3.2.0" : "2014-08-30T15:55:02.423Z",
+    "3.1.2" : "2014-08-15T23:24:01.925Z",
+    "3.3.0" : "2015-04-14T19:05:01.297Z",
+    "3.1.3" : "2014-08-19T07:45:04.328Z",
+    "3.4.0" : "2015-05-17T09:09:41.271Z",
+    "2.0.0" : "2014-07-23T00:02:46.284Z",
+    "3.4.5" : "2016-07-08T21:04:32.777Z",
+    "3.5.4" : "2018-03-02T13:34:47.313Z",
+    "3.4.6" : "2016-10-18T15:35:01.402Z",
+    "created" : "2014-07-07T16:47:19.676Z",
+    "1.2.1" : "2014-07-12T21:43:23.864Z",
+    "1.3.0" : "2014-07-13T12:45:52.832Z",
+    "1.4.0" : "2014-07-13T12:51:01.328Z",
+    "1.5.0" : "2014-07-21T12:14:20.057Z",
+    "1.5.1" : "2014-07-21T12:25:30.267Z",
+    "1.5.2" : "2014-07-22T18:33:42.615Z",
+    "1.5.3" : "2014-07-22T21:44:56.410Z",
+    "1.0.0" : "2014-07-07T16:47:19.676Z",
+    "1.1.0" : "2014-07-07T21:25:52.700Z",
+    "1.2.0" : "2014-07-12T21:36:58.044Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/mafintosh/duplexify.git"
+  },
+  "users" : {
+    "julien-f" : true,
+    "stringparser" : true,
+    "tclay" : true,
+    "incendiary" : true,
+    "xu_q90" : true,
+    "programmer.severson" : true,
+    "fivdi" : true,
+    "bammoo" : true,
+    "alexkval" : true,
+    "timhudson" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/mafintosh/duplexify",
+  "keywords" : [ "duplex", "streams2", "streams", "stream", "writable", "readable", "async" ],
+  "bugs" : {
+    "url" : "https://github.com/mafintosh/duplexify/issues"
+  },
+  "license" : "MIT"
+}

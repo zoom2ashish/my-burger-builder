@@ -1,0 +1,512 @@
+{
+  "_id" : "postcss-media-minmax",
+  "_rev" : "14-9a6f4e5a2e7ff33063c120029e22ad80",
+  "name" : "postcss-media-minmax",
+  "description" : "Using more intuitive `>=`, `<=`, `>`, `<` instead of media queries min/max prefix.",
+  "dist-tags" : {
+    "latest" : "4.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Using more intuitive `>=` or `<=` instead of media queries min/max prefix.",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-2.0.0.tgz",
+        "shasum" : "efa51cff75badc7f436ec0f6a8b44c0979014b33"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugin", "media querie", "media queries" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "README.md", "README-zh.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      },
+      "_id" : "postcss-media-minmax@2.0.0",
+      "gitHead" : "cb38acfcdff0ef3de185b3d341e6e2999b88c30c",
+      "_shasum" : "efa51cff75badc7f436ec0f6a8b44c0979014b33",
+      "_nodeVersion" : "0.12.5"
+    },
+    "2.1.0" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Using more intuitive `>=`, `<=`, `>`, `<` instead of media queries min/max prefix.",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-2.1.0.tgz",
+        "shasum" : "842a965a7530aa6832afe0b346cc9298d63d8c34"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugin", "media querie", "media queries" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "README.md", "README-zh.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      },
+      "_id" : "postcss-media-minmax@2.1.0",
+      "gitHead" : "c98728c4adf5bddbd74096cc6e372a103f18a036",
+      "_shasum" : "842a965a7530aa6832afe0b346cc9298d63d8c34",
+      "_nodeVersion" : "0.12.5"
+    },
+    "3.0.0" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Using more intuitive `>=`, `<=`, `>`, `<` instead of media queries min/max prefix.",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-3.0.0.tgz",
+        "shasum" : "675256037a43ef40bc4f0760bfd06d4dc69d48d2"
+      },
+      "dependencies" : {
+        "postcss" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "npmpub" : "^3.1.0",
+        "tape" : "^4.6.3"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugin", "media querie", "media queries" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "README.md", "README-zh.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test",
+        "release" : "npmpub"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      },
+      "_id" : "postcss-media-minmax@3.0.0",
+      "gitHead" : "00291bb8a709a6e1236b4e48fa8e613f94fe3a3e",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/postcss-media-minmax-3.0.0.tgz_1494476921608_0.9404449749272317"
+      },
+      "_shasum" : "675256037a43ef40bc4f0760bfd06d4dc69d48d2",
+      "_nodeVersion" : "6.10.1"
+    },
+    "4.0.0" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Using more intuitive `>=`, `<=`, `>`, `<` instead of media queries min/max prefix.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-4.0.0.tgz",
+        "shasum" : "b75bb6cbc217c8ac49433e12f22048814a4f5ed5"
+      },
+      "dependencies" : {
+        "postcss" : "^7.0.2"
+      },
+      "devDependencies" : {
+        "npmpub" : "^4.1.0",
+        "tape" : "^4.9.1"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugin", "media querie", "media queries" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "semigradsky",
+        "email" : "semigradskyd@gmail.com"
+      }, {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test",
+        "release" : "npmpub"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "jonathantneal",
+        "email" : "jonathantneal@hotmail.com"
+      },
+      "_id" : "postcss-media-minmax@4.0.0",
+      "gitHead" : "f25abffafd9efe2e1f445ddaa08db0b8a6ef36d1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/postcss-media-minmax_4.0.0_1537247449884_0.8293526012072834"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "1.0.0" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Writing simple and graceful Media Queries!Using more intuitive `>=` or `<=` instead of media queries min/max prefix.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-1.0.0.tgz",
+        "shasum" : "4bd2cb9ed865f17ffd7361ca68761ff0b1db068b"
+      },
+      "devDependencies" : {
+        "postcss" : "^3.0.7",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugins", "Media Queries" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "README-zh.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      },
+      "_id" : "postcss-media-minmax@1.0.0",
+      "gitHead" : "d3301a04f1321ada0805133ae16773321579d058",
+      "_shasum" : "4bd2cb9ed865f17ffd7361ca68761ff0b1db068b",
+      "_nodeVersion" : "0.10.32"
+    },
+    "1.1.0" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Using more intuitive `>=` or `<=` instead of media queries min/max prefix.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-1.1.0.tgz",
+        "shasum" : "695669974a28a5ebf7e6506cc5a47f77794c562b"
+      },
+      "devDependencies" : {
+        "postcss" : "^3.0.7",
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugins", "media querie", "media queries" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "README.md", "README-zh.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      },
+      "_id" : "postcss-media-minmax@1.1.0",
+      "gitHead" : "c337ab59f4853dc56f83bc66e21d1753a1805935",
+      "_shasum" : "695669974a28a5ebf7e6506cc5a47f77794c562b",
+      "_nodeVersion" : "0.10.32"
+    },
+    "2.1.1" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Using more intuitive `>=`, `<=`, `>`, `<` instead of media queries min/max prefix.",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-2.1.1.tgz",
+        "shasum" : "0296780df4246e9a791b0038d2e14da1345c95bd"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugin", "media querie", "media queries" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "README.md", "README-zh.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      },
+      "_id" : "postcss-media-minmax@2.1.1",
+      "gitHead" : "12c39814d53d76372499731adc37bc8656843dcd",
+      "_shasum" : "0296780df4246e9a791b0038d2e14da1345c95bd",
+      "_nodeVersion" : "4.0.0"
+    },
+    "1.2.0" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Using more intuitive `>=` or `<=` instead of media queries min/max prefix.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-1.2.0.tgz",
+        "shasum" : "dc178f72daaadde8abe4f461afac4e8be5794318"
+      },
+      "dependencies" : {
+        "postcss" : "^4.1.14"
+      },
+      "devDependencies" : {
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugin", "media querie", "media queries" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "README.md", "README-zh.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      },
+      "_id" : "postcss-media-minmax@1.2.0",
+      "gitHead" : "f8b784171a8712847f32c365737942941af7609a",
+      "_shasum" : "dc178f72daaadde8abe4f461afac4e8be5794318",
+      "_nodeVersion" : "0.10.32"
+    },
+    "2.1.2" : {
+      "name" : "postcss-media-minmax",
+      "description" : "Using more intuitive `>=`, `<=`, `>`, `<` instead of media queries min/max prefix.",
+      "version" : "2.1.2",
+      "author" : {
+        "name" : "yisi"
+      },
+      "homepage" : "https://github.com/postcss/postcss-media-minmax",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/postcss/postcss-media-minmax.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/postcss-media-minmax/-/postcss-media-minmax-2.1.2.tgz",
+        "shasum" : "444c5cf8926ab5e4fd8a2509e9297e751649cdf8"
+      },
+      "dependencies" : {
+        "postcss" : "^5.0.4"
+      },
+      "devDependencies" : {
+        "tape" : "^3.0.0"
+      },
+      "keywords" : [ "css", "css3", "postcss", "postcss-plugin", "media querie", "media queries" ],
+      "license" : "MIT",
+      "files" : [ "CHANGELOG.md", "README.md", "README-zh.md", "LICENSE", "index.js" ],
+      "maintainers" : [ {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "yisi",
+        "email" : "yiorsi@gmail.com"
+      },
+      "_id" : "postcss-media-minmax@2.1.2",
+      "gitHead" : "247886ff579af04e586bc4932ed6e64b534e48e6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/postcss-media-minmax-2.1.2.tgz_1459481181173_0.8647319509182125"
+      },
+      "_shasum" : "444c5cf8926ab5e4fd8a2509e9297e751649cdf8",
+      "_nodeVersion" : "4.0.0"
+    }
+  },
+  "readme" : "# PostCSS Media Minmax\n\n[![CSS Standard Status](https://cssdb.org/badge/media-query-ranges.svg)](https://cssdb.org/#media-query-ranges)\n[![Build Status](https://travis-ci.org/postcss/postcss-media-minmax.svg?branch=master)](https://travis-ci.org/postcss/postcss-media-minmax) \n[![NPM Downloads](https://img.shields.io/npm/dm/postcss-media-minmax.svg?style=flat)](https://www.npmjs.com/package/postcss-media-minmax) \n[![NPM Version](https://img.shields.io/npm/v/postcss-media-minmax.svg?style=flat)](https://www.npmjs.com/package/postcss-media-minmax) \n[![License](https://img.shields.io/npm/l/postcss-media-minmax.svg?style=flat)](https://opensource.org/licenses/MIT) \n\n> Writing simple and graceful media queries!\n\nThe `min-width`, `max-width` and many other properties of media queries are really confusing. I want to cry every time I see them. But right now according to the new specs, you can use more intuitive `<=` or `>=` to replace the  `min-`/`max-` prefixes in media queries.\n\nV2.1.0 began to support `>` or `<` symbol.\n\nThis is a polyfill plugin which supports [CSS Media Queries Level 4](https://drafts.csswg.org/mediaqueries/#mq-range-context) and gives you access to the new features right away. Mom will never worry about my study any more. So amazing!\n\n\n[简体中文](README-zh.md)\n\n-----\n\n![Gif Demo](https://gtms02.alicdn.com/tps/i2/TB1UIjyGVXXXXcCaXXXx274FpXX-877-339.gif)\n\n\n## Installation\n\n    $ npm install postcss-media-minmax\n\n## Quick Start\n\nExample 1:\n\n```js\nvar fs = require('fs')\nvar postcss = require('postcss')\nvar minmax = require('postcss-media-minmax')\n\nvar css = fs.readFileSync('input.css', 'utf8')\n\nvar output = postcss()\n  .use(minmax())\n  .process(css)\n  .css\n  \nconsole.log('\\n====>Output CSS:\\n', output)  \n```\n\nOr just:\n\n```js\nvar output = postcss(minmax())\n  .process(css)\n  .css\n```\n\ninput.css:\n\n```css\n@media screen and (width >= 500px) and (width <= 1200px) {\n  .bar {\n    display: block;\n  }\n}\n```\n\nYou will get:\n\n```css\n@media screen and (min-width: 500px) and (max-width: 1200px) {\n  .bar {\n    display: block;\n  }\n}\n```\n\n## CSS syntax\n\n### [Syntax](https://drafts.csswg.org/mediaqueries/#mq-range-context)\n\n```\n<mf-range> = <mf-name> [ '<' | '>' ]? '='? <mf-value>\n           | <mf-value> [ '<' | '>' ]? '='? <mf-name>\n           | <mf-value> '<' '='? <mf-name> '<' '='? <mf-value>\n           | <mf-value> '>' '='? <mf-name> '>' '='? <mf-value>\n```\n\n![syntax](https://gtms03.alicdn.com/tps/i3/TB1Rje0HXXXXXXeXpXXccZJ0FXX-640-290.png)\n\nPostCSS Media Minmax hasn't implemented syntax such as `200px > = width` or `200px < = width` currently because its readability is not good enough yet.\n\n## [Values](https://drafts.csswg.org/mediaqueries/#values)\n \n**The special values:**\n\n* [<ratio>](https://drafts.csswg.org/mediaqueries/#typedef-ratio)\n\n    The <ratio> value type is a positive (not zero or negative) <integer> followed by optional whitespace, followed by a solidus ('/'), followed by optional whitespace, followed by a positive <integer>. <ratio>s can be ordered or compared by transforming them into the number obtained by dividing their first <integer> by their second <integer>.\n\n    ```css\n    @media screen and (device-aspect-ratio: 16 /   9) {\n      /* rules */\n    }\n\n    /* equivalent to */\n    @media screen and (device-aspect-ratio: 16/9) {\n      /* rules */\n    }\n    ```\n\n* [<mq-boolean>](https://drafts.csswg.org/mediaqueries/#typedef-mq-boolean)\n\n    The <mq-boolean> value type is an <integer> with the value 0 or 1. Any other integer value is invalid. Note that -0 is always equivalent to 0 in CSS, and so is also accepted as a valid <mq-boolean> value. \n\n    ```css\n    @media screen and (grid: -0) {\n      /* rules */\n    }\n\n    /* equivalent to */\n    @media screen and (grid: 0) {\n      /* rules */\n    }\n    ```\n\n## How to use\n\n### Shorthand\n\nIn Example 1, if a feature has both `>=` and `<=` logic, it can be written as follows:\n\n```css\n@media screen and (500px <= width <= 1200px) {\n  .bar {\n    display: block;\n  }\n}\n/* Or */\n@media screen and (1200px >= width >= 500px) {\n  .bar {\n    display: block;\n  }\n}\n```\n\nWhich will output:\n\n```css\n@media screen and (min-width: 500px) and (max-width: 1200px) {\n  .bar {\n    display: block;\n  }\n}\n```\n\n**Note**: When the media feature name is in the middle, we must ensure that two `<=` or `>=` are in the same direction, otherwise which will not be converted.\n\nE.g. in the example below, `width` is greater than or equal to 500px and is greater than or equal to 1200px, which is the wrong in both grammar and logic.\n\n\n```css\n@media screen and (1200px <= width >= 500px) {\n  .bar {\n    display: block;\n  }\n}\n```\n\n### Media feature names\n\nThe following properties support the `min-`/`max-` prefixes in the specifications at present, and will be automatically converted by PostCSS Media Minmax.\n\n* `width`\n* `height`\n* `device-width`\n* `device-height`\n* `aspect-ratio`\n* `device-aspect-ratio`\n* `color`\n* `color-index`\n* `monochrome`\n* `resolution`\n\n\n\n### Using with `@custom-media` & Node Watch\n\n```js\nvar fs = require('fs')\nvar chokidar = require('chokidar')\nvar postcss = require('postcss')\nvar minmax = require('postcss-media-minmax')\nvar customMedia = require('postcss-custom-media')\n\nvar src = 'input.css'\n\nconsole.info('Watching…\\nModify the input.css and save.')\n\n\nchokidar.watch(src, {\n  ignored: /[\\/\\\\]\\./,\n  persistent: true\n}).on('all',\n  function(event, path, stats) {\n    var css = fs.readFileSync(src, 'utf8')\n    var output = postcss()\n      .use(customMedia())\n      .use(minmax())\n      .process(css)\n      .css;\n    fs.writeFileSync('output.css', output)\n  })\n\n```\n\n\ninput.css:\n\n```css\n@custom-media --foo (width >= 20em) and (width <= 50em);\n@custom-media --bar (height >= 300px) and (height <= 600px);\n\n@media (--foo) and (--bar) {\n  \n}\n```\n\noutput.css:\n\n```css\n@media (min-width: 20em) and (max-width: 50em) and (min-height: 300px) and (max-height: 600px) {\n  \n}\n```\n\n### Grunt\n\n```js\nmodule.exports = function(grunt) {\n  grunt.initConfig({\n    pkg: grunt.file.readJSON('package.json'),\n    postcss: {\n      options: {\n        processors: [\n          require('autoprefixer-core')({ browsers: ['> 0%'] }).postcss, //Other plugin\n          require('postcss-media-minmax')(),\n        ]\n      },\n      dist: {\n        src: ['src/*.css'],\n        dest: 'build/grunt.css'\n      }\n    }\n  });\n\n  grunt.loadNpmTasks('grunt-contrib-uglify');\n  grunt.loadNpmTasks('grunt-postcss');\n\n  grunt.registerTask('default', ['postcss']);\n}\n```\n\n### Gulp\n\n```js\nvar gulp = require('gulp');\nvar rename = require('gulp-rename');\nvar postcss = require('gulp-postcss');\nvar selector = require('postcss-media-minmax')\nvar autoprefixer = require('autoprefixer-core')\n\ngulp.task('default', function () {\n    var processors = [\n        autoprefixer({ browsers: ['> 0%'] }), //Other plugin\n        minmax()\n    ];\n    gulp.src('src/*.css')\n        .pipe(postcss(processors))\n        .pipe(rename('gulp.css'))\n        .pipe(gulp.dest('build'))\n});\ngulp.watch('src/*.css', ['default']);\n```\n\n\n## Contributing\n\n* Install all the dependent modules.\n* Respect the coding style (Use [EditorConfig](https://editorconfig.org/)).\n* Add test cases in the [test](test) directory.\n* Run the test cases.\n\n```\n$ git clone https://github.com/postcss/postcss-media-minmaxs.git\n$ git checkout -b patch\n$ npm install\n$ npm test\n```\n\n## Acknowledgements\n\n* Thank the author of PostCSS [Andrey Sitnik](https://github.com/ai) for giving us such simple and easy CSS syntax analysis tools.\n\n* Thank [Tab Atkins Jr.](https://www.xanthir.com/contact/) for writing the specs of Media Queries Level 4.\n\n* Thank [ziyunfei](https://weibo.com/p/1005051708684567) for suggestions and help of this plugin.\n\n\n## [Changelog](CHANGELOG.md)\n\n## [License](LICENSE)\n",
+  "maintainers" : [ {
+    "name" : "jonathantneal",
+    "email" : "jonathantneal@hotmail.com"
+  }, {
+    "name" : "moox",
+    "email" : "m@moox.io"
+  }, {
+    "name" : "semigradsky",
+    "email" : "semigradskyd@gmail.com"
+  }, {
+    "name" : "yisi",
+    "email" : "yiorsi@gmail.com"
+  } ],
+  "author" : {
+    "name" : "yisi"
+  },
+  "time" : {
+    "2.0.0" : "2015-09-05T07:43:09.143Z",
+    "2.1.0" : "2015-09-08T14:52:49.843Z",
+    "3.0.0" : "2017-05-11T04:28:43.011Z",
+    "created" : "2014-12-13T14:06:24.167Z",
+    "modified" : "2019-01-05T04:44:00.403Z",
+    "4.0.0" : "2018-09-18T05:10:50.125Z",
+    "1.0.0" : "2014-12-13T14:06:24.167Z",
+    "1.1.0" : "2014-12-15T03:46:24.558Z",
+    "2.1.1" : "2015-11-26T15:01:06.150Z",
+    "1.2.0" : "2015-07-06T11:29:36.884Z",
+    "2.1.2" : "2016-04-01T03:26:21.647Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/postcss/postcss-media-minmax.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/postcss/postcss-media-minmax#readme",
+  "keywords" : [ "css", "css3", "postcss", "postcss-plugin", "media querie", "media queries" ],
+  "bugs" : {
+    "url" : "https://github.com/postcss/postcss-media-minmax/issues"
+  },
+  "license" : "MIT"
+}

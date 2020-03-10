@@ -1,0 +1,1025 @@
+{
+  "_id" : "reflect-metadata",
+  "_rev" : "46-21d7c5a554bf7cd0150506b5aae17a71",
+  "name" : "reflect-metadata",
+  "description" : "Polyfill for Metadata Reflection API",
+  "dist-tags" : {
+    "next" : "0.1.9",
+    "latest" : "0.1.13"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.5.tgz",
+        "shasum" : "f86c4cfe17e122b54febae62bc12feb21dad71ed"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : "^1.7.5"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "build-test" : "tsc --project ./test/",
+        "test" : "npm run build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.4.0",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.5",
+      "gitHead" : "df616deb02d09f7a41e6d4af23e07bd434b937f6",
+      "typings" : "typings.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/reflect-metadata-0.1.5.tgz_1470775639565_0.05661883414722979"
+      },
+      "_shasum" : "f86c4cfe17e122b54febae62bc12feb21dad71ed",
+      "typescript" : {
+        "definition" : "reflect-metadata.d.ts"
+      },
+      "_nodeVersion" : "6.0.0"
+    },
+    "0.1.6" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.6",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.6.tgz",
+        "shasum" : "0541a7df59c93730d072d4df04b1f86e68d7c5db"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : "^1.7.5"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "npm run test",
+        "build" : "tsc",
+        "build-test" : "tsc --project ./test/",
+        "test" : "npm run build & npm run build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.4.0",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.6",
+      "gitHead" : "df616deb02d09f7a41e6d4af23e07bd434b937f6",
+      "typings" : "typings.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/reflect-metadata-0.1.6.tgz_1470776918442_0.4963504048064351"
+      },
+      "_shasum" : "0541a7df59c93730d072d4df04b1f86e68d7c5db",
+      "typescript" : {
+        "definition" : "reflect-metadata.d.ts"
+      },
+      "_nodeVersion" : "6.0.0"
+    },
+    "0.1.3" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.3.tgz",
+        "shasum" : "64f8a41974e4f5a5aa9978dac54cfd442dc2f1d5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : "^1.7.5"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc.cmd",
+        "build-test" : "tsc.cmd --project ./test/",
+        "test" : "npm run-script build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.4.0",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.3",
+      "gitHead" : "1affc8fcd1301caac47602e3738b057ecfd88830",
+      "typings" : "typings.d.ts",
+      "_shasum" : "64f8a41974e4f5a5aa9978dac54cfd442dc2f1d5",
+      "typescript" : {
+        "definition" : "reflect-metadata.d.ts"
+      },
+      "_nodeVersion" : "4.2.1"
+    },
+    "0.1.4" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.4.tgz",
+        "shasum" : "9341c2d7d3b0087893635d9ad8c050eab4712e4a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : "^1.7.5"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc.cmd",
+        "build-test" : "tsc.cmd --project ./test/",
+        "test" : "npm run-script build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.4",
+      "gitHead" : "0d7afafad2120c90de0a7ea7d8c273544254dd89",
+      "typings" : "typings.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/reflect-metadata-0.1.4.tgz_1470420394864_0.22739790030755103"
+      },
+      "_shasum" : "9341c2d7d3b0087893635d9ad8c050eab4712e4a",
+      "typescript" : {
+        "definition" : "reflect-metadata.d.ts"
+      },
+      "_nodeVersion" : "6.0.0"
+    },
+    "0.1.9" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.9",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.9.tgz",
+        "shasum" : "987238dc87a516895fe457f130435ffbd763a4d4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : "^2.1.4"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "npm run test",
+        "build" : "tsc",
+        "build-test" : "tsc --project ./test/",
+        "test" : "npm run build & npm run build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.6",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.9",
+      "gitHead" : "c72bf74270e455d054cb1bcce46a28ceb15c392f",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/reflect-metadata-0.1.9.tgz_1482283162553_0.4231167398393154"
+      },
+      "_shasum" : "987238dc87a516895fe457f130435ffbd763a4d4",
+      "typescript" : {
+        "definition" : "Reflect.d.ts"
+      },
+      "_nodeVersion" : "6.6.0"
+    },
+    "0.1.7" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.7",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.7.tgz",
+        "shasum" : "ca0faa2cb00eda3e27e7b758fd50220c6333c20a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : "^1.7.5"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "npm run test",
+        "build" : "tsc",
+        "build-test" : "tsc --project ./test/",
+        "test" : "npm run build & npm run build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.4.0",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.7",
+      "gitHead" : "2d7a7e74de7d9417ce4b4b9a9647b3edd4e61fd2",
+      "typings" : "typings.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/reflect-metadata-0.1.7.tgz_1470779054752_0.7037135441787541"
+      },
+      "_shasum" : "ca0faa2cb00eda3e27e7b758fd50220c6333c20a",
+      "typescript" : {
+        "definition" : "reflect-metadata.d.ts"
+      },
+      "_nodeVersion" : "6.0.0"
+    },
+    "0.1.8" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.8",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.8.tgz",
+        "shasum" : "72426d570b60776e3688968bd5ab9537a15cecf6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : "^1.7.5"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "npm run test",
+        "build" : "tsc",
+        "build-test" : "tsc --project ./test/",
+        "test" : "npm run build & npm run build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.4.0",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.8",
+      "gitHead" : "d737a908100aa8ca7f083f815f06875cb80a217e",
+      "typings" : "typings.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/reflect-metadata-0.1.8.tgz_1470784336772_0.628053993685171"
+      },
+      "_shasum" : "72426d570b60776e3688968bd5ab9537a15cecf6",
+      "typescript" : {
+        "definition" : "Reflect.d.ts"
+      },
+      "_nodeVersion" : "6.0.0"
+    },
+    "0.0.2" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.0.2.tgz",
+        "shasum" : "2b3f674c10f75de099a84ea80e74aa18965b8269"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : ">=1.5.0-alpha"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc.cmd"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.0.2",
+      "gitHead" : "a8827bd8de1daff4bff3377770847ebdc737e959",
+      "_shasum" : "2b3f674c10f75de099a84ea80e74aa18965b8269",
+      "_nodeVersion" : "0.12.1"
+    },
+    "0.1.1" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.1.tgz",
+        "shasum" : "4bc959d5ae847ba72324c03aa8e2eac5b2a11fd4"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : ">=1.5.0-alpha"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc.cmd",
+        "build-test" : "tsc.cmd --project ./test/",
+        "test" : "npm run-script build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.1",
+      "gitHead" : "b50371caae819ee24a1d605cd5761dc8a7ba8b48",
+      "typings" : "reflect-metadata.d.ts",
+      "_shasum" : "4bc959d5ae847ba72324c03aa8e2eac5b2a11fd4",
+      "typescript" : {
+        "definition" : "reflect-metadata.d.ts"
+      },
+      "_nodeVersion" : "0.12.7"
+    },
+    "0.0.3" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.0.3.tgz",
+        "shasum" : "211eb6aabbaa92a385a34dd03739abb9fb792f60"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : ">=1.5.0-alpha"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc.cmd"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.0.3",
+      "gitHead" : "6248efdb72377844202d1340cc4d3b33d4f9cc94",
+      "_shasum" : "211eb6aabbaa92a385a34dd03739abb9fb792f60",
+      "_nodeVersion" : "0.12.1"
+    },
+    "0.1.2" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.2.tgz",
+        "shasum" : "ea23e5823dc830f292822bd3da9b89fd57bffb03"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : ">=1.5.0-alpha"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc.cmd",
+        "build-test" : "tsc.cmd --project ./test/",
+        "test" : "npm run-script build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.2",
+      "gitHead" : "07dcd99c807a402b255065979d9485fbdc69924b",
+      "_shasum" : "ea23e5823dc830f292822bd3da9b89fd57bffb03",
+      "typescript" : {
+        "definition" : "reflect-metadata.d.ts"
+      },
+      "_nodeVersion" : "4.0.0"
+    },
+    "0.1.0" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/ReflectDecorators",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/rbuckton/ReflectDecorators.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/ReflectDecorators/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.0.tgz",
+        "shasum" : "a9e0a7782e22ad3edda4955bba1124d1b044369b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "typescript" : ">=1.5.0-alpha"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/ReflectDecorators/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc.cmd",
+        "build-test" : "tsc.cmd --project ./test/",
+        "test" : "npm run-script build-test & node ./temp/test/run.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.0",
+      "gitHead" : "721edcf4a36d4ac7626598beae40000b2eed6fdc",
+      "typings" : "reflect-metadata.d.ts",
+      "_shasum" : "a9e0a7782e22ad3edda4955bba1124d1b044369b",
+      "_nodeVersion" : "1.6.3"
+    },
+    "0.1.13" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.13",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/reflect-metadata",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/reflect-metadata.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/reflect-metadata/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.13.tgz",
+        "shasum" : "67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@types/chai" : "^3.4.34",
+        "@types/mocha" : "^2.2.34",
+        "@types/node" : "^6.0.52",
+        "chai" : "^3.5.0",
+        "del" : "^2.2.2",
+        "ecmarkup" : "^3.9.3",
+        "gulp" : "^3.9.1",
+        "gulp-emu" : "^1.1.0",
+        "gulp-live-server" : "0.0.30",
+        "gulp-mocha" : "^3.0.1",
+        "gulp-rename" : "^1.2.2",
+        "gulp-sequence" : "^0.4.6",
+        "gulp-tsb" : "^2.0.3",
+        "mocha" : "^3.2.0",
+        "typescript" : "^2.1.4"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublishOnly" : "gulp prepublish",
+        "build" : "gulp build",
+        "test" : "gulp test",
+        "start" : "gulp start"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.13",
+      "gitHead" : "aacaeb1735a5a0e08c470e386eea7e340e15cc0d",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reflect-metadata_0.1.13_1547584159271_0.824743376170519"
+      },
+      "typescript" : {
+        "definition" : "Reflect.d.ts"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.1.12" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.12",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/reflect-metadata",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/reflect-metadata.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/reflect-metadata/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.12.tgz",
+        "shasum" : "311bf0c6b63cd782f228a81abe146a2bfa9c56f2"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@types/chai" : "^3.4.34",
+        "@types/mocha" : "^2.2.34",
+        "@types/node" : "^6.0.52",
+        "chai" : "^3.5.0",
+        "del" : "^2.2.2",
+        "ecmarkup" : "^3.9.3",
+        "gulp" : "^3.9.1",
+        "gulp-emu" : "^1.1.0",
+        "gulp-live-server" : "0.0.30",
+        "gulp-mocha" : "^3.0.1",
+        "gulp-rename" : "^1.2.2",
+        "gulp-sequence" : "^0.4.6",
+        "gulp-tsb" : "^2.0.3",
+        "mocha" : "^3.2.0",
+        "typescript" : "^2.1.4"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp prepublish",
+        "build" : "gulp build",
+        "test" : "gulp test",
+        "start" : "gulp start"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.12",
+      "gitHead" : "c775af7a708b45f43888b9c8b905b13415dda021",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/reflect-metadata-0.1.12.tgz_1516128110132_0.03270683903247118"
+      },
+      "typescript" : {
+        "definition" : "Reflect.d.ts"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "0.1.10" : {
+      "name" : "reflect-metadata",
+      "description" : "Polyfill for Metadata Reflection API",
+      "version" : "0.1.10",
+      "author" : {
+        "name" : "Ron Buckton",
+        "email" : "ron.buckton@microsoft.com",
+        "url" : "http://github.com/rbuckton"
+      },
+      "homepage" : "http://rbuckton.github.io/reflect-metadata",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rbuckton/reflect-metadata.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rbuckton/reflect-metadata/issues"
+      },
+      "main" : "Reflect.js",
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/reflect-metadata/-/reflect-metadata-0.1.10.tgz",
+        "shasum" : "b4f83704416acad89988c9b15635d47e03b9344a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "@types/chai" : "^3.4.34",
+        "@types/mocha" : "^2.2.34",
+        "@types/node" : "^6.0.52",
+        "chai" : "^3.5.0",
+        "del" : "^2.2.2",
+        "ecmarkup" : "^3.9.3",
+        "gulp" : "^3.9.1",
+        "gulp-emu" : "^1.1.0",
+        "gulp-live-server" : "0.0.30",
+        "gulp-mocha" : "^3.0.1",
+        "gulp-rename" : "^1.2.2",
+        "gulp-sequence" : "^0.4.6",
+        "gulp-tsb" : "^2.0.3",
+        "mocha" : "^3.2.0",
+        "typescript" : "^2.1.4"
+      },
+      "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+      "license" : "Apache-2.0",
+      "licenses" : [ {
+        "license" : "Apache-2.0",
+        "url" : "http://github.com/rbuckton/reflect-metadata/raw/master/LICENSE"
+      } ],
+      "maintainers" : [ {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "gulp prepublish",
+        "build" : "gulp build",
+        "test" : "gulp test",
+        "start" : "gulp start"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.6",
+      "_npmUser" : {
+        "name" : "rbuckton",
+        "email" : "rbuckton@chronicles.org"
+      },
+      "_id" : "reflect-metadata@0.1.10",
+      "gitHead" : "55f38eb335cd789bbfd7ef014c50f4c09f98c0b0",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/reflect-metadata-0.1.10.tgz_1487704395093_0.6620383241679519"
+      },
+      "_shasum" : "b4f83704416acad89988c9b15635d47e03b9344a",
+      "typescript" : {
+        "definition" : "Reflect.d.ts"
+      },
+      "_nodeVersion" : "7.3.0"
+    }
+  },
+  "readme" : "# Metadata Reflection API\n\n* [Detailed proposal][Metadata-Spec]\n\n## Installation\n\n```\nnpm install reflect-metadata\n```\n\n## Background\n\n* Decorators add the ability to augment a class and its members as the class is defined, through a declarative syntax.\n* Traceur attaches annotations to a static property on the class.\n* Languages like C# (.NET), and Java support attributes or annotations that add metadata to types, along with a reflective API for reading metadata.\n\n## Goals\n\n* A number of use cases (Composition/Dependency Injection, Runtime Type Assertions, Reflection/Mirroring, Testing) want the ability to add additional metadata to a class in a consistent manner.\n* A consistent approach is needed for various tools and libraries to be able to reason over metadata.\n* Metadata-producing decorators (nee. \"Annotations\") need to be generally composable with mutating decorators.\n* Metadata should be available not only on an object but also through a Proxy, with related traps.\n* Defining new metadata-producing decorators should not be arduous or over-complex for a developer.\n* Metadata should be consistent with other language and runtime features of ECMAScript.\n\n## Syntax\n\n* Declarative definition of metadata:\n```JavaScript\nclass C {\n  @Reflect.metadata(metadataKey, metadataValue)\n  method() {\n  }\n}\n```\n\n* Imperative definition of metadata:\n```JavaScript\nReflect.defineMetadata(metadataKey, metadataValue, C.prototype, \"method\");\n```\n\n* Imperative introspection of metadata:\n```JavaScript\nlet obj = new C();\nlet metadataValue = Reflect.getMetadata(metadataKey, obj, \"method\");\n```\n\n## Semantics\n\n* Object has a new \\[\\[Metadata\\]\\] internal property that will contain a Map whose keys are property keys (or **undefined**) and whose values are Maps of metadata keys to metadata values.\n* Object will have a number of new internal methods for \\[\\[DefineOwnMetadata\\]\\], \\[\\[GetOwnMetadata\\]\\], \\[\\[HasOwnMetadata\\]\\], etc.\n  * These internal methods can be overridden by a Proxy to support additional traps.\n  * These internal methods will by default call a set of abstract operations to define and read metadata.\n* The Reflect object will expose the MOP operations to allow imperative access to metadata.\n* Metadata defined on class declaration *C* is stored in *C*.\\[\\[Metadata\\]\\], with **undefined** as the key.\n* Metadata defined on static members of class declaration *C* are stored in *C*.\\[\\[Metadata\\]\\], with the property key as the key.\n* Metadata defined on instance members of class declaration *C* are stored in *C*.prototype.\\[\\[Metadata\\]\\], with the property key as the key.\n\n## API\n\n```JavaScript\n// define metadata on an object or property\nReflect.defineMetadata(metadataKey, metadataValue, target);\nReflect.defineMetadata(metadataKey, metadataValue, target, propertyKey);\n\n// check for presence of a metadata key on the prototype chain of an object or property\nlet result = Reflect.hasMetadata(metadataKey, target);\nlet result = Reflect.hasMetadata(metadataKey, target, propertyKey);\n\n// check for presence of an own metadata key of an object or property\nlet result = Reflect.hasOwnMetadata(metadataKey, target);\nlet result = Reflect.hasOwnMetadata(metadataKey, target, propertyKey);\n\n// get metadata value of a metadata key on the prototype chain of an object or property\nlet result = Reflect.getMetadata(metadataKey, target);\nlet result = Reflect.getMetadata(metadataKey, target, propertyKey);\n\n// get metadata value of an own metadata key of an object or property\nlet result = Reflect.getOwnMetadata(metadataKey, target);\nlet result = Reflect.getOwnMetadata(metadataKey, target, propertyKey);\n\n// get all metadata keys on the prototype chain of an object or property\nlet result = Reflect.getMetadataKeys(target);\nlet result = Reflect.getMetadataKeys(target, propertyKey);\n\n// get all own metadata keys of an object or property\nlet result = Reflect.getOwnMetadataKeys(target);\nlet result = Reflect.getOwnMetadataKeys(target, propertyKey);\n\n// delete metadata from an object or property\nlet result = Reflect.deleteMetadata(metadataKey, target);\nlet result = Reflect.deleteMetadata(metadataKey, target, propertyKey);\n\n// apply metadata via a decorator to a constructor\n@Reflect.metadata(metadataKey, metadataValue)\nclass C {\n  // apply metadata via a decorator to a method (property)\n  @Reflect.metadata(metadataKey, metadataValue)\n  method() {\n  }\n}\n```\n\n## Alternatives\n\n* Use properties rather than a separate API.\n  * Obvious downside is that this can be a lot of code:\n```JavaScript\nfunction ParamTypes(...types) {\n  return (target, propertyKey) => {\n    const symParamTypes = Symbol.for(\"design:paramtypes\");\n    if (propertyKey === undefined) {\n      target[symParamTypes] = types;\n    }\n    else {\n      const symProperties = Symbol.for(\"design:properties\");\n      let properties, property;\n      if (Object.prototype.hasOwnProperty.call(target, symProperties)) {\n        properties = target[symProperties];\n      }\n      else {\n        properties = target[symProperties] = {};\n      }\n      if (Object.prototype.hasOwnProperty.call(properties, propertyKey)) {\n        property = properties[propertyKey];\n      }\n      else {\n        property = properties[propertyKey] = {};\n      }\n      property[symParamTypes] = types;\n    }\n  };\n}\n```\n\n## Notes\n* Though it may seem counterintuitive, the methods on Reflect place the parameters for the metadata key and metadata value before the target or property key. This is due to the fact that the property key is the only optional parameter in the argument list. This also makes the methods easier to curry with Function#bind. This also helps reduce the overall footprint and complexity of a metadata-producing decorator that could target both a class or a property:\n\n```JavaScript\nfunction ParamTypes(...types) {\n  // as propertyKey is effectively optional, its easier to use here\n  return (target, propertyKey) => { Reflect.defineMetadata(\"design:paramtypes\", types, target, propertyKey); }\n\n  // vs. having multiple overloads with the target and key in the front:\n  //\n  // return (target, propertyKey) => {\n  //    if (propertyKey === undefined) {\n  //      Reflect.defineMetadata(target, \"design:paramtypes\", types);\n  //    }\n  //    else {\n  //      Reflect.defineMetadata(target, propertyKey, \"design:paramtypes\", types);\n  //    }\n  // }\n  //\n  // vs. having a different methods for the class or a property:\n  //\n  // return (target, propertyKey) => {\n  //    if (propertyKey === undefined) {\n  //      Reflect.defineMetadata(target, \"design:paramtypes\", types);\n  //    }\n  //    else {\n  //      Reflect.definePropertyMetadata(target, propertyKey, \"design:paramtypes\", types);\n  //    }\n  // }\n}\n```\n\n* To enable experimental support for metadata decorators in your TypeScript project, you must add `\"experimentalDecorators\": true` to your tsconfig.json file.\n* To enable experimental support for auto-generated type metadata in your TypeScript project, you must add `\"emitDecoratorMetadata\": true` to your tsconfig.json file.\n  * Please note that auto-generated type metadata may have issues with circular or forward references for types.\n\n## Issues\n\n* A poorly written mutating decorator for a class constructor could cause metadata to become lost if the prototype chain is not maintained. Though, not maintaining the prototype chain in a mutating decorator for a class constructor would have other negative side effects as well. @rbuckton\n  * This is mitigated if the mutating decorator returns a class expression that extends from the target, or returns a proxy for the decorator. @rbuckton\n* Metadata for a method is attached to the class (or prototype) via the property key. It would not then be available if trying to read metadata on the function of the method (e.g. \"tearing-off\" the method from the class). @rbuckton\n\n[Metadata-Spec]: https://rbuckton.github.io/reflect-metadata",
+  "maintainers" : [ {
+    "name" : "rbuckton",
+    "email" : "rbuckton@chronicles.org"
+  } ],
+  "author" : {
+    "name" : "Ron Buckton",
+    "email" : "ron.buckton@microsoft.com",
+    "url" : "http://github.com/rbuckton"
+  },
+  "time" : {
+    "0.1.5" : "2016-08-09T20:47:19.826Z",
+    "0.1.6" : "2016-08-09T21:08:38.690Z",
+    "0.1.3" : "2016-01-06T00:31:41.781Z",
+    "0.1.4" : "2016-08-05T18:06:35.098Z",
+    "0.1.9" : "2016-12-21T01:19:23.304Z",
+    "created" : "2015-04-14T02:28:42.294Z",
+    "0.1.7" : "2016-08-09T21:44:17.417Z",
+    "0.1.8" : "2016-08-09T23:12:20.911Z",
+    "0.0.2" : "2015-04-14T02:39:26.770Z",
+    "0.1.1" : "2015-09-03T21:00:38.232Z",
+    "0.0.3" : "2015-04-14T02:58:21.691Z",
+    "0.1.2" : "2015-09-21T18:01:06.453Z",
+    "0.0.1" : "2015-04-14T02:28:42.294Z",
+    "0.1.0" : "2015-04-24T00:32:43.011Z",
+    "modified" : "2019-01-15T20:29:21.950Z",
+    "0.1.13" : "2019-01-15T20:29:19.482Z",
+    "0.1.12" : "2018-01-16T18:41:50.241Z",
+    "0.1.10" : "2017-02-21T19:13:15.870Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/rbuckton/reflect-metadata.git"
+  },
+  "users" : {
+    "meeh" : true,
+    "noelmace" : true,
+    "ss4nntt0ss" : true,
+    "sopepos" : true,
+    "stone-jin" : true,
+    "morogasper" : true,
+    "harry-sm" : true,
+    "monjer" : true,
+    "losymear" : true,
+    "julienberube" : true,
+    "rioli" : true,
+    "leizongmin" : true,
+    "balazserdos" : true,
+    "joshdoescode" : true,
+    "knoja4" : true,
+    "largepuma" : true,
+    "davidjsalazarmoreno" : true,
+    "christopher.urquidi" : true,
+    "remojansen" : true,
+    "jeandrebosch" : true,
+    "rbuckton" : true,
+    "majgis" : true,
+    "ackerapple" : true,
+    "drewigg" : true,
+    "shangsinian" : true,
+    "bengi" : true,
+    "monolithed" : true,
+    "renishskills" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "http://rbuckton.github.io/reflect-metadata",
+  "keywords" : [ "decorator", "metadata", "javascript", "reflect" ],
+  "bugs" : {
+    "url" : "https://github.com/rbuckton/reflect-metadata/issues"
+  },
+  "license" : "Apache-2.0"
+}

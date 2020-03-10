@@ -1,0 +1,1081 @@
+{
+  "_id" : "wrap-ansi",
+  "_rev" : "38-336a1be41b2132f34191d376c218b04e",
+  "name" : "wrap-ansi",
+  "description" : "Wordwrap a string with ANSI escape codes",
+  "dist-tags" : {
+    "next" : "2.1.0-candidate",
+    "latest" : "6.2.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-2.0.0.tgz",
+        "shasum" : "7d30f8f873f9a5bbc3a64dabc8d177e071ae426f"
+      },
+      "dependencies" : {
+        "string-width" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4",
+        "chalk" : "^1.1.0",
+        "coveralls" : "^2.11.4",
+        "has-ansi" : "^2.0.0",
+        "nyc" : "^3.2.2",
+        "strip-ansi" : "^3.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "dthree",
+        "email" : "threedeecee@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc node test.js",
+        "coverage" : "nyc --reporter=text-lcov node test.js | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "dthree",
+        "email" : "threedeecee@gmail.com"
+      },
+      "_id" : "wrap-ansi@2.0.0",
+      "gitHead" : "89e220072d4768ecd8c5d176ff50944d66ddcc2f",
+      "_shasum" : "7d30f8f873f9a5bbc3a64dabc8d177e071ae426f",
+      "_nodeVersion" : "3.2.0"
+    },
+    "2.1.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-2.1.0.tgz",
+        "shasum" : "d8fc3d284dd05794fe84973caecdd1cf824fdd85"
+      },
+      "dependencies" : {
+        "string-width" : "^1.0.1",
+        "strip-ansi" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "ava" : "^0.16.0",
+        "chalk" : "^1.1.0",
+        "coveralls" : "^2.11.4",
+        "has-ansi" : "^2.0.0",
+        "nyc" : "^6.2.1",
+        "strip-ansi" : "^3.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "dthree",
+        "email" : "threedeecee@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@2.1.0",
+      "gitHead" : "a731af5a3461d92f2af302e81e05ea698a3c8c1a",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/wrap-ansi-2.1.0.tgz_1480440082575_0.23112521297298372"
+      },
+      "_shasum" : "d8fc3d284dd05794fe84973caecdd1cf824fdd85",
+      "_nodeVersion" : "4.6.2"
+    },
+    "4.0.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-4.0.0.tgz",
+        "shasum" : "b3570d7c70156159a2d42be5cc942e957f7b1131"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.2.0",
+        "string-width" : "^2.1.1",
+        "strip-ansi" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.25.0",
+        "chalk" : "^2.0.1",
+        "coveralls" : "^3.0.0",
+        "has-ansi" : "^3.0.0",
+        "nyc" : "^13.0.1",
+        "strip-ansi" : "^4.0.0",
+        "xo" : "^0.22.0"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "i.am.qix@gmail.com",
+        "name" : "qix"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@4.0.0",
+      "gitHead" : "8640dc3fcffe1a5a643d029849123846f3b58fd3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wrap-ansi_4.0.0_1535746146948_0.29666265844247475"
+      },
+      "_nodeVersion" : "8.11.4"
+    },
+    "0.2.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-0.2.0.tgz",
+        "shasum" : "d479162c9f93cc95eb09c5bd6256a305d4194c50"
+      },
+      "dependencies" : {
+        "splice-string" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4",
+        "chalk" : "^1.1.0",
+        "strip-ansi" : "^3.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@0.2.0",
+      "gitHead" : "4ce39165471dda82264cf1b125a3473eafb256dc",
+      "_shasum" : "d479162c9f93cc95eb09c5bd6256a305d4194c50",
+      "_nodeVersion" : "0.12.7"
+    },
+    "0.3.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/chalk/wrap-ansi"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-0.3.0.tgz",
+        "shasum" : "8b6f065943dac7aae11640f7b65e2b4f3bc6375a"
+      },
+      "dependencies" : {
+        "string-width" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4",
+        "chalk" : "^1.1.0",
+        "coveralls" : "^2.11.4",
+        "nyc" : "^3.2.2",
+        "strip-ansi" : "^3.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc node test.js",
+        "coverage" : "nyc --reporter=text-lcov node test.js | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@0.3.0",
+      "gitHead" : "c2c16800cd58b603f98a00fd1958b3c88b837ec0",
+      "_shasum" : "8b6f065943dac7aae11640f7b65e2b4f3bc6375a",
+      "_nodeVersion" : "4.1.1"
+    },
+    "0.1.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/chalk/wrap-ansi"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-0.1.0.tgz",
+        "shasum" : "8eefd8f9cd51946fdd8167db4287def2b6450edd"
+      },
+      "dependencies" : {
+        "splice-string" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4",
+        "chalk" : "^1.1.0",
+        "strip-ansi" : "^3.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      }, {
+        "name" : "Joshua Appelman",
+        "email" : "jappelman@xebia.com",
+        "url" : "jbnicolai.com"
+      }, {
+        "name" : "JD Ballard",
+        "email" : "i.am.qix@gmail.com",
+        "url" : "github.com/qix-"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@0.1.0",
+      "gitHead" : "52d7c57e230b90797129efa0bdf939a942ca1747",
+      "_shasum" : "8eefd8f9cd51946fdd8167db4287def2b6450edd",
+      "_nodeVersion" : "0.12.7"
+    },
+    "6.2.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "6.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-6.2.0.tgz",
+        "shasum" : "e9393ba07102e6c91a3b221478f0257cd2856e53"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.0.0",
+        "string-width" : "^4.1.0",
+        "strip-ansi" : "^6.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.1.0",
+        "chalk" : "^2.4.2",
+        "coveralls" : "^3.0.3",
+        "has-ansi" : "^3.0.0",
+        "nyc" : "^14.1.1",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "i.am.qix@gmail.com",
+        "name" : "qix"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@6.2.0",
+      "gitHead" : "a28eb7d6cdbf91bccb56d04d095ca9463c15d3db",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wrap-ansi_6.2.0_1573488497133_0.0722102188481688"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "3.0.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-3.0.0.tgz",
+        "shasum" : "d357270e4a7278cf5335133b9a3cd5bb46c0ea7d"
+      },
+      "dependencies" : {
+        "string-width" : "^2.1.1",
+        "strip-ansi" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.21.0",
+        "chalk" : "^2.0.1",
+        "coveralls" : "^2.11.4",
+        "has-ansi" : "^3.0.0",
+        "nyc" : "^11.0.3",
+        "strip-ansi" : "^4.0.0",
+        "xo" : "^0.18.2"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "i.am.qix@gmail.com",
+        "name" : "qix"
+      }, {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@3.0.0",
+      "gitHead" : "c0b4bfd24b6cc852b343cc712a3e5607c61fb511",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wrap-ansi-3.0.0.tgz_1500809267145_0.8778855202253908"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "6.0.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-6.0.0.tgz",
+        "shasum" : "47c7b7329e0b8000f5756b0693a861e357e4043e"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.0.0",
+        "string-width" : "^4.1.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.1.0",
+        "chalk" : "^2.4.2",
+        "coveralls" : "^3.0.3",
+        "has-ansi" : "^3.0.0",
+        "nyc" : "^14.1.1",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "i.am.qix@gmail.com",
+        "name" : "qix"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@6.0.0",
+      "gitHead" : "7bcd854fb5ca90e5e8c4963a1398d46a306a4a66",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wrap-ansi_6.0.0_1560275066854_0.46827515320625523"
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "6.1.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "6.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-6.1.0.tgz",
+        "shasum" : "36981960d42ba7352db05bc607c563e130857ff9"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^4.0.0",
+        "string-width" : "^4.1.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.1.0",
+        "chalk" : "^2.4.2",
+        "coveralls" : "^3.0.3",
+        "has-ansi" : "^3.0.0",
+        "nyc" : "^14.1.1",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "i.am.qix@gmail.com",
+        "name" : "qix"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@6.1.0",
+      "gitHead" : "9dec39ed35793eed0786c7742bd20ec870252ac0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wrap-ansi_6.1.0_1571817242959_0.603784195404024"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "5.0.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-5.0.0.tgz",
+        "shasum" : "c3838a85fbac6a647558ca97024d41d7631721dc"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.2.0",
+        "string-width" : "^3.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.2.1",
+        "chalk" : "^2.4.2",
+        "coveralls" : "^3.0.3",
+        "has-ansi" : "^3.0.0",
+        "nyc" : "^13.3.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "i.am.qix@gmail.com",
+        "name" : "qix"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@5.0.0",
+      "gitHead" : "bf27a9b1ee28cfe21d148942850028cda848f14d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wrap-ansi_5.0.0_1551595114817_0.6160302313338133"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "5.1.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-5.1.0.tgz",
+        "shasum" : "1fd1f67235d5b6d0fee781056001bfb694c03b09"
+      },
+      "dependencies" : {
+        "ansi-styles" : "^3.2.0",
+        "string-width" : "^3.0.0",
+        "strip-ansi" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.2.1",
+        "chalk" : "^2.4.2",
+        "coveralls" : "^3.0.3",
+        "has-ansi" : "^3.0.0",
+        "nyc" : "^13.3.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "i.am.qix@gmail.com",
+        "name" : "qix"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@5.1.0",
+      "gitHead" : "2a1a55446d67c55a29e84173e99eb6abc91c937c",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wrap-ansi_5.1.0_1554215774805_0.4805495385509633"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "3.0.1" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-3.0.1.tgz",
+        "shasum" : "288a04d87eda5c286e060dfe8f135ce8d007f8ba"
+      },
+      "dependencies" : {
+        "string-width" : "^2.1.1",
+        "strip-ansi" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^0.21.0",
+        "chalk" : "^2.0.1",
+        "coveralls" : "^2.11.4",
+        "has-ansi" : "^3.0.0",
+        "nyc" : "^11.0.3",
+        "strip-ansi" : "^4.0.0",
+        "xo" : "^0.18.2"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "email" : "i.am.qix@gmail.com",
+        "name" : "qix"
+      }, {
+        "email" : "ben@npmjs.com",
+        "name" : "bcoe"
+      }, {
+        "email" : "sindresorhus@gmail.com",
+        "name" : "sindresorhus"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "wrap-ansi@3.0.1",
+      "gitHead" : "165504b9d6a88f5b1295df6afccc16592ed6fb80",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/wrap-ansi-3.0.1.tgz_1500839932578_0.0051989073399454355"
+      },
+      "_shasum" : "288a04d87eda5c286e060dfe8f135ce8d007f8ba",
+      "_nodeVersion" : "4.8.3"
+    },
+    "1.0.0" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-1.0.0.tgz",
+        "shasum" : "f573bb9ee23cf43891f3362f5f359a1dfa38fc34"
+      },
+      "dependencies" : {
+        "string-width" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4",
+        "chalk" : "^1.1.0",
+        "coveralls" : "^2.11.4",
+        "has-ansi" : "^2.0.0",
+        "nyc" : "^3.2.2",
+        "strip-ansi" : "^3.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "jbnicolai",
+        "email" : "jappelman@xebia.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc node test.js",
+        "coverage" : "nyc --reporter=text-lcov node test.js | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "bencoe@gmail.com"
+      },
+      "_id" : "wrap-ansi@1.0.0",
+      "gitHead" : "c890e95ea671779012fa73fd77b74198e8c5d09b",
+      "_shasum" : "f573bb9ee23cf43891f3362f5f359a1dfa38fc34",
+      "_nodeVersion" : "1.1.0"
+    },
+    "2.1.0-candidate" : {
+      "name" : "wrap-ansi",
+      "description" : "Wordwrap a string with ANSI escape codes",
+      "version" : "2.1.0-candidate",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/chalk/wrap-ansi.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/chalk/wrap-ansi/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://build-artifactory.eng.vmware.com/api/npm/npm/wrap-ansi/-/wrap-ansi-2.1.0-candidate.tgz",
+        "shasum" : "774ecb66c894d931899a8204d22ae990d098c3e8"
+      },
+      "dependencies" : {
+        "string-width" : "^1.0.1",
+        "strip-ansi" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "chalk" : "^1.1.0",
+        "coveralls" : "^2.11.4",
+        "has-ansi" : "^2.0.0",
+        "nyc" : "^6.2.1",
+        "strip-ansi" : "^3.0.0",
+        "xo" : "*"
+      },
+      "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      }, {
+        "name" : "dthree",
+        "email" : "threedeecee@gmail.com"
+      }, {
+        "name" : "qix",
+        "email" : "i.am.qix@gmail.com"
+      }, {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && nyc ava",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "bcoe",
+        "email" : "ben@npmjs.com"
+      },
+      "_id" : "wrap-ansi@2.1.0-candidate",
+      "gitHead" : "ff0335d8123106efa3d6f6da5637c8a6c763ebe0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/wrap-ansi-2.1.0-candidate.tgz_1478241256104_0.632478907937184"
+      },
+      "_shasum" : "774ecb66c894d931899a8204d22ae990d098c3e8",
+      "_nodeVersion" : "6.5.0"
+    }
+  },
+  "readme" : "# wrap-ansi [![Build Status](https://travis-ci.org/chalk/wrap-ansi.svg?branch=master)](https://travis-ci.org/chalk/wrap-ansi) [![Coverage Status](https://coveralls.io/repos/github/chalk/wrap-ansi/badge.svg?branch=master)](https://coveralls.io/github/chalk/wrap-ansi?branch=master)\n\n> Wordwrap a string with [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors_and_Styles)\n\n\n## Install\n\n```\n$ npm install wrap-ansi\n```\n\n\n## Usage\n\n```js\nconst chalk = require('chalk');\nconst wrapAnsi = require('wrap-ansi');\n\nconst input = 'The quick brown ' + chalk.red('fox jumped over ') +\n\t'the lazy ' + chalk.green('dog and then ran away with the unicorn.');\n\nconsole.log(wrapAnsi(input, 20));\n```\n\n<img width=\"331\" src=\"screenshot.png\">\n\n\n## API\n\n### wrapAnsi(string, columns, options?)\n\nWrap words to the specified column width.\n\n#### string\n\nType: `string`\n\nString with ANSI escape codes. Like one styled by [`chalk`](https://github.com/chalk/chalk). Newline characters will be normalized to `\\n`.\n\n#### columns\n\nType: `number`\n\nNumber of columns to wrap the text to.\n\n#### options\n\nType: `object`\n\n##### hard\n\nType: `boolean`<br>\nDefault: `false`\n\nBy default the wrap is soft, meaning long words may extend past the column width. Setting this to `true` will make it hard wrap at the column width.\n\n##### wordWrap\n\nType: `boolean`<br>\nDefault: `true`\n\nBy default, an attempt is made to split words at spaces, ensuring that they don't extend past the configured columns. If wordWrap is `false`, each column will instead be completely filled splitting words as necessary.\n\n##### trim\n\nType: `boolean`<br>\nDefault: `true`\n\nWhitespace on all lines is removed by default. Set this option to `false` if you don't want to trim.\n\n\n## Related\n\n- [slice-ansi](https://github.com/chalk/slice-ansi) - Slice a string with ANSI escape codes\n- [cli-truncate](https://github.com/sindresorhus/cli-truncate) - Truncate a string to a specific width in the terminal\n- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right\n- [jsesc](https://github.com/mathiasbynens/jsesc) - Generate ASCII-only output from Unicode strings. Useful for creating test fixtures.\n\n\n## Maintainers\n\n- [Sindre Sorhus](https://github.com/sindresorhus)\n- [Josh Junon](https://github.com/qix-)\n- [Benjamin Coe](https://github.com/bcoe)\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-wrap_ansi?utm_source=npm-wrap-ansi&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "email" : "ben@npmjs.com",
+    "name" : "bcoe"
+  }, {
+    "email" : "i.am.qix@gmail.com",
+    "name" : "qix"
+  }, {
+    "email" : "sindresorhus@gmail.com",
+    "name" : "sindresorhus"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-12-01T17:27:23.410Z",
+    "2.1.0" : "2016-11-29T17:21:24.416Z",
+    "created" : "2015-08-19T18:56:22.141Z",
+    "4.0.0" : "2018-08-31T20:09:07.083Z",
+    "0.2.0" : "2015-08-28T07:07:49.929Z",
+    "0.3.0" : "2015-10-10T14:31:14.973Z",
+    "0.1.0" : "2015-08-19T18:56:22.141Z",
+    "6.2.0" : "2019-11-11T16:08:17.322Z",
+    "3.0.0" : "2017-07-23T11:27:48.128Z",
+    "6.0.0" : "2019-06-11T17:44:27.001Z",
+    "6.1.0" : "2019-10-23T07:54:03.081Z",
+    "modified" : "2019-11-11T16:08:22.788Z",
+    "5.0.0" : "2019-03-03T06:38:34.939Z",
+    "5.1.0" : "2019-04-02T14:36:15.008Z",
+    "3.0.1" : "2017-07-23T19:58:53.494Z",
+    "1.0.0" : "2015-10-13T05:08:13.341Z",
+    "2.1.0-candidate" : "2016-11-04T06:34:16.631Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/chalk/wrap-ansi.git"
+  },
+  "users" : {
+    "michaelyurin" : true,
+    "penglu" : true,
+    "scottfreecode" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/chalk/wrap-ansi#readme",
+  "keywords" : [ "wrap", "break", "wordwrap", "wordbreak", "linewrap", "ansi", "styles", "color", "colour", "colors", "terminal", "console", "cli", "string", "tty", "escape", "formatting", "rgb", "256", "shell", "xterm", "log", "logging", "command-line", "text" ],
+  "bugs" : {
+    "url" : "https://github.com/chalk/wrap-ansi/issues"
+  },
+  "license" : "MIT"
+}
