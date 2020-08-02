@@ -9,15 +9,11 @@ import * as classes from './Orders.module.css';
 class Orders extends Component {
 
   componentDidMount() {
-    this.loadData();
-  }
-
-  loadData() {
-    this.props.onFetchOrders();
+    this.props.onFetchOrders(this.props.token, this.props.userId);
   }
 
   deleteOrderClickedHandler(id) {
-    this.props.onDeleteOrder(id);
+    this.props.onDeleteOrder(id, this.props.token);
   }
 
 
@@ -51,14 +47,16 @@ class Orders extends Component {
 const mapStateToProps = (state) => {
   return {
     orders: state.orders.orders,
-    loading: state.orders.loading
+    loading: state.orders.loading,
+    token: state.auth.token,
+    userId: state.auth.userId
   }
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onFetchOrders: () => dispatch(fetchOrders()),
-    onDeleteOrder: (orderId) => dispatch(deleteOrder(orderId))
+    onFetchOrders: (token, userId) => dispatch(fetchOrders(token, userId)),
+    onDeleteOrder: (orderId, token) => dispatch(deleteOrder(orderId, token))
   }
 };
 

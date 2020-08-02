@@ -1,12 +1,13 @@
 import * as actionTypes from '../actions/actionTypes';
-import { setLoading, setError, updateObject } from '../utilities';
+import { setLoading, setError, updateObject } from '../../shared/utilities';
 
 const initialState = {
   token: null,
   userId: null,
   email: null,
   error: null,
-  loading: false
+  loading: false,
+  authRedirectPath: '/'
 }
 
 const authSuccess = (state, action) => {
@@ -22,6 +23,10 @@ const authLogout = (state, action) => {
   return updateObject(state, initialState);
 }
 
+const setAuthRedirectPath = (state, action) => {
+  return updateObject(state, { authRedirectPath: action.path || '/' });
+}
+
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.AUTH_START:
@@ -32,6 +37,8 @@ const reducer = (state = initialState, action) => {
       return setError(state, action.error);
     case actionTypes.AUTH_LOGOUT:
       return authLogout(state, action);
+    case actionTypes.SET_AUTH_REDIRECT_PATH:
+      return setAuthRedirectPath(state, action);
     default:
       return state;
   }

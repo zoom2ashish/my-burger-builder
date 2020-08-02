@@ -1,5 +1,5 @@
 import * as actionTypes from '../actions/actionTypes';
-import { updateObject } from '../utilities';
+import { updateObject } from '../../shared/utilities';
 
 const INGREDIENT_PRICES = {
   salad: 0.5,
@@ -11,7 +11,8 @@ const INGREDIENT_PRICES = {
 const initialState = {
   ingredients: null,
   totalPrice: 4,
-  error: false
+  error: false,
+  building: false
 };
 
 const addIngredient = (state, action) => {
@@ -20,7 +21,7 @@ const addIngredient = (state, action) => {
     const updatedTotalPrice = state.totalPrice + priceAddition;
     const updatedIngredient = { [ingredientName]: state.ingredients[ingredientName] + 1 };
     const updatedIngredients = updateObject(state.ingredients, updatedIngredient);
-    const updatedState = { ingredients: updatedIngredients, totalPrice: updatedTotalPrice };
+    const updatedState = { ingredients: updatedIngredients, totalPrice: updatedTotalPrice, building: true };
     return updateObject(state, updatedState);
 }
 
@@ -30,7 +31,7 @@ const removeIngredient = (state, action) => {
   const updatedTotalPrice = state.totalPrice - priceRemoved;
   const updatedIngredient = { [ingredientName]: state.ingredients[ingredientName] - 1 };
   const updatedIngredients = updateObject(state.ingredients, updatedIngredient);
-  const updatedState = { ingredients: updatedIngredients, totalPrice: updatedTotalPrice };
+  const updatedState = { ingredients: updatedIngredients, totalPrice: updatedTotalPrice, building: true };
   return updateObject(state, updatedState);
 };
 
@@ -39,7 +40,8 @@ const setIngredients = (state, action) => {
   return updateObject(state, {
     ingredients: ingredients,
     totalPrice: initialState.totalPrice,
-    error: false
+    error: false,
+    building: false
   });
 }
 
@@ -54,7 +56,6 @@ const reducer = (state = initialState, action) => {
     case actionTypes.FETCH_INGREDIENTS_FAILED:
       return updateObject(state, { ingredients: null, error: true });
     default:
-      console.log('Unknown action type');
       return state;
   }
 }

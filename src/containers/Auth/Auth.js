@@ -5,6 +5,9 @@ import classes from './Auth.module.css';
 import * as actions from '../../store/actions/index';
 import { connect } from 'react-redux';
 import Spinner from '../../components/UI/Spinner/Spinner';
+import { Redirect } from 'react-router';
+import { setAuthRedirectPath } from '../../store/actions/auth';
+import { updateObject, checkValidity } from '../../shared/utilities';
 
 class Auth extends Component {
   state = {
@@ -41,43 +44,21 @@ class Auth extends Component {
     }
   };
 
-  checkValidity(value, rules) {
-    let isValid = true;
-    if (!rules) {
-      return isValid;
+  componentDidMount() {
+    if (!this.props.isBuildingBurger && this.props.authRedirectPath !== '/') {
+      this.props.onSetAuthRedirectPath();
     }
-
-    if (rules.required) {
-      isValid = isValid && value.trim() !== '';
-    }
-
-    if (rules.minLength) {
-      isValid = isValid && value.length >= rules.minLength;
-    }
-
-    if (rules.maxLength) {
-      isValid = isValid && value.length <= rules.maxLength;
-    }
-
-    if (rules.isEmail) {
-      const pattern = /([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/ig;
-      isValid = pattern.test(value) && isValid;
-    }
-
-    return isValid;
   }
 
   inputChangeHandler =(event, controlName) => {
     const controlConfig =  this.state.controls[controlName];
-    const updatedControls = {
-      ...this.state.controls,
-      [controlName]: {
-        ...controlConfig,
+    const updatedControls = updateObject(this.state.controls,{
+      [controlName]: updateObject(controlConfig, {
         value: event.target.value,
-        valid: this.checkValidity(event.target.value, controlConfig.validation),
+        valid: checkValidity(event.target.value, controlConfig.validation),
         touched: true
-      }
-    };
+      })
+    });
 
     this.setState({ controls: updatedControls });
   }
@@ -99,6 +80,10 @@ class Auth extends Component {
   }
 
   render() {
+    if (this.props.isAuthenticated) {
+      return <Redirect to={this.props.authRedirectPath} />
+    }
+
     const formTitle =  this.state.isSignup ? 'SIGNUP' : 'SIGNIN';
     const formElementsArray = [];
     for (let key in this.state.controls) {
@@ -151,13 +136,17 @@ class Auth extends Component {
 const mapStateToProps = (state) => {
   return {
     loading: state.auth.loading,
-    error: state.auth.error
+    error: state.auth.error,
+    isBuildingBurger: state.burgerBuilder.building,
+    authRedirectPath: state.auth.authRedirectPath,
+    isAuthenticated: state.auth.token !== null
   }
 }
 
 const mapDisaptchToProps = (dispatch) => {
   return {
-    onAuth: (email, password, isSignup) => dispatch(actions.auth(email, password))
+    onAuth: (email, password, isSignup) => dispatch(actions.auth(email, password)),
+    onSetAuthRedirectPath: () => dispatch(setAuthRedirectPath('/'))
   }
 }
 

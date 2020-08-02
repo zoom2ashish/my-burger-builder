@@ -9,9 +9,13 @@ import { Provider } from 'react-redux';
 import rootReducer from './store/reducers';
 import thunk from 'redux-thunk';
 
+const reduxToolsComposer = process.env.NODE_ENV === 'development' ?
+  (window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+  : null;
+
 const composedEnhancers = compose(
   applyMiddleware(thunk),
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  reduxToolsComposer
 );
 
 const store = createStore(rootReducer, composedEnhancers);
